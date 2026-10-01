@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='3cae' unid='FC1E726FEC9C9E9485256BEB005F0A8A' sequence='3'>
+<created><datetime dst='true'>20020703T131806,18-04</datetime></created>
+<modified><datetime dst='true'>20260917T084659,02-04</datetime></modified>
+<revised><datetime dst='true'>20050401T100753,55-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084659,01-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084659,01-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131806,40-04</datetime><datetime
+ dst='true'>20050331T180943,08-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_Scientific Instruments &gt; 500K</text></item>
+<item name='NameF'><text>OLD_Instrument scientifique &gt;$500 000</text></item>
+<item name='CodeNumber'><text>5A312</text></item></document>
+

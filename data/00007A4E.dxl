@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Project'>
+<noteinfo noteid='7a4e' unid='836CFD13CF44869A852586E80068C515' sequence='14'>
+<created><datetime dst='true'>20210602T150421,97-04</datetime></created>
+<modified><datetime dst='true'>20260917T085230,39-04</datetime></modified>
+<revised><datetime dst='true'>20260529T140347,24-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085230,38-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085230,38-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Michelle Ethier/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Michelle Ethier/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Michelle Ethier/OU=HC-SC/O=GC/C=CA</name><name>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Michelle Ethier/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name>CN=Michelle Ethier/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20210602T150422,12-04</datetime><datetime
+ dst='true'>20210602T152007,10-04</datetime><datetime dst='true'>20220504T102326,97-04</datetime><datetime
+ dst='true'>20220504T102331,25-04</datetime><datetime dst='true'>20220825T105433,87-04</datetime><datetime
+ dst='true'>20220825T113127,83-04</datetime><datetime dst='true'>20220825T113134,95-04</datetime><datetime
+ dst='true'>20240403T113922,10-04</datetime><datetime dst='true'>20240403T114105,96-04</datetime><datetime
+ dst='true'>20240403T114108,65-04</datetime><datetime dst='true'>20250604T120533,38-04</datetime><datetime
+ dst='true'>20250604T120537,93-04</datetime><datetime dst='true'>20250604T120547,76-04</datetime></revisions>
+<item name='FiscalYearStart'><datetime>20260401</datetime></item>
+<item name='FiscalYearEnd'><datetime>20270331</datetime></item>
+<item name='Project'><text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text></item>
+<item name='ShComm'><text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text></item>
+<item name='budgetOp'><number>20000</number></item>
+<item name='budgetTrav'><number>0</number></item>
+<item name='budgetContr'><number>0</number></item>
+<item name='budgetCap'><number>0</number></item>
+<item name='budgetOp_com'><number>0</number></item>
+<item name='budgetTrav_com'><number>0</number></item>
+<item name='budgetContr_com'><number>0</number></item>
+<item name='budgetCap_com'><number>0</number></item>
+<item name='CategoriesAllowed'><number>8</number></item>
+<item name='budgetOpTemp'><text/></item>
+<item name='budgetTravTemp'><text/></item>
+<item name='budgetContrTemp'><text/></item>
+<item name='budgetCapTemp'><text/></item>
+<item name='org_author' names='true'><text>Kirsten Oickle</text></item>
+<item name='date_create'><datetime dst='true'>20180409T074222,67-04</datetime></item>
+<item name='PI' names='true'><text>Michele Regimbald-Krnel</text></item>
+<item name='Manager' names='true'><text>Michele Regimbald-Krnel</text></item>
+<item name='Employees' names='true'><textlist><text>Helena Soares</text><text
+>Juliet Shorunkeh-Sawyerr</text></textlist></item>
+<item name='TotBudget'><number>20000</number></item>
+<item name='TotCommitted'><number>0</number></item>
+<item name='FREEBALANCE'><number>20000</number></item>
+<item name='MCardHolders'><text/></item>
+<item name='VCardHolders'><textlist><text>Helena Soares</text><text>Juliet Shorunkeh-Sawyerr</text></textlist></item>
+<item name='SigningAuth' names='true'><text>Michele Regimbald-Krnel</text></item>
+<item name='edit_history'><textlist><text>Helena Soares</text><text>Helena Soares</text><text
+>Helena Soares</text><text>Helena Soares</text><text>Helena Soares</text><text
+>Helena Soares</text><text>Helena Soares</text><text>Helena Soares</text><text
+>Helena Soares</text><text>Helena Soares</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2026-05-29 02:03:46 PM</text><text
+>2025-06-04 12:05:47 PM</text><text>2025-06-04 12:05:37 PM</text><text>2025-06-04 12:05:33 PM</text><text
+>2024-04-03 11:41:08 AM</text><text>2024-04-03 11:41:05 AM</text><text>2024-04-03 11:39:22 AM</text><text
+>2022-08-25 11:31:34 AM</text><text>2022-08-25 11:31:27 AM</text><text>2022-08-25 10:54:33 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Helena Soares;</text><text>Helena Soares;</text><text
+>Helena Soares;</text><text>Helena Soares;</text><text>Helena Soares;</text><text
+>Helena Soares;</text><text>Helena Soares;</text><text>Helena Soares;</text><text
+>Helena Soares;</text><text>Helena Soares;</text></textlist></item></document>
+

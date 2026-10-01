@@ -1,0 +1,3680 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <text>0000000 EOTSurplus2003</text>
+        </value>
+    </category>
+    <document noteId="00002D26">
+        <value>
+            <text>0000000 EOTSurplus2003</text>
+        </value>
+        <value>
+            <text>0000000</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+    </category>
+    <document noteId="000034EE">
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320010 Cardiopulm - RV</text>
+        </value>
+    </category>
+    <document noteId="00002F22">
+        <value>
+            <text>4320010 Cardiopulm - RV</text>
+        </value>
+        <value>
+            <text>4320010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320010 EpiGenetics ET</text>
+        </value>
+    </category>
+    <document noteId="0000519E">
+        <value>
+            <text>4320010 EpiGenetics ET</text>
+        </value>
+        <value>
+            <text>4320010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320010 PM_Const. SK</text>
+        </value>
+    </category>
+    <document noteId="0000518A">
+        <value>
+            <text>4320010 PM_Const. SK</text>
+        </value>
+        <value>
+            <text>4320010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320010 Systemic - RV - FY 2010-2011</text>
+        </value>
+    </category>
+    <document noteId="00005932">
+        <value>
+            <text>4320010 Systemic - RV - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>4320010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+    </category>
+    <document noteId="000026FE">
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+        <value>
+            <text>4320101</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320105 Oxid Stress - PK</text>
+        </value>
+    </category>
+    <document noteId="00001702">
+        <value>
+            <text>4320105 Oxid Stress - PK</text>
+        </value>
+        <value>
+            <text>4320105</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320105 Oxid Stress - PK - MIREC</text>
+        </value>
+    </category>
+    <document noteId="00004B12">
+        <value>
+            <text>4320105 Oxid Stress - PK - MIREC</text>
+        </value>
+        <value>
+            <text>4320105</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320105 OxStress - PK LTCP</text>
+        </value>
+    </category>
+    <document noteId="0000429A">
+        <value>
+            <text>4320105 OxStress - PK LTCP</text>
+        </value>
+        <value>
+            <text>4320105</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320277 CEPA Screen - RV</text>
+        </value>
+    </category>
+    <document noteId="00000A16">
+        <value>
+            <text>4320277 CEPA Screen - RV</text>
+        </value>
+        <value>
+            <text>4320277</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340008 Particles BAQS - RV</text>
+        </value>
+    </category>
+    <document noteId="000011BE">
+        <value>
+            <text>4340008 Particles BAQS - RV</text>
+        </value>
+        <value>
+            <text>4340008</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340086-ChEMTD</text>
+        </value>
+    </category>
+    <document noteId="00007736">
+        <value>
+            <text>4340086-ChEMTD</text>
+        </value>
+        <value>
+            <text>4340086</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340256 MobileLab - RV</text>
+        </value>
+    </category>
+    <document noteId="000028B6">
+        <value>
+            <text>4340256 MobileLab - RV</text>
+        </value>
+        <value>
+            <text>4340256</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340393 Genomics - HV</text>
+        </value>
+    </category>
+    <document noteId="0000393A">
+        <value>
+            <text>4340393 Genomics - HV</text>
+        </value>
+        <value>
+            <text>4340393</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340393 Genomics - MA</text>
+        </value>
+    </category>
+    <document noteId="0000159A">
+        <value>
+            <text>4340393 Genomics - MA</text>
+        </value>
+        <value>
+            <text>4340393</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340393 Genomics - PK</text>
+        </value>
+    </category>
+    <document noteId="0000310E">
+        <value>
+            <text>4340393 Genomics - PK</text>
+        </value>
+        <value>
+            <text>4340393</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340393 Genomics - RV</text>
+        </value>
+    </category>
+    <document noteId="000031BE">
+        <value>
+            <text>4340393 Genomics - RV</text>
+        </value>
+        <value>
+            <text>4340393</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340424 - ADO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </category>
+    <document noteId="00007822">
+        <value>
+            <text>4340424 - ADO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>4340424</text>
+        </value>
+    </document>
+    <document noteId="00007B22">
+        <value>
+            <text>4340424 - ADO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>4340424</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </category>
+    <document noteId="00004FC2">
+        <value>
+            <text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>4340424</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340440 - Year End Funds 07-08</text>
+        </value>
+    </category>
+    <document noteId="00004376">
+        <value>
+            <text>4340440 - Year End Funds 07-08</text>
+        </value>
+        <value>
+            <text>4340440</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+    </category>
+    <document noteId="000032A2">
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+        <value>
+            <text>4340440</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340440 ITAB Section Management</text>
+        </value>
+    </category>
+    <document noteId="00004382">
+        <value>
+            <text>4340440 ITAB Section Management</text>
+        </value>
+        <value>
+            <text>4340440</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340440 Section Management Year End Fund 06-07</text>
+        </value>
+    </category>
+    <document noteId="00004372">
+        <value>
+            <text>4340440 Section Management Year End Fund 06-07</text>
+        </value>
+        <value>
+            <text>4340440</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340441 CEPA Screen - RV</text>
+        </value>
+    </category>
+    <document noteId="00002692">
+        <value>
+            <text>4340441 CEPA Screen - RV</text>
+        </value>
+        <value>
+            <text>4340441</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340441 Nano - DB - FY 2010-2011</text>
+        </value>
+    </category>
+    <document noteId="00005936">
+        <value>
+            <text>4340441 Nano - DB - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>4340441</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+    </category>
+    <document noteId="00001D2A">
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+        <value>
+            <text>4340442</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340564 Contaminated Sites - SK</text>
+        </value>
+    </category>
+    <document noteId="00004962">
+        <value>
+            <text>4340564 Contaminated Sites - SK</text>
+        </value>
+        <value>
+            <text>4340564</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - FY 2015-2016</text>
+        </value>
+    </category>
+    <document noteId="0000744E">
+        <value>
+            <text>4340565 CARA - FY 2015-2016</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - I.T.A - RV</text>
+        </value>
+    </category>
+    <document noteId="00004966">
+        <value>
+            <text>4340565 CARA - I.T.A - RV</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - RV - FY 2010-2011</text>
+        </value>
+    </category>
+    <document noteId="0000592E">
+        <value>
+            <text>4340565 CARA - RV - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - RV - FY 2011-2012</text>
+        </value>
+    </category>
+    <document noteId="000066CE">
+        <value>
+            <text>4340565 CARA - RV - FY 2011-2012</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - RV - FY 2012-2013</text>
+        </value>
+    </category>
+    <document noteId="0000607E">
+        <value>
+            <text>4340565 CARA - RV - FY 2012-2013</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - RV - FY 2014-2015</text>
+        </value>
+    </category>
+    <document noteId="00006C96">
+        <value>
+            <text>4340565 CARA - RV - FY 2014-2015</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - RV - FY 2015-2016</text>
+        </value>
+    </category>
+    <document noteId="0000746A">
+        <value>
+            <text>4340565 CARA - RV - FY 2015-2016</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340579 - Bureau Renovation Projects</text>
+        </value>
+    </category>
+    <document noteId="00004B56">
+        <value>
+            <text>4340579 - Bureau Renovation Projects</text>
+        </value>
+        <value>
+            <text>4340579</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>66030 NJMRC SPA 1 - RV</text>
+        </value>
+    </category>
+    <document noteId="00003C3E">
+        <value>
+            <text>66030 NJMRC SPA 1 - RV</text>
+        </value>
+        <value>
+            <text>66030</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>66031 NJMRC SPA 2 - RV</text>
+        </value>
+    </category>
+    <document noteId="00003406">
+        <value>
+            <text>66031 NJMRC SPA 2 - RV</text>
+        </value>
+        <value>
+            <text>66031</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>70010 PERD - RV</text>
+        </value>
+    </category>
+    <document noteId="00003202">
+        <value>
+            <text>70010 PERD - RV</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2010-2011</text>
+        </value>
+    </category>
+    <document noteId="0000593A">
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2011-2012</text>
+        </value>
+    </category>
+    <document noteId="00006082">
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2011-2012</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2012-2013</text>
+        </value>
+    </category>
+    <document noteId="000066D2">
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2012-2013</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="00006C8E">
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2013-2014</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810408 Nano-Silica - FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="00006C82">
+        <value>
+            <text>810408 Nano-Silica - FY 2013-2014</text>
+        </value>
+        <value>
+            <text>810408</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810408 Nano - DB - FY 2011-2012</text>
+        </value>
+    </category>
+    <document noteId="0000607A">
+        <value>
+            <text>810408 Nano - DB - FY 2011-2012</text>
+        </value>
+        <value>
+            <text>810408</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810408 Nano - DB - FY 2012-2013</text>
+        </value>
+    </category>
+    <document noteId="000066D6">
+        <value>
+            <text>810408 Nano - DB - FY 2012-2013</text>
+        </value>
+        <value>
+            <text>810408</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2011-2012</text>
+        </value>
+    </category>
+    <document noteId="00006086">
+        <value>
+            <text>810409 Epigenetics - ET- FY 2011-2012</text>
+        </value>
+        <value>
+            <text>810409</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2012-2013</text>
+        </value>
+    </category>
+    <document noteId="000066DA">
+        <value>
+            <text>810409 Epigenetics - ET- FY 2012-2013</text>
+        </value>
+        <value>
+            <text>810409</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="00006C86">
+        <value>
+            <text>810409 Epigenetics - ET- FY 2013-2014</text>
+        </value>
+        <value>
+            <text>810409</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2011-2012</text>
+        </value>
+    </category>
+    <document noteId="0000608A">
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2011-2012</text>
+        </value>
+        <value>
+            <text>810413</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2012-2013</text>
+        </value>
+    </category>
+    <document noteId="000066DE">
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2012-2013</text>
+        </value>
+        <value>
+            <text>810413</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="00006C8A">
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+        <value>
+            <text>810413</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810465-Seminar Series-ET-2011-2012</text>
+        </value>
+    </category>
+    <document noteId="0000611E">
+        <value>
+            <text>810465-Seminar Series-ET-2011-2012</text>
+        </value>
+        <value>
+            <text>810465</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810465-Seminar Series-ET-2012-2013</text>
+        </value>
+    </category>
+    <document noteId="000066E2">
+        <value>
+            <text>810465-Seminar Series-ET-2012-2013</text>
+        </value>
+        <value>
+            <text>810465</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810478 - Nano-CMP - FY 2011-2012</text>
+        </value>
+    </category>
+    <document noteId="00006262">
+        <value>
+            <text>810478 - Nano-CMP - FY 2011-2012</text>
+        </value>
+        <value>
+            <text>810478</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810478 - Nano-CMP - FY 2012-2013</text>
+        </value>
+    </category>
+    <document noteId="000066E6">
+        <value>
+            <text>810478 - Nano-CMP - FY 2012-2013</text>
+        </value>
+        <value>
+            <text>810478</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810478 - Nano-CMP - FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="00006C92">
+        <value>
+            <text>810478 - Nano-CMP - FY 2013-2014</text>
+        </value>
+        <value>
+            <text>810478</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text>
+        </value>
+    </category>
+    <document noteId="00007456">
+        <value>
+            <text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text>
+        </value>
+        <value>
+            <text>810504</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810504 - Neuroenocrime/Metabolic Impacts 2014-2015</text>
+        </value>
+    </category>
+    <document noteId="0000714E">
+        <value>
+            <text>810504 - Neuroenocrime/Metabolic Impacts 2014-2015</text>
+        </value>
+        <value>
+            <text>810504</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810530 Carbon Nanotubes 2014-2015</text>
+        </value>
+    </category>
+    <document noteId="00007152">
+        <value>
+            <text>810530 Carbon Nanotubes 2014-2015</text>
+        </value>
+        <value>
+            <text>810530</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+    </category>
+    <document noteId="00007762">
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+        <value>
+            <text>810553</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>859126 Epegenetics</text>
+        </value>
+    </category>
+    <document noteId="0000563A">
+        <value>
+            <text>859126 Epegenetics</text>
+        </value>
+        <value>
+            <text>859126</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>859126 Epigenetics - ET- FY 2010-2011</text>
+        </value>
+    </category>
+    <document noteId="0000593E">
+        <value>
+            <text>859126 Epigenetics - ET- FY 2010-2011</text>
+        </value>
+        <value>
+            <text>859126</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcids</text>
+        </value>
+    </category>
+    <document noteId="00002B5A">
+        <value>
+            <text>GLNumberAcids</text>
+        </value>
+        <value>
+            <text>57906</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K  Safety Alarm and Signal Equipment</text>
+        </value>
+    </category>
+    <document noteId="000036D6">
+        <value>
+            <text>GLNumberAcq&lt;10K  Safety Alarm and Signal Equipment</text>
+        </value>
+        <value>
+            <text>58304</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Client Software</text>
+        </value>
+    </category>
+    <document noteId="00006EEA">
+        <value>
+            <text>GLNumberAcq&lt;10K Client Software</text>
+        </value>
+        <value>
+            <text>58113</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Computer Equipment Parts</text>
+        </value>
+    </category>
+    <document noteId="000016FE">
+        <value>
+            <text>GLNumberAcq&lt;10K Computer Equipment Parts</text>
+        </value>
+        <value>
+            <text>58110</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Computer &amp; Related Peripheral Equip</text>
+        </value>
+    </category>
+    <document noteId="00001226">
+        <value>
+            <text>GLNumberAcq&lt;10K Computer &amp; Related Peripheral Equip</text>
+        </value>
+        <value>
+            <text>58109</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Heating Air-conditionning Refrigeration Equip.</text>
+        </value>
+    </category>
+    <document noteId="0000309E">
+        <value>
+            <text>GLNumberAcq&lt;10K Heating Air-conditionning Refrigeration Equip.</text>
+        </value>
+        <value>
+            <text>58306</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Laptop and Related Peripheral Equip</text>
+        </value>
+    </category>
+    <document noteId="00001CDA">
+        <value>
+            <text>GLNumberAcq&lt;10K Laptop and Related Peripheral Equip</text>
+        </value>
+        <value>
+            <text>58106</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+        </value>
+    </category>
+    <document noteId="000015F6">
+        <value>
+            <text>GLNumberAcq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+        </value>
+        <value>
+            <text>58303</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Networking Software</text>
+        </value>
+    </category>
+    <document noteId="00006F0A">
+        <value>
+            <text>GLNumberAcq&lt;10K Networking Software</text>
+        </value>
+        <value>
+            <text>58116</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Office Furniture Furnishing &amp; Part</text>
+        </value>
+    </category>
+    <document noteId="0000352A">
+        <value>
+            <text>GLNumberAcq&lt;10K Office Furniture Furnishing &amp; Part</text>
+        </value>
+        <value>
+            <text>58201</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Other Office Equip and Parts</text>
+        </value>
+    </category>
+    <document noteId="00006F0E">
+        <value>
+            <text>GLNumberAcq&lt;10K Other Office Equip and Parts</text>
+        </value>
+        <value>
+            <text>58202</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&lt;10K Software Packages for Computers</text>
+        </value>
+    </category>
+    <document noteId="00003BAA">
+        <value>
+            <text>GLNumberAcq&lt;10K Software Packages for Computers</text>
+        </value>
+        <value>
+            <text>58107</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&gt;10K Lab Equipment</text>
+        </value>
+    </category>
+    <document noteId="0000565A">
+        <value>
+            <text>GLNumberAcq&gt;10K Lab Equipment</text>
+        </value>
+        <value>
+            <text>14311</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&gt;10K Meas Controlling Lab Med Optical Instr</text>
+        </value>
+    </category>
+    <document noteId="00000E76">
+        <value>
+            <text>GLNumberAcq&gt;10K Meas Controlling Lab Med Optical Instr</text>
+        </value>
+        <value>
+            <text>14311</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberAcq&gt;500K Meas Controlling Lab Med Optical Instr</text>
+        </value>
+    </category>
+    <document noteId="00002432">
+        <value>
+            <text>GLNumberAcq&gt;500K Meas Controlling Lab Med Optical Instr</text>
+        </value>
+        <value>
+            <text>5A312</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberBooks Newspapers and Magazines</text>
+        </value>
+    </category>
+    <document noteId="00002126">
+        <value>
+            <text>GLNumberBooks Newspapers and Magazines</text>
+        </value>
+        <value>
+            <text>57801</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberCellular Phone Services</text>
+        </value>
+    </category>
+    <document noteId="000031EE">
+        <value>
+            <text>GLNumberCellular Phone Services</text>
+        </value>
+        <value>
+            <text>52703</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberClothing Other Than Uniforms</text>
+        </value>
+    </category>
+    <document noteId="00000C7E">
+        <value>
+            <text>GLNumberClothing Other Than Uniforms</text>
+        </value>
+        <value>
+            <text>57101</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberConference Fees</text>
+        </value>
+    </category>
+    <document noteId="00003962">
+        <value>
+            <text>GLNumberConference Fees</text>
+        </value>
+        <value>
+            <text>56504</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberContainers &amp; Closures</text>
+        </value>
+    </category>
+    <document noteId="00000B86">
+        <value>
+            <text>GLNumberContainers &amp; Closures</text>
+        </value>
+        <value>
+            <text>57923</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberCourier Services Incl Canada Post Priority Post</text>
+        </value>
+    </category>
+    <document noteId="000021FA">
+        <value>
+            <text>GLNumberCourier Services Incl Canada Post Priority Post</text>
+        </value>
+        <value>
+            <text>52602</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberDistilled Drink Water</text>
+        </value>
+    </category>
+    <document noteId="0000256E">
+        <value>
+            <text>GLNumberDistilled Drink Water</text>
+        </value>
+        <value>
+            <text>57005</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberElectrical Supplies</text>
+        </value>
+    </category>
+    <document noteId="000030A2">
+        <value>
+            <text>GLNumberElectrical Supplies</text>
+        </value>
+        <value>
+            <text>57203</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberElectronic Subscriptions</text>
+        </value>
+    </category>
+    <document noteId="00006ED2">
+        <value>
+            <text>GLNumberElectronic Subscriptions</text>
+        </value>
+        <value>
+            <text>53430</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberEngineering Consultants - Construction</text>
+        </value>
+    </category>
+    <document noteId="00001ADA">
+        <value>
+            <text>GLNumberEngineering Consultants - Construction</text>
+        </value>
+        <value>
+            <text>54101</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberEnhanced Telecommunication Services</text>
+        </value>
+    </category>
+    <document noteId="0000129A">
+        <value>
+            <text>GLNumberEnhanced Telecommunication Services</text>
+        </value>
+        <value>
+            <text>52707</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberFees and Costs of Attending Seminars or Workshops</text>
+        </value>
+    </category>
+    <document noteId="00006EEE">
+        <value>
+            <text>GLNumberFees and Costs of Attending Seminars or Workshops</text>
+        </value>
+        <value>
+            <text>54412</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberFodder and Other Animal Feeds</text>
+        </value>
+    </category>
+    <document noteId="000046D6">
+        <value>
+            <text>GLNumberFodder and Other Animal Feeds</text>
+        </value>
+        <value>
+            <text>57002</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberGasoline Products</text>
+        </value>
+    </category>
+    <document noteId="00002FA2">
+        <value>
+            <text>GLNumberGasoline Products</text>
+        </value>
+        <value>
+            <text>57901</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberHealth Science Consultants</text>
+        </value>
+    </category>
+    <document noteId="00003CF2">
+        <value>
+            <text>GLNumberHealth Science Consultants</text>
+        </value>
+        <value>
+            <text>54121</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberHonoraria</text>
+        </value>
+    </category>
+    <document noteId="0000094E">
+        <value>
+            <text>GLNumberHonoraria</text>
+        </value>
+        <value>
+            <text>59252</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberHospitality</text>
+        </value>
+    </category>
+    <document noteId="000038E6">
+        <value>
+            <text>GLNumberHospitality</text>
+        </value>
+        <value>
+            <text>56502</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberHousekeeping supplies</text>
+        </value>
+    </category>
+    <document noteId="00001D76">
+        <value>
+            <text>GLNumberHousekeeping supplies</text>
+        </value>
+        <value>
+            <text>57202</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberInorganic &amp; Organic Chemicals</text>
+        </value>
+    </category>
+    <document noteId="0000129E">
+        <value>
+            <text>GLNumberInorganic &amp; Organic Chemicals</text>
+        </value>
+        <value>
+            <text>57906</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberInterest Service Charges &amp; Other Penalty Charges </text>
+        </value>
+    </category>
+    <document noteId="00006EF2">
+        <value>
+            <text>GLNumberInterest Service Charges &amp; Other Penalty Charges </text>
+        </value>
+        <value>
+            <text>59241</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberIron &amp; Steel and Articles Thereof</text>
+        </value>
+    </category>
+    <document noteId="000026CE">
+        <value>
+            <text>GLNumberIron &amp; Steel and Articles Thereof</text>
+        </value>
+        <value>
+            <text>57913</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberIT Specialized Consultants</text>
+        </value>
+    </category>
+    <document noteId="00002642">
+        <value>
+            <text>GLNumberIT Specialized Consultants</text>
+        </value>
+        <value>
+            <text>54704</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberLaboratory Services other than Health and Welfare (Operon IDT DNA)</text>
+        </value>
+    </category>
+    <document noteId="00006EFA">
+        <value>
+            <text>GLNumberLaboratory Services other than Health and Welfare (Operon IDT DNA)</text>
+        </value>
+        <value>
+            <text>54831</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberLaboratory Services (Contracts or Services)</text>
+        </value>
+    </category>
+    <document noteId="00006EF6">
+        <value>
+            <text>GLNumberLaboratory Services (Contracts or Services)</text>
+        </value>
+        <value>
+            <text>54507</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberLaboratory Supplies</text>
+        </value>
+    </category>
+    <document noteId="00003B16">
+        <value>
+            <text>GLNumberLaboratory Supplies</text>
+        </value>
+        <value>
+            <text>57602</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberLaundry Dry Cleaning and Other Related Services</text>
+        </value>
+    </category>
+    <document noteId="0000131E">
+        <value>
+            <text>GLNumberLaundry Dry Cleaning and Other Related Services</text>
+        </value>
+        <value>
+            <text>56611</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberLegal Services</text>
+        </value>
+    </category>
+    <document noteId="00003136">
+        <value>
+            <text>GLNumberLegal Services</text>
+        </value>
+        <value>
+            <text>54011</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberLegal Services (Patents)</text>
+        </value>
+    </category>
+    <document noteId="00006EFE">
+        <value>
+            <text>GLNumberLegal Services (Patents)</text>
+        </value>
+        <value>
+            <text>54011</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberLicense/Maintenance Fees Client Software</text>
+        </value>
+    </category>
+    <document noteId="00006F02">
+        <value>
+            <text>GLNumberLicense/Maintenance Fees Client Software</text>
+        </value>
+        <value>
+            <text>55107</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberLive Animals</text>
+        </value>
+    </category>
+    <document noteId="000020DA">
+        <value>
+            <text>GLNumberLive Animals</text>
+        </value>
+        <value>
+            <text>57003</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberLubricating Oils &amp; Greases</text>
+        </value>
+    </category>
+    <document noteId="00003572">
+        <value>
+            <text>GLNumberLubricating Oils &amp; Greases</text>
+        </value>
+        <value>
+            <text>57903</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberMeal Allowance in Headquarter Area</text>
+        </value>
+    </category>
+    <document noteId="00002D22">
+        <value>
+            <text>GLNumberMeal Allowance in Headquarter Area</text>
+        </value>
+        <value>
+            <text>52003</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberMembership Fees</text>
+        </value>
+    </category>
+    <document noteId="0000243E">
+        <value>
+            <text>GLNumberMembership Fees</text>
+        </value>
+        <value>
+            <text>56501</text>
+        </value>
+    </document>
+    <document noteId="00006F06">
+        <value>
+            <text>GLNumberMembership Fees</text>
+        </value>
+        <value>
+            <text>56501</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberMiscellaneous Metal Products </text>
+        </value>
+    </category>
+    <document noteId="00007AD2">
+        <value>
+            <text>GLNumberMiscellaneous Metal Products </text>
+        </value>
+        <value>
+            <text>57915</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberMotor Vehicle Licences</text>
+        </value>
+    </category>
+    <document noteId="00002BFA">
+        <value>
+            <text>GLNumberMotor Vehicle Licences</text>
+        </value>
+        <value>
+            <text>56603</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberMoving Expenses</text>
+        </value>
+    </category>
+    <document noteId="00003C06">
+        <value>
+            <text>GLNumberMoving Expenses</text>
+        </value>
+        <value>
+            <text>52603</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberNon-Anesthetic Gases</text>
+        </value>
+    </category>
+    <document noteId="00000B0E">
+        <value>
+            <text>GLNumberNon-Anesthetic Gases</text>
+        </value>
+        <value>
+            <text>57907</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberNone (do not use)</text>
+        </value>
+    </category>
+    <document noteId="00003592">
+        <value>
+            <text>GLNumberNone (do not use)</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Acids</text>
+        </value>
+    </category>
+    <document noteId="00001C8E">
+        <value>
+            <text>GLNumberOLD_Acids</text>
+        </value>
+        <value>
+            <text>04003</text>
+        </value>
+    </document>
+    <document noteId="000029AE">
+        <value>
+            <text>GLNumberOLD_Acids</text>
+        </value>
+        <value>
+            <text>04003</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Acquisition Lab &gt; 10K</text>
+        </value>
+    </category>
+    <document noteId="00000EFA">
+        <value>
+            <text>GLNumberOLD_Acquisition Lab &gt; 10K</text>
+        </value>
+        <value>
+            <text>14105</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Anaesthetic Gases</text>
+        </value>
+    </category>
+    <document noteId="00000FC6">
+        <value>
+            <text>GLNumberOLD_Anaesthetic Gases</text>
+        </value>
+        <value>
+            <text>04704</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Books and Pamphlets</text>
+        </value>
+    </category>
+    <document noteId="0000125E">
+        <value>
+            <text>GLNumberOLD_Books and Pamphlets</text>
+        </value>
+        <value>
+            <text>04402</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Chemicals</text>
+        </value>
+    </category>
+    <document noteId="0000212E">
+        <value>
+            <text>GLNumberOLD_Chemicals</text>
+        </value>
+        <value>
+            <text>04001</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Conference Registration Fees</text>
+        </value>
+    </category>
+    <document noteId="00003046">
+        <value>
+            <text>GLNumberOLD_Conference Registration Fees</text>
+        </value>
+        <value>
+            <text>03113</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Courier</text>
+        </value>
+    </category>
+    <document noteId="00000BF6">
+        <value>
+            <text>GLNumberOLD_Courier</text>
+        </value>
+        <value>
+            <text>01303</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Distilled Drink Water</text>
+        </value>
+    </category>
+    <document noteId="00002F56">
+        <value>
+            <text>GLNumberOLD_Distilled Drink Water</text>
+        </value>
+        <value>
+            <text>03903</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Electrical Supplies</text>
+        </value>
+    </category>
+    <document noteId="0000330E">
+        <value>
+            <text>GLNumberOLD_Electrical Supplies</text>
+        </value>
+        <value>
+            <text>04507</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Engineering Consultants</text>
+        </value>
+    </category>
+    <document noteId="00001F0A">
+        <value>
+            <text>GLNumberOLD_Engineering Consultants</text>
+        </value>
+        <value>
+            <text>02202</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Film Audio and Video Cassettes</text>
+        </value>
+    </category>
+    <document noteId="000018EE">
+        <value>
+            <text>GLNumberOLD_Film Audio and Video Cassettes</text>
+        </value>
+        <value>
+            <text>04903</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Freight Express and Cartage Transportation</text>
+        </value>
+    </category>
+    <document noteId="0000099A">
+        <value>
+            <text>GLNumberOLD_Freight Express and Cartage Transportation</text>
+        </value>
+        <value>
+            <text>01301</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_General Supplies</text>
+        </value>
+    </category>
+    <document noteId="00003A36">
+        <value>
+            <text>GLNumberOLD_General Supplies</text>
+        </value>
+        <value>
+            <text>05199</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Health Scientific Consultants</text>
+        </value>
+    </category>
+    <document noteId="000018CE">
+        <value>
+            <text>GLNumberOLD_Health Scientific Consultants</text>
+        </value>
+        <value>
+            <text>02201</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_HEI (Suspense Account Other)</text>
+        </value>
+    </category>
+    <document noteId="000029C2">
+        <value>
+            <text>GLNumberOLD_HEI (Suspense Account Other)</text>
+        </value>
+        <value>
+            <text>09506</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Honoraria</text>
+        </value>
+    </category>
+    <document noteId="00000DDE">
+        <value>
+            <text>GLNumberOLD_Honoraria</text>
+        </value>
+        <value>
+            <text>07711</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Hospitality</text>
+        </value>
+    </category>
+    <document noteId="00001942">
+        <value>
+            <text>GLNumberOLD_Hospitality</text>
+        </value>
+        <value>
+            <text>03114</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_IT Desktop PC</text>
+        </value>
+    </category>
+    <document noteId="0000268E">
+        <value>
+            <text>GLNumberOLD_IT Desktop PC</text>
+        </value>
+        <value>
+            <text>58109</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_IT Hardware &amp; Components</text>
+        </value>
+    </category>
+    <document noteId="00002D9A">
+        <value>
+            <text>GLNumberOLD_IT Hardware &amp; Components</text>
+        </value>
+        <value>
+            <text>58108</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_IT Portable PC</text>
+        </value>
+    </category>
+    <document noteId="0000168A">
+        <value>
+            <text>GLNumberOLD_IT Portable PC</text>
+        </value>
+        <value>
+            <text>58106</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_IT Software</text>
+        </value>
+    </category>
+    <document noteId="0000324A">
+        <value>
+            <text>GLNumberOLD_IT Software</text>
+        </value>
+        <value>
+            <text>58107</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Lab glassware and ceramics</text>
+        </value>
+    </category>
+    <document noteId="00001212">
+        <value>
+            <text>GLNumberOLD_Lab glassware and ceramics</text>
+        </value>
+        <value>
+            <text>04005</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Lab Supplies NON CHEMICAL</text>
+        </value>
+    </category>
+    <document noteId="00003272">
+        <value>
+            <text>GLNumberOLD_Lab Supplies NON CHEMICAL</text>
+        </value>
+        <value>
+            <text>04007</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Laundry Dryclean and Related Services</text>
+        </value>
+    </category>
+    <document noteId="00001B72">
+        <value>
+            <text>GLNumberOLD_Laundry Dryclean and Related Services</text>
+        </value>
+        <value>
+            <text>03101</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Live Animals</text>
+        </value>
+    </category>
+    <document noteId="00001F1E">
+        <value>
+            <text>GLNumberOLD_Live Animals</text>
+        </value>
+        <value>
+            <text>05101</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Meal Allowance</text>
+        </value>
+    </category>
+    <document noteId="00000ED6">
+        <value>
+            <text>GLNumberOLD_Meal Allowance</text>
+        </value>
+        <value>
+            <text>01003</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Membership Fees</text>
+        </value>
+    </category>
+    <document noteId="00001586">
+        <value>
+            <text>GLNumberOLD_Membership Fees</text>
+        </value>
+        <value>
+            <text>03116</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Moving Expenses</text>
+        </value>
+    </category>
+    <document noteId="00000DF2">
+        <value>
+            <text>GLNumberOLD_Moving Expenses</text>
+        </value>
+        <value>
+            <text>03120</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Newspaper Magazines and Periodicals</text>
+        </value>
+    </category>
+    <document noteId="00001AB6">
+        <value>
+            <text>GLNumberOLD_Newspaper Magazines and Periodicals</text>
+        </value>
+        <value>
+            <text>04401</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+        </value>
+    </category>
+    <document noteId="00002BDA">
+        <value>
+            <text>GLNumberOLD_NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+        </value>
+        <value>
+            <text>09652</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Non-Anesthetic Gases</text>
+        </value>
+    </category>
+    <document noteId="00002532">
+        <value>
+            <text>GLNumberOLD_Non-Anesthetic Gases</text>
+        </value>
+        <value>
+            <text>04006</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Non-Provincial Lab Service</text>
+        </value>
+    </category>
+    <document noteId="0000363A">
+        <value>
+            <text>GLNumberOLD_Non-Provincial Lab Service</text>
+        </value>
+        <value>
+            <text>02808</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Office Supplies</text>
+        </value>
+    </category>
+    <document noteId="00003A02">
+        <value>
+            <text>GLNumberOLD_Office Supplies</text>
+        </value>
+        <value>
+            <text>04405</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_OGD account for Pat R - CRTI</text>
+        </value>
+    </category>
+    <document noteId="00001B9A">
+        <value>
+            <text>GLNumberOLD_OGD account for Pat R - CRTI</text>
+        </value>
+        <value>
+            <text>28002</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Other Consultants</text>
+        </value>
+    </category>
+    <document noteId="00001792">
+        <value>
+            <text>GLNumberOLD_Other Consultants</text>
+        </value>
+        <value>
+            <text>02902</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Oxygen and Other Medical Gases</text>
+        </value>
+    </category>
+    <document noteId="000017E6">
+        <value>
+            <text>GLNumberOLD_Oxygen and Other Medical Gases</text>
+        </value>
+        <value>
+            <text>04705</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Pagers Enhanced Telecom Service etc.</text>
+        </value>
+    </category>
+    <document noteId="00002492">
+        <value>
+            <text>GLNumberOLD_Pagers Enhanced Telecom Service etc.</text>
+        </value>
+        <value>
+            <text>01410</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Postage and Parcel Post Service</text>
+        </value>
+    </category>
+    <document noteId="000017D2">
+        <value>
+            <text>GLNumberOLD_Postage and Parcel Post Service</text>
+        </value>
+        <value>
+            <text>01302</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Printing Service Books and Leaflets</text>
+        </value>
+    </category>
+    <document noteId="00000FCE">
+        <value>
+            <text>GLNumberOLD_Printing Service Books and Leaflets</text>
+        </value>
+        <value>
+            <text>01901</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Printing Service Photocopies</text>
+        </value>
+    </category>
+    <document noteId="00001DDA">
+        <value>
+            <text>GLNumberOLD_Printing Service Photocopies</text>
+        </value>
+        <value>
+            <text>01905</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Provincial Laboratory Service</text>
+        </value>
+    </category>
+    <document noteId="000014BA">
+        <value>
+            <text>GLNumberOLD_Provincial Laboratory Service</text>
+        </value>
+        <value>
+            <text>02802</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Publication</text>
+        </value>
+    </category>
+    <document noteId="000037FA">
+        <value>
+            <text>GLNumberOLD_Publication</text>
+        </value>
+        <value>
+            <text>04412</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Repair and Maintenance - Hardware and Software</text>
+        </value>
+    </category>
+    <document noteId="0000353E">
+        <value>
+            <text>GLNumberOLD_Repair and Maintenance - Hardware and Software</text>
+        </value>
+        <value>
+            <text>03717</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Repair and Maintenance - Laboratories</text>
+        </value>
+    </category>
+    <document noteId="00000C36">
+        <value>
+            <text>GLNumberOLD_Repair and Maintenance - Laboratories</text>
+        </value>
+        <value>
+            <text>03612</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Repairs and Maintenance -- Lab Equipment</text>
+        </value>
+    </category>
+    <document noteId="00002B3E">
+        <value>
+            <text>GLNumberOLD_Repairs and Maintenance -- Lab Equipment</text>
+        </value>
+        <value>
+            <text>03710</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Scientific Equipment (&lt;10K)</text>
+        </value>
+    </category>
+    <document noteId="00000EE6">
+        <value>
+            <text>GLNumberOLD_Scientific Equipment (&lt;10K)</text>
+        </value>
+        <value>
+            <text>58303</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Scientific Equipment (&gt;10K)</text>
+        </value>
+    </category>
+    <document noteId="00002C92">
+        <value>
+            <text>GLNumberOLD_Scientific Equipment (&gt;10K)</text>
+        </value>
+        <value>
+            <text>5A311</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Scientific Instruments &gt; 500K</text>
+        </value>
+    </category>
+    <document noteId="00003CAE">
+        <value>
+            <text>GLNumberOLD_Scientific Instruments &gt; 500K</text>
+        </value>
+        <value>
+            <text>5A312</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Solvents</text>
+        </value>
+    </category>
+    <document noteId="00000FAA">
+        <value>
+            <text>GLNumberOLD_Solvents</text>
+        </value>
+        <value>
+            <text>04004</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Staff Development PSC</text>
+        </value>
+    </category>
+    <document noteId="00000E0A">
+        <value>
+            <text>GLNumberOLD_Staff Development PSC</text>
+        </value>
+        <value>
+            <text>02404</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Staff Language Training (not provided by PSC)</text>
+        </value>
+    </category>
+    <document noteId="00002FEE">
+        <value>
+            <text>GLNumberOLD_Staff Language Training (not provided by PSC)</text>
+        </value>
+        <value>
+            <text>02401</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Telephone &amp; Voice Comm Services</text>
+        </value>
+    </category>
+    <document noteId="000032B2">
+        <value>
+            <text>GLNumberOLD_Telephone &amp; Voice Comm Services</text>
+        </value>
+        <value>
+            <text>01401</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Temporary Help Service</text>
+        </value>
+    </category>
+    <document noteId="000019CA">
+        <value>
+            <text>GLNumberOLD_Temporary Help Service</text>
+        </value>
+        <value>
+            <text>02301</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Translation Service</text>
+        </value>
+    </category>
+    <document noteId="00002D2E">
+        <value>
+            <text>GLNumberOLD_Translation Service</text>
+        </value>
+        <value>
+            <text>03108</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Duty Abroad</text>
+        </value>
+    </category>
+    <document noteId="00003AD6">
+        <value>
+            <text>GLNumberOLD_Travel - Duty Abroad</text>
+        </value>
+        <value>
+            <text>01022</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Duty Canada</text>
+        </value>
+    </category>
+    <document noteId="000028D2">
+        <value>
+            <text>GLNumberOLD_Travel - Duty Canada</text>
+        </value>
+        <value>
+            <text>01001</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Duty Non-Public Servant Canada</text>
+        </value>
+    </category>
+    <document noteId="00003C8A">
+        <value>
+            <text>GLNumberOLD_Travel - Duty Non-Public Servant Canada</text>
+        </value>
+        <value>
+            <text>01101</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Duty USA</text>
+        </value>
+    </category>
+    <document noteId="00003ACE">
+        <value>
+            <text>GLNumberOLD_Travel - Duty USA</text>
+        </value>
+        <value>
+            <text>01002</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Government Conference Abroad</text>
+        </value>
+    </category>
+    <document noteId="000012EA">
+        <value>
+            <text>GLNumberOLD_Travel - Government Conference Abroad</text>
+        </value>
+        <value>
+            <text>01025</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Government Conference Canada</text>
+        </value>
+    </category>
+    <document noteId="00001ED6">
+        <value>
+            <text>GLNumberOLD_Travel - Government Conference Canada</text>
+        </value>
+        <value>
+            <text>01004</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Government Conference USA</text>
+        </value>
+    </category>
+    <document noteId="00001FFA">
+        <value>
+            <text>GLNumberOLD_Travel - Government Conference USA</text>
+        </value>
+        <value>
+            <text>01005</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Language Training Canada</text>
+        </value>
+    </category>
+    <document noteId="00003382">
+        <value>
+            <text>GLNumberOLD_Travel - Language Training Canada</text>
+        </value>
+        <value>
+            <text>01008</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Local Transportation</text>
+        </value>
+    </category>
+    <document noteId="0000119E">
+        <value>
+            <text>GLNumberOLD_Travel - Local Transportation</text>
+        </value>
+        <value>
+            <text>01010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Local Transportation (taxi chits)</text>
+        </value>
+    </category>
+    <document noteId="00000BFA">
+        <value>
+            <text>GLNumberOLD_Travel - Local Transportation (taxi chits)</text>
+        </value>
+        <value>
+            <text>01010</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Gov Conference Abroad</text>
+        </value>
+    </category>
+    <document noteId="00003BBE">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Gov Conference Abroad</text>
+        </value>
+        <value>
+            <text>01027</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Gov Conference Canada</text>
+        </value>
+    </category>
+    <document noteId="00002FEA">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Gov Conference Canada</text>
+        </value>
+        <value>
+            <text>01006</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Gov Conference USA</text>
+        </value>
+    </category>
+    <document noteId="0000127A">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Gov Conference USA</text>
+        </value>
+        <value>
+            <text>01007</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Abroad</text>
+        </value>
+    </category>
+    <document noteId="000034AA">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Abroad</text>
+        </value>
+        <value>
+            <text>01111</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Gov conference Abroad</text>
+        </value>
+    </category>
+    <document noteId="00001AA6">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Gov conference Abroad</text>
+        </value>
+        <value>
+            <text>01113</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Gov Conference Canada</text>
+        </value>
+    </category>
+    <document noteId="00002B5E">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Gov Conference Canada</text>
+        </value>
+        <value>
+            <text>01102</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Gov Conference USA</text>
+        </value>
+    </category>
+    <document noteId="0000205E">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Gov Conference USA</text>
+        </value>
+        <value>
+            <text>01103</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Non-Gov conference Abroad</text>
+        </value>
+    </category>
+    <document noteId="00002BCA">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Non-Gov conference Abroad</text>
+        </value>
+        <value>
+            <text>01115</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Non-Gov Conference Canada</text>
+        </value>
+    </category>
+    <document noteId="0000172E">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Non-Gov Conference Canada</text>
+        </value>
+        <value>
+            <text>01104</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Non-Gov Conference USA</text>
+        </value>
+    </category>
+    <document noteId="000009F2">
+        <value>
+            <text>GLNumberOLD_Travel - Non-Public Servant Non-Gov Conference USA</text>
+        </value>
+        <value>
+            <text>01105</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Training Abroad</text>
+        </value>
+    </category>
+    <document noteId="00002A6A">
+        <value>
+            <text>GLNumberOLD_Travel - Training Abroad</text>
+        </value>
+        <value>
+            <text>01033</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Training Canada</text>
+        </value>
+    </category>
+    <document noteId="00002166">
+        <value>
+            <text>GLNumberOLD_Travel - Training Canada</text>
+        </value>
+        <value>
+            <text>01012</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel - Training USA</text>
+        </value>
+    </category>
+    <document noteId="00000C26">
+        <value>
+            <text>GLNumberOLD_Travel - Training USA</text>
+        </value>
+        <value>
+            <text>01013</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Travel Advance ($)</text>
+        </value>
+    </category>
+    <document noteId="00001F36">
+        <value>
+            <text>GLNumberOLD_Travel Advance ($)</text>
+        </value>
+        <value>
+            <text>01009</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOLD_Wearing Apparel</text>
+        </value>
+    </category>
+    <document noteId="00003C32">
+        <value>
+            <text>GLNumberOLD_Wearing Apparel</text>
+        </value>
+        <value>
+            <text>05103</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOther Printed Matter Printed Forms &amp; CD ROM Disks </text>
+        </value>
+    </category>
+    <document noteId="00000E52">
+        <value>
+            <text>GLNumberOther Printed Matter Printed Forms &amp; CD ROM Disks </text>
+        </value>
+        <value>
+            <text>57802</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberOther Transportation Not Elsewere Specified.</text>
+        </value>
+    </category>
+    <document noteId="00002556">
+        <value>
+            <text>GLNumberOther Transportation Not Elsewere Specified.</text>
+        </value>
+        <value>
+            <text>52609</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberPERD G/L</text>
+        </value>
+    </category>
+    <document noteId="00000D76">
+        <value>
+            <text>GLNumberPERD G/L</text>
+        </value>
+        <value>
+            <text>28004</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberPhotographic or Cinematography Goods</text>
+        </value>
+    </category>
+    <document noteId="0000094A">
+        <value>
+            <text>GLNumberPhotographic or Cinematography Goods</text>
+        </value>
+        <value>
+            <text>57921</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberPlastics and Rubber Products</text>
+        </value>
+    </category>
+    <document noteId="0000102E">
+        <value>
+            <text>GLNumberPlastics and Rubber Products</text>
+        </value>
+        <value>
+            <text>57910</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberPostage and Parcel Post </text>
+        </value>
+    </category>
+    <document noteId="0000318A">
+        <value>
+            <text>GLNumberPostage and Parcel Post </text>
+        </value>
+        <value>
+            <text>52601</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberPrinting Services</text>
+        </value>
+    </category>
+    <document noteId="000023D2">
+        <value>
+            <text>GLNumberPrinting Services</text>
+        </value>
+        <value>
+            <text>53201</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberProfessional and Technical Health Services (PDFs)</text>
+        </value>
+    </category>
+    <document noteId="000045C6">
+        <value>
+            <text>GLNumberProfessional and Technical Health Services (PDFs)</text>
+        </value>
+        <value>
+            <text>54508</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberPublishing Services</text>
+        </value>
+    </category>
+    <document noteId="00006F12">
+        <value>
+            <text>GLNumberPublishing Services</text>
+        </value>
+        <value>
+            <text>53101</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Computer Equipment and Parts</text>
+        </value>
+    </category>
+    <document noteId="00000AB2">
+        <value>
+            <text>GLNumberR &amp; M Computer Equipment and Parts</text>
+        </value>
+        <value>
+            <text>56322</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Computer Hardware and Software</text>
+        </value>
+    </category>
+    <document noteId="00003CB2">
+        <value>
+            <text>GLNumberR &amp; M Computer Hardware and Software</text>
+        </value>
+        <value>
+            <text>56321</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Electric Lighting &amp; Control Equipment</text>
+        </value>
+    </category>
+    <document noteId="000030BE">
+        <value>
+            <text>GLNumberR &amp; M Electric Lighting &amp; Control Equipment</text>
+        </value>
+        <value>
+            <text>56303</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Furniture and Fixtures</text>
+        </value>
+    </category>
+    <document noteId="00003D5E">
+        <value>
+            <text>GLNumberR &amp; M Furniture and Fixtures</text>
+        </value>
+        <value>
+            <text>56312</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Heating Air-conditionning Refrigeration Equip</text>
+        </value>
+    </category>
+    <document noteId="00003492">
+        <value>
+            <text>GLNumberR &amp; M Heating Air-conditionning Refrigeration Equip</text>
+        </value>
+        <value>
+            <text>56302</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Laboratory Buildings</text>
+        </value>
+    </category>
+    <document noteId="00006F1A">
+        <value>
+            <text>GLNumberR &amp; M Laboratory Buildings</text>
+        </value>
+        <value>
+            <text>56104</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Meas Controlling Lab Med &amp; Optical Instr</text>
+        </value>
+    </category>
+    <document noteId="0000330A">
+        <value>
+            <text>GLNumberR &amp; M Meas Controlling Lab Med &amp; Optical Instr</text>
+        </value>
+        <value>
+            <text>56304</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Office Machines and Equipment</text>
+        </value>
+    </category>
+    <document noteId="0000186E">
+        <value>
+            <text>GLNumberR &amp; M Office Machines and Equipment</text>
+        </value>
+        <value>
+            <text>56326</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Safety Alarm and Signal Equipment</text>
+        </value>
+    </category>
+    <document noteId="00003132">
+        <value>
+            <text>GLNumberR &amp; M Safety Alarm and Signal Equipment</text>
+        </value>
+        <value>
+            <text>56311</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberR &amp; M Telecommunications Equipment</text>
+        </value>
+    </category>
+    <document noteId="00002506">
+        <value>
+            <text>GLNumberR &amp; M Telecommunications Equipment</text>
+        </value>
+        <value>
+            <text>56316</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberReallocation of Expenditures within a Department (Housing of Animals)</text>
+        </value>
+    </category>
+    <document noteId="00006F1E">
+        <value>
+            <text>GLNumberReallocation of Expenditures within a Department (Housing of Animals)</text>
+        </value>
+        <value>
+            <text>59961</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberRental of Digital Communications/Network Equipment (Rogers)</text>
+        </value>
+    </category>
+    <document noteId="00006F22">
+        <value>
+            <text>GLNumberRental of Digital Communications/Network Equipment (Rogers)</text>
+        </value>
+        <value>
+            <text>55106</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberResearch Contracts</text>
+        </value>
+    </category>
+    <document noteId="00006F26">
+        <value>
+            <text>GLNumberResearch Contracts</text>
+        </value>
+        <value>
+            <text>54804</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberSeminars or Workshops Non-Taxable</text>
+        </value>
+    </category>
+    <document noteId="00002362">
+        <value>
+            <text>GLNumberSeminars or Workshops Non-Taxable</text>
+        </value>
+        <value>
+            <text>54412</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberSPA Payment Collaborative Research &amp; Development</text>
+        </value>
+    </category>
+    <document noteId="00000F26">
+        <value>
+            <text>GLNumberSPA Payment Collaborative Research &amp; Development</text>
+        </value>
+        <value>
+            <text>27702</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberStaff Language Training</text>
+        </value>
+    </category>
+    <document noteId="00001BBA">
+        <value>
+            <text>GLNumberStaff Language Training</text>
+        </value>
+        <value>
+            <text>54401</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberStationery Office Supplies and Artists' Materials</text>
+        </value>
+    </category>
+    <document noteId="00002D4A">
+        <value>
+            <text>GLNumberStationery Office Supplies and Artists' Materials</text>
+        </value>
+        <value>
+            <text>57805</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTelecommunications Consultants</text>
+        </value>
+    </category>
+    <document noteId="00000D32">
+        <value>
+            <text>GLNumberTelecommunications Consultants</text>
+        </value>
+        <value>
+            <text>54706</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTelephone &amp; Other Voice Communication Services</text>
+        </value>
+    </category>
+    <document noteId="00001042">
+        <value>
+            <text>GLNumberTelephone &amp; Other Voice Communication Services</text>
+        </value>
+        <value>
+            <text>52701</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTemporary Help Services Acquired for General Help</text>
+        </value>
+    </category>
+    <document noteId="00000B8A">
+        <value>
+            <text>GLNumberTemporary Help Services Acquired for General Help</text>
+        </value>
+        <value>
+            <text>56403</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTraining Packages and Courses Purchased  for Staff</text>
+        </value>
+    </category>
+    <document noteId="0000239E">
+        <value>
+            <text>GLNumberTraining Packages and Courses Purchased  for Staff</text>
+        </value>
+        <value>
+            <text>54415</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTranslation Service</text>
+        </value>
+    </category>
+    <document noteId="00002E62">
+        <value>
+            <text>GLNumberTranslation Service</text>
+        </value>
+        <value>
+            <text>54808</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTravel  Non-Public Servants Conference all Locations</text>
+        </value>
+    </category>
+    <document noteId="00001E02">
+        <value>
+            <text>GLNumberTravel  Non-Public Servants Conference all Locations</text>
+        </value>
+        <value>
+            <text>52104</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTravel Non-Public Servants Outside Canada</text>
+        </value>
+    </category>
+    <document noteId="000024D2">
+        <value>
+            <text>GLNumberTravel Non-Public Servants Outside Canada</text>
+        </value>
+        <value>
+            <text>52102</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTravel Non-Public Servants Within Canada</text>
+        </value>
+    </category>
+    <document noteId="0000195A">
+        <value>
+            <text>GLNumberTravel Non-Public Servants Within Canada</text>
+        </value>
+        <value>
+            <text>52101</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTravel Public Servants Abroad </text>
+        </value>
+    </category>
+    <document noteId="00000FBE">
+        <value>
+            <text>GLNumberTravel Public Servants Abroad </text>
+        </value>
+        <value>
+            <text>52007</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTravel Public Servants Conference all Locations</text>
+        </value>
+    </category>
+    <document noteId="000016DA">
+        <value>
+            <text>GLNumberTravel Public Servants Conference all Locations</text>
+        </value>
+        <value>
+            <text>52009</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTravel Public Servants Local Transportation</text>
+        </value>
+    </category>
+    <document noteId="00003ABA">
+        <value>
+            <text>GLNumberTravel Public Servants Local Transportation</text>
+        </value>
+        <value>
+            <text>52002</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTravel Public Servants Training all Locations</text>
+        </value>
+    </category>
+    <document noteId="000014EE">
+        <value>
+            <text>GLNumberTravel Public Servants Training all Locations</text>
+        </value>
+        <value>
+            <text>52008</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTravel Public Servants United States of America</text>
+        </value>
+    </category>
+    <document noteId="000037FE">
+        <value>
+            <text>GLNumberTravel Public Servants United States of America</text>
+        </value>
+        <value>
+            <text>52006</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTravel Public Servants Within Canada</text>
+        </value>
+    </category>
+    <document noteId="000014EA">
+        <value>
+            <text>GLNumberTravel Public Servants Within Canada</text>
+        </value>
+        <value>
+            <text>52001</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTuition Fees and Related Costs During Own Time</text>
+        </value>
+    </category>
+    <document noteId="00002C96">
+        <value>
+            <text>GLNumberTuition Fees and Related Costs During Own Time</text>
+        </value>
+        <value>
+            <text>54403</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>GLNumberTuition Fees and Related Costs During Paid Time</text>
+        </value>
+    </category>
+    <document noteId="00002462">
+        <value>
+            <text>GLNumberTuition Fees and Related Costs During Paid Time</text>
+        </value>
+        <value>
+            <text>54402</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Laboratory Supplies </text>
+        </value>
+    </category>
+    <document noteId="00005B82">
+        <value>
+            <text>Laboratory Supplies </text>
+        </value>
+        <value>
+            <text>9940</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumber9901 - PERD FT</text>
+        </value>
+    </category>
+    <document noteId="0000485E">
+        <value>
+            <text>PANumber9901 - PERD FT</text>
+        </value>
+        <value>
+            <text>9901</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumber9902 - PERD PT</text>
+        </value>
+    </category>
+    <document noteId="0000485A">
+        <value>
+            <text>PANumber9902 - PERD PT</text>
+        </value>
+        <value>
+            <text>9902</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumber9940 - PERD O&amp;M</text>
+        </value>
+    </category>
+    <document noteId="00002792">
+        <value>
+            <text>PANumber9940 - PERD O&amp;M</text>
+        </value>
+        <value>
+            <text>9940</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3BA-Air Science Know</text>
+        </value>
+    </category>
+    <document noteId="000025E6">
+        <value>
+            <text>PANumberA3BA-Air Science Know</text>
+        </value>
+        <value>
+            <text>A3BA</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3BB - Air Science Process</text>
+        </value>
+    </category>
+    <document noteId="0000608E">
+        <value>
+            <text>PANumberA3BB - Air Science Process</text>
+        </value>
+        <value>
+            <text>A3BB</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3DY-Emerging Tech Sci Know</text>
+        </value>
+    </category>
+    <document noteId="00000EA2">
+        <value>
+            <text>PANumberA3DY-Emerging Tech Sci Know</text>
+        </value>
+        <value>
+            <text>A3DY</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3EB - CEPA Science Knowledge</text>
+        </value>
+    </category>
+    <document noteId="000024EE">
+        <value>
+            <text>PANumberA3EB - CEPA Science Knowledge</text>
+        </value>
+        <value>
+            <text>A3EB</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3EF-Child Vul Popn Sci Know</text>
+        </value>
+    </category>
+    <document noteId="00001506">
+        <value>
+            <text>PANumberA3EF-Child Vul Popn Sci Know</text>
+        </value>
+        <value>
+            <text>A3EF</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3EG-PERD Science Knowledge</text>
+        </value>
+    </category>
+    <document noteId="000032A6">
+        <value>
+            <text>PANumberA3EG-PERD Science Knowledge</text>
+        </value>
+        <value>
+            <text>A3EG</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3EH - Biostats Science Process</text>
+        </value>
+    </category>
+    <document noteId="000049AA">
+        <value>
+            <text>PANumberA3EH - Biostats Science Process</text>
+        </value>
+        <value>
+            <text>A3EH</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3EI - CEPA Science Knowledge</text>
+        </value>
+    </category>
+    <document noteId="000056C2">
+        <value>
+            <text>PANumberA3EI - CEPA Science Knowledge</text>
+        </value>
+        <value>
+            <text>A3EI</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3EO- Biomon Surv Science Know</text>
+        </value>
+    </category>
+    <document noteId="00003016">
+        <value>
+            <text>PANumberA3EO- Biomon Surv Science Know</text>
+        </value>
+        <value>
+            <text>A3EO</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3GH - Cont Sites Science Proces</text>
+        </value>
+    </category>
+    <document noteId="00004976">
+        <value>
+            <text>PANumberA3GH - Cont Sites Science Proces</text>
+        </value>
+        <value>
+            <text>A3GH</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3Z3-Management, Oversight and Accountability</text>
+        </value>
+    </category>
+    <document noteId="0000166E">
+        <value>
+            <text>PANumberA3Z3-Management, Oversight and Accountability</text>
+        </value>
+        <value>
+            <text>A3Z3</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberA3Z4-Continuous Improvement</text>
+        </value>
+    </category>
+    <document noteId="00002262">
+        <value>
+            <text>PANumberA3Z4-Continuous Improvement</text>
+        </value>
+        <value>
+            <text>A3Z4</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberAQHER</text>
+        </value>
+    </category>
+    <document noteId="00002F6A">
+        <value>
+            <text>PANumberAQHER</text>
+        </value>
+        <value>
+            <text>A935</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberGH10 - Research and Development</text>
+        </value>
+    </category>
+    <document noteId="00006092">
+        <value>
+            <text>PANumberGH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>GH10</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberGK06-Health Surveillance &amp; Monitoring</text>
+        </value>
+    </category>
+    <document noteId="0000775E">
+        <value>
+            <text>PANumberGK06-Health Surveillance &amp; Monitoring</text>
+        </value>
+        <value>
+            <text>GK06</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberGK10 - Research and Development</text>
+        </value>
+    </category>
+    <document noteId="00006096">
+        <value>
+            <text>PANumberGK10 - Research and Development</text>
+        </value>
+        <value>
+            <text>GK10</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberGK16-Emergency Management</text>
+        </value>
+    </category>
+    <document noteId="0000773A">
+        <value>
+            <text>PANumberGK16-Emergency Management</text>
+        </value>
+        <value>
+            <text>GK16</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberMETALS non-SPA Research and Development</text>
+        </value>
+    </category>
+    <document noteId="0000377A">
+        <value>
+            <text>PANumberMETALS non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>A330</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumbernon-SPA Research and Development</text>
+        </value>
+    </category>
+    <document noteId="00000C8A">
+        <value>
+            <text>PANumbernon-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>A330</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberNone (do not use)</text>
+        </value>
+    </category>
+    <document noteId="0000331A">
+        <value>
+            <text>PANumberNone (do not use)</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberOGD-Laboratory Supplies</text>
+        </value>
+    </category>
+    <document noteId="000016F2">
+        <value>
+            <text>PANumberOGD-Laboratory Supplies</text>
+        </value>
+        <value>
+            <text>9940</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberOGD-Other</text>
+        </value>
+    </category>
+    <document noteId="0000295E">
+        <value>
+            <text>PANumberOGD-Other</text>
+        </value>
+        <value>
+            <text>9999</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberOGD-Scientific Equipment</text>
+        </value>
+    </category>
+    <document noteId="000010EE">
+        <value>
+            <text>PANumberOGD-Scientific Equipment</text>
+        </value>
+        <value>
+            <text>9957</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberOGD-Services (other)</text>
+        </value>
+    </category>
+    <document noteId="00003C56">
+        <value>
+            <text>PANumberOGD-Services (other)</text>
+        </value>
+        <value>
+            <text>9931</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberOGD-Services (Scientific and Engineering)</text>
+        </value>
+    </category>
+    <document noteId="000023E2">
+        <value>
+            <text>PANumberOGD-Services (Scientific and Engineering)</text>
+        </value>
+        <value>
+            <text>9922</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberOLD_non-SPA Research and Development</text>
+        </value>
+    </category>
+    <document noteId="00001E0E">
+        <value>
+            <text>PANumberOLD_non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>A220</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberPERD - Toxicity of Automotive Emissions - Animal Studies</text>
+        </value>
+    </category>
+    <document noteId="00000F3E">
+        <value>
+            <text>PANumberPERD - Toxicity of Automotive Emissions - Animal Studies</text>
+        </value>
+        <value>
+            <text>A330</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA-Lab Supplies</text>
+        </value>
+    </category>
+    <document noteId="00001D42">
+        <value>
+            <text>PANumberSPA-Lab Supplies</text>
+        </value>
+        <value>
+            <text>9940</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA-Other</text>
+        </value>
+    </category>
+    <document noteId="0000105A">
+        <value>
+            <text>PANumberSPA-Other</text>
+        </value>
+        <value>
+            <text>9999</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA - Computer Equipment and Supplies</text>
+        </value>
+    </category>
+    <document noteId="00002E8A">
+        <value>
+            <text>PANumberSPA - Computer Equipment and Supplies</text>
+        </value>
+        <value>
+            <text>9955</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA - General Supplies</text>
+        </value>
+    </category>
+    <document noteId="00001FAE">
+        <value>
+            <text>PANumberSPA - General Supplies</text>
+        </value>
+        <value>
+            <text>9951</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA - Office Supplies</text>
+        </value>
+    </category>
+    <document noteId="00002CA6">
+        <value>
+            <text>PANumberSPA - Office Supplies</text>
+        </value>
+        <value>
+            <text>9944</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA - Other Professional Services (CAC)</text>
+        </value>
+    </category>
+    <document noteId="000023EE">
+        <value>
+            <text>PANumberSPA - Other Professional Services (CAC)</text>
+        </value>
+        <value>
+            <text>9929</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA - Scientific and Engineering Services (University)</text>
+        </value>
+    </category>
+    <document noteId="000024CA">
+        <value>
+            <text>PANumberSPA - Scientific and Engineering Services (University)</text>
+        </value>
+        <value>
+            <text>9922</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA - Scientific Equipment</text>
+        </value>
+    </category>
+    <document noteId="00003536">
+        <value>
+            <text>PANumberSPA - Scientific Equipment</text>
+        </value>
+        <value>
+            <text>9957</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA - Temp. Help Services</text>
+        </value>
+    </category>
+    <document noteId="00001E5E">
+        <value>
+            <text>PANumberSPA - Temp. Help Services</text>
+        </value>
+        <value>
+            <text>9923</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA - Travel Non-Public Servant</text>
+        </value>
+    </category>
+    <document noteId="00001092">
+        <value>
+            <text>PANumberSPA - Travel Non-Public Servant</text>
+        </value>
+        <value>
+            <text>9911</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>PANumberSPA - Travel Public Servant</text>
+        </value>
+    </category>
+    <document noteId="00001796">
+        <value>
+            <text>PANumberSPA - Travel Public Servant</text>
+        </value>
+        <value>
+            <text>9910</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>RV4340024 Renovations - RV</text>
+        </value>
+    </category>
+    <document noteId="00002E72">
+        <value>
+            <text>RV4340024 Renovations - RV</text>
+        </value>
+        <value>
+            <text>RV4340024</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text/>
+        </value>
+    </category>
+    <document noteId="00000952">
+        <value>
+            <text/>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+</view>

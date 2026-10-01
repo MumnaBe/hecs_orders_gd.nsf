@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1952' unid='4FE002763B94E42685256CCD00655481' sequence='5'>
+<created><datetime>20030214T132647,69-05</datetime></created>
+<modified><datetime dst='true'>20260917T084401,91-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074946,72-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084401,90-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084401,90-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20030214T132737,35-05</datetime><datetime dst='true'>20051101T145941,55-04</datetime><datetime
+ dst='true'>20051102T121119,70-04</datetime><datetime dst='true'>20090902T074521,38-04</datetime></revisions>
+<item name='CompName'><text>Gilmore Reproductions</text></item>
+<item name='CompPhone'><text>(613) 727-5610</text></item>
+<item name='CompAddress'><text>1636 Woodward Drive,</text></item>
+<item name='CompFax'><text>(613) 727-6288</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>John</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>John</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>K2C 3R8</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Vendor Code:0001055909.</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='6756' unid='5DAAC2135E823129852579E4004CDFBD' sequence='3'>
+<created><datetime dst='true'>20120418T095940,13-04</datetime></created>
+<modified><datetime dst='true'>20260917T085054,71-04</datetime></modified>
+<revised><datetime dst='true'>20120828T084906,48-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085054,70-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085054,70-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20120418T100508,56-04</datetime><datetime
+ dst='true'>20120828T084904,71-04</datetime></revisions>
+<item name='CompName'><text>EpingenDX</text></item>
+<item name='CompPhone'><text>508-852-4200</text></item>
+<item name='CompAddress'><text>100 Barber Ave</text></item>
+<item name='CompFax'><text>508-497-9450</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Anne Meyer</text></item>
+<item name='CompCity'><text>Worcester </text></item>
+<item name='InvContact'><text>Anne Meyer</text></item>
+<item name='CompProvince'><text>MA</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>01606</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>US</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20120418T095940,13-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><textlist><text>Dian Sinclair</text><text>Dian Sinclair</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2012-08-28 08:49:05 AM</text><text
+>2012-08-28 08:49:03 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dian Sinclair;</text><text>Dian Sinclair;</text></textlist></item></document>
+

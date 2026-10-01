@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='7032' unid='EAF61057438B443D85257C63004C33E9' sequence='4'>
+<created><datetime>20140117T085220,25-05</datetime></created>
+<modified><datetime dst='true'>20260917T085138,21-04</datetime></modified>
+<revised><datetime>20140117T090501,79-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085138,20-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085138,20-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20140117T085546,11-05</datetime><datetime>20140117T085549,28-05</datetime><datetime
+>20140117T090453,63-05</datetime></revisions>
+<item name='CompName'><text>University of Ottawa, Department of Earth Sciences</text></item>
+<item name='CompPhone'><text>613-562-5800 x 2416</text></item>
+<item name='CompAddress'><text>Marion Hall, Faculty of Science, X-Ray Core Facility MCD 014, Rm 121</text></item>
+<item name='CompFax'><text>613-562-5192</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Tara Kell</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Tara Kell</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K1N 6N5</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>CAD</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>geolrec@uOttawa.ca</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Sinclair</text></item>
+<item name='date_create'><datetime>20140117T085220,25-05</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><textlist><text>Dian Sinclair</text><text>Dian Sinclair</text><text
+>Dian Sinclair</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2014-01-17 09:05:00 AM</text><text
+>2014-01-17 09:04:52 AM</text><text>2014-01-17 08:55:48 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dian Sinclair;</text><text>Dian Sinclair;</text><text
+>Dian Sinclair;</text></textlist></item></document>
+

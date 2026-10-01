@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='19ea' unid='5247CAE2106393FF8525706500522164' sequence='4'>
+<created><datetime dst='true'>20050822T105705,00-04</datetime></created>
+<modified><datetime dst='true'>20260917T084404,44-04</datetime></modified>
+<revised><datetime dst='true'>20230607T121511,58-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084404,43-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084404,43-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050822T105922,46-04</datetime><datetime
+ dst='true'>20090902T074522,28-04</datetime><datetime dst='true'>20090902T074947,30-04</datetime></revisions>
+<item name='CompName'><text>National Water Research Institute</text></item>
+<item name='CompPhone'><text>(905) 336-4653</text></item>
+<item name='CompAddress'><text>867 Lakeshore Road,</text></item>
+<item name='CompFax'><text>(905) 336-8914</text></item>
+<item name='CompPO'><text>P.O. Box 5050,</text></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Burlington</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>L7R 4A6</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Environment Canada</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050822T105705,00-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:15:15 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

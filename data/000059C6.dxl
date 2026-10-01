@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='59c6' unid='97B01857C17E97998525771400571A23' sequence='1'>
+<created><datetime dst='true'>20100429T115123,23-04</datetime></created>
+<modified><datetime dst='true'>20260917T084945,32-04</datetime></modified>
+<revised><datetime dst='true'>20100429T115432,72-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084945,31-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084945,31-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20100429T115437,39-04</datetime></item>
+<item name='CompName'><text>Canadian Communication Products Inc.</text></item>
+<item name='CompPhone'><text>613-563-8500</text></item>
+<item name='CompAddress'><text>3657 Wayburne Drive</text></item>
+<item name='CompFax'><text>866-735-0001</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Jonh Puddicombe</text></item>
+<item name='CompCity'><text>Burnaby</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>BC</text></item>
+<item name='CompPostalCode'><text>V5G 3L1</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>CAD</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.communicationproducts.ca</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20100429T115123,23-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

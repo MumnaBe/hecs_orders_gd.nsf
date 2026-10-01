@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='b8a' unid='0B60770F8A905FA885256FD6000134D1' sequence='2'>
+<created><datetime dst='true'>20050331T201310,57-04</datetime></created>
+<modified><datetime dst='true'>20260917T084302,74-04</datetime></modified>
+<revised><datetime dst='true'>20050331T201421,82-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084302,73-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084302,73-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050331T201344,88-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Temporary Help Services Acquired for General Help</text></item>
+<item name='NameF'><text>Service d'aide de travail temporaire</text></item>
+<item name='CodeNumber'><text>56403</text></item></document>
+

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='42e' unid='46DA5413E8C6FDE8852578D3006B7A52' sequence='8'>
+<created><datetime dst='true'>20110720T153356,66-04</datetime></created>
+<modified><datetime dst='true'>20260917T084251,19-04</datetime></modified>
+<revised><datetime>20111222T135516,30-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084251,18-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084251,18-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rola Abdul-Nour/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sergue Sklokine/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<item name='$Flags'><text>~C4g</text></item>
+<item name='$TITLE'><text>build.properties</text></item>
+<item name='$FileSize' sign='true'><number>80</number></item>
+<item name='$FileData' sign='true'>
+<rawitemdata type='1'>
+YQAYAAAAAABQAAAAAQAAAAAAAAAAAAAAYABiAAAAUABQAAAAAAAAAAAAc291cmNlLi4gPSBMb2Nh
+bC8NCm91dHB1dC4uID0gRi9oZWNzX29yZGVyc19nZC5uc2YvV2ViQ29udGVudC9XRUItSU5GL2Ns
+YXNzZXMvDQo=
+</rawitemdata></item>
+<item name='$FileNames' sign='true'><text>build.properties</text></item></note>
+

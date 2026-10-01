@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='26a2' unid='914E20586C95FE7E8525715C00546759' sequence='3'>
+<created><datetime dst='true'>20060426T112154,81-04</datetime></created>
+<modified><datetime dst='true'>20260917T084458,00-04</datetime></modified>
+<revised><datetime>20071212T150332,95-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084457,99-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084457,99-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060426T112242,68-04</datetime><datetime
+ dst='true'>20060601T110241,06-04</datetime></revisions>
+<item name='OriginalModTime'><datetime>20071212T150336,54-05</datetime></item>
+<item name='Category'><text>Capital</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831503</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;10K Lab Equipment</text><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text></textlist></item>
+<item name='ProgActiv'><textlist><text>A3B7-Emerging Technologies Science Knowledge</text><text
+>A3E4-Child. &amp; Vulnerable Population Science Knowledge</text><text>A3H8-Biomonitoring &amp; Surveillance Science Knowledge</text></textlist></item>
+<item name='IntOrd'><textlist><text>4320105 Oxid Stress - PK</text><text>4320105 Oxid Stress - PK - MIREC</text></textlist></item></document>
+

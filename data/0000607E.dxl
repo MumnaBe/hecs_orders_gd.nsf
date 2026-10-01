@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='607e' unid='72078B80D0DD8B0B8525786B004FCF68' sequence='3'>
+<created><datetime dst='true'>20110407T103144,40-04</datetime></created>
+<modified><datetime dst='true'>20260917T085019,05-04</datetime></modified>
+<revised><datetime dst='true'>20120411T085910,95-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085019,04-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085019,04-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20110407T103204,10-04</datetime><datetime
+ dst='true'>20120411T085907,22-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4340565 CARA - RV - FY 2012-2013</text></item>
+<item name='NameF'><text>4340565 CARA - RV - FY 2012-2013</text></item>
+<item name='CodeNumber'><text>4340565</text></item>
+<item name='org_author' names='true'><text>Sameer Jetha</text></item>
+<item name='date_create'><datetime dst='true'>20110407T103144,40-04</datetime></item>
+<item name='edit_history'><textlist><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2012-04-11 08:59:12 AM</text><text
+>2012-04-11 08:59:08 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text></textlist></item></document>
+

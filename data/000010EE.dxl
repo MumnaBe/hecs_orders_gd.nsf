@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='10ee' unid='262EB852B7512AF885256C7800632AEC' sequence='1'>
+<created><datetime>20021121T130310,52-05</datetime></created>
+<modified><datetime dst='true'>20260917T084325,57-04</datetime></modified>
+<revised><datetime>20021121T130342,66-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084325,56-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084325,56-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>OGD-Scientific Equipment</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>9957</text></item></document>
+

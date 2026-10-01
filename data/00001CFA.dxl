@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1cfa' unid='63572ABE0F6855F385256BEB005F0927' sequence='10'>
+<created><datetime dst='true'>20020703T131802,63-04</datetime></created>
+<modified><datetime dst='true'>20260917T084417,22-04</datetime></modified>
+<revised><datetime dst='true'>20180510T101556,86-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084417,21-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084417,21-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,65-04</datetime><datetime
+>20021104T141454,33-05</datetime><datetime dst='true'>20050421T094039,50-04</datetime><datetime
+ dst='true'>20090902T074526,74-04</datetime><datetime dst='true'>20090902T074950,08-04</datetime><datetime
+>20100114T102722,76-05</datetime><datetime>20100115T115324,06-05</datetime><datetime
+>20131119T134947,02-05</datetime><datetime>20131119T134947,84-05</datetime></revisions>
+<item name='OriginalModTime'><datetime>20100115T115326,95-05</datetime></item>
+<item name='CompName'><text>OfficeMax Grand &amp; Toy</text></item>
+<item name='CompPhone'><text>(613) 244-1212 Opt 2 or 1-866-511-4534</text></item>
+<item name='CompAddress'><text>900 Belfast Rd</text></item>
+<item name='CompFax'><text>1-877-214-3958</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>David Lunau</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Erica Burbidge (Federal Client Service Team)</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K1G 0Z6</text></item>
+<item name='VISA_FR'><text>Non</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>942403-Ottawa<break/>219747 - Longueuil (C. Gagnon)</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>Federalservices@officemaxcanada.com</text></item>
+<item name='CompWeb'><text>www.officemazgrandandtoy.com</text></item>
+<item name='comment'><text>Office Supplies<break/><break/>Web site can give prices if you have a username and password.  but they are personal.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131802,63-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Dian Sinclair</text><text
+>Dian Sinclair</text><text>Dian Calagoure</text><text>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2018-05-10 10:15:57 AM</text><text
+>2013-11-19 01:49:46 PM</text><text>2013-11-19 01:49:45 PM</text><text>2010-01-15 11:53:26 AM</text><text
+>2010-01-14 10:27:28 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Dian Sinclair;</text><text
+>Dian Sinclair;</text><text>Dian Calagoure;</text><text>Dian Calagoure;</text></textlist></item></document>
+

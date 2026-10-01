@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='3d3a' unid='FE87C7D9199B355E85256E3D006F657B' sequence='8'>
+<created><datetime>20040217T151644,75-05</datetime></created>
+<modified><datetime dst='true'>20260917T084702,20-04</datetime></modified>
+<revised><datetime>20060208T074846,52-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084702,19-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084702,19-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20040217T151817,59-05</datetime><datetime>20040217T152103,26-05</datetime><datetime
+>20040217T152154,21-05</datetime><datetime>20040217T152308,83-05</datetime><datetime
+>20040218T144452,87-05</datetime><datetime>20040218T144842,24-05</datetime><datetime
+ dst='true'>20050401T101544,80-04</datetime></revisions>
+<item name='Category'><text>Capital</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831135</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text></textlist></item>
+<item name='ProgActiv'><text>non-SPA Research and Development</text></item>
+<item name='IntOrd'><text>4340256 - MobileLab</text></item></document>
+

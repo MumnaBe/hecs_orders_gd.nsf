@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='432' unid='5A3C8AF1AA3E80F8852578D3006B7A54' sequence='6'>
+<created><datetime dst='true'>20110720T153356,68-04</datetime></created>
+<modified><datetime dst='true'>20260917T084251,27-04</datetime></modified>
+<revised><datetime>20111222T135516,32-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084251,26-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084251,26-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rola Abdul-Nour/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sergue Sklokine/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<item name='$Flags'><text>~C4g</text></item>
+<item name='$TITLE'><text>plugin.xml</text></item>
+<item name='$FileSize' sign='true'><number>1445</number></item>
+<item name='$FileData' sign='true'>
+<rawitemdata type='1'>
+YQAYAAAAAAClBQAAAQAAAAAAAAAAAAAAYAC3BQAApQWmBQAAAAAAAAAAPD94bWwgdmVyc2lvbj0i
+MS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPD9lY2xpcHNlIHZlcnNpb249IjMuMCI/Pgo8cGx1Z2lu
+IGNsYXNzPSJwbHVnaW4uQWN0aXZhdG9yIgogIGlkPSJSNkRFVjAzXzJmREVWXzJmSENTQ18yZkNB
+X2hlY3NiNWNzZXA1Y2dkNWNoZWNzX29yZGVyc19nZF9uc2YiCiAgbmFtZT0iRG9taW5vIERlc2ln
+bmVyIiBwcm92aWRlcj0iVE9ETyIgdmVyc2lvbj0iMS4wLjAiPgogIDxyZXF1aXJlcz4KICAgIDwh
+LS1BVVRPR0VOLVNUQVJULUJVSUxERVI6IEF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkIGJ5IG51bGwu
+IERvIG5vdCBtb2RpZnkuLS0+CiAgICA8aW1wb3J0IHBsdWdpbj0ib3JnLmVjbGlwc2UudWkiLz4K
+ICAgIDxpbXBvcnQgcGx1Z2luPSJvcmcuZWNsaXBzZS5jb3JlLnJ1bnRpbWUiLz4KICAgIDxpbXBv
+cnQgb3B0aW9uYWw9InRydWUiIHBsdWdpbj0iY29tLmlibS5jb21tb25zIi8+CiAgICA8aW1wb3J0
+IG9wdGlvbmFsPSJ0cnVlIiBwbHVnaW49ImNvbS5pYm0uY29tbW9ucy54bWwiLz4KICAgIDxpbXBv
+cnQgb3B0aW9uYWw9InRydWUiIHBsdWdpbj0iY29tLmlibS5jb21tb25zLnZmcyIvPgogICAgPGlt
+cG9ydCBvcHRpb25hbD0idHJ1ZSIgcGx1Z2luPSJjb20uaWJtLmpzY3JpcHQiLz4KICAgIDxpbXBv
+cnQgb3B0aW9uYWw9InRydWUiIHBsdWdpbj0iY29tLmlibS5kZXNpZ25lci5ydW50aW1lLmRpcmVj
+dG9yeSIvPgogICAgPGltcG9ydCBvcHRpb25hbD0idHJ1ZSIgcGx1Z2luPSJjb20uaWJtLmRlc2ln
+bmVyLnJ1bnRpbWUiLz4KICAgIDxpbXBvcnQgb3B0aW9uYWw9InRydWUiIHBsdWdpbj0iY29tLmli
+bS54c3AuY29yZSIvPgogICAgPGltcG9ydCBvcHRpb25hbD0idHJ1ZSIgcGx1Z2luPSJjb20uaWJt
+LnhzcC5leHRzbiIvPgogICAgPGltcG9ydCBvcHRpb25hbD0idHJ1ZSIgcGx1Z2luPSJjb20uaWJt
+LnhzcC5kZXNpZ25lciIvPgogICAgPGltcG9ydCBvcHRpb25hbD0idHJ1ZSIgcGx1Z2luPSJjb20u
+aWJtLnhzcC5kb21pbm8iLz4KICAgIDxpbXBvcnQgb3B0aW9uYWw9InRydWUiIHBsdWdpbj0iY29t
+LmlibS5ub3Rlcy5qYXZhLmFwaSIvPgogICAgPGltcG9ydCBvcHRpb25hbD0idHJ1ZSIgcGx1Z2lu
+PSJjb20uaWJtLnhzcC5jb3JlIi8+CiAgICA8aW1wb3J0IG9wdGlvbmFsPSJ0cnVlIiBwbHVnaW49
+ImNvbS5pYm0ueHNwLmRvbWlubyIvPgogICAgPGltcG9ydCBvcHRpb25hbD0idHJ1ZSIgcGx1Z2lu
+PSJjb20uaWJtLnhzcC5leHRzbiIvPgogICAgPGltcG9ydCBvcHRpb25hbD0idHJ1ZSIgcGx1Z2lu
+PSJjb20uaWJtLnhzcC5kZXNpZ25lciIvPgogICAgPGltcG9ydCBvcHRpb25hbD0idHJ1ZSIgcGx1
+Z2luPSJjb20uaWJtLnhzcC5yY3AiLz4KICAgIDwhLS1BVVRPR0VOLUVORC1CVUlMREVSOiBFbmQg
+b2YgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgc2VjdGlvbi0tPgogIDwvcmVxdWlyZXM+CjwvcGx1
+Z2luPgoA
+</rawitemdata></item>
+<item name='$FileNames' sign='true'><text>plugin.xml</text></item></note>
+

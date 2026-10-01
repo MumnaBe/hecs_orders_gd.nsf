@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='442' unid='1DD9BDFF86753EB385257960004E01F6' sequence='4'>
+<created><datetime>20111208T091203,10-05</datetime></created>
+<modified><datetime dst='true'>20260917T084251,54-04</datetime></modified>
+<revised><datetime>20111222T135515,14-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084251,53-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084251,53-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sergue Sklokine/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<item name='$Flags'><text>~C4g</text></item>
+<item name='$FlagsExt'><text>w</text></item>
+<item name='$TITLE'><text>WEB-INF/faces-config.xml</text></item>
+<item name='$FileSize' sign='true'><number>55</number></item>
+<item name='$FileData' sign='true'>
+<rawitemdata type='1'>
+YQAYAAAAAAA3AAAAAQAAAAAAAAAAAAAAYABJAAAANwA4AAAAAAAAAAAAPD94bWwgdmVyc2lvbj0i
+MS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZy8+CgA=
+</rawitemdata></item>
+<item name='$FileNames' sign='true'><text>WEB-INF/faces-config.xml</text></item></note>
+

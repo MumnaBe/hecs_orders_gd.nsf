@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1c1a' unid='5DC5F093E178918585256BEB005F0937' sequence='6'>
+<created><datetime dst='true'>20020703T131802,79-04</datetime></created>
+<modified><datetime dst='true'>20260917T084413,48-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074949,24-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084413,47-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084413,47-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,81-04</datetime><datetime
+>20021104T141454,65-05</datetime><datetime>20040227T090923,17-05</datetime><datetime
+>20040305T110432,19-05</datetime><datetime dst='true'>20090902T074525,71-04</datetime></revisions>
+<item name='CompName'><text>Corporate Express</text></item>
+<item name='CompPhone'><text>1-800-363-6444 (613) 247-0158</text></item>
+<item name='CompAddress'><text>240 Catherine Street,<break/>Suite 103,</text></item>
+<item name='CompFax'><text>1-800-363-8556 (613) 247-0433</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Sylvain Thibault @ 247-0158</text></item>
+<item name='CompCity'><text>Ottawa </text></item>
+<item name='InvContact'><text>After Sales Service</text></item>
+<item name='CompProvince'><text>ON </text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text> K2P 2G8</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>56293</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Boulevard</text></item>
+<item name='CompEmail'><text>sylvain.thibault@cexp.com</text></item>
+<item name='CompWeb'><text>www.corporate-express.com</text></item>
+<item name='comment'><text>Office Supplies Head Office Add:1616 Eiffel St.,  Boucherville, QC J4L 7W1</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

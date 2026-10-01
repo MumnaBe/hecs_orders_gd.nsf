@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='ed2' unid='1C8E8B1E437A818885256CEF006793A8' sequence='8'>
+<created><datetime dst='true'>20030320T145120,08-04</datetime></created>
+<modified><datetime dst='true'>20260917T084316,71-04</datetime></modified>
+<revised><datetime dst='true'>20230607T121859,45-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084316,70-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084316,70-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20030320T145215,37-04</datetime><datetime
+>20031119T162507,49-05</datetime><datetime>20031119T162822,10-05</datetime><datetime
+>20040213T150711,45-05</datetime><datetime>20040213T151116,03-05</datetime><datetime
+ dst='true'>20090902T074502,17-04</datetime><datetime dst='true'>20090902T074811,49-04</datetime></revisions>
+<item name='CompName'><text>SCP Science</text></item>
+<item name='CompPhone'><text>1-800-361-6820</text></item>
+<item name='CompAddress'><text>21800 Clarke Graham </text></item>
+<item name='CompFax'><text>1-800-253-5549</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Rachel Butler</text></item>
+<item name='CompCity'><text>Baie d'Urfe</text></item>
+<item name='InvContact'><text>Rachel Butler or Kirsten Sills</text></item>
+<item name='CompProvince'><text>Quebec</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>H9X 4B6</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>C000235</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Accts. receivables: 1-514-457-0701 ext. 134.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20030320T145120,08-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:19:03 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

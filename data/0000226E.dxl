@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='226e' unid='7BD51CE7CA34311685256BEB005F09A4' sequence='4'>
+<created><datetime dst='true'>20020703T131803,88-04</datetime></created>
+<modified><datetime dst='true'>20260917T084440,14-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075113,43-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084440,13-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084440,13-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,90-04</datetime><datetime
+ dst='true'>20020910T104106,98-04</datetime><datetime>20021104T141456,93-05</datetime></revisions>
+<item name='CompName'><text>EHC Stores, CSB</text></item>
+<item name='CompPhone'><text>EHC (613) 954-5918 Banting (613) 957-1043</text></item>
+<item name='CompAddress'><text>Delacolumbine, E.H.C. Bldg Tunney's Pasture</text></item>
+<item name='CompFax'><text>Banting (613) 954-5014</text></item>
+<item name='CompPO'><text>P.L.:  0800D2</text></item>
+<item name='PurchContact'><text>Rolly Gervais</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Rolly Gervais</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard'><text>No</text></item>
+<item name='CompPostalCode'><text>K1A 0L2</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text>Stores, EHC</text></item>
+<item name='CompEmail'><text>Rolly_Gervais@hc-sc.gc.ca</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA_FR'><text>Non</text></item></document>
+

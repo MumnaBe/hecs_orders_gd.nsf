@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1842' unid='4AD6FC8496CA5A7485256BEB005F09BB' sequence='12'>
+<created><datetime dst='true'>20020703T131804,11-04</datetime></created>
+<modified><datetime dst='true'>20260917T084357,54-04</datetime></modified>
+<revised><datetime dst='true'>20180510T101208,35-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084357,53-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084357,53-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,13-04</datetime><datetime
+>20021104T141457,41-05</datetime><datetime>20021211T083248,35-05</datetime><datetime
+>20021214T083632,72-05</datetime><datetime dst='true'>20090902T074517,93-04</datetime><datetime
+ dst='true'>20090902T074943,40-04</datetime><datetime dst='true'>20111018T115326,92-04</datetime><datetime
+ dst='true'>20111026T092416,84-04</datetime><datetime dst='true'>20111028T091455,14-04</datetime><datetime
+>20160217T073405,63-05</datetime><datetime>20160217T073407,58-05</datetime></revisions>
+<item name='CompName'><text>StaplesAdvantage/Corporate Express</text></item>
+<item name='CompPhone'><text>1-877-272-2121 </text></item>
+<item name='CompAddress'><text>1616 Eiffel</text></item>
+<item name='CompFax'><text>place order online <break/>(1-905-696-4445)</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Boucherville</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>QC</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>J4B 8N3</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>746334</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>eway.ca</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131804,11-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Maria Ianni</text><text
+>Maria Ianni</text><text>Josee Guenette</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2018-05-10 10:12:08 AM</text><text
+>2016-02-17 07:34:07 AM</text><text>2016-02-17 07:34:05 AM</text><text>28-10-2011 09:14:54</text><text
+>2011-10-26 09:24:21 AM</text><text>2011-10-18 11:53:28 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Maria Ianni;</text><text
+>Maria Ianni;</text><text>Josee Guenette;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text></textlist></item></document>
+

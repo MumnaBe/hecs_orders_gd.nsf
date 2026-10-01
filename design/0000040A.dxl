@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(ReconcileCreditCard)' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3 v4' publicaccess='false'
+ designerversion='6.5' restrictions='unrestricted'>
+<noteinfo noteid='40a' unid='699541B67BE67DA5852575D100656B6E' sequence='11'>
+<created><datetime dst='true'>20090610T142746,38-04</datetime></created>
+<modified><datetime dst='true'>20260917T084250,52-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,63-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084250,51-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084250,51-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134342,07-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='all'/><code event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	
+	'/**************************************************************************************
+	'/ Agent created on 2009-06-10: by JML: for ADR 3550
+ 	'/ This agent is called from the "Reconciled" button on the NewOrderForm.
+	'/ The goal to increase the Remaining Credit on the Visa and MasterCard
+	'/
+	'/**************************************************************************************
+	
+	On Error Goto handleError
+	
+	Dim ws As New notesuiworkspace
+	Dim doc As notesdocument
+	Dim uidoc As notesuidocument
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim oDoc As notesdocument
+	Dim orderamount As Variant	
+	Dim purchasetype As String
+	
+	Dim carddv As notesview
+	Dim Carddoc As notesdocument
+	Dim namekey(1 To 2) As String
+	
+	' Get a handle on the Project document
+	Set uidoc=ws.currentdocument
+	Set db=s.CurrentDatabase
+	Set oDoc=uidoc.Document  ' Get a handle on the current Order document.
+	
+	' It the purchase type is Visa or MasterCard then increase the Remaining Credit on the Credit Card using the TotCostTaxed amount
+	purchasetype = oDoc.PurchaseType(0)	
+	If Not (purchasetype="Purchase Order") Then
+		
+		Set carddv = db.GetView("CHL")   ' getting the card holder lookup view             
+		cardholdername = oDoc.CardHolder(0)   ' get the value of the card holder field from the order document
+		orderamount = Ccur(oDoc.TotCostTaxed(0))  ' the field TotCostTaxed take in consideration the Custom, Exchange Rate, GST and GST Exemption.
+		
+		namekey(1) = purchasetype
+		namekey(2) = cardholdername
+		Set Carddoc = carddv.GetDocumentByKey(namekey)    ' according to the value of purchase type and card holder name, get the correct cardholder document from the card holder view
+		If Not (Carddoc Is Nothing) Then				
+			Select Case purchasetype
+			Case "MasterCard"
+				Carddoc.RemCreditM = Carddoc.RemCreditM(0) + orderamount   ' add the order amount from the remaining credit
+			Case "VISA"
+				Carddoc.RemCreditV = Carddoc.RemCreditV(0) + orderamount   ' add the order amount from the remaining credit
+			End Select
+			Carddoc.Save True, False
+		End If
+	End If
+	
+	Exit Sub
+	
+handleError:
+	Messagebox "Error: " &amp; Str(Err) &amp; ": " &amp; Error$
+	Exit Sub
+	
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0' agentdata='C77E421368CBE2FC852575D10068F094'>
+<agentmodified><datetime dst='true'>20090710T130848,04-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20090728T105634,18-04</datetime></agentrun>
+<runlog>Started running agent 'ReconcileCreditCard' on 2009-07-28 10:56:33 AM
+Running on all documents in database: 1165 total
+Found 1165 document(s) that match search criteria
+Ran LotusScript code
+Done running agent 'ReconcileCreditCard' on 2009-07-28 10:56:34 AM
+</runlog></rundata>
+<item name='$POID'><datetime dst='true'>20090610T150131,20-04</datetime></item></agent>
+

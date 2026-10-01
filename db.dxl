@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE database><database xmlns="http://www.lotus.com/dxl" version="12.0" replicaid="85258E750045D0DA" path="CN=DEV01/OU=DEV/O=HCSC/C=CA!!DESIGNEXPORT\hecs_orders_gd.nsf" title="HECS Order Tracking ITA" categories="HECS">
+    <databaseinfo dbid="85258E750045D0DA" diskspace="84148224" percentused="0">
+        <datamodified>
+            <datetime>20260917T134516,25+00</datetime>
+        </datamodified>
+        <designmodified>
+            <datetime>20260917T124251,54+00</datetime>
+        </designmodified>
+    </databaseinfo>
+</database>

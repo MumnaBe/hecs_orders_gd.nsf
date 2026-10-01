@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='23f6' unid='83B2AF943EE90F9985257091006B6943' sequence='6'>
+<created><datetime dst='true'>20051005T153312,99-04</datetime></created>
+<modified><datetime dst='true'>20260917T084446,63-04</datetime></modified>
+<revised><datetime dst='true'>20230607T121442,37-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084446,62-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084446,62-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20051005T153549,44-04</datetime><datetime
+ dst='true'>20051006T095220,18-04</datetime><datetime dst='true'>20051006T095222,82-04</datetime><datetime
+ dst='true'>20090902T074539,40-04</datetime><datetime dst='true'>20090902T075003,01-04</datetime></revisions>
+<item name='CompName'><text>Metal Supermarkets</text></item>
+<item name='CompPhone'><text>(613) 747-7511</text></item>
+<item name='CompAddress'><text>2900 Old Sheffield Road, Unit #1,</text></item>
+<item name='CompFax'><text>(613) 747-7148</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Kevin Woo</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Kevin Woo</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K1B 1A4</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Vendor Code: 0001131637. GST. Reg. # R897707576, PST. # 3961-0489.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20051005T153312,99-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:14:46 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

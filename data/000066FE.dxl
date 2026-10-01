@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Project' parent='F44329FE107D7F75852579DD0049E4E4'
+ conflict='true'>
+<noteinfo noteid='66fe' unid='BAE8353EF6776D62852579DD004A13E9' sequence='0'>
+<created><datetime dst='true'>20120411T092907,61-04</datetime></created>
+<modified><datetime dst='true'>20260917T085052,90-04</datetime></modified>
+<revised><datetime dst='true'>20120411T092909,16-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085052,89-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085052,89-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='FiscalYearStart'><datetime>20120401</datetime></item>
+<item name='FiscalYearEnd'><datetime>20130331</datetime></item>
+<item name='Project'><text>810409 Epigenetics - ET- FY 2012-2013</text></item>
+<item name='ShComm'><text>Inhalation Toxicology Laboratory - Transcriptional and Epigenetic Effects of Ambient Air Pollutants</text></item>
+<item name='budgetOp'><number>75000</number></item>
+<item name='budgetTrav'><number>0</number></item>
+<item name='budgetContr'><number>0</number></item>
+<item name='budgetCap'><number>0</number></item>
+<item name='budgetOp_com'><number>0</number></item>
+<item name='budgetTrav_com'><number>0</number></item>
+<item name='budgetContr_com'><number>0</number></item>
+<item name='budgetCap_com'><number>0</number></item>
+<item name='CategoriesAllowed'><number>8</number></item>
+<item name='budgetOpTemp'><text/></item>
+<item name='budgetTravTemp'><text/></item>
+<item name='budgetContrTemp'><text/></item>
+<item name='budgetCapTemp'><text/></item>
+<item name='org_author' names='true'><text>Sameer Jetha</text></item>
+<item name='date_create'><datetime dst='true'>20110407T101307,29-04</datetime></item>
+<item name='PI' names='true'><text>Errol Thomson</text></item>
+<item name='Manager' names='true'><text>Sonia Johnson</text></item>
+<item name='Employees' names='true'><textlist><text>Alain Filiatreault</text><text
+>Djordje Vladisavljevic</text><text>Dian Calagoure</text><text>Errol Thomson</text><text
+>Renaud Vincent</text><text>Subramanian Karthikeyan</text><text>Sonia Johnson</text><text
+>Amy Richardson</text><text>Shreedat Phulesar</text><text>Brian Halden</text><text
+>Erica Blais</text></textlist></item>
+<item name='TotBudget'><number>75000</number></item>
+<item name='TotCommitted'><number>0</number></item>
+<item name='FREEBALANCE'><number>75000</number></item>
+<item name='MCardHolders'><textlist><text>Dian Calagoure</text><text>Sonia Johnson</text><text
+>Terrence Dalton</text></textlist></item>
+<item name='VCardHolders'><text/></item>
+<item name='SigningAuth' names='true'><textlist><text>Sonia Johnson</text><text
+>Terrence Dalton</text><text>David Blakey</text></textlist></item>
+<item name='edit_history'><textlist><text>Shreedat Phulesar</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text><text>Dian Calagoure</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text><text>Dian Calagoure</text><text>Sameer Jetha</text><text
+>Sameer Jetha</text><text>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2012-04-11 09:29:01 AM</text><text
+>2012-01-12 01:07:40 PM</text><text>2011-11-28 12:55:23 PM</text><text>2011-10-17 09:45:31 AM</text><text
+>2011-08-11 12:52:36 PM</text><text>2011-07-22 10:41:50 AM</text><text>2011-07-22 10:41:44 AM</text><text
+>2011-06-08 09:17:27 AM</text><text>2011-06-08 09:17:26 AM</text><text>2011-05-12 03:20:58 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Shreedat Phulesar;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text><text>Dian Calagoure;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text><text>Dian Calagoure;</text><text>Sameer Jetha;</text><text
+>Sameer Jetha;</text><text>Dian Calagoure;</text></textlist></item></document>
+

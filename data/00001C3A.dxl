@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='1c3a' unid='5EB67C24FA0A8DE08525719D00710273' sequence='3'>
+<created><datetime dst='true'>20060630T163421,95-04</datetime></created>
+<modified><datetime dst='true'>20260917T084414,00-04</datetime></modified>
+<revised><datetime dst='true'>20060630T163959,63-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084413,99-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084413,99-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060630T163705,22-04</datetime><datetime
+ dst='true'>20060630T163858,64-04</datetime></revisions>
+<item name='HFText'><text>No</text></item>
+<item name='HelpECategories'><text>1. User Guide</text></item>
+<item name='HelpESubCat'><text>General Info</text></item>
+<item name='HelpFCategories'><text>1. Guide d'utilisation</text></item>
+<item name='HelpFSubCat'><text>Information générale</text></item>
+<item name='HelpDocNumber'><number>3</number></item>
+<item name='HelpSubCatNumber'><number>5</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='75%'/>
+<par def='1'><run><font size='14pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='blue'/>Launching a Private View</run></par>
+<par def='1'><run><font size='14pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='blue'/>Launching a View that is not listed on the navigator</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font style='italic' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>NOTE: Although this Help document was created specifically for the Hecs Orders database and includes examples from the HECS Orders database, the procedure is similar for any Notes database</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font style='italic' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>NOTE: Private Views cannot be shared, and cannot be emailed to others.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1. Launch the HECS Orders database</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2. Views that are used often are listed in the navigator on the left-hand-side of the screen.  Other views exist, both public views and private views, and they can be launched like so:</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>	2.1 On the top menu bar, select View, the GoTo</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>	2.2 in the Listbox, select the view of interest then click OK.  Note that the Public views ar elisted first, alphabetically; they are followed by the PRIVATE views, alphabetically.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='2' leftmargin='0.8125in' rightmargin='62%'/>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpESubject'><text>Launching a (private) view</text></item>
+<item name='HelpFSubject'><text>to translate</text></item></document>
+

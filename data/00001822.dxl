@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1822' unid='49FAEBDC33753908852571AB0047CA33' sequence='4'>
+<created><datetime dst='true'>20060714T090408,19-04</datetime></created>
+<modified><datetime dst='true'>20260917T084356,99-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074942,62-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084356,98-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084356,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Marco Spirito/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060714T090546,76-04</datetime><datetime
+ dst='true'>20060714T104215,87-04</datetime><datetime dst='true'>20090902T074517,12-04</datetime></revisions>
+<item name='CompName'><text>Assay Designs</text></item>
+<item name='CompPhone'><text>734-668-6113, 1-800-833-8651</text></item>
+<item name='CompAddress'><text>5777 Hines Drive</text></item>
+<item name='CompFax'><text>734-669-0134</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Ann Arbour</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Michigan</text></item>
+<item name='CompPostalCode'><text>48108</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

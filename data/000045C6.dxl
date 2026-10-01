@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='45c6' unid='B66BC3D7A9A3E911852572C20045933F' sequence='1'>
+<created><datetime dst='true'>20070419T083956,79-04</datetime></created>
+<modified><datetime dst='true'>20260917T084756,04-04</datetime></modified>
+<revised><datetime dst='true'>20070419T084256,01-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084756,03-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084756,03-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20070419T084242,43-04</datetime></item>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Professional and Technical Health Services (PDFs)</text></item>
+<item name='NameF'><text>Services technique et professionel en sante (PDFs)</text></item>
+<item name='CodeNumber'><text>54508</text></item></document>
+

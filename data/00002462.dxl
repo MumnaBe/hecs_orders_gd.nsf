@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='2462' unid='8601445CFF37AD4085256FD6000210A5' sequence='3'>
+<created><datetime dst='true'>20050331T202233,33-04</datetime></created>
+<modified><datetime dst='true'>20260917T084448,44-04</datetime></modified>
+<revised><datetime dst='true'>20050331T202622,85-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084448,43-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084448,43-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050331T202455,02-04</datetime><datetime
+ dst='true'>20050331T202534,62-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Tuition Fees and Related Costs During Paid Time</text></item>
+<item name='NameF'><text>Frais d'insciption et Coûts reliés durant heures de travail</text></item>
+<item name='CodeNumber'><text>54402</text></item></document>
+

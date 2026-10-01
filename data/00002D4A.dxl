@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='2d4a' unid='B2C9028ADB13B86485256FD500806025' sequence='4'>
+<created><datetime dst='true'>20050331T192212,21-04</datetime></created>
+<modified><datetime dst='true'>20260917T084530,61-04</datetime></modified>
+<revised><datetime dst='true'>20050405T110953,14-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084530,60-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084530,60-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050331T192307,62-04</datetime><datetime
+ dst='true'>20050331T192419,13-04</datetime><datetime dst='true'>20050331T192431,21-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Stationery Office Supplies and Artists' Materials</text></item>
+<item name='NameF'><text>Papeterie Fournitures de bureau et Matériel d'Artistes</text></item>
+<item name='CodeNumber'><text>57805</text></item></document>
+

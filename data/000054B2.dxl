@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='54b2' unid='216D4045813307368525760A00531DE1' sequence='1'>
+<created><datetime dst='true'>20090806T110751,37-04</datetime></created>
+<modified><datetime dst='true'>20260917T084916,48-04</datetime></modified>
+<revised><datetime dst='true'>20090806T110751,97-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084916,47-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084916,47-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='org_author' authors='true' names='true'><text>Gerald Horula</text></item>
+<item name='date_create'><datetime dst='true'>20020613T083533,57-04</datetime></item>
+<item name='edit_history'><textlist><text>Stephen Bjarnason</text><text>Gerald Horula</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2002/08/09 08:26:37</text><text
+>06/13/2002 08:39:27 AM</text></textlist></item>
+<item name='Names'><textlist><text>Stephen Bjarnason;</text><text>Gerald Horula;</text></textlist></item>
+<item name='HFText'><text>No</text></item>
+<item name='HelpECategories'><text>1. User Guide</text></item>
+<item name='HelpESubCat'><text>General Info</text></item>
+<item name='HelpFCategories'><text>1. Guide d'utilisation</text></item>
+<item name='HelpFSubCat'><text>Information générale</text></item>
+<item name='HelpDocNumber'><number>1</number></item>
+<item name='HelpSubCatNumber'><number>5</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>For general questions or comments, please contact the database custodians (Josée Guenette, Pat Goegan) in your area.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>For technical assistance, please contact the IMSD Helpdesk.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font size='9pt' style='underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Help Desk</run><run><font size='9pt' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>:</run></par>
+<pardef id='2'/>
+<par def='2'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Phone:  954-8718 at headquarters, or 1-800-416-0358 nationally.</run></par>
+<par def='2'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>E-mail:  </run><run><font size='9pt' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20' color='purple'/>To:</run><run
+><font size='9pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>  IMSD Helpdesk, </run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='purple'/>Subject:</run><run><font size='9pt' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>  OPEN CALL.</run></par>
+<par def='2'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par>
+<par def='2'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Where the subject must be uppercase 'OPEN CALL'.</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='3' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Pour toute question d'ordre général ou commentaires, veuillez communiquer avec les gestionnaires de la base de données (Josée Guénette, Pat Goegan).</run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Le soutien technique relève de DSGI - Bureau d'aide.</run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='4' leftmargin='1.0625in' rightmargin='93%' list='bullet'/>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Téléphone : 954-8718 au bureau principal ou 1-800-416-0358 à l'échelle nationale.</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Courrier électronique :</run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>	</run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'
+ color='maroon'/>Destinataire</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/> : DSGI - Bureau d'aide</run></par>
+<pardef id='5' leftmargin='0.8125in' rightmargin='93%' list='bullet'/>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>				</run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'
+ color='maroon'/>Sujet</run><run><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/> : OUVRIR UN APPEL (le sujet doit être écrit en lettres majuscules).</run></par></richtext></item>
+<item name='HelpESubject'><text>Contact Information</text></item>
+<item name='HelpFSubject'><text>Information personne-ressource</text></item></document>
+

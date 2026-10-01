@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='Update Project List' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3' publicaccess='false'
+ designerversion='5'>
+<noteinfo noteid='142' unid='022847E501F71B7585256D60004707BB' sequence='8'>
+<created><datetime dst='true'>20030711T085550,35-04</datetime></created>
+<modified><datetime dst='true'>20260917T084236,04-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134326,88-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084236,03-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084236,03-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,45-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument     
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim projdoc As notesdocument
+	Dim projitem As notesitem
+	Dim inproj As Integer
+	
+	inproj = 0
+	Set uidoc=ws.currentdocument
+	Set db=s.currentdatabase
+	Set dv=db.getview("PLV")
+	Set projdoc=dv.getfirstdocument
+	While Not (projdoc Is Nothing)
+		Set projitem=projdoc.getfirstitem("PI")
+		Forall x In projitem.values
+			If x=s.Commonusername Then
+				inproj=1
+			End If
+		End Forall
+		If Not (inproj=1) Then
+			Set projitem=projdoc.getfirstitem("Manager")
+			Forall y In projitem.values
+				If y=s.Commonusername Then
+					inproj=1
+				End If
+			End Forall
+		End If
+		If Not (inproj=1) Then
+			Set projitem=projdoc.getfirstitem("Employees")
+			Forall z In projitem.values
+				If z=s.commonusername Then
+					inproj=1
+				End If
+			End Forall
+		End If
+		If inproj = 1 And uidoc.EditMode = True Then Call uidoc.fieldsettext("ProjectSelection1", uidoc.fieldgettext("ProjectSelection1") + "," + projdoc.Project(0))
+		inproj = 0
+		Set projdoc=dv.GetNextDocument(projdoc)
+	Wend
+	uidoc.Refresh
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0' agentdata='3244737443A1194B85256D6000475F36'>
+<agentmodified><datetime dst='true'>20030711T085915,80-04</datetime></agentmodified>
+<agentrun><datetime>20030723T145015,60-05</datetime></agentrun>
+<runlog>Started running agent 'Update Project List' on 2003-07-23 02:50:51 PM
+ERROR: Document has not yet been saved
+</runlog></rundata>
+<item name='$POID'><datetime dst='true'>20060803T143118,67-04</datetime></item></agent>
+

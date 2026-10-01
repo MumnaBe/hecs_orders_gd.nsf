@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Lookup'>
+<noteinfo noteid='556e' unid='31154FFDAA7935E1852576240044C513' sequence='1'>
+<created><datetime dst='true'>20090901T083108,99-04</datetime></created>
+<modified><datetime dst='true'>20260917T084921,09-04</datetime></modified>
+<revised><datetime dst='true'>20090901T083109,40-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084921,08-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084921,08-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20090901T083039,70-04</datetime></item>
+<item name='EKEYWORDOLD'><text>UKD</text></item>
+<item name='FKEYWORDOLD'><text>UKD</text></item>
+<item name='Body'><richtext>
+<pardef id='1'/>
+<par def='1'>One of the choice for the Currency field on the Order Form</par></richtext></item>
+<item name='org_author' names='true'><text>Jean-Marc Leblanc</text></item>
+<item name='date_create'><datetime dst='true'>20090901T083050,50-04</datetime></item>
+<item name='LookupType' protected='true'><text>Currency</text></item>
+<item name='EKeyword'><text>UKD</text></item>
+<item name='FKeyword'><text>UKD</text></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

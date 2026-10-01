@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='700e' unid='9B8A2D521362EFF285257C4500598F13' sequence='1'>
+<created><datetime>20131218T111813,31-05</datetime></created>
+<modified><datetime dst='true'>20260917T085137,47-04</datetime></modified>
+<revised><datetime>20131218T112024,37-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085137,46-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085137,46-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>Ted Pella, Inc.</text></item>
+<item name='CompPhone'><text>1-800-237-3526/1-530-243-2200</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>1-530-243-3761</text></item>
+<item name='CompPO'><text>492477</text></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Reddinfg</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>California</text></item>
+<item name='CompPostalCode'><text>96049-2477</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>isales@tedpell.com</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Sinclair</text></item>
+<item name='date_create'><datetime>20131218T111813,31-05</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

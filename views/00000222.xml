@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <text>Hari Vijay</text>
+        </value>
+    </category>
+    <document noteId="000016F6">
+        <value>
+            <text>Hari Vijay</text>
+        </value>
+        <value>
+            <text>GD/CD-020023</text>
+        </value>
+        <value>
+            <text>Purchase Order</text>
+        </value>
+        <value>
+            <text>Travel - Long Lake 58</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Josee Guenette</text>
+        </value>
+    </category>
+    <document noteId="00001996">
+        <value>
+            <text>Josee Guenette</text>
+        </value>
+        <value>
+            <text>GD/CD-020597</text>
+        </value>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value>
+            <text>Smart Ape Microsystems Limited</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Makonnen Abebe</text>
+        </value>
+    </category>
+    <document noteId="0000252E">
+        <value>
+            <text>Makonnen Abebe</text>
+        </value>
+        <value>
+            <text>GD/CD-020020</text>
+        </value>
+        <value>
+            <text>Purchase Order</text>
+        </value>
+        <value>
+            <text>Travel - 7th Int Conf</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Monique Lanouette</text>
+        </value>
+    </category>
+    <document noteId="00002D36">
+        <value>
+            <text>Monique Lanouette</text>
+        </value>
+        <value>
+            <text>GD/CD-020600</text>
+        </value>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value>
+            <text>VWR Canlab</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Serdal Sevinc</text>
+        </value>
+    </category>
+    <document noteId="0000132E">
+        <value>
+            <text>Serdal Sevinc</text>
+        </value>
+        <value>
+            <text>GD/CD-020021</text>
+        </value>
+        <value>
+            <text>Purchase Order</text>
+        </value>
+        <value>
+            <text>Travel - 7th Int Conf</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Stephen Bjarnason</text>
+        </value>
+    </category>
+    <document noteId="00001026">
+        <value>
+            <text>Stephen Bjarnason</text>
+        </value>
+        <value>
+            <text>GD/CD-020006</text>
+        </value>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value>
+            <text>Corporate Express</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+    </document>
+</view>

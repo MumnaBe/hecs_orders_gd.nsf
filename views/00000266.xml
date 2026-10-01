@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Commander</text>
+        </value>
+    </category>
+    <document noteId="00005486">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Commander</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Rôles et responsabilités des employés</text>
+        </value>
+    </document>
+    <document noteId="0000548A">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Commander</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Créer une nouvelle commande</text>
+        </value>
+    </document>
+    <document noteId="000054EE">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Commander</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Formulaire de commande: sommaire des champs spéciaux et des boutons</text>
+        </value>
+    </document>
+    <document noteId="0000548E">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Commander</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Générer un code financier</text>
+        </value>
+    </document>
+    <document noteId="00005492">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Commander</text>
+        </value>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>Que faire après la réception d'une commande? </text>
+        </value>
+    </document>
+    <document noteId="00003082">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Commander</text>
+        </value>
+        <value>
+            <number>6</number>
+        </value>
+        <value>
+            <text>Que faire après la réception d'une commande? </text>
+        </value>
+    </document>
+    <document noteId="00005496">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Commander</text>
+        </value>
+        <value>
+            <number>7</number>
+        </value>
+        <value>
+            <text>Copier une commande existante</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Affichage d'une commande</text>
+        </value>
+    </category>
+    <document noteId="0000549A">
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Affichage d'une commande</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Afficher les commandes</text>
+        </value>
+    </document>
+    <document noteId="0000549E">
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Affichage d'une commande</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Qui a commandé ces articles?</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Vérification du statut financier d'un projet</text>
+        </value>
+    </category>
+    <document noteId="000054A2">
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Vérification du statut financier d'un projet</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Rôles et responsabilités des chercheurs principaux</text>
+        </value>
+    </document>
+    <document noteId="000054A6">
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Vérification du statut financier d'un projet</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>En tant que IP, comment puis-je retracer mes projets?</text>
+        </value>
+    </document>
+    <document noteId="000054AA">
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Vérification du statut financier d'un projet</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Quel est le montant de mes dépenses?</text>
+        </value>
+    </document>
+    <document noteId="000054AE">
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Vérification du statut financier d'un projet</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Comment changer les montants des budgets?</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Lexique</text>
+        </value>
+    </category>
+    <document noteId="000018A6">
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Lexique</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Termes utilisés dans Notes et la base de données des commandes</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>Information générale</text>
+        </value>
+    </category>
+    <document noteId="000054B2">
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>Information générale</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Information personne-ressource</text>
+        </value>
+    </document>
+    <document noteId="00001D4A">
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>Information générale</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>to translate</text>
+        </value>
+    </document>
+    <document noteId="00001C3A">
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>Information générale</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>to translate</text>
+        </value>
+    </document>
+    <document noteId="000054B6">
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>Information générale</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>to translate</text>
+        </value>
+    </document>
+</view>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='Cost1View' alias='C1V' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='6.5' unreadmarks='none' onopengoto='top'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='true' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='true' extendlastcolumn='true' showhierarchies='false'
+ unreadcolor='black' rowlinecount='9' headerlinecount='1' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='blue' headerbgcolor='white' boldunreadrows='false'
+ evaluateactions='false' allownewdocuments='false' allowcustomizations='false'
+ hidemarginborder='false' marginwidth='0px' marginbgcolor='white' uniquekeys='false'>
+<noteinfo noteid='2e2' unid='EE205019A7A31E5485256B43006A855C' sequence='17'>
+<created><datetime>20020116T142329,56-05</datetime></created>
+<modified><datetime dst='true'>20260917T084243,86-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134328,40-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T091346,78-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084243,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Oscar J Kerrebyn/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form = "Cost1"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/><border width='0px 0px 1px'/>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"AdminF";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='New Type' icon='89'><code event='click'><formula>@Command([Compose];"Cost1")</formula></code><code
+ event='hidewhen'><formula>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Edit HST'><code event='click'><formula>@Command([EditProfile];"GstMod")</formula></code></action></actionbar>
+<column sort='ascending' resort='both' resort2='ascending' resort2column='2'
+ hidedetailrows='false' itemname='Type' width='2.5000' resizable='true' separatemultiplevalues='true'
+ sortnoaccent='true' sortnocase='true' showaslinks='false' categorized='true'
+ twisties='true'><font color='navy' style='bold'/><columnheader><font size='9pt'
+ style='bold'/></columnheader></column>
+<column sort='ascending' hidedetailrows='false' listseparator='newline' itemname='Name'
+ width='20.8750' resizable='true' separatemultiplevalues='true' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><font size='8pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><columnheader title='Name (English)'><font
+ size='8pt' style='bold'/></columnheader></column>
+<column resort='both' hidedetailrows='false' listseparator='newline' itemname='CodeNumber'
+ width='12.2500' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><font size='8pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><columnheader title='Number'><font size='8pt'
+ style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='NameF' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='French Name'><font size='9pt' style='bold'/></columnheader></column></view>
+

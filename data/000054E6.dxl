@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='54e6' unid='AEB890B1C6D090CD8525760A006556CD' sequence='1'>
+<created><datetime dst='true'>20090806T142653,57-04</datetime></created>
+<modified><datetime dst='true'>20260917T084917,98-04</datetime></modified>
+<revised><datetime dst='true'>20090806T142653,77-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084917,97-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084917,97-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20090806T142632,89-04</datetime></item>
+<item name='HFText'><text>No</text></item>
+<item name='HelpECategories'><text>2. Database Custodian Guide</text></item>
+<item name='HelpESubCat'><text>Customizing the Application</text></item>
+<item name='HelpFCategories'><text>2. Guide de gardien de base de données</text></item>
+<item name='HelpFSubCat'><text>Customizing the Application</text></item>
+<item name='HelpDocNumber'><number>13</number></item>
+<item name='HelpSubCatNumber'><number>2</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='1in' rightmargin='100%'/>
+<par def='1'><run><font size='12pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='maroon'/>Summary of the buttons and special fields on the Card Holder Form</run></par>
+<par def='1'><run><font size='12pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='maroon'/></run></par>
+<pardef id='2' leftmargin='1in' rightmargin='100%' tabs='L1in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'/>
+<par def='2'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>	</run></par>
+<pardef id='3' leftmargin='1in' rightmargin='100%' tabs='L1in L1.3750in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'/>
+<par def='3'><run><font size='11pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Purpose:</run><run><font size='11pt' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/> This form is used to identify the card holders in the application.  Card holders can have a MasterCard and / or a Visa.</run></par>
+<par def='1'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par>
+<pardef id='4' leftmargin='1in' rightmargin='100%' tabs='L1in L1.5000in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'/>
+<par def='4'><run><font size='11pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Special Fields: </run></par>
+<pardef id='5' leftmargin='1.2500in' rightmargin='100%' list='bullet' tabs='L1in L1.5000in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'/>
+<par def='5'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Credit Limit (MasterCard or Visa):</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/> limit of the Credit Card. </run></par>
+<par def='5'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Remaining Credit (MasterCard or Visa): </run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>remaining credit on the Credit Card.  That amount is lowered when the button "Got It" calculate the budget.  The amount is increased when an order is cancelled or reconciled</run></par>
+<par def='1'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par>
+<par def='1'><run><font size='11pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Screeshot of the form: </run></par>
+<pardef id='6'/>
+<par def='6'><picture height='330px' width='621px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+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
+ADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='7' leftmargin='1in'/>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font size='11pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Buttons: </run></par>
+<par def='6'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par>
+<table widthtype='fitmargins' refwidth='9.7500in'><tablecolumn width='18.3403%'/><tablecolumn
+ width='81.6597%'/>
+<tablerow>
+<tablecell>
+<pardef id='9' keepwithnext='true' keeptogether='true'/>
+<par def='9'><picture height='28px' width='55px'><gif originalformat='notesbitmap'>
+R0lGODlhNwAcAOIAAMDAwNDQyAAAAICAgPj4AP///wAAgICAACwAAAAANwAcAEAI7gADCBxIsKDB
+gwgTKhQIoKHDhw0FCBhAsSLEixgzXhyY0YBDAQQKhJw4AKOAjBI/RsTIUaPLlzA1toxJs2bGmRA9
+Rgw5kqJJmyc3MowpsUBQmzZxIl0aUynTpzeHugQpUqJPqC6VGtjKFQDVniUvHlWp8qTEsQ2diuVp
+9CpEtCu9xoULQC3Wu3bvQs2rlynfvkj/Aq4peHBTqRoFGCXp1nBdxChFVm388WzKnzIhO9waUTIB
+kphp0rXL2avIA58pR7RMNqhrlprFegYtFuXR10IDwJTIk/Zby2YfBo/7sHBlxxCNI4+qe/lT5c6T
+BwQAOw==
+</gif></picture><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<pardef id='10' keepwithnext='true' keeptogether='true'/>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Exit: </run></par>
+<pardef id='11' leftmargin='0.2604in' list='bullet' keepwithnext='true' keeptogether='true'/>
+<par def='11'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Close the form.  If changes were made to the document, the system will prompt the user to save.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='9'><picture height='32px' width='63px'><gif originalformat='notesbitmap'>
+R0lGODlhPwAgAOMAAMDAwNDQyAAAAICAgEBAQAD4+ACAgP///0hISAAAAAAAAAAAAAAAAAAAAAAA
+AAAAACwAAAAAPwAgAEAI/wAHCBxIsKDBgwgTJkSAMEAAABAjSoxowMDEixgzatTo0KFEAQYKADgQ
+EoDIkyZTCvjIcqNLiR0fuhSwEgDNlzhzQoyps6dPlzwlVkyJEmXNn0gBBL0IUiRJkTQJHrXZ8mjN
+lVeBdkzK9WfMr2DDih1LtmzYrmhzLr041Ghar1spjixZlChVpjSnol0LsenculBvfsyLEWtEw30x
+8p3YVADBvnptEj48+S7kyDvjvt18cTHnzQ4JiB5NurTp06hTq0ZttrXr12U/y87scfZnz0JLYrY9
+0XNFwJZ5d9YMwMBTu3V3215b8jhwqIxbpuXr1zlyk4KDD86aWPJuz9XpYjR3PEC51cmI82aHSZxx
+86gDIR+uOr+7Zcy4DxsgL1947/YZVebfcLUN2FV+BqoF24IMthYQADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Save:</run><run><font size='11pt' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/> </run></par>
+<pardef id='12' leftmargin='0.2604in' list='bullet' tabs='L1in L1.5000in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'
+ keepwithnext='true' keeptogether='true'/>
+<par def='12'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Save the form.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='9'><picture height='28px' width='122px'><gif originalformat='notesbitmap'>
+R0lGODlhegAcAOIAANDQyAAAAP////j4AICAAACAgMDAwAAAACwAAAAAegAcAEAI/wABCBxIsKDB
+gwgTKlzIsKHDhwYJSCQwQMCAiQQgatzIsaNHgRZDXiQgUgBFAgEIpjS4EsDKlC0FxnRJUybLgS9t
+qiwIE6fOmkCDfhxKtKhRhyQzHl3KtClIiSYlFhAwtWrInVgdzpy5cCvPrw+5NixZMcCAsygrVtQY
+QKzTt3Djyp0LAKpEunjzYlS7l6wAlW0DcxTM9udBwhDdLrSYVK3fkzgDt73ZMqbYyUBz6tTsU+FL
+zpoVEwxZ1SxFkxfNGsjKE7Fb14AtE67MErPM2bErix49wIABiwYGBEgrwHfvvMiTK1/OvLlzhkqf
+Sx8Kebp1jY2TXt+ekKRjASVJgoMf/5f79ewm/aplLZQh7cRgs+6+uRH8SdJU81e8a7gmbsOX+Web
+S7gh1t5ttH1m24AKgXeRYxCihlJntWHWE3s/SQbaZvG1ZiGF742VXwEUXZTfSWZhmBmF8mXY2Xuc
+gejiihweaJCDIp2E4nobzWceRzg6tqNIPxbJopFIJqnkktcFBAA7
+</gif></picture><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Pay Credit Cards:</run></par>
+<pardef id='13' leftmargin='0.2604in' list='bullet' tabs='L1in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'
+ keepwithnext='true' keeptogether='true'/>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button can be used only by the Administrators</run></par>
+<par def='11'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The system will reset the Remaining Credit amount for both Credit Cards to the maximum limit specified by the "Credit Limit" fields.  To modify only one Credit Card, the Remaining Credit amount can be changed manually by editing the document.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='9'><picture height='28px' width='130px'><gif originalformat='notesbitmap'>
+R0lGODlhggAcAOMAANDQyAAAAP///4CAgICAAPj4AMDAwIAAAPgAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAACwAAAAAggAcAEAI/wABCBhIsKDBgwgTKlzIsKHDhxATAhA4sSKAAQgJEDBAIIDFjyBDihxJ
+sqTJkyhFDpgowCKBAhgVBtAI0mNFmzYB4NQ5MWfNmz559hQalKfHox+LCiU6dGjRlRRTSp1KtapV
+q1BbXt3KtatXkllBxhTwkmOAgUqXqr26M+nStCfhukUZ9uOAAHgDQLV496vfvyjxjqwLuLDhwxMJ
+VxzAuLFjBAcgI55MmS9LsQbLdoSbV+5UwT8teibZGTRXxRpjDthckHPekEid3qyZtm1bo7Ob9uwM
+tCnO2GsVByhAvLhx4wRgvwZq2ufypIKDSmcuOrfo0rpzAl+b+HLl7+DpJrt2TL68+fPo06tfz769
+e/bew8ufbzkq/fvhFZ+UjL//VP0XJUSAAGb5Z+BJAI5FkGajHXhgggUxKEBt1XV1W2/WUdUgd4PF
+B0ByY23UEUEUKnfbb7UpBZx2oGmXoYo6oWiUi/VpNdFGMeF10EwmsdgiUbxVuN1bQC6H1JAw+pYd
+d6gZcFdppdE0l5JLVmldUc6dKBuSsOV2oVL6DVecWZ0NUEByDhqYFoBptlkVm27GKZ59ctY5p514
+ShUQADs=
+</gif></picture><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Save &amp; New Entry:</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button can be used only by the Administrators</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button is displayed only if the Card Holder document is in Edition mode.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The button will save and close the current Credit Card document and will create a new one.</run></par></tablecell></tablerow></table>
+<par def='7'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='14' leftmargin='1in'/>
+<par def='14'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='org_author' authors='true' names='true'><text>Gerald Horula</text></item>
+<item name='date_create'><datetime>20020306T152301,63-05</datetime></item>
+<item name='HelpESubject'><text>Summary: Buttons and Special Fields on the Card Holder Form</text></item>
+<item name='HelpFSubject'><text>Sommaire: boutons dans le formulaire de Cart de crédits</text></item>
+<item name='edit_history'><textlist><text>Jean-Marc Leblanc</text><text>Stephen Bjarnason</text><text
+>Gerald Horula</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2009-08-06 02:26:32 PM</text><text
+>2002/08/09 08:31:44</text><text>03/06/2002 03:24:12 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Jean-Marc Leblanc;</text><text>Stephen Bjarnason;</text><text
+>Gerald Horula;</text></textlist></item></document>
+

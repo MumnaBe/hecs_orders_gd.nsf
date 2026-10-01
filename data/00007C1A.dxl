@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='7c1a' unid='F0969F8A2262EF08852589CE00617D60' sequence='1'>
+<created><datetime dst='true'>20230614T134450,88-04</datetime></created>
+<modified><datetime dst='true'>20260917T085240,14-04</datetime></modified>
+<revised><datetime dst='true'>20230614T134631,82-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085240,13-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085240,13-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>Vibrasure</text></item>
+<item name='CompPhone'><text>415-946-8487</text></item>
+<item name='CompAddress'><text>2440 16TH STREET, #317</text></item>
+<item name='CompFax'><text/></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Byron Davis</text></item>
+<item name='CompCity'><text>San Francisco</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>California</text></item>
+<item name='CompPostalCode'><text>94103</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>account created at Helena's request</text></item>
+<item name='org_author' names='true'><text>Kirsten Oickle</text></item>
+<item name='date_create'><datetime dst='true'>20230614T134450,88-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

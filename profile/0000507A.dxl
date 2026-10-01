@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE profiledocument>
+<profiledocument name='gstmod' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA'>
+<noteinfo noteid='507a' unid='10A5ED5940B71636852574E500526B04' sequence='11'>
+<created><datetime dst='true'>20081017T110013,48-04</datetime></created>
+<modified><datetime dst='true'>20260917T084852,92-04</datetime></modified>
+<revised><datetime dst='true'>20100728T113243,26-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084852,91-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084852,91-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name>CN=Lindsy Bachly/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20081017T110013,48-04</datetime><datetime
+ dst='true'>20081017T110015,34-04</datetime><datetime dst='true'>20081017T110015,36-04</datetime><datetime
+>20090212T113558,38-05</datetime><datetime>20090212T113558,40-05</datetime><datetime
+ dst='true'>20090619T143602,25-04</datetime><datetime dst='true'>20090619T143602,27-04</datetime><datetime
+ dst='true'>20100428T100639,09-04</datetime><datetime dst='true'>20100428T100639,11-04</datetime><datetime
+ dst='true'>20100728T113243,18-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100728T113257,06-04</datetime></item>
+<item name='Form'><text>GstMod</text></item>
+<item name='$ConflictAction'><text>2</text></item>
+<item name='getGst'><number>0.13</number></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20081017T110013,48-04</datetime></item>
+<item name='TotGst1'><number>1.13</number></item>
+<item name='edit_history'><textlist><text>Dian Calagoure</text><text>Sameer Jetha</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2010-07-28 11:32:57 AM</text><text
+>2010-04-28 10:05:53 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dian Calagoure;</text><text>Sameer Jetha;</text></textlist></item></profiledocument>
+

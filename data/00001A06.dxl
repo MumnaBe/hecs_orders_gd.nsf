@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1a06' unid='52B9992A6AE4965085256FFE004CF785' sequence='6'>
+<created><datetime dst='true'>20050511T100041,01-04</datetime></created>
+<modified><datetime dst='true'>20260917T084404,86-04</datetime></modified>
+<revised><datetime dst='true'>20230607T120438,12-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084404,85-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084404,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050511T100321,77-04</datetime><datetime
+ dst='true'>20090902T074522,53-04</datetime><datetime dst='true'>20090902T074947,57-04</datetime><datetime
+>20120214T132124,36-05</datetime><datetime>20120214T132129,82-05</datetime></revisions>
+<item name='CompName'><text>Penn-Century, Inc.</text></item>
+<item name='CompPhone'><text>(215) 753-6540</text></item>
+<item name='CompAddress'><text>7670 Queen Street, Suite 200</text></item>
+<item name='CompFax'><text>(215) 220-3040</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Wyndmoor</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>PA</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>19038</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>info@penncenturt.com</text></item>
+<item name='comment'><text>Vendor Code: 1122715.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050511T100041,01-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2023-06-07 12:04:42 PM</text><text
+>2012-02-14 01:21:26 PM</text><text>2012-02-14 01:21:20 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text></textlist></item></document>
+

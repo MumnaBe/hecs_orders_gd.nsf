@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='2d9a' unid='B48BD71AB85232B085256C2300502288' sequence='3'>
+<created><datetime dst='true'>20020828T103517,20-04</datetime></created>
+<modified><datetime dst='true'>20260917T084531,99-04</datetime></modified>
+<revised><datetime dst='true'>20050401T095650,53-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084531,98-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084531,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020828T103543,58-04</datetime><datetime
+>20050331T170446,32-05</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_IT Hardware &amp; Components</text></item>
+<item name='NameF'><text>OLD_IT Hardware &amp; Components</text></item>
+<item name='CodeNumber'><text>58108</text></item></document>
+

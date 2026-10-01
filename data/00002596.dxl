@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2596' unid='8BAD0F35734E272285256CEE0059D0B8' sequence='5'>
+<created><datetime dst='true'>20030319T122101,36-04</datetime></created>
+<modified><datetime dst='true'>20260917T084453,50-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074828,18-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084453,49-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084453,49-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20030319T122232,46-04</datetime><datetime
+ dst='true'>20030320T144956,49-04</datetime><datetime>20041230T120850,74-05</datetime><datetime
+ dst='true'>20090902T074542,45-04</datetime></revisions>
+<item name='CompName'><text>Molecular Devices</text></item>
+<item name='CompPhone'><text>(800) 635-5577 x3585</text></item>
+<item name='CompAddress'><text>1312 Crossman Ave</text></item>
+<item name='CompFax'><text>(408) 747-3544</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Sunnyvale</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>California</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>94089</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

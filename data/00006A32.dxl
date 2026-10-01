@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='6a32' unid='0C61A275E64B4B9B85257A95005152E8' sequence='1'>
+<created><datetime dst='true'>20121012T104816,40-04</datetime></created>
+<modified><datetime dst='true'>20260917T085109,57-04</datetime></modified>
+<revised><datetime dst='true'>20121012T105500,05-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085109,56-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085109,56-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>Brady Corp</text></item>
+<item name='CompPhone'><text>1-800-263-6179</text></item>
+<item name='CompAddress'><text>50 vogell Road, Units 3 &amp; 4</text></item>
+<item name='CompFax'><text>1-800-387-4935/877-395-6807 for payments</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Richmond Hill</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>L4B 3K6</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>torbrady_customerserv@bradycorp.com</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Sinclair</text></item>
+<item name='date_create'><datetime dst='true'>20121012T104816,40-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

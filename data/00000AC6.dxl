@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='ac6' unid='086598C4018A943785256BEB005F0952' sequence='4'>
+<created><datetime dst='true'>20020703T131803,06-04</datetime></created>
+<modified><datetime dst='true'>20260917T084259,40-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074922,76-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084259,39-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084259,39-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,08-04</datetime><datetime
+>20021104T141455,25-05</datetime><datetime dst='true'>20090902T074454,17-04</datetime></revisions>
+<item name='CompName'><text>Carsen Group Inc.</text></item>
+<item name='CompAddress'><text>151 Telson Rd</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Markham</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>L3R 1E7</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(905) 479-4100</text></item>
+<item name='CompFax'><text>(905) 479-2595</text></item>
+<item name='PurchContact'><text>Customer Service</text></item>
+<item name='InvContact'><text>Receivables</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>11ONHEACAQ</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.carsengroup.com</text></item>
+<item name='comment'><text>Microscope equipment</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

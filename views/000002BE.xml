@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <text>Corporate Express</text>
+        </value>
+    </category>
+    <document noteId="00001026">
+        <value>
+            <text>Corporate Express</text>
+        </value>
+        <value>
+            <text>GD/CD-020006</text>
+        </value>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value>
+            <text>Stephen Bjarnason</text>
+        </value>
+        <value>
+            <number>482.77</number>
+        </value>
+        <value>
+            <textlist>
+                <text/>
+            </textlist>
+        </value>
+        <value>
+            <text>Reconcilié</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Smart Ape Microsystems Limited</text>
+        </value>
+    </category>
+    <document noteId="00001996">
+        <value>
+            <text>Smart Ape Microsystems Limited</text>
+        </value>
+        <value>
+            <text>GD/CD-020597</text>
+        </value>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value>
+            <text>Josee Guenette</text>
+        </value>
+        <value>
+            <number>757</number>
+        </value>
+        <value>
+            <textlist>
+                <text/>
+            </textlist>
+        </value>
+        <value>
+            <text>Reconcilié</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Travel - 7th Int Conf</text>
+        </value>
+    </category>
+    <document noteId="0000252E">
+        <value>
+            <text>Travel - 7th Int Conf</text>
+        </value>
+        <value>
+            <text>GD/CD-020020</text>
+        </value>
+        <value>
+            <text>Purchase Order</text>
+        </value>
+        <value>
+            <text>Makonnen Abebe</text>
+        </value>
+        <value>
+            <number>1040</number>
+        </value>
+        <value>
+            <textlist>
+                <text/>
+            </textlist>
+        </value>
+        <value>
+            <text>Reconcilié</text>
+        </value>
+    </document>
+    <document noteId="0000132E">
+        <value>
+            <text>Travel - 7th Int Conf</text>
+        </value>
+        <value>
+            <text>GD/CD-020021</text>
+        </value>
+        <value>
+            <text>Purchase Order</text>
+        </value>
+        <value>
+            <text>Serdal Sevinc</text>
+        </value>
+        <value>
+            <number>1040</number>
+        </value>
+        <value>
+            <textlist>
+                <text/>
+            </textlist>
+        </value>
+        <value>
+            <text>Reconcilié</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Travel - Long Lake 58</text>
+        </value>
+    </category>
+    <document noteId="000016F6">
+        <value>
+            <text>Travel - Long Lake 58</text>
+        </value>
+        <value>
+            <text>GD/CD-020023</text>
+        </value>
+        <value>
+            <text>Purchase Order</text>
+        </value>
+        <value>
+            <text>Hari Vijay</text>
+        </value>
+        <value>
+            <number>396.52</number>
+        </value>
+        <value>
+            <textlist>
+                <text/>
+            </textlist>
+        </value>
+        <value>
+            <text>Reconcilié</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>VWR Canlab</text>
+        </value>
+    </category>
+    <document noteId="00002D36">
+        <value>
+            <text>VWR Canlab</text>
+        </value>
+        <value>
+            <text>GD/CD-020600</text>
+        </value>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value>
+            <text>Monique Lanouette</text>
+        </value>
+        <value>
+            <number>1185.01</number>
+        </value>
+        <value>
+            <textlist>
+                <text/>
+            </textlist>
+        </value>
+        <value>
+            <text>Reconcilié</text>
+        </value>
+    </document>
+</view>

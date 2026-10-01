@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='56c2' unid='4CD107CAC9F2C5AC85257673006A0086' sequence='1'>
+<created><datetime>20091119T141749,50-05</datetime></created>
+<modified><datetime dst='true'>20260917T084930,07-04</datetime></modified>
+<revised><datetime>20091119T141921,47-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084930,06-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084930,06-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime>20091119T141924,46-05</datetime></item>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>A3EI - CEPA Science Knowledge</text></item>
+<item name='NameF'><text>A3EI - CEPA Science Knowledge</text></item>
+<item name='CodeNumber'><text>A3EI</text></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime>20091119T141749,50-05</datetime></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

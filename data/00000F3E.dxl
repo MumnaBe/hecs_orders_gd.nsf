@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='f3e' unid='1E8A8F297AFF098D85257069006BBC60' sequence='2'>
+<created><datetime dst='true'>20050826T153645,76-04</datetime></created>
+<modified><datetime dst='true'>20260917T084318,46-04</datetime></modified>
+<revised><datetime dst='true'>20050831T113843,92-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084318,45-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084318,45-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050826T153813,91-04</datetime></revisions>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>PERD - Toxicity of Automotive Emissions - Animal Studies</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>A330</text></item></document>
+

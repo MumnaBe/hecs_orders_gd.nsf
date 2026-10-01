@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='23b6' unid='82664684678D04B585256BEB005F095F' sequence='4'>
+<created><datetime dst='true'>20020703T131803,19-04</datetime></created>
+<modified><datetime dst='true'>20260917T084445,61-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075001,79-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084445,60-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084445,60-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,21-04</datetime><datetime
+>20021104T141455,50-05</datetime><datetime dst='true'>20090902T074538,29-04</datetime></revisions>
+<item name='CompName'><text>Labcor Technical Roles</text></item>
+<item name='CompAddress'><text>7565, Av M.B. Jodouin</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Anjou</text></item>
+<item name='CompProvince'><text>QC</text></item>
+<item name='CompPostalCode'><text>H1J 2H9</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(514) 355-6100 1-800-363-5900</text></item>
+<item name='CompFax'><text>(514) 355-7119</text></item>
+<item name='PurchContact'><text>Michelle Joly</text></item>
+<item name='InvContact'><text>Patricia Daly</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>176190-03</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>labcorinfo@labcor.com</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>if you leave ASAP in the due date, that slows down the order.</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

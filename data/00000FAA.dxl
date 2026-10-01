@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='faa' unid='209D928143E7925A85256BEB005F0A23' sequence='3'>
+<created><datetime dst='true'>20020703T131805,15-04</datetime></created>
+<modified><datetime dst='true'>20260917T084320,17-04</datetime></modified>
+<revised><datetime dst='true'>20050401T100941,29-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084320,16-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084320,16-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=John Gingerich/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131805,37-04</datetime><datetime
+ dst='true'>20050331T180951,94-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_Solvents</text></item>
+<item name='NameF'><text>OLD_Solvants</text></item>
+<item name='CodeNumber'><text>04004</text></item></document>
+

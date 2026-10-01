@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='3952' unid='EC0ACA9C61D7A6AF85256BEB005F0915' sequence='9'>
+<created><datetime dst='true'>20020703T131802,45-04</datetime></created>
+<modified><datetime dst='true'>20260917T084636,99-04</datetime></modified>
+<revised><datetime dst='true'>20100507T085006,02-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084636,98-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084636,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,46-04</datetime><datetime
+>20021104T141453,97-05</datetime><datetime>20021107T114052,91-05</datetime><datetime
+ dst='true'>20060502T154820,63-04</datetime><datetime dst='true'>20090902T074614,60-04</datetime><datetime
+ dst='true'>20090902T075033,02-04</datetime><datetime dst='true'>20100507T084908,22-04</datetime><datetime
+ dst='true'>20100507T084932,30-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100507T085006,33-04</datetime></item>
+<item name='CompName'><text>FedEx</text></item>
+<item name='CompPhone'><text>1-800-463-3339</text></item>
+<item name='CompAddress'><text>Toronto Station  A</text></item>
+<item name='CompFax'><text>(905) 212-5662</text></item>
+<item name='CompPO'><text>4626</text></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Toronto</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>M5W 5B4</text></item>
+<item name='VISA_FR'><text>Non</text></item>
+<item name='CompCountry'><text/></item>
+<item name='AcctNumber'><text>2901-02847</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>information not available</text></item>
+<item name='CompWeb'><text>information not available</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131802,45-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='edit_history'><textlist><text>Dian Calagoure</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2010-05-07 08:50:06 AM</text><text
+>2010-05-07 08:49:32 AM</text><text>2010-05-07 08:49:08 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dian Calagoure;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text></textlist></item></document>
+

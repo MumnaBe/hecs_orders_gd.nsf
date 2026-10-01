@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='32a2' unid='CB9F698B627D01638525715B00677314' sequence='4'>
+<created><datetime dst='true'>20060425T144956,68-04</datetime></created>
+<modified><datetime dst='true'>20260917T084558,35-04</datetime></modified>
+<revised><datetime dst='true'>20070402T093643,97-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084558,34-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084558,34-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060425T145057,04-04</datetime><datetime
+ dst='true'>20060525T144656,84-04</datetime><datetime dst='true'>20070402T093558,94-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20070402T093647,29-04</datetime></item>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4340440 ITA Section Manag - RV</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>4340440</text></item></document>
+

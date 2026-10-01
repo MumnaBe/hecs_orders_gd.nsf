@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='3142' unid='C47D093C9D9DB12485257070006A1114' sequence='4'>
+<created><datetime dst='true'>20050902T151831,88-04</datetime></created>
+<modified><datetime dst='true'>20260917T084550,80-04</datetime></modified>
+<revised><datetime dst='true'>20230607T120901,95-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084550,79-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084550,79-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050902T152026,85-04</datetime><datetime
+ dst='true'>20090902T074603,26-04</datetime><datetime dst='true'>20090902T075022,46-04</datetime></revisions>
+<item name='CompName'><text>Cascade Science</text></item>
+<item name='CompPhone'><text>(352) 336-3202</text></item>
+<item name='CompAddress'><text>5409 NW 80th Avenue,</text></item>
+<item name='CompFax'><text>(352) 336-3202</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>N/A</text></item>
+<item name='CompCity'><text>Gainesville,</text></item>
+<item name='InvContact'><text>N/A</text></item>
+<item name='CompProvince'><text>FL.</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>32653</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Vendor Code: 1130587.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050902T151831,88-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:09:06 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

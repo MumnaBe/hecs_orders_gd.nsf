@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='2262' unid='7BB06A1A3D1F75CE8525715B0069E765' sequence='3'>
+<created><datetime dst='true'>20060425T151645,17-04</datetime></created>
+<modified><datetime dst='true'>20260917T084439,95-04</datetime></modified>
+<revised><datetime dst='true'>20080401T153341,83-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084439,94-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084439,94-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Gallagher/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060425T151747,78-04</datetime><datetime
+ dst='true'>20080401T153330,86-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20080401T153346,54-04</datetime></item>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>A3Z4-Continuous Improvement</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>A3Z4</text></item></document>
+

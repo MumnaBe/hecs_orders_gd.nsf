@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='1b9a' unid='5B737A9CA19B62D385256C780063AB53' sequence='5'>
+<created><datetime>20021121T130839,23-05</datetime></created>
+<modified><datetime dst='true'>20260917T084411,40-04</datetime></modified>
+<revised><datetime dst='true'>20050401T100532,40-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084411,39-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084411,39-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20021121T130914,35-05</datetime><datetime>20021121T141448,27-05</datetime><datetime
+>20030122T083657,82-05</datetime><datetime dst='true'>20050331T180727,36-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_OGD account for Pat R - CRTI</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>28002</text></item></document>
+

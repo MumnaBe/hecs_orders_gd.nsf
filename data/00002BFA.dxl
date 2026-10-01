@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='2bfa' unid='AC5BDBCC6A8C1CE385256FD50081A550' sequence='2'>
+<created><datetime dst='true'>20050331T193604,64-04</datetime></created>
+<modified><datetime dst='true'>20260917T084524,13-04</datetime></modified>
+<revised><datetime dst='true'>20050331T193724,46-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084524,12-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084524,12-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050331T193714,05-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Motor Vehicle Licences</text></item>
+<item name='NameF'><text>Plaques de Véhicule Motorisé</text></item>
+<item name='CodeNumber'><text>56603</text></item></document>
+

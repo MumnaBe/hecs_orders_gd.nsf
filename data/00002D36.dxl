@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='OrderForm'>
+<noteinfo noteid='2d36' unid='B255B58726497DAD85256C8000665BFE' sequence='35'>
+<created><datetime>20021129T133802,22-05</datetime></created>
+<modified><datetime dst='true'>20260917T084530,25-04</datetime></modified>
+<revised><datetime>20121130T075651,51-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084530,24-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084530,24-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Monique Lanouette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pat Rasmussen/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name
+>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20060125T101630,36-05</datetime><datetime dst='true'>20060325T013952,61-04</datetime><datetime
+ dst='true'>20060412T003603,50-04</datetime><datetime dst='true'>20060428T003605,01-04</datetime><datetime
+ dst='true'>20060601T004131,40-04</datetime><datetime>20061106T090219,80-05</datetime><datetime
+>20061214T160557,26-05</datetime><datetime dst='true'>20110511T112516,15-04</datetime></revisions>
+<item name='FSC'><text>831503</text></item>
+<item name='GLAC'><text>04007</text></item>
+<item name='PAC'><text>A220</text></item>
+<item name='PC'><text>4340013</text></item>
+<item name='Project'><text>4340013 PR - Metals</text></item>
+<item name='GLAcctList'><textlist><text>Acids</text><text>Anaesthetic Gases</text><text
+>Books and Pamphlets</text><text>Chemicals</text><text>Conference Registration Fees</text><text
+>Courier</text><text>Distilled Drink Water</text><text>Electrical Supplies</text><text
+>Film Audio and Video Cassettes</text><text>Freight Express and Cartage Transportation</text><text
+>General Supplies</text><text>Honoraria</text><text>Hospitality</text><text
+>IT Desktop PC</text><text>IT Hardware &amp; Components</text><text>IT Portable PC</text><text
+>IT Software</text><text>Lab glassware and ceramics</text><text>Lab Supplies</text><text
+>Laundry Dryclean and Related Services</text><text>Live Animals</text><text
+>Membership Fees</text><text>Moving Expenses</text><text>Newspaper Magazines and Periodicals</text><text
+>Non-Anesthetic Gases</text><text>Non-Provincial Lab Service</text><text>Office Supplies</text><text
+>Oxygen and Other Medical Gases</text><text>Pagers Enhanced Telecom Service etc.</text><text
+>Postage and Parcel Post Service</text><text>Printing Service Books and Leaflets</text><text
+>Printing Service Photocopies</text><text>Provincial Laboratory Service</text><text
+>Publication</text><text>Repair and Maintenance - Hardware and Software</text><text
+>Repair and Maintenance - Laboratories</text><text>Repairs and Maintenance -- Lab Equipment</text><text
+>Scientific Equipment (&lt;10K)</text><text>Solvents</text><text>Staff Development PSC</text><text
+>Staff Language Training (not provided by PSC)</text><text>Telephone &amp; Voice Comm Services</text><text
+>Temporary Help Service</text><text>Translation Service</text><text>Wearing Apparel</text></textlist></item>
+<item name='ProgActList'><text>non-SPA Research and Development</text></item>
+<item name='PrjNumList'><textlist><text>4320010 RV - Pulm</text><text>4320101 HV - Allergens</text><text
+>4320105 PK - Oxid</text><text>4340008 RV - In Vitro</text><text>4340013 PR - Metals</text><text
+>RV4340024 - Renovations</text></textlist></item>
+<item name='GLAcctListFrench'><text/></item>
+<item name='PAListFrench'><text/></item>
+<item name='FundSource'><text>EHS</text></item>
+<item name='GLAccount'><text>Lab Supplies</text></item>
+<item name='PA'><text>non-SPA Research and Development</text></item>
+<item name='CompleteFinancialCode'><text>831503 04007 A220 4340013</text></item>
+<item name='SendTo' names='true'><text>Cranston Snord</text></item>
+<item name='OperatingAllowed'><text>False</text></item>
+<item name='TravelAllowed'><text>False</text></item>
+<item name='ContractAllowed'><text>False</text></item>
+<item name='CapitalAllowed'><text>False</text></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SendWarning'><text>Sent</text></item>
+<item name='SendWarning2'><text>Sent</text></item>
+<item name='HideCount'><number>1</number></item>
+<item name='H1'><number>0</number></item>
+<item name='H2'><number>0</number></item>
+<item name='H3'><number>0</number></item>
+<item name='H4'><number>0</number></item>
+<item name='H5'><number>0</number></item>
+<item name='H6'><number>0</number></item>
+<item name='H7'><number>0</number></item>
+<item name='H8'><number>0</number></item>
+<item name='H9'><number>0</number></item>
+<item name='H10'><number>0</number></item>
+<item name='H11'><number>0</number></item>
+<item name='H12'><number>0</number></item>
+<item name='H13'><number>0</number></item>
+<item name='H14'><number>0</number></item>
+<item name='H15'><number>0</number></item>
+<item name='H16'><number>0</number></item>
+<item name='H17'><number>0</number></item>
+<item name='H18'><number>0</number></item>
+<item name='H19'><number>0</number></item>
+<item name='H20'><number>0</number></item>
+<item name='OrderComments'><text/></item>
+<item name='RefNumberTag'><text>GD/CD-</text></item>
+<item name='CardNumber'><text/></item>
+<item name='ExpiryDate'><text/></item>
+<item name='Sent'><text>Yes</text></item>
+<item name='Status'><text>Reconciled</text></item>
+<item name='BudgetCalculated'><text>Yes</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='ProjectSelection'><text>4340013 PR - Metals</text></item>
+<item name='DateReq'><text>December 6,  2002</text></item>
+<item name='PurchaseType'><text>MasterCard</text></item>
+<item name='CardHolder'><text>Pat Rasmussen</text></item>
+<item name='CompanyName' names='true'><text>VWR Canlab</text></item>
+<item name='AcctNumber'><text>2815070</text></item>
+<item name='CompPhone'><text>(514) 344-3525 1-800-932-5000</text></item>
+<item name='CompFax'><text>(514) 344-0133 1-800-668-6348</text></item>
+<item name='Currency'><text>CAD</text></item>
+<item name='i1Desc'><text>29615-029  250 ml vol flask</text></item>
+<item name='i1Quant'><number>4</number></item>
+<item name='i1PricePer'><number>54.37</number></item>
+<item name='PartRec'><text>4</text></item>
+<item name='Rec1'><text>Received</text></item>
+<item name='i2Desc'><text>29615-040 500ml vol flask</text></item>
+<item name='i2Quant'><number>4</number></item>
+<item name='i2PricePer'><number>65.71</number></item>
+<item name='PartRec_1'><text>4</text></item>
+<item name='Rec2'><text>Received</text></item>
+<item name='i3Desc'><text>29615-062 1000 ml vol flask</text></item>
+<item name='i3Quant'><number>4</number></item>
+<item name='i3PricePer'><number>84.15</number></item>
+<item name='PartRec_2'><text>4</text></item>
+<item name='Rec3'><text>Received</text></item>
+<item name='i4Desc'><text>16101-084 10 L carboy </text></item>
+<item name='i4Quant'><number>2</number></item>
+<item name='i4PricePer'><number>128.79</number></item>
+<item name='PartRec_3'><text>2</text></item>
+<item name='Rec4'><text>Received</text></item>
+<item name='i5Desc'><text>30252-905 polypropylene funnels 1 pkg (12)</text></item>
+<item name='i5Quant'><number>1</number></item>
+<item name='i5PricePer'><number>52.56</number></item>
+<item name='PartRec_4'><text>1</text></item>
+<item name='Rec5'><text>Received</text></item>
+<item name='i6Desc'><text>30252-951 polypropylene funnels 1 pkg (12)</text></item>
+<item name='i6Quant'><number>1</number></item>
+<item name='i6PricePer'><number>57.95</number></item>
+<item name='PartRec_5'><text>1</text></item>
+<item name='Rec6'><text>Received</text></item>
+<item name='i7Desc'><text/></item>
+<item name='i7Quant'><number>0</number></item>
+<item name='i7PricePer'><number>0</number></item>
+<item name='PartRec_6'><text/></item>
+<item name='Rec7'><text>Received</text></item>
+<item name='i8Desc'><text/></item>
+<item name='i8Quant'><number>0</number></item>
+<item name='i8PricePer'><number>0</number></item>
+<item name='PartRec_7'><text/></item>
+<item name='Rec8'><text>Received</text></item>
+<item name='i9Desc'><text/></item>
+<item name='i9Quant'><number>0</number></item>
+<item name='i9PricePer'><number>0</number></item>
+<item name='PartRec_8'><text/></item>
+<item name='Rec9'><text>Received</text></item>
+<item name='i10Desc'><text/></item>
+<item name='i10Quant'><number>0</number></item>
+<item name='i10PricePer'><number>0</number></item>
+<item name='PartRec_9'><text/></item>
+<item name='Rec10'><text>Received</text></item>
+<item name='i11Desc'><text/></item>
+<item name='i11Quant'><number>0</number></item>
+<item name='i11PricePer'><number>0</number></item>
+<item name='PartRec_10'><text/></item>
+<item name='Rec11'><text>Received</text></item>
+<item name='i12Desc'><text/></item>
+<item name='i12Quant'><number>0</number></item>
+<item name='i12PricePer'><number>0</number></item>
+<item name='PartRec_11'><text/></item>
+<item name='Rec12'><text>Received</text></item>
+<item name='i13Desc'><text/></item>
+<item name='i13Quant'><number>0</number></item>
+<item name='i13PricePer'><number>0</number></item>
+<item name='PartRec_12'><text/></item>
+<item name='Rec13'><text>Received</text></item>
+<item name='i14Desc'><text/></item>
+<item name='i14Quant'><number>0</number></item>
+<item name='i14PricePer'><number>0</number></item>
+<item name='PartRec_13'><text/></item>
+<item name='Rec14'><text>Received</text></item>
+<item name='i15Desc'><text/></item>
+<item name='i15Quant'><number>0</number></item>
+<item name='i15PricePer'><number>0</number></item>
+<item name='PartRec_14'><text/></item>
+<item name='Rec15'><text>Received</text></item>
+<item name='i16Desc'><text/></item>
+<item name='i16Quant'><number>0</number></item>
+<item name='i16PricePer'><number>0</number></item>
+<item name='PartRec_15'><text/></item>
+<item name='Rec16'><text>Received</text></item>
+<item name='i17Desc'><text/></item>
+<item name='i17Quant'><number>0</number></item>
+<item name='i17PricePer'><number>0</number></item>
+<item name='PartRec_16'><text/></item>
+<item name='Rec17'><text>Received</text></item>
+<item name='i18Desc'><text/></item>
+<item name='i18Quant'><number>0</number></item>
+<item name='i18PricePer'><number>0</number></item>
+<item name='PartRec_17'><text/></item>
+<item name='Rec18'><text>Received</text></item>
+<item name='i19Desc'><text/></item>
+<item name='i19Quant'><number>0</number></item>
+<item name='i19PricePer'><number>0</number></item>
+<item name='PartRec_18'><text/></item>
+<item name='Rec19'><text>Received</text></item>
+<item name='i20Desc'><text/></item>
+<item name='i20Quant'><number>0</number></item>
+<item name='i20PricePer'><number>0</number></item>
+<item name='PartRec_19'><text/></item>
+<item name='Rec20'><text>Received</text></item>
+<item name='ShippingCost'><number>0</number></item>
+<item name='Customs'><number>0</number></item>
+<item name='Exchange'><text/></item>
+<item name='SlipNumber'><text>15969114 2403, 15969114 9009, 15969114 1171-12/05/02</text></item>
+<item name='InvoiceNumber'><text>81165054-12/11/02</text></item>
+<item name='Comments'><text/></item>
+<item name='ProjectSelection1'><text>4340013 PR - Metals</text></item>
+<item name='LastProjectSelected'><text>4340013 PR - Metals</text></item>
+<item name='SaveOptions'><text>1</text></item>
+<item name='CategoriesAllowed'><text/></item>
+<item name='PI' names='true'><text>Pat Rasmussen</text></item>
+<item name='SectionHead' names='true'><text>Renaud Vincent</text></item>
+<item name='Printed'><text>Yes</text></item>
+<item name='DefaultBillTo' names='true'><text>Pierre Gougeon</text></item>
+<item name='d_RefNumber'><text>GD/CD-20020600</text></item>
+<item name='RefNumber'><text>20020600</text></item>
+<item name='FinCategory'><text>Operating</text></item>
+<item name='FinCode'><text>831503 04007 A220 4340013</text></item>
+<item name='IssueDate'><datetime>20021129</datetime></item>
+<item name='IssueDate_1'><text>November 29, 2002</text></item>
+<item name='SignAuth'><text/></item>
+<item name='Estimate'><number>1521.55284</number></item>
+<item name='ShipTo' names='true'><text>Monique Lanouette</text></item>
+<item name='PhoneNumber'><text>(613) 957-7893</text></item>
+<item name='InvName' names='true'><text>Pierre Gougeon</text></item>
+<item name='InvTel'><text>(613) 957-3968</text></item>
+<item name='Locator'><text>6302A</text></item>
+<item name='FaxNumber'><text>(613) 952-9071</text></item>
+<item name='InvPL'><text>0803C</text></item>
+<item name='InvFax'><text>(613) 946-2600</text></item>
+<item name='Building'><text>Radiation Protection Building,  (No. 63)</text></item>
+<item name='Building2'><text>775 Brookfield</text></item>
+<item name='InvBuilding'><text>Environmental Health Centre,  (No. 08)</text></item>
+<item name='InvBuilding2'><text>Tunney's Pasture</text></item>
+<item name='City'><text>Ottawa</text></item>
+<item name='InvCity'><text>Ottawa</text></item>
+<item name='Province'><text>Ontario</text></item>
+<item name='InvProvince'><text>Ontario</text></item>
+<item name='PostCode'><text>K1A 1C1</text></item>
+<item name='InvPostCode'><text>K1A 0L2</text></item>
+<item name='i1PriceTot'><number>217.48</number></item>
+<item name='i2PriceTot'><number>262.84</number></item>
+<item name='i3PriceTot'><number>336.6</number></item>
+<item name='i4PriceTot'><number>257.58</number></item>
+<item name='i5PriceTot'><number>52.56</number></item>
+<item name='i6PriceTot'><number>57.95</number></item>
+<item name='i7PriceTot'><number>0</number></item>
+<item name='i8PriceTot'><number>0</number></item>
+<item name='i9PriceTot'><number>0</number></item>
+<item name='i10PriceTot'><number>0</number></item>
+<item name='i11PriceTot'><number>0</number></item>
+<item name='i12PriceTot'><number>0</number></item>
+<item name='i13PriceTot'><number>0</number></item>
+<item name='i14PriceTot'><number>0</number></item>
+<item name='i15PriceTot'><number>0</number></item>
+<item name='i16PriceTot'><number>0</number></item>
+<item name='i17PriceTot'><number>0</number></item>
+<item name='i18PriceTot'><number>0</number></item>
+<item name='i19PriceTot'><number>0</number></item>
+<item name='i20PriceTot'><number>0</number></item>
+<item name='TotPrice'><number>1185.01</number></item>
+<item name='TotCost'><number>1185.01</number></item>
+<item name='TotCostTaxed'><number>1185.01</number></item>
+<item name='AdminAuthors' authors='true' names='true'><text>[Admin]</text></item>
+<item name='Readers' names='true' readers='true'><textlist><text>LNOG_HECS</text><text
+>Cranston Snord</text><text>CN=APP03/OU=HC-SC/O=GC/C=CA</text><text>Pat Rasmussen</text><text
+>Renaud Vincent</text><text>Josee Guenette</text><text>Pat Goegan</text><text
+>Cranston Snord</text><text>DJ MacIntyre</text><text>Gerald Horula</text><text
+>Cranston Snord</text><text>Cranston Snord</text><text>Dian Calagoure</text><text
+>Dian Sinclair</text></textlist></item>
+<item name='Authors' authors='true' names='true'><textlist><text>LNOG_HECS</text><text
+>Cranston Snord</text><text>CN=APP03/OU=HC-SC/O=GC/C=CA</text><text>Pat Rasmussen</text><text
+>Renaud Vincent</text><text>Cranston Snord</text><text>Cranston Snord</text><text
+>Dian Calagoure</text><text>Dian Sinclair</text></textlist></item></document>
+

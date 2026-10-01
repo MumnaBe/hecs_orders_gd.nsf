@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='Card Holder Lookup' alias='CHL' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' unreadmarks='none' onopengoto='top' onrefresh='displayindicator'
+ headers='beveled' opencollapsed='true' showresponsehierarchy='true' showmargin='true'
+ shrinkrows='false' extendlastcolumn='false' showhierarchies='false' unreadcolor='black'
+ rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white' altrowcolor='#e0f1ff'
+ totalscolor='gray' uniquekeys='false'>
+<noteinfo noteid='2ce' unid='D9C463EE4E1CA72785256B05004A428C' sequence='21'>
+<created><datetime>20011115T083107,00-05</datetime></created>
+<modified><datetime dst='true'>20260917T084243,52-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143123,31-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T091600,51-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084243,51-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form="CardHolders"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle/>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"AdminF";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='' icon='61'><code event='click'><formula>@Environment("HECS_Language";"E");
+@Command([OpenNavigator];"Admin";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='New Cardholder' icon='129' showinmenu='false'><code event='click'><formula
+>@Command([Compose]; "":"";"CardHolders")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Nouveau Titulaire' icon='129' showinmenu='false'><code event='click'><formula
+>@Command([Compose]; "":"";"CardHolders")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='CardTypes' width='2'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' categorized='true' twisties='true'><font color='navy'
+ style='bold'/><columnheader><font size='9pt' style='bold'/></columnheader></column>
+<column sort='ascending' hidedetailrows='false' itemname='CardholderName'
+ width='16' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><columnheader title='Card Holder/Titulaire de carte'><font
+ size='9pt' style='bold'/></columnheader></column></view>
+

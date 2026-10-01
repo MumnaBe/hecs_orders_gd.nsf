@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='9be' unid='03857B406B76ED4285256E16005249E0' sequence='9'>
+<created><datetime>20040109T095848,64-05</datetime></created>
+<modified><datetime dst='true'>20260917T084255,02-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074807,09-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084255,01-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084255,01-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20040109T100255,62-05</datetime><datetime>20040109T100257,02-05</datetime><datetime
+>20040109T100303,68-05</datetime><datetime>20040109T100325,27-05</datetime><datetime
+>20040109T100400,77-05</datetime><datetime>20040109T100536,51-05</datetime><datetime
+>20040109T100557,18-05</datetime><datetime dst='true'>20090902T074401,29-04</datetime></revisions>
+<item name='CompName'><text>C.L.A. Personnel</text></item>
+<item name='CompPhone'><text>613-567-0045</text></item>
+<item name='CompAddress'><text>424 C Queen Street</text></item>
+<item name='CompFax'><text>613-567-0049</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Rachel Proulx</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Isabelle</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>K1R 5A8</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>EN537-8-4015/003/ZF</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>3056058 Canada Inc.</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.clapersonnel.ca</text></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

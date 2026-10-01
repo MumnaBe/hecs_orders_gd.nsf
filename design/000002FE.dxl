@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='Administration\ Designer Note' alias='Designer Note' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' nocompose='true'
+ publicaccess='false'>
+<noteinfo noteid='2fe' unid='451EA381FC8A93C885256B610057EAE9' sequence='7'>
+<created><datetime>20020215T110017,69-05</datetime></created>
+<modified><datetime dst='true'>20260917T084244,36-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143124,01-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084244,35-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084244,35-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='windowtitle'><formula>@If(@IsNewDoc;"New Document"; Element)</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle/>
+<action title='' icon='61' hide='web'><code event='click'><formula>@Environment("HECS_Language";"E");
+@Command([RefreshHideFormulas])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") != "F"</formula></code></action>
+<action title='' icon='62' hide='web'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([RefreshHideFormulas])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/></actionbar>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'><run><font size='18pt' color='navy' style='bold underline' name='Arial Black'
+ pitch='variable' truetype='true' familyid='20'/>Designers Log</run></par>
+<par def='1'><run><font size='9pt' color='yellow' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<table user4spacing='true' widthtype='fitmargins' cellborderstyle='ridge'
+ refwidth='9.8431in'><tablecolumn width='14.1458%'/><tablecolumn width='85.8507%'/>
+<tablerow>
+<tablecell bgcolor='silver'>
+<pardef id='2' leftmargin='1.0597in' rightmargin='2.3646in' keepwithnext='true'
+ keeptogether='true'/>
+<par def='2'><run><font size='9pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Name:</run></par></tablecell>
+<tablecell>
+<pardef id='3' leftmargin='2.4201in' rightmargin='10.8153in' keepwithnext='true'
+ keeptogether='true'/>
+<par def='3'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='names' kind='computedwhencomposed' name='DesignerName'><code
+ event='defaultvalue'><formula>@Name([CN];@UserName)</formula></code></field></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell bgcolor='silver'>
+<par def='2'><run><font size='9pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Date:</run></par></tablecell>
+<tablecell>
+<par def='3'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='datetime' kind='computedwhencomposed' name='DateCreated'><datetimeformat
+ show='date' date='yearmonthday' time='hourminutesecond' zone='never'/><code
+ event='defaultvalue'><formula>@Today</formula></code></field></run><run><font
+ size='9pt' style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell bgcolor='silver'>
+<pardef id='4' leftmargin='1.0597in' rightmargin='2.3646in' spacebefore='1.5'
+ keepwithnext='true' keeptogether='true'/>
+<par def='4'><run><font size='9pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Design Element:</run></par></tablecell>
+<tablecell>
+<pardef id='5' leftmargin='2.4201in' rightmargin='10.8153in' spacebefore='1.5'
+ keepwithnext='true' keeptogether='true'/>
+<par def='5'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='keyword' kind='editable' name='Element'><keywords
+ ui='dialoglist' allownew='true'><formula>@DbColumn("":"NoCache";@DbName;"DesignerNotes";1)</formula></keywords></field></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell bgcolor='silver'>
+<par def='4'><run><font size='9pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Subject:</run></par></tablecell>
+<tablecell>
+<pardef id='6' leftmargin='2.4333in' rightmargin='10.8153in' spacebefore='1.5'
+ keepwithnext='true' keeptogether='true'/>
+<par def='6'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='text' kind='editable' name='Subject'/></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font size='9pt' color='yellow' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<table user4spacing='true' widthtype='fitmargins' cellborderstyle='ridge'
+ refwidth='9.8424in'><tablecolumn width='33.1667%'/><tablecolumn width='33.1667%'/><tablecolumn
+ width='33.6632%'/>
+<tablerow>
+<tablecell bgcolor='silver'>
+<pardef id='7' leftmargin='1.0597in' rightmargin='4.2368in' keepwithnext='true'
+ keeptogether='true'/>
+<par def='7'><run><font size='9pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Modifications:</run></par></tablecell>
+<tablecell bgcolor='silver'>
+<pardef id='8' leftmargin='4.2924in' rightmargin='7.5014in' keepwithnext='true'
+ keeptogether='true'/>
+<par def='8'><run><font size='9pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Reasons:</run></par></tablecell>
+<tablecell bgcolor='silver'>
+<pardef id='9' leftmargin='7.5569in' rightmargin='10.8146in' keepwithnext='true'
+ keeptogether='true'/>
+<par def='9'><run><font size='9pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Results:</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='7'><run><font size='9pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run><run><font size='9pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><field type='text' kind='editable' name='Modifications'/></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='8'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='text' kind='editable' name='Reasons'/></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<pardef id='10' leftmargin='7.5701in' rightmargin='10.8146in' keepwithnext='true'
+ keeptogether='true'/>
+<par def='10'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='text' kind='editable' name='Results'/></run><run
+><font size='9pt' name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font size='9pt' color='yellow' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<table user4spacing='true' widthtype='fitmargins' cellborderstyle='ridge'
+ refwidth='9.8438in'><tablecolumn width='100%'/>
+<tablerow>
+<tablecell bgcolor='silver'>
+<pardef id='11' leftmargin='1.0278in' rightmargin='10.8160in' keepwithnext='true'
+ keeptogether='true'/>
+<par def='11'><run><font size='9pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Comments:</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<pardef id='12' leftmargin='1.0444in' rightmargin='10.8160in' keepwithnext='true'
+ keeptogether='true'/>
+<par def='12'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='richtext' kind='editable' name='Body'/></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font size='9pt' color='yellow' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font size='9pt' color='yellow' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par></richtext></body>
+<item name='$Readers'><textlist><text>LNOG_HECS</text><text>[Admin]</text><text
+>[LNOG Admin]</text></textlist></item>
+<item name='$FormUsers'><textlist><text>LNOG_HECS</text><text>[Admin]</text><text
+>CN=Robert Azzi/OU=HC-SC/O=GC/C=CA</text><text>[LNOG Admin]</text></textlist></item>
+<item name='$$ScriptName' summary='false' sign='true'><text> Designer Note</text></item></form>
+

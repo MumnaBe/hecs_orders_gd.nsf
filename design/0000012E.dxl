@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='Gerald - Ref Number Change (LS)' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='5' private='true'>
+<noteinfo noteid='12e' unid='3203870A0897A5E585256DD4004A6569' sequence='6'>
+<created><datetime>20031104T083236,25-05</datetime></created>
+<modified><datetime dst='true'>20260917T084235,62-04</datetime></modified>
+<revised><datetime dst='true'>20060719T075419,65-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084235,61-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084235,61-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime>20041221T113258,26-05</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dc As notesdocumentcollection
+	
+	Dim doc As notesdocument
+	
+	Set db=s.currentdatabase
+	Set dc=db.UnprocessedDocuments
+	Set doc=dc.GetFirstDocument
+	While Not (doc Is Nothing)
+		doc.refNumber=Cstr("04")+Right$(refNumber, 4)
+		doc.Save True, True
+		Set doc=dc.GetNextDocument(doc)
+	Wend
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0' agentdata='5F164EF44DFAF00885256F71005AECF6'>
+<agentmodified><datetime>20041221T113245,14-05</datetime></agentmodified>
+<agentrun><datetime>20041221T113357,82-05</datetime></agentrun>
+<runlog>Started running agent 'Gerald - Ref Number Change (LS)' on 2004-12-21 11:33:57 AM
+Running on selected documents: 1 total
+Found 1 document(s) that match search criteria
+Ran LotusScript code
+Done running agent 'Gerald - Ref Number Change (LS)' on 2004-12-21 11:33:57 AM
+</runlog></rundata></agent>
+

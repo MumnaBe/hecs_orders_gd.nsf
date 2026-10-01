@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='d42' unid='14BF0D57EC4F332985256BEB005F09DD' sequence='4'>
+<created><datetime dst='true'>20020703T131804,45-04</datetime></created>
+<modified><datetime dst='true'>20260917T084310,02-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074926,46-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084310,01-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084310,01-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,47-04</datetime><datetime
+>20021104T141458,35-05</datetime><datetime dst='true'>20090902T074458,57-04</datetime></revisions>
+<item name='CompName'><text>Molecular Research Center, Inc.</text></item>
+<item name='CompAddress'><text>5645 Montgomery Rd</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Cincinnati</text></item>
+<item name='CompProvince'><text>OH</text></item>
+<item name='CompPostalCode'><text>45212</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>(513) 841-0900 1-800-462-9868</text></item>
+<item name='CompFax'><text>(513) 841-0080</text></item>
+<item name='PurchContact'><text>Marcia Combs</text></item>
+<item name='InvContact'><text>Marcia Combs</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>23461</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>mrc@mrcgene.com</text></item>
+<item name='CompWeb'><text>www.mrcgene.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

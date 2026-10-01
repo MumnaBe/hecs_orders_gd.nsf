@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='1a7e' unid='559B0FDFB1822DE385256CB7004A838D' sequence='5'>
+<created><datetime>20030123T083353,41-05</datetime></created>
+<modified><datetime dst='true'>20260917T084406,77-04</datetime></modified>
+<revised><datetime dst='true'>20050401T101555,49-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084406,76-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084406,76-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20030123T083429,49-05</datetime><datetime>20030123T084033,23-05</datetime><datetime
+>20030123T084555,96-05</datetime><datetime>20030123T085436,26-05</datetime></revisions>
+<item name='Category'><text>Capital</text></item>
+<item name='SPA'><text>Yes</text></item>
+<item name='FundingSource'><text>Proteomics (George Douglas)</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text> </text></item>
+<item name='GLAccount'><text>None (do not use)</text></item>
+<item name='ProgActiv'><text>None (do not use)</text></item>
+<item name='IntOrd'><text>001 - Proteomics fund (GD)</text></item></document>
+

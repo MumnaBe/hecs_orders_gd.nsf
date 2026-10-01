@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='Tool\Old Order\ConvertToNewOrderForm' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='6.5' comment='July 2009 - ADR 3550'>
+<noteinfo noteid='3de' unid='6A0F26E102F85C2F852575EB0046810F' sequence='14'>
+<created><datetime dst='true'>20090706T085005,59-04</datetime></created>
+<modified><datetime dst='true'>20260917T084249,52-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,55-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084249,51-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084249,51-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134342,02-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='action'>
+<simpleaction action='runformula'><formula>REM{2009-07-03, ADR 3550, JML};
+
+REM{This agent runs on selected documents and is visible in the Action Menu for the users with the role LNOG Admin};
+
+REM{This agent should be used to processed selected document by the users with the role 'LNOG Admin'. If the form is 'OrderTracking', the document will be converted to 'NewOrderForm'
+History: in 2008 or 2009, something was made to convert the OrderForm to NewOrderForm, but several buttons to create orders continued to create documents using the old form.   The release of July 2009 (ADR 3550) needed to recalculate the budget for the projects and therefore needed all orders for FY 2009-10 to be NewOrderForm.};
+
+REM{If the form is OrderForm, then we change the form name and we make sure the 20 rows of items are displayed.  The other fields on the NewOrderForm do not have to be set now, they will be populated when the document will be used and saved.};
+
+@If(form = "OrderForm";
+  @Do(
+    @SetField("Form"; "NewOrderForm");
+    @SetField("Add"; "2"));
+  "");
+SELECT @All</formula></simpleaction></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20090805T083004,24-04</datetime></agentmodified></rundata>
+<item name='$Readers' sign='true' readers='true'><text>[LNOG Admin]</text></item>
+<item name='$POID'><datetime dst='true'>20090805T083024,44-04</datetime></item></agent>
+

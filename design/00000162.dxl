@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='DocNumbering' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3 v4' publicaccess='false'
+ designerversion='6.5' restrictions='unrestricted'>
+<noteinfo noteid='162' unid='1BFDF7CE9689DD5285256B9D005FAA1F' sequence='14'>
+<created><datetime dst='true'>20020416T132454,71-04</datetime></created>
+<modified><datetime dst='true'>20260917T084236,73-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134326,94-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084236,72-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084236,72-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,48-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='modified'/><code event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim v As notesview
+	Dim doc As notesdocument
+	Dim uidoc As notesuidocument
+	Dim dc As notesview
+	Dim projdoc As notesdocument
+	Dim somevar As Variant
+	Dim y, m As Integer
+	Dim ref As Long
+	Dim d As String
+	Dim ws As New notesuiworkspace
+	
+	Set db = s.CurrentDatabase
+	Set uidoc = ws.CurrentDocument
+	Set v = db.Getview("AllLookup")
+	Set doc = v.GetFirstDocument     
+	Set dc = db.GetView("PV")
+	
+	If (doc Is Nothing) Then   ' there are no order documents in the database
+		y = Year(Today())
+		m = Month(Today())
+		If (m = 1) Or (m = 2) Or (m = 3) Then   ' get number for last year since we are working with the fiscal year and not the calendar year
+			y = y - 1
+		End If               
+		d = Right$(Cstr(y),2) &amp; "0001"
+		Call uidoc.FieldSetText("RefNumber", d)
+	Else
+		somevar = doc.RefNumber
+		If somevar(0) = "" Then somevar(0) = "0000"
+		y = Year(Today())   ' get the current year (integer)
+		m = Month(Today())
+		If (m=1) Or (m=2) Or (m=3) Then
+			y = y - 1
+		End If
+		d = Left$(Right$(somevar(0),6), 2)   ' get the year from the last order (string)
+		If d = "" Then d = Right$(Cstr(y),2)
+		If Cint(Right$(y,2)) = Cint(d) Then   ' if we're still in the same year
+			ref = Clng(somevar(0)) + 1   ' then add one to the last order reference number
+			Call uidoc.FieldSetText("RefNumber", Right$("00000"&amp;Cstr(ref),6))
+		Else   ' the year has changed
+			d = Right$(Cstr(y),2) &amp; "0001"   ' start a new count with for the new year
+			Call uidoc.FieldSetText("RefNumber", d)
+		End If
+	End If       
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0' agentdata='21E424DA7CE22568852575D90047D895'>
+<agentmodified><datetime dst='true'>20090710T130817,98-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20090807T135430,43-04</datetime></agentrun>
+<runlog>Started running agent 'DocNumbering' on 2009-08-07 01:54:29 PM
+Running on new or modified documents: 1161 total
+Found 1161 document(s) that match search criteria
+Ran LotusScript code
+Done running agent 'DocNumbering' on 2009-08-07 01:54:30 PM
+</runlog></rundata>
+<item name='$POID'><datetime dst='true'>20090612T145547,35-04</datetime></item></agent>
+

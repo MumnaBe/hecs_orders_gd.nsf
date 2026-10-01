@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1446' unid='35F790CEA513902585256CE6004C5F30' sequence='6'>
+<created><datetime dst='true'>20030311T095411,04-04</datetime></created>
+<modified><datetime dst='true'>20260917T084340,07-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074937,49-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084340,06-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084340,06-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20030311T100300,04-04</datetime><datetime
+ dst='true'>20030624T112111,50-04</datetime><datetime dst='true'>20030624T112115,44-04</datetime><datetime
+>20041208T155722,87-05</datetime><datetime dst='true'>20090902T074511,31-04</datetime></revisions>
+<item name='CompName'><text>Exergy,LLC</text></item>
+<item name='CompPhone'><text>516-832-9300</text></item>
+<item name='CompAddress'><text>320 Endo Blvd.,</text></item>
+<item name='CompFax'><text>516-832-9304</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Ed Loring</text></item>
+<item name='CompCity'><text>Garden City</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>NY</text></item>
+<item name='CompPostalCode'><text>11530</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text>none</text></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>eloring@exergyinc.com or Exergy@ExergyLLC.com</text></item>
+<item name='CompWeb'><text>http://www.ExergyLLC.com</text></item>
+<item name='comment'><text>sell heat exchangers. Acquired by Hughes-Treitler Mfg. Corp., June 16,2003.</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

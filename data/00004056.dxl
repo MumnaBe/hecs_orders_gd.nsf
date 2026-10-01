@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='4056' unid='D10D8EF1D8D6296885257233005043FE' sequence='5'>
+<created><datetime>20061127T093642,86-05</datetime></created>
+<modified><datetime dst='true'>20260917T084718,94-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074851,01-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084718,93-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084718,93-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20061127T093820,40-05</datetime><datetime>20061127T093837,59-05</datetime><datetime
+>20061220T145704,84-05</datetime><datetime dst='true'>20090902T074623,90-04</datetime></revisions>
+<item name='CompName'><text>APC - American Power Conversion</text></item>
+<item name='CompPhone'><text>1-800-800-4272</text></item>
+<item name='CompAddress'><text>132 Fairgrounds Rd</text></item>
+<item name='CompFax'><text>401-789-3180</text></item>
+<item name='CompPO'><text>278</text></item>
+<item name='PurchContact'><text>Eric Due</text></item>
+<item name='CompCity'><text>West Kingston</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Rhode Island</text></item>
+<item name='CompPostalCode'><text>02892</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text>.</text></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text>Heidi Thompson</text></item>
+<item name='CompEmail'><text>heidi.thompson@apcc.com</text></item>
+<item name='CompWeb'><text>www.apc.com</text></item>
+<item name='comment'><text>American Power Conversion Corporation - (APC as logo)</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

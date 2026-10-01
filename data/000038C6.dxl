@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='38c6' unid='E9813070B22BD69D85256CC3003EBD45' sequence='5'>
+<created><datetime>20030204T062516,85-05</datetime></created>
+<modified><datetime dst='true'>20260917T084632,49-04</datetime></modified>
+<revised><datetime>20140213T084129,81-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084632,48-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084632,48-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20030204T062621,60-05</datetime><datetime dst='true'>20030318T101353,08-04</datetime><datetime
+ dst='true'>20090902T074613,20-04</datetime><datetime dst='true'>20090902T074844,53-04</datetime></revisions>
+<item name='CompName'><text>Bruker Daltonics</text></item>
+<item name='CompPhone'><text>905-876-4641</text></item>
+<item name='CompAddress'><text>555 Steeles Ave East</text></item>
+<item name='CompFax'><text>905-876-4421</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>A. Zaidan</text></item>
+<item name='CompCity'><text>Milton</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>L9T 1Y6</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>sales rep Mike MacDonald 604-726-7299</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20030204T062516,85-05</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><text>Dian Sinclair</text></item>
+<item name='edit_history_1'><text>2014-02-13 08:41:29 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Dian Sinclair;</text></item></document>
+

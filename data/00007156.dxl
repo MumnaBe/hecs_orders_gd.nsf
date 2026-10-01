@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='7156' unid='6BA3DAB7576E781385257CB5004A9BC9' sequence='1'>
+<created><datetime dst='true'>20140409T093455,45-04</datetime></created>
+<modified><datetime dst='true'>20260917T085144,42-04</datetime></modified>
+<revised><datetime dst='true'>20140409T093912,87-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085144,41-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085144,41-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CodeNumber'><text>8R1501</text></item>
+<item name='GLAccount'><textlist><text>Books Newspapers and Magazines</text><text
+>Clothing Other Than Uniforms</text><text>Conference Fees</text><text>Courier Services Incl Canada Post Priority Post</text><text
+>Electronic Subscriptions</text><text>Fees and Costs of Attending Seminars or Workshops</text><text
+>Fodder and Other Animal Feeds</text><text>Gasoline Products</text><text>Health Science Consultants</text><text
+>Inorganic &amp; Organic Chemicals</text><text>Interest Service Charges &amp; Other Penalty Charges </text><text
+>Laboratory Services other than Health and Welfare (Operon IDT DNA)</text><text
+>Laboratory Services (Contracts or Services)</text><text>Laboratory Supplies</text><text
+>Laundry Dry Cleaning and Other Related Services</text><text>Legal Services (Patents)</text><text
+>License/Maintenance Fees Client Software</text><text>Live Animals</text><text
+>Membership Fees</text><text>Non-Anesthetic Gases</text><text>PERD G/L</text><text
+>Printing Services</text><text>Publishing Services</text><text>R &amp; M Computer Equipment and Parts</text><text
+>R &amp; M Computer Hardware and Software</text><text>R &amp; M Electric Lighting &amp; Control Equipment</text><text
+>R &amp; M Furniture and Fixtures</text><text>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text
+>R &amp; M Laboratory Buildings</text><text>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text
+>R &amp; M Office Machines and Equipment</text><text>R &amp; M Safety Alarm and Signal Equipment</text><text
+>R &amp; M Telecommunications Equipment</text><text>Rental of Digital Communications/Network Equipment (Rogers)</text><text
+>Research Contracts</text><text>Seminars or Workshops Non-Taxable</text><text
+>Staff Language Training</text><text>Stationery Office Supplies and Artists' Materials</text><text
+>Temporary Help Services Acquired for General Help</text><text>Training Packages and Courses Purchased  for Staff</text><text
+>Translation Service</text><text>Travel Public Servants Abroad </text><text
+>Travel Public Servants Conference all Locations</text><text>Travel Public Servants Local Transportation</text><text
+>Travel Public Servants Training all Locations</text><text>Travel Public Servants United States of America</text><text
+>Travel Public Servants Within Canada</text><text>Tuition Fees and Related Costs During Own Time</text><text
+>Tuition Fees and Related Costs During Paid Time</text></textlist></item>
+<item name='ProgActiv'><text>GK10 - Research and Development</text></item>
+<item name='IntOrd'><text>810530 Carbon Nanotubes 2014-2015</text></item>
+<item name='org_author' names='true'><text>Dian Sinclair</text></item>
+<item name='date_create'><datetime dst='true'>20140409T093455,45-04</datetime></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

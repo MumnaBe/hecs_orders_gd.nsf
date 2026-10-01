@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2dfe' unid='B6917305C468277485256C77004840E8' sequence='6'>
+<created><datetime>20021120T080912,08-05</datetime></created>
+<modified><datetime dst='true'>20260917T084534,00-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074835,35-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084533,99-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084533,99-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20021120T081115,88-05</datetime><datetime>20021120T081355,02-05</datetime><datetime
+>20051212T112406,82-05</datetime><datetime>20051212T112432,73-05</datetime><datetime
+ dst='true'>20090902T074557,28-04</datetime></revisions>
+<item name='CompName'><text>American Physiological Society(The)</text></item>
+<item name='CompPhone'><text>(301) 634-7171</text></item>
+<item name='CompAddress'><text>9650 Rockville Pike</text></item>
+<item name='CompFax'><text>(301) 634-7241</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Membership Services</text></item>
+<item name='CompCity'><text>Bethesda</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Maryland</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>20814-3991</text></item>
+<item name='CompCountry'><text>United States</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Vendor Code: 0001134195</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2c1e' unid='ACA5317DB9A4A0518525705F004D952C' sequence='5'>
+<created><datetime dst='true'>20050816T100724,60-04</datetime></created>
+<modified><datetime dst='true'>20260917T084524,72-04</datetime></modified>
+<revised><datetime dst='true'>20230607T121639,78-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084524,71-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084524,71-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050816T100932,93-04</datetime><datetime
+ dst='true'>20050816T101001,68-04</datetime><datetime dst='true'>20090902T074553,37-04</datetime><datetime
+ dst='true'>20090902T075014,62-04</datetime></revisions>
+<item name='CompName'><text>Oxford University Press, USA</text></item>
+<item name='CompPhone'><text>1-800-387-8020</text></item>
+<item name='CompAddress'><text>2001 Evans Road,</text></item>
+<item name='CompFax'><text>(919) 677-1714</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Cary,</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>NC</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>27513</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050816T100724,60-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:16:44 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

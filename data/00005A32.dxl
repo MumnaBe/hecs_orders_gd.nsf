@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='5a32' unid='A782974C176BD3448525772F004303C3' sequence='6'>
+<created><datetime dst='true'>20100526T081158,75-04</datetime></created>
+<modified><datetime dst='true'>20260917T084947,37-04</datetime></modified>
+<revised><datetime dst='true'>20180510T101332,96-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084947,36-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084947,36-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20100526T081646,81-04</datetime><datetime
+ dst='true'>20100527T152320,63-04</datetime><datetime dst='true'>20100909T131248,14-04</datetime><datetime
+ dst='true'>20100924T113645,35-04</datetime><datetime dst='true'>20110909T113523,08-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100924T113645,86-04</datetime></item>
+<item name='CompName'><text>Lyreco Office Products</text></item>
+<item name='CompPhone'><text>877-597-3261 Ext. 3300</text></item>
+<item name='CompAddress'><text>875 Middlefield Road</text></item>
+<item name='CompFax'><text>866-399-9990</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Gordon Young</text></item>
+<item name='CompCity'><text>Scarborough</text></item>
+<item name='InvContact'><text>Gordon Young</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>M1V 4Z5</text></item>
+<item name='VISA_FR'><text>Non</text></item>
+<item name='CompCountry'><text>CAD</text></item>
+<item name='AcctNumber'><text>70335002</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Acct. Rec. Contact - Pierre Easton 1-800-661-4738 Ext 224</text></item>
+<item name='CompEmail'><text>gordon.young@lyreco.com</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20100526T081158,75-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Josee Guenette</text><text
+>Dian Calagoure</text><text>Dian Calagoure</text><text>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2018-05-10 10:13:33 AM</text><text
+>09-09-2011 11:35:22</text><text>2010-09-24 11:36:45 AM</text><text>2010-09-09 01:12:59 PM</text><text
+>2010-05-27 03:23:22 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Josee Guenette;</text><text
+>Dian Calagoure;</text><text>Dian Calagoure;</text><text>Dian Calagoure;</text></textlist></item></document>
+

@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE sharedactions>
+<sharedactions xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' hide='v3 v4strict' designerversion='8.5' maxid='8'>
+<noteinfo noteid='376' unid='72D10C72BFBAF56585257328004A1FC0' sequence='28'>
+<created><datetime dst='true'>20070730T092937,92-04</datetime></created>
+<modified><datetime dst='true'>20260917T084247,13-04</datetime></modified>
+<revised><datetime dst='true'>20110728T142639,27-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084247,12-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084247,12-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Rola Abdul-Nour/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<action title='Place Order' id='1'><code event='click'><formula>@Command([Compose]; "":"";"NewOrderForm")</formula></code></action>
+<action title='Placer une commande' icon='29' id='2'><code event='click'><formula
+>@Command([Compose]; "":"";"NewOrderForm")</formula></code></action>
+<action title='Copy Existing Order' icon='28' showinmenu='false' id='3'><code
+ event='click'><lotusscript>Sub Click(Source As Button)
+	
+	'*************************************************************************************
+	' This English Button is used in the Order views to create new Order documents 
+	' It imports data from the selected Order document in the view.
+	' This Shared Button has been created on 2009-05-13 by JML for ADR #3550.  
+	' This button replaces an equivalent  button where the code was copied into many views.
+	'*************************************************************************************
+	On Error Goto handler
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dc As notesdocumentcollection
+	Dim doc As notesdocument
+	Dim newdoc As notesdocument
+	Dim uidoc As notesuidocument
+	Dim descitem As notesitem
+	
+	' Get a list of all unprocessed documents and make sure one and only one is selected
+	Set db=s.currentdatabase
+	Set dc=db.UnprocessedDocuments
+	Set doc=dc.GetFirstDocument
+	If doc Is Nothing Or dc.Count &gt; 1 Then
+		Messagebox "Please ensure that you have one (and only one) document selected."
+		Set doc = Nothing
+		Goto handler
+	End If
+	
+	' Compose a new "New Order Form" document
+	Set uidoc=ws.ComposeDocument(db.Server, db.FilePath, "New Order Form")
+	Set newdoc=uidoc.Document
+	
+	' Populate a few fields from the original Order into the new Order.
+	Call uidoc.FieldSetText("CompleteFinancialCode", doc.CompleteFinancialCode(0))
+	Call uidoc.FieldSetText("Category", doc.Category(0))
+	Call uidoc.FieldSetText("HideCount", Cstr(doc.HideCount(0)))
+	Call uidoc.FieldSetText("ProjectSelection", Cstr(doc.ProjectSelection(0)))
+	Call uidoc.FieldSetText("FinCategory", Cstr(doc.FinCategory(0)))
+	
+	' Not reassigning the same Financial Code - user must generate new one
+	'Call uidoc.FieldSetText("FinCode", Cstr(doc.FinCode(0)))
+	
+	Call uidoc.FieldSetText("PurchaseType", Cstr(doc.PurchaseType(0)))
+	Call uidoc.FieldSetText("CardHolder", Cstr(doc.CardHolder(0)))
+	Call uidoc.FieldSetText("SignAuth", Cstr(doc.SignAuth(0)))
+	Call uidoc.FieldSetText("ShipTo", Cstr(doc.ShipTo(0)))
+	Call uidoc.FieldSetText("Locator", Cstr(doc.Locator(0)))
+	Call uidoc.FieldSetText("Building", Cstr(doc.Building(0)))
+	Call uidoc.FieldSetText("Building2", Cstr(doc.Building2(0)))
+	Call uidoc.FieldSetText("City", Cstr(doc.City(0)))
+	Call uidoc.FieldSetText("Room", Cstr(doc.Room(0)))
+	Call uidoc.FieldSetText("Floor", Cstr(doc.Floor(0)))
+	Call uidoc.FieldSetText("Province", Cstr(doc.Province(0)))
+	Call uidoc.FieldSetText("PostCode", Cstr(doc.PostCode(0)))
+	Call uidoc.FieldSetText("PhoneNumber", Cstr(doc.PhoneNumber(0)))
+	Call uidoc.FieldSetText("FaxNumber", Cstr(doc.FaxNumber(0)))
+	Call uidoc.FieldSetText("InvName", Cstr(doc.InvName(0)))
+	Call uidoc.FieldSetText("InvPL", Cstr(doc.InvPL(0)))
+	Call uidoc.FieldSetText("InvBuilding", Cstr(doc.InvBuilding(0)))
+	Call uidoc.FieldSetText("InvBuilding2", Cstr(doc.InvBuilding2(0)))
+	Call uidoc.FieldSetText("InvCity", Cstr(doc.InvCity(0)))
+	Call uidoc.FieldSetText("InvProvince", Cstr(doc.InvProvince(0)))     
+	Call uidoc.FieldSetText("InvPostCode", Cstr(doc.InvPostCode(0)))
+	Call uidoc.FieldSetText("InvTel", Cstr(doc.InvTel(0)))
+	Call uidoc.FieldSetText("InvFax", Cstr(doc.InvFax(0)))
+	Call uidoc.FieldSetText("CompanyName", Cstr(doc.CompanyName(0)))
+	Call uidoc.FieldSetText("AcctNumber", Cstr(doc.AcctNumber(0)))
+	Call uidoc.FieldSetText("CompPhone", Cstr(doc.CompPhone(0)))
+	Call uidoc.FieldSetText("CompFax", Cstr(doc.CompFax(0)))
+	Call uidoc.FieldSetText("Currency", Cstr(doc.Currency(0)))
+	
+	' Loop through the fields H1 to H20 and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("H" + Cstr(x))
+		Call uidoc.FieldSetText("H" + Cstr(x),Cstr(descitem.Values(0)))     
+	Next
+	
+     ' Loop through the fields I1Desc to I20Desc and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "desc")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"desc",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "Quant")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"Quant",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "PricePer")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"PricePer",Cstr(descitem.Values(0)))    
+	Next     
+	
+	Call uidoc.Refresh
+	
+handler:
+End Sub</lotusscript></code></action>
+<action title='Copier une commande' icon='28' showinmenu='false' id='4'><code
+ event='click'><lotusscript>Sub Click(Source As Button)
+	
+	'*************************************************************************************
+	' This "French" Button is used in the Order views to create new Order documents 
+	' It imports data from the selected Order document in the view.
+	' This Shared Button has been created on 2009-05-13 by JML for ADR #3550.  
+	' This button replaces an equivalent  button where the code was copied into many views.
+	'*************************************************************************************
+	On Error Goto handler
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dc As notesdocumentcollection
+	Dim doc As notesdocument
+	Dim newdoc As notesdocument
+	Dim uidoc As notesuidocument
+	Dim descitem As notesitem
+	
+	' Get a list of all unprocessed documents and make sure one and only one is selected
+	Set db=s.currentdatabase
+	Set dc=db.UnprocessedDocuments
+	Set doc=dc.GetFirstDocument
+	If doc Is Nothing Or dc.Count &gt; 1 Then
+		Messagebox "Veullier choisir seulement un document."
+		Set doc = Nothing
+		Goto handler
+	End If
+	
+	' Compose a new "New Order Form" document
+	Set uidoc=ws.ComposeDocument(db.Server, db.FilePath, "New Order Form")
+	Set newdoc=uidoc.Document
+	
+	' Populate a few fields from the original Order into the new Order.
+	Call uidoc.FieldSetText("CompleteFinancialCode", doc.CompleteFinancialCode(0))
+	Call uidoc.FieldSetText("Category", doc.Category(0))
+	Call uidoc.FieldSetText("HideCount", Cstr(doc.HideCount(0)))
+	Call uidoc.FieldSetText("ProjectSelection", Cstr(doc.ProjectSelection(0)))
+	Call uidoc.FieldSetText("FinCategory", Cstr(doc.FinCategory(0)))
+	
+	' Not reassigning the same Financial Code - user must generate new one
+	'Call uidoc.FieldSetText("FinCode", Cstr(doc.FinCode(0)))
+	
+	Call uidoc.FieldSetText("PurchaseType", Cstr(doc.PurchaseType(0)))
+	Call uidoc.FieldSetText("CardHolder", Cstr(doc.CardHolder(0)))
+	Call uidoc.FieldSetText("SignAuth", Cstr(doc.SignAuth(0)))
+	Call uidoc.FieldSetText("ShipTo", Cstr(doc.ShipTo(0)))
+	Call uidoc.FieldSetText("Locator", Cstr(doc.Locator(0)))
+	Call uidoc.FieldSetText("Building", Cstr(doc.Building(0)))
+	Call uidoc.FieldSetText("Building2", Cstr(doc.Building2(0)))
+	Call uidoc.FieldSetText("City", Cstr(doc.City(0)))
+	Call uidoc.FieldSetText("Room", Cstr(doc.Room(0)))
+	Call uidoc.FieldSetText("Floor", Cstr(doc.Floor(0)))
+	Call uidoc.FieldSetText("Province", Cstr(doc.Province(0)))
+	Call uidoc.FieldSetText("PostCode", Cstr(doc.PostCode(0)))
+	Call uidoc.FieldSetText("PhoneNumber", Cstr(doc.PhoneNumber(0)))
+	Call uidoc.FieldSetText("FaxNumber", Cstr(doc.FaxNumber(0)))
+	Call uidoc.FieldSetText("InvName", Cstr(doc.InvName(0)))
+	Call uidoc.FieldSetText("InvPL", Cstr(doc.InvPL(0)))
+	Call uidoc.FieldSetText("InvBuilding", Cstr(doc.InvBuilding(0)))
+	Call uidoc.FieldSetText("InvBuilding2", Cstr(doc.InvBuilding2(0)))
+	Call uidoc.FieldSetText("InvCity", Cstr(doc.InvCity(0)))
+	Call uidoc.FieldSetText("InvProvince", Cstr(doc.InvProvince(0)))     
+	Call uidoc.FieldSetText("InvPostCode", Cstr(doc.InvPostCode(0)))
+	Call uidoc.FieldSetText("InvTel", Cstr(doc.InvTel(0)))
+	Call uidoc.FieldSetText("InvFax", Cstr(doc.InvFax(0)))
+	Call uidoc.FieldSetText("CompanyName", Cstr(doc.CompanyName(0)))
+	Call uidoc.FieldSetText("AcctNumber", Cstr(doc.AcctNumber(0)))
+	Call uidoc.FieldSetText("CompPhone", Cstr(doc.CompPhone(0)))
+	Call uidoc.FieldSetText("CompFax", Cstr(doc.CompFax(0)))	
+	Call uidoc.FieldSetText("Currency", Cstr(doc.Currency(0)))
+	
+	' Loop through the fields H1 to H20 and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("H" + Cstr(x))
+		Call uidoc.FieldSetText("H" + Cstr(x),Cstr(descitem.Values(0)))     
+	Next
+	
+     ' Loop through the fields I1Desc to I20Desc and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "desc")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"desc",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "Quant")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"Quant",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "PricePer")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"PricePer",Cstr(descitem.Values(0)))    
+	Next     
+	
+	Call uidoc.Refresh
+	
+handler:
+End Sub</lotusscript></code></action>
+<action title='Exit' icon='112' id='5'><code event='click'><formula>@Command([FileCloseWindow])</formula></code></action>
+<action title='Sortie' icon='112' id='6'><code event='click'><formula>@Command([FileCloseWindow])</formula></code></action>
+<action title='' icon='61' id='7'><code event='click'><formula>@Environment("HECS_Language";"E");
+@Command([OpenNavigator];"Main - Current FY";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code></action>
+<action title='' icon='62' id='8'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"Mainf - Current FY";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code></action></sharedactions>
+

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='1266' unid='2D7A2047E6A1308B85256BEB005F0A93' sequence='15'>
+<created><datetime dst='true'>20020703T131806,27-04</datetime></created>
+<modified><datetime dst='true'>20260917T084331,96-04</datetime></modified>
+<revised><datetime dst='true'>20060531T145732,60-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084331,95-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084331,95-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Marco Spirito/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131806,49-04</datetime><datetime
+ dst='true'>20020722T124044,21-04</datetime><datetime dst='true'>20020722T124423,38-04</datetime><datetime
+>20021104T123006,51-05</datetime><datetime>20021104T123329,97-05</datetime><datetime
+>20021129T082703,84-05</datetime><datetime>20021129T100530,78-05</datetime><datetime
+ dst='true'>20050401T101602,76-04</datetime><datetime dst='true'>20050406T090140,85-04</datetime><datetime
+ dst='true'>20050407T114827,30-04</datetime><datetime dst='true'>20050706T154211,58-04</datetime><datetime
+>20060116T130500,97-05</datetime><datetime>20060208T074721,82-05</datetime><datetime
+ dst='true'>20060426T100117,12-04</datetime></revisions>
+<item name='Category'><text>Contract</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831503</text></item>
+<item name='GLAccount'><textlist><text>Engineering Consultants - Construction</text><text
+>Health Science Consultants</text><text>IT Specialized Consultants</text><text
+>Moving Expenses</text><text>R &amp; M Computer Equipment and Parts</text><text
+>R &amp; M Computer Hardware and Software</text><text>R &amp; M Electric Lighting &amp; Control Equipment</text><text
+>R &amp; M Furniture and Fixtures</text><text>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text
+>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text>R &amp; M Office Machines and Equipment</text><text
+>R &amp; M Safety Alarm and Signal Equipment</text><text>R &amp; M Telecommunications Equipment</text><text
+>Telecommunications Consultants</text><text>Engineering Consultants</text><text
+>Health Scientific Consultants</text><text>Other Consultants</text><text>Repair and Maintenance - Hardware and Software</text><text
+>Repair and Maintenance - Laboratories</text><text>Repairs and Maintenance -- Lab Equipment</text><text
+>Temporary Help Service</text></textlist></item>
+<item name='ProgActiv'><textlist><text>A3K1-General Admin.</text><text>A3K4-Financial Management &amp; Stewardship</text><text
+>A3K6-Continuous Improvement Programme Management</text></textlist></item>
+<item name='IntOrd'><text>4340440 ITA Section Manag - RV</text></item></document>
+

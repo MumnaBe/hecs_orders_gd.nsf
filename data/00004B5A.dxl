@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='4b5a' unid='D706B8C736894CA3852573CB0051074B' sequence='10'>
+<created><datetime>20080109T094502,83-05</datetime></created>
+<modified><datetime dst='true'>20260917T084826,06-04</datetime></modified>
+<revised><datetime dst='true'>20100325T130429,68-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084826,05-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084826,05-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20080109T094639,07-05</datetime><datetime dst='true'>20080424T082957,73-04</datetime><datetime
+ dst='true'>20080424T083113,80-04</datetime><datetime dst='true'>20080424T083136,46-04</datetime><datetime
+ dst='true'>20080424T083207,40-04</datetime><datetime dst='true'>20080424T083208,44-04</datetime><datetime
+ dst='true'>20080424T083420,05-04</datetime><datetime dst='true'>20080424T083428,80-04</datetime><datetime
+ dst='true'>20080424T083434,15-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100325T130430,90-04</datetime></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CodeNumber'><text>831570</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K  Safety Alarm and Signal Equipment</text><text
+>Acq&lt;10K Computer Equipment Parts</text><text>Acq&lt;10K Computer &amp; Related Peripheral Equip</text><text
+>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text><text>Acq&lt;10K Laptop and Related Peripheral Equip</text><text
+>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&lt;10K Office Furniture Furnishing &amp; Part</text><text
+>Acq&lt;10K Software Packages for Computers</text><text>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text><text>Electrical Supplies</text><text
+>Engineering Consultants - Construction</text><text>Enhanced Telecommunication Services</text><text
+>R &amp; M Computer Equipment and Parts</text><text>R &amp; M Computer Hardware and Software</text><text
+>R &amp; M Electric Lighting &amp; Control Equipment</text><text>R &amp; M Furniture and Fixtures</text><text
+>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text
+>R &amp; M Office Machines and Equipment</text><text>R &amp; M Safety Alarm and Signal Equipment</text><text
+>R &amp; M Telecommunications Equipment</text></textlist></item>
+<item name='ProgActiv'><textlist><text>A3Z3-Management</text><text>Oversight and Accountability</text></textlist></item>
+<item name='IntOrd'><text>4340579 - Bureau Renovation Projects</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20080109T094502,83-05</datetime></item>
+<item name='edit_history'><text>Dian Calagoure</text></item>
+<item name='edit_history_1'><text>2010-03-25 01:04:30 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Dian Calagoure;</text></item></document>
+

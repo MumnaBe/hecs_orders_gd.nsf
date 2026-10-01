@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='6092' unid='D21B342BF9B9CFB38525786B00656EBF' sequence='1'>
+<created><datetime dst='true'>20110407T142754,87-04</datetime></created>
+<modified><datetime dst='true'>20260917T085019,33-04</datetime></modified>
+<revised><datetime dst='true'>20110407T142821,54-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085019,32-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085019,32-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>GH10 - Research and Development</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>GH10</text></item>
+<item name='org_author' names='true'><text>Sameer Jetha</text></item>
+<item name='date_create'><datetime dst='true'>20110407T142754,87-04</datetime></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

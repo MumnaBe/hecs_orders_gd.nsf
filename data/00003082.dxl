@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='3082' unid='C0BAFA19BAC9A37D85256C13004CAFED' sequence='9'>
+<created><datetime dst='true'>20020812T095737,73-04</datetime></created>
+<modified><datetime dst='true'>20260917T084546,79-04</datetime></modified>
+<revised><datetime dst='true'>20090806T104356,05-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084546,78-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084546,78-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name
+>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020812T095815,30-04</datetime><datetime
+ dst='true'>20020812T095835,63-04</datetime><datetime dst='true'>20020812T100251,72-04</datetime><datetime
+ dst='true'>20020812T102135,83-04</datetime><datetime dst='true'>20020828T150935,66-04</datetime><datetime
+>20040204T151744,49-05</datetime><datetime>20040310T001503,82-05</datetime><datetime
+ dst='true'>20090520T102506,66-04</datetime></revisions>
+<item name='date_create'><datetime dst='true'>20020812T095737,73-04</datetime></item>
+<item name='edit_history'><text>Stephen Bjarnason</text></item>
+<item name='edit_history_1'><text>2002/08/12 09:58:41</text></item>
+<item name='Names'><text>Stephen Bjarnason;</text></item>
+<item name='OriginalModTime'><datetime dst='true'>20090806T104346,75-04</datetime></item>
+<item name='HFText'><text>No</text></item>
+<item name='HelpECategories'><text>1. User Guide</text></item>
+<item name='HelpESubCat'><text>Placing An Order</text></item>
+<item name='HelpFCategories'><text>1. Guide d'utilisation</text></item>
+<item name='HelpFSubCat'><text>Commander</text></item>
+<item name='HelpDocNumber'><number>6</number></item>
+<item name='HelpSubCatNumber'><number>1</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>When the order has been delivered,</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='2' leftmargin='1.0118in' rightmargin='93%' firstlineleftmargin='0.8118in'/>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.  Verify that all ordered items were shipped.  If so, mark the packing slip with your initials, the date, and the words "verified complete".</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.  If the order is incomplete, mark the packing slip with your initials, the date, and the word "incomplete".</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='3' leftmargin='1.0625in' rightmargin='93%'/>
+<par def='3'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>N.B.</run><run><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>  If the order was incomplete, it is your responsibility to follow-up with the company as to when they will be shipping the balance of the ordered items.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.  Send the packing slip to the Admin person.</run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='4' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>À la livraison de la commande :</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.	Vérifiez si elle est complète. Dans ce cas, inscrivez vos initiales, la date et la mention «Complète» sur le bordereau 	de réception.</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.	Dans le cas contraire, faites de même mais inscrivez plutôt «Incomplète».</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>	</run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>N.B.</run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/> Si la commande est incomplète, il vous incombe d'effectuer le suivi auprès du fournisseur afin de savoir quand 	vous recevrez le reste de la commande.</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.	Envoyez le bordereau de réception à l'adjoint administratif.</run></par></richtext></item>
+<item name='HelpESubject'><text>After the Order has Arrived</text></item>
+<item name='HelpFSubject'><text>Que faire après la réception d'une commande? </text></item></document>
+

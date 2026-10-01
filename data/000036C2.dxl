@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='CostCodeDoc'>
+<noteinfo noteid='36c2' unid='DFCEF3D506C2185A85256BEB005F09E8' sequence='1'>
+<created><datetime dst='true'>20020703T131804,56-04</datetime></created>
+<modified><datetime dst='true'>20260917T084620,43-04</datetime></modified>
+<revised><datetime dst='true'>20020703T131804,58-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084620,42-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084620,42-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rania Otell/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Type'><text>Project #</text></item>
+<item name='Name'><text>Project AA</text></item>
+<item name='CodeNumber'><text>1133</text></item></document>
+

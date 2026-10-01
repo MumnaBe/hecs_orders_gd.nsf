@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='ChangeRequest'>
+<noteinfo noteid='18da' unid='4DC67653D133BDF885256C30004FA1D5' sequence='1'>
+<created><datetime dst='true'>20020910T102947,73-04</datetime></created>
+<modified><datetime dst='true'>20260917T084359,85-04</datetime></modified>
+<revised><datetime dst='true'>20020910T102947,70-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084359,84-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084359,84-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='KEYWORDOLD'><text>Stephen Bjarnason</text></item>
+<item name='KEYWORDNEW'><text>Josée Prescott</text></item></document>
+

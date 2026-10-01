@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='Gerald - Ref Number Change' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='5' private='true'>
+<noteinfo noteid='13a' unid='682F92BE030FB8EC85256DD40049859E' sequence='7'>
+<created><datetime>20031104T082303,34-05</datetime></created>
+<modified><datetime dst='true'>20260917T084235,85-04</datetime></modified>
+<revised><datetime dst='true'>20060719T075419,60-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084235,84-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084235,84-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime>20041221T113252,34-05</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='action'>
+<simpleaction action='runformula'><formula>FIELD RefNumber := RefNumber;
+FIELD d_RefNumber := d_RefNumber;
+@SetField("RefNumber";@Text("04") + @Right(RefNumber;4));
+@SetField("d_RefNumber";RefNumberTag+RefNumber);SELECT @All</formula></simpleaction></code>
+<rundata processeddocs='1' exitcode='0'>
+<agentmodified><datetime>20041221T113239,29-05</datetime></agentmodified>
+<agentrun><datetime>20041221T113303,92-05</datetime></agentrun>
+<runlog>Started running agent 'Gerald - Ref Number Change' on 2004-12-21 11:33:03 AM
+Running on selected documents: 1 total
+Found 1 document(s) that match search criteria
+1 document(s) were modified by formula
+Done running agent 'Gerald - Ref Number Change' on 2004-12-21 11:33:03 AM
+</runlog></rundata></agent>
+

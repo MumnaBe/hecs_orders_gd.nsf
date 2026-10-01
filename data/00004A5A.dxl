@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='4a5a' unid='3B9A9480CA34AF96852573840050304C' sequence='4'>
+<created><datetime dst='true'>20071030T103552,44-04</datetime></created>
+<modified><datetime dst='true'>20260917T084819,86-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075037,85-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084819,85-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084819,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20071030T103805,36-04</datetime><datetime
+ dst='true'>20071030T104154,35-04</datetime><datetime dst='true'>20090902T074627,73-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20071030T104151,27-04</datetime></item>
+<item name='CompName'><text>Princess Auto</text></item>
+<item name='CompPhone'><text>(613) 247-1651 </text></item>
+<item name='CompAddress'><text>1301 Ages Drive </text></item>
+<item name='CompFax'><text>(613) 247-1657 </text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text/></item>
+<item name='CompCountry'><text/></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.princessauto.com</text></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

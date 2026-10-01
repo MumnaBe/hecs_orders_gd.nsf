@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='4aea' unid='32B802239717D374852573A3004C5275' sequence='1'>
+<created><datetime>20071130T085338,45-05</datetime></created>
+<modified><datetime dst='true'>20260917T084824,08-04</datetime></modified>
+<revised><datetime>20071130T085450,56-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084824,07-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084824,07-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime>20071130T085446,05-05</datetime></item>
+<item name='Category'><text>Capital</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>CSD</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831503</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K  Safety Alarm and Signal Equipment</text><text
+>Acq&lt;10K Computer Equipment Parts</text><text>Acq&lt;10K Computer &amp; Related Peripheral Equip</text><text
+>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text><text>Acq&lt;10K Laptop and Related Peripheral Equip</text><text
+>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&lt;10K Office Furniture Furnishing &amp; Part</text><text
+>Acq&lt;10K Software Packages for Computers</text><text>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text></textlist></item>
+<item name='ProgActiv'><text>A3G6 - Contaminated Sites</text></item>
+<item name='IntOrd'><text>4340564 Contaminated Sites - SK</text></item></document>
+

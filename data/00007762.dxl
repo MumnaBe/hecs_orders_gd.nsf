@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='7762' unid='B044CB9BCA3E042C852583400048A46B' sequence='4'>
+<created><datetime>20181109T081326,83-05</datetime></created>
+<modified><datetime dst='true'>20260917T085215,50-04</datetime></modified>
+<revised><datetime dst='true'>20190417T074550,23-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085215,49-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085215,49-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20181109T081326,85-05</datetime><datetime>20181109T081400,58-05</datetime><datetime
+ dst='true'>20190417T074517,31-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>810553-CSSPI</text></item>
+<item name='NameF'><text>810553-CSSPI</text></item>
+<item name='CodeNumber'><text>810553</text></item>
+<item name='org_author' names='true'><text>Kirsten Oickle</text></item>
+<item name='date_create'><datetime dst='true'>20181011T110253,94-04</datetime></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Kirsten Oickle</text><text
+>Kirsten Oickle</text><text>Kirsten Oickle</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2019-04-17 07:45:50 AM</text><text
+>2019-04-17 07:45:17 AM</text><text>2018-11-09 08:14:00 AM</text><text>2018-10-11 11:04:07 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Kirsten Oickle;</text><text
+>Kirsten Oickle;</text><text>Kirsten Oickle;</text></textlist></item></document>
+

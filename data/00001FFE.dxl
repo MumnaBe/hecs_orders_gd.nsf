@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='1ffe' unid='703583DD30F7A4AD8525715C0054D044' sequence='2'>
+<created><datetime dst='true'>20060426T112623,40-04</datetime></created>
+<modified><datetime dst='true'>20260917T084429,86-04</datetime></modified>
+<revised><datetime dst='true'>20060531T105137,87-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084429,85-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084429,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060426T112738,66-04</datetime></revisions>
+<item name='Category'><text>Capital</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831503</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;10K Lab Equipment</text><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text></textlist></item>
+<item name='ProgActiv'><textlist><text>A3B7-Emerging Technologies Science Knowledge</text><text
+>A3E4-Child. &amp; Vulnerable Population Science Knowledge</text><text>A3E7-Air Science Knowledge</text></textlist></item>
+<item name='IntOrd'><text>4340442 Monoclonals - MA</text></item></document>
+

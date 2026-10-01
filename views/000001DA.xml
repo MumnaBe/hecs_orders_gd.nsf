@@ -1,0 +1,3226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <text>0000000 EOTSurplus2003</text>
+        </value>
+    </category>
+    <document noteId="00000F4A">
+        <value>
+            <text>0000000 EOTSurplus2003</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>518107</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <text>non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>0000000 EOTSurplus2003</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+    </category>
+    <document noteId="00000DE2">
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>Proeomics (George Douglas)</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+        <value>
+            <text>None (do not use)</text>
+        </value>
+        <value>
+            <text>none (do not use)</text>
+        </value>
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+    </document>
+    <document noteId="00001D8E">
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>Proteomics (George Douglas)</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+        <value>
+            <text>None (do not use)</text>
+        </value>
+        <value>
+            <text>none (do not use)</text>
+        </value>
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+    </document>
+    <document noteId="0000300A">
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>Proteomics (George Douglas)</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+        <value>
+            <text>None (do not use)</text>
+        </value>
+        <value>
+            <text>none (do not use)</text>
+        </value>
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+    </document>
+    <document noteId="00001A7E">
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>Proteomics (George Douglas)</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+        <value>
+            <text>None (do not use)</text>
+        </value>
+        <value>
+            <text>None (do not use)</text>
+        </value>
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320010 Cardiopulm - RV</text>
+        </value>
+    </category>
+    <document noteId="00003C5E">
+        <value>
+            <textlist>
+                <text>4320010 Cardiopulm - RV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4320010 Cardiopulm - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320010 EpiGenetics ET</text>
+        </value>
+    </category>
+    <document noteId="00003C5E">
+        <value>
+            <textlist>
+                <text>4320010 Cardiopulm - RV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&gt;10K Lab Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E1-CEPA Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4320010 EpiGenetics ET</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+    </category>
+    <document noteId="00000E3E">
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Conference Fees</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E4-Child. &amp; Vulnerable Population Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+    </document>
+    <document noteId="00000E1E">
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3EF-Child Vul Popn Sci Know</text>
+        </value>
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+    </document>
+    <document noteId="00000A7E">
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Engineering Consultants - Construction</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E4-Child. &amp; Vulnerable Population Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+    </document>
+    <document noteId="00003B2A">
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E4-Child. &amp; Vulnerable Population Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320105 Oxid Stress - PK</text>
+        </value>
+    </category>
+    <document noteId="0000284E">
+        <value>
+            <text>4320105 Oxid Stress - PK</text>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Conference Fees</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4320105 Oxid Stress - PK</text>
+        </value>
+    </document>
+    <document noteId="00003C92">
+        <value>
+            <textlist>
+                <text>4320105 Oxid Stress - PK</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3DY-Emerging Tech Sci Know</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4320105 Oxid Stress - PK</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00001BB2">
+        <value>
+            <text>4320105 Oxid Stress - PK</text>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Engineering Consultants - Construction</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4320105 Oxid Stress - PK</text>
+        </value>
+    </document>
+    <document noteId="000026A2">
+        <value>
+            <textlist>
+                <text>4320105 Oxid Stress - PK</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4320105 Oxid Stress - PK</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4320105 Oxid Stress - PK - MIREC</text>
+        </value>
+    </category>
+    <document noteId="00003C92">
+        <value>
+            <textlist>
+                <text>4320105 Oxid Stress - PK</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3EF-Child Vul Popn Sci Know</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4320105 Oxid Stress - PK - MIREC</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="000026A2">
+        <value>
+            <textlist>
+                <text>4320105 Oxid Stress - PK</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&gt;10K Lab Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E4-Child. &amp; Vulnerable Population Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4320105 Oxid Stress - PK - MIREC</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340008 Particles BAQS - RV</text>
+        </value>
+    </category>
+    <document noteId="00003336">
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Conference Fees</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E1-CEPA Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00003336">
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Meal Allowance in Headquarter Area</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E7-Air Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="000025F6">
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Engineering Consultants - Construction</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E1-CEPA Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="000025F6">
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Health Science Consultants</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E7-Air Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="0000302E">
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E1-CEPA Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="0000302E">
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&gt;10K Lab Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3E7-Air Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4340008 Particles BAQS - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+    </category>
+    <document noteId="00003B26">
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831500</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Conference Fees</text>
+            </textlist>
+        </value>
+        <value>
+            <text>METALS non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+    </document>
+    <document noteId="000010C2">
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831500</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <text>METALS non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+    </document>
+    <document noteId="00002392">
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>PSAT</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>813020</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Chemicals</text>
+            </textlist>
+        </value>
+        <value>
+            <text>non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+    </document>
+    <document noteId="000076E2">
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>PSAT</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>813020</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Chemicals</text>
+            </textlist>
+        </value>
+        <value>
+            <text>non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+    </document>
+    <document noteId="00002572">
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831500</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <text>METALS non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340086-ChEMTD</text>
+        </value>
+    </category>
+    <document noteId="0000781A">
+        <value>
+            <text>4340086-ChEMTD</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>PSAT</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>813021</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK16-Emergency Management</text>
+        </value>
+        <value>
+            <text>4340086-ChEMTD</text>
+        </value>
+    </document>
+    <document noteId="00007BC2">
+        <value>
+            <text>4340086-ChEMTD</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>SCU</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1580</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK16-Emergency Management</text>
+        </value>
+        <value>
+            <text>4340086-ChEMTD</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340256 - MobileLab</text>
+        </value>
+    </category>
+    <document noteId="0000166A">
+        <value>
+            <textlist>
+                <text>4340256 - MobileLab</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831135</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Computer Equipment Parts</text>
+            </textlist>
+        </value>
+        <value>
+            <text>AQHER</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340256 - MobileLab</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00003D3A">
+        <value>
+            <text>4340256 - MobileLab</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831135</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <text>non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>4340256 - MobileLab</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340264 PR - PM Metals Study</text>
+        </value>
+    </category>
+    <document noteId="0000166A">
+        <value>
+            <textlist>
+                <text>4340256 - MobileLab</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831135</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Computer &amp; Related Peripheral Equip</text>
+            </textlist>
+        </value>
+        <value>
+            <text>AQHER</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340264 PR - PM Metals Study</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340393 Genomics - HV</text>
+        </value>
+    </category>
+    <document noteId="0000292A">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Conference Fees</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="000036E6">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00002846">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Engineering Consultants - Construction</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00000A72">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340393 Genomics - MA</text>
+        </value>
+    </category>
+    <document noteId="0000292A">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Meal Allowance in Headquarter Area</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - MA</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="000036E6">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - MA</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00002846">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Health Science Consultants</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - MA</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00000A72">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&gt;10K Lab Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - MA</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340393 Genomics - PK</text>
+        </value>
+    </category>
+    <document noteId="0000292A">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Travel  Non-Public Servants Conference all Locations</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - PK</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="000036E6">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Computer Equipment Parts</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - PK</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00002846">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>IT Specialized Consultants</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - PK</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00000A72">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - PK</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340393 Genomics - RV</text>
+        </value>
+    </category>
+    <document noteId="0000292A">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Travel Non-Public Servants Outside Canada</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="000036E6">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Computer &amp; Related Peripheral Equip</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00002846">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Moving Expenses</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00000A72">
+        <value>
+            <textlist>
+                <text>4340393 Genomics - HV</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value/>
+        <value>
+            <text>A3B7-Emerging Technologies Science Knowledge</text>
+        </value>
+        <value>
+            <textlist>
+                <text>4340393 Genomics - RV</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340424 - ADO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </category>
+    <document noteId="000077AA">
+        <value>
+            <text>4340424 - ADO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>A-Base</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1571</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>4340424 - ADO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340424 - Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </category>
+    <document noteId="00004FC6">
+        <value>
+            <text>4340424 - Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831570</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3Z3-Management</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340424 - Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </document>
+    <document noteId="00007786">
+        <value>
+            <text>4340424 - Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>A-Base</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1570</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>4340424 - Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </category>
+    <document noteId="000076D2">
+        <value>
+            <text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>A-Base</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1570</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </document>
+    <document noteId="00007CBE">
+        <value>
+            <text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>A-Base</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1572</text>
+        </value>
+        <value>
+            <text>Stationery Office Supplies and Artists' Materials</text>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340440 - Year End Funds 07-08</text>
+        </value>
+    </category>
+    <document noteId="0000437E">
+        <value>
+            <textlist>
+                <text>4340440 - Year End Funds 07-08</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3K1-General Admin.</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4340440 - Year End Funds 07-08</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+    </category>
+    <document noteId="000015C6">
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Conference Fees</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3K1-General Admin.</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+    </document>
+    <document noteId="00000D66">
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3Z3-Management</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+    </document>
+    <document noteId="00001266">
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Engineering Consultants - Construction</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3K1-General Admin.</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+    </document>
+    <document noteId="00001646">
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3K1-General Admin.</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340440 ITAB Section Management</text>
+        </value>
+    </category>
+    <document noteId="00004386">
+        <value>
+            <text>4340440 ITAB Section Management</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3Z3-Management</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340440 ITAB Section Management</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340440 Section Management Year End Fund 06-07</text>
+        </value>
+    </category>
+    <document noteId="0000437E">
+        <value>
+            <textlist>
+                <text>4340440 - Year End Funds 07-08</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3K4-Financial Management &amp; Stewardship</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>4340440 Section Management Year End Fund 06-07</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340441 CEPA Screen - RV</text>
+        </value>
+    </category>
+    <document noteId="00000DC6">
+        <value>
+            <text>4340441 CEPA Screen - RV</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340441 CEPA Screen - RV</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340441 Nano - DB - FY 2010-2011</text>
+        </value>
+    </category>
+    <document noteId="0000235E">
+        <value>
+            <text>4340441 Nano - DB - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Conference Fees</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340441 Nano - DB - FY 2010-2011</text>
+        </value>
+    </document>
+    <document noteId="00003776">
+        <value>
+            <text>4340441 Nano - DB - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Engineering Consultants - Construction</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340441 Nano - DB - FY 2010-2011</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+    </category>
+    <document noteId="00003D1E">
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Conference Fees</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+    </document>
+    <document noteId="000022B6">
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3BA-Air Science Know</text>
+        </value>
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+    </document>
+    <document noteId="000021F2">
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Engineering Consultants - Construction</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+    </document>
+    <document noteId="00001FFE">
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340564 Contaminated Sites - SK</text>
+        </value>
+    </category>
+    <document noteId="0000496A">
+        <value>
+            <text>4340564 Contaminated Sites - SK</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3G6 - Contaminated Sites</text>
+        </value>
+        <value>
+            <text>4340564 Contaminated Sites - SK</text>
+        </value>
+    </document>
+    <document noteId="00004AEA">
+        <value>
+            <text>4340564 Contaminated Sites - SK</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>CSD</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>A3G6 - Contaminated Sites</text>
+        </value>
+        <value>
+            <text>4340564 Contaminated Sites - SK</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - FY 2015-2016</text>
+        </value>
+    </category>
+    <document noteId="00007452">
+        <value>
+            <text>4340565 CARA - FY 2015-2016</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>CARA</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>4340565 CARA - FY 2015-2016</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - RV - FY 2014-2015</text>
+        </value>
+    </category>
+    <document noteId="00004E5E">
+        <value>
+            <text>4340565 CARA - RV - FY 2014-2015</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>CARA</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2014-2015</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340565 CARA - RV - FY 2015-2016</text>
+        </value>
+    </category>
+    <document noteId="0000746E">
+        <value>
+            <text>4340565 CARA - RV - FY 2015-2016</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>CARA</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2015-2016</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>4340579 - Bureau Renovation Projects</text>
+        </value>
+    </category>
+    <document noteId="00004B5A">
+        <value>
+            <text>4340579 - Bureau Renovation Projects</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831570</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3Z3-Management</text>
+            </textlist>
+        </value>
+        <value>
+            <text>4340579 - Bureau Renovation Projects</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>66030 RV - NJMRC</text>
+        </value>
+    </category>
+    <document noteId="00002252">
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>NJ</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>898131</text>
+        </value>
+        <value>
+            <text>NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+        </value>
+        <value>
+            <text>SPA-Other</text>
+        </value>
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00003CFA">
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>NJ</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>898131</text>
+        </value>
+        <value>
+            <textlist>
+                <text>SPA Payment Collaborative Research &amp; Development</text>
+            </textlist>
+        </value>
+        <value>
+            <text>SPA-Other</text>
+        </value>
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="0000258E">
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>NJ</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>898131</text>
+        </value>
+        <value>
+            <text>NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+        </value>
+        <value>
+            <text>SPA-Other</text>
+        </value>
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="000035A2">
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>NJ</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>898131</text>
+        </value>
+        <value>
+            <text>NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+        </value>
+        <value>
+            <text>SPA-Other</text>
+        </value>
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>66031 RV - Crapo</text>
+        </value>
+    </category>
+    <document noteId="00002252">
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Travel</text>
+        </value>
+        <value>
+            <text>NJ</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>898131</text>
+        </value>
+        <value>
+            <text>NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+        </value>
+        <value>
+            <text>SPA-Other</text>
+        </value>
+        <value>
+            <textlist>
+                <text>66031 RV - Crapo</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="00003CFA">
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>NJ</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>898131</text>
+        </value>
+        <value>
+            <textlist>
+                <text>NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+            </textlist>
+        </value>
+        <value>
+            <text>SPA-Other</text>
+        </value>
+        <value>
+            <textlist>
+                <text>66031 RV - Crapo</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="0000258E">
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>NJ</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>898131</text>
+        </value>
+        <value>
+            <text>NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+        </value>
+        <value>
+            <text>SPA-Other</text>
+        </value>
+        <value>
+            <textlist>
+                <text>66031 RV - Crapo</text>
+            </textlist>
+        </value>
+    </document>
+    <document noteId="000035A2">
+        <value>
+            <textlist>
+                <text>66030 RV - NJMRC</text>
+            </textlist>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>NJ</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>898131</text>
+        </value>
+        <value>
+            <text>NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+        </value>
+        <value>
+            <text>SPA-Other</text>
+        </value>
+        <value>
+            <textlist>
+                <text>66031 RV - Crapo</text>
+            </textlist>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>66153 PR - Gravimetric Analysis Facility</text>
+        </value>
+    </category>
+    <document noteId="00000F32">
+        <value>
+            <text>66153 PR - Gravimetric Analysis Facility</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>CRTI</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>899204</text>
+        </value>
+        <value>
+            <text>OGD account for Pat R - CRTI</text>
+        </value>
+        <value>
+            <textlist>
+                <text>OGD-Laboratory Supplies</text>
+            </textlist>
+        </value>
+        <value>
+            <text>66153 PR - Gravimetric Analysis Facility</text>
+        </value>
+    </document>
+    <document noteId="00001D1E">
+        <value>
+            <text>66153 PR - Gravimetric Analysis Facility</text>
+        </value>
+        <value>
+            <text>Contract</text>
+        </value>
+        <value>
+            <text>CRTI</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>899204</text>
+        </value>
+        <value>
+            <text>OGD account for Pat R - CRTI</text>
+        </value>
+        <value>
+            <textlist>
+                <text>OGD-Laboratory Supplies</text>
+            </textlist>
+        </value>
+        <value>
+            <text>66153 PR - Gravimetric Analysis Facility</text>
+        </value>
+    </document>
+    <document noteId="00003B32">
+        <value>
+            <text>66153 PR - Gravimetric Analysis Facility</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>CRTI</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>899204</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+        <value>
+            <textlist>
+                <text>OGD-Laboratory Supplies</text>
+            </textlist>
+        </value>
+        <value>
+            <text>66153 PR - Gravimetric Analysis Facility</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2011-2012</text>
+        </value>
+    </category>
+    <document noteId="00001516">
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2011-2012</text>
+        </value>
+        <value>
+            <text>Capital</text>
+        </value>
+        <value>
+            <text>PERD</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>879501</text>
+        </value>
+        <value>
+            <text>PERD G/L</text>
+        </value>
+        <value>
+            <text>GK10 - Research and Development</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2011-2012</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="00003356">
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2013-2014</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>PERD</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>879501</text>
+        </value>
+        <value>
+            <text>PERD G/L</text>
+        </value>
+        <value>
+            <text>9940 - PERD O&amp;M</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2013-2014</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810408 Nano-Silica - FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="00001706">
+        <value>
+            <text>810408 Nano-Silica - FY 2013-2014</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK10 - Research and Development</text>
+        </value>
+        <value>
+            <text>810408 Nano-Silica - FY 2013-2014</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="0000563E">
+        <value>
+            <text>810409 Epigenetics - ET- FY 2013-2014</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>Yes</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Client Software</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK10 - Research and Development</text>
+        </value>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2013-2014</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="00000D0E">
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acids</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK10 - Research and Development</text>
+        </value>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+    </document>
+    <document noteId="000037C6">
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K Client Software</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+    </document>
+    <document noteId="000012EE">
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>831503</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Conference Fees</text>
+            </textlist>
+        </value>
+        <value>
+            <textlist>
+                <text>A3B7-Emerging Technologies Science Knowledge</text>
+            </textlist>
+        </value>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810465-Seminar Series-ET-2012-2013</text>
+        </value>
+    </category>
+    <document noteId="00006122">
+        <value>
+            <text>810465-Seminar Series-ET-2012-2013</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1570</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK10 - Research and Development</text>
+        </value>
+        <value>
+            <text>810465-Seminar Series-ET-2012-2013</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810478 - Nano-CMP - FY 2013-2014</text>
+        </value>
+    </category>
+    <document noteId="00006266">
+        <value>
+            <text>810478 - Nano-CMP - FY 2013-2014</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK10 - Research and Development</text>
+        </value>
+        <value>
+            <text>810478 - Nano-CMP - FY 2013-2014</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text>
+        </value>
+    </category>
+    <document noteId="0000710A">
+        <value>
+            <text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Books Newspapers and Magazines</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810504 - Neuroenocrime/Metabolic Impacts 2014-2015</text>
+        </value>
+    </category>
+    <document noteId="0000745A">
+        <value>
+            <text>810504 - Neuroenocrime/Metabolic Impacts 2014-2015</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Books Newspapers and Magazines</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>810504 - Neuroenocrime/Metabolic Impacts 2014-2015</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810530 Carbon Nanotubes 2014-2015</text>
+        </value>
+    </category>
+    <document noteId="00007156">
+        <value>
+            <text>810530 Carbon Nanotubes 2014-2015</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>EHS</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1501</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Books Newspapers and Magazines</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK10 - Research and Development</text>
+        </value>
+        <value>
+            <text>810530 Carbon Nanotubes 2014-2015</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+    </category>
+    <document noteId="00007732">
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>A-Base</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>813021</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK06-Health Surveillance &amp; Monitoring</text>
+        </value>
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+    </document>
+    <document noteId="00007A5A">
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>A-Base</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1580</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK06-Health Surveillance &amp; Monitoring</text>
+        </value>
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+    </document>
+    <document noteId="00007766">
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+        <value>
+            <text>Operating</text>
+        </value>
+        <value>
+            <text>SCU</text>
+        </value>
+        <value>
+            <text>No</text>
+        </value>
+        <value>
+            <text>8R1580</text>
+        </value>
+        <value>
+            <textlist>
+                <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+            </textlist>
+        </value>
+        <value>
+            <text>GK06-Health Surveillance &amp; Monitoring</text>
+        </value>
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+    </document>
+</view>

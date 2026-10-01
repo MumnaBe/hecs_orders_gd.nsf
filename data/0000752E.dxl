@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='CardHolders'>
+<noteinfo noteid='752e' unid='D055C5E88209F10F85257E90004AD587' sequence='39'>
+<created><datetime dst='true'>20150728T093723,27-04</datetime></created>
+<modified><datetime dst='true'>20260917T085204,82-04</datetime></modified>
+<revised><datetime dst='true'>20180409T074629,82-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085204,81-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085204,81-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Robert Donatucci/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Robert Donatucci/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Robert Donatucci/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20151106T115735,90-05</datetime></revisions>
+<item name='CardTypes'><text/></item>
+<item name='CreditLimitM'><number>25000</number></item>
+<item name='MaxOrderM'><number>25000</number></item>
+<item name='MaxMonthM'><number>25000</number></item>
+<item name='CreditLimitV'><number>0</number></item>
+<item name='MaxOrderV'><number>0</number></item>
+<item name='MaxMonthV'><number>0</number></item>
+<item name='org_author' names='true'><text>Kirsten Oickle</text></item>
+<item name='date_create'><datetime dst='true'>20150728T093723,27-04</datetime></item>
+<item name='CardholderName' names='true'><text/></item>
+<item name='RemCreditM'><number>22227.6042</number></item>
+<item name='RemCreditV'><number>0</number></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Robert Donatucci</text><text
+>Robert Donatucci</text><text>Robert Donatucci</text><text>Robert Donatucci</text><text
+>Kirsten Oickle</text><text>Kirsten Oickle</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2018-04-09 07:46:29 AM</text><text
+>2015-11-06 11:57:34 AM</text><text>2015-09-15 03:05:15 PM</text><text>2015-08-13 02:06:04 PM</text><text
+>2015-07-31 02:06:17 PM</text><text>2015-07-29 09:40:08 AM</text><text>2015-07-29 09:40:06 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Robert Donatucci;</text><text
+>Robert Donatucci;</text><text>Robert Donatucci;</text><text>Robert Donatucci;</text><text
+>Kirsten Oickle;</text><text>Kirsten Oickle;</text></textlist></item></document>
+

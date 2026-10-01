@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2a56' unid='A533B0AC51AD00C585256BEB005F09BC' sequence='6'>
+<created><datetime dst='true'>20020703T131804,12-04</datetime></created>
+<modified><datetime dst='true'>20260917T084516,10-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074832,03-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084516,09-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084516,09-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,14-04</datetime><datetime
+>20021104T141457,43-05</datetime><datetime dst='true'>20030428T134812,61-04</datetime><datetime
+ dst='true'>20030428T134846,16-04</datetime><datetime dst='true'>20090902T074414,10-04</datetime></revisions>
+<item name='CompName'><text>Harcourt Inc.</text></item>
+<item name='CompPhone'><text>(407) 345-2000</text></item>
+<item name='CompAddress'><text>6277 Sea Harbour Dr</text></item>
+<item name='CompFax'><text>(407) 363-6917</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Orlando</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>FL</text></item>
+<item name='CompPostalCode'><text>32887</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='AcctNumber'><text>4890231</text></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>books</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

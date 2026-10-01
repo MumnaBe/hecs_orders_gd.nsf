@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='212e' unid='75CF327DDFA121B585256BEB005F0A7C' sequence='4'>
+<created><datetime dst='true'>20020703T131806,04-04</datetime></created>
+<modified><datetime dst='true'>20260917T084434,86-04</datetime></modified>
+<revised><datetime dst='true'>20050401T095402,52-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084434,85-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084434,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131806,26-04</datetime><datetime
+ dst='true'>20050331T180203,86-04</datetime><datetime>20050331T170218,04-05</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_Chemicals</text></item>
+<item name='NameF'><text>OLD_Produits chimiques</text></item>
+<item name='CodeNumber'><text>04001</text></item></document>
+

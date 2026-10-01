@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='13de' unid='342A8877D366FC0385256FE4004B62C1' sequence='8'>
+<created><datetime dst='true'>20050415T094324,81-04</datetime></created>
+<modified><datetime dst='true'>20260917T084338,37-04</datetime></modified>
+<revised><datetime>20160222T065958,60-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084338,36-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084338,36-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050415T094531,93-04</datetime><datetime
+ dst='true'>20090902T074406,84-04</datetime><datetime dst='true'>20090902T074816,93-04</datetime><datetime
+>20160219T082928,00-05</datetime><datetime>20160219T082928,97-05</datetime><datetime
+>20160219T082935,90-05</datetime><datetime>20160219T082953,71-05</datetime></revisions>
+<item name='CompName'><text>Abcam Inc.</text></item>
+<item name='CompPhone'><text>1-877-749-8807</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>1-877-749-8814</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Customer Service</text></item>
+<item name='CompCity'><text/></item>
+<item name='InvContact'><text>Customer Servive</text></item>
+<item name='CompProvince'><text/></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text/></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text/></item>
+<item name='AcctNumber'><text>6932369</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Vendor Code: 1125369</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050415T094324,81-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><textlist><text>Maria Ianni</text><text>Maria Ianni</text><text
+>Maria Ianni</text><text>Maria Ianni</text><text>Maria Ianni</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2016-02-22 06:59:58 AM</text><text
+>2016-02-19 08:29:53 AM</text><text>2016-02-19 08:29:35 AM</text><text>2016-02-19 08:29:28 AM</text><text
+>2016-02-19 08:29:27 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Maria Ianni;</text><text>Maria Ianni;</text><text>Maria Ianni;</text></textlist></item></document>
+

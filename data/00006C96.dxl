@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='6c96' unid='0936350C5077957E85257B480056EE01' sequence='4'>
+<created><datetime dst='true'>20130409T114930,25-04</datetime></created>
+<modified><datetime dst='true'>20260917T085120,47-04</datetime></modified>
+<revised><datetime dst='true'>20140728T113254,88-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085120,46-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085120,46-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20130409T114930,32-04</datetime><datetime
+ dst='true'>20130409T114946,60-04</datetime><datetime dst='true'>20140407T143625,40-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4340565 CARA - RV - FY 2014-2015</text></item>
+<item name='NameF'><text>4340565 CARA - RV - FY 2014-2015</text></item>
+<item name='CodeNumber'><text>4340565</text></item>
+<item name='org_author' names='true'><text>Sameer Jetha</text></item>
+<item name='date_create'><datetime dst='true'>20110407T103144,40-04</datetime></item>
+<item name='edit_history'><textlist><text>Margaret Montague</text><text>Dian Sinclair</text><text
+>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2014-07-28 11:32:53 AM</text><text
+>2014-04-07 02:36:23 PM</text><text>2013-04-09 11:49:44 AM</text><text>2012-04-11 08:59:12 AM</text><text
+>2012-04-11 08:59:08 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Margaret Montague;</text><text>Dian Sinclair;</text><text
+>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text></textlist></item></document>
+

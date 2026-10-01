@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='2e72' unid='B8A4D7C2B45150A985256C5D00652ED0' sequence='6'>
+<created><datetime dst='true'>20021025T142511,20-04</datetime></created>
+<modified><datetime dst='true'>20260917T084536,36-04</datetime></modified>
+<revised><datetime dst='true'>20060525T145035,42-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084536,35-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084536,35-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20021025T142601,21-04</datetime><datetime
+>20021104T122905,85-05</datetime><datetime>20021104T123251,15-05</datetime><datetime
+>20021129T082620,71-05</datetime><datetime>20021129T100510,31-05</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>RV4340024 Renovations - RV</text></item>
+<item name='NameF'><text>RV4340024 Rénovations - RV</text></item>
+<item name='CodeNumber'><text>RV4340024</text></item></document>
+

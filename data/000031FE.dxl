@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='31fe' unid='C8B8781C863EBDDB85256BEB005F09C1' sequence='4'>
+<created><datetime dst='true'>20020703T131804,17-04</datetime></created>
+<modified><datetime dst='true'>20260917T084554,54-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075022,99-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084554,53-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084554,53-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,19-04</datetime><datetime
+>20021104T141457,52-05</datetime><datetime dst='true'>20090902T074603,93-04</datetime></revisions>
+<item name='CompName'><text>Sapphire Engineering Inc.</text></item>
+<item name='CompAddress'><text>53 Portside Dr</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Pocasset</text></item>
+<item name='CompProvince'><text>MA</text></item>
+<item name='CompPostalCode'><text>02559</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>(508) 563-5531</text></item>
+<item name='CompFax'><text>(508) 563-6908</text></item>
+<item name='PurchContact'><text>Donna Tarrant</text></item>
+<item name='InvContact'><text>Margaret Smith</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>EHC100</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>d_tarrant@sapphireengineering.com</text></item>
+<item name='CompWeb'><text>www.sapphireengineering.aol.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

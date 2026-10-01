@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='6086' unid='AD17175C1C8952ED8525786B004FE94F' sequence='3'>
+<created><datetime dst='true'>20110407T103250,71-04</datetime></created>
+<modified><datetime dst='true'>20260917T085019,15-04</datetime></modified>
+<revised><datetime dst='true'>20110608T085637,18-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085019,14-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085019,14-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20110407T103307,96-04</datetime><datetime
+ dst='true'>20110608T085635,64-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>810409 Epigenetics - ET- FY 2011-2012</text></item>
+<item name='NameF'><text>810409 Epigenetics - ET- FY 2011-2012</text></item>
+<item name='CodeNumber'><text>810409</text></item>
+<item name='org_author' names='true'><text>Sameer Jetha</text></item>
+<item name='date_create'><datetime dst='true'>20110407T103250,71-04</datetime></item>
+<item name='edit_history'><textlist><text>Sameer Jetha</text><text>Sameer Jetha</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2011-06-08 08:56:20 AM</text><text
+>2011-06-08 08:56:18 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Sameer Jetha;</text><text>Sameer Jetha;</text></textlist></item></document>
+

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='3492' unid='D4FE2A1196D4D3AB85256FD50082C23F' sequence='7'>
+<created><datetime dst='true'>20050331T194814,07-04</datetime></created>
+<modified><datetime dst='true'>20260917T084608,96-04</datetime></modified>
+<revised><datetime dst='true'>20050405T110839,53-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084608,95-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084608,95-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050331T194903,69-04</datetime><datetime
+ dst='true'>20050331T195038,33-04</datetime><datetime dst='true'>20050331T195428,67-04</datetime><datetime
+ dst='true'>20050331T200404,88-04</datetime><datetime dst='true'>20050401T160530,99-04</datetime><datetime
+ dst='true'>20050401T160625,52-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>R &amp; M Heating Air-conditionning Refrigeration Equip</text></item>
+<item name='NameF'><text>Entretien et Réparation Chauffage Air climatisé et Équip de réfrigération</text></item>
+<item name='CodeNumber'><text>56302</text></item></document>
+

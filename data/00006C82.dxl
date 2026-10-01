@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='6c82' unid='5AE965B3E105031385257B480055213B' sequence='4'>
+<created><datetime dst='true'>20130409T112950,67-04</datetime></created>
+<modified><datetime dst='true'>20260917T085120,10-04</datetime></modified>
+<revised><datetime dst='true'>20130409T123858,03-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085120,09-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085120,09-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20130409T112950,72-04</datetime><datetime
+ dst='true'>20130409T113348,25-04</datetime><datetime dst='true'>20130409T113353,45-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>810408 Nano-Silica - FY 2013-2014</text></item>
+<item name='NameF'><text>810408 Nano-Silice - FY 2013-2014</text></item>
+<item name='CodeNumber'><text>810408</text></item>
+<item name='org_author' names='true'><text>Sameer Jetha</text></item>
+<item name='date_create'><datetime dst='true'>20110407T103030,57-04</datetime></item>
+<item name='edit_history'><textlist><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text
+>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text>Sameer Jetha</text><text
+>Sameer Jetha</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2013-04-09 12:38:55 PM</text><text
+>2013-04-09 11:33:51 AM</text><text>2013-04-09 11:33:46 AM</text><text>2012-04-11 09:00:42 AM</text><text
+>2011-06-08 08:58:59 AM</text><text>2011-06-08 08:58:54 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text
+>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text>Sameer Jetha;</text><text
+>Sameer Jetha;</text></textlist></item></document>
+

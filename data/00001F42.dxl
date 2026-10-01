@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='1f42' unid='6CADB0195ADF9F6185256BEB005F09F9' sequence='1'>
+<created><datetime dst='true'>20020703T131804,73-04</datetime></created>
+<modified><datetime dst='true'>20260917T084426,72-04</datetime></modified>
+<revised><datetime dst='true'>20020703T131804,75-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084426,71-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084426,71-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rania Otell/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Category'><text>Operating</text></item>
+<item name='FundSource'><text>NJ</text></item>
+<item name='GLAccount'><text/></item>
+<item name='PA'><text/></item>
+<item name='Project'><text/></item>
+<item name='CCC'><text>ERROR: Server error: Entry not found in index</text></item>
+<item name='GLAC'><text>0000</text></item>
+<item name='PAC'><text>0000</text></item>
+<item name='PC'><text>0000</text></item>
+<item name='CompleteFinancialCode'><text>ERROR: Server error: Entry not found in index</text></item>
+<item name='GLAcctList'><text>Equipment Repair</text></item>
+<item name='ProgActList'><text>Management and Administration</text></item>
+<item name='PrjNumList'><text/></item></document>
+

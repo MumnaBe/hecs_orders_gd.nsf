@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='Cost Centre View' alias='CCV' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='8.5' unreadmarks='none' onopengoto='top'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='true' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='true' extendlastcolumn='true' showhierarchies='false'
+ unreadcolor='black' rowlinecount='9' headerlinecount='1' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='blue' headerbgcolor='white' boldunreadrows='false'
+ evaluateactions='false' allownewdocuments='false' allowcustomizations='false'
+ hidemarginborder='false' marginwidth='0px' marginbgcolor='white' uniquekeys='false'>
+<noteinfo noteid='2b2' unid='B0CD96DD9FD4C08E85256B49005C757C' sequence='12'>
+<created><datetime>20020122T114953,88-05</datetime></created>
+<modified><datetime dst='true'>20260917T084243,07-04</datetime></modified>
+<revised><datetime dst='true'>20110728T142640,61-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100300,22-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084243,06-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rola Abdul-Nour/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form = "CCForm"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='#d4d0c8'/><font color='system'/><border width='0px 0px 1px'/>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"Mainf";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='' icon='61'><code event='click'><formula>@Environment("HECS_Language";"E");
+@Command([OpenNavigator];"Main";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='Category' width='2'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' categorized='true' twisties='true'><font color='navy'
+ style='bold'/><columnheader><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' listseparator='newline' itemname='FundSource'
+ width='10' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><columnheader title='Funding Source'><font
+ size='8pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='GLAccount' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='G/L Account'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='PA' width='10' resizable='true' separatemultiplevalues='false'
+ sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader title='Program Activity'><font
+ size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='Project' width='10' resizable='true'
+ separatemultiplevalues='true' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='Project #'><font size='9pt' style='bold'/></columnheader></column></view>
+

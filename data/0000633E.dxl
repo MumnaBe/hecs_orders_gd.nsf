@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='633e' unid='B0482683F342F250852579350044F089' sequence='1'>
+<created><datetime dst='true'>20111026T083300,25-04</datetime></created>
+<modified><datetime dst='true'>20260917T085032,26-04</datetime></modified>
+<revised><datetime dst='true'>20111026T083808,11-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085032,25-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085032,25-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>Infrastructure Health &amp; Safety Association</text></item>
+<item name='CompPhone'><text>800-263-5024 or 905-625-0100</text></item>
+<item name='CompAddress'><text>21 Voyager Court South</text></item>
+<item name='CompFax'><text>905-625-8998</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Toronto</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>M9W 5M7</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20111026T083300,25-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

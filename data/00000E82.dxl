@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='e82' unid='1B41138CD1AC9A0A85256FF00055DB3A' sequence='3'>
+<created><datetime dst='true'>20050427T113746,82-04</datetime></created>
+<modified><datetime dst='true'>20260917T084315,29-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074929,28-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084315,28-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084315,28-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050427T114003,02-04</datetime><datetime
+ dst='true'>20090902T074501,65-04</datetime></revisions>
+<item name='CompName'><text>Computer Supply House</text></item>
+<item name='CompPhone'><text>(613) 233-7357</text></item>
+<item name='CompAddress'><text>105 O'Connor Street,</text></item>
+<item name='CompFax'><text>(613) 233-6823</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Darrel Rennie</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Darrel Rennie</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>K1P 5M8</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Vendor Code: 1003932</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

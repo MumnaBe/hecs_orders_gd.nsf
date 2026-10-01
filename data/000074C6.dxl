@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='74c6' unid='F1D79FF91EA4395C85257E6100621724' sequence='3'>
+<created><datetime dst='true'>20150611T135124,52-04</datetime></created>
+<modified><datetime dst='true'>20260917T085202,98-04</datetime></modified>
+<revised><datetime dst='true'>20150611T135220,69-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085202,97-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085202,97-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20150611T135216,23-04</datetime><datetime
+ dst='true'>20150611T135220,30-04</datetime></revisions>
+<item name='CompName'><text>ELM Printing</text></item>
+<item name='CompPhone'><text>613-232-0572</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>613-232-0672</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text/></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text/></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text/></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text/></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text><break/>Company Name:<break/>ELM Printing<break
+/>Account Number:<break/><break/>Phone:<break/>613-232-0572<break/>Fax:<break
+/>613-232-0672<break/></text></item>
+<item name='org_author' names='true'><text>Maria Ianni</text></item>
+<item name='date_create'><datetime dst='true'>20150611T135124,52-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><textlist><text>Maria Ianni</text><text>Maria Ianni</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2015-06-11 01:52:20 PM</text><text
+>2015-06-11 01:52:19 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Maria Ianni;</text><text>Maria Ianni;</text></textlist></item></document>
+

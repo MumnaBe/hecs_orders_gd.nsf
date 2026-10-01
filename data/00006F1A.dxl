@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='6f1a' unid='027B140768653D8085257BF1006E3A5E' sequence='2'>
+<created><datetime dst='true'>20130925T160359,02-04</datetime></created>
+<modified><datetime dst='true'>20260917T085132,99-04</datetime></modified>
+<revised><datetime dst='true'>20130925T162109,16-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085132,98-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085132,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20130925T160439,39-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>R &amp; M Laboratory Buildings</text></item>
+<item name='NameF'><text>R &amp; M Laboratory Buildings</text></item>
+<item name='CodeNumber'><text>56104</text></item>
+<item name='org_author' names='true'><text>Shreedat Phulesar</text></item>
+<item name='date_create'><datetime dst='true'>20130925T160359,02-04</datetime></item>
+<item name='edit_history'><text>Shreedat Phulesar</text></item>
+<item name='edit_history_1'><text>2013-09-25 04:21:02 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Shreedat Phulesar;</text></item></document>
+

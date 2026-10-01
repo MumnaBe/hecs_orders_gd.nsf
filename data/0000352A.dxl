@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='352a' unid='D7A08214E75EA01585256FD6006D6AA0' sequence='3'>
+<created><datetime dst='true'>20050401T155507,20-04</datetime></created>
+<modified><datetime dst='true'>20260917T084611,93-04</datetime></modified>
+<revised><datetime dst='true'>20050405T110347,26-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084611,92-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084611,92-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050401T155552,69-04</datetime><datetime
+ dst='true'>20050401T155702,72-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Acq&lt;10K Office Furniture Furnishing &amp; Part</text></item>
+<item name='NameF'><text>Acq&lt;10K Mobilier de bureau Fourniture et pièces</text></item>
+<item name='CodeNumber'><text>58201</text></item></document>
+

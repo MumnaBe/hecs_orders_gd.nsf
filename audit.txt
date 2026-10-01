@@ -1,0 +1,19 @@
+Archive started at: Thu Sep 17 10:02:43 2026 Eastern Daylight Time
+Set user to: CN=Robert Picard/OU=HC-SC/O=GC/C=CA
+Archive database server: CN=DEV01/OU=DEV/O=HCSC/C=CA
+Archive database path  : DESIGNEXPORT\hecs_orders_gd.nsf
+Archive with full access admin
+Database size before archive: 84148224
+Database size after archive : 84148224
+Archive ended at: Thu Sep 17 10:05:15 2026 Eastern Daylight Time
+Total runtime (seconds): 152.00
+Database total documents :     1379
+Exported Document Counts
+Data   :     1205
+Design :      170
+Profile:        4
+Exported total documents :     1379
+Failed total documents   :        0
+Total documents processed:     1379
+Documents exported with warnings :        0
+Original archive path: C:\TeamStudio Export\DEV01_002FDEV_002FHCSC_002FCA\DESIGNEXPORT\hecs_orders_gd.nsf.tse

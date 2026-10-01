@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1936' unid='4F4858203B642AC185256FE4004B96C4' sequence='4'>
+<created><datetime dst='true'>20050415T094537,96-04</datetime></created>
+<modified><datetime dst='true'>20260917T084401,41-04</datetime></modified>
+<revised><datetime dst='true'>20230607T120621,33-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084401,40-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084401,40-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050415T094816,44-04</datetime><datetime
+ dst='true'>20090902T074521,07-04</datetime><datetime dst='true'>20090902T074946,46-04</datetime></revisions>
+<item name='CompName'><text>ADALTIS Inc.</text></item>
+<item name='CompPhone'><text>(514) 335-9922</text></item>
+<item name='CompAddress'><text>10900 Harmon Street,</text></item>
+<item name='CompFax'><text>(514) 335-9919</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Linda Ouimet</text></item>
+<item name='CompCity'><text>Montreal </text></item>
+<item name='InvContact'><text>Linda Ouimet</text></item>
+<item name='CompProvince'><text>(Quebec)</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>H3M 3A2</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>linda.ouimet@adaltis.com</text></item>
+<item name='CompWeb'><text>www.adaltis.com</text></item>
+<item name='comment'><text>Vendor Code: 1057510.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050415T094537,96-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:06:25 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

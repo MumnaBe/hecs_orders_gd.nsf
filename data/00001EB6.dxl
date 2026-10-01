@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Lookup'>
+<noteinfo noteid='1eb6' unid='6A2ECF70671FD69A85256BEB005F0A19' sequence='5'>
+<created><datetime dst='true'>20020703T131805,05-04</datetime></created>
+<modified><datetime dst='true'>20260917T084424,48-04</datetime></modified>
+<revised><datetime dst='true'>20180423T075718,31-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084424,47-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084424,47-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131805,23-04</datetime><datetime
+ dst='true'>20020802T142324,61-04</datetime><datetime dst='true'>20030401T080433,57-04</datetime><datetime
+ dst='true'>20180409T074137,41-04</datetime></revisions>
+<item name='EKEYWORDOLD'><text>BSU</text></item>
+<item name='FKEYWORDOLD'><text>BSU</text></item>
+<item name='Body'><richtext>
+<pardef id='1'/>
+<par def='1'>This is the prefix the will precede the order numbers.</par></richtext></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131805,05-04</datetime></item>
+<item name='LookupType' protected='true'><text>RefNumberPrefix</text></item>
+<item name='EKeyword'><text>BSU</text></item>
+<item name='FKeyword'><text>BSU</text></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Kirsten Oickle</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2018-04-23 07:57:17 AM</text><text
+>2018-04-09 07:41:37 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Kirsten Oickle;</text></textlist></item></document>
+

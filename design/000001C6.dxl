@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(RefNumberTag Population)' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3' publicaccess='false'
+ designerversion='6.5' restrictions='unrestricted'>
+<noteinfo noteid='1c6' unid='B5B1E9838D680BA585256D2E00473227' sequence='11'>
+<created><datetime dst='true'>20030522T085738,95-04</datetime></created>
+<modified><datetime dst='true'>20260917T084238,89-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,16-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084238,88-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084238,88-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,68-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='all'><search type='byformnames'><formchoice name='New Order Form|NewOrderForm'/><formchoice
+ name='Order Form|OrderForm'/></search></documentset><code event='action'>
+<simpleaction action='runformula'><formula>FIELD RefNumberTag := RefNumberTag;
+FIELD d_RefNumber := d_RefNumber;
+FIELD RefNumber := RefNumber;
+@SetField("RefNumberTag";@Left(d_RefNumber;@Length(d_RefNumber)-@Length(RefNumber)))
+;SELECT @All</formula></simpleaction></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime>20090210T100918,51-05</datetime></agentmodified></rundata>
+<item name='$POID'><datetime>20090212T112643,21-05</datetime></item></agent>
+

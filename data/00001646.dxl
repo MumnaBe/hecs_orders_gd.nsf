@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='1646' unid='3FFEBAB5E8368C5585256BEB005F0A94' sequence='27'>
+<created><datetime dst='true'>20020703T131806,28-04</datetime></created>
+<modified><datetime dst='true'>20260917T084348,94-04</datetime></modified>
+<revised><datetime dst='true'>20060531T145710,10-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084348,93-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084348,93-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Marco Spirito/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131806,50-04</datetime><datetime
+ dst='true'>20020722T124031,38-04</datetime><datetime dst='true'>20020722T124413,56-04</datetime><datetime
+ dst='true'>20020828T144520,60-04</datetime><datetime dst='true'>20020828T144911,69-04</datetime><datetime
+ dst='true'>20020828T145019,10-04</datetime><datetime>20021104T120502,23-05</datetime><datetime
+>20021104T123307,47-05</datetime><datetime>20021104T123334,83-05</datetime><datetime
+>20021129T082645,03-05</datetime><datetime>20021129T100523,46-05</datetime><datetime
+ dst='true'>20040512T154533,41-04</datetime><datetime dst='true'>20040527T143221,95-04</datetime><datetime
+ dst='true'>20040527T143312,15-04</datetime><datetime dst='true'>20050401T101540,91-04</datetime><datetime
+ dst='true'>20050401T143409,31-04</datetime><datetime dst='true'>20050406T090116,09-04</datetime><datetime
+ dst='true'>20050706T155226,60-04</datetime><datetime>20060116T130424,92-05</datetime><datetime
+>20060207T143759,96-05</datetime><datetime>20060207T144421,05-05</datetime><datetime
+>20060208T074520,68-05</datetime><datetime>20060208T074635,29-05</datetime><datetime
+>20060208T074705,35-05</datetime><datetime dst='true'>20060426T100004,28-04</datetime><datetime
+ dst='true'>20060426T110310,22-04</datetime></revisions>
+<item name='Category'><text>Capital</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831503</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;10K Lab Equipment</text><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text></textlist></item>
+<item name='ProgActiv'><textlist><text>A3K1-General Admin.</text><text>A3K4-Financial Management &amp; Stewardship</text><text
+>A3K6-Continuous Improvement Programme Management</text></textlist></item>
+<item name='IntOrd'><text>4340440 ITA Section Manag - RV</text></item></document>
+

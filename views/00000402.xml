@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <document noteId="00001026">
+        <value>
+            <text>4320010 RV - Pulm</text>
+        </value>
+        <value>
+            <text>GD/CD-020006</text>
+        </value>
+    </document>
+    <document noteId="00001996">
+        <value>
+            <text>4320010 RV - Pulm</text>
+        </value>
+        <value>
+            <text>GD/CD-020597</text>
+        </value>
+    </document>
+    <document noteId="0000132E">
+        <value>
+            <text>4320101 HV - Allergens</text>
+        </value>
+        <value>
+            <text>GD/CD-020021</text>
+        </value>
+    </document>
+    <document noteId="000016F6">
+        <value>
+            <text>4320101 HV - Allergens</text>
+        </value>
+        <value>
+            <text>GD/CD-020023</text>
+        </value>
+    </document>
+    <document noteId="0000252E">
+        <value>
+            <text>4320101 HV - Allergens</text>
+        </value>
+        <value>
+            <text>GD/CD-020020</text>
+        </value>
+    </document>
+    <document noteId="00002D36">
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+        <value>
+            <text>GD/CD-020600</text>
+        </value>
+    </document>
+</view>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='5e1e' unid='517DD7359679564785257826004E72DA' sequence='1'>
+<created><datetime>20110128T091652,10-05</datetime></created>
+<modified><datetime dst='true'>20260917T085007,43-04</datetime></modified>
+<revised><datetime>20110128T092140,71-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085007,42-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085007,42-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>Freelancer.com</text></item>
+<item name='CompPhone'><text/></item>
+<item name='CompAddress'><text>Suite 501, 35 Lime Street </text></item>
+<item name='CompFax'><text/></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Sydney</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>New South Wales</text></item>
+<item name='CompPostalCode'><text>2000</text></item>
+<item name='CompCountry'><text>Australia</text></item>
+<item name='AcctNumber'><text>none</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text>GetAFreelancer.com</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>Freelancer.com</text></item>
+<item name='comment'><text>Postal address:<break/>Freelancer.com<break/>P.O. Box 1121<break
+/>Double Bay NSW 1360<break/>Australia<break/><break/><break/>Freelancer.com, Freelancer.com.au, Freelancer.co.uk, Freelancer.eu and Freelancer.co.nz are operated by Freelancer Australia Pty. Limited, trading as Freelancer.com (ACN 134 845 748), with license from Freelancer Technology Pty Limited (ACN 142 189 759) and Plendo Sweden AB (Org. No 556773-0568). <break
+/><break/>Freelancer.hk, Freelancer.sg and Freelancer.ph are operated by Freelancer.com Pte Ltd (Singapore Company 201022717D), with license from Freelancer Technology Pty Limited (ACN 142 189 759) and Plendo Sweden AB (Org. No 556773-0568). <break
+/>Freemarket.com is operated by Freelancer Australia Pty. Limited, with license from Freelancer Technology Pty Limited (ACN 142 189 759) and Freemarket (Switzerland) GmbH, wholly owned subsidiaries of the Freelancer Group </text></item>
+<item name='org_author' names='true'><text>Josee Guenette</text></item>
+<item name='date_create'><datetime>20110128T091652,10-05</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

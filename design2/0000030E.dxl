@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_12_0_2.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='30e' unid='6506F5306D5417BB85256AE6005EE416' sequence='123'>
+<created><datetime dst='true'>20011015T131627,74-04</datetime></created>
+<modified><datetime dst='true'>20260917T084244,93-04</datetime></modified>
+<revised><datetime dst='true'>20080902T111715,24-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084244,92-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084244,92-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<item name='$$CostCentre' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/></text></item>
+<item name='CategoriesAllowed' summary='false'><number>0</number></item>
+<item name='OriginalModTime'><datetime dst='true'>20080730T114157,39-04</datetime></item>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><textlist><text>Cost Centre</text><text>CCForm</text></textlist></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAJAAAAAAgAAAAQABAP///wAAAAAA
+</rawitemdata></item>
+<item name='$WINDOWTITLE' sign='true'><formula>"Financial Code Generator"</formula></item>
+<item name='$Flags'><text/></item>
+<item name='$DesignerVersion'><text>6.5</text></item>
+<item name='$Fonts'>
+<rawitemdata type='1'>
+i/8oAAEABSZBcmlhbCBCbGFjawAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$$ScriptName' summary='false' sign='true'><text> CCForm</text></item>
+<item name='$$FormScript' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Queryclose(Source As Notesuidocument, Continue As Variant)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+	Static Source As NOTESUIDOCUMENT
+	Set Source = Bind(Objectname_)
+	On Event Queryclose From Source Call Queryclose
+End Sub
+
+'++LotusScript Development Environment:2:2:Queryclose:1:12
+Sub Queryclose(Source As Notesuidocument, Continue As Variant)
+	
+End Sub<break/></text></item>
+<item name='$$Project' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Entering(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Entering From Source Call Entering
+End Sub
+
+'++LotusScript Development Environment:2:2:Entering:1:12
+Sub Entering(Source As Field)
+     
+End Sub<break/></text></item>
+<item name='$$Category' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+Declare Sub Entering(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+	Static Source As FIELD
+	Set Source = Bind(Objectname_)
+	On Event Exiting From Source Call Exiting
+	On Event Entering From Source Call Entering
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+	
+End Sub
+'++LotusScript Development Environment:2:2:Entering:1:12
+Sub Entering(Source As Field)
+	Dim w As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	
+	Set uidoc=w.currentdocument
+	Call uidoc.FieldSetText("FundSource","")    
+	Call uidoc.FieldSetText("GLAccount","")    
+	Call uidoc.FieldSetText("PA","")    
+     ' Call uidoc.FieldSetText("Project","")         
+End Sub<break/></text></item>
+<item name='$$FundSource' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+Declare Sub Entering(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+	Static Source As FIELD
+	Set Source = Bind(Objectname_)
+	On Event Exiting From Source Call Exiting
+	On Event Entering From Source Call Entering
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Dim doc As notesdocument
+	Dim doc2 As notesdocument
+	
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim v As notesview
+	Dim keys( 1 To 3 ) As String
+	Dim category As String          ' From Variant
+	Dim fundsource As String        ' From Variant
+	Dim project As String           ' From Variant
+	Dim spa As Variant
+	Dim GAField As notesitem
+	Dim PAField As notesitem
+	Dim fkeys(1 To 2) As String
+	Dim frenchview As notesview
+	Dim keyDoc As notesdocument
+	Dim fldTheFirstItem As notesitem
+	
+	Set uidoc=ws.currentdocument
+	Set doc=uidoc.Document
+	category = doc.Category(0)
+	fundsource =doc.FundSource(0)
+	project = uidoc.FieldGetText("Project")
+	Set db = s.CurrentDatabase
+	Set v = db.Getview("C2V2")    
+	Set frenchview = db.GetView("C1V")
+	keys( 1 ) = category
+	keys( 2 ) = fundsource
+	keys( 3 ) = project
+	Set doc2 = v.GetDocumentByKey(keys,True)
+	doc.GSTExempt = doc2.GSTExempt(0)
+	If Not (doc2 Is Nothing) Then
+		spa = doc2.SPA
+		Select Case spa(0)
+		Case "Yes"
+          ' If this is a special project account, the G/L Account is limited, client picks from a list of Program Activities.
+			doc.ProgActList = Null
+			doc.GLAcctList = Null
+			doc.PrjNumList = Null
+			doc.ProgActList = doc2.ProgActiv
+			doc.GLAcctList = doc2.GLAccount
+			doc.PrjNumList = doc2.IntOrd
+			doc.FSC = doc2.CodeNumber(0)
+			
+		Case "No"
+          ' If this is a regular funding source, then the Program Activity is limited, client picks from a list of G/L Accounts.
+			doc.ProgActList = Null
+			doc.GLAcctList = Null
+			doc.PrjNumList = Null
+			doc.ProgActList = doc2.ProgActiv
+			doc.GLAcctList = doc2.GLAccount
+			doc.PrjNumList = doc2.IntOrd
+			doc.FSC = doc2.CodeNumber(0)
+			
+		End Select
+		
+		doc.GLAcctListFrench=""
+		doc.PAListFrench=""
+		If s.GetEnvironmentString("HECS_Language")="F" Then
+			Dim frItem2 As notesitem
+			Set frItem2 = doc.GetFirstItem("GLAcctListFrench")
+			Dim frItem As notesitem
+			Set frItem=doc.GetFirstItem("GLAcctList")
+			Forall x In frItem.Values
+				
+				fkeys(1)="G/L Account"
+				fkeys(2)=x
+				
+				Set keyDoc=frenchview.GetDocumentByKey(fkeys)
+				
+				If Not (keyDoc Is Nothing) Then 
+					x=keyDoc.NameF(0)+"|"+keyDoc.Name(0)
+					Call frItem2.AppendToTextList(x)
+				End If
+			End Forall
+			
+			doc.GLAcctList=doc.GLAcctListFrench
+			
+		End If
+		
+		If s.GetEnvironmentString("HECS_Language")="F" Then
+			Dim frItem4 As notesitem
+			Set frItem4 = doc.GetFirstItem("PAListFrench")
+			Dim frItem3 As notesitem
+			Set frItem3=doc.GetFirstItem("ProgActList")
+			Forall x In frItem3.Values
+				
+				fkeys(1)="Program Activity"
+				fkeys(2)=x
+				
+				Set keyDoc=frenchview.GetDocumentByKey(fkeys)
+				
+				If Not (keyDoc Is Nothing) Then 
+					x=keyDoc.NameF(0)+"|"+keyDoc.Name(0)
+					Call frItem4.AppendToTextList(x)
+				End If
+			End Forall
+			
+			doc.ProgActList=doc.PAListFrench
+			
+		End If
+		
+	Else
+		doc.ProgActList = Null
+		doc.GLAcctList = Null
+		doc.PrjNumList = Null
+		doc.FSC = Null          
+	End If
+	
+	Call uidoc.refresh
+	
+End Sub
+'++LotusScript Development Environment:2:2:Entering:1:12
+Sub Entering(Source As Field)
+	Dim w As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	
+	Set uidoc=w.currentdocument
+	Call uidoc.FieldSetText("FundSource","")
+	Call uidoc.FieldSetText("GLAccount","")    
+	Call uidoc.FieldSetText("PA","")    
+    ' Call uidoc.FieldSetText("Project","")             
+End Sub<break/></text></item>
+<item name='$$GLAccount' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Entering(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+	Static Source As FIELD
+	Set Source = Bind(Objectname_)
+	On Event Entering From Source Call Entering
+End Sub
+
+'++LotusScript Development Environment:2:2:Entering:1:12
+Sub Entering(Source As Field)
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession	
+	Dim uidoc As notesuidocument
+	Dim doc As notesdocument
+	Dim fldTheFirstItem As notesitem	
+	
+	Set uidoc=ws.CurrentDocument
+	uidoc.refresh
+	Set doc=uidoc.Document
+	Set fldTheFirstItem = doc.GetFirstItem("GLAcctList")
+	
+	Call uidoc.FieldSetText("GLAccount",fldTheFirstItem.Values(0))
+	Set fldTheFirstItem = doc.GetFirstItem("ProgActList")
+	Call uidoc.FieldSetText("PA",fldTheFirstItem.Values(0))
+	If s.GetEnvironmentString("HECS_Language") = "F" Then
+		Call uidoc.FieldSetText("GLAccount", Left(uidoc.FieldGetText("GLAccount"), Instr(uidoc.FieldGetText("GLAccount"),"|")-1))
+		Call uidoc.FieldSetText("PA", Left(uidoc.FieldGetText("PA"), Instr(uidoc.FieldGetText("PA"),"|")-1))
+	End If
+End Sub<break/></text></item>
+<item name='$$dProject' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Entering(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Entering From Source Call Entering
+End Sub
+
+'++LotusScript Development Environment:2:2:Entering:1:12
+Sub Entering(Source As Field)
+     
+End Sub<break/></text></item>
+<item name='FSC' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='GLAC' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='PAC' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='PC' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='Project' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='CompleteFinancialCode' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='GLAcctList' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='ProgActList' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='PrjNumList' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='ProjectSelection' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='GLAcctListFrench' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='PAListFrench' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='Category' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='FundSource' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='GLAccount' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='PA' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='GSTExempt' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='$FIELDS'><textlist><text>GSTExempt</text><text>PA</text><text
+>GLAccount</text><text>FundSource</text><text>Category</text><text>PAListFrench</text><text
+>GLAcctListFrench</text><text>ProjectSelection</text><text>PrjNumList</text><text
+>ProgActList</text><text>GLAcctList</text><text>CompleteFinancialCode</text><text
+>Project</text><text>PC</text><text>PAC</text><text>GLAC</text><text>FSC</text></textlist></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+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
+iv/+/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALD/FAAAAAIiAQAAAAAAAAAAAAAAiv9UAYqCAAUAIAIA
+CAAAAAACAQEACgAAAAACAMQACgAAAGIAxAAAAJ4ABQAKAEZ1bmRTb3VyY2UBAAAACgKvAIIAeAAB
+ADMAUGxlYXNlIGRvIG5vdCBsZWF2ZSB0aGUgRnVuZGluZyBTb3VyY2UgZmllbGQgYmxhbmsuAIoA
+IgKKACICAQAqAFZldWlsbGV6IHOCbGVjdGlvbm5lciB1biBzb3VyY2UgZGVzIGZvbmRzOiICewGu
+AAoAegCuAAQAtQMDAAcAJAAeAAkzUzRTNlM5UzEwUzExUzEyUzEzUzE0UzE1UzE3U0Z1bmRTb3Vy
+Y2UAAGAAAABSAAEAAAABAAcATm9DYWNoZQAfAgEAAAABAAAAHwIBAAQAQzJWNAUABwBQcm9qZWN0
+AAUACABDYXRlZ29yeSICAAAAAAAAAAAAQIMFqwEDAAcADAAFAAkwUzBFAN4GAACK/4X/CAABAAAK
+pBIBAKAFQA+TJgACAAABAQAAgQKDBAUA3QYAAIX/hf8KAAUBCgoyLtIIAQAAAIAA3gYAAIX/hf8J
+AAEBAAogAN0GAACt/6n/cAABABgABABkAGQAAABWAAEADQBIRUNTX0xhbmd1YWdlAHwBAQABAEYA
+CgKvADIAFgABAAsAQ29tcHRlIEcvTDoArgAcAAEADwBHL0wgQWNjb3VudCAjOiAArgAEALUDAwAH
+AAwABQAJMFMwRQCF/wgAAQEACqoC3gYAAK4Ahf8JAAEBAAoJAKQSAQFAD7Eh7UkAAgAAAQEAAIEC
+gwQGALwGBQAGAIX/CAABAQAK3QYAAIr//v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACw/xQAAAACAAEA
+AAAAAAAAAAAAAIr/RgCKAgAFACACAAgAAAAAAgEBAAoAAAAAAwAAAAkAAAAYAEdMQWNjb3VudAAA
+FgAAABQABQAKAEdMQWNjdExpc3QDAADeBgAAiv/dBgAAhf+F/wgABQEKCtIIAQAAAIAA3gYAAIX/
+pBICAKAFQA+TJgACAAABAQAAgQKDBAUA3QYAAIX/hf8KAAUBCgozLtIIAQAAAIAA3gYAAIX/hf8J
+AAEBAAogAN0GAACt/6n/fAABABgABABwAHAAAABiAAEADQBIRUNTX0xhbmd1YWdlAHwBAQABAEYA
+CgKvAD4AIAABABYAQWN0aXZpdIIgZGUgcHJvZ3JhbW1lOq4AHgABABEAUHJvZ3JhbSBBY3Rpdml0
+eToArgAEALUDAwAHAAwABQAJMFMwRQCF/wgAAQEACqoC3gYAAK4Ahf8JAAEBAAoJAKQSAgFAD7Eh
+7UkAAgAAAQEAAIECgwQGALwGBQAGAIX/CAABAQAK3QYAAIr//v9QAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AACw/xQAAAACAAEAAAAAAAAAAAAAAIr/QACKAgAFACACAAAAAAAAAgEBAAoAAAAABAAAAAIAAAAa
+AFBBAAAYAAAAFgAFAAsAUHJvZ0FjdExpc3QAAwDeBgAAiv+F/wkAAQEACgkApBIDAKAFQA+TJgAC
+AAABAQAAgQKDBAUA3QYAAIX/hf8KAAUBCgo0LtIIAQAAAIAA3gYAAIX/hf8JAAEBAAogAN0GAACt
+/6n/jAABABgABACAAIAAAAByAAEADQBIRUNTX0xhbmd1YWdlAHwBAQABAEYACgKvAE4AJgABABwA
+T3JkcmUgSW50ZXJuZSAtICMgZGUgUHJvamV0Oq4AKAABABsASW50ZXJuYWwgT3JkZXIgLSBQcm9q
+ZWN0ICM6AK4ABAC1AwMABwAMAAUACTBTMEUAhf8IAAEBAAqqAt4GAACuAN0GAACF/4X/CAAFAQoK
+0ggBAAAAgADeBgAAhf+kEgMBQA+xIe1JAAIAAAEBAACBAoMEBgC8BgUABgCF/wgAAQEACt0GAACK
+//7/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsP8UAAAAAgABAAAAAAAAAAAAAACK/0gAgAEABQAgAgAA
+AAAAAAIBAQAKHAAAAAUAAAAIAAAAAAAcAAAAGgAFABAAUHJvamVjdFNlbGVjdGlvbgMAZFByb2pl
+Y3TeBgAAiv+F/wgAAQAACqUGAAAAAIECgwQBAIX/CAABAQAM3QYAAIr//v9QAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAACK/y4AigAABQAwAgAAAAAAAAIBAgIIAAAAAAAAAAAJAAAAAABHU1RFeGVtcHQA3gYA
+AIr/hf8IAAEBAAyBAoMEAQCF/wgAAQEADIECgv9aAAcAAAAAAAAAAACgBQAAoAUAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwYwAAAACUhKAFCgCgBQoAAAAAAAEAAAAE
+AAAAgwQHAIX/CAABAAAKgQKDBAQAhf8IAAEBAAyBAoMEBACF/wgAAQEADIECgwQHAIX/CAABAAAK
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABANTQyAABAAAAAAAJAAAAAAABANTQyAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC+/yYAAAAFAAAAnQEAAAsAAAAAAAAAQ2F0ZWdvcmlfemVP
+AQBOfL7/KAAAAAUAAACdAQAADgAAAAAAAABfRWRpdCBEb2N1bWVudAIAAgq+/ygAAAAFAAAAnQEA
+AA4AAAAAAAAAX1NlbmQgRG9jdW1lbnQDAAMKvv8iAAAABQAAAJ0BAAAIAAAAAAAAAF9Gb3J3YXJk
+BAAECr7/LAAAAAUAAACdAQAAEgAAAAAAAABfTW92ZSBUbyBGb2xkZXIuLi4FAD18vv8uAAAABQAA
+AJ0BAAATAAAAAAAAAF9SZW1vdmUgRnJvbSBGb2xkZXIABgA+fA==
+</rawitemdata></item>
+<item name='$ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAL7/JgAAAAUAAACdAQAACwAAAAAAAABDYXRlZ29y
+aV96ZT0BAE58vv8oAAAABQAAAJ0BAAAOAAAAAAAAAF9FZGl0IERvY3VtZW50AgACCr7/KAAAAAUA
+AACdAQAADgAAAAAAAABfU2VuZCBEb2N1bWVudAMAAwq+/yIAAAAFAAAAnQEAAAgAAAAAAAAAX0Zv
+cndhcmQEAAQKvv8sAAAABQAAAJ0BAAASAAAAAAAAAF9Nb3ZlIFRvIEZvbGRlci4uLgUAPXy+/y4A
+AAAFAAAAnQEAABMAAAAAAAAAX1JlbW92ZSBGcm9tIEZvbGRlcgAGAD58
+</rawitemdata></item></note>
+

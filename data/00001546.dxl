@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1546' unid='3AF209E32C2CACC785256BEB005F0974' sequence='4'>
+<created><datetime dst='true'>20020703T131803,40-04</datetime></created>
+<modified><datetime dst='true'>20260917T084344,32-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074939,43-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084344,31-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084344,31-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,42-04</datetime><datetime
+>20021104T141455,93-05</datetime><datetime dst='true'>20090902T074513,43-04</datetime></revisions>
+<item name='CompName'><text>Standard Reference Materials Program</text></item>
+<item name='CompAddress'><text>Office Of Measurement Services<break/>Technology Services<break
+/>National Institute Of Standards And Technology</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Gaithersburg</text></item>
+<item name='CompProvince'><text>Maryland</text></item>
+<item name='CompPostalCode'><text>20899-0001</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>(301) 975-6776</text></item>
+<item name='CompFax'><text>(301) 948-3730</text></item>
+<item name='PurchContact'><text/></item>
+<item name='InvContact'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>srminfo@nist.gov</text></item>
+<item name='CompWeb'><text>http://ts.nist.gov/srm</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

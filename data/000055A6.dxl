@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='55a6' unid='0B5619409E77F58D85257631004FC619' sequence='2'>
+<created><datetime dst='true'>20090914T103120,57-04</datetime></created>
+<modified><datetime dst='true'>20260917T084923,84-04</datetime></modified>
+<revised><datetime dst='true'>20090914T103818,17-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084923,83-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084923,83-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20090914T103815,11-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20090914T103821,76-04</datetime></item>
+<item name='CompName'><text>Lorne Murphy <break/>Foods</text></item>
+<item name='CompPhone'><text>613-235-5211</text></item>
+<item name='CompAddress'><text>Main Stats Building - Tunney's Pasture</text></item>
+<item name='CompFax'><text>613-235-1743</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Louise Stafford</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Louise Stafford</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K1A 0K9</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20090914T103120,57-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text>Dian Calagoure</text></item>
+<item name='edit_history_1'><text>2009-09-14 10:38:21 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Dian Calagoure;</text></item></document>
+

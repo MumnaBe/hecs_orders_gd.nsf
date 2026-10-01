@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='5226' unid='1EC37AA3206689CA8525756700595EC5' sequence='6'>
+<created><datetime>20090224T111609,65-05</datetime></created>
+<modified><datetime dst='true'>20260917T084903,12-04</datetime></modified>
+<revised><datetime dst='true'>20181025T102340,07-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084903,11-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084903,11-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lindsy Bachly/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20090224T111829,60-05</datetime><datetime>20090224T111831,38-05</datetime><datetime
+ dst='true'>20090902T074630,37-04</datetime><datetime dst='true'>20090902T074857,99-04</datetime><datetime
+ dst='true'>20181025T102222,84-04</datetime></revisions>
+<item name='OriginalModTime'><datetime>20090224T111835,17-05</datetime></item>
+<item name='CompName'><text>New Born Arts / NBA Signs</text></item>
+<item name='CompPhone'><text>613-742-6227</text></item>
+<item name='CompAddress'><text>2760 Sheffield Road, Unit 7</text></item>
+<item name='CompFax'><text>613-742-7031</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Pierre-Luc Coulombe</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Non</text></item>
+<item name='CompPostalCode'><text>K1B 3V9</text></item>
+<item name='VISA_FR'><text>Non</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>Vanessa@newbornarts.com / pierre-luc@newbornarts.com</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Oct 2018 - Revised company profile as they do not accept credit card payments anymore.<break
+/><break/>Please note that this company does not accept credit card payments so a Purchase Order in SAP is required if we want to order something from this company.  <break
+/>An order cannot be placed with the company until a Purchase Order for Goods is processed by MAMD and approved by the Cost Centre Manager.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20090224T111609,65-05</datetime></item>
+<item name='MasterCard_EN'><text>No</text></item>
+<item name='MasterCard'><text>No</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Kirsten Oickle</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2018-10-25 10:23:39 AM</text><text
+>2018-10-25 10:22:22 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Kirsten Oickle;</text></textlist></item></document>
+

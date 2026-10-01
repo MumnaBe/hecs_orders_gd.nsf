@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='131e' unid='3049BF1BE1AD78A185256FD600035BA3' sequence='5'>
+<created><datetime dst='true'>20050331T203640,67-04</datetime></created>
+<modified><datetime dst='true'>20260917T084334,99-04</datetime></modified>
+<revised><datetime dst='true'>20050427T121215,88-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084334,98-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084334,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050331T203729,11-04</datetime><datetime
+ dst='true'>20050331T203823,06-04</datetime><datetime dst='true'>20050405T110711,41-04</datetime><datetime
+ dst='true'>20050427T121144,28-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Laundry Dry Cleaning and Other Related Services</text></item>
+<item name='NameF'><text>Service de Nettoyage à sec Buanderie et autres services reliés</text></item>
+<item name='CodeNumber'><text>56611</text></item></document>
+

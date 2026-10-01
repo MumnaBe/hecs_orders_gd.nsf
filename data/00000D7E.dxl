@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='d7e' unid='157E1F53837094B585256BEB005F0946' sequence='6'>
+<created><datetime dst='true'>20020703T131802,94-04</datetime></created>
+<modified><datetime dst='true'>20260917T084310,99-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074810,03-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084310,98-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084310,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,96-04</datetime><datetime
+>20021104T141454,97-05</datetime><datetime dst='true'>20050624T140626,82-04</datetime><datetime
+ dst='true'>20050624T141923,93-04</datetime><datetime dst='true'>20090902T074402,90-04</datetime></revisions>
+<item name='CompName'><text/></item>
+<item name='CompPhone'><text/></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text/></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text/></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text/></item>
+<item name='CompPostalCode'><text/></item>
+<item name='CompCountry'><text/></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2242' unid='7B19056B8AFC36D685256DB9007E8D9C' sequence='5'>
+<created><datetime dst='true'>20031008T190217,88-04</datetime></created>
+<modified><datetime dst='true'>20260917T084439,40-04</datetime></modified>
+<revised><datetime dst='true'>20230607T122139,08-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084439,39-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084439,39-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20031008T190752,18-04</datetime><datetime
+>20031216T100233,10-05</datetime><datetime dst='true'>20090902T074411,57-04</datetime><datetime
+ dst='true'>20090902T074826,24-04</datetime></revisions>
+<item name='CompName'><text>U.S.A. Scientific Inc.</text></item>
+<item name='CompPhone'><text>1-800-522-8477</text></item>
+<item name='CompAddress'><text>346 SW 57 Ave.,</text></item>
+<item name='CompFax'><text>1-352-351-2057</text></item>
+<item name='CompPO'><text>P.O. Box 3565</text></item>
+<item name='PurchContact'><text>Ryan Dee</text></item>
+<item name='CompCity'><text>Ocala</text></item>
+<item name='InvContact'><text>Cherie Dalan</text></item>
+<item name='CompProvince'><text>Florida</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='CompPostalCode'><text>34478</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20031008T190217,88-04</datetime></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:21:43 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

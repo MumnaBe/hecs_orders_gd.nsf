@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='2bca' unid='ABA2FA93893BC26485256BEB005F0A4F' sequence='3'>
+<created><datetime dst='true'>20020703T131805,59-04</datetime></created>
+<modified><datetime dst='true'>20260917T084523,36-04</datetime></modified>
+<revised><datetime dst='true'>20050401T101323,68-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084523,35-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084523,35-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131805,81-04</datetime><datetime
+ dst='true'>20050331T181347,44-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_Travel - Non-Public Servant Non-Gov conference Abroad</text></item>
+<item name='NameF'><text>OLD_Voyage non-fonctionnaire conférence non-gouv étranger</text></item>
+<item name='CodeNumber'><text>01115</text></item></document>
+

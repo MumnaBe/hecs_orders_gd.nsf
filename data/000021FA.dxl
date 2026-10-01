@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='21fa' unid='79F8C9C555E75FEC85256FD5007EF9CE' sequence='3'>
+<created><datetime dst='true'>20050331T190654,86-04</datetime></created>
+<modified><datetime dst='true'>20260917T084438,26-04</datetime></modified>
+<revised><datetime dst='true'>20050405T110639,64-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084438,25-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084438,25-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050331T190746,85-04</datetime><datetime
+ dst='true'>20050331T190915,69-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Courier Services Incl Canada Post Priority Post</text></item>
+<item name='NameF'><text>Service de messager incl Poste Canada Messageries Prioritaires</text></item>
+<item name='CodeNumber'><text>52602</text></item></document>
+

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='1706' unid='44070DA576ED72A58525715C005410E3' sequence='22'>
+<created><datetime dst='true'>20060426T111813,47-04</datetime></created>
+<modified><datetime dst='true'>20260917T084352,39-04</datetime></modified>
+<revised><datetime>20140213T180549,09-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084352,38-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084352,38-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Marco Spirito/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060426T111906,48-04</datetime><datetime
+ dst='true'>20060531T094315,79-04</datetime><datetime dst='true'>20060531T094603,34-04</datetime><datetime
+ dst='true'>20080724T132512,67-04</datetime><datetime>20091105T142134,07-05</datetime><datetime
+>20091119T142016,47-05</datetime><datetime>20091119T142052,75-05</datetime><datetime
+>20100115T090502,19-05</datetime><datetime>20100122T140515,42-05</datetime><datetime
+ dst='true'>20100325T130156,76-04</datetime><datetime dst='true'>20100413T134825,94-04</datetime><datetime
+ dst='true'>20100428T100834,94-04</datetime><datetime dst='true'>20100428T101552,62-04</datetime><datetime
+ dst='true'>20100428T101809,23-04</datetime><datetime dst='true'>20110407T103600,32-04</datetime><datetime
+ dst='true'>20110407T143123,63-04</datetime><datetime dst='true'>20110608T085941,99-04</datetime><datetime
+ dst='true'>20120411T103249,99-04</datetime><datetime dst='true'>20130409T120525,70-04</datetime><datetime
+ dst='true'>20130409T124005,81-04</datetime><datetime dst='true'>20130926T110915,06-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100428T101723,39-04</datetime></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CodeNumber'><text>8R1501</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K  Safety Alarm and Signal Equipment</text><text
+>Acq&lt;10K Client Software</text><text>Acq&lt;10K Computer Equipment Parts</text><text
+>Acq&lt;10K Computer &amp; Related Peripheral Equip</text><text>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text><text
+>Acq&lt;10K Laptop and Related Peripheral Equip</text><text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&lt;10K Networking Software</text><text>Acq&lt;10K Office Furniture Furnishing &amp; Part</text><text
+>Acq&lt;10K Other Office Equip and Parts</text><text>Acq&lt;10K Software Packages for Computers</text><text
+>Acq&gt;10K Lab Equipment</text><text>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text><text>Books Newspapers and Magazines</text><text
+>Cellular Phone Services</text><text>Clothing Other Than Uniforms</text><text
+>Conference Fees</text><text>Containers &amp; Closures</text><text>Courier Services Incl Canada Post Priority Post</text><text
+>Electronic Subscriptions</text><text>Fees and Costs of Attending Seminars or Workshops</text><text
+>Fodder and Other Animal Feeds</text><text>Health Science Consultants</text><text
+>Honoraria</text><text>Hospitality</text><text>Inorganic &amp; Organic Chemicals</text><text
+>Laboratory Services other than Health and Welfare (Operon IDT DNA)</text><text
+>Laboratory Services (Contracts or Services)</text><text>Laboratory Supplies</text><text
+>Legal Services (Patents)</text><text>License/Maintenance Fees Client Software</text><text
+>Live Animals</text><text>Membership Fees</text><text>Non-Anesthetic Gases</text><text
+>Other Printed Matter Printed Forms &amp; CD ROM Disks </text><text>Other Transportation Not Elsewere Specified.</text><text
+>Printing Services</text><text>Publishing Services</text><text>R &amp; M Computer Equipment and Parts</text><text
+>R &amp; M Computer Hardware and Software</text><text>R &amp; M Furniture and Fixtures</text><text
+>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text>R &amp; M Laboratory Buildings</text><text
+>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text>R &amp; M Office Machines and Equipment</text><text
+>Reallocation of Expenditures within a Department (Housing of Animals)</text><text
+>Rental of Digital Communications/Network Equipment (Rogers)</text><text>Research Contracts</text><text
+>Seminars or Workshops Non-Taxable</text><text>Staff Language Training</text><text
+>Stationery Office Supplies and Artists' Materials</text><text>Temporary Help Services Acquired for General Help</text><text
+>Training Packages and Courses Purchased  for Staff</text><text>Translation Service</text><text
+>Travel  Non-Public Servants Conference all Locations</text><text>Travel Public Servants Abroad </text><text
+>Travel Public Servants Conference all Locations</text><text>Travel Public Servants Local Transportation</text><text
+>Travel Public Servants United States of America</text><text>Travel Public Servants Within Canada</text></textlist></item>
+<item name='ProgActiv'><text>GK10 - Research and Development</text></item>
+<item name='IntOrd'><text>810408 Nano-Silica - FY 2013-2014</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20060426T111813,47-04</datetime></item>
+<item name='edit_history'><textlist><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text
+>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text>Dian Calagoure</text><text
+>Sameer Jetha</text><text>Sameer Jetha</text><text>Sameer Jetha</text><text
+>Sameer Jetha</text><text>Sameer Jetha</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2014-02-13 06:05:47 PM</text><text
+>2013-09-26 11:09:12 AM</text><text>2013-04-09 12:40:03 PM</text><text>2013-04-09 12:05:23 PM</text><text
+>2012-04-11 10:32:48 AM</text><text>2011-06-08 08:59:24 AM</text><text>2011-04-07 02:31:14 PM</text><text
+>2011-04-07 10:35:55 AM</text><text>2010-04-28 10:17:23 AM</text><text>2010-04-28 10:15:06 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text
+>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text>Dian Calagoure;</text><text
+>Sameer Jetha;</text><text>Sameer Jetha;</text><text>Sameer Jetha;</text><text
+>Sameer Jetha;</text><text>Sameer Jetha;</text></textlist></item></document>
+

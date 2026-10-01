@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1a2a' unid='539B27ADEFA3509685256F8D00659B3E' sequence='4'>
+<created><datetime>20050118T132948,78-05</datetime></created>
+<modified><datetime dst='true'>20260917T084405,46-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074947,82-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084405,45-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084405,45-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20050118T133228,13-05</datetime><datetime>20050118T133242,88-05</datetime><datetime
+ dst='true'>20090902T074523,04-04</datetime></revisions>
+<item name='CompName'><text>Minitel</text></item>
+<item name='CompPhone'><text>613-913-8006</text></item>
+<item name='CompAddress'><text>1775 Courtwood Crescent</text></item>
+<item name='CompFax'><text>613-224-8312</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Dave Sully</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>K2C 3J2</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>none</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>david@minitel.ca</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>telus mobility hardware</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE subform>
+<subform name='AppProfile - General' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' designerversion='6.5'>
+<noteinfo noteid='38e' unid='0A0FAABD693A227385257608005FC1AA' sequence='6'>
+<created><datetime dst='true'>20090804T132554,98-04</datetime></created>
+<modified><datetime dst='true'>20260917T084247,79-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,04-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084247,78-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084247,78-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'/>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.1979in'><tablecolumn
+ width='50.0069%'/><tablecolumn width='49.9931%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='3' leftmargin='0.0278in' rightmargin='99%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='3'><run><font size='9pt' style='bold'/>HC Directory server / Serveur de l'annulaire de SC</run></par>
+<pardef id='4' leftmargin='0.0278in' rightmargin='99%' keeptogether='true'/>
+<par def='4'><run><font size='9pt'/>(</run><run><font size='9pt'/>eg. App04)</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='5' leftmargin='0.0278in' rightmargin='99%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='5'><run><font size='9pt' style='bold' color='red'/>*</run><run><font
+ size='9pt' color='red'/> </run><run><font size='9pt'/><field type='text'
+ kind='editable' name='HCDirectoryServer'/></run><run><font size='9pt'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='3'><run><font size='9pt' style='bold'/>HC Directory path / Chemin de l'annulaire de SC</run></par>
+<par def='3'><run><font size='9pt'/>(eg. </run><run><font size='9pt'/>csb/imsd/HcDir3.nsf</run><run
+><font size='9pt'/>)</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font size='9pt' style='bold' color='red'/>*</run><run><font
+ size='9pt' color='red'/> </run><run><font size='9pt'/><field type='text'
+ kind='editable' name='HCDirectoryPath'/></run><run><font size='9pt' style='bold'/></run></par></tablecell></tablerow></table>
+<pardef id='6' leftmargin='1in' hide='read copy preview'/>
+<par def='6'/></richtext></body>
+<item name='OriginalModTime'><datetime dst='true'>20090804T133032,27-04</datetime></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>AppProfile - General</text></item></subform>
+

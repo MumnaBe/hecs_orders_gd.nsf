@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='36d6' unid='E07D95B97D3D4D2985256FD6006DB72E' sequence='4'>
+<created><datetime dst='true'>20050401T155823,18-04</datetime></created>
+<modified><datetime dst='true'>20260917T084620,78-04</datetime></modified>
+<revised><datetime dst='true'>20050405T110200,59-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084620,77-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084620,77-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050401T155857,54-04</datetime><datetime
+ dst='true'>20050401T155946,85-04</datetime><datetime dst='true'>20050401T160312,75-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Acq&lt;10K  Safety Alarm and Signal Equipment</text></item>
+<item name='NameF'><text>Acq&lt;10K  Sécurité Alarme et Équipement de signalisation</text></item>
+<item name='CodeNumber'><text>58304</text></item></document>
+

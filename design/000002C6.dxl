@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='...Admin\Feedback' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' unreadmarks='none' onopengoto='lastopened' onrefresh='displayindicator'
+ headers='beveled' opencollapsed='false' showresponsehierarchy='true' showmargin='true'
+ shrinkrows='false' extendlastcolumn='false' showhierarchies='false' unreadcolor='black'
+ rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white' totalscolor='gray'
+ uniquekeys='false'>
+<noteinfo noteid='2c6' unid='C73FEA13B123679985256B61005800B0' sequence='8'>
+<created><datetime>20020215T110113,44-05</datetime></created>
+<modified><datetime dst='true'>20260917T084243,40-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143123,25-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100301,23-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084243,39-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Azzi/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form = "Feedback"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle/>
+<action title='' icon='144'><code event='click'><formula>@Command([OpenNavigator]; "Main")</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='$1' width='8.6250'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' categorized='true'><font size='8pt' color='blue' style='bold'/><columnheader
+ title='Created by'><font size='9pt' style='bold'/></columnheader><code event='value'><formula
+>@Name([CN];DocAuthor)</formula></code></column>
+<column hidedetailrows='false' itemname='ComposeDate' width='19.5000' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><font
+ size='8pt'/><columnheader><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='WishDesc' width='82' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><font
+ size='8pt'/><columnheader><font size='9pt' style='bold'/></columnheader></column></view>
+

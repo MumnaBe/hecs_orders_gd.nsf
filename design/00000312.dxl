@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='Display Company' alias='DCompany' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' publicaccess='false'
+ designerversion='5'>
+<noteinfo noteid='312' unid='69365C2EA7DFA7FB85256C4100446A24' sequence='10'>
+<created><datetime dst='true'>20020927T082716,20-04</datetime></created>
+<modified><datetime dst='true'>20260917T084244,99-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143122,52-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084244,98-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084244,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='queryopen'><lotusscript>Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)
+     Dim test As String
+     Dim answer As Variant
+     test="@IsMember('[Admin]';@userRoles)"
+     answer=Evaluate(test)
+     If Mode = 1 And Not(answer(0)=1) Then
+          Continue=False
+     End If
+End Sub</lotusscript></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action></actionbar>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'/>
+<table widthtype='fitmargins' user4spacing='true' refwidth='7.3333in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<pardef id='3' align='center' leftmargin='0%' rightmargin='100%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='3'><run><font size='14pt' style='bold' color='white'/>Company Information</run></par></tablecell></tablerow></table>
+<par def='1'/>
+<table widthtype='fitmargins' user4spacing='true' refwidth='7.3306in'><tablecolumn
+ width='17.4618%'/><tablecolumn width='22.5278%'/><tablecolumn width='2.4965%'/><tablecolumn
+ width='27.0590%'/><tablecolumn width='30.4479%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='4' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Nom de l'entreprise:";"Company Name")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='5' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='5'><field type='text' kind='computedfordisplay' name='DCompName'><code
+ event='defaultvalue'><formula>CompName</formula></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='6' leftmargin='11%' rightmargin='89%' keepwithnext='true' keeptogether='true'/>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='7' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Téléphone:";"Phone:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='8' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='8'><field type='text' kind='computedfordisplay' name='DCompPhone'><code
+ event='defaultvalue'><formula>CompPhone</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Adresse:";"Address:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='computedfordisplay' name='DCompAddress'><code
+ event='defaultvalue'><formula>CompAddress</formula></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/>FAX:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='computedfordisplay' name='DCompFax'><code
+ event='defaultvalue'><formula>CompFax</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Boîte postale:";"PO Box:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='computedfordisplay' name='DCompPO'><code
+ event='defaultvalue'><formula>CompPO</formula></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Contact aux achats:";"Purchasing Contact:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='computedfordisplay' name='DPurchContact'><code
+ event='defaultvalue'><formula>PurchContact</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Ville:";"City:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='computedfordisplay' name='DCompCity'><code
+ event='defaultvalue'><formula>CompCity</formula></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Contact aux factures:";"Invoicing Contact:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='computedfordisplay' name='DInvContact'><code
+ event='defaultvalue'><formula>InvContact</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Province:";"Province:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='computedfordisplay' name='DCompProvince'><code
+ event='defaultvalue'><formula>CompProvince</formula></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/>MasterCard:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='computedfordisplay' name='DMasterCard'><code
+ event='defaultvalue'><formula>MasterCard</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Code postale:";"Postal Code:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='computedfordisplay' name='DCompPostalCode'><code
+ event='defaultvalue'><formula>CompPostalCode</formula></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/>VISA:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='computedfordisplay' name='DVISA'><code
+ event='defaultvalue'><formula>VISA</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Pays:";"Country:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='computedfordisplay' name='DCompCountry'><code
+ event='defaultvalue'><formula>CompCountry</formula></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Numéro de compte:";"Account Number:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='computedfordisplay' name='DAcctNumber'><code
+ event='defaultvalue'><formula>AcctNumber</formula></code></field></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='7.3333in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<pardef id='9' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='9'><run><font style='bold' color='white'/></run><run><font style='bold'
+ color='white'/><computedtext><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Autre";"Other")</formula></code></computedtext></run><run
+><font style='bold' color='white'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='7.3319in'><tablecolumn
+ width='22.4514%'/><tablecolumn width='77.5451%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='10' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='10'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Nom alias:";"Alternate Name:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='11' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='11'><run><font style='bold'/></run><field type='text' kind='computedfordisplay'
+ name='DCompAKA'><code event='defaultvalue'><formula>CompAKA</formula></code></field><run
+><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='10'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Courriel:";"Email:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='11'><run><font style='bold'/></run><field type='text' kind='computedfordisplay'
+ name='DCompEmail'><code event='defaultvalue'><formula>CompEmail</formula></code></field><run
+><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='10'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Site Web:";"Web Site:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='11'><run><font style='bold'/></run><field type='text' kind='computedfordisplay'
+ name='DCompWeb'><code event='defaultvalue'><formula>CompWeb</formula></code></field><run
+><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='10'><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='11'><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='10'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Information générale:";"General Information:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='11'><run><font style='bold'/></run><field type='text' kind='computedfordisplay'
+ name='Dcomment'><code event='defaultvalue'><formula>comment</formula></code></field><run
+><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text> DCompany</text></item></form>
+

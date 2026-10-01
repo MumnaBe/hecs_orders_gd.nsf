@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='59e6' unid='BBEBDA8FF8B56F85852577150053308A' sequence='1'>
+<created><datetime dst='true'>20100430T110839,14-04</datetime></created>
+<modified><datetime dst='true'>20260917T084946,00-04</datetime></modified>
+<revised><datetime dst='true'>20100430T111527,55-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084945,99-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084945,99-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20100430T111539,32-04</datetime></item>
+<item name='CompName'><text>Grupo Pacífico</text></item>
+<item name='CompPhone'><text>(0034) 932 388 777</text></item>
+<item name='CompAddress'><text>Marià Cubí 4</text></item>
+<item name='CompFax'><text>(0034) 932 387 488</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Principal</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Barcelona</text></item>
+<item name='MasterCard_FR'><text/></item>
+<item name='CompPostalCode'><text>08006</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>EUR</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>EUR</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>congresosben@pacifico-meetings.com</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20100430T110839,14-04</datetime></item>
+<item name='MasterCard_EN'><text/></item>
+<item name='MasterCard'><text/></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

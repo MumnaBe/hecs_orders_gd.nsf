@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='3d46' unid='FEE2E218DE345FAA85256C8B0068BAC5' sequence='5'>
+<created><datetime>20021210T140355,57-05</datetime></created>
+<modified><datetime dst='true'>20260917T084702,43-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075036,90-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084702,42-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084702,42-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20021210T140502,72-05</datetime><datetime dst='true'>20041013T100128,65-04</datetime><datetime
+ dst='true'>20070425T101600,03-04</datetime><datetime dst='true'>20090902T074621,99-04</datetime></revisions>
+<item name='CompName'><text>E Print-it</text></item>
+<item name='CompPhone'><text>(613) 569-0782</text></item>
+<item name='CompAddress'><text>Brooke Claxton Building, Tunney's Pasture</text></item>
+<item name='CompFax'><text>(613) 569-0781</text></item>
+<item name='CompPO'><text>Level 01, Room 0122-C</text></item>
+<item name='PurchContact'><text>Thérèse</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>André Gauthier</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>K1A 0S7</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>1095014</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>St. Joseph Digital Solutions</text></item>
+<item name='CompEmail'><text>agauthier@eprintit.com  <break/>20070424 claxton@eprintit.com "lise"</text></item>
+<item name='CompWeb'><text>www.EPRINTit.com</text></item>
+<item name='comment'><text>Cell: (613) 222-1480</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='French\Display Companies' alias='DCompaniesF' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='6.5' unreadmarks='none' onopengoto='lastopened'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='true' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='true' extendlastcolumn='true' showhierarchies='false'
+ unreadcolor='black' rowlinecount='9' headerlinecount='1' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='gray' headerbgcolor='white' boldunreadrows='false'
+ evaluateactions='false' allownewdocuments='false' allowcustomizations='false'
+ hidemarginborder='false' marginwidth='0px' marginbgcolor='white' uniquekeys='false'>
+<noteinfo noteid='2ba' unid='C09773A8BCAEE93785256C41004889D8' sequence='15'>
+<created><datetime dst='true'>20020927T091218,80-04</datetime></created>
+<modified><datetime dst='true'>20260917T084243,19-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134328,33-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100300,67-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084243,18-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form="Company"</formula></code><code event='form'><formula
+>"DCompany"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/><border width='0px 0px 1px'/>
+<sharedactionref id='7'>
+<action title='' icon='61'><code event='click'><formula>@Environment("HECS_Language";"E");
+@Command([OpenNavigator];"Main";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code></action></sharedactionref>
+<sharedactionref id='6'>
+<action title='Sortie' icon='112'><code event='click'><formula>@Command([FileCloseWindow])</formula></code></action></sharedactionref>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='CompName' width='32.5000'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' twisties='true'><font color='navy' style='bold'/><columnheader
+ title='Nom'><font size='9pt' style='bold'/></columnheader></column>
+<column resort='ascending' hidedetailrows='false' itemname='CompAKA' width='10'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><columnheader title='Alias'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='CompPhone' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='Téléphone'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='CompFax' width='9.8750' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='Fax'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='AcctNumber' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='Compte'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='$1' width='9' resizable='true' separatemultiplevalues='false'
+ sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader title='Types de carte'><font
+ size='9pt' style='bold'/></columnheader><code event='value'><formula>@If(MasterCard="Yes"&amp;VISA="Yes";"MC, VISA";MasterCard="Yes"&amp;VISA="No";"MC";VISA="Yes"&amp;MasterCard="No";"VISA";"")</formula></code></column></view>
+

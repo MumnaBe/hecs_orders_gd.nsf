@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='1d8e' unid='655ABDDA9871152C85256CB7004AB516' sequence='6'>
+<created><datetime>20030123T083600,22-05</datetime></created>
+<modified><datetime dst='true'>20260917T084419,68-04</datetime></modified>
+<revised><datetime>20100127T100327,49-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084419,67-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084419,67-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20030123T083617,67-05</datetime><datetime>20030123T084020,60-05</datetime><datetime
+>20030123T084706,86-05</datetime><datetime>20030123T085425,07-05</datetime><datetime
+ dst='true'>20050401T101626,30-04</datetime></revisions>
+<item name='OriginalModTime'><datetime>20100127T100332,60-05</datetime></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>Yes</text></item>
+<item name='FundingSource'><text>Proteomics (George Douglas)</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text> </text></item>
+<item name='GLAccount'><text>None (do not use)</text></item>
+<item name='ProgActiv'><text>none (do not use)</text></item>
+<item name='IntOrd'><text>001 - Proteomics fund (GD)</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20030123T083600,22-05</datetime></item>
+<item name='edit_history'><text>Dian Calagoure</text></item>
+<item name='edit_history_1'><text>2010-01-27 10:03:32 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Dian Calagoure;</text></item></document>
+

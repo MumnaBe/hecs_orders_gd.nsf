@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2a1e' unid='A478B3BE849537FF85256E2F0064D252' sequence='4'>
+<created><datetime>20040203T132114,42-05</datetime></created>
+<modified><datetime dst='true'>20260917T084514,97-04</datetime></modified>
+<revised><datetime dst='true'>20230607T120823,64-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084514,96-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084514,96-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20040203T132402,62-05</datetime><datetime dst='true'>20090902T074549,37-04</datetime><datetime
+ dst='true'>20090902T074831,76-04</datetime></revisions>
+<item name='CompName'><text>Blackwell Publishing</text></item>
+<item name='CompPhone'><text>(781) 388-8200</text></item>
+<item name='CompAddress'><text>350 Main Street,</text></item>
+<item name='CompFax'><text>(781) 388-8210</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Malden</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>MA</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>02148</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>http://www.blackwell-synergy.com</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20040203T132114,42-05</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:08:28 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

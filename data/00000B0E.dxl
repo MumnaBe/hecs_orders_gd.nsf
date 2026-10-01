@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='b0e' unid='09BD9BCDB73C28FE85256FD500745A57' sequence='2'>
+<created><datetime dst='true'>20050331T171053,03-04</datetime></created>
+<modified><datetime dst='true'>20260917T084300,65-04</datetime></modified>
+<revised><datetime dst='true'>20050331T171144,98-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084300,64-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084300,64-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050331T171121,17-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Non-Anesthetic Gases</text></item>
+<item name='NameF'><text>Gaz non-anaestésant</text></item>
+<item name='CodeNumber'><text>57907</text></item></document>
+

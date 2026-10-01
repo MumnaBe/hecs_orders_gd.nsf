@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='ConfirmReceipt' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3 v4' publicaccess='false'
+ designerversion='6.5' restrictions='unrestricted'>
+<noteinfo noteid='1be' unid='ADF075AE7390134E85256B9D00615030' sequence='14'>
+<created><datetime dst='true'>20020416T134255,20-04</datetime></created>
+<modified><datetime dst='true'>20260917T084238,70-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,14-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084238,69-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084238,69-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,66-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='runonce'/><code event='action'>
+<simpleaction action='runformula'><formula>REM {Send the Purchase Order Receipt to the ShipTo person};
+@MailSend(ShipTo;"";"";"Purchase Order receipt ("+CompanyName+")/Commande reçu (" +CompanyName+")";"";"Your order was sent to and acknowledged by the administrator.  The Reference number is: " +@DbLookup(""; "";  "KeywordLookup"; "RefNumberPrefix"; 2) + RefNumber + "." +@NewLine + "Please follow the link below to view your order."+@NewLine + @NewLine +"Votre commande a été envoyée au et reçue par l'administrateur.  Le numéro de référence est: " + @DbLookup(""; "";  "KeywordLookup"; "RefNumberPrefix"; 2) + RefNumber + "." +@NewLine+"SVP suivre ce lien pour voir votre commande ---&gt; "; [IncludeDoclink]);
+
+REM {Inform the current user that a notice has been sent};
+@Prompt([Ok];"Confirmation";"A notice of your receipt of the order form was sent to "+ ShipTo);
+
+REM {If there is a Budget warning, send a Budget Amount Exceeded message to the PI(Principal Investigator) for the project.  Also send a copy of the email to the Section Head};
+@If(SendWarning="Budget";@MailSend(PI;@If(PI=SectionHead;"";SectionHead); "" ; "Budget Amount Exceeded: " + @DbLookup(""; "";  "KeywordLookup"; "RefNumberPrefix"; 2) + RefNumber ;"This order exceeds one or more budget limits.  Please follow the attached document link to view the order.";"";  [IncludeDoclink] );"");
+
+REM {If there is a warning for the Master Card, send a MasterCard Limit Exceeded message to the Card Holder.  Also send a copy of the email to the Section Head};
+@If(SendWarning2="CreditCardM";@MailSend(CardHolder;@If(CardHolder=SectionHead;"";SectionHead); "" ; "MasterCard Limit Exceeded: " + @DbLookup(""; "";  "KeywordLookup"; "RefNumberPrefix"; 2) + RefNumber ;"This order exceeds one or more MasterCard ordering limits.  Please follow the attached document link to view the order.";"";[IncludeDoclink] );"");
+
+REM {2009-07-21: ADR 3550: JML: Instead of verifying the SendWarning field, we are now checking the SendWarning2 field.  Otherwise the warning for the VISA would never be sent.};
+REM {If there is a warning for the Visa Card, send a VISA Limit Exceeded message to the Card Holder.  Also send a copy of the email to the Section Head};
+@If(SendWarning2="CreditCardV";@MailSend(CardHolder;@If(CardHolder=SectionHead;"";SectionHead); "" ; "VISA Limit Exceeded: " +@DbLookup(""; "";  "KeywordLookup"; "RefNumberPrefix"; 2) + RefNumber ;"This order exceeds one or more VISA ordering limits.  Please follow the attached document link to view the order."; ""; [IncludeDoclink] );"");
+
+@SetField("SendWarning";"Sent");SELECT
+@SetField("SendWarning2";"Sent")</formula></simpleaction></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20090721T085312,64-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20090807T135436,35-04</datetime></agentrun>
+<runlog>Started running agent 'ConfirmReceipt' on 2009-08-07 01:54:34 PM
+0 document(s) were modified by formula
+Done running agent 'ConfirmReceipt' on 2009-08-07 01:54:36 PM
+</runlog></rundata>
+<item name='$POID'><datetime dst='true'>20090721T085312,63-04</datetime></item></agent>
+

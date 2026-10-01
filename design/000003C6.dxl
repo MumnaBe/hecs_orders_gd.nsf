@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='Tool\Company\SetVISAValueToNA' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='6.5' comment='July 2009 - ADR 3550 '>
+<noteinfo noteid='3c6' unid='2E638A48CC04D54F852575E7004D5E60' sequence='7'>
+<created><datetime dst='true'>20090702T100504,32-04</datetime></created>
+<modified><datetime dst='true'>20260917T084248,94-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,49-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084248,93-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084248,93-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134341,99-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='action'>
+<simpleaction action='runformula'><formula>REM{2009-06-29: ADR 3550: JML: This agent was created in July 2009 to set the values of the fields: VISA, VISA_EN and VISA_FR on the Company documents.  In July 2009, the values for the field VISA were entered manually and are inconsistent.  This cause the application to not work properly when the users import company information on an order.};
+
+@If(
+  form = "Company";
+    @Do(
+      @SetField("VISA"; "N/A");
+      @SetField("VISA_EN"; "N/A");
+      @SetField("VISA_FR"; "N/D"));
+  "");
+
+SELECT @All</formula></simpleaction></code>
+<rundata processeddocs='1' exitcode='0'>
+<agentmodified><datetime dst='true'>20090702T100547,64-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20090702T100836,01-04</datetime></agentrun>
+<runlog>Started running agent 'Tool\Company\SetVISAValueToNA' on 2009-07-02 10:08:35 AM
+Running on selected documents: 1 total
+Found 1 document(s) that match search criteria
+1 document(s) were modified by formula
+Done running agent 'Tool\Company\SetVISAValueToNA' on 2009-07-02 10:08:36 AM
+</runlog></rundata>
+<item name='$Readers' sign='true' readers='true'><text>[LNOG Admin]</text></item>
+<item name='$POID'><datetime dst='true'>20090702T100547,63-04</datetime></item></agent>
+

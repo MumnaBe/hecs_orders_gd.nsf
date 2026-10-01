@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='Tool\Order\RecalculateTotCostTaxed' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='6.5' comment='2009-06-30: ADR 3550; one time to handle GST only for CDN'>
+<noteinfo noteid='3e6' unid='6CCD20EB05328568852575E50068F495' sequence='7'>
+<created><datetime dst='true'>20090630T150623,57-04</datetime></created>
+<modified><datetime dst='true'>20260917T084249,69-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,57-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084249,68-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084249,68-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134342,04-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='action'>
+<simpleaction action='runformula'><formula>REM{2009-06-30: ADR 3550: JML: the GST should be taken only in consideration if the currency is Canadian. To handle the existing Orders for which the TotCostTaxed was not properly calculated, this agent can be used by the users with the role [LNOG Admin] on the selected documents to recalculate the TotCostTaxed field};
+
+value := @If(form = "NewOrderForm";
+  @If( GSTExempt="No" &amp; (Currency = "CAD" | Currency = "CAN" | Currency = "CDN");
+    @If( @IsError(TotCost * TotGst); 0; TotCost * TotGst);
+    TotCost)
+  ;"");
+
+@If(value = ""; ""; @Do(@SetField("TotCostTaxed"; value)));
+
+SELECT @All</formula></simpleaction></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20090702T100706,00-04</datetime></agentmodified></rundata>
+<item name='$Readers' sign='true' readers='true'><text>[LNOG Admin]</text></item>
+<item name='$POID'><datetime dst='true'>20090702T100709,31-04</datetime></item></agent>
+

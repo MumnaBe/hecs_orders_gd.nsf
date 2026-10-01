@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='f26' unid='1E385114C0CB243585256FD6005A8A00' sequence='1'>
+<created><datetime dst='true'>20050401T122855,68-04</datetime></created>
+<modified><datetime dst='true'>20260917T084318,09-04</datetime></modified>
+<revised><datetime dst='true'>20050401T123047,12-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084318,08-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084318,08-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>SPA Payment Collaborative Research &amp; Development</text></item>
+<item name='NameF'><text>SPA Paiement Collaboration de Recherche et Développement</text></item>
+<item name='CodeNumber'><text>27702</text></item></document>
+

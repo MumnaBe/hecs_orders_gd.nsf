@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='Cost Centre Administration 2' alias='Cost2' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' publicaccess='false'
+ designerversion='6.5' recalc='true'>
+<noteinfo noteid='326' unid='E2E826882CC90BEE85256B42006385C3' sequence='21'>
+<created><datetime>20020115T130703,07-05</datetime></created>
+<modified><datetime dst='true'>20260917T084245,36-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134328,59-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084245,35-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084245,35-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Oscar J Kerrebyn/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='windowtitle'><formula>@If(@IsNewDoc;"New Type"; Type)</formula></code><code
+ event='querymodechange'><lotusscript>Sub Querymodechange(Source As Notesuidocument, Continue As Variant)
+     Dim test As String
+     Dim answer As Variant
+     test="@IsMember('[Admin]';@userRoles)"
+     answer=Evaluate(test)
+     If Not(answer(0)=1) Then
+          Continue=False
+     End If
+End Sub
+</lotusscript></code><code event='queryopen'><lotusscript>Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)
+     Dim test As String
+     Dim answer As Variant
+     test="@IsMember('[Admin]';@userRoles)"
+     answer=Evaluate(test)
+     If Mode = 1 And Not(answer(0)=1) Then
+          Continue=False
+     End If
+End Sub</lotusscript></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='#d4d0c8'/><font color='system'/><border width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Save' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sauvegarder' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Save &amp; New Entry' icon='138' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave]);
+@PostedCommand([FileCloseWindow]);
+@PostedCommand([Compose]; ""; "Cost2")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sauvegarder &amp; Nouvelle entrée' icon='138' showinmenu='false'
+ hide='preview read'><code event='click'><formula>@Command([FileSave]);
+@PostedCommand([FileCloseWindow]);
+@PostedCommand([Compose]; ""; "Cost2")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Edit' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Modifier' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action></actionbar>
+<body><richtext>
+<pardef id='1' leftmargin='1in'><code event='hidewhen'><formula>1</formula></code></pardef>
+<par def='1'/>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0521in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<pardef id='2' leftmargin='0.0278in' rightmargin='100%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='2'><run><font size='12pt' color='white'/></run><run><font size='14pt'
+ style='bold' color='white'/><computedtext><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Information pour le code financier";"Financial Code Information")</formula></code></computedtext></run><run
+><font size='12pt' color='navy'/></run></par></tablecell></tablerow></table>
+<pardef id='3'/>
+<par def='3'>	</par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0521in'><tablecolumn
+ width='20.2778%'/><tablecolumn width='79.7222%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='5' leftmargin='0.0278in' rightmargin='99%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='5'><run><font style='bold' color='navy'/><computedtext><code event='value'><formula
+>@If(@Environment("HECS_Language")="F";"Catégorie:";"Category:")</formula></code></computedtext></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='6' leftmargin='0.0278in' rightmargin='100%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='6'><run><font style='bold'/><field borderstyle='none' lookupeachchar='false'
+ lookupaddressonrefresh='false' type='keyword' kind='editable' name='Category'><keywords
+ recalconchange='true' recalcchoices='true' columns='4' ui='radiobutton'><textlist
+><text>Operating</text><text>Travel</text><text>Contract</text><text>Capital</text></textlist></keywords><code
+ event='defaultvalue'><formula>"Operating"</formula></code></field></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold' color='navy'/>Special Project Account:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'><run><font style='bold' color='navy'/></run><run><font style='bold'/><field
+ borderstyle='none' lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' kind='editable' name='SPA'><keywords recalconchange='true'
+ recalcchoices='true' columns='2' ui='radiobutton'><textlist><text>No</text><text
+>Yes</text></textlist></keywords><code event='defaultvalue'><formula>"No"</formula></code></field></run><run
+><font style='bold' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold' color='navy'/></run><run><font style='bold'
+ color='navy'/><computedtext><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Source des fonds:";"Funding Source:")</formula></code></computedtext></run>	</par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'><run><font style='bold'/><field type='keyword' kind='editable'
+ name='FundingSource'><keywords ui='dialoglist' allownew='true'><textlist
+><text>EHS</text><text>TSRI</text><text>PERD</text><text>NJ</text></textlist></keywords></field></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold' color='navy'/></run><run><font style='bold'
+ color='navy'/><computedtext><code event='value'><formula>@If(@Environment("HECS_Language")="F";"TVH exclu?";"HST Exempt?")</formula></code></computedtext></run><run
+><font style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'><run><font style='bold' color='navy'/></run><run><font style='bold'/><field
+ type='keyword' kind='editable' name='GSTExempt'><keywords ui='dialoglist'><textlist
+><text>Yes</text><text>No</text></textlist></keywords></field></run><run><font
+ style='bold' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold' color='navy'/></run><run><font style='bold'
+ color='navy'/><computedtext><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Centre de coûts:";"Cost Centre:")</formula></code></computedtext></run> </par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'><run><font style='bold'/><field type='text' kind='editable' name='CodeNumber'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'><run><font style='bold' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold' color='navy'/></run><run><font style='bold'
+ color='navy'/><computedtext><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Compte G/L:";"G/L Account #: ")</formula></code></computedtext></run><run
+><font style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'><run><font style='bold' color='navy'/></run><run><font style='bold'/><field
+ lookupeachchar='false' lookupaddressonrefresh='false' type='keyword' allowmultivalues='true'
+ kind='editable' name='GLAccount' listinputseparators='comma' listdisplayseparator='comma'><keywords
+ recalconchange='true' recalcchoices='true' columns='1' ui='dialoglist'><formula
+>@DbLookup("":"NoCache";"":"";"C1V";"G/L Account";2)</formula></keywords></field></run><run
+><font style='bold' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold' color='navy'/></run><run><font style='bold'
+ color='navy'/><computedtext><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Activité de programme:";"Program Activity:")</formula></code></computedtext></run><run
+><font style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'><run><font style='bold'/><field lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' allowmultivalues='true' kind='editable' name='ProgActiv' listinputseparators='comma'
+ listdisplayseparator='comma'><keywords recalconchange='true' recalcchoices='true'
+ columns='1' ui='dialoglist'><formula>@DbLookup("":"NoCache";"":"";"C1V";"Program Activity";2)</formula></keywords></field></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold' color='navy'/></run><run><font style='bold'
+ color='navy'/><computedtext><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Ordre Interne - # de Projet:";"Internal Order - Project #:")</formula></code></computedtext></run><run
+><font style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'><run><font style='bold'/><field lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' allowmultivalues='true' kind='editable' name='IntOrd' listinputseparators='comma'
+ listdisplayseparator='comma'><keywords recalconchange='true' recalcchoices='true'
+ columns='1' ui='dialoglist'><formula>@DbLookup("":"NoCache";"":"";"C1V";"Internal Order - Project #";2)</formula></keywords></field></run></par></tablecell></tablerow></table>
+<par def='3'>	</par>
+<par def='3'/>
+<pardef id='7' leftmargin='0.8125in'><code event='hidewhen'><formula>1</formula></code></pardef><subformref
+ name='CDE-Edit History | EdHistory'/>
+<pardef id='8' align='none' leftmargin='1in'><code event='hidewhen'><formula
+>1</formula></code></pardef>
+<par def='8'/>
+<par def='3'>	</par>
+<par def='3'/>
+<par def='3'>				</par>
+<par def='3'/>
+<par def='3'>  	</par></richtext></body>
+<item name='OriginalModTime'><datetime dst='true'>20090611T081551,25-04</datetime></item>
+<item name='$FormUsers'><textlist><text>[Admin]</text><text>[LNOG Admin]</text></textlist></item>
+<item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
+<item name='date_create' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='$$ScriptName' summary='false' sign='true'><text> Cost2</text></item></form>
+

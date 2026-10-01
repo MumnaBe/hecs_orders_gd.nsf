@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='f6e' unid='1F270BACD80E6B6E85256BEB005F09C8' sequence='4'>
+<created><datetime dst='true'>20020703T131804,24-04</datetime></created>
+<modified><datetime dst='true'>20260917T084319,24-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074812,62-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084319,23-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084319,23-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,26-04</datetime><datetime
+>20021104T141457,65-05</datetime><datetime dst='true'>20090902T074404,89-04</datetime></revisions>
+<item name='CompName'><text>Lee Valley</text></item>
+<item name='CompAddress'><text>900 Morrison Dr</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>K2H 8K7</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(613) 596-0350 1-800-267-8767</text></item>
+<item name='CompFax'><text>1-800-668-1807</text></item>
+<item name='PurchContact'><text/></item>
+<item name='InvContact'><text/></item>
+<item name='AcctNumber'><text>2121051</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.leevalley.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

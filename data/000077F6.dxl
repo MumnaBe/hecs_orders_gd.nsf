@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='77f6' unid='216262C43F55D191852583C2004C1724' sequence='3'>
+<created><datetime dst='true'>20190319T095106,60-04</datetime></created>
+<modified><datetime dst='true'>20260917T085218,58-04</datetime></modified>
+<revised><datetime dst='true'>20190319T095952,51-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085218,57-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085218,57-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20190319T095345,05-04</datetime><datetime
+ dst='true'>20190319T095347,69-04</datetime></revisions>
+<item name='CompName'><text>Shouldice Mechanical Inc.</text></item>
+<item name='CompPhone'><text>613-839-0846</text></item>
+<item name='CompAddress'><text>2739 Carp Road</text></item>
+<item name='CompFax'><text>N/A</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Greg Shouldice</text></item>
+<item name='CompCity'><text>Carp</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K0A 1L0</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>CANADA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Greg Shouldice</text></item>
+<item name='CompEmail'><text>gregshouldice@gmail.com</text></item>
+<item name='CompWeb'><text>www.shouldicemechanical.com</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Margaret Montague</text></item>
+<item name='date_create'><datetime dst='true'>20190319T095106,60-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><textlist><text>Margaret Montague</text><text>Margaret Montague</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2019-03-19 09:59:52 AM</text><text
+>2019-03-19 09:53:47 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Margaret Montague;</text><text>Margaret Montague;</text></textlist></item></document>
+

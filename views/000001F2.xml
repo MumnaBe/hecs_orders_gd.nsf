@@ -1,0 +1,771 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+    </category>
+    <category>
+        <value/>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+    </category>
+    <document noteId="00005486">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Roles and Responsibilities of Staff Placing Orders</text>
+        </value>
+    </document>
+    <document noteId="0000548A">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Creating a New Order</text>
+        </value>
+    </document>
+    <document noteId="000054EE">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Order Form: summary of the special fields and buttons</text>
+        </value>
+    </document>
+    <document noteId="0000548E">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Generating A Financial Code</text>
+        </value>
+    </document>
+    <document noteId="00005492">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>What to do after the Order Number has been Assigned</text>
+        </value>
+    </document>
+    <document noteId="00003082">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>6</number>
+        </value>
+        <value>
+            <text>After the Order has Arrived</text>
+        </value>
+    </document>
+    <document noteId="00005496">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>7</number>
+        </value>
+        <value>
+            <text>Copying an Existing Order</text>
+        </value>
+    </document>
+    <category>
+        <value/>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Viewing an Order</text>
+        </value>
+    </category>
+    <document noteId="0000549A">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Viewing an Order</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Viewing Orders</text>
+        </value>
+    </document>
+    <document noteId="0000549E">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Viewing an Order</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Who Ordered This Package?</text>
+        </value>
+    </document>
+    <category>
+        <value/>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+    </category>
+    <document noteId="000054A2">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Roles and Responsibilities of Principal Investigators</text>
+        </value>
+    </document>
+    <document noteId="000054A6">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>As PI, where can I find my projects?</text>
+        </value>
+    </document>
+    <document noteId="000054AA">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>How Much Have I Spent?</text>
+        </value>
+    </document>
+    <document noteId="000054AE">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>How do I Change Budget Totals?</text>
+        </value>
+    </document>
+    <category>
+        <value/>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Glossary</text>
+        </value>
+    </category>
+    <document noteId="000018A6">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Glossary</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Terms Used in Notes and This Database</text>
+        </value>
+    </document>
+    <category>
+        <value/>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+    </category>
+    <document noteId="000054B2">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Contact Information</text>
+        </value>
+    </document>
+    <document noteId="00001D4A">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Creating a Private View</text>
+        </value>
+    </document>
+    <document noteId="00001C3A">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Launching a (private) view</text>
+        </value>
+    </document>
+    <document noteId="000054B6">
+        <value>
+            <text>1. User Guide / 1. Guide d'utilisation</text>
+        </value>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Exporting a View</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+    </category>
+    <category>
+        <value/>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Access</text>
+        </value>
+    </category>
+    <document noteId="00001D32">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Access</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>The "Add New Employee To Orders" button</text>
+        </value>
+    </document>
+    <document noteId="000054BA">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Access</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Deleting Documents</text>
+        </value>
+    </document>
+    <category>
+        <value/>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Receiving and Reconciling Orders</text>
+        </value>
+    </category>
+    <document noteId="000035D6">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Receiving and Reconciling Orders</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Assigning Order Numbers</text>
+        </value>
+    </document>
+    <document noteId="000054BE">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Receiving and Reconciling Orders</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Changing the Status of an Order to Received or Partially Received</text>
+        </value>
+    </document>
+    <document noteId="00001D46">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Receiving and Reconciling Orders</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Changing the Status of an Order to Reconciled</text>
+        </value>
+    </document>
+    <category>
+        <value/>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+    </category>
+    <document noteId="00003616">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Adding a New Card Holder</text>
+        </value>
+    </document>
+    <document noteId="000054C2">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Adding a New Company</text>
+        </value>
+    </document>
+    <document noteId="000054CA">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Financial Coding</text>
+        </value>
+    </document>
+    <document noteId="000054C6">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Keyword Maintenance</text>
+        </value>
+    </document>
+    <document noteId="000054CE">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>Creating and Maintaining Project documents</text>
+        </value>
+    </document>
+    <document noteId="000054D6">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>6</number>
+        </value>
+        <value>
+            <text>Updating Budget and Committed Information</text>
+        </value>
+    </document>
+    <document noteId="000054D2">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>7</number>
+        </value>
+        <value>
+            <text>Maintaining Access Groups or How to Add a New Employee</text>
+        </value>
+    </document>
+    <document noteId="000054DA">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>8</number>
+        </value>
+        <value>
+            <text>Has the Order Been Committed?</text>
+        </value>
+    </document>
+    <document noteId="000054DE">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>9</number>
+        </value>
+        <value>
+            <text>Writing Help Documents</text>
+        </value>
+    </document>
+    <document noteId="00002A9A">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>11</number>
+        </value>
+        <value>
+            <text>Editing an existing company</text>
+        </value>
+    </document>
+    <document noteId="000054E2">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>12</number>
+        </value>
+        <value>
+            <text>Summary: Buttons and Special Fields on the Project Form</text>
+        </value>
+    </document>
+    <document noteId="000054E6">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Customizing the Application</text>
+        </value>
+        <value>
+            <number>13</number>
+        </value>
+        <value>
+            <text>Summary: Buttons and Special Fields on the Card Holder Form</text>
+        </value>
+    </document>
+    <category>
+        <value/>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>New Fiscal Year!</text>
+        </value>
+    </category>
+    <document noteId="000054EA">
+        <value>
+            <text>2. Database Custodian Guide / 2. Guide de gardien de base de données</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>New Fiscal Year!</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>New Fiscal Year - What To do in HECS Orders</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>3. Notes System Admin Guide / 3. Guide de l'administrateur de Notes</text>
+        </value>
+    </category>
+    <category>
+        <value/>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>New Releases</text>
+        </value>
+    </category>
+    <document noteId="0000551E">
+        <value>
+            <text>3. Notes System Admin Guide / 3. Guide de l'administrateur de Notes</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>New Releases</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Release Notes, Upgrade, October 2008</text>
+        </value>
+    </document>
+    <document noteId="00005522">
+        <value>
+            <text>3. Notes System Admin Guide / 3. Guide de l'administrateur de Notes</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>New Releases</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Release Notes, Upgrade, June 2009</text>
+        </value>
+    </document>
+    <document noteId="00005526">
+        <value>
+            <text>3. Notes System Admin Guide / 3. Guide de l'administrateur de Notes</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>New Releases</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Release Notes, Upgrade, August 2009</text>
+        </value>
+    </document>
+</view>

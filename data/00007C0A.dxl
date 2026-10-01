@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='7c0a' unid='9A07D481A1F574DE852589C70059F082' sequence='1'>
+<created><datetime dst='true'>20230607T122222,74-04</datetime></created>
+<modified><datetime dst='true'>20260917T085239,86-04</datetime></modified>
+<revised><datetime dst='true'>20230607T122402,64-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085239,85-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085239,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>Partshere.com</text></item>
+<item name='CompPhone'><text>909-740-8533</text></item>
+<item name='CompAddress'><text>9450 7th St. Unit J</text></item>
+<item name='CompFax'><text/></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Rancho Cucamonga </text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>California</text></item>
+<item name='CompPostalCode'><text>91730-6153</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Kirsten Oickle</text></item>
+<item name='date_create'><datetime dst='true'>20230607T122222,74-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

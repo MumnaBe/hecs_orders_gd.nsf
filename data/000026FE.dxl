@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='26fe' unid='92D62F728DD3367D852571790071468E' sequence='1'>
+<created><datetime dst='true'>20060525T163716,30-04</datetime></created>
+<modified><datetime dst='true'>20260917T084500,03-04</datetime></modified>
+<revised><datetime dst='true'>20060525T163749,60-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084500,02-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084500,02-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4320101 Allergens - HV</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>4320101</text></item></document>
+

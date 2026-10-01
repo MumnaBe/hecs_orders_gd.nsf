@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='CommentsDialog' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' nocompose='true' noquery='true'
+ publicaccess='false' designerversion='5'>
+<noteinfo noteid='2fa' unid='40DEA86B467311B685256C450054F094' sequence='9'>
+<created><datetime dst='true'>20021001T112746,12-04</datetime></created>
+<modified><datetime dst='true'>20260917T084244,30-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143123,99-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084244,29-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084244,29-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'/><compositedata type='183' prevtype='129' nexttype='131' afterparcount='1'>
+txygBV4McAkIAAAASAAAAAAAAAAAAAAAAAAAAA==
+</compositedata>
+<par def='1'/><compositedata type='184' prevtype='129' nexttype='131' afterparcount='1'>
+uCrzBTsA2AohAQEBCAoBAAUA////AAAAABAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><run><font style='bold' color='maroon'/>Comments/Commentaires</run></par><compositedata
+ type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uioCBqMBjAtUBwEAAAoBAAEA////AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><field type='text' kind='editable' name='OrderComments'/><compositedata
+ type='185' prevtype='222' nexttype='129' afterparcount='7'>
+uRIAAAAAAAAAAAAAAAAAAAAA
+</compositedata></par>
+<par def='1'/></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>CommentsDialog</text></item></form>
+

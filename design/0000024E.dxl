@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='Project Lookup View' alias='PLV' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='5' unreadmarks='none' onopengoto='lastopened'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='false' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='false' extendlastcolumn='true' showhierarchies='false'
+ unreadcolor='black' rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='gray' boldunreadrows='false' evaluateactions='false'
+ allownewdocuments='false' allowcustomizations='true' hidemarginborder='false'
+ marginwidth='0px' uniquekeys='false'>
+<noteinfo noteid='24e' unid='51B1B83012F534AF85256AFE00514C87' sequence='28'>
+<created><datetime>20011108T094800,07-05</datetime></created>
+<modified><datetime dst='true'>20260917T084241,35-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143121,56-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T092750,56-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084241,34-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form="Project"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='#d4d0c8'/>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"AdminF";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='' icon='61'><code event='click'><formula>@Environment("HECS_Language";"E");
+@Command([OpenNavigator];"Admin";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='Project' width='19'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' twisties='true'><font color='navy' style='bold'/><columnheader
+ title='Project/Projet'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='ShComm' width='11.6250' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='Description'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='MCardHolders' width='11' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='MasterCard Holders'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='VCardHolders' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='VISA Holders'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='SigningAuth' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='Signing Authorities'><font size='9pt' style='bold'/></columnheader></column></view>
+

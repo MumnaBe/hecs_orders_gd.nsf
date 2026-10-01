@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='166a' unid='409DFEA3CA97C58085256E3D006FE115' sequence='11'>
+<created><datetime>20040217T152201,17-05</datetime></created>
+<modified><datetime dst='true'>20260917T084349,60-04</datetime></modified>
+<revised><datetime>20100115T090517,37-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084349,59-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084349,59-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20040217T152201,16-05</datetime><datetime>20040218T144432,83-05</datetime><datetime
+>20040218T144856,10-05</datetime><datetime>20040218T145445,34-05</datetime><datetime
+ dst='true'>20040608T130410,35-04</datetime><datetime dst='true'>20040608T130842,54-04</datetime><datetime
+ dst='true'>20040608T130908,35-04</datetime><datetime dst='true'>20050401T101618,24-04</datetime><datetime
+ dst='true'>20050401T161252,91-04</datetime><datetime dst='true'>20050706T154948,36-04</datetime></revisions>
+<item name='OriginalModTime'><datetime>20100115T090520,32-05</datetime></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CodeNumber'><text>831135</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K Computer Equipment Parts</text><text
+>Acq&lt;10K Computer &amp; Related Peripheral Equip</text><text>Acq&lt;10K Laptop and Related Peripheral Equip</text><text
+>Acq&lt;10K Software Packages for Computers</text><text>Cellular Phone Services</text><text
+>Clothing Other Than Uniforms</text><text>Containers &amp; Closures</text><text
+>Distilled Drink Water</text><text>Electrical Supplies</text><text>Engineering Consultants - Construction</text><text
+>Enhanced Telecommunication Services</text><text>Gasoline Products</text><text
+>Health Science Consultants</text><text>Honoraria</text><text>Hospitality</text><text
+>Housekeeping supplies</text><text>Inorganic &amp; Organic Chemicals</text><text
+>Iron &amp; Steel and Articles Thereof</text><text>IT Specialized Consultants</text><text
+>Legal Services</text><text>Live Animals</text><text>Lubricating Oils &amp; Greases</text><text
+>Meal Allowance in Headquarter Area</text><text>Membership Fees</text><text
+>Motor Vehicle Licences</text><text>Moving Expenses</text><text>Non-Anesthetic Gases</text><text
+>None (do not use)</text><text>Photographic or Cinematography Goods</text><text
+>Plastics and Rubber Products</text><text>Postage and Parcel Post </text><text
+>Printing Services</text><text>R &amp; M Computer Equipment and Parts</text><text
+>R &amp; M Computer Hardware and Software</text><text>R &amp; M Electric Lighting &amp; Control Equipment</text><text
+>R &amp; M Furniture and Fixtures</text><text>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text
+>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text>R &amp; M Office Machines and Equipment</text><text
+>R &amp; M Safety Alarm and Signal Equipment</text><text>R &amp; M Telecommunications Equipment</text><text
+>Telecommunications Consultants</text><text>Telephone &amp; Other Voice Communication Services</text><text
+>Temporary Help Services Acquired for General Help</text><text>Training Packages and Courses Purchased  for Staff</text><text
+>Translation Service</text><text>Travel  Non-Public Servants Conference all Locations</text><text
+>Travel Non-Public Servants Outside Canada</text><text>Travel Non-Public Servants Within Canada</text><text
+>Travel Public Servants Abroad </text><text>Travel Public Servants Conference all Locations</text><text
+>Travel Public Servants Local Transportation</text><text>Travel Public Servants Training all Locations</text><text
+>Travel Public Servants United States of America</text><text>Travel Public Servants Within Canada</text><text
+>Tuition Fees and Related Costs During Own Time</text><text>Tuition Fees and Related Costs During Paid Time</text><text
+>Oxygen and Other Medical Gases</text><text>Pagers Enhanced Telecom Service etc.</text><text
+>Postage and Parcel Post Service</text><text>Printing Service Books and Leaflets</text><text
+>Printing Service Photocopies</text><text>Provincial Laboratory Service</text><text
+>Publication</text><text>Repair and Maintenance - Hardware and Software</text><text
+>Repair and Maintenance - Laboratories</text><text>Repairs and Maintenance -- Lab Equipment</text><text
+>Solvents</text><text>Staff Development PSC</text><text>Staff Language Training (not provided by PSC)</text><text
+>Telephone &amp; Voice Comm Services</text><text>Temporary Help Service</text><text
+>Travel - Duty Abroad</text><text>Travel - Duty Canada</text><text>Travel - Duty Non-Public Servant Canada</text><text
+>Travel - Duty USA</text><text>Travel - Government Conference Abroad</text><text
+>Travel - Government Conference Canada</text><text>Travel - Government Conference USA</text><text
+>Travel - Language Training Canada</text><text>Travel - Local Transportation</text><text
+>Travel - Non-Gov Conference Abroad</text><text>Travel - Non-Gov Conference Canada</text><text
+>Travel - Non-Gov Conference USA</text><text>Travel - Non-Public Servant Abroad</text><text
+>Travel - Non-Public Servant Gov conference Abroad</text><text>Travel - Non-Public Servant Gov Conference Canada</text><text
+>Travel - Non-Public Servant Gov Conference USA</text><text>Travel - Non-Public Servant Non-Gov conference Abroad</text><text
+>Travel - Non-Public Servant Non-Gov Conference Canada</text><text>Travel - Non-Public Servant Non-Gov Conference USA</text><text
+>Travel - Training Abroad</text><text>Travel - Training Canada</text><text
+>Travel - Training USA</text><text>Travel Advance ($)</text><text>Wearing Apparel</text></textlist></item>
+<item name='ProgActiv'><text>AQHER</text></item>
+<item name='IntOrd'><textlist><text>4340256 - MobileLab</text><text>4340264 PR - PM Metals Study</text></textlist></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20040217T152201,17-05</datetime></item>
+<item name='edit_history'><text>Dian Calagoure</text></item>
+<item name='edit_history_1'><text>2010-01-15 09:05:20 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Dian Calagoure;</text></item></document>
+

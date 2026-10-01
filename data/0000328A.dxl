@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='ChangeRequest'>
+<noteinfo noteid='328a' unid='CB4360BD46023F0F85256E47006CE23A' sequence='1'>
+<created><datetime>20040227T144918,02-05</datetime></created>
+<modified><datetime dst='true'>20260917T084557,74-04</datetime></modified>
+<revised><datetime>20040227T144918,03-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084557,73-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084557,73-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='KEYWORDOLD'><text>Cranston Snord</text></item>
+<item name='KEYWORDNEW'><text>Devi Ganesh</text></item></document>
+

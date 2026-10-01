@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='469a' unid='F8831F2C22B23714852572DD0066E859' sequence='3'>
+<created><datetime dst='true'>20070516T144401,53-04</datetime></created>
+<modified><datetime dst='true'>20260917T084800,60-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074852,09-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084800,59-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084800,59-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20070516T145004,07-04</datetime><datetime
+ dst='true'>20090902T074624,90-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20070516T145046,51-04</datetime></item>
+<item name='CompName'><text>Springer Press (Springer.com)</text></item>
+<item name='CompPhone'><text>1-212-460-1500</text></item>
+<item name='CompAddress'><text>Springer New York, LLC</text></item>
+<item name='CompFax'><text>1-201-348-4505</text></item>
+<item name='CompPO'><text>2485</text></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Secaucus</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>NJ</text></item>
+<item name='CompPostalCode'><text>07094-2485</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text>online</text></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text>Springer New York, LLC</text></item>
+<item name='CompEmail'><text>service-ny@springer.com</text></item>
+<item name='CompWeb'><text>www.springer.com</text></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

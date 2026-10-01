@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <number>1185.01</number>
+        </value>
+        <value>
+            <text>Pat Rasmussen</text>
+        </value>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+    </category>
+    <category>
+        <value>
+            <number>1185.01</number>
+        </value>
+        <value/>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+    </category>
+    <document noteId="00002D36">
+        <value>
+            <number>1185.01</number>
+        </value>
+        <value>
+            <text>Pat Rasmussen</text>
+        </value>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value>
+            <datetime>20021129</datetime>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+        <value>
+            <number>82</number>
+        </value>
+        <value>
+            <text>Monique Lanouette</text>
+        </value>
+        <value>
+            <text>4340013 PR - Metals</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>757</number>
+        </value>
+        <value>
+            <text>Renaud Vincent</text>
+        </value>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+    </category>
+    <category>
+        <value>
+            <number>757</number>
+        </value>
+        <value/>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+    </category>
+    <document noteId="00001996">
+        <value>
+            <number>757</number>
+        </value>
+        <value>
+            <text>Renaud Vincent</text>
+        </value>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value>
+            <datetime>20021129</datetime>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+        <value>
+            <number>82</number>
+        </value>
+        <value>
+            <text>Josee Guenette</text>
+        </value>
+        <value>
+            <text>4320010 RV - Pulm</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>482.77</number>
+        </value>
+        <value>
+            <text>Stephen Bjarnason</text>
+        </value>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+    </category>
+    <category>
+        <value>
+            <number>482.77</number>
+        </value>
+        <value/>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+    </category>
+    <document noteId="00001026">
+        <value>
+            <number>482.77</number>
+        </value>
+        <value>
+            <text>Stephen Bjarnason</text>
+        </value>
+        <value>
+            <text>MasterCard</text>
+        </value>
+        <value>
+            <datetime>20020723</datetime>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+        <value>
+            <number>82</number>
+        </value>
+        <value>
+            <text>Stephen Bjarnason</text>
+        </value>
+        <value>
+            <text>4320010 RV - Pulm</text>
+        </value>
+    </document>
+    <total>
+        <value>
+            <number>2424.78</number>
+        </value>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+        <value/>
+    </total>
+</view>

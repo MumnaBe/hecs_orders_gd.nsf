@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='Project View' alias='PV' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='5' unreadmarks='none' onopengoto='lastopened'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='false' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='true' extendlastcolumn='false' showhierarchies='false'
+ unreadcolor='black' rowlinecount='9' headerlinecount='1' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='gray' boldunreadrows='false' evaluateactions='false'
+ allownewdocuments='false' allowcustomizations='true' hidemarginborder='false'
+ marginwidth='0px' uniquekeys='false'>
+<noteinfo noteid='226' unid='37313BBA390D3C3885256B0D005789D1' sequence='23'>
+<created><datetime>20011123T105609,13-05</datetime></created>
+<modified><datetime dst='true'>20260917T084240,65-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143121,20-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T091416,61-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084240,64-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form="Project"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"AdminF";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='' icon='61'><code event='click'><formula>@Environment("HECS_Language";"E");
+@Command([OpenNavigator];"Admin";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='New Project' icon='129' showinmenu='false'><code event='click'><formula
+>@Command([Compose]; "":"";"Project")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"|!@Contains(@UserRoles;"[Admin]")</formula></code></action>
+<action title='Nouveau Projet' icon='129' showinmenu='false'><code event='click'><formula
+>@Command([Compose]; "":"";"Project")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"|!@Contains(@UserRoles;"[Admin]")</formula></code></action></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='Project' width='8.3750'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' twisties='true'><font color='navy' style='bold'/><columnheader
+ title='Project/Projet'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='ShComm' width='8' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='Description'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='PI' width='10' resizable='true' separatemultiplevalues='false'
+ sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader title='PI/DR'><font
+ size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='Manager' width='12' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader
+ title='Section Head/Chef de Section'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' listseparator='newline' itemname='Employees'
+ width='12.3750' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><columnheader title='Employees/Employés'><font
+ size='9pt' style='bold'/></columnheader></column>
+<column align='right' hidedetailrows='false' itemname='$2' width='8.2500'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='false' sortnocase='true'
+ showaslinks='false'><columnheader title='Free Balance'><font size='9pt' style='bold'/></columnheader><numberformat
+ legacy='true' format='currency' digits='2' punctuated='true' parens='false'
+ percent='false' bytes='false'/><code event='value'><formula>TotBudget - TotCommitted</formula></code></column></view>
+

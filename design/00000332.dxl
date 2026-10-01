@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='CardHolders' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' publicaccess='false' designerversion='6.5'>
+<noteinfo noteid='332' unid='EADD9A497ABAB91085256AD8004C9B97' sequence='37'>
+<created><datetime dst='true'>20011001T095645,67-04</datetime></created>
+<modified><datetime dst='true'>20260917T084245,68-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134328,85-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084245,67-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084245,67-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='querymodechange'><lotusscript>Sub Querymodechange(Source As Notesuidocument, Continue As Variant)
+     Dim test As String
+     Dim answer As Variant
+     test="@IsMember('[Admin]';@userRoles)"
+     answer=Evaluate(test)
+     If Not(answer(0)=1) Then
+          Continue=False
+     End If
+End Sub
+</lotusscript></code><code event='queryopen'><lotusscript>Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)
+     Dim test As String
+     Dim answer As Variant
+     test="@IsMember('[Admin]';@userRoles)"
+     answer=Evaluate(test)
+     If Mode = 1 And Not(answer(0)=1) Then
+          Continue=False
+     End If
+End Sub</lotusscript></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='#d4d0c8'/><border width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Save' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sauvegarder' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Save &amp; New Entry' icon='138' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave]);
+@PostedCommand([FileCloseWindow]);
+@PostedCommand([Compose]; ""; "CardHolders")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sauvegarder &amp; Nouvelle entrée' icon='138' showinmenu='false'
+ hide='preview read'><code event='click'><formula>@Command([FileSave]);
+@PostedCommand([FileCloseWindow]);
+@PostedCommand([Compose]; ""; "CardHolders")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Edit' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Modifier' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Pay Credit Cards' icon='121'><code event='click'><formula>@If(@IsDocBeingEdited != 1;@Command([EditDocument];1);"");
+@SetField("RemCreditM";CreditLimitM);
+@SetField("RemCreditV";CreditLimitV);
+@Command([EditDocument];0)</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Payer les cartes de crédit' icon='121'><code event='click'><formula
+>@If(@IsDocBeingEdited != 1;@Command([EditDocument];1);"");
+@SetField("RemCreditM";CreditLimitM);
+@SetField("RemCreditV";CreditLimitV);
+@Command([EditDocument];0)</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action></actionbar>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'> </par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0521in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<pardef id='3' align='center' leftmargin='0%' rightmargin='100%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='3'><run><font size='14pt' style='bold' color='white'/></run><run
+><font size='14pt' style='bold' color='white'/><computedtext><code event='value'><formula
+>@If(@Environment("HECS_Language")="F";"Information Financière";"Financial Information")</formula></code></computedtext></run><run
+><font size='14pt' style='bold' color='white'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0521in'><tablecolumn
+ width='15.2222%'/><tablecolumn width='84.7778%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='4' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Titulaire de carte:";"Cardholder Name:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='5' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='5'><run><font style='bold'/></run><run><font style='bold'/><field
+ choicesdialog='addressbook' lookupeachchar='true' lookupaddressonrefresh='false'
+ type='names' kind='editable' name='CardholderName'><code event='inputtranslation'><formula
+>@Name([CN];CardholderName)</formula></code></field></run><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Types de carte:";"Card Types:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold'/></run><run><font style='bold'/><field
+ borderstyle='none' lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' allowmultivalues='true' kind='editable' name='CardTypes' listinputseparators='comma'
+ listdisplayseparator='comma'><keywords recalconchange='true' columns='2'
+ ui='checkbox'><textlist><text>MasterCard</text><text>VISA</text></textlist></keywords></field></run><run
+><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0521in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<pardef id='6' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='6'><run><font style='bold' color='white'/>MasterCard</run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0521in'><tablecolumn
+ width='17.75%'/><tablecolumn width='22.8611%'/><tablecolumn width='17.75%'/><tablecolumn
+ width='41.6354%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='7' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Limite de crédit:";"Credit Limit:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='8' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='8'><field type='number' kind='editable' name='CreditLimitM'><numberformat
+ format='currency' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code><code
+ event='exiting'><lotusscript>Sub Exiting(Source As Field)
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Set uidoc=ws.CurrentDocument
+	If uidoc.IsNewDoc Then
+		Call uidoc.fieldsettext("RemCreditM", uidoc.FieldGetText("CreditLimitM"))
+	End If
+End Sub</lotusscript></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='9' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='9'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Valeur résiduelle:";"Remaining Credit:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='10' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='10'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='RemCreditM'><numberformat format='fixed' digits='2' punctuated='false'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code><code event='inputtranslation'><formula>REM {2009-05-14: JML: ADR#3550, the RemCreditM was set to zero when the new CreditCard documents were saved because the field name CredLimitM was misspelled.};
+REM{@If(@IsNewDoc;CredLimitM;RemCreditM)};
+@If(@IsNewDoc;CreditLimitM;RemCreditM)</formula></code></field><run><font
+ style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Maximum par commande:";"Maximum Per Order:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='MaxOrderM'><numberformat format='currency' digits='2' punctuated='false'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code></field><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='9'><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='10'><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Maximum par mois:";"Maximum Per Month:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='MaxMonthM'><numberformat format='currency' digits='2' punctuated='false'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code></field><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='9'><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='10'><run><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0521in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<par def='6'><run><font style='bold' color='white'/>VISA</run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0521in'><tablecolumn
+ width='17.75%'/><tablecolumn width='22.8611%'/><tablecolumn width='17.75%'/><tablecolumn
+ width='41.6354%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Limite de crédit:";"Credit Limit:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='number' kind='editable' name='CreditLimitV'><numberformat
+ format='currency' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code><code
+ event='exiting'><lotusscript>Sub Exiting(Source As Field)
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Set uidoc=ws.CurrentDocument
+	If uidoc.IsNewDoc Then
+		Call uidoc.fieldsettext("RemCreditV", uidoc.FieldGetText("CreditLimitV"))
+	End If
+End Sub</lotusscript></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='9'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Valeur résiduelle:";"Remaining Credit:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='10'><field type='number' kind='editable' name='RemCreditV'><numberformat
+ format='currency' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code><code
+ event='inputtranslation'><formula>REM {2009-05-14: JML: ADR#3550, the RemCreditV was set to zero when the new CreditCard documents were saved because the field name CredLimitV was misspelled.};
+REM{@If(@IsNewDoc;CredLimitV;RemCreditV)};
+@If(@IsNewDoc;CreditLimitV;RemCreditV)</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Maximum par commande:";"Maximum Per Order:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='number' kind='editable' name='MaxOrderV'><numberformat
+ format='currency' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='9'><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='10'><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Maximum par mois:";"Maximum Per Month:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='number' kind='editable' name='MaxMonthV'><numberformat
+ format='currency' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='9'><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='10'><run><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<pardef id='11' leftmargin='0.8125in'><code event='hidewhen'><formula>1</formula></code></pardef><subformref
+ name='CDE-Edit History | EdHistory'/>
+<pardef id='12' align='none' leftmargin='1in'><code event='hidewhen'><formula
+>1</formula></code></pardef>
+<par def='12'><run><font style='bold'/></run></par></richtext></body>
+<item name='MaxItemM' summary='false'><number>0</number></item>
+<item name='MaxDayM' summary='false'><number>0</number></item>
+<item name='MaxItemV' summary='false'><number>0</number></item>
+<item name='MaxDayV' summary='false'><number>0</number></item>
+<item name='OriginalModTime'><datetime dst='true'>20090611T081312,79-04</datetime></item>
+<item name='$FormUsers'><textlist><text>LNOG_HECS</text><text>[Admin]</text><text
+>[LNOG Admin]</text></textlist></item>
+<item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>CardHolders</text></item>
+<item name='$CreditLimitM_O' sign='true'>
+<rawitemdata type='14'>
+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
+</rawitemdata></item>
+<item name='$CreditLimitV_O' sign='true'>
+<rawitemdata type='14'>
+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
+</rawitemdata></item>
+<item name='CreditLimitM' summary='false'><number>0</number></item>
+<item name='RemCreditM' summary='false'><number>0</number></item>
+<item name='MaxOrderM' summary='false'><number>0</number></item>
+<item name='MaxMonthM' summary='false'><number>0</number></item>
+<item name='CreditLimitV' summary='false'><number>0</number></item>
+<item name='RemCreditV' summary='false'><number>0</number></item>
+<item name='MaxOrderV' summary='false'><number>0</number></item>
+<item name='MaxMonthV' summary='false'><number>0</number></item>
+<item name='date_create' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item></form>
+

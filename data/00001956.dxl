@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1956' unid='4FE603A9168CD5A285256C5300678DD1' sequence='4'>
+<created><datetime dst='true'>20021015T145105,13-04</datetime></created>
+<modified><datetime dst='true'>20260917T084401,97-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074819,82-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084401,96-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084401,96-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20021015T145214,30-04</datetime><datetime
+>20021104T141507,35-05</datetime><datetime dst='true'>20090902T074408,34-04</datetime></revisions>
+<item name='CompName'><text>SPSS Inc</text></item>
+<item name='CompPhone'><text>1-800-543-2185</text></item>
+<item name='CompAddress'><text>233 South Wacker Drive</text></item>
+<item name='CompFax'><text>1-312-264-3732</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Jeff Robinson</text></item>
+<item name='CompCity'><text>Chicago</text></item>
+<item name='InvContact'><text>Jeff Robinson</text></item>
+<item name='CompProvince'><text>Ilinois</text></item>
+<item name='CompPostalCode'><text>60606-6307</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

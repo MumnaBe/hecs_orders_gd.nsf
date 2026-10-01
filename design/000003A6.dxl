@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='Project Lookup View2' alias='PLV2' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='6.5' unreadmarks='none' onopengoto='lastopened'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='false' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='false' extendlastcolumn='true' showhierarchies='false'
+ unreadcolor='black' rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='gray' headerbgcolor='white' boldunreadrows='false'
+ evaluateactions='false' allownewdocuments='false' allowcustomizations='false'
+ hidemarginborder='false' marginwidth='0px' marginbgcolor='white' uniquekeys='false'>
+<noteinfo noteid='3a6' unid='26A6E248C9006DF7852575EB004D45E4' sequence='9'>
+<created><datetime dst='true'>20090706T100401,64-04</datetime></created>
+<modified><datetime dst='true'>20260917T084248,19-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,35-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100303,83-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084248,18-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form="Project"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='#d4d0c8'/><border width='0px 0px 1px'/>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"AdminF";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='' icon='61'><code event='click'><formula>@Environment("HECS_Language";"E");
+@Command([OpenNavigator];"Admin";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='$2' width='13' resizable='true'
+ separatemultiplevalues='true' sortnoaccent='false' sortnocase='true' showaslinks='false'
+ categorized='true' twisties='true'><columnheader title='Users'><font size='9pt'
+ style='bold'/></columnheader><code event='value'><formula>@Unique(@Trim(@Name([CN];PI):@Name([CN];Manager):@Name([CN];Employees)))</formula></code></column>
+<column sort='ascending' hidedetailrows='false' itemname='Project' width='19'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' twisties='true'><font color='navy' style='bold'/><columnheader
+ title='Project/Projet'><font size='9pt' style='bold'/></columnheader></column></view>
+

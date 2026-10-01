@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='3c92' unid='FBD72E2D39F090FA8525715C0054A435' sequence='5'>
+<created><datetime dst='true'>20060426T112430,61-04</datetime></created>
+<modified><datetime dst='true'>20260917T084658,54-04</datetime></modified>
+<revised><datetime dst='true'>20080410T131102,36-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084658,53-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084658,53-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060426T112521,80-04</datetime><datetime
+ dst='true'>20060518T104334,98-04</datetime><datetime dst='true'>20060601T110320,59-04</datetime><datetime
+>20071212T150353,51-05</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20080410T131058,34-04</datetime></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831503</text></item>
+<item name='GLAccount'><textlist><text>Acids</text><text>Acq&lt;10K  Safety Alarm and Signal Equipment</text><text
+>Acq&lt;10K Computer Equipment Parts</text><text>Acq&lt;10K Computer &amp; Related Peripheral Equip</text><text
+>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text><text>Acq&lt;10K Laptop and Related Peripheral Equip</text><text
+>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&lt;10K Office Furniture Furnishing &amp; Part</text><text
+>Acq&lt;10K Software Packages for Computers</text><text>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text><text>Books Newspapers and Magazines</text><text
+>Cellular Phone Services</text><text>Clothing Other Than Uniforms</text><text
+>Conference Fees</text><text>Containers &amp; Closures</text><text>Courier Services Incl Canada Post Priority Post</text><text
+>Distilled Drink Water</text><text>Electrical Supplies</text><text>Engineering Consultants - Construction</text><text
+>Enhanced Telecommunication Services</text><text>Gasoline Products</text><text
+>Health Science Consultants</text><text>Honoraria</text><text>Hospitality</text><text
+>Housekeeping supplies</text><text>Inorganic &amp; Organic Chemicals</text><text
+>Iron &amp; Steel and Articles Thereof</text><text>IT Specialized Consultants</text><text
+>Laboratory Supplies</text><text>Laundry Dry Cleaning and Other Related Services</text><text
+>Legal Services</text><text>Live Animals</text><text>Lubricating Oils &amp; Greases</text><text
+>Meal Allowance in Headquarter Area</text><text>Membership Fees</text><text
+>Motor Vehicle Licences</text><text>Moving Expenses</text><text>Non-Anesthetic Gases</text><text
+>Other Printed Matter Printed Forms &amp; CD ROM Disks </text><text>Other Transportation Not Elsewere Specified.</text><text
+>Photographic or Cinematography Goods</text><text>Plastics and Rubber Products</text><text
+>Postage and Parcel Post </text><text>Printing Services</text><text>R &amp; M Computer Equipment and Parts</text><text
+>R &amp; M Computer Hardware and Software</text><text>R &amp; M Electric Lighting &amp; Control Equipment</text><text
+>R &amp; M Furniture and Fixtures</text><text>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text
+>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text>R &amp; M Office Machines and Equipment</text><text
+>R &amp; M Safety Alarm and Signal Equipment</text><text>R &amp; M Telecommunications Equipment</text><text
+>Seminars or Workshops Non-Taxable</text><text>SPA Payment Collaborative Research &amp; Development</text><text
+>Staff Language Training</text><text>Stationery Office Supplies and Artists' Materials</text><text
+>Telephone &amp; Other Voice Communication Services</text><text>Temporary Help Services Acquired for General Help</text><text
+>Training Packages and Courses Purchased  for Staff</text><text>Translation Service</text><text
+>Travel  Non-Public Servants Conference all Locations</text><text>Travel Non-Public Servants Outside Canada</text><text
+>Travel Non-Public Servants Within Canada</text><text>Travel Public Servants Abroad </text><text
+>Travel Public Servants Conference all Locations</text><text>Travel Public Servants Local Transportation</text><text
+>Travel Public Servants Training all Locations</text><text>Travel Public Servants United States of America</text><text
+>Travel Public Servants Within Canada</text><text>Tuition Fees and Related Costs During Own Time</text><text
+>Tuition Fees and Related Costs During Paid Time</text></textlist></item>
+<item name='ProgActiv'><textlist><text>A3DY-Emerging Tech Sci Know</text><text
+>A3EF-Child Vul Popn Sci Know</text><text>A3EO- Biomon Surv Science Know</text></textlist></item>
+<item name='IntOrd'><textlist><text>4320105 Oxid Stress - PK</text><text>4320105 Oxid Stress - PK - MIREC</text></textlist></item></document>
+

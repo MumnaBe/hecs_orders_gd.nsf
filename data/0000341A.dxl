@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='ChangeRequest'>
+<noteinfo noteid='341a' unid='D34DE612D238D8DE8525710800636894' sequence='1'>
+<created><datetime>20060201T130548,36-05</datetime></created>
+<modified><datetime dst='true'>20260917T084606,57-04</datetime></modified>
+<revised><datetime>20060201T130548,38-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084606,56-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084606,56-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='KEYWORDOLD'><text>Pierre Gougeon</text></item>
+<item name='KEYWORDNEW'><text>Nicole Poirier</text></item></document>
+

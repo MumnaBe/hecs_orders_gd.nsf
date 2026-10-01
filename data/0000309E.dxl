@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='309e' unid='C179106A2F9B47AC85256FD6006E5F5D' sequence='3'>
+<created><datetime dst='true'>20050401T160533,73-04</datetime></created>
+<modified><datetime dst='true'>20260917T084547,32-04</datetime></modified>
+<revised><datetime dst='true'>20050405T110237,71-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084547,31-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084547,31-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050401T160609,05-04</datetime><datetime
+ dst='true'>20050401T160640,30-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text></item>
+<item name='NameF'><text> Chauffage Air climatisé et Équip de réfrigération</text></item>
+<item name='CodeNumber'><text>58306</text></item></document>
+

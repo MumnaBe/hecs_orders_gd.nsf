@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='9c2' unid='03888611701D3CBD85257028006B156D' sequence='4'>
+<created><datetime dst='true'>20050622T152938,37-04</datetime></created>
+<modified><datetime dst='true'>20260917T084255,08-04</datetime></modified>
+<revised><datetime dst='true'>20230607T120738,26-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084255,07-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084255,07-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050622T153344,84-04</datetime><datetime
+ dst='true'>20090902T074453,63-04</datetime><datetime dst='true'>20090902T074922,24-04</datetime></revisions>
+<item name='CompName'><text>Bell Canada</text></item>
+<item name='CompPhone'><text>310-2355</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text/></item>
+<item name='CompPO'><text>P.O. Box 9000, Stn. Don Mills,</text></item>
+<item name='PurchContact'><text>Suzanne Séguin</text></item>
+<item name='CompCity'><text>North York,</text></item>
+<item name='InvContact'><text>Suzanne Séguin</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>M3C 2X7</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.bell.ca</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050622T152938,37-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:07:42 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

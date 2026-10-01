@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='7282' unid='BA6B898ACA0FECDF85257D62004E638B' sequence='2'>
+<created><datetime dst='true'>20140929T101612,91-04</datetime></created>
+<modified><datetime dst='true'>20260917T085151,40-04</datetime></modified>
+<revised><datetime dst='true'>20140929T101842,22-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085151,39-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085151,39-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jacob Mahautiere/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20140929T101838,05-04</datetime></revisions>
+<item name='CompName'><text>Ozark Biomedical</text></item>
+<item name='CompPhone'><text>1-800-457-7576</text></item>
+<item name='CompAddress'><text>1001 Commerce Place </text></item>
+<item name='CompFax'><text>501-882-2122</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Beebe</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Arkansas</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>72012</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Jacob Mahautiere</text></item>
+<item name='date_create'><datetime dst='true'>20140929T101612,91-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Jacob Mahautiere</text></item>
+<item name='edit_history_1'><text>2014-09-29 10:18:41 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Jacob Mahautiere;</text></item></document>
+

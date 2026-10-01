@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='..Administration\Application Profile / Profil de l&apos;application'
+ alias='AppProfile' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' publicaccess='false' designerversion='6.5' bgcolor='#e0ffdf'>
+<noteinfo noteid='426' unid='6116DE76355115E685257608005FB06A' sequence='7'>
+<created><datetime dst='true'>20090804T132510,82-04</datetime></created>
+<modified><datetime dst='true'>20260917T084251,07-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,73-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084251,06-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084251,06-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='windowtitle'><formula>"Application Profile for " + @DbTitle</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='#d4d0c8'/><font color='system'/><border width='0px 0px 1px'/>
+<action title='' icon='62' showinmenu='false'><code event='click'><formula
+>@Environment( "Corp_Language"; "F" );
+@Command([RefreshHideFormulas])</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) = "F"</formula></code></action>
+<action title='' icon='61' showinmenu='false'><code event='click'><formula
+>@Environment( "Corp_Language"; "E" );
+@Command([RefreshHideFormulas])</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) != "F"</formula></code></action>
+<action title='Close' icon='27' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) = "F"</formula></code></action>
+<action title='Fermer' icon='27' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) != "F"</formula></code></action>
+<action title='Edit' icon='5' hide='edit previewedit' systemcommand='edit'><code
+ event='hidewhen'><formula>@Environment( "Corp_Language" ) = "F"</formula></code></action>
+<action title='Modifier' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) != "F"</formula></code></action>
+<action title='Save' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) = "F"</formula></code></action>
+<action title='Sauvegarder' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) != "F"</formula></code></action>
+<action title='Feedback' icon='56' showinmenu='false'><code event='click'><formula
+>@Command( [Compose]; ""; "Feedback" )</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) = "F"</formula></code></action>
+<action title='Rétroaction' icon='56' showinmenu='false'><code event='click'><formula
+>@Command( [Compose]; ""; "Feedback" )</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) != "F"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Help' icon='45' showinmenu='false'><code event='click'><formula
+>@If( !@Contains( @UserRoles; "Administrator" ); @Do(
+@Command([OpenView]; "Help");
+@Command([OpenNavigator]; "HelpNavigator" ) ); @Do(
+@Command([OpenView]; "AdminHelp");
+@Command([OpenNavigator]; "AdminHelpNav" ) )  )</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) = "F"</formula></code></action>
+<action title='Aide' icon='45' showinmenu='false'><code event='click'><formula
+>@If( !@Contains( @UserRoles; "Administrator" ); @Do(
+@Command([OpenView]; "Aide");
+@Command([OpenNavigator]; "AideNavigator" ) ); @Do(
+@Command([OpenView]; "AdminAide");
+@Command([OpenNavigator]; "AdminAideNav" ) )  )</formula></code><code event='hidewhen'><formula
+>@Environment( "Corp_Language" ) != "F"</formula></code></action></actionbar>
+<body><richtext>
+<pardef id='1' align='center' leftmargin='1in'/>
+<par def='1'><run><font size='12pt' style='bold underline' color='navy'/>Application Profile / </run><run
+><font size='12pt' style='bold underline' color='navy'/>Profil de l'application</run></par>
+<pardef id='2'/>
+<par def='2'><run><font size='8pt'/></run></par>
+<pardef id='3' leftmargin='1in' tabs='L2.5000in L4in'/>
+<par def='3'><run><font style='bold'/>		Note /</run><run><font size='8pt'
+ color='red'/> 		</run><run><font style='bold' color='red'/>*</run><run><font
+ size='8pt' color='red'/> </run><run><font size='8pt' style='underline'/>indicates mandatory </run></par>
+<pardef id='4' align='none' leftmargin='0.5000in' tabs='L4in'/>
+<par def='4'><run><font style='bold'/>	Remarque :</run><run><font size='8pt'
+ color='red'/> </run><run><font style='bold' color='red'/>	*</run><run><font
+ size='8pt' color='red'/> </run><run><font size='8pt' style='underline'/>correspond aux champs obligatoires</run></par>
+<pardef id='5' align='none' leftmargin='1in' tabs='L4in'/>
+<par def='5'><run><font size='8pt' style='underline'/></run></par>
+<par def='5'><run><font size='8pt' style='underline'/></run></par>
+<pardef id='6' leftmargin='0.7500in'/>
+<section onread='expand' onpreview='expand' onedit='expand' onprint='expand'
+ expanded='true'><sectiontitle pardef='6' borderstyle='shadow' color='teal'><font
+ color='navy' style='bold'/><text>General / Générale</text></sectiontitle>
+<par def='2'><run><font size='8pt' style='underline'/></run></par><subformref
+ name='AppProfile - General'/>
+<pardef id='7' align='none' leftmargin='0.7500in' tabs='L4in'/>
+<par def='7'><run><font size='8pt' style='underline'/></run></par></section>
+<pardef id='8' leftmargin='3.6632in' rightmargin='100%' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>1</formula></code></pardef>
+<par def='8'/>
+<pardef id='9' leftmargin='1in'><code event='hidewhen'><formula>1</formula></code></pardef>
+<par def='9'/>
+<pardef id='10' align='none' leftmargin='0.7500in' hide='read preview' tabs='L4in'/>
+<par def='10'/>
+<par def='2'/>
+<pardef id='11' leftmargin='0.8125in'><code event='hidewhen'><formula>1</formula></code></pardef><subformref
+ name='CDE-Edit History | EdHistory'/>
+<pardef id='12' align='none' leftmargin='1in'><code event='hidewhen'><formula
+>1</formula></code></pardef>
+<par def='12'/></richtext></body>
+<item name='gst' summary='false'><number>0</number></item>
+<item name='AppsVarNum' summary='false'><number>0</number></item>
+<item name='AppsVarDate' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='AppsVarNum_1' summary='false'><number>0</number></item>
+<item name='AppsVarNum_2' summary='false'><number>0</number></item>
+<item name='AppsVarNum_3' summary='false'><number>0</number></item>
+<item name='AppsVarDate_1' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='lblAppsVarDate_2' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='AppsVarDate_2' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='lblAppsVarDate_3' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='AppsVarDate_3' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='DaysAdvance' summary='false'><number>0</number></item>
+<item name='ArchiveMaxSize' summary='false'><number>0</number></item>
+<item name='ArchiveAfterDays' summary='false'><number>0</number></item>
+<item name='OriginalModTime'><datetime dst='true'>20090804T140545,94-04</datetime></item>
+<item name='$FormUsers'><textlist><text>[Admin]</text><text>[LNOG Admin]</text></textlist></item>
+<item name='$SubForm_RepIDs' sign='true'><textlist><text>0000000000000000</text><text
+>0000000000000000</text></textlist></item>
+<item name='$$ScriptName' summary='false' sign='true'><text> AppProfile</text></item>
+<item name='date_create' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='Cost_history' summary='false'><number>0</number></item></form>
+

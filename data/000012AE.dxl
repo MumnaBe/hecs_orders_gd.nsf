@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='12ae' unid='2EB0A2CD06F0DA3085256BEB005F0953' sequence='4'>
+<created><datetime dst='true'>20020703T131803,07-04</datetime></created>
+<modified><datetime dst='true'>20260917T084333,07-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074935,99-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084333,06-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084333,06-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,09-04</datetime><datetime
+>20021104T141455,27-05</datetime><datetime dst='true'>20090902T074509,68-04</datetime></revisions>
+<item name='CompName'><text>Beckman Coulter Canada Inc.</text></item>
+<item name='CompAddress'><text>600-6755 Mississauga Rd</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Mississauga</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>L5N 7Y2</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(905) 819-1234 1-800-463-7828</text></item>
+<item name='CompFax'><text>(905) 819-1485 1-877-497-2758</text></item>
+<item name='PurchContact'><text>Nick Di Perna</text></item>
+<item name='InvContact'><text>Lynda Walter</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>BKBW001</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.beckmancoulter.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(Update Readers And Authors)' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='6.5' restrictions='unrestricted'>
+<noteinfo noteid='1b2' unid='AA9972F9AC7D0DF885256C5300527881' sequence='14'>
+<created><datetime dst='true'>20021015T110048,01-04</datetime></created>
+<modified><datetime dst='true'>20260917T084238,40-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,12-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084238,39-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084238,39-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,65-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='all'><search type='byformnames'><formchoice name='New Order Form|NewOrderForm'/><formchoice
+ name='Order Form|OrderForm'/></search></documentset><code event='options'><lotusscript
+>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim dc As notesdocumentcollection
+	Dim doc As notesdocument
+	Dim projdoc As notesdocument
+	Dim authorItem As notesitem
+	Dim readerItem As notesitem
+	Dim dv2 As notesview
+	Dim doc2 As notesdocument
+	Dim documentCounter As Integer
+	Dim projName As String
+	
+	documentCounter=0
+	Set db=s.CurrentDatabase
+	Set dv=db.GetView("PLV")
+	Set dc=db.UnprocessedDocuments
+	Set dv2=db.GetView("KeywordLookup")
+	Set doc2=dv2.GetDocumentByKey("SendToAdmin")
+	' Messagebox doc2.EkeyWord(0)
+	Set doc=dc.GetFirstDocument
+	While Not (doc Is Nothing)
+		documentCounter = documentCounter + 1
+		projName=doc.ProjectSelection(0)
+		'If projName = "1234567" Then
+		'	projName = "4320010 RV - Pulm"
+		'End If
+		Set projdoc=dv.GetDocumentByKey(projName)
+		doc.ReplaceItemValue "Authors", "LNOG_HECS"
+		doc.ReplaceItemValue "Readers", "LNOG_HECS"
+		doc.Save True, True
+		
+		Set authorItem=doc.GetFirstItem("Authors")
+		Set readerItem=doc.GetFirstItem("Readers")
+		
+		authorItem.AppendToTextList(doc2.EKeyWord(0))
+		readerItem.AppendToTextList(doc2.EKeyWord(0))
+		authorItem.AppendToTextList(db.Server)
+		readerItem.AppendToTextList(db.Server)
+		authorItem.AppendToTextList(projdoc.PI(0))
+		readerItem.AppendToTextList(projdoc.PI(0))
+		authorItem.AppendToTextList(projdoc.Manager(0))
+		readerItem.AppendToTextList(projdoc.Manager(0))
+         	authorItem.AppendToTextList("[Admin]")
+     	readerItem.AppendToTextList("[Admin]")
+     	authorItem.AppendToTextList("[LNOG Admin]")
+     	readerItem.AppendToTextList("[LNOG Admin]")
+		Forall x In projdoc.Employees
+			If doc.Status(0)="New" Then
+				authorItem.AppendToTextList(x)
+			End If
+			readerItem.AppendToTextList(x)
+		End Forall
+		doc.Save True, True
+		Set doc=dc.GetNextDocument(doc)
+	Wend
+	Messagebox Cstr(documentCounter) &amp; "documents have been processed."
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime>20081205T112347,32-05</datetime></agentmodified></rundata>
+<item name='$POID'><datetime dst='true'>20090805T075005,02-04</datetime></item></agent>
+

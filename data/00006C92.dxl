@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='6c92' unid='17FBE7E678F8892685257B480056DD21' sequence='2'>
+<created><datetime dst='true'>20130409T114847,05-04</datetime></created>
+<modified><datetime dst='true'>20260917T085120,38-04</datetime></modified>
+<revised><datetime dst='true'>20130409T114905,45-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085120,37-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085120,37-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20130409T114847,13-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>810478 - Nano-CMP - FY 2013-2014</text></item>
+<item name='NameF'><text>810478 - Nano-CMP - FY 2013-2014</text></item>
+<item name='CodeNumber'><text>810478</text></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20110826T141036,85-04</datetime></item>
+<item name='edit_history'><textlist><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2013-04-09 11:49:03 AM</text><text
+>2012-04-11 09:02:40 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text></textlist></item></document>
+

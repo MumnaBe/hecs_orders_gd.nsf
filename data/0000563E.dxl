@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='563e' unid='1A6192E79D07C8498525765B005A91EC' sequence='13'>
+<created><datetime dst='true'>20091026T122915,96-04</datetime></created>
+<modified><datetime dst='true'>20260917T084927,82-04</datetime></modified>
+<revised><datetime dst='true'>20130926T102507,49-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084927,81-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084927,81-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20091026T123340,01-04</datetime><datetime
+ dst='true'>20100413T134850,91-04</datetime><datetime dst='true'>20100428T100856,78-04</datetime><datetime
+ dst='true'>20100428T101524,30-04</datetime><datetime dst='true'>20100428T101844,26-04</datetime><datetime
+ dst='true'>20110407T103505,41-04</datetime><datetime dst='true'>20110407T143222,23-04</datetime><datetime
+ dst='true'>20110607T101348,95-04</datetime><datetime dst='true'>20110608T085749,08-04</datetime><datetime
+ dst='true'>20110608T085750,66-04</datetime><datetime dst='true'>20120412T153853,00-04</datetime><datetime
+ dst='true'>20130409T120245,95-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100428T101758,41-04</datetime></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>Yes</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CodeNumber'><text>8R1501</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K Client Software</text><text
+>Acq&lt;10K Computer Equipment Parts</text><text>Acq&lt;10K Computer &amp; Related Peripheral Equip</text><text
+>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text><text>Acq&lt;10K Laptop and Related Peripheral Equip</text><text
+>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&lt;10K Networking Software</text><text
+>Acq&lt;10K Office Furniture Furnishing &amp; Part</text><text>Acq&lt;10K Other Office Equip and Parts</text><text
+>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text><text
+>Books Newspapers and Magazines</text><text>Cellular Phone Services</text><text
+>Clothing Other Than Uniforms</text><text>Conference Fees</text><text>Containers &amp; Closures</text><text
+>Courier Services Incl Canada Post Priority Post</text><text>Electronic Subscriptions</text><text
+>Engineering Consultants - Construction</text><text>Fees and Costs of Attending Seminars or Workshops</text><text
+>Fodder and Other Animal Feeds</text><text>Gasoline Products</text><text>Health Science Consultants</text><text
+>Honoraria</text><text>Hospitality</text><text>Housekeeping supplies</text><text
+>Inorganic &amp; Organic Chemicals</text><text>Interest Service Charges &amp; Other Penalty Charges </text><text
+>Laboratory Services other than Health and Welfare (Operon</text><text>IDT</text><text
+>DNA)</text><text>Laboratory Services (Contracts</text><text>Services)</text><text
+>Laboratory Supplies</text><text>Laundry Dry Cleaning and Other Related Services</text><text
+>Legal Services</text><text>License/Maintenance Fees Client Software</text><text
+>Live Animals</text><text>Meal Allowance in Headquarter Area</text><text>Membership Fees</text><text
+>Non-Anesthetic Gases</text><text>Other Printed Matter Printed Forms &amp; CD ROM Disks </text><text
+>Photographic or Cinematography Goods</text><text>Plastics and Rubber Products</text><text
+>Postage and Parcel Post </text><text>Printing Services</text><text>Professional and Technical Health Services (PDFs)</text><text
+>Publishing Services</text><text>R &amp; M Computer Equipment and Parts</text><text
+>R &amp; M Furniture and Fixtures</text><text>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text
+>R &amp; M Laboratory Buildings</text><text>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text
+>R &amp; M Office Machines and Equipment</text><text>Reallocation of Expenditures within a Department (Housing of Animals)</text><text
+>Rental of Digital Communications/Network Equipment (Rogers)</text><text>Research Contracts</text><text
+>Staff Language Training</text><text>Stationery Office Supplies and Artists' Materials</text><text
+>Translation Service</text><text>Travel Public Servants Abroad </text><text
+>Travel Public Servants Conference all Locations</text><text>Travel Public Servants Local Transportation</text><text
+>Travel Public Servants Training all Locations</text><text>Travel Public Servants United States of America</text><text
+>Travel Public Servants Within Canada</text></textlist></item>
+<item name='ProgActiv'><text>GK10 - Research and Development</text></item>
+<item name='IntOrd'><text>810409 Epigenetics - ET- FY 2013-2014</text></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20091026T122915,96-04</datetime></item>
+<item name='edit_history'><textlist><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text
+>Dian Calagoure</text><text>Sameer Jetha</text><text>Sameer Jetha</text><text
+>Sameer Jetha</text><text>Sameer Jetha</text><text>Sameer Jetha</text><text
+>Sameer Jetha</text><text>Sameer Jetha</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2013-09-26 10:25:06 AM</text><text
+>2013-04-09 12:02:44 PM</text><text>2012-04-12 03:38:39 PM</text><text>2011-06-08 08:57:33 AM</text><text
+>2011-06-08 08:57:31 AM</text><text>2011-06-07 10:13:50 AM</text><text>2011-04-07 02:32:13 PM</text><text
+>2011-04-07 10:35:00 AM</text><text>2010-04-28 10:17:58 AM</text><text>2010-04-28 10:14:38 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text
+>Dian Calagoure;</text><text>Sameer Jetha;</text><text>Sameer Jetha;</text><text
+>Sameer Jetha;</text><text>Sameer Jetha;</text><text>Sameer Jetha;</text><text
+>Sameer Jetha;</text><text>Sameer Jetha;</text></textlist></item></document>
+

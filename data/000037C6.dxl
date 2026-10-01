@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='37c6' unid='E4EABB6DD83491AE8525715C0052F78D' sequence='10'>
+<created><datetime dst='true'>20060426T110613,25-04</datetime></created>
+<modified><datetime dst='true'>20260917T084626,54-04</datetime></modified>
+<revised><datetime dst='true'>20130926T103612,34-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084626,53-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084626,53-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060426T110656,43-04</datetime><datetime
+ dst='true'>20060531T155843,25-04</datetime><datetime>20090122T190514,18-05</datetime><datetime
+ dst='true'>20100413T134730,42-04</datetime><datetime dst='true'>20110506T141844,01-04</datetime><datetime
+ dst='true'>20110506T141907,79-04</datetime><datetime dst='true'>20110613T102747,87-04</datetime><datetime
+ dst='true'>20130409T120802,80-04</datetime><datetime dst='true'>20130524T090344,49-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100413T134613,80-04</datetime></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>8R1501</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K Client Software</text><text
+>Acq&lt;10K Computer Equipment Parts</text><text>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text><text
+>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&lt;10K Networking Software</text><text
+>Acq&lt;10K Other Office Equip and Parts</text><text>Books Newspapers and Magazines</text><text
+>Conference Fees</text><text>Courier Services Incl Canada Post Priority Post</text><text
+>Electronic Subscriptions</text><text>Engineering Consultants - Construction</text><text
+>Fees and Costs of Attending Seminars or Workshops</text><text>Fodder and Other Animal Feeds</text><text
+>Health Science Consultants</text><text>Inorganic &amp; Organic Chemicals</text><text
+>Interest Service Charges &amp; Other Penalty Charges </text><text>IT Specialized Consultants</text><text
+>Laboratory Services other than Health and Welfare (Operon</text><text>IDT</text><text
+>DNA)</text><text>Laboratory Services (Contracts</text><text>Services)</text><text
+>Laboratory Supplies</text><text>Legal Services (Patents)</text><text>License/Maintenance Fees Client Software</text><text
+>Live Animals</text><text>Membership Fees</text><text>Moving Expenses</text><text
+>Non-Anesthetic Gases</text><text>Printing Services</text><text>Publishing Services</text><text
+>R &amp; M Computer Equipment and Parts</text><text>R &amp; M Computer Hardware and Software</text><text
+>R &amp; M Electric Lighting &amp; Control Equipment</text><text>R &amp; M Furniture and Fixtures</text><text
+>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text>R &amp; M Laboratory Buildings</text><text
+>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text>R &amp; M Office Machines and Equipment</text><text
+>R &amp; M Safety Alarm and Signal Equipment</text><text>R &amp; M Telecommunications Equipment</text><text
+>Reallocation of Expenditures within a Department (Housing of Animals)</text><text
+>Rental of Digital Communications/Network Equipment (Rogers)</text><text>Research Contracts</text><text
+>Staff Language Training</text><text>Stationery Office Supplies and Artists' Materials</text><text
+>Telecommunications Consultants</text><text>Translation Service</text><text
+>Travel Public Servants Abroad </text><text>Travel Public Servants Conference all Locations</text><text
+>Travel Public Servants Local Transportation</text><text>Travel Public Servants United States of America</text><text
+>Travel Public Servants Within Canada</text><text>Engineering Consultants</text><text
+>Health Scientific Consultants</text><text>Other Consultants</text><text>Repair and Maintenance - Hardware and Software</text><text
+>Repair and Maintenance - Laboratories</text><text>Repairs and Maintenance -- Lab Equipment</text><text
+>Temporary Help Service</text></textlist></item>
+<item name='ProgActiv'><textlist><text>A3B7-Emerging Technologies Science Knowledge</text><text
+>A3E1-CEPA Science Knowledge</text><text>A3E7-Air Science Knowledge</text></textlist></item>
+<item name='IntOrd'><text>810413 Inhalation Tox-RV-FY 2013-2014</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20060426T110613,25-04</datetime></item>
+<item name='edit_history'><textlist><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text
+>Shreedat Phulesar</text><text>Sameer Jetha</text><text>Sameer Jetha</text><text
+>Sameer Jetha</text><text>Sameer Jetha</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2013-09-26 10:36:10 AM</text><text
+>2013-05-24 09:03:43 AM</text><text>2013-04-09 12:08:00 PM</text><text>2011-06-13 10:27:53 AM</text><text
+>2011-05-06 02:18:20 PM</text><text>2011-05-06 02:17:56 PM</text><text>2010-04-13 01:46:13 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text
+>Shreedat Phulesar;</text><text>Sameer Jetha;</text><text>Sameer Jetha;</text><text
+>Sameer Jetha;</text><text>Sameer Jetha;</text></textlist></item></document>
+

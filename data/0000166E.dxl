@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='166e' unid='40B1C81A92A581968525715B0069B1B8' sequence='2'>
+<created><datetime dst='true'>20060425T151427,76-04</datetime></created>
+<modified><datetime dst='true'>20260917T084349,64-04</datetime></modified>
+<revised><datetime dst='true'>20080401T153041,00-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084349,63-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084349,63-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Gallagher/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060425T151455,43-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20080401T153045,71-04</datetime></item>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>A3Z3-Management, Oversight and Accountability</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>A3Z3</text></item></document>
+

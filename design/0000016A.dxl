@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE databasescript>
+<databasescript xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='16a' unid='315C2F115EF4E07B85256B0600559D61' sequence='12'>
+<created><datetime>20011116T103508,49-05</datetime></created>
+<modified><datetime dst='true'>20260917T084236,84-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134326,98-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084236,83-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084236,83-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rania Otell/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='postopen'><lotusscript>Sub Postopen(Source As Notesuidatabase)
+	Dim session As New NotesSession
+	Dim db As notesdatabase
+	Dim language As String
+	Dim ws As New notesuiworkspace
+	
+	Set db=session.currentdatabase
+	language = session.GetEnvironmentString( "HECS_Language" )
+	
+	If language = "F" Then 
+		Call ws.OpenDatabase(db.Server,db.Filepath, "Mainf - Current FY","0")
+	Elseif  language = "" Then 
+		Call ws.OpenDatabase(db.Server,db.Filepath, "Splash","1")
+	Else
+		Call ws.OpenDatabase(db.Server,db.Filepath, "Main - Current FY","0")
+	End If      
+End Sub
+</lotusscript></code><code event='querydocumentdelete'><lotusscript>Sub Querydocumentdelete(Source As Notesuidatabase, Continue As Variant)
+	
+	'/********************************************************
+	'/ Goal: when deleting an Order, the system will do a soft delete.
+	'/ When the SoftDelete field equals "Yes", the NewOrderForm document aare considered soft deleted
+	'/  Soft Deleted documents appears in a view for the administrators in the Administration menu.
+	'/  Deleting a SoftDeleted order will flag the documents for hard deletion.
+	'/  Only the users with the role [Admin] and the ability to delete documents in the ACL can do Soft and Hard Delete
+	'/ Before doing a soft or hard delete, the user will be asked to continue and ail be informed of the end result.
+	'/ If deleting multiple documents, they have to be either all Orders or it should not contain any Orders.
+	'/ Rule: only the users with the role [Admin] can delete or Soft Delete documents
+	'/********************************************************
+	
+	' Declarations
+	Dim session As New NotesSession
+	Dim doc As notesdocument
+	Dim docCollToDelete As NotesDocumentCollection
+	Dim hasRole As Variant
+	Dim tmpItem As NotesItem
+	Dim workspace As New NotesUIWorkspace
+	Dim response As Integer
+	Dim HasAtLeastOneOrderInList As Boolean 'Used for multiple deletion to detect if the list of docment to delete contains at least one Order
+	Dim ListContainsOnlyOrders As Boolean 'Used for multiple deletion to detect if the list of docment to delete contains only Orders
+	Dim ListContainsAtLeastOneSoftDeleteDoc As Boolean ' Used for multiple deletion to distinguish Soft Deletion from Hard Deletion
+	Dim ListContainsAtLeastOneDocNotSoftDelete As Boolean ' Used for multiple deletion to distinguish Soft Deletion from Hard Deletion
+	
+	' /**  If the user has the role [LNOG Admin], then the rules for the deletion does not apply.
+	' This allow the LNOG HECSB team to delete all documents if required.  i.e. during testing
+	hasRole = Evaluate("@IsMember(""[LNOG Admin]""; @UserRoles)", doc) 	' Check if the user has the LNOG Admin role
+	If hasRole(0) = 1 Then
+		continue = True
+		answer% = Messagebox("As a user with the role [LNOG Admin], you can decide to bypass the deletion rules.  Do you want to use the deletion rules?" &amp; Chr$(10) &amp; "En tant qu'usager avec le rôle [LNOG Admin], vous pouvez ignorer les règles de suppression.  Désirez-vous utiliser les règles de suppression?", 4 + 32, "Use deletion rules? / Utiliser les règles de suppression")
+		
+		If answer% = 6 Then ' 6 = Yes
+			' Yes, user want to use the deletion rules
+		Else
+			' No, user want to bypass the deletion rules
+			Exit Sub			
+		End If		
+	End If
+	
+	' /**  If the user does not have the [Admin] role, the cannot delete or soft delete documents
+	hasRole = Evaluate("@IsMember(""[Admin]""; @UserRoles)", doc) 	' Check if the user has the Admin role
+	If Not hasRole(0) = 1 Then
+		' Users without the Admin role cannot delete documents
+		answer% = Messagebox("Deletion cancelled, you must be an administrator to delete documents."  &amp; Chr$(10) &amp; "Suppression annulé, vous devez être administrateur pour supprimer des documents", 16, "Deletion cancelled / Suppression annulée")
+		continue = False
+		Exit Sub
+	End If
+	
+	' /**  Get a handle on the document(s) being deleted
+	Set docCollToDelete = source.documents
+	If docCollToDelete.Count = 0 Then
+		' No documents to process	
+		answer% = Messagebox("Please select a document and try again."  &amp; Chr$(10) &amp; "Veuillez sélectionner un document et réessayez", 16, "Deletion cancelled / Suppression annulée")
+		Continue = False
+		Exit Sub
+	End If
+	
+	'/** Detect the type of documents to be deleted/Soft Deleted
+	HasAtLeastOneOrderInList = False ' We assume that the list does not contain any Orders.
+	ListContainsOnlyOrders = True ' We assume that the list contains only Orders.  If one document is not an order, then we know its false.
+	ListContainsAtLeastOneSoftDeleteDoc = False ' We assume that the list does not contains any document already marked as SoftDelete
+	ListContainsAtLeastOneDocNotSoftDelete = False ' We also assume that the list contains only Soft Deleted documents
+	
+	'/** Go through all documents being deleted and determine the type of documents to delete
+	Set doc = docCollToDelete.GetFirstDocument
+	While Not doc Is Nothing
+		
+		' check if the list of document contains a mix of soft deleted and not soft deleted documents.
+		If Left$(doc.form(0),10) = "SoftDelete" Then
+			ListContainsAtLeastOneSoftDeleteDoc = True
+		Else
+			ListContainsAtLeastOneDocNotSoftDelete = True
+		End If
+		
+		' If the documents to delete are orders, we have additional work to do
+		If doc.Form(0) = "NewOrderForm" Or doc.Form(0) = "OrderForm" Or doc.Form(0) = "SoftDeleteNewOrderForm" Or doc.Form(0) = "SoftDeleteOrderForm"Then
+			HasAtLeastOneOrderInList = True ' We have found at least one Order in the list of documents to delete.
+			
+			' If there is at least one Order for which the budget is calculated, the operation is cancelled
+			If doc.BudgetCalculated(0) = "Yes" Then
+				answer% = Messagebox("Deletion cancelled.  Please note that only New, Submitted and Cancelled orders can be deleted."  &amp; Chr$(10) &amp; "Suppression annulée. Veuillez noter que seul les nouvelles commandes, les commandes présentée et les commandes annulée peuvent être supprimé", 16, "Deletion cancelled / Suppression annulée")			
+				continue = False ' Deletion cancelled
+				Exit Sub				
+			End If
+		Else			
+			ListContainsOnlyOrders = False ' We caught at least one document to delete that is not an Order
+		End If	
+		Set doc = docCollToDelete.GetNextDocument(doc)
+	Wend
+	
+	'/** Ask confirmation from the user before deleting
+	response = workspace.Prompt (2, _
+	"Continue deletion? / Continuer la suppression ?", "Continue deletion? / Continuer la suppression ?")
+	If response = 1 Then
+		
+		' If the list of documentsto delete contains a mix of documents already marked as soft delete and documents not marked as soft delete, then we cancel the deletion because we cannot handle both case at the same time
+		If ListContainsAtLeastOneSoftDeleteDoc = True And ListContainsAtLeastOneDocNotSoftDelete = True Then
+			answer% = Messagebox("Deletion cancelled.  Please do not try deleting document of type Soft Delete and Normal at the same time."  &amp; Chr$(10) &amp; "Suppression annulée. Veuillez ne pas essayer de supprimer des documents de type supprimé et normal en même temps", 16, "Deletion cancelled / Suppression annulée")
+			continue = False ' Deletion cancelled
+			Exit Sub
+			
+		' If the list of documents to delete contains only documents already marked as Soft Delete, then we will hard Delete them
+		Elseif ListContainsAtLeastOneSoftDeleteDoc = True And ListContainsAtLeastOneDocNotSoftDelete = False Then
+			continue = True
+			Exit Sub
+			
+		' If the list of orders to delete contains only orders not marked for deletion, we will Soft Delete them.
+		Else
+			' Go through all the orders a second time and flag them as Soft Deleted			
+			Set doc = docCollToDelete.GetFirstDocument
+			While Not doc Is Nothing
+				
+				' Any Soft Deleted documents should have a form name starting with "SoftDelete"
+				Set tmpItem = doc.ReplaceItemValue("Form", "SoftDelete" + doc.form(0))
+				
+				' Any Soft Deleted document should also have the following flags:
+				Set tmpItem = doc.ReplaceItemValue("SoftDelete", "Yes")
+				Set tmpItem = doc.ReplaceItemValue("SoftDeleteDate", Now)
+				Set tmpItem = doc.ReplaceItemValue("SoftDeleteBy", session.UserName)
+				Call doc.Save(True,False,True)
+				
+				Set doc = docCollToDelete.GetNextDocument(doc)
+			Wend
+			
+			' Refresh the current view to make the Order documents disepear from the view
+			Call workspace.ViewRefresh 
+			
+			answer% = Messagebox("Deleted document are accessible from the Administration Menu."  &amp; Chr$(10) &amp; "Les document supprimées sont accessible dans le menu des administrateurs", 64, "Operation completed / Opération terminé")				
+			continue = False
+		End If			
+	Else
+			' User has decided to cancel the deletion.
+		Messagebox "Deletion cancelled. / Suppression annulé"			
+		continue = False ' Cancel the deletion
+	End If
+	
+End Sub</lotusscript></code>
+<item name='$POID'><datetime dst='true'>20090805T082619,30-04</datetime></item></databasescript>
+

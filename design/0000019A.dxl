@@ -1,0 +1,731 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE scriptlibrary>
+<scriptlibrary name='AddressFill' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3 v4strict'>
+<noteinfo noteid='19a' unid='5E755AAD7309A68285256ADA0053BA93' sequence='78'>
+<created><datetime dst='true'>20011003T111432,51-04</datetime></created>
+<modified><datetime dst='true'>20260917T084237,89-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,08-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084237,88-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084237,88-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Rania Otell/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Chau Nguyen/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='declarations'><lotusscript>%INCLUDE "lsconst.lss"
+
+
+</lotusscript></code><code event='ShippingAddress'><lotusscript>Public Sub ShippingAddress
+	
+	' This function will poplate the Address from the HC Directory for the employee ordering and receiving the order
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim uidoc As notesuidocument
+	Dim db As notesdatabase
+	Dim currDB As notesdatabase
+	Dim dv As notesview
+	Dim doc As notesdocument
+	Dim namekey(1 To 2) As String
+	Dim OrigName As String
+	Dim FirstName As String
+	Dim LastName As String
+	Dim MiddleInitial As String
+	Dim LookForMiddle As String
+	Dim AmountToCut As Integer
+	Dim cntr As Integer
+	Dim tmpStr As String
+	Dim strServer As String
+	Dim OrigNamePart1, OrigNamePart2, OrigNamePart3, OrigNamePart4 As String
+	Dim AppProfileDoc As NotesDocument
+	Dim AppProfileView As NotesView
+	
+	Set uidoc=ws.currentdocument
+	Set currDB = s.CurrentDatabase
+	
+	'** 2009-05-14: JML: Get the HC Dirctory Server and Path from the Application Profile.
+	Set AppProfileView = currDB.GetView("vwAppProfile")
+	Set AppProfileDoc = AppProfileView.GetFirstDocument
+	If AppProfileDoc Is Nothing Then
+		' App Profile does not exist.
+		answer% = Messagebox("Error, the address information cannot be imported, the application profile could not be found.  Please contact the Administrator for help / Erreur, les informations sur l'adresse ne peuvent être trouvé, le profile de l'application n'a pas été trouvé, veuillez contacter l'administrateur pour de l'aide.", 0 + 16, "Shipping Address - Error / Adresse d'envoi - Error")
+		Exit Sub		
+	Else
+		Set db=s.GetDatabase(AppProfileDoc.HCDirectoryServer(0), AppProfileDoc.HCDirectoryPath(0))
+		' i.e. R6DEV03: "R6DEV01","HECSB/hcdir.nsf"
+		' i.e. R6QA03: "QA01","csb/imsd/hcdir3.NSF"
+		' i.e. APP04: "APP04","csb/imsd/HcDir3.NSF"
+	End If
+	
+	Set dv=db.Getview("Emp")
+	
+	OrigName=uidoc.FieldGetText("ShipTo")
+	
+	'/*****START: 2009-07-03: ADR 3550: JML.  The code was changed to handle situation where the first name and last names contains spaces.
+	' Extract the First Name, Middle Name and Last Name.
+	If Not (OrigName = "") Then
+		
+		'Remove the domain extension. i.e. /HC-SC/GC/CA
+		AmountToCut=Instr(OrigName,"/")
+		If Not (AmountToCut = 0) Then
+			'Messagebox("Debug: Cutting domain extension, Before: " &amp; OrigName)
+			OrigName=Left(OrigName, AmountToCut-1)
+			'Messagebox("Debug: Cutting domain extension, After: " &amp; OrigName)
+		End If
+		
+		' Count the number of space in the name
+		nbrSpaces = 0
+		remainingStr = OrigName
+		
+		AmountToCut=Instr(remainingStr," ")		
+		While Not AmountToCut = 0 And nbrSpaces &lt; 4
+			' One space found
+			nbrSpaces = nbrSpaces + 1
+			
+			' Keep track of the decomposed part of the name separated by spaces
+			If nbrSpaces = 1 Then
+				OrigNamePart1 = Left(remainingStr, AmountToCut-1) 
+				'Messagebox("Debug: Part1 of the name " &amp; OrigNamePart1)
+			Elseif nbrSpaces = 2 Then
+				OrigNamePart2 = Left(remainingStr, AmountToCut-1) 
+				'Messagebox("Debug: Part2 of the name " &amp; OrigNamePart2)
+			Elseif nbrSpaces = 3 Then
+				OrigNamePart3 = Left(remainingStr, AmountToCut-1)    
+				'Messagebox("Debug: Part3 of the name " &amp; OrigNamePart3)
+			Else
+				' we assume we will not go there.  That name is staring to be complex to handle and should not happen often
+			End If
+			
+			' Remove the space and the text before it.
+			remainingStr = Mid(remainingStr, AmountToCut+1)           
+			'Messagebox("Debug: Remaining text " &amp; remainingStr)
+			
+			' Check if there is another space
+			AmountToCut=Instr(remainingStr," ")
+		Wend		
+		'Messagebox("Debug: Number of space in " &amp; OrigName &amp; " is: " &amp; Cstr(nbrSpaces))
+		
+		' Extract the first name and last names
+		Select Case nbrSpaces
+		Case 0
+			' This should never happen.  There should be at least a First and a last name
+			Messagebox "Please ensure that a first and last name are entered in the 'Ship To' area. Veuillez entrer un prénom et un nom de famille dans le champ Expédier à."
+			Call uidoc.GoToField("ShipTo")	
+			Exit Sub
+			
+		Case 1
+			' This is a typical name composed of a First name and a Last Name.  i.e. John Smith
+			LastName=remainingStr
+			FirstName = OrigNamePart1
+			namekey(1)=LastName
+			namekey(2)=LastName + ", " + FirstName
+			Set doc=dv.GetDocumentByKey(namekey)
+		Case 2
+			' This case is composed of 3 possibilities.  The first name or last name could have two words separated by a space or the name could contain a middle name
+			
+			' Try the case where the OrigNamePart2 is a middle name
+			' i.e. First name: John, MIddle Initials: A, Last Name: Smith
+			LastName=remainingStr
+			FirstName = OrigNamePart1
+			MiddleInitial = OrigNamePart2
+			namekey(1)=LastName
+			namekey(2)=LastName + ", " + FirstName + " " + MiddleInitial
+			'Messagebox("Debug: attempt #1: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))
+			Set doc=dv.GetDocumentByKey(namekey)
+			
+			If doc Is Nothing Then
+				' the name cannot be found, lets try the situation where the last name is composed of two words separated by spaces
+				' i.e. First name: John, Last Name: Smith Flower
+				LastName=OrigNamePart2 + " " + remainingStr
+				FirstName = OrigNamePart1
+				namekey(1)=LastName
+				namekey(2)=LastName + ", " + FirstName
+				'Messagebox("Debug: attempt #2: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))				
+				Set doc=dv.GetDocumentByKey(namekey)
+				
+				If doc Is Nothing Then
+				' the name cannot be found, lets try the situation where the first name is composed of two words separated by spaces
+				' i.e. First name: John Andrew, Last Name: Smith
+					LastName= remainingStr
+					FirstName = OrigNamePart1 + " " + OrigNamePart2
+					namekey(1)=LastName
+					namekey(2)=LastName + ", " + FirstName
+					'Messagebox("Debug: attempt #3: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))		
+					Set doc=dv.GetDocumentByKey(namekey)		
+					
+					If doc Is Nothing Then
+						' We should never be here.  if it happens, let th euser know that the name cannot be found.
+						Messagebox "The name in the Ship To field cannot be found in the HC Directory, please ensure the name is properly written or contact the application`s administrator for help.  Le nom dans le champ Expédier à n'a pas été trouvé dans l'annulaire de SC.  Veuillez corriger le nom ou contacter l'administrateur de l'application"
+						Call uidoc.GoToField("ShipTo")
+						Exit Sub
+					End If					
+				End If				
+			End If
+		Case 3
+			' This case can be composed of many situations.  As per the data in the HC Directory in July 2009, the following situation wil be addressed
+			' The First name contains a space, there is a middle name and a last name
+			' The Last name contains a space, there is a middle name and a first name
+			' The First and and Last name both contain a space
+			' The other situations will not be handled because the do not occur often.
+			
+			' Try the case where the First name contains a space, there is a middle name and a last name
+			' i.e. First name: John Andrew, MIddle Initials: A, Last Name: Smith
+			LastName=remainingStr
+			FirstName = OrigNamePart1 + " " + OrigNamePart2
+			MiddleInitial = OrigNamePart3
+			namekey(1)=LastName
+			namekey(2)=LastName + ", " + FirstName + " " + MiddleInitial
+			'Messagebox("Debug: attempt #1: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))
+			Set doc=dv.GetDocumentByKey(namekey)
+			
+			If doc Is Nothing Then
+				' the name cannot be found, lets try the situation where the Last name contains a space, there is a middle name and a first name
+				' i.e. First name: John, MIddle Initials: A, Last Name: Smith Flower
+				LastName=OrigNamePart3 + " " + remainingStr
+				FirstName = OrigNamePart1
+				MiddleInitial = OrigNamePart3
+				namekey(1)=LastName
+				namekey(2)=LastName + ", " + FirstName + " " + MiddleInitial
+				'Messagebox("Debug: attempt #2: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))				
+				Set doc=dv.GetDocumentByKey(namekey)
+				
+				If doc Is Nothing Then
+					' the name cannot be found, lets try the situation where the First and and Last name both contain a space
+				' i.e. First name: John Andrew, Last Name: Smith
+					LastName= OrigNamePart3 + " " + remainingStr
+					FirstName = OrigNamePart1 + " " + OrigNamePart2
+					namekey(1)=LastName
+					namekey(2)=LastName + ", " + FirstName
+					'Messagebox("Debug: attempt #3: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))		
+					Set doc=dv.GetDocumentByKey(namekey)		
+					
+					If doc Is Nothing Then
+						' We should never be here.  if it happens, let th euser know that the name cannot be found.
+						Messagebox "The name in the Ship To field cannot be found in the HC Directory, please ensure the name is properly written or contact the application`s administrator for help.  Le nom dans le champ Expédier à n'a pas été trouvé dans l'annulaire de SC.  Veuillez corriger le nom ou contacter l'administrateur de l'application"
+						Call uidoc.GoToField("ShipTo")
+						Exit Sub
+					End If	
+				End If				
+			End If
+			
+		End Select		
+	'/*****END: 2009-07-03: ADR 3550: JML
+		
+		
+	'/*****START:  Original code replaced on 2009-07-03 for ADR 3550 by JML to handle Frist names containing spaces.
+	'If Not (OrigName = "") Then
+	'	AmountToCut=Instr(OrigName,"/")
+	'	If Not (AmountToCut = 0) Then
+	'		OrigName=Left(OrigName, AmountToCut-1)
+	'	End If
+	'	
+	'	AmountToCut=Instr(OrigName," ")
+	'	
+	'	If Not (AmountToCut = 0) Then
+	'		FirstName=Left(OrigName, AmountToCut-1)
+	'		AmountToCut=Len(OrigName)-Len(FirstName)
+	'		LookForMiddle=Right(OrigName, AmountToCut -1)
+	'		AmountToCut=Instr(LookForMiddle, " ")
+	'		If Not (AmountToCut=0) Then
+	'			MiddleInitial = Left(LookForMiddle, AmountToCut -1)
+	'		End If
+	'		AmountToCut=Len(OrigName)-Len(FirstName)-Len(MiddleInitial)
+	'		If MiddleInitial="" Then
+	'			LastName=Right(OrigName, AmountToCut-1)                    
+	'		Else
+	'			LastName=Right(OrigName, AmountToCut-2)
+	'		End If
+	'		namekey(1)=Cstr(LastName)
+	'		If MiddleInitial="" Then
+	'			namekey(2)=Cstr(LastName + ", " + FirstName)
+	'		Else
+	'			namekey(2)=Cstr(LastName + ", " + FirstName + " " + MiddleInitial)
+	'		End If
+	'         Set doc=dv.GetDocumentByKey(namekey)
+	'/*****END:  Original code replaced on 2009-07-03 for ADR 3550 by JML
+		
+		If Not (doc Is Nothing) Then      
+			Call uidoc.FieldSetText("Locator", Cstr(doc.MailStop(0)))
+			Call uidoc.FieldSetText("Building",  Cstr(doc.BuildingE(0)) + ", " + " (No. " + Cstr(doc.BuildingNo(0)) + ")")
+			Call uidoc.FieldSetText("Building2",  Cstr(doc.Address(0))) 
+			Call uidoc.FieldSetText("City", Cstr(doc.City(0)))
+			Call uidoc.FieldSetText("Province", Cstr(doc.Province(0)))
+			Call uidoc.FieldSetText("PostCode", Cstr(doc.POSTALCODE(0)))
+			Call uidoc.FieldSetText("PhoneNumber", "(" + Cstr(doc.OPNArea(0)) + ") " + Cstr(doc.OfficePhoneNumber(0)))
+			Call uidoc.FieldSetText("FaxNumber", Cstr("(" + doc.FaxArea(0) + ") " + doc.OfficeFAXPhoneNumber(0)))		
+			
+		Else
+			Messagebox "Name not found in address book."
+			Call uidoc.FieldSetText("Locator", "")
+			Call uidoc.FieldSetText("Building", "")
+			Call uidoc.FieldSetText("Building2", "")
+			Call uidoc.FieldSetText("City", "")
+			Call uidoc.FieldSetText("Province", "")
+			Call uidoc.FieldSetText("PostCode", "")
+			Call uidoc.FieldSetText("PhoneNumber", "")
+			Call uidoc.FieldSetText("FaxNumber", "")
+		End If     
+	'Else
+	'	Messagebox "Please ensure that a first and last name are entered in the 'Ship To' area"
+	'	
+	'End If
+		
+	Else
+		Messagebox "Please ensure that a first and last name are entered in the 'Ship To' area.  Veuillez entrer un prénom et un nom de famille dans le champ Expédier à"
+		Call uidoc.GoToField("ShipTo")
+	End If
+	
+	'If Messagebox("Are the 'Ship To' name and 'Bill To' name the same? / Est-ce que le nom de l'expéditeur et le receveur de la facture la même personne ?''", MB_YESNO + MB_ICONQUESTION)=IDYES Then
+	'	Call uidoc.FieldSetText("InvName", uidoc.FieldGetText("ShipTo"))
+	'	Call InvoiceAddress
+	'End If
+	
+End Sub
+</lotusscript></code><code event='InvoiceAddress'><lotusscript>Public Sub InvoiceAddress 
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim uidoc As notesuidocument
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim doc As notesdocument
+	Dim namekey(1 To 2) As String
+	Dim OrigName As String
+	Dim FirstName As String
+	Dim LastName As String
+	Dim AmountToCut As Integer
+	Dim cntr As Integer
+	Dim tmpStr As String
+	Dim OrigNamePart1, OrigNamePart2, OrigNamePart3, OrigNamePart4 As String
+	Dim AppProfileDoc As NotesDocument
+	Dim AppProfileView As NotesView
+	
+	Set uidoc=ws.currentdocument
+	Set currDB = s.CurrentDatabase
+	
+	'** 2009-05-14: JML: Get the HC Dirctory Server and Path from the Application Profile.
+	Set AppProfileView = currDB.GetView("vwAppProfile")
+	Set AppProfileDoc = AppProfileView.GetFirstDocument
+	If AppProfileDoc Is Nothing Then
+		' App Profile does not exist..
+		answer% = Messagebox("Error, the address information cannot be imported, the application profile could not be found.  Please contact the Administrator for help / Erreur, les informations sur l'adresse ne peuvent être trouvé, le profile de l'application n'a pas été trouvé, veuillez contacter l'administrateur pour de l'aide.", 0 + 16, "Invoice address - Error / Adresse de la facture - Error")
+		Exit Sub		
+	Else
+		Set db=s.GetDatabase(AppProfileDoc.HCDirectoryServer(0), AppProfileDoc.HCDirectoryPath(0))
+		' i.e. R6DEV03: "R6DEV01","HECSB/hcdir.nsf"
+		' i.e. R6QA03: "QA01","csb/imsd/hcdir3.NSF"
+		' i.e. APP04: "APP04","csb/imsd/HcDir3.NSF"
+	End If
+	
+	Set dv=db.Getview("Emp")
+	
+	OrigName=uidoc.FieldGetText("InvName")
+	
+	'/*****START: 2009-07-03: ADR 3550: JML.  The code was changed to handle situation where the first name and last names contains spaces.
+	' Extract the First Name, Middle Name and Last Name.
+	If Not (OrigName = "") Then
+		
+		'Remove the domain extension. i.e. /HC-SC/GC/CA
+		AmountToCut=Instr(OrigName,"/")
+		If Not (AmountToCut = 0) Then
+			'Messagebox("Debug: Cutting domain extension, Before: " &amp; OrigName)
+			OrigName=Left(OrigName, AmountToCut-1)
+			'Messagebox("Debug: Cutting domain extension, After: " &amp; OrigName)
+		End If
+		
+		' Count the number of space in the name
+		nbrSpaces = 0
+		remainingStr = OrigName
+		
+		AmountToCut=Instr(remainingStr," ")		
+		While Not AmountToCut = 0 And nbrSpaces &lt; 4
+			' One space found
+			nbrSpaces = nbrSpaces + 1
+			
+			' Keep track of the decomposed part of the name separated by spaces
+			If nbrSpaces = 1 Then
+				OrigNamePart1 = Left(remainingStr, AmountToCut-1) 
+				'Messagebox("Debug: Part1 of the name " &amp; OrigNamePart1)
+			Elseif nbrSpaces = 2 Then
+				OrigNamePart2 = Left(remainingStr, AmountToCut-1) 
+				'Messagebox("Debug: Part2 of the name " &amp; OrigNamePart2)
+			Elseif nbrSpaces = 3 Then
+				OrigNamePart3 = Left(remainingStr, AmountToCut-1)    
+				'Messagebox("Debug: Part3 of the name " &amp; OrigNamePart3)
+			Else
+				' we assume we will not go there.  That name is staring to be complex to handle and should not happen often
+			End If
+			
+			' Remove the space and the text before it.
+			remainingStr = Mid(remainingStr, AmountToCut+1)           
+			'Messagebox("Debug: Remaining text " &amp; remainingStr)
+			
+			' Check if there is another space
+			AmountToCut=Instr(remainingStr," ")
+		Wend		
+		'Messagebox("Debug: Number of space in " &amp; OrigName &amp; " is: " &amp; Cstr(nbrSpaces))
+		
+		' Extract the first name and last names
+		Select Case nbrSpaces
+		Case 0
+			' This should never happen.  There should be at least a First and a last name
+			Messagebox "Please ensure that a first and last name are entered in the 'Bill To' area.   Veuillez entrer un prénom et un nom de famille dans le champ Facture à."
+			Call uidoc.GoToField("InvName")	
+			Exit Sub
+			
+		Case 1
+			' This is a typical name composed of a First name and a Last Name.  i.e. John Smith
+			LastName=remainingStr
+			FirstName = OrigNamePart1
+			namekey(1)=LastName
+			namekey(2)=LastName + ", " + FirstName
+			Set doc=dv.GetDocumentByKey(namekey)
+		Case 2
+			' This case is composed of 3 possibilities.  The first name or last name could have two words separated by a space or the name could contain a middle name
+			
+			' Try the case where the OrigNamePart2 is a middle name
+			' i.e. First name: John, MIddle Initials: A, Last Name: Smith
+			LastName=remainingStr
+			FirstName = OrigNamePart1
+			MiddleInitial = OrigNamePart2
+			namekey(1)=LastName
+			namekey(2)=LastName + ", " + FirstName + " " + MiddleInitial
+			'Messagebox("Debug: attempt #1: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))
+			Set doc=dv.GetDocumentByKey(namekey)
+			
+			If doc Is Nothing Then
+				' the name cannot be found, lets try the situation where the last name is composed of two words separated by spaces
+				' i.e. First name: John, Last Name: Smith Flower
+				LastName=OrigNamePart2 + " " + remainingStr
+				FirstName = OrigNamePart1
+				namekey(1)=LastName
+				namekey(2)=LastName + ", " + FirstName
+				'Messagebox("Debug: attempt #2: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))				
+				Set doc=dv.GetDocumentByKey(namekey)
+				
+				If doc Is Nothing Then
+				' the name cannot be found, lets try the situation where the first name is composed of two words separated by spaces
+				' i.e. First name: John Andrew, Last Name: Smith
+					LastName= remainingStr
+					FirstName = OrigNamePart1 + " " + OrigNamePart2
+					namekey(1)=LastName
+					namekey(2)=LastName + ", " + FirstName
+					'Messagebox("Debug: attempt #3: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))		
+					Set doc=dv.GetDocumentByKey(namekey)		
+					
+					If doc Is Nothing Then
+						' We should never be here.  if it happens, let th euser know that the name cannot be found.
+						Messagebox "The name in the Bill to field cannot be found in the HC Directory, please ensure the name is properly written or contact the application`s administrator for help.  Le nom dans le champ Facturé à n'a pas été trouvé dans l'annulaire de SC.  Veuillez corriger le nom ou contacter l'administrateur de l'application"
+						Call uidoc.GoToField("InvName")
+						Exit Sub
+					End If					
+				End If				
+			End If
+		Case 3
+			' This case can be composed of many situations.  As per the data in the HC Directory in July 2009, the following situation wil be addressed
+			' The First name contains a space, there is a middle name and a last name
+			' The Last name contains a space, there is a middle name and a first name
+			' The First and and Last name both contain a space
+			' The other situations will not be handled because the do not occur often.
+			
+			' Try the case where the First name contains a space, there is a middle name and a last name
+			' i.e. First name: John Andrew, MIddle Initials: A, Last Name: Smith
+			LastName=remainingStr
+			FirstName = OrigNamePart1 + " " + OrigNamePart2
+			MiddleInitial = OrigNamePart3
+			namekey(1)=LastName
+			namekey(2)=LastName + ", " + FirstName + " " + MiddleInitial
+			'Messagebox("Debug: attempt #1: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))
+			Set doc=dv.GetDocumentByKey(namekey)
+			
+			If doc Is Nothing Then
+				' the name cannot be found, lets try the situation where the Last name contains a space, there is a middle name and a first name
+				' i.e. First name: John, MIddle Initials: A, Last Name: Smith Flower
+				LastName=OrigNamePart3 + " " + remainingStr
+				FirstName = OrigNamePart1
+				MiddleInitial = OrigNamePart3
+				namekey(1)=LastName
+				namekey(2)=LastName + ", " + FirstName + " " + MiddleInitial
+				'Messagebox("Debug: attempt #2: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))				
+				Set doc=dv.GetDocumentByKey(namekey)
+				
+				If doc Is Nothing Then
+					' the name cannot be found, lets try the situation where the First and and Last name both contain a space
+				' i.e. First name: John Andrew, Last Name: Smith
+					LastName= OrigNamePart3 + " " + remainingStr
+					FirstName = OrigNamePart1 + " " + OrigNamePart2
+					namekey(1)=LastName
+					namekey(2)=LastName + ", " + FirstName
+					'Messagebox("Debug: attempt #3: searching for " &amp; namekey(1) &amp; " \ " &amp; namekey(2))		
+					Set doc=dv.GetDocumentByKey(namekey)		
+					
+					If doc Is Nothing Then
+						' We should never be here.  if it happens, let th euser know that the name cannot be found.
+						Messagebox "The name in the Bill To field cannot be found in the HC Directory, please ensure the name is properly written or contact the application`s administrator for help.  Le nom dans le champ Facturé à n'a pas été trouvé dans l'annulaire de SC.  Veuillez corriger le nom ou contacter l'administrateur de l'application"
+						Call uidoc.GoToField("InvName")
+						Exit Sub
+					End If	
+				End If				
+			End If
+			
+		End Select		
+	'/*****END: 2009-07-03: ADR 3550: JML
+		
+	'/*****START:  Original code replaced on 2009-07-03 for ADR 3550 by JML to handle Frist names containing spaces.	
+	'	If Not (OrigName = "") Then
+	'		AmountToCut=Instr(OrigName,"/")
+	'		If Not (AmountToCut = 0) Then
+	'			OrigName=Left(OrigName, AmountToCut-1)
+	'		End If
+	'		
+	'		AmountToCut=Instr(OrigName," ")
+	'		If Not (AmountToCut = 0) Then
+	'			FirstName=Left(OrigName, AmountToCut-1)
+	'			AmountToCut=Len(OrigName)-Len(FirstName)
+	'			LookForMiddle=Right(OrigName, AmountToCut -1)
+	'			AmountToCut=Instr(LookForMiddle, " ")
+	'			If Not (AmountToCut=0) Then
+	'				MiddleInitial = Left(LookForMiddle, AmountToCut -1)
+	'			End If
+	'			AmountToCut=Len(OrigName)-Len(FirstName)-Len(MiddleInitial)
+	'			If MiddleInitial="" Then
+	'				LastName=Right(OrigName, AmountToCut-1)                    
+	'			Else
+	'				LastName=Right(OrigName, AmountToCut-2)
+	'			End If
+	'			namekey(1)=Cstr(LastName)
+	'			If MiddleInitial="" Then
+	'				namekey(2)=Cstr(LastName + ", " + FirstName)
+	'			Else
+	'				namekey(2)=Cstr(LastName + ", " + FirstName + " " + MiddleInitial)
+	'			End If
+	'			Set doc=dv.GetDocumentByKey(namekey)
+		If Not (doc Is Nothing) Then      
+			Call uidoc.FieldSetText("InvPL", Cstr(doc.MailStop(0)))
+			Call uidoc.FieldSetText("InvBuilding",  Cstr(doc.BuildingE(0)) + ", " + " (No. " + Cstr(doc.BuildingNo(0)) + ")")
+			Call uidoc.FieldSetText("InvBuilding2",  Cstr(doc.Address(0))) 
+			
+			Call uidoc.FieldSetText("InvCity", Cstr(doc.City(0)))
+			Call uidoc.FieldSetText("InvProvince", Cstr(doc.Province(0)))
+			Call uidoc.FieldSetText("InvPostCode", Cstr(doc.POSTALCODE(0)))
+			Call uidoc.FieldSetText("InvTel", "(" + Cstr(doc.OPNArea(0)) + ") " + Cstr(doc.OfficePhoneNumber(0)))
+			Call uidoc.FieldSetText("InvFax", Cstr("(" + doc.FaxArea(0) + ") " + doc.OfficeFAXPhoneNumber(0)))
+		Else
+			Messagebox "Name not found in address book."
+			Call uidoc.FieldSetText("InvPL", "")
+			Call uidoc.FieldSetText("InvBuilding", "")
+			Call uidoc.FieldSetText("InvCity", "")
+			Call uidoc.FieldSetText("InvProvince", "")
+			Call uidoc.FieldSetText("InvPostCode", "")
+			Call uidoc.FieldSetText("InvTel", "")
+			Call uidoc.FieldSetText("InvFax", "")
+		End If     
+	'Else
+	'	Messagebox "Please ensure that a first and last name are entered in the 'Invoice To' area"               
+	'End If
+		
+	Else
+		Messagebox "Please ensure that a first and last name are entered in the 'Bill To' area.   Veuillez entrer un prénom et un nom de famille dans le champ Facture à."
+		Call uidoc.GoToField("InvName")
+	End If
+	
+End Sub
+</lotusscript></code><code event='CompAddress'><lotusscript>Public Sub CompAddress
+	
+     '--------------------------------------------------------------------------------------------
+     ' Sets up the company phone, fax, and account number.
+     ' If no document exists for the company, it will call the 
+     ' CompanyRe function to retrieve this information
+     '--------------------------------------------------------------------------------------------
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim uidoc As notesuidocument
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim doc As notesdocument
+	Dim namekey As String
+	Dim answer As Variant
+	Dim phonefax As String
+	
+	Set uidoc=ws.currentdocument
+	Set db=s.CurrentDatabase
+	Set dv=db.Getview("Companies")
+	Call uidoc.FieldSetText("CompPhone", "")
+	Call uidoc.FieldSetText("CompFax", "")
+	Call uidoc.FieldSetText("AcctNumber", "")
+	
+     ' Check for the company name in the "Companies" view and proceed accordingly
+	
+	namekey=uidoc.FieldGetText("CompanyName")
+	Set doc=dv.GetDocumentByKey(namekey)
+	
+     ' No name found.  Search the Alias column
+	If doc Is Nothing Then
+		Set dv=db.Getview("Alias")
+		Set doc=dv.GetDocumentByKey(namekey)
+	End If
+	
+	If doc Is Nothing Then
+		answer = Messagebox("Company Name not found.  Do you wish to place a request for a new company?" &amp; Chr(10) &amp; _
+		"Cette compagnie n'est pas dans la base de données. Voulez-vous l'ajouter?", MB_YESNO + MB_ICONQUESTION)
+		If answer = IDYES Then
+			answer = Messagebox("Is " + namekey + " the correct name?" &amp; Chr(10) &amp; "Est-ce que le nom " + namekey + " est exact?", MB_YESNO + MB_ICONQUESTION)
+			If answer = IDNO Then
+				namekey=Inputbox$("Enter the full company name" &amp; Chr(10) &amp; "Veuillez indiquer le nom de la compagnie.")
+				Call uidoc.FieldSetText("CompanyName", namekey)
+			End If
+			phonefax=CompanyRe(namekey)
+			AmountToCut=Instr(phonefax, ", ")
+			iCPhone=Left(phonefax, AmountToCut-1)
+			AmountToCut=Len(phonefax)-Len(iCPhone)
+			iCFax=Right(phonefax, AmountToCut -1)
+			Call uidoc.FieldSetText("CompPhone", iCPhone)
+			Call uidoc.FieldSetText("CompFax", iCFax)
+		End If
+		
+		
+		
+ ' Name is found.  Fields are set according to the values in the 'Company' document
+	Else
+	'	If dv.Name="Companies" Then
+		Call uidoc.FieldSetText("CompanyName", doc.CompName(0))          
+	'	Else
+	'		Call uidoc.FieldSetText("CompanyName", doc.CompAKA(0))
+	'	End If
+		Call uidoc.FieldSetText("CompPhone", doc.CompPhone(0))
+		Call uidoc.FieldSetText("CompFax", doc.CompFax(0))
+		Call uidoc.FieldSetText("AcctNumber", doc.AcctNumber(0))
+		Call uidoc.FieldSetText("Currency", doc.CompCurrency(0))
+		
+		' 2009-06-30: ADR 3550: JML; validation changed to handle the value Y.
+		' old code: If ( Not(Ucase$(doc.MasterCard(0))="YES") And uidoc.FieldGetText("PurchaseType") = "MasterCard") Or (Not(Ucase$(doc.Visa(0)) = "YES") And uidoc.FieldGetText("PurchaseType") = "VISA") Then
+		If ( Not(Ucase$(doc.MasterCard(0))="YES") And Not(Ucase$(doc.MasterCard(0))="Y") And uidoc.FieldGetText("PurchaseType") = "MasterCard") Or (Not(Ucase$(doc.Visa(0)) = "YES") And Not(Ucase$(doc.Visa(0)) = "Y") And uidoc.FieldGetText("PurchaseType") = "VISA") Then
+			Select Case s.GetEnvironmentString("HECS_Language")
+			Case "E"
+				Messagebox "This company does not accept " &amp; uidoc.FieldGetText("PurchaseType") &amp; "."
+			Case "F"
+				Messagebox "Cette compagnie n'accepte pas " &amp; uidoc.FieldGetText("PurchaseType") &amp; "."
+			End Select
+			
+		End If
+	End If
+	
+End Sub
+
+</lotusscript></code><code event='CompanyRe'><lotusscript>Public  Function  CompanyRe(iCName As String) As String
+	
+     '---------------------------------------------------------------------------------------------------------------------
+     ' This function prompts the user for company information.
+     ' It then sends an email message to the administrator with this information,
+     ' and returns the Phone and Fax numbers for this company
+     '---------------------------------------------------------------------------------------------------------------------
+	Dim ws As New notesuiworkspace     
+	Dim uidoc As notesuidocument
+	Set uidoc=ws.currentdocument
+	Dim rqs As New notessession
+	Dim rqdb As notesdatabase
+	Dim rqdoc As notesdocument
+	Dim s As New notessession
+	
+	Dim iCAddress As String
+	Dim iCPO As String
+	Dim iCCity As String
+	Dim iCCountry As String
+	Dim iCPhone As String
+	Dim iCFax As String
+	Dim iCContact As String
+	Dim iCInvoice As String
+	Dim checkCompany As Integer
+	
+	checkCompany = 0
+     ' ------------------------------------------------------------------------------------------------------------------------
+     ' Prompts the user for company information (Address, Phone &amp; Fax, Contacts)
+     '-------------------------------------------------------------------------------------------------------------------------     
+	If s.GetEnvironmentString("HECS_Language")="E" Then
+		While Not (checkCompany=6 Or checkCompany = 2)     
+			While Len(iCAddress) &lt; 1
+				iCAddress = Inputbox$("Enter the street address for "+Chr(10) + iCName+ Chr(13))     
+			Wend
+			While Len(iCPO) &lt; 1
+				iCPO = Inputbox$("Enter the PO Box for "+Chr(10) + iCName+Chr(10))          
+			Wend
+			iCCity = Inputbox$("Enter the complete address in the form of " + Chr(10) +"'City, Province, Postal Code'"+Chr(10))
+			iCCountry = Inputbox$("Enter the country name for "+Chr(10) + iCName+Chr(10))
+			While Len(iCPhone) &lt; 1
+				iCPhone = Inputbox$("Enter the phone number for " + Chr(10)+iCName+Chr(10))  
+			Wend
+			While Len(iCFax) &lt; 1
+				iCFax = Inputbox$("Enter the FAX number for " +Chr(10)+iCName+Chr(10))          
+			Wend
+			iCContact = Inputbox$("Enter the purchasing contact name "+ Chr(10)+ "for " + iCName+Chr(10))
+			iCInvoice = Inputbox$("Enter the invoice contact name"+Chr(10)+"for " + iCName+Chr(10))
+			checkCompany = Messagebox ("Is this information correct?" + Chr(10) + iCName + Chr(10) + iCAddress + Chr(10) + iCPO + Chr(10) + iCCity + Chr(10) +  iCCountry + Chr(10) + iCPhone + Chr(10) + iCFax + Chr(10) + "Purchasing Contact: " + iCContact + Chr(10) + "Invoice Contact: " +iCInvoice + Chr(10)  , 35 , "Company Info")
+		Wend
+	Else
+		While Not (checkCompany=6 Or checkCompany = 2)     
+			While Len(iCAddress) &lt; 1
+				iCAddress = Inputbox$("Veuillez indiquer le numéro et le nom de rue pour la compagnie "+Chr(10) + iCName+ Chr(13))     
+			Wend
+			While Len(iCPO) &lt; 1
+				iCPO = Inputbox$("Veuillez indiquer la boîte postale pour la compagnie "+Chr(10) + iCName+Chr(10))          
+			Wend
+			iCCity = Inputbox$("Veuillez indiquer l'addresse en format:" + Chr(10) +"'Ville, Province, Code Postal'"+Chr(10))
+			iCCountry = Inputbox$("Veuillez indiquer le nom de pays pour la compagnie "+Chr(10) + iCName+Chr(10))
+			While Len(iCPhone) &lt; 1
+				iCPhone = Inputbox$("Veuillez indiquer le numéro de téléphone pour la compagnie " + Chr(10)+iCName+Chr(10))  
+			Wend
+			While Len(iCFax) &lt; 1
+				iCFax = Inputbox$("Veuillez indiquer le numéro de télécopieur pour la compagnie " +Chr(10)+iCName+Chr(10))          
+			Wend
+			iCContact = Inputbox$("Veuillez indiquer le contact aux achats pour la compagnie "+ Chr(10)+  iCName+Chr(10))
+			iCInvoice = Inputbox$("Veuillez indiquer le contact aux factures"+Chr(10)+"pour la compagnie " + iCName+Chr(10))
+			checkCompany = Messagebox ("Veuillez vérifier l'information suivant:" + Chr(10) + iCName + Chr(10) + iCAddress + Chr(10) + iCPO + Chr(10) + iCCity + Chr(10) +  iCCountry + Chr(10) + iCPhone + Chr(10) + iCFax + Chr(10) + "Purchasing Contact: " + iCContact + Chr(10) + "Invoice Contact: " +iCInvoice + Chr(10)  , 35 , "Company Info")
+		Wend
+	End If
+     '-------------------------------------------------------------------------------------------------------------------------
+     ' This section creates a mail message containing the company information.
+     ' It sends this mail message to the person responsible for company information.
+     '--------------------------------------------------------------------------------------------------------------------------
+	If Not (checkCompany=2) Then
+		Set rqdb=rqs.currentdatabase
+		Set rqdoc=rqdb.CreateDocument
+		Set rtitem = New NotesRichTextItem( rqdoc, "Body" )
+		rqdoc.Form = "Memo"
+		rqdoc.Subject="New Company Request - HECS Orders" 
+		rtitem.AppendText("I would like the following company added to the Company list.")
+		rtitem.AddNewLine(2)
+		rtitem.AppendText("Company Name: " + iCName)
+		rtitem.AddNewLine(1)
+		rtitem.AppendText("Address: " + iCAddress)
+		rtitem.AddNewLine(1)
+		rtitem.AppendText("PO Box: " + iCPO)
+		rtitem.AddNewLine(1)
+		rtitem.AppendText("City, Province, Postal Code: " + iCCity)
+		rtitem.AddNewLine(1)
+		rtitem.AppendText("Country: " + iCCountry)
+		rtitem.AddNewLine(2)
+		rtitem.AppendText("Phone Number: " + iCPhone)
+		rtitem.AddNewLine(1)
+		rtitem.AppendText("Fax Number: " + iCFax)
+		rtitem.AddNewLine(1)
+		rtitem.AppendText("Purchasing Contact: " + iCContact)
+		rtitem.AddNewLine(1)
+		rtitem.AppendText("Invoicing Contact: " + iCInvoice)
+		rtitem.AddNewLine(2)
+		rtitem.AppendText("Thanks, ")
+		rtitem.AddNewLine(1)
+		rtitem.AppendText(rqs.CommonUserName)
+		Call rqdoc.Send(False, uidoc.FieldGetText("SendTo"))
+	End If
+     ' -------------------------------------------------------------------------------------------------------------------
+     ' Returns the Phone and Fax numbers to the Company Info Subroutine
+     '--------------------------------------------------------------------------------------------------------------------
+	CompanyRe = iCPhone + ", " + iCFax
+	
+End Function</lotusscript></code>
+<item name='$POID'><datetime dst='true'>20090804T140817,99-04</datetime></item></scriptlibrary>
+

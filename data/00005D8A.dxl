@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='5d8a' unid='5178481710709595852578010056140F' sequence='4'>
+<created><datetime>20101222T104012,31-05</datetime></created>
+<modified><datetime dst='true'>20260917T085004,72-04</datetime></modified>
+<revised><datetime>20101222T110926,42-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085004,71-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085004,71-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20101222T104751,47-05</datetime><datetime>20101222T104848,80-05</datetime><datetime
+>20101222T105429,60-05</datetime></revisions>
+<item name='CompName'><text>D-Mark Biosciences</text></item>
+<item name='CompPhone'><text>416-297-8220</text></item>
+<item name='CompAddress'><text>35 Grand Marshall Drl </text></item>
+<item name='CompFax'><text>416-297-7459</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Stephen Rogers</text></item>
+<item name='CompCity'><text>Toronto</text></item>
+<item name='InvContact'><text>Stephen Rogers</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>M1B 5W9</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime>20101222T104012,31-05</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><textlist><text>Dian Calagoure</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2010-12-22 11:09:31 AM</text><text
+>2010-12-22 10:54:34 AM</text><text>2010-12-22 10:48:53 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dian Calagoure;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text></textlist></item></document>
+

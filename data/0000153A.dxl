@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='153a' unid='3AC9504FE82B1F2D85256BEB005F09CD' sequence='12'>
+<created><datetime dst='true'>20020703T131804,29-04</datetime></created>
+<modified><datetime dst='true'>20260917T084344,11-04</datetime></modified>
+<revised><datetime dst='true'>20120420T093006,28-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084344,10-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084344,10-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,31-04</datetime><datetime
+>20021104T141457,82-05</datetime><datetime dst='true'>20031021T092553,18-04</datetime><datetime
+>20031203T133357,71-05</datetime><datetime dst='true'>20090902T074407,15-04</datetime><datetime
+ dst='true'>20090902T074817,48-04</datetime><datetime dst='true'>20120420T093000,03-04</datetime><datetime
+ dst='true'>20120420T093000,50-04</datetime><datetime dst='true'>20120420T093001,06-04</datetime><datetime
+ dst='true'>20120420T093001,53-04</datetime><datetime dst='true'>20120420T093003,23-04</datetime></revisions>
+<item name='CompName'><text>PerkinElmer/Caliper Life Sciences Canada</text></item>
+<item name='CompPhone'><text>(905) 851-4586 EXT. 605  1-800-561-4646<break
+/>905-304-6288</text></item>
+<item name='CompAddress'><text>501 Rowntree Dairy Rd, Unit 6</text></item>
+<item name='CompFax'><text>(905) 851-1814 (Customer Service) or (905) 851-3291 (Accounting)<break
+/>905-851-1814</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Alain Lecompte/Jim Hudson</text></item>
+<item name='CompCity'><text>Woodbridge</text></item>
+<item name='InvContact'><text>Alain Lecompte/Jim Hudaon</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>L4L 8H1</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Perkin Elmer bought Caliper, they are now one company</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131804,29-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><textlist><text>Dian Calagoure</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text><text>Dian Calagoure</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2012-04-20 09:30:04 AM</text><text
+>2012-04-20 09:30:01 AM</text><text>2012-04-20 09:29:59 AM</text><text>2012-04-20 09:29:59 AM</text><text
+>2012-04-20 09:29:58 AM</text><text>2012-04-20 09:29:58 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dian Calagoure;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text><text>Dian Calagoure;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text></textlist></item></document>
+

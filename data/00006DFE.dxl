@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='SoftDeleteNewOrderForm' parent='53F9E25A1203883185257BAA004DF91D'
+ conflict='true'>
+<noteinfo noteid='6dfe' unid='F39AEE59B916453285257BAA00516AA6' sequence='3'>
+<created><datetime dst='true'>20130716T104917,18-04</datetime></created>
+<modified><datetime dst='true'>20260917T085127,74-04</datetime></modified>
+<revised><datetime dst='true'>20130716T104937,09-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085127,73-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085127,73-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20130716T101824,14-04</datetime><datetime
+ dst='true'>20130716T104916,96-04</datetime><datetime dst='true'>20130716T104918,07-04</datetime><datetime
+ dst='true'>20130716T104922,49-04</datetime></revisions>
+<item name='FSC'><text>8R1501</text></item>
+<item name='GLAC'><text>53201</text></item>
+<item name='PAC'><text>GK10</text></item>
+<item name='PC'><text>810409</text></item>
+<item name='Project'><text>810409 Epigenetics - ET- FY 2013-2014</text></item>
+<item name='GLAcctList'><textlist><text>Acq&lt;10K Laptop and Related Peripheral Equip</text><text
+>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&lt;10K Office Furniture Furnishing &amp; Part</text><text
+>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text><text
+>Books Newspapers and Magazines</text><text>Cellular Phone Services</text><text
+>Clothing Other Than Uniforms</text><text>Conference Fees</text><text>Containers &amp; Closures</text><text
+>Courier Services Incl Canada Post Priority Post</text><text>Engineering Consultants - Construction</text><text
+>Fodder and Other Animal Feeds</text><text>Gasoline Products</text><text>Health Science Consultants</text><text
+>Honoraria</text><text>Hospitality</text><text>Housekeeping supplies</text><text
+>Inorganic &amp; Organic Chemicals</text><text>Laboratory Supplies</text><text
+>Laundry Dry Cleaning and Other Related Services</text><text>Live Animals</text><text
+>Meal Allowance in Headquarter Area</text><text>Membership Fees</text><text
+>Non-Anesthetic Gases</text><text>Other Printed Matter Printed Forms &amp; CD ROM Disks </text><text
+>Photographic or Cinematography Goods</text><text>Plastics and Rubber Products</text><text
+>Postage and Parcel Post </text><text>Printing Services</text><text>Professional and Technical Health Services (PDFs)</text><text
+>R &amp; M Computer Equipment and Parts</text><text>R &amp; M Furniture and Fixtures</text><text
+>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text>R &amp; M Office Machines and Equipment</text><text
+>Travel Public Servants Conference all Locations</text><text>Travel Public Servants Local Transportation</text><text
+>Travel Public Servants Training all Locations</text></textlist></item>
+<item name='ProgActList'><text>GK10 - Research and Development</text></item>
+<item name='PrjNumList'><text>810409 Epigenetics - ET- FY 2013-2014</text></item>
+<item name='GLAcctListFrench'><text/></item>
+<item name='PAListFrench'><text/></item>
+<item name='FundSource'><text>EHS</text></item>
+<item name='GLAccount'><text>Printing Services</text></item>
+<item name='PA'><text>GK10 - Research and Development</text></item>
+<item name='CompleteFinancialCode'><text>8R1501 53201 GK10 810409</text></item>
+<item name='SendTo' names='true'><text>Dian Sinclair</text></item>
+<item name='OperatingAllowed'><text>False</text></item>
+<item name='TravelAllowed'><text>False</text></item>
+<item name='ContractAllowed'><text>False</text></item>
+<item name='CapitalAllowed'><text>False</text></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SendWarning'><text>No</text></item>
+<item name='SendWarning2'><text>No</text></item>
+<item name='HideCount'><number>1</number></item>
+<item name='H1'><number>0</number></item>
+<item name='H2'><number>0</number></item>
+<item name='H3'><number>0</number></item>
+<item name='H4'><number>0</number></item>
+<item name='H5'><number>0</number></item>
+<item name='H6'><number>0</number></item>
+<item name='H7'><number>0</number></item>
+<item name='H8'><number>0</number></item>
+<item name='H9'><number>0</number></item>
+<item name='H10'><number>0</number></item>
+<item name='H11'><number>0</number></item>
+<item name='H12'><number>0</number></item>
+<item name='H13'><number>0</number></item>
+<item name='H14'><number>0</number></item>
+<item name='H15'><number>0</number></item>
+<item name='H16'><number>0</number></item>
+<item name='H17'><number>0</number></item>
+<item name='H18'><number>0</number></item>
+<item name='H19'><number>0</number></item>
+<item name='H20'><number>0</number></item>
+<item name='OrderComments'><text/></item>
+<item name='RefNumberTag'><text>ITA-</text></item>
+<item name='CardNumber'><text/></item>
+<item name='ExpiryDate'><text/></item>
+<item name='Sent'><text>Yes</text></item>
+<item name='Status'><text>On Order</text></item>
+<item name='Authors' authors='true' names='true'><textlist><text>LNOG_HECS</text><text
+>Dian Sinclair</text><text>CN=APP04/OU=HC-SC/O=GC/C=CA</text><text>Errol Thomson</text><text
+>Terrence Dalton</text><text>[Admin]</text><text>[LNOG Admin]</text></textlist></item>
+<item name='Readers' names='true' readers='true'><textlist><text>LNOG_HECS</text><text
+>Dian Sinclair</text><text>CN=APP04/OU=HC-SC/O=GC/C=CA</text><text>Errol Thomson</text><text
+>Terrence Dalton</text><text>[Admin]</text><text>[LNOG Admin]</text><text
+>Alain Filiatreault</text><text>Djordje Vladisavljevic</text><text>Errol Thomson</text><text
+>Renaud Vincent</text><text>Subramanian Karthikeyan</text><text>Amy Richardson</text><text
+>Shreedat Phulesar</text><text>Erica Blais</text><text>Dian Sinclair</text></textlist></item>
+<item name='BudgetCalculated'><text>No</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CardHolder1' authors='true' names='true'><text>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</text></item>
+<item name='Add'><text>0</text></item>
+<item name='ProjectSelection'><text>810409 Epigenetics - ET- FY 2013-2014</text></item>
+<item name='IssueDate'><datetime>20130716</datetime></item>
+<item name='DateReq'><text>July 23,  2013</text></item>
+<item name='PurchaseType'><text>MasterCard</text></item>
+<item name='CardHolder'><text>Dian Sinclair</text></item>
+<item name='Floor'><text>2</text></item>
+<item name='Room'><text>241B</text></item>
+<item name='CompanyName' names='true'><text>Oxford University Press, USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompPhone'><text>1-800-387-8020</text></item>
+<item name='CompFax'><text>(919) 677-1714</text></item>
+<item name='Currency'><text>USA</text></item>
+<item name='i1Desc'><text>Toxicological Sciences Print<break/><break/>Offprints<break
+/><break/>Manuscript No.kft137</text></item>
+<item name='PartRec'><text/></item>
+<item name='Rec1'><text/></item>
+<item name='i2Desc'><text>Toxicological Sciences Online<break/><break/>CC-BY Open Access charge<break
+/><break/>Manuscript No.kft137</text></item>
+<item name='PartRec_1'><text/></item>
+<item name='Rec2'><text/></item>
+<item name='i3Desc'><text/></item>
+<item name='PartRec_2'><text/></item>
+<item name='Rec3'><text/></item>
+<item name='i4Desc'><text>000081720797</text></item>
+<item name='PartRec_3'><text/></item>
+<item name='Rec4'><text/></item>
+<item name='i5Desc'><text/></item>
+<item name='PartRec_4'><text/></item>
+<item name='Rec5'><text/></item>
+<item name='i6Desc'><text/></item>
+<item name='PartRec_5'><text/></item>
+<item name='Rec6'><text/></item>
+<item name='i7Desc'><text/></item>
+<item name='PartRec_6'><text/></item>
+<item name='Rec7'><text/></item>
+<item name='i8Desc'><text/></item>
+<item name='PartRec_7'><text/></item>
+<item name='Rec8'><text/></item>
+<item name='i9Desc'><text/></item>
+<item name='PartRec_8'><text/></item>
+<item name='Rec9'><text/></item>
+<item name='i10Desc'><text/></item>
+<item name='PartRec_9'><text/></item>
+<item name='Rec10'><text/></item>
+<item name='i11Desc'><text/></item>
+<item name='PartRec_10'><text/></item>
+<item name='Rec11'><text/></item>
+<item name='i12Desc'><text/></item>
+<item name='PartRec_11'><text/></item>
+<item name='Rec12'><text/></item>
+<item name='i13Desc'><text/></item>
+<item name='PartRec_12'><text/></item>
+<item name='Rec13'><text/></item>
+<item name='i14Desc'><text/></item>
+<item name='PartRec_13'><text/></item>
+<item name='Rec14'><text/></item>
+<item name='i15Desc'><text/></item>
+<item name='PartRec_14'><text/></item>
+<item name='Rec15'><text/></item>
+<item name='i16Desc'><text/></item>
+<item name='PartRec_15'><text/></item>
+<item name='Rec16'><text/></item>
+<item name='i17Desc'><text/></item>
+<item name='PartRec_16'><text/></item>
+<item name='Rec17'><text/></item>
+<item name='i18Desc'><text/></item>
+<item name='PartRec_17'><text/></item>
+<item name='Rec18'><text/></item>
+<item name='i19Desc'><text/></item>
+<item name='PartRec_18'><text/></item>
+<item name='Rec19'><text/></item>
+<item name='i20Desc'><text/></item>
+<item name='PartRec_19'><text/></item>
+<item name='Rec20'><text/></item>
+<item name='ShippingCost'><number>0</number></item>
+<item name='Customs'><number>488.75</number></item>
+<item name='Exchange'><text/></item>
+<item name='SlipNumber'><text/></item>
+<item name='InvoiceNumber'><text/></item>
+<item name='Comments'><text/></item>
+<item name='org_author' names='true'><text>Shreedat Phulesar</text></item>
+<item name='date_create'><datetime dst='true'>20130716T101140,45-04</datetime></item>
+<item name='ProjectSelection1'><textlist><text>810409 Epigenetics - ET- FY 2013-2014</text><text
+>4340565 CARA - RV - FY 2012-2013</text><text>810478 - Nano-CMP - FY 2012-2013</text><text
+>810413 Inhalation Tox-RV-FY 2012-2013</text><text>810409 Epigenetics - ET- FY 2012-2013</text><text
+>810408 Nano - DB - FY 2012-2013</text><text>810465-Seminar Series-ET-2012-2013</text><text
+>70010 P.E.R.D. - SK - FY 2012-2013</text><text>4340565 CARA - RV - FY 2013-2014</text><text
+>70010 P.E.R.D. - SK - FY 2013-2014</text><text>810408 Nano-Silica - FY 2013-2014</text><text
+>810409 Epigenetics - ET- FY 2013-2014</text><text>810413 Inhalation Tox-RV-FY 2013-2014</text><text
+>810478 - Nano-CMP - FY 2013-2014</text></textlist></item>
+<item name='LastProjectSelected'><text>810409 Epigenetics - ET- FY 2013-2014</text></item>
+<item name='SaveOptions'><text>1</text></item>
+<item name='CategoriesAllowed'><text/></item>
+<item name='PI' names='true'><text>Errol Thomson</text></item>
+<item name='SectionHead' names='true'><text>Terrence Dalton</text></item>
+<item name='Printed'><text/></item>
+<item name='DefaultBillTo' names='true'><text>Dian Sinclair</text></item>
+<item name='MyGST'><number>0.13</number></item>
+<item name='totGst'><number>1.13</number></item>
+<item name='Exchange_1'><text/></item>
+<item name='Customs_1'><number>488.75</number></item>
+<item name='ShippingCost_1'><number>0</number></item>
+<item name='TrackOriginalCost'><number>4823.75</number></item>
+<item name='itemsReceived'><text>None Received</text></item>
+<item name='TrackPaymentTypeChanges'><text>MasterCard</text></item>
+<item name='TrackCardHolderChanges'><text>Dian Sinclair</text></item>
+<item name='TrackProjectChanges'><text>810409 Epigenetics - ET- FY 2013-2014</text></item>
+<item name='d_RefNumber'><text>ITA-</text></item>
+<item name='RefNumber'><text/></item>
+<item name='FinCategory'><text>Operating</text></item>
+<item name='FinCode'><text>8R1501 53201 GK10 810409</text></item>
+<item name='IssueDate_1'><text>July 16, 2013</text></item>
+<item name='SignAuth'><text/></item>
+<item name='Estimate'><number>5878.26</number></item>
+<item name='ShipTo' names='true'><text>Errol Thomson</text></item>
+<item name='PhoneNumber'><text>(613) 948-6868</text></item>
+<item name='InvName' names='true'><text>Dian Sinclair</text></item>
+<item name='InvEmail'><text>Dian_Sinclair@hc-sc.gc.ca</text></item>
+<item name='InvTel'><text>(613) 957-1848</text></item>
+<item name='Locator'><text>0802B</text></item>
+<item name='FaxNumber'><text>(613) 946-2600</text></item>
+<item name='InvPL'><text>0801D3</text></item>
+<item name='InvFax'><text>(613) 948-9413</text></item>
+<item name='Building'><text>Environmental Health Centre,  (No. 08)</text></item>
+<item name='Building2'><text>50 Colombine Driveway, Tunney's Pasture</text></item>
+<item name='InvBuilding'><text>Environmental Health Centre,  (No. 08)</text></item>
+<item name='InvBuilding2'><text>50 Colombine Driveway, Tunney's Pasture</text></item>
+<item name='City'><text>Ottawa</text></item>
+<item name='InvCity'><text>Ottawa</text></item>
+<item name='Province'><text>Ontario</text></item>
+<item name='InvProvince'><text>Ontario</text></item>
+<item name='PostCode'><text>K1A 0K9</text></item>
+<item name='InvPostCode'><text>K1A 0K9</text></item>
+<item name='i1Quant'><number>100</number></item>
+<item name='i1PricePer'><number>9.35</number></item>
+<item name='i1PriceTot'><number>935</number></item>
+<item name='i2Quant'><number>1</number></item>
+<item name='i2PricePer'><number>3400</number></item>
+<item name='i2PriceTot'><number>3400</number></item>
+<item name='i3Quant'><number>0</number></item>
+<item name='i3PricePer'><number>0</number></item>
+<item name='i3PriceTot'><number>0</number></item>
+<item name='i4Quant'><number>0</number></item>
+<item name='i4PricePer'><number>0</number></item>
+<item name='i4PriceTot'><number>0</number></item>
+<item name='i5Quant'><number>0</number></item>
+<item name='i5PricePer'><number>0</number></item>
+<item name='i5PriceTot'><number>0</number></item>
+<item name='i6Quant'><number>0</number></item>
+<item name='i6PricePer'><number>0</number></item>
+<item name='i6PriceTot'><number>0</number></item>
+<item name='i7Quant'><number>0</number></item>
+<item name='i7PricePer'><number>0</number></item>
+<item name='i7PriceTot'><number>0</number></item>
+<item name='i8Quant'><number>0</number></item>
+<item name='i8PricePer'><number>0</number></item>
+<item name='i8PriceTot'><number>0</number></item>
+<item name='i9Quant'><number>0</number></item>
+<item name='i9PricePer'><number>0</number></item>
+<item name='i9PriceTot'><number>0</number></item>
+<item name='i10Quant'><number>0</number></item>
+<item name='i10PricePer'><number>0</number></item>
+<item name='i10PriceTot'><number>0</number></item>
+<item name='i11Quant'><number>0</number></item>
+<item name='i11PricePer'><number>0</number></item>
+<item name='i11PriceTot'><number>0</number></item>
+<item name='i12Quant'><number>0</number></item>
+<item name='i12PricePer'><number>0</number></item>
+<item name='i12PriceTot'><number>0</number></item>
+<item name='i13Quant'><number>0</number></item>
+<item name='i13PricePer'><number>0</number></item>
+<item name='i13PriceTot'><number>0</number></item>
+<item name='i14Quant'><number>0</number></item>
+<item name='i14PricePer'><number>0</number></item>
+<item name='i14PriceTot'><number>0</number></item>
+<item name='i15Quant'><number>0</number></item>
+<item name='i15PricePer'><number>0</number></item>
+<item name='i15PriceTot'><number>0</number></item>
+<item name='i16Quant'><number>0</number></item>
+<item name='i16PricePer'><number>0</number></item>
+<item name='i16PriceTot'><number>0</number></item>
+<item name='i17Quant'><number>0</number></item>
+<item name='i17PricePer'><number>0</number></item>
+<item name='i17PriceTot'><number>0</number></item>
+<item name='i18Quant'><number>0</number></item>
+<item name='i18PricePer'><number>0</number></item>
+<item name='i18PriceTot'><number>0</number></item>
+<item name='i19Quant'><number>0</number></item>
+<item name='i19PricePer'><number>0</number></item>
+<item name='i19PriceTot'><number>0</number></item>
+<item name='i20Quant'><number>0</number></item>
+<item name='i20PricePer'><number>0</number></item>
+<item name='i20PriceTot'><number>0</number></item>
+<item name='TotPrice'><number>4335</number></item>
+<item name='TotCost'><number>4823.75</number></item>
+<item name='TotCostTaxed'><number>4823.75</number></item>
+<item name='edit_history'><textlist><text>Dian Sinclair</text><text>Dian Sinclair</text><text
+>Shreedat Phulesar</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2013-07-16 10:49:16 AM</text><text
+>2013-07-16 10:49:09 AM</text><text>2013-07-16 10:18:29 AM</text></textlist></item>
+<item name='Cost_history'><textlist><text>4823.75</text><text>4823.75</text><text
+>4823.75</text></textlist></item>
+<item name='Status_history'><textlist><text>On Order</text><text>Submitted</text><text
+>Submitted</text></textlist></item>
+<item name='Names'><textlist><text>Dian Sinclair;</text><text>Dian Sinclair;</text><text
+>Shreedat Phulesar;</text></textlist></item>
+<item name='AdminAuthors' authors='true' names='true'><text>[Admin]</text></item>
+<item name='SoftDelete'><text>Yes</text></item>
+<item name='SoftDeleteDate'><datetime dst='true'>20130716T104936,00-04</datetime></item>
+<item name='SoftDeleteBy'><text>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</text></item></document>
+

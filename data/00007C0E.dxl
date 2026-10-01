@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='7c0e' unid='33287B3F59449480852589C800691C81' sequence='3'>
+<created><datetime dst='true'>20230608T150805,77-04</datetime></created>
+<modified><datetime dst='true'>20260917T085239,94-04</datetime></modified>
+<revised><datetime dst='true'>20230614T142921,18-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085239,93-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085239,93-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20230608T152352,03-04</datetime><datetime
+ dst='true'>20230608T152356,47-04</datetime></revisions>
+<item name='CompName'><text>Pattison Sign Group </text></item>
+<item name='CompPhone'><text>613-319-0870 </text></item>
+<item name='CompAddress'><text>2421 Holly Lane </text></item>
+<item name='CompFax'><text/></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Juliana Du</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Juliana Du</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>K1V 7P2 </text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Helena Soares</text></item>
+<item name='date_create'><datetime dst='true'>20230608T150805,77-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Helena Soares</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2023-06-14 02:29:32 PM</text><text
+>2023-06-08 03:24:02 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Helena Soares;</text></textlist></item></document>
+

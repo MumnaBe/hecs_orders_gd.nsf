@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='318e' unid='C5D693FF68A424CA85256E4A005AC012' sequence='4'>
+<created><datetime>20040301T113114,10-05</datetime></created>
+<modified><datetime dst='true'>20260917T084552,35-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075117,51-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084552,34-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084552,34-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20040301T113210,44-05</datetime><datetime>20040304T142631,51-05</datetime><datetime
+ dst='true'>20040809T155348,21-04</datetime></revisions>
+<item name='CompName'><text>Pharmacia/Upjohn</text></item>
+<item name='CompPhone'><text>800-661-9993</text></item>
+<item name='CompAddress'><text>9220,  25 Avenue,</text></item>
+<item name='CompFax'><text>780-438-6595</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Rachel Dufour</text></item>
+<item name='CompCity'><text>Edmonton</text></item>
+<item name='InvContact'><text>Rachel Dufour</text></item>
+<item name='CompProvince'><text>Alberta</text></item>
+<item name='MasterCard'><text>No</text></item>
+<item name='CompPostalCode'><text>T6N 1E1</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>HEACAN</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Somagen Diagnostics Inc.</text></item>
+<item name='CompEmail'><text>rachel.dufour@somagen.com</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Tel. # 780-702-9501. Pay invoices by cheque.</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA_FR'><text>Non</text></item></document>
+

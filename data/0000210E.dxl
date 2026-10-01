@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='210e' unid='755C2AAB4BFC3F8085256BEB005F0939' sequence='4'>
+<created><datetime dst='true'>20020703T131802,81-04</datetime></created>
+<modified><datetime dst='true'>20260917T084434,36-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074956,68-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084434,35-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084434,35-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,83-04</datetime><datetime
+>20021104T141454,68-05</datetime><datetime dst='true'>20090902T074533,38-04</datetime></revisions>
+<item name='CompName'><text>Glyko Inc.</text></item>
+<item name='CompAddress'><text>11 Pimentel Ct</text></item>
+<item name='CompPO'><text>371 Bel Marm Keys Bl</text></item>
+<item name='CompCity'><text>Nonato</text></item>
+<item name='CompProvince'><text>CA</text></item>
+<item name='CompPostalCode'><text>94949</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>(415) 884-6797 1-800-334-5956</text></item>
+<item name='CompFax'><text>(415) 382-3511</text></item>
+<item name='PurchContact'><text>Tammy Parks</text></item>
+<item name='InvContact'><text>Tina Kaul</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>HEA003</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.glyko.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

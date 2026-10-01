@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='4caa' unid='B558209535FA9F87852573F60051D5D3' sequence='3'>
+<created><datetime>20080221T095351,55-05</datetime></created>
+<modified><datetime dst='true'>20260917T084832,48-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074855,32-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084832,47-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084832,47-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lindsy Bachly/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20080221T095540,91-05</datetime><datetime dst='true'>20090902T074628,46-04</datetime></revisions>
+<item name='OriginalModTime'><datetime>20080221T095543,68-05</datetime></item>
+<item name='CompName'><text>Oreck Canada</text></item>
+<item name='CompPhone'><text>1-905-948-0090</text></item>
+<item name='CompAddress'><text>7780 Woodbine Ave </text></item>
+<item name='CompFax'><text>1-905-948-0094</text></item>
+<item name='CompPO'><text>Unit 10</text></item>
+<item name='PurchContact'><text>Danny Villeneuve</text></item>
+<item name='CompCity'><text>Markham</text></item>
+<item name='InvContact'><text>Danny Villeneuve</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>L3R 2N7</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

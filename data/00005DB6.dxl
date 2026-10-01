@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='5db6' unid='F5AECB65DE97219B85257811005CA4B7' sequence='1'>
+<created><datetime>20110107T115154,79-05</datetime></created>
+<modified><datetime dst='true'>20260917T085005,57-04</datetime></modified>
+<revised><datetime>20110107T115340,89-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085005,56-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085005,56-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>Innovative Research Inc.</text></item>
+<item name='CompPhone'><text>1-248-896-0145</text></item>
+<item name='CompAddress'><text>46430 Peary Court</text></item>
+<item name='CompFax'><text>1-248-896-0149</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Carl Rosenblum</text></item>
+<item name='CompCity'><text>Novi</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>MI</text></item>
+<item name='CompPostalCode'><text>48377</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime>20110107T115154,79-05</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='3e36' unid='C285EB0A24913076852571CE005BA3D2' sequence='3'>
+<created><datetime dst='true'>20060818T124057,14-04</datetime></created>
+<modified><datetime dst='true'>20260917T084707,71-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075037,16-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084707,70-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084707,70-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060818T124230,75-04</datetime><datetime
+ dst='true'>20090902T074622,74-04</datetime></revisions>
+<item name='CompName'><text>Kanomax USA, Inc</text></item>
+<item name='CompPhone'><text>800-247-8887 ext.26</text></item>
+<item name='CompAddress'><text>219 Route 206</text></item>
+<item name='CompFax'><text>973-786-7586</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Jeff Snyder</text></item>
+<item name='CompCity'><text>Andover</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>NJ</text></item>
+<item name='CompPostalCode'><text/></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text>Formerly Airflow Technical Products, Inc</text></item>
+<item name='CompEmail'><text>jsnyder@kanomax-usa.com</text></item>
+<item name='CompWeb'><text>http://www.kanomax-usa.com/</text></item>
+<item name='comment'><text>973-786-6386 ext.26</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

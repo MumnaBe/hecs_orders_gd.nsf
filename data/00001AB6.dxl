@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='1ab6' unid='5691CA88CB07D6C285256BEB005F0A1F' sequence='3'>
+<created><datetime dst='true'>20020703T131805,11-04</datetime></created>
+<modified><datetime dst='true'>20260917T084407,61-04</datetime></modified>
+<revised><datetime dst='true'>20050401T100449,89-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084407,60-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084407,60-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=John Gingerich/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131805,33-04</datetime><datetime
+ dst='true'>20050331T180622,38-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_Newspaper Magazines and Periodicals</text></item>
+<item name='NameF'><text>OLD_Journaux, périodiques et revues</text></item>
+<item name='CodeNumber'><text>04401</text></item></document>
+

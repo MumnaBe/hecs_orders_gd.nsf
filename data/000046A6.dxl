@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='46a6' unid='99C6015C3A781F6C852572E3006A211E' sequence='7'>
+<created><datetime dst='true'>20070522T151912,94-04</datetime></created>
+<modified><datetime dst='true'>20260917T084800,85-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074852,32-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084800,84-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084800,84-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20070522T152203,65-04</datetime><datetime
+ dst='true'>20070522T152235,04-04</datetime><datetime dst='true'>20070522T152238,76-04</datetime><datetime
+ dst='true'>20070522T152318,34-04</datetime><datetime dst='true'>20070522T152440,88-04</datetime><datetime
+ dst='true'>20090902T074625,21-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20070522T152517,87-04</datetime></item>
+<item name='CompName'><text>GE Healthcare Bio-Sciences Inc.</text></item>
+<item name='CompPhone'><text>1-800-463-5800</text></item>
+<item name='CompAddress'><text>500 MORGAN BOULEVARD</text></item>
+<item name='CompFax'><text>1-800-567-1008</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>BAIE D'URFE</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>QC</text></item>
+<item name='CompPostalCode'><text>H9X 3V1</text></item>
+<item name='CompCountry'><text>CA</text></item>
+<item name='AcctNumber'><text>700165</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Amersham Pharmacia Biotech, Inc</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Old Amersham Account Number 38443</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

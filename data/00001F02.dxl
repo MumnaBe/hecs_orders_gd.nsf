@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1f02' unid='6B5A6BC74D39D6DE85256FEE0058F8E2' sequence='3'>
+<created><datetime dst='true'>20050425T121148,82-04</datetime></created>
+<modified><datetime dst='true'>20260917T084425,70-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074950,99-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084425,69-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084425,69-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050425T121415,80-04</datetime><datetime
+ dst='true'>20090902T074528,68-04</datetime></revisions>
+<item name='CompName'><text>Travel Expense 2005 - 2006</text></item>
+<item name='CompPhone'><text>(613) 957-3968</text></item>
+<item name='CompAddress'><text>EHC Bldg. #8 Room 103, Tunneys Pasture, P.L. 0803C,</text></item>
+<item name='CompFax'><text>(613) 946-2600</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Pierre J. Gougeon</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Pierre J. Gougeon</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>K1A 0L2</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>N/A</text></item>
+<item name='CompCurrency'><text>CDA</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

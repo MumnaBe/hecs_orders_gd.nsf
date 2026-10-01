@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='720e' unid='F6F8407C8F87539085257D31004DF434' sequence='3'>
+<created><datetime dst='true'>20140811T101127,88-04</datetime></created>
+<modified><datetime dst='true'>20260917T085148,73-04</datetime></modified>
+<revised><datetime dst='true'>20140811T101653,11-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085148,72-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085148,72-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20140811T101526,01-04</datetime><datetime
+ dst='true'>20140811T101554,59-04</datetime></revisions>
+<item name='CompName'><text>Design Filtration Inc.</text></item>
+<item name='CompPhone'><text>613-836-6065</text></item>
+<item name='CompAddress'><text>45 Iber Road</text></item>
+<item name='CompFax'><text>613-836-9724</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Scott Moir, General Manager</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Scott Moir, General Manager</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K2S 1E7</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Margaret Montague</text></item>
+<item name='date_create'><datetime dst='true'>20140811T101127,88-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><textlist><text>Margaret Montague</text><text>Margaret Montague</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2014-08-11 10:16:51 AM</text><text
+>2014-08-11 10:15:53 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Margaret Montague;</text><text>Margaret Montague;</text></textlist></item></document>
+

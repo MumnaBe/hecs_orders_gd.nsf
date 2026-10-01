@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='57e6' unid='23BA95A8B383BE3C852576B80069C0A5' sequence='2'>
+<created><datetime>20100127T141505,97-05</datetime></created>
+<modified><datetime dst='true'>20260917T084935,94-04</datetime></modified>
+<revised><datetime>20100127T141740,84-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084935,93-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084935,93-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20100127T141737,29-05</datetime></revisions>
+<item name='OriginalModTime'><datetime>20100127T141745,82-05</datetime></item>
+<item name='CompName'><text>Environics Inc.</text></item>
+<item name='CompPhone'><text>1-860-872-1111</text></item>
+<item name='CompAddress'><text>69 Industrial Park Road East</text></item>
+<item name='CompFax'><text>1-860-870-9333</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Mary Lou Colombaro</text></item>
+<item name='CompCity'><text>Tolland</text></item>
+<item name='InvContact'><text>Mary Lou Colombaro</text></item>
+<item name='CompProvince'><text>CT</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>06084</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>US</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime>20100127T141505,97-05</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text>Dian Calagoure</text></item>
+<item name='edit_history_1'><text>2010-01-27 02:17:45 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Dian Calagoure;</text></item></document>
+

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='2572' unid='8AC6A4E119C14EBD85256FDB0047741E' sequence='4'>
+<created><datetime dst='true'>20050406T090027,82-04</datetime></created>
+<modified><datetime dst='true'>20260917T084452,88-04</datetime></modified>
+<revised><datetime>20060208T074924,57-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084452,87-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084452,87-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050406T090027,84-04</datetime><datetime
+ dst='true'>20050406T090103,38-04</datetime><datetime dst='true'>20050426T104643,28-04</datetime></revisions>
+<item name='Category'><text>Capital</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831500</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text></textlist></item>
+<item name='ProgActiv'><text>METALS non-SPA Research and Development</text></item>
+<item name='IntOrd'><text>4340013 PR - Metals</text></item></document>
+

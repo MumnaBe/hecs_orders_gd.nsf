@@ -1,0 +1,3999 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <text>G/L Account</text>
+        </value>
+    </category>
+    <document noteId="00002B5A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acids</text>
+        </value>
+        <value>
+            <text>57906</text>
+        </value>
+        <value>
+            <text>Acides</text>
+        </value>
+    </document>
+    <document noteId="000036D6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K  Safety Alarm and Signal Equipment</text>
+        </value>
+        <value>
+            <text>58304</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K  Sécurité Alarme et Équipement de signalisation</text>
+        </value>
+    </document>
+    <document noteId="00006EEA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Client Software</text>
+        </value>
+        <value>
+            <text>58113</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Client Software</text>
+        </value>
+    </document>
+    <document noteId="000016FE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Computer Equipment Parts</text>
+        </value>
+        <value>
+            <text>58110</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Ordinateur &amp; Pièces D'équipements</text>
+        </value>
+    </document>
+    <document noteId="00001226">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Computer &amp; Related Peripheral Equip</text>
+        </value>
+        <value>
+            <text>58109</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Ordinateur &amp; Équip Périphérique relié</text>
+        </value>
+    </document>
+    <document noteId="0000309E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text>
+        </value>
+        <value>
+            <text>58306</text>
+        </value>
+        <value>
+            <text> Chauffage Air climatisé et Équip de réfrigération</text>
+        </value>
+    </document>
+    <document noteId="00001CDA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Laptop and Related Peripheral Equip</text>
+        </value>
+        <value>
+            <text>58106</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Portable &amp; Équip Périphérique relié</text>
+        </value>
+    </document>
+    <document noteId="000015F6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text>
+        </value>
+        <value>
+            <text>58303</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Instr Mesure Contrôle Labo Optique Med</text>
+        </value>
+    </document>
+    <document noteId="00006F0A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Networking Software</text>
+        </value>
+        <value>
+            <text>58116</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Networking Software</text>
+        </value>
+    </document>
+    <document noteId="0000352A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Office Furniture Furnishing &amp; Part</text>
+        </value>
+        <value>
+            <text>58201</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Mobilier de bureau Fourniture et pièces</text>
+        </value>
+    </document>
+    <document noteId="00006F0E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Other Office Equip and Parts</text>
+        </value>
+        <value>
+            <text>58202</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Other Office Equip and Parts</text>
+        </value>
+    </document>
+    <document noteId="00003BAA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Software Packages for Computers</text>
+        </value>
+        <value>
+            <text>58107</text>
+        </value>
+        <value>
+            <text>Acq&lt;10K Ensemble de Logiciels pour Ordinateur</text>
+        </value>
+    </document>
+    <document noteId="0000565A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&gt;10K Lab Equipment</text>
+        </value>
+        <value>
+            <text>14311</text>
+        </value>
+        <value>
+            <text>Acq&gt;10K Lab Equipment</text>
+        </value>
+    </document>
+    <document noteId="00000E76">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text>
+        </value>
+        <value>
+            <text>14311</text>
+        </value>
+        <value>
+            <text>Acq&gt;10K Instr Mesure Contrôle Labo Optique Med</text>
+        </value>
+    </document>
+    <document noteId="00002432">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text>
+        </value>
+        <value>
+            <text>5A312</text>
+        </value>
+        <value>
+            <text>Acq&gt;500K Instr Mesure Contrôle Labo Optique Med</text>
+        </value>
+    </document>
+    <document noteId="00002126">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Books Newspapers and Magazines</text>
+        </value>
+        <value>
+            <text>57801</text>
+        </value>
+        <value>
+            <text>Livres Journaux et Revues</text>
+        </value>
+    </document>
+    <document noteId="000031EE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Cellular Phone Services</text>
+        </value>
+        <value>
+            <text>52703</text>
+        </value>
+        <value>
+            <text>Services de téléphones Cellulaires</text>
+        </value>
+    </document>
+    <document noteId="00000C7E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Clothing Other Than Uniforms</text>
+        </value>
+        <value>
+            <text>57101</text>
+        </value>
+        <value>
+            <text>Vêtements autre qu'Uniformes</text>
+        </value>
+    </document>
+    <document noteId="00003962">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Conference Fees</text>
+        </value>
+        <value>
+            <text>56504</text>
+        </value>
+        <value>
+            <text>Frais d'inscription à une conférence</text>
+        </value>
+    </document>
+    <document noteId="00000B86">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Containers &amp; Closures</text>
+        </value>
+        <value>
+            <text>57923</text>
+        </value>
+        <value>
+            <text>Récipients et couvercles</text>
+        </value>
+    </document>
+    <document noteId="000021FA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Courier Services Incl Canada Post Priority Post</text>
+        </value>
+        <value>
+            <text>52602</text>
+        </value>
+        <value>
+            <text>Service de messager incl Poste Canada Messageries Prioritaires</text>
+        </value>
+    </document>
+    <document noteId="0000256E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Distilled Drink Water</text>
+        </value>
+        <value>
+            <text>57005</text>
+        </value>
+        <value>
+            <text>Eau distillée</text>
+        </value>
+    </document>
+    <document noteId="000030A2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Electrical Supplies</text>
+        </value>
+        <value>
+            <text>57203</text>
+        </value>
+        <value>
+            <text>Produits électriques</text>
+        </value>
+    </document>
+    <document noteId="00006ED2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Electronic Subscriptions</text>
+        </value>
+        <value>
+            <text>53430</text>
+        </value>
+        <value>
+            <text>Electronic Subscriptions</text>
+        </value>
+    </document>
+    <document noteId="00001ADA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Engineering Consultants - Construction</text>
+        </value>
+        <value>
+            <text>54101</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000129A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Enhanced Telecommunication Services</text>
+        </value>
+        <value>
+            <text>52707</text>
+        </value>
+        <value>
+            <text>Services de Télécommunication Approfondie</text>
+        </value>
+    </document>
+    <document noteId="00006EEE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Fees and Costs of Attending Seminars or Workshops</text>
+        </value>
+        <value>
+            <text>54412</text>
+        </value>
+        <value>
+            <text>Fees and Costs of Attending Seminars or Workshops</text>
+        </value>
+    </document>
+    <document noteId="000046D6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Fodder and Other Animal Feeds</text>
+        </value>
+        <value>
+            <text>57002</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00002FA2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Gasoline Products</text>
+        </value>
+        <value>
+            <text>57901</text>
+        </value>
+        <value>
+            <text>Produits d'essence</text>
+        </value>
+    </document>
+    <document noteId="00003CF2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Health Science Consultants</text>
+        </value>
+        <value>
+            <text>54121</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000094E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Honoraria</text>
+        </value>
+        <value>
+            <text>59252</text>
+        </value>
+        <value>
+            <text>Honoraires</text>
+        </value>
+    </document>
+    <document noteId="000038E6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Hospitality</text>
+        </value>
+        <value>
+            <text>56502</text>
+        </value>
+        <value>
+            <text>Frais d'accueil</text>
+        </value>
+    </document>
+    <document noteId="00001D76">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Housekeeping supplies</text>
+        </value>
+        <value>
+            <text>57202</text>
+        </value>
+        <value>
+            <text>Produits d'entretien ménagers</text>
+        </value>
+    </document>
+    <document noteId="0000129E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Inorganic &amp; Organic Chemicals</text>
+        </value>
+        <value>
+            <text>57906</text>
+        </value>
+        <value>
+            <text>Chemiques Inorganiques et Organiques</text>
+        </value>
+    </document>
+    <document noteId="00006EF2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Interest Service Charges &amp; Other Penalty Charges </text>
+        </value>
+        <value>
+            <text>59241</text>
+        </value>
+        <value>
+            <text>Interest Service Charges &amp; Other Penalty Charges </text>
+        </value>
+    </document>
+    <document noteId="000026CE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Iron &amp; Steel and Articles Thereof</text>
+        </value>
+        <value>
+            <text>57913</text>
+        </value>
+        <value>
+            <text>Fer et Métaux et Artcles reliés</text>
+        </value>
+    </document>
+    <document noteId="00002642">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>IT Specialized Consultants</text>
+        </value>
+        <value>
+            <text>54704</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00006EFA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Laboratory Services other than Health and Welfare (Operon IDT DNA)</text>
+        </value>
+        <value>
+            <text>54831</text>
+        </value>
+        <value>
+            <text>Laboratory Services other than Health and Welfare (Operon IDT DNA)</text>
+        </value>
+    </document>
+    <document noteId="00006EF6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Laboratory Services (Contracts or Services)</text>
+        </value>
+        <value>
+            <text>54507</text>
+        </value>
+        <value>
+            <text>Laboratory Services (Contracts or Services)</text>
+        </value>
+    </document>
+    <document noteId="00003B16">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Laboratory Supplies</text>
+        </value>
+        <value>
+            <text>57602</text>
+        </value>
+        <value>
+            <text>Matériaux de Laboratoire</text>
+        </value>
+    </document>
+    <document noteId="0000131E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Laundry Dry Cleaning and Other Related Services</text>
+        </value>
+        <value>
+            <text>56611</text>
+        </value>
+        <value>
+            <text>Service de Nettoyage à sec Buanderie et autres services reliés</text>
+        </value>
+    </document>
+    <document noteId="00003136">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Legal Services</text>
+        </value>
+        <value>
+            <text>54011</text>
+        </value>
+        <value>
+            <text>Services Légaux</text>
+        </value>
+    </document>
+    <document noteId="00006EFE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Legal Services (Patents)</text>
+        </value>
+        <value>
+            <text>54011</text>
+        </value>
+        <value>
+            <text>Legal Services (Patents)</text>
+        </value>
+    </document>
+    <document noteId="00006F02">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>License/Maintenance Fees Client Software</text>
+        </value>
+        <value>
+            <text>55107</text>
+        </value>
+        <value>
+            <text>License/Maintenance Fees Client Software</text>
+        </value>
+    </document>
+    <document noteId="000020DA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Live Animals</text>
+        </value>
+        <value>
+            <text>57003</text>
+        </value>
+        <value>
+            <text>Animaux Vivants</text>
+        </value>
+    </document>
+    <document noteId="00003572">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Lubricating Oils &amp; Greases</text>
+        </value>
+        <value>
+            <text>57903</text>
+        </value>
+        <value>
+            <text>Huiles, Graisses et Lubrifiants</text>
+        </value>
+    </document>
+    <document noteId="00002D22">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Meal Allowance in Headquarter Area</text>
+        </value>
+        <value>
+            <text>52003</text>
+        </value>
+        <value>
+            <text>Indemnité de repas </text>
+        </value>
+    </document>
+    <document noteId="0000243E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Membership Fees</text>
+        </value>
+        <value>
+            <text>56501</text>
+        </value>
+        <value>
+            <text>Frais d'adhésion</text>
+        </value>
+    </document>
+    <document noteId="00006F06">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Membership Fees</text>
+        </value>
+        <value>
+            <text>56501</text>
+        </value>
+        <value>
+            <text>Membership Fees</text>
+        </value>
+    </document>
+    <document noteId="00007AD2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Miscellaneous Metal Products </text>
+        </value>
+        <value>
+            <text>57915</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00002BFA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Motor Vehicle Licences</text>
+        </value>
+        <value>
+            <text>56603</text>
+        </value>
+        <value>
+            <text>Plaques de Véhicule Motorisé</text>
+        </value>
+    </document>
+    <document noteId="00003C06">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Moving Expenses</text>
+        </value>
+        <value>
+            <text>52603</text>
+        </value>
+        <value>
+            <text>Frais de déménagement</text>
+        </value>
+    </document>
+    <document noteId="00000B0E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Non-Anesthetic Gases</text>
+        </value>
+        <value>
+            <text>57907</text>
+        </value>
+        <value>
+            <text>Gaz non-anaestésant</text>
+        </value>
+    </document>
+    <document noteId="00003592">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>None (do not use)</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+        <value>
+            <text>Non</text>
+        </value>
+    </document>
+    <document noteId="00001C8E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Acids</text>
+        </value>
+        <value>
+            <text>04003</text>
+        </value>
+        <value>
+            <text>OLD_Acides</text>
+        </value>
+    </document>
+    <document noteId="000029AE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Acids</text>
+        </value>
+        <value>
+            <text>04003</text>
+        </value>
+        <value>
+            <text>OLD_Acides</text>
+        </value>
+    </document>
+    <document noteId="00000EFA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Acquisition Lab &gt; 10K</text>
+        </value>
+        <value>
+            <text>14105</text>
+        </value>
+        <value>
+            <text>OLD_Achat Labo &gt; $10 000</text>
+        </value>
+    </document>
+    <document noteId="00000FC6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Anaesthetic Gases</text>
+        </value>
+        <value>
+            <text>04704</text>
+        </value>
+        <value>
+            <text>OLD_Gaz anastésique</text>
+        </value>
+    </document>
+    <document noteId="0000125E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Books and Pamphlets</text>
+        </value>
+        <value>
+            <text>04402</text>
+        </value>
+        <value>
+            <text>OLD_Livres et brochures</text>
+        </value>
+    </document>
+    <document noteId="0000212E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Chemicals</text>
+        </value>
+        <value>
+            <text>04001</text>
+        </value>
+        <value>
+            <text>OLD_Produits chimiques</text>
+        </value>
+    </document>
+    <document noteId="00003046">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Conference Registration Fees</text>
+        </value>
+        <value>
+            <text>03113</text>
+        </value>
+        <value>
+            <text>OLD_Frais d'inscription à une conférence</text>
+        </value>
+    </document>
+    <document noteId="00000BF6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Courier</text>
+        </value>
+        <value>
+            <text>01303</text>
+        </value>
+        <value>
+            <text>OLD_Service de messager</text>
+        </value>
+    </document>
+    <document noteId="00002F56">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Distilled Drink Water</text>
+        </value>
+        <value>
+            <text>03903</text>
+        </value>
+        <value>
+            <text>OLD_Eau distillée</text>
+        </value>
+    </document>
+    <document noteId="0000330E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Electrical Supplies</text>
+        </value>
+        <value>
+            <text>04507</text>
+        </value>
+        <value>
+            <text>OLD_Produits électriques</text>
+        </value>
+    </document>
+    <document noteId="00001F0A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Engineering Consultants</text>
+        </value>
+        <value>
+            <text>02202</text>
+        </value>
+        <value>
+            <text>OLD_Consultants en génie</text>
+        </value>
+    </document>
+    <document noteId="000018EE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Film Audio and Video Cassettes</text>
+        </value>
+        <value>
+            <text>04903</text>
+        </value>
+        <value>
+            <text>OLD_Films et cassettes audio-visuel</text>
+        </value>
+    </document>
+    <document noteId="0000099A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Freight Express and Cartage Transportation</text>
+        </value>
+        <value>
+            <text>01301</text>
+        </value>
+        <value>
+            <text>OLD_Service de fret et messagerie</text>
+        </value>
+    </document>
+    <document noteId="00003A36">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_General Supplies</text>
+        </value>
+        <value>
+            <text>05199</text>
+        </value>
+        <value>
+            <text>OLD_Approvisionnement divers</text>
+        </value>
+    </document>
+    <document noteId="000018CE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Health Scientific Consultants</text>
+        </value>
+        <value>
+            <text>02201</text>
+        </value>
+        <value>
+            <text>OLD_Consultants en sciences de la santé</text>
+        </value>
+    </document>
+    <document noteId="000029C2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_HEI (Suspense Account Other)</text>
+        </value>
+        <value>
+            <text>09506</text>
+        </value>
+        <value>
+            <text>OLD_HEI (Compte en suspens - Autres)</text>
+        </value>
+    </document>
+    <document noteId="00000DDE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Honoraria</text>
+        </value>
+        <value>
+            <text>07711</text>
+        </value>
+        <value>
+            <text>OLD_Honoraires</text>
+        </value>
+    </document>
+    <document noteId="00001942">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Hospitality</text>
+        </value>
+        <value>
+            <text>03114</text>
+        </value>
+        <value>
+            <text>OLD_Frais d'accueil</text>
+        </value>
+    </document>
+    <document noteId="0000268E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_IT Desktop PC</text>
+        </value>
+        <value>
+            <text>58109</text>
+        </value>
+        <value>
+            <text>OLD_IT Desktop PC</text>
+        </value>
+    </document>
+    <document noteId="00002D9A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_IT Hardware &amp; Components</text>
+        </value>
+        <value>
+            <text>58108</text>
+        </value>
+        <value>
+            <text>OLD_IT Hardware &amp; Components</text>
+        </value>
+    </document>
+    <document noteId="0000168A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_IT Portable PC</text>
+        </value>
+        <value>
+            <text>58106</text>
+        </value>
+        <value>
+            <text>OLD_Ordinateur portatif</text>
+        </value>
+    </document>
+    <document noteId="0000324A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_IT Software</text>
+        </value>
+        <value>
+            <text>58107</text>
+        </value>
+        <value>
+            <text>OLD_IT Software</text>
+        </value>
+    </document>
+    <document noteId="00001212">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Lab glassware and ceramics</text>
+        </value>
+        <value>
+            <text>04005</text>
+        </value>
+        <value>
+            <text>OLD_Verre et céramique de labo</text>
+        </value>
+    </document>
+    <document noteId="00003272">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Lab Supplies NON CHEMICAL</text>
+        </value>
+        <value>
+            <text>04007</text>
+        </value>
+        <value>
+            <text>OLD_Fournitures de labo NON CHIMIQUES</text>
+        </value>
+    </document>
+    <document noteId="00001B72">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Laundry Dryclean and Related Services</text>
+        </value>
+        <value>
+            <text>03101</text>
+        </value>
+        <value>
+            <text>OLD_Service de Buanderie</text>
+        </value>
+    </document>
+    <document noteId="00001F1E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Live Animals</text>
+        </value>
+        <value>
+            <text>05101</text>
+        </value>
+        <value>
+            <text>OLD_Animaux</text>
+        </value>
+    </document>
+    <document noteId="00000ED6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Meal Allowance</text>
+        </value>
+        <value>
+            <text>01003</text>
+        </value>
+        <value>
+            <text>OLD_Indemnité de repas</text>
+        </value>
+    </document>
+    <document noteId="00001586">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Membership Fees</text>
+        </value>
+        <value>
+            <text>03116</text>
+        </value>
+        <value>
+            <text>OLD_Frais d'adhésion</text>
+        </value>
+    </document>
+    <document noteId="00000DF2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Moving Expenses</text>
+        </value>
+        <value>
+            <text>03120</text>
+        </value>
+        <value>
+            <text>OLD_Frais de déplacement</text>
+        </value>
+    </document>
+    <document noteId="00001AB6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Newspaper Magazines and Periodicals</text>
+        </value>
+        <value>
+            <text>04401</text>
+        </value>
+        <value>
+            <text>OLD_Journaux, périodiques et revues</text>
+        </value>
+    </document>
+    <document noteId="00002BDA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_NJ and PERD (SPA Payment Collaborative R&amp;D)</text>
+        </value>
+        <value>
+            <text>09652</text>
+        </value>
+        <value>
+            <text>OLD_NJ et PERD (CFD Déboursé R&amp;D)</text>
+        </value>
+    </document>
+    <document noteId="00002532">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Non-Anesthetic Gases</text>
+        </value>
+        <value>
+            <text>04006</text>
+        </value>
+        <value>
+            <text>OLD_Gaz non-anaestésant</text>
+        </value>
+    </document>
+    <document noteId="0000363A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Non-Provincial Lab Service</text>
+        </value>
+        <value>
+            <text>02808</text>
+        </value>
+        <value>
+            <text>OLD_Service de labo non-provincial</text>
+        </value>
+    </document>
+    <document noteId="00003A02">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Office Supplies</text>
+        </value>
+        <value>
+            <text>04405</text>
+        </value>
+        <value>
+            <text>OLD_Fournitures de bureau</text>
+        </value>
+    </document>
+    <document noteId="00001B9A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_OGD account for Pat R - CRTI</text>
+        </value>
+        <value>
+            <text>28002</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00001792">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Other Consultants</text>
+        </value>
+        <value>
+            <text>02902</text>
+        </value>
+        <value>
+            <text>OLD_Autres types de consultants</text>
+        </value>
+    </document>
+    <document noteId="000017E6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Oxygen and Other Medical Gases</text>
+        </value>
+        <value>
+            <text>04705</text>
+        </value>
+        <value>
+            <text>OLD_Oxygène et autres gaz médicaux</text>
+        </value>
+    </document>
+    <document noteId="00002492">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Pagers Enhanced Telecom Service etc.</text>
+        </value>
+        <value>
+            <text>01410</text>
+        </value>
+        <value>
+            <text>OLD_Pagers Enhanced Telecom Service etc.</text>
+        </value>
+    </document>
+    <document noteId="000017D2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Postage and Parcel Post Service</text>
+        </value>
+        <value>
+            <text>01302</text>
+        </value>
+        <value>
+            <text>OLD_Affranchissement et colis postal</text>
+        </value>
+    </document>
+    <document noteId="00000FCE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Printing Service Books and Leaflets</text>
+        </value>
+        <value>
+            <text>01901</text>
+        </value>
+        <value>
+            <text>OLD_Service d'imprimerie spécialisée</text>
+        </value>
+    </document>
+    <document noteId="00001DDA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Printing Service Photocopies</text>
+        </value>
+        <value>
+            <text>01905</text>
+        </value>
+        <value>
+            <text>OLD_Service d'imprimerie</text>
+        </value>
+    </document>
+    <document noteId="000014BA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Provincial Laboratory Service</text>
+        </value>
+        <value>
+            <text>02802</text>
+        </value>
+        <value>
+            <text>OLD_Service de laboratoire provincial</text>
+        </value>
+    </document>
+    <document noteId="000037FA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Publication</text>
+        </value>
+        <value>
+            <text>04412</text>
+        </value>
+        <value>
+            <text>OLD_Publication</text>
+        </value>
+    </document>
+    <document noteId="0000353E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Repair and Maintenance - Hardware and Software</text>
+        </value>
+        <value>
+            <text>03717</text>
+        </value>
+        <value>
+            <text>OLD_Entretien et réparation - pièces d'ordinateur et logiciels</text>
+        </value>
+    </document>
+    <document noteId="00000C36">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Repair and Maintenance - Laboratories</text>
+        </value>
+        <value>
+            <text>03612</text>
+        </value>
+        <value>
+            <text>OLD_Entretien et réparations - Labos</text>
+        </value>
+    </document>
+    <document noteId="00002B3E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Repairs and Maintenance -- Lab Equipment</text>
+        </value>
+        <value>
+            <text>03710</text>
+        </value>
+        <value>
+            <text>OLD_Entretien et réparation - Instruments de mesure, de labo etc</text>
+        </value>
+    </document>
+    <document noteId="00000EE6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Scientific Equipment (&lt;10K)</text>
+        </value>
+        <value>
+            <text>58303</text>
+        </value>
+        <value>
+            <text>OLD_Instruments de mesure et de lab, moins de $10 000</text>
+        </value>
+    </document>
+    <document noteId="00002C92">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Scientific Equipment (&gt;10K)</text>
+        </value>
+        <value>
+            <text>5A311</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00003CAE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Scientific Instruments &gt; 500K</text>
+        </value>
+        <value>
+            <text>5A312</text>
+        </value>
+        <value>
+            <text>OLD_Instrument scientifique &gt;$500 000</text>
+        </value>
+    </document>
+    <document noteId="00000FAA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Solvents</text>
+        </value>
+        <value>
+            <text>04004</text>
+        </value>
+        <value>
+            <text>OLD_Solvants</text>
+        </value>
+    </document>
+    <document noteId="00000E0A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Staff Development PSC</text>
+        </value>
+        <value>
+            <text>02404</text>
+        </value>
+        <value>
+            <text>OLD_Formation du personnel CFP</text>
+        </value>
+    </document>
+    <document noteId="00002FEE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Staff Language Training (not provided by PSC)</text>
+        </value>
+        <value>
+            <text>02401</text>
+        </value>
+        <value>
+            <text>OLD_Formation linguistique (non-PSC)</text>
+        </value>
+    </document>
+    <document noteId="000032B2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Telephone &amp; Voice Comm Services</text>
+        </value>
+        <value>
+            <text>01401</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="000019CA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Temporary Help Service</text>
+        </value>
+        <value>
+            <text>02301</text>
+        </value>
+        <value>
+            <text>OLD_Service de travail temporaire</text>
+        </value>
+    </document>
+    <document noteId="00002D2E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Translation Service</text>
+        </value>
+        <value>
+            <text>03108</text>
+        </value>
+        <value>
+            <text>OLD_Traduction</text>
+        </value>
+    </document>
+    <document noteId="00003AD6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Duty Abroad</text>
+        </value>
+        <value>
+            <text>01022</text>
+        </value>
+        <value>
+            <text>OLD_Voyage  fonctionnaire service commandé étranger</text>
+        </value>
+    </document>
+    <document noteId="000028D2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Duty Canada</text>
+        </value>
+        <value>
+            <text>01001</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire service commandé Canada</text>
+        </value>
+    </document>
+    <document noteId="00003C8A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Duty Non-Public Servant Canada</text>
+        </value>
+        <value>
+            <text>01101</text>
+        </value>
+        <value>
+            <text>OLD_Voyage non-fonctionnaire service commandé Canada</text>
+        </value>
+    </document>
+    <document noteId="00003ACE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Duty USA</text>
+        </value>
+        <value>
+            <text>01002</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire service commandé USA</text>
+        </value>
+    </document>
+    <document noteId="000012EA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Government Conference Abroad</text>
+        </value>
+        <value>
+            <text>01025</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire conférence gouvernementale étranger</text>
+        </value>
+    </document>
+    <document noteId="00001ED6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Government Conference Canada</text>
+        </value>
+        <value>
+            <text>01004</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire conférence gouvernementale Canada</text>
+        </value>
+    </document>
+    <document noteId="00001FFA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Government Conference USA</text>
+        </value>
+        <value>
+            <text>01005</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire conférence gouvernementale USA</text>
+        </value>
+    </document>
+    <document noteId="00003382">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Language Training Canada</text>
+        </value>
+        <value>
+            <text>01008</text>
+        </value>
+        <value>
+            <text>OLD_Voyage formation linguistique</text>
+        </value>
+    </document>
+    <document noteId="0000119E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Local Transportation</text>
+        </value>
+        <value>
+            <text>01010</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire transport local</text>
+        </value>
+    </document>
+    <document noteId="00000BFA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Local Transportation (taxi chits)</text>
+        </value>
+        <value>
+            <text>01010</text>
+        </value>
+        <value>
+            <text>OLD_Voyagement local (taxi)</text>
+        </value>
+    </document>
+    <document noteId="00003BBE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Gov Conference Abroad</text>
+        </value>
+        <value>
+            <text>01027</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire conférence non-gouvernementale étranger</text>
+        </value>
+    </document>
+    <document noteId="00002FEA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Gov Conference Canada</text>
+        </value>
+        <value>
+            <text>01006</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire conférence non-gouvernementale Canada</text>
+        </value>
+    </document>
+    <document noteId="0000127A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Gov Conference USA</text>
+        </value>
+        <value>
+            <text>01007</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire conférence non-gouvernementale USA</text>
+        </value>
+    </document>
+    <document noteId="000034AA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Public Servant Abroad</text>
+        </value>
+        <value>
+            <text>01111</text>
+        </value>
+        <value>
+            <text>OLD_Voyage, non-fonctionnaire étranger</text>
+        </value>
+    </document>
+    <document noteId="00001AA6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Public Servant Gov conference Abroad</text>
+        </value>
+        <value>
+            <text>01113</text>
+        </value>
+        <value>
+            <text>OLD_Voyage non-fonctionnaire conférence gouv étranger</text>
+        </value>
+    </document>
+    <document noteId="00002B5E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Public Servant Gov Conference Canada</text>
+        </value>
+        <value>
+            <text>01102</text>
+        </value>
+        <value>
+            <text>OLD_Voyage non-fonctionnaire conférence gouv Canada</text>
+        </value>
+    </document>
+    <document noteId="0000205E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Public Servant Gov Conference USA</text>
+        </value>
+        <value>
+            <text>01103</text>
+        </value>
+        <value>
+            <text>OLD_Voyage non-fonctionnaire conférence gouv É-U</text>
+        </value>
+    </document>
+    <document noteId="00002BCA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Public Servant Non-Gov conference Abroad</text>
+        </value>
+        <value>
+            <text>01115</text>
+        </value>
+        <value>
+            <text>OLD_Voyage non-fonctionnaire conférence non-gouv étranger</text>
+        </value>
+    </document>
+    <document noteId="0000172E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Public Servant Non-Gov Conference Canada</text>
+        </value>
+        <value>
+            <text>01104</text>
+        </value>
+        <value>
+            <text>OLD_Voyage non-fonctionnaire conférence non-gouv Canada</text>
+        </value>
+    </document>
+    <document noteId="000009F2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Non-Public Servant Non-Gov Conference USA</text>
+        </value>
+        <value>
+            <text>01105</text>
+        </value>
+        <value>
+            <text>OLD_Voyage non-fonctionnaire conférence non-gouv É-U</text>
+        </value>
+    </document>
+    <document noteId="00002A6A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Training Abroad</text>
+        </value>
+        <value>
+            <text>01033</text>
+        </value>
+        <value>
+            <text>OLD_Voyage - formation à l'étranger</text>
+        </value>
+    </document>
+    <document noteId="00002166">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Training Canada</text>
+        </value>
+        <value>
+            <text>01012</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire formation Canada</text>
+        </value>
+    </document>
+    <document noteId="00000C26">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel - Training USA</text>
+        </value>
+        <value>
+            <text>01013</text>
+        </value>
+        <value>
+            <text>OLD_Voyage fonctionnaire formation É-U</text>
+        </value>
+    </document>
+    <document noteId="00001F36">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Travel Advance ($)</text>
+        </value>
+        <value>
+            <text>01009</text>
+        </value>
+        <value>
+            <text>OLD_Avance voyage ($)</text>
+        </value>
+    </document>
+    <document noteId="00003C32">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>OLD_Wearing Apparel</text>
+        </value>
+        <value>
+            <text>05103</text>
+        </value>
+        <value>
+            <text>OLD_Chaussures et vêtements</text>
+        </value>
+    </document>
+    <document noteId="00000E52">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Other Printed Matter Printed Forms &amp; CD ROM Disks </text>
+        </value>
+        <value>
+            <text>57802</text>
+        </value>
+        <value>
+            <text>Autres Matières d'imprimerie Formulaires &amp; DC ROM</text>
+        </value>
+    </document>
+    <document noteId="00002556">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Other Transportation Not Elsewere Specified.</text>
+        </value>
+        <value>
+            <text>52609</text>
+        </value>
+        <value>
+            <text>Autres Transports non spécifié ailleurs</text>
+        </value>
+    </document>
+    <document noteId="00000D76">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>PERD G/L</text>
+        </value>
+        <value>
+            <text>28004</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000094A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Photographic or Cinematography Goods</text>
+        </value>
+        <value>
+            <text>57921</text>
+        </value>
+        <value>
+            <text>Produits de Photographie et Cinématographique</text>
+        </value>
+    </document>
+    <document noteId="0000102E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Plastics and Rubber Products</text>
+        </value>
+        <value>
+            <text>57910</text>
+        </value>
+        <value>
+            <text>Produits de Plastiques et Caoutchouc</text>
+        </value>
+    </document>
+    <document noteId="0000318A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Postage and Parcel Post </text>
+        </value>
+        <value>
+            <text>52601</text>
+        </value>
+        <value>
+            <text>Affranchissement/timbres et colis postaux</text>
+        </value>
+    </document>
+    <document noteId="000023D2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Printing Services</text>
+        </value>
+        <value>
+            <text>53201</text>
+        </value>
+        <value>
+            <text>Service d'imprimerie</text>
+        </value>
+    </document>
+    <document noteId="000045C6">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Professional and Technical Health Services (PDFs)</text>
+        </value>
+        <value>
+            <text>54508</text>
+        </value>
+        <value>
+            <text>Services technique et professionel en sante (PDFs)</text>
+        </value>
+    </document>
+    <document noteId="00006F12">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Publishing Services</text>
+        </value>
+        <value>
+            <text>53101</text>
+        </value>
+        <value>
+            <text>Publishing Services</text>
+        </value>
+    </document>
+    <document noteId="00000AB2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Computer Equipment and Parts</text>
+        </value>
+        <value>
+            <text>56322</text>
+        </value>
+        <value>
+            <text>Entretien et Réparation - Équipements d'ordinateur et pièces</text>
+        </value>
+    </document>
+    <document noteId="00003CB2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Computer Hardware and Software</text>
+        </value>
+        <value>
+            <text>56321</text>
+        </value>
+        <value>
+            <text>Entretien et Réparation - pièces d'ordinateur et logiciels</text>
+        </value>
+    </document>
+    <document noteId="000030BE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Electric Lighting &amp; Control Equipment</text>
+        </value>
+        <value>
+            <text>56303</text>
+        </value>
+        <value>
+            <text>Entretien et Réparation Éclairage électrique et  Équipement de contrôle</text>
+        </value>
+    </document>
+    <document noteId="00003D5E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Furniture and Fixtures</text>
+        </value>
+        <value>
+            <text>56312</text>
+        </value>
+        <value>
+            <text>Entretien et Réparation Meubles et Fixtures</text>
+        </value>
+    </document>
+    <document noteId="00003492">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Heating Air-conditionning Refrigeration Equip</text>
+        </value>
+        <value>
+            <text>56302</text>
+        </value>
+        <value>
+            <text>Entretien et Réparation Chauffage Air climatisé et Équip de réfrigération</text>
+        </value>
+    </document>
+    <document noteId="00006F1A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Laboratory Buildings</text>
+        </value>
+        <value>
+            <text>56104</text>
+        </value>
+        <value>
+            <text>R &amp; M Laboratory Buildings</text>
+        </value>
+    </document>
+    <document noteId="0000330A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text>
+        </value>
+        <value>
+            <text>56304</text>
+        </value>
+        <value>
+            <text>Entretien et Réparation Instruments de mesure contrôle de Labo Med et Optique</text>
+        </value>
+    </document>
+    <document noteId="0000186E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Office Machines and Equipment</text>
+        </value>
+        <value>
+            <text>56326</text>
+        </value>
+        <value>
+            <text>Entretien et Réparation Machines et Équipement de Bureau</text>
+        </value>
+    </document>
+    <document noteId="00003132">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Safety Alarm and Signal Equipment</text>
+        </value>
+        <value>
+            <text>56311</text>
+        </value>
+        <value>
+            <text>Entretien et Réparation Sécurité Alarme et Équipement de signalisation</text>
+        </value>
+    </document>
+    <document noteId="00002506">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>R &amp; M Telecommunications Equipment</text>
+        </value>
+        <value>
+            <text>56316</text>
+        </value>
+        <value>
+            <text>Entretien et Réparation d'Équipement de Télécommunication</text>
+        </value>
+    </document>
+    <document noteId="00006F1E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Reallocation of Expenditures within a Department (Housing of Animals)</text>
+        </value>
+        <value>
+            <text>59961</text>
+        </value>
+        <value>
+            <text>Reallocation of Expenditures within a Department (Housing of Animals)</text>
+        </value>
+    </document>
+    <document noteId="00006F22">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Rental of Digital Communications/Network Equipment (Rogers)</text>
+        </value>
+        <value>
+            <text>55106</text>
+        </value>
+        <value>
+            <text>Rental of Digital Communications/Network Equipment (Rogers)</text>
+        </value>
+    </document>
+    <document noteId="00006F26">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Research Contracts</text>
+        </value>
+        <value>
+            <text>54804</text>
+        </value>
+        <value>
+            <text>Research Contracts</text>
+        </value>
+    </document>
+    <document noteId="00002362">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Seminars or Workshops Non-Taxable</text>
+        </value>
+        <value>
+            <text>54412</text>
+        </value>
+        <value>
+            <text>Séminaires et Ateliers non taxable</text>
+        </value>
+    </document>
+    <document noteId="00000F26">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>SPA Payment Collaborative Research &amp; Development</text>
+        </value>
+        <value>
+            <text>27702</text>
+        </value>
+        <value>
+            <text>SPA Paiement Collaboration de Recherche et Développement</text>
+        </value>
+    </document>
+    <document noteId="00001BBA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Staff Language Training</text>
+        </value>
+        <value>
+            <text>54401</text>
+        </value>
+        <value>
+            <text>Formation linguistique</text>
+        </value>
+    </document>
+    <document noteId="00002D4A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Stationery Office Supplies and Artists' Materials</text>
+        </value>
+        <value>
+            <text>57805</text>
+        </value>
+        <value>
+            <text>Papeterie Fournitures de bureau et Matériel d'Artistes</text>
+        </value>
+    </document>
+    <document noteId="00000D32">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Telecommunications Consultants</text>
+        </value>
+        <value>
+            <text>54706</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00001042">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Telephone &amp; Other Voice Communication Services</text>
+        </value>
+        <value>
+            <text>52701</text>
+        </value>
+        <value>
+            <text>Téléphone et autres Services de Communications Vocales</text>
+        </value>
+    </document>
+    <document noteId="00000B8A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Temporary Help Services Acquired for General Help</text>
+        </value>
+        <value>
+            <text>56403</text>
+        </value>
+        <value>
+            <text>Service d'aide de travail temporaire</text>
+        </value>
+    </document>
+    <document noteId="0000239E">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Training Packages and Courses Purchased  for Staff</text>
+        </value>
+        <value>
+            <text>54415</text>
+        </value>
+        <value>
+            <text>Forfaits de Cours et de Formation acheté pour le Personnel</text>
+        </value>
+    </document>
+    <document noteId="00002E62">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Translation Service</text>
+        </value>
+        <value>
+            <text>54808</text>
+        </value>
+        <value>
+            <text>Service de Traduction</text>
+        </value>
+    </document>
+    <document noteId="00001E02">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Travel  Non-Public Servants Conference all Locations</text>
+        </value>
+        <value>
+            <text>52104</text>
+        </value>
+        <value>
+            <text>Voyage Non-fonctionnaires Conférences tout Locations</text>
+        </value>
+    </document>
+    <document noteId="000024D2">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Travel Non-Public Servants Outside Canada</text>
+        </value>
+        <value>
+            <text>52102</text>
+        </value>
+        <value>
+            <text>Voyage Non-fonctionnaires à l'extérieur du Canada</text>
+        </value>
+    </document>
+    <document noteId="0000195A">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Travel Non-Public Servants Within Canada</text>
+        </value>
+        <value>
+            <text>52101</text>
+        </value>
+        <value>
+            <text>Voyage Non-fonctionnaires aù Canada</text>
+        </value>
+    </document>
+    <document noteId="00000FBE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Travel Public Servants Abroad </text>
+        </value>
+        <value>
+            <text>52007</text>
+        </value>
+        <value>
+            <text>Voyage  fonctionnaires à l'étranger</text>
+        </value>
+    </document>
+    <document noteId="000016DA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Travel Public Servants Conference all Locations</text>
+        </value>
+        <value>
+            <text>52009</text>
+        </value>
+        <value>
+            <text>Voyage Fonctionnaires Conférences tout Locations</text>
+        </value>
+    </document>
+    <document noteId="00003ABA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Travel Public Servants Local Transportation</text>
+        </value>
+        <value>
+            <text>52002</text>
+        </value>
+        <value>
+            <text>Voyage/Déplacement  fonctionnaire transport local</text>
+        </value>
+    </document>
+    <document noteId="000014EE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Travel Public Servants Training all Locations</text>
+        </value>
+        <value>
+            <text>52008</text>
+        </value>
+        <value>
+            <text>Voyage Fonctionnaires Formation tout Locations</text>
+        </value>
+    </document>
+    <document noteId="000037FE">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Travel Public Servants United States of America</text>
+        </value>
+        <value>
+            <text>52006</text>
+        </value>
+        <value>
+            <text>Voyage fonctionnaires aù États-Unis</text>
+        </value>
+    </document>
+    <document noteId="000014EA">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Travel Public Servants Within Canada</text>
+        </value>
+        <value>
+            <text>52001</text>
+        </value>
+        <value>
+            <text>Voyage fonctionnaire aù Canada</text>
+        </value>
+    </document>
+    <document noteId="00002C96">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Tuition Fees and Related Costs During Own Time</text>
+        </value>
+        <value>
+            <text>54403</text>
+        </value>
+        <value>
+            <text>Frais d'insciption et Coûts reliés hors des heures de travail</text>
+        </value>
+    </document>
+    <document noteId="00002462">
+        <value>
+            <text>G/L Account</text>
+        </value>
+        <value>
+            <text>Tuition Fees and Related Costs During Paid Time</text>
+        </value>
+        <value>
+            <text>54402</text>
+        </value>
+        <value>
+            <text>Frais d'insciption et Coûts reliés durant heures de travail</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+    </category>
+    <document noteId="00002D26">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>0000000 EOTSurplus2003</text>
+        </value>
+        <value>
+            <text>0000000</text>
+        </value>
+        <value>
+            <text>0000000 EOTSurplus2003</text>
+        </value>
+    </document>
+    <document noteId="000034EE">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>001 - Proteomics fund (GD)</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00002F22">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4320010 Cardiopulm - RV</text>
+        </value>
+        <value>
+            <text>4320010</text>
+        </value>
+        <value>
+            <text>4320010 Cardiopulm - RV</text>
+        </value>
+    </document>
+    <document noteId="0000519E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4320010 EpiGenetics ET</text>
+        </value>
+        <value>
+            <text>4320010</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000518A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4320010 PM_Const. SK</text>
+        </value>
+        <value>
+            <text>4320010</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00005932">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4320010 Systemic - RV - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>4320010</text>
+        </value>
+        <value>
+            <text>4320010 Systemic - RV - FY 2010-2011</text>
+        </value>
+    </document>
+    <document noteId="000026FE">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4320101 Allergens - HV</text>
+        </value>
+        <value>
+            <text>4320101</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00001702">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4320105 Oxid Stress - PK</text>
+        </value>
+        <value>
+            <text>4320105</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00004B12">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4320105 Oxid Stress - PK - MIREC</text>
+        </value>
+        <value>
+            <text>4320105</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000429A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4320105 OxStress - PK LTCP</text>
+        </value>
+        <value>
+            <text>4320105</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00000A16">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4320277 CEPA Screen - RV</text>
+        </value>
+        <value>
+            <text>4320277</text>
+        </value>
+        <value>
+            <text>4320277 CEPA Screen - RV</text>
+        </value>
+    </document>
+    <document noteId="000011BE">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340008 Particles BAQS - RV</text>
+        </value>
+        <value>
+            <text>4340008</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00007736">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340086-ChEMTD</text>
+        </value>
+        <value>
+            <text>4340086</text>
+        </value>
+        <value>
+            <text>4340086-ChEMTD</text>
+        </value>
+    </document>
+    <document noteId="000028B6">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340256 MobileLab - RV</text>
+        </value>
+        <value>
+            <text>4340256</text>
+        </value>
+        <value>
+            <text>4340256 MobileLab - RV</text>
+        </value>
+    </document>
+    <document noteId="0000393A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340393 Genomics - HV</text>
+        </value>
+        <value>
+            <text>4340393</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000159A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340393 Genomics - MA</text>
+        </value>
+        <value>
+            <text>4340393</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000310E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340393 Genomics - PK</text>
+        </value>
+        <value>
+            <text>4340393</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="000031BE">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340393 Genomics - RV</text>
+        </value>
+        <value>
+            <text>4340393</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00007822">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340424 - ADO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>4340424</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00007B22">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340424 - ADO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>4340424</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00004FC2">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340424 - DO-Bureau General Admin &amp; Resource Stewardship</text>
+        </value>
+        <value>
+            <text>4340424</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00004376">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340440 - Year End Funds 07-08</text>
+        </value>
+        <value>
+            <text>4340440</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="000032A2">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340440 ITA Section Manag - RV</text>
+        </value>
+        <value>
+            <text>4340440</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00004382">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340440 ITAB Section Management</text>
+        </value>
+        <value>
+            <text>4340440</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00004372">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340440 Section Management Year End Fund 06-07</text>
+        </value>
+        <value>
+            <text>4340440</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00002692">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340441 CEPA Screen - RV</text>
+        </value>
+        <value>
+            <text>4340441</text>
+        </value>
+        <value>
+            <text>4340441 CEPA Screen - RV</text>
+        </value>
+    </document>
+    <document noteId="00005936">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340441 Nano - DB - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>4340441</text>
+        </value>
+        <value>
+            <text>4340441 Nano - DB - FY 2010-2011</text>
+        </value>
+    </document>
+    <document noteId="00001D2A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340442 Monoclonals - MA</text>
+        </value>
+        <value>
+            <text>4340442</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00004962">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340564 Contaminated Sites - SK</text>
+        </value>
+        <value>
+            <text>4340564</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000744E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340565 CARA - FY 2015-2016</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+        <value>
+            <text>4340565 CARA - FY 2015-2016</text>
+        </value>
+    </document>
+    <document noteId="00004966">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340565 CARA - I.T.A - RV</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000592E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2010-2011</text>
+        </value>
+    </document>
+    <document noteId="000066CE">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2011-2012</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2011-2012</text>
+        </value>
+    </document>
+    <document noteId="0000607E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2012-2013</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2012-2013</text>
+        </value>
+    </document>
+    <document noteId="00006C96">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2014-2015</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2014-2015</text>
+        </value>
+    </document>
+    <document noteId="0000746A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2015-2016</text>
+        </value>
+        <value>
+            <text>4340565</text>
+        </value>
+        <value>
+            <text>4340565 CARA - RV - FY 2015-2016</text>
+        </value>
+    </document>
+    <document noteId="00004B56">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>4340579 - Bureau Renovation Projects</text>
+        </value>
+        <value>
+            <text>4340579</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00003C3E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>66030 NJMRC SPA 1 - RV</text>
+        </value>
+        <value>
+            <text>66030</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00003406">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>66031 NJMRC SPA 2 - RV</text>
+        </value>
+        <value>
+            <text>66031</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00003202">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>70010 PERD - RV</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+        <value>
+            <text>70010 PERD - RV</text>
+        </value>
+    </document>
+    <document noteId="0000593A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2010-2011</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2010-2011</text>
+        </value>
+    </document>
+    <document noteId="00006082">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2011-2012</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2011-2012</text>
+        </value>
+    </document>
+    <document noteId="000066D2">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2012-2013</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2012-2013</text>
+        </value>
+    </document>
+    <document noteId="00006C8E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2013-2014</text>
+        </value>
+        <value>
+            <text>70010</text>
+        </value>
+        <value>
+            <text>70010 P.E.R.D. - SK - FY 2013-2014</text>
+        </value>
+    </document>
+    <document noteId="00006C82">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810408 Nano-Silica - FY 2013-2014</text>
+        </value>
+        <value>
+            <text>810408</text>
+        </value>
+        <value>
+            <text>810408 Nano-Silice - FY 2013-2014</text>
+        </value>
+    </document>
+    <document noteId="0000607A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810408 Nano - DB - FY 2011-2012</text>
+        </value>
+        <value>
+            <text>810408</text>
+        </value>
+        <value>
+            <text>810408 Nano - DB - FY 2011-2012</text>
+        </value>
+    </document>
+    <document noteId="000066D6">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810408 Nano - DB - FY 2012-2013</text>
+        </value>
+        <value>
+            <text>810408</text>
+        </value>
+        <value>
+            <text>810408 Nano - DB - FY 2012-2013</text>
+        </value>
+    </document>
+    <document noteId="00006086">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2011-2012</text>
+        </value>
+        <value>
+            <text>810409</text>
+        </value>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2011-2012</text>
+        </value>
+    </document>
+    <document noteId="000066DA">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2012-2013</text>
+        </value>
+        <value>
+            <text>810409</text>
+        </value>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2012-2013</text>
+        </value>
+    </document>
+    <document noteId="00006C86">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2013-2014</text>
+        </value>
+        <value>
+            <text>810409</text>
+        </value>
+        <value>
+            <text>810409 Epigenetics - ET- FY 2013-2014</text>
+        </value>
+    </document>
+    <document noteId="0000608A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2011-2012</text>
+        </value>
+        <value>
+            <text>810413</text>
+        </value>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2011-2012</text>
+        </value>
+    </document>
+    <document noteId="000066DE">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2012-2013</text>
+        </value>
+        <value>
+            <text>810413</text>
+        </value>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2012-2013</text>
+        </value>
+    </document>
+    <document noteId="00006C8A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+        <value>
+            <text>810413</text>
+        </value>
+        <value>
+            <text>810413 Inhalation Tox-RV-FY 2013-2014</text>
+        </value>
+    </document>
+    <document noteId="0000611E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810465-Seminar Series-ET-2011-2012</text>
+        </value>
+        <value>
+            <text>810465</text>
+        </value>
+        <value>
+            <text>810465-Seminar Series-ET-2011-2012</text>
+        </value>
+    </document>
+    <document noteId="000066E2">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810465-Seminar Series-ET-2012-2013</text>
+        </value>
+        <value>
+            <text>810465</text>
+        </value>
+        <value>
+            <text>810465-Seminar Series-ET-2012-2013</text>
+        </value>
+    </document>
+    <document noteId="00006262">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810478 - Nano-CMP - FY 2011-2012</text>
+        </value>
+        <value>
+            <text>810478</text>
+        </value>
+        <value>
+            <text>810478 - Nano-CMP - FY 2011-2012</text>
+        </value>
+    </document>
+    <document noteId="000066E6">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810478 - Nano-CMP - FY 2012-2013</text>
+        </value>
+        <value>
+            <text>810478</text>
+        </value>
+        <value>
+            <text>810478 - Nano-CMP - FY 2012-2013</text>
+        </value>
+    </document>
+    <document noteId="00006C92">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810478 - Nano-CMP - FY 2013-2014</text>
+        </value>
+        <value>
+            <text>810478</text>
+        </value>
+        <value>
+            <text>810478 - Nano-CMP - FY 2013-2014</text>
+        </value>
+    </document>
+    <document noteId="00007456">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text>
+        </value>
+        <value>
+            <text>810504</text>
+        </value>
+        <value>
+            <text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text>
+        </value>
+    </document>
+    <document noteId="0000714E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810504 - Neuroenocrime/Metabolic Impacts 2014-2015</text>
+        </value>
+        <value>
+            <text>810504</text>
+        </value>
+        <value>
+            <text>810504 - Neuroenocrime/Metabolic Impacts 2014-2015</text>
+        </value>
+    </document>
+    <document noteId="00007152">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810530 Carbon Nanotubes 2014-2015</text>
+        </value>
+        <value>
+            <text>810530</text>
+        </value>
+        <value>
+            <text>810530 Carbon Nanotubes 2014-2015</text>
+        </value>
+    </document>
+    <document noteId="00007762">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+        <value>
+            <text>810553</text>
+        </value>
+        <value>
+            <text>810553-CSSPI</text>
+        </value>
+    </document>
+    <document noteId="0000563A">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>859126 Epegenetics</text>
+        </value>
+        <value>
+            <text>859126</text>
+        </value>
+        <value>
+            <text>859126 Epegenetics</text>
+        </value>
+    </document>
+    <document noteId="0000593E">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>859126 Epigenetics - ET- FY 2010-2011</text>
+        </value>
+        <value>
+            <text>859126</text>
+        </value>
+        <value>
+            <text>859126 Epigenetics - ET- FY 2010-2011</text>
+        </value>
+    </document>
+    <document noteId="00005B82">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>Laboratory Supplies </text>
+        </value>
+        <value>
+            <text>9940</text>
+        </value>
+        <value>
+            <text>Laboratory Supplies </text>
+        </value>
+    </document>
+    <document noteId="00002E72">
+        <value>
+            <text>Internal Order - Project #</text>
+        </value>
+        <value>
+            <text>RV4340024 Renovations - RV</text>
+        </value>
+        <value>
+            <text>RV4340024</text>
+        </value>
+        <value>
+            <text>RV4340024 Rénovations - RV</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>Program Activity</text>
+        </value>
+    </category>
+    <document noteId="0000485E">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>9901 - PERD FT</text>
+        </value>
+        <value>
+            <text>9901</text>
+        </value>
+        <value>
+            <text>9901 - PERD FT</text>
+        </value>
+    </document>
+    <document noteId="0000485A">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>9902 - PERD PT</text>
+        </value>
+        <value>
+            <text>9902</text>
+        </value>
+        <value>
+            <text>9902 - PERD PT</text>
+        </value>
+    </document>
+    <document noteId="00002792">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>9940 - PERD O&amp;M</text>
+        </value>
+        <value>
+            <text>9940</text>
+        </value>
+        <value>
+            <text>9940 - PERD O&amp;M</text>
+        </value>
+    </document>
+    <document noteId="000025E6">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3BA-Air Science Know</text>
+        </value>
+        <value>
+            <text>A3BA</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000608E">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3BB - Air Science Process</text>
+        </value>
+        <value>
+            <text>A3BB</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00000EA2">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3DY-Emerging Tech Sci Know</text>
+        </value>
+        <value>
+            <text>A3DY</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="000024EE">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3EB - CEPA Science Knowledge</text>
+        </value>
+        <value>
+            <text>A3EB</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00001506">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3EF-Child Vul Popn Sci Know</text>
+        </value>
+        <value>
+            <text>A3EF</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="000032A6">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3EG-PERD Science Knowledge</text>
+        </value>
+        <value>
+            <text>A3EG</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="000049AA">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3EH - Biostats Science Process</text>
+        </value>
+        <value>
+            <text>A3EH</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="000056C2">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3EI - CEPA Science Knowledge</text>
+        </value>
+        <value>
+            <text>A3EI</text>
+        </value>
+        <value>
+            <text>A3EI - CEPA Science Knowledge</text>
+        </value>
+    </document>
+    <document noteId="00003016">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3EO- Biomon Surv Science Know</text>
+        </value>
+        <value>
+            <text>A3EO</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00004976">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3GH - Cont Sites Science Proces</text>
+        </value>
+        <value>
+            <text>A3GH</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000166E">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3Z3-Management, Oversight and Accountability</text>
+        </value>
+        <value>
+            <text>A3Z3</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00002262">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>A3Z4-Continuous Improvement</text>
+        </value>
+        <value>
+            <text>A3Z4</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00002F6A">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>AQHER</text>
+        </value>
+        <value>
+            <text>A935</text>
+        </value>
+        <value>
+            <text>AQHER</text>
+        </value>
+    </document>
+    <document noteId="00006092">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>GH10 - Research and Development</text>
+        </value>
+        <value>
+            <text>GH10</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000775E">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>GK06-Health Surveillance &amp; Monitoring</text>
+        </value>
+        <value>
+            <text>GK06</text>
+        </value>
+        <value>
+            <text>GK06-Health Surveillance &amp; Monitoring</text>
+        </value>
+    </document>
+    <document noteId="00006096">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>GK10 - Research and Development</text>
+        </value>
+        <value>
+            <text>GK10</text>
+        </value>
+        <value>
+            <text>GK10 - Research and Development</text>
+        </value>
+    </document>
+    <document noteId="0000773A">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>GK16-Emergency Management</text>
+        </value>
+        <value>
+            <text>GK16</text>
+        </value>
+        <value>
+            <text>GK16-Emergency Management</text>
+        </value>
+    </document>
+    <document noteId="0000377A">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>METALS non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>A330</text>
+        </value>
+        <value>
+            <text>METALS non-SPA Research and Development</text>
+        </value>
+    </document>
+    <document noteId="00000C8A">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>A330</text>
+        </value>
+        <value>
+            <text>non-CFD R&amp;D</text>
+        </value>
+    </document>
+    <document noteId="0000331A">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>None (do not use)</text>
+        </value>
+        <value>
+            <text> </text>
+        </value>
+        <value>
+            <text>Non</text>
+        </value>
+    </document>
+    <document noteId="000016F2">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>OGD-Laboratory Supplies</text>
+        </value>
+        <value>
+            <text>9940</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="0000295E">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>OGD-Other</text>
+        </value>
+        <value>
+            <text>9999</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="000010EE">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>OGD-Scientific Equipment</text>
+        </value>
+        <value>
+            <text>9957</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00003C56">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>OGD-Services (other)</text>
+        </value>
+        <value>
+            <text>9931</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="000023E2">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>OGD-Services (Scientific and Engineering)</text>
+        </value>
+        <value>
+            <text>9922</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00001E0E">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>OLD_non-SPA Research and Development</text>
+        </value>
+        <value>
+            <text>A220</text>
+        </value>
+        <value>
+            <text>OLD_non-CFD R&amp;D</text>
+        </value>
+    </document>
+    <document noteId="00000F3E">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>PERD - Toxicity of Automotive Emissions - Animal Studies</text>
+        </value>
+        <value>
+            <text>A330</text>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+    <document noteId="00001D42">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA-Lab Supplies</text>
+        </value>
+        <value>
+            <text>9940</text>
+        </value>
+        <value>
+            <text>CFD - Equipement de laboratoire</text>
+        </value>
+    </document>
+    <document noteId="0000105A">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA-Other</text>
+        </value>
+        <value>
+            <text>9999</text>
+        </value>
+        <value>
+            <text>CFD - Autres</text>
+        </value>
+    </document>
+    <document noteId="00002E8A">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA - Computer Equipment and Supplies</text>
+        </value>
+        <value>
+            <text>9955</text>
+        </value>
+        <value>
+            <text>CFD - Informatique</text>
+        </value>
+    </document>
+    <document noteId="00001FAE">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA - General Supplies</text>
+        </value>
+        <value>
+            <text>9951</text>
+        </value>
+        <value>
+            <text>CFD - fournitures diverses</text>
+        </value>
+    </document>
+    <document noteId="00002CA6">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA - Office Supplies</text>
+        </value>
+        <value>
+            <text>9944</text>
+        </value>
+        <value>
+            <text>CFD - fournitures de bureau</text>
+        </value>
+    </document>
+    <document noteId="000023EE">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA - Other Professional Services (CAC)</text>
+        </value>
+        <value>
+            <text>9929</text>
+        </value>
+        <value>
+            <text>CFD - Autres services professionnels</text>
+        </value>
+    </document>
+    <document noteId="000024CA">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA - Scientific and Engineering Services (University)</text>
+        </value>
+        <value>
+            <text>9922</text>
+        </value>
+        <value>
+            <text>CFD - Services Scientif. &amp; d'ingénierie </text>
+        </value>
+    </document>
+    <document noteId="00003536">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA - Scientific Equipment</text>
+        </value>
+        <value>
+            <text>9957</text>
+        </value>
+        <value>
+            <text>CFD - Equipement scientifique</text>
+        </value>
+    </document>
+    <document noteId="00001E5E">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA - Temp. Help Services</text>
+        </value>
+        <value>
+            <text>9923</text>
+        </value>
+        <value>
+            <text>CFD - Services d'aide temporaire</text>
+        </value>
+    </document>
+    <document noteId="00001092">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA - Travel Non-Public Servant</text>
+        </value>
+        <value>
+            <text>9911</text>
+        </value>
+        <value>
+            <text>CFD - Voyages- Non Fonctionnaires</text>
+        </value>
+    </document>
+    <document noteId="00001796">
+        <value>
+            <text>Program Activity</text>
+        </value>
+        <value>
+            <text>SPA - Travel Public Servant</text>
+        </value>
+        <value>
+            <text>9910</text>
+        </value>
+        <value>
+            <text>CFD - Voyages- Fonctionnaires</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text/>
+        </value>
+    </category>
+    <document noteId="00000952">
+        <value>
+            <text/>
+        </value>
+        <value>
+            <text/>
+        </value>
+        <value>
+            <text/>
+        </value>
+        <value>
+            <text/>
+        </value>
+    </document>
+</view>

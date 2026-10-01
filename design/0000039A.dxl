@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE subform>
+<subform name='CDE-Edit History' alias='EdHistory' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' designerversion='6.5'>
+<noteinfo noteid='39a' unid='B705FFEFCBA5EC55852575D1006AE763' sequence='19'>
+<created><datetime dst='true'>20090610T152740,51-04</datetime></created>
+<modified><datetime dst='true'>20260917T084248,01-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,33-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084248,00-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084248,00-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Oscar J Kerrebyn/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<body><richtext>
+<pardef id='1' leftmargin='0.8125in'><code event='hidewhen'><formula>1</formula></code></pardef>
+<par def='1'><run><font size='2pt' style='bold' name='Small Fonts' pitch='variable'
+ truetype='false' familyid='20'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' leftmargin='0.8125in' columnspacing='0.0299in'
+ refwidth='7.0313in'><tablecolumn width='17.5313%'/><tablecolumn width='53.5278%'/><tablecolumn
+ width='17.9931%'/><tablecolumn width='10.9514%'/>
+<tablerow>
+<tablecell borderwidth='1px 0px 0px 1px' bgcolor='#ffffc2'>
+<pardef id='2' leftmargin='4%' rightmargin='96%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>1</formula></code></pardef>
+<par def='2'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='red'/>SubForm:</run></par></tablecell>
+<tablecell borderwidth='1px 0px 0px' bgcolor='#ffffc2'>
+<pardef id='3' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>1</formula></code></pardef>
+<par def='3'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='red'/>CDE-Edit History</run></par></tablecell>
+<tablecell rowspan='4' borderwidth='1px 0px' bgcolor='#ffffc2'>
+<pardef id='4' leftmargin='3%' rightmargin='97%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>1</formula></code></pardef>
+<par def='4'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='red'/></run></par></tablecell>
+<tablecell rowspan='4' borderwidth='1px 1px 1px 0px' bgcolor='#ffffc2'>
+<pardef id='6' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>1</formula></code></pardef>
+<par def='6'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='red'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px 0px 0px 1px' bgcolor='#ffffc2'>
+<par def='2'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='red'/>Version:</run></par></tablecell>
+<tablecell borderwidth='0px' bgcolor='#ffffc2'>
+<par def='3'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='red'/>1.1</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px 0px 0px 1px' bgcolor='#ffffc2'>
+<par def='2'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='red'/>Date:</run></par></tablecell>
+<tablecell borderwidth='0px' bgcolor='#ffffc2'>
+<par def='3'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='red'/>June 11, 2009</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px 0px 1px 1px' bgcolor='#ffffc2'>
+<par def='2'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='green'/>Desc.:</run></par></tablecell>
+<tablecell borderwidth='0px 0px 1px' bgcolor='#ffffc2'>
+<par def='3'><run><font size='8pt' name='monospace' color='green'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font size='8pt' style='underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='red'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' leftmargin='0.8125in' columnspacing='0.0250in'
+ refwidth='7.0313in'><tablecolumn width='28.1250%'/><tablecolumn width='71.8750%'/>
+<tablerow>
+<tablecell borderwidth='1px 0px 1px 1px' bgcolor='silver'>
+<pardef id='7' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>1</formula></code></pardef>
+<par def='7'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='red'/>Hidden Fields Below</run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px' bgcolor='silver'>
+<pardef id='8' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>1</formula></code></pardef>
+<par def='8'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='red'/>Description</run><run><font size='8pt'
+ name='Arial' pitch='variable' truetype='true' familyid='20' color='red'/> (with data dictionary/constraints in brackets)</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px 1px 1px' bgcolor='#f7f7f7'>
+<par def='7'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='red'/></run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px' bgcolor='#f7f7f7'>
+<par def='8'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='red'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px 1px 1px' bgcolor='#f7f7f7'>
+<par def='7'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='red'/></run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px' bgcolor='#f7f7f7'>
+<par def='8'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='red'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font size='8pt' style='underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='red'/></run><horizrule height='0.0729in'
+ width='100%' use3dshading='false' color='red'/><run><font size='2pt' style='bold'
+ name='Small Fonts' pitch='variable' truetype='false' familyid='20'/></run></par>
+<pardef id='9' leftmargin='0.8125in' firstlineleftmargin='0.7500in' tabs='L0.8125in L3.2500in L3.3750in'/>
+<section onread='collapse' onpreview='collapse' onedit='collapse' onprint='collapse'
+ expanded='true'><sectiontitle pardef='9' borderstyle='shadow' color='#104160'><font
+ size='8pt' color='navy' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><text>Edit History / Modifications effectuées:</text></sectiontitle>
+<pardef id='10' leftmargin='1in' tabs='L1.1250in L4.3750in'><code event='hidewhen'
+ enabled='false'><formula>1</formula></code></pardef>
+<par def='10'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='navy'/></run></par>
+<table user4spacing='true' leftmargin='0.8125in' widthtype='fixedleft' rowspacing='0.0250in'
+ columnspacing='0.0153in' refwidth='6.6243in'><tablecolumn width='1.9847in'/><tablecolumn
+ width='1.5000in'/><tablecolumn width='1.5174in'/><tablecolumn width='1.5000in'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='white'>
+<pardef id='12' leftmargin='0%' rightmargin='99%' hide='print' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") = "F"</formula></code></pardef>
+<par def='12'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Created By:</run></par></tablecell>
+<tablecell borderwidth='0px' bgcolor='white'>
+<pardef id='13' leftmargin='2%' rightmargin='99%' hide='print' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") = "F"</formula></code></pardef>
+<par def='13'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Date Created:</run><run><font
+ size='8pt' name='Arial' pitch='variable' truetype='true' familyid='20' color='navy'/> </run></par></tablecell>
+<tablecell borderwidth='0px' bgcolor='white'>
+<pardef id='14' hide='print' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>!@Contains(@UserRoles;"[Admin]")</formula></code></pardef>
+<par def='14'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px' bgcolor='white'>
+<pardef id='15' hide='print' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>!@Contains(@UserRoles;"[Admin]")</formula></code></pardef>
+<par def='15'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='white'>
+<pardef id='16' leftmargin='2%' rightmargin='82%' hide='print' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") != "F"</formula></code></pardef>
+<par def='16'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Créé par :</run></par></tablecell>
+<tablecell borderwidth='0px' bgcolor='white'>
+<pardef id='17' leftmargin='2%' rightmargin='99%' hide='print' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") != "F"</formula></code></pardef>
+<par def='17'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Créé le :</run></par></tablecell>
+<tablecell borderwidth='0px' bgcolor='white'>
+<par def='14'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px' bgcolor='white'>
+<par def='15'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='18' leftmargin='1%' rightmargin='99%' hide='print' keepwithnext='true'
+ keeptogether='true'/>
+<par def='18'><run><font size='8pt'/></run><run><font size='8pt' color='navy'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/><field type='names'
+ kind='computedwhencomposed' name='org_author'><code event='defaultvalue'><formula
+>REM{2009-06-11: JML: ADR 3550: To handle existing documents, no name will be displayed if it’s not a new document.  And this field is no longer an Author field.};
+@If(@IsNewDoc; @Name([CN];@UserName); "")</formula></code></field></run><run
+><font size='8pt'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='19' leftmargin='1%' rightmargin='99%' hide='print' keepwithnext='true'
+ keeptogether='true'/>
+<par def='19'><run><font size='8pt'/></run><run><font size='8pt' color='navy'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/><field type='datetime'
+ kind='computedwhencomposed' name='date_create'><datetimeformat show='date'
+ date='yearmonthday' time='hourminutesecond' zone='never'/><code event='defaultvalue'><formula
+>@Created</formula></code></field></run><run><font size='8pt'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='14'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='15'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px 0px 1px'>
+<pardef id='20' leftmargin='1%' rightmargin='51%' hide='print' keeptogether='true'/>
+<par def='20'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell borderwidth='0px 0px 1px'>
+<par def='19'><run><font size='8pt' style='underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par>
+<pardef id='21' leftmargin='1%' rightmargin='99%' hide='print' keeptogether='true'/>
+<par def='21'><run><font size='8pt' style='underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px 0px 1px'>
+<par def='14'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px 0px 1px'>
+<par def='15'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px 1px 1px' bgcolor='#e0f1ff'>
+<pardef id='22' leftmargin='1%' rightmargin='69%' hide='print' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") = "F"</formula></code></pardef>
+<par def='22'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Editor:</run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px' bgcolor='#e0f1ff'>
+<pardef id='23' leftmargin='1%' rightmargin='69%' hide='print' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") = "F"</formula></code></pardef>
+<par def='23'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Edit Date:</run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px' bgcolor='#e0f1ff'>
+<pardef id='24' hide='print' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("HECS_Language") = "F" | !@Contains(@UserRoles;"[Admin]")</formula></code></pardef>
+<par def='24'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Cost w/Applicable HST:</run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px' bgcolor='#e0f1ff'>
+<pardef id='25' hide='print' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("HECS_Language") = "F" | !@Contains(@UserRoles;"[Admin]")</formula></code></pardef>
+<par def='25'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Status:</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px 1px 1px' bgcolor='#e0f1ff'>
+<pardef id='26' leftmargin='1%' rightmargin='99%' hide='print' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") != "F"</formula></code></pardef>
+<par def='26'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Éditeur :</run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px' bgcolor='#e0f1ff'>
+<pardef id='27' leftmargin='1%' rightmargin='99%' hide='print' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") != "F"</formula></code></pardef>
+<par def='27'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Date de l'édition :</run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px' bgcolor='#e0f1ff'>
+<pardef id='28' rightmargin='1.4694in' hide='print' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'
+ keepwithnext='true' keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") != "F" | !@Contains(@UserRoles;"[Admin]")</formula></code></pardef>
+<par def='28'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Coût avec TVH applicable :</run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px' bgcolor='#e0f1ff'>
+<pardef id='29' hide='print' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'
+ keepwithnext='true' keeptogether='true'><code event='hidewhen'><formula>@Environment("HECS_Language") != "F" | !@Contains(@UserRoles;"[Admin]")</formula></code></pardef>
+<par def='29'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/>Cheminement :</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px 1px 1px'>
+<pardef id='30' leftmargin='1%' rightmargin='99%' hide='print' keepwithnext='true'
+ keeptogether='true'/>
+<par def='30'><run><font size='8pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run><run><font size='8pt' color='navy'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/><field type='text'
+ allowmultivalues='true' kind='computed' name='edit_history' listinputseparators='comma semicolon newline'
+ listdisplayseparator='newline'><code event='defaultvalue'><formula>Name := @Left(Names;";");
+
+@If(
+  !@IsNewDoc &amp; @IsDocBeingSaved &amp; Name != @Name([CN]; @UserName)|Name=@Name([CN];@UserName) &amp; @IsDocBeingSaved &amp; !@IsNewDoc;
+  @Subset(@Trim(((@Name([CN]; @UserName)): edit_history)); 10);
+  @IsNewDoc; "";
+  edit_history)</formula></code></field></run><run><font size='8pt' style='underline'
+ name='Arial' pitch='variable' truetype='true' familyid='20' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px'>
+<par def='19'><run><font size='8pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='navy'/></run><run><font size='8pt' color='navy'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/><field type='text'
+ allowmultivalues='true' kind='computed' name='edit_history_1' listinputseparators='comma semicolon newline'
+ listdisplayseparator='newline'><code event='defaultvalue'><formula>Name := @Left(Names;";");
+@If(!@IsNewDoc &amp; @IsDocBeingSaved &amp; Name != @Name([CN]; @UserName)|Name=@Name([CN];@UserName) &amp; @IsDocBeingSaved &amp; !@IsNewDoc; @Subset(@Trim((@Text(@Now) : edit_history_1));10); @IsNewDoc; ""; edit_history_1)</formula></code></field></run><run
+><font size='8pt' style='underline' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px'>
+<par def='14'><run><font size='8pt' color='navy' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><field type='number' allowmultivalues='true'
+ kind='computed' name='Cost_history' listinputseparators='comma semicolon newline'
+ listdisplayseparator='newline'><numberformat format='currency' digits='2'
+ punctuated='false' parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>Name := @Left(Names;";");
+@If(!@IsNewDoc &amp; @IsDocBeingSaved &amp; Name != @Name([CN]; @UserName)|Name=@Name([CN];@UserName) &amp; @IsDocBeingSaved &amp; !@IsNewDoc; @Subset(@Trim(@Text(TotCostTaxed) : Cost_history);10); @IsNewDoc; ""; Cost_history)</formula></code></field></run></par></tablecell>
+<tablecell borderwidth='1px 1px 1px 0px'>
+<par def='15'><run><font size='8pt' color='navy' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><field type='text' allowmultivalues='true'
+ kind='computed' name='Status_history' listinputseparators='comma semicolon newline'
+ listdisplayseparator='newline'><code event='defaultvalue'><formula>Name := @Left(Names;";");
+@If(!@IsNewDoc &amp; @IsDocBeingSaved &amp; Name != @Name([CN]; @UserName)|Name=@Name([CN];@UserName) &amp; @IsDocBeingSaved &amp; !@IsNewDoc; @Subset(@Trim(Status : Status_history);10); @IsNewDoc; ""; Status_history)</formula></code></field></run><run
+><font style='bold' color='navy'/></run></par></tablecell></tablerow></table>
+<pardef id='31' leftmargin='1in' hide='print' tabs='L1.5000in'><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></pardef>
+<par def='31'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>*</run><run><font size='8pt' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/> Only past ten edits are shown</run></par>
+<pardef id='32' leftmargin='1in' hide='print' tabs='L1.5000in'><code event='hidewhen'><formula
+>@Environment("HECS_Language") != "F"</formula></code></pardef>
+<par def='32'><run><font size='8pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>*</run><run><font size='8pt' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/> Seules les dix dernières mises à jour apparaissent</run></par>
+<pardef id='33' align='none' leftmargin='1in'/>
+<par def='33'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par>
+<pardef id='34' align='none' leftmargin='1in'><code event='hidewhen'><formula
+>1</formula></code></pardef>
+<par def='34'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run><run><font size='8pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><field type='text' kind='computed' name='Names'><code
+ event='defaultvalue'><formula>edit_history + ";"</formula></code></field></run><run
+><font size='8pt' style='bold italic' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='navy'/></run></par>
+<pardef id='35' align='none' leftmargin='1in' hide='print notes'/>
+<par def='35'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='navy'/></run><run><font size='8pt'/></run></par></section></richtext></body>
+<item name='OriginalModTime'><datetime dst='true'>20090702T112637,81-04</datetime></item>
+<item name='Cost_history' summary='false'><number>0</number></item>
+<item name='$$ScriptName' summary='false' sign='true'><text> EdHistory</text></item></subform>
+

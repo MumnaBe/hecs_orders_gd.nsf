@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2956' unid='9FA533565F90A62885256BEB005F093A' sequence='4'>
+<created><datetime dst='true'>20020703T131802,82-04</datetime></created>
+<modified><datetime dst='true'>20260917T084511,13-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075010,21-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084511,12-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084511,12-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,84-04</datetime><datetime
+>20021104T141454,71-05</datetime><datetime dst='true'>20090902T074547,71-04</datetime></revisions>
+<item name='CompName'><text>Ottawa Graphic Supplies</text></item>
+<item name='CompAddress'><text>1636 Woodward Dr</text></item>
+<item name='CompPO'><text>Head Office:  120 Herzberg Rd<break/>                         Kanata ON<break
+/>                         K2K 3B7<break/>                      T:(613) 592-2944<break
+/>                      F:(613) 271-1618</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>K2C 3R8</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(613) 727-5610</text></item>
+<item name='CompFax'><text>(613) 727-6288</text></item>
+<item name='PurchContact'><text>Tracy or Lynne</text></item>
+<item name='InvContact'><text>Suzanne Egan</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>11100</text></item>
+<item name='CompAKA'><text>OGS</text></item>
+<item name='CompEmail'><text>sunduet@gilmore.ca</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Kroy printer cartridges</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

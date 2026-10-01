@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='54de' unid='24A2B8DB0169FF828525760A0064B301' sequence='1'>
+<created><datetime dst='true'>20090806T141954,25-04</datetime></created>
+<modified><datetime dst='true'>20260917T084917,60-04</datetime></modified>
+<revised><datetime dst='true'>20090806T141954,36-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084917,59-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084917,59-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='date_create'><datetime dst='true'>20020814T104220,62-04</datetime></item>
+<item name='edit_history'><text>Stephen Bjarnason</text></item>
+<item name='edit_history_1'><text>2002/08/14 10:43:12</text></item>
+<item name='Names'><text>Stephen Bjarnason;</text></item>
+<item name='OriginalModTime'><datetime dst='true'>20090520T111646,71-04</datetime></item>
+<item name='HFText'><text>No</text></item>
+<item name='HelpECategories'><text>2. Database Custodian Guide</text></item>
+<item name='HelpESubCat'><text>Customizing the Application</text></item>
+<item name='HelpFCategories'><text>2. Guide de gardien de base de données</text></item>
+<item name='HelpFSubCat'><text>Customizing the Application</text></item>
+<item name='HelpDocNumber'><number>9</number></item>
+<item name='HelpSubCatNumber'><number>2</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='73%'/>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Only database managers have access to write help documents for the Order Tracking database.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='fuchsia'/>Read Number 4 below before starting to write any help documents.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>To write an help document:</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.  Click on the Help button on the main navigator.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='2' leftmargin='1.5000in' rightmargin='73%'/>
+<par def='2'><picture height='196px' width='160px'><gif originalformat='notesbitmap'>
+R0lGODlhoADEAOYAAP///xj48MDAwEhISAAwmAAAgLCwsHiYyLjI4DhgsOjw8ODg8MjQ6BBAmIig
+0KCw0GB4uKi42FBwsDBYqACgACBIoGiIwPj44NDw0PjYWPDw8PjIAPjw2KDYoPjwuPjwyPj48DCw
+MHDIcNjw2AioCCCwILDgsLjouBioGEC4QMjoyOj46PjgcIjQiJjYmPjggPjooPjIIPjgmAigCPjQ
+SCCY0FDAUOjw+GDIYPjosMjo8PjIMACAyAiQ0GDAYKjY6MDg8Dig2FCw4Gi44HjA4IjI6MjIyODg
+4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwA
+AAAAoADEAEAI/wCNABhIsKDBgwgTKlzIsKHDhxAjSjxoYKIEAgoiEHgA4AABBAsIWACg8YGFBgAg
+VKgAQMKEgh4JyCQgYWCFlxYILCCIgMCBggkIAAjqAAADAhAAhEwA4CYABUgByGRgMEGCkh47ftSK
+QOrLnkk9IvDI8QEBByFHYqXpsOLEt3Djyp1Ll6Hbunjz6t0r9y7fv4AD8/UruLDhw20RK17MGADh
+xpAj130subJliJQva95sMDPnz5c9gx4NWTTp04hNo4b8IsOFhBwyfHAIQgaHiapXA77AIgYNGK8L
+fsjwInjCD703ZACBN7fuvCZKhGjRQUVBDztmx72wY8OLgRc+eP9onaE8CxnGOx9skNQogQgEHxxQ
+MDACgwNdXS4Iav/9gqIZLaDAT6RpoIEKPqTgggbCxbABC3G9sMEGOcDlnFwD7rRaCyTMQAEF0pEA
+ogsrFLSCCy2g0IJBHaAA4gkdnMDgQxd4kJ56BU3AFH1PaYSWSAMlIAEDCGjEAFQjpSRUSA74mBYA
+ORV5FpIQNPAAR1DV5JRH9PXEFF0rjIDBChh00AIONqRQAgkklJBCCy2kcIIIIhx0Ag44nDBYXAog
+wGNBffqpYWVEKvDnQX0O+tYNOtyQ0A0/1MBDDz0I0aijBDE6Y0J+HVCBRhAwUEFNDmw01FUiHcrA
+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
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.  Click on the Admin button on the action bar.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><picture height='207px' width='188px'><gif originalformat='notesbitmap'>
+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
+mkM5pL+Ayy/1esKw2sB3CQgAOw==
+</gif></picture></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='3' leftmargin='1.0021in' rightmargin='73%' firstlineleftmargin='0.8118in'/>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.  You can now either select an existing document you want to edit by double clicking on that help document or you can create a new help document by clicking on the New Entry button on the action bar.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>4.  The following information is required before you can enter the actual help text.  </run><run
+><font style='bold italic' name='Arial' pitch='variable' truetype='true' familyid='20'/>Read the following before starting.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='4' leftmargin='2.4000in' rightmargin='73%' firstlineleftmargin='1.2500in'/>
+<par def='4'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>English Subject:</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>  the English text as you want it appear in the list of help documents and on the help document when it is opened.</run></par>
+<pardef id='5' leftmargin='2.3903in' rightmargin='73%' firstlineleftmargin='1.2500in'/>
+<par def='5'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>French Subject:</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>  the French equivalent to the English subject.  You cannot leave this blank, something must be entered even if it is only a space.</run></par>
+<pardef id='6' leftmargin='1.2500in' rightmargin='73%'/>
+<par def='6'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>English Category:</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>  pick the most suitable category from the pull down.</run></par>
+<pardef id='7' leftmargin='2.8097in' rightmargin='73%' firstlineleftmargin='1.2500in'/>
+<par def='7'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>English Sub-Category:</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>  pick the most suitable sub-category from the pull down or create a sub-category by entering text in the New Keywords box at the bottom of the sub-category box.  Once entered, it cannot be deleted!!</run></par>
+<par def='6'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>French Category:</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>  select the French equivalent to the English category.  Be sure to pick the same category!!</run></par>
+<par def='6'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>French Sub-Category:</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>  select the French equivalent to the English sub-category or create a sub-category.</run></par>
+<pardef id='8' leftmargin='2.1701in' rightmargin='73%' firstlineleftmargin='1.2500in'/>
+<par def='8'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Document #:</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>  enter the document number for the selected sub-category.  This number determines the order in which documents are displayed when someone views the list of help documents in a sub-category.</run></par>
+<pardef id='9' leftmargin='2.3500in' rightmargin='73%' firstlineleftmargin='1.2500in'/>
+<par def='9'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Sub-Category#:</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>  this number determines the order of the sub-categories under a category.  For example, if you want "Receiving and Reconciling Orders" help documents to appear before "Customizing the Application" documents under the category of "Database Custodian Guide", the </run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>"Receiving and Reconciling Orders"</run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/> documents must all have a number 1 in the Sub-Category field and the "Customizing the Application" documents must all have a number 2.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><picture height='302px' width='248px'><gif originalformat='notesbitmap'>
+R0lGODlh+AAuAeUAAP///wAAgODw+AAAAMDAwICAgAgIgCAgkOjo8NjY6Kio0Ojw+GhosBgYiBAQ
+iPDw+CgokEhIoMjI4Dg4mGBgYEBAoKCg0LCw2JiYyNDQ6DAwmGBgsHBwuICAwJCQyFBQqMDA4Li4
+2FhYqHh4uODg8IiIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA+AAuAUAI/wABCBxIsKDBgwgT
+KlzIsKHDhxAjSpxIsaLFiwoDaAyAsaPHjyBDJtzIUeRIkihJDuSwcQMCACw1RhioUiDJCwAQfNg4
+86RGgzUZ8HyAIMJGBgKFamwAAsADDA1obpT60+ZGDw8AdCCJVetGAwJjBnAJkyfVAAoAYPhKsCbB
+Ax5ePrjA9izQqQCUBohA1KhGpFY1pl2rEexCt3YLYojQQKMDDRwkJAbAFUIAAxWaHkZpAIKItAcT
+MDig8QCDBAYRcNBgIICDD6AFWiDdoANlvLerBi65WzFjx5Al9x4+UEEFB0snyCYdAIIExACMIw/Q
+QHlu3gBEMzeNui1u6CbDi/8fT768+fPo06tfz57igPfw48ufT7++/fv48+vfz7+///8ABihgfhQQ
+JMCBGh2oYIIKNujggxBGKOGECAYAIYMTYkjhhhwuaGGHIIYo4ogkQriAgRWm9GGKGzWYUoUexsji
+ihoySJKDNq4oQI4uoiQjjEDu+KGKLArp4Y1BGlnikkyOeGJ7UEYp5ZRUVmmlQgQQVMCVXOpm1ZdV
+/SQmdlOFiV1BY4JZUppe3obmmVweRAABW8Zp55145qknAAP26eefgAYq6KCE2lfgm95JpSZHabpZ
+Jpm4uekom4yuWamaX1JJZ517durpp3JqCeqopJZqakMpPdToXRlFCtSpoXL/Cit5qZqJaaM12fqm
+bihl6haueHkZLJxSZrlllnMmOwAAydK57KzQRivttNRa1Oyc1YLUpq3cXnqdr8Sq1G2mirIKrLiW
+SrrqqiYhe+21BTyb7bz01mvvvfiymliu3n47KaJ3jWkmr97y+6ur5hn70LsM5wsqeAchfGWzABzL
+LMPJxuvwxhx37DFGxhYg8scOCcvbuP+mbLKiAucmaaIqF5xuyygHRq5HCrs7J3wXO0vyz0AHLfTQ
+CBGsbr/gHo1pzC/TZBPRUEcdnshUyyr11ViLZ3TExJbbZrlcd7RmnApnDe3X0ZZt9tpst+3223DX
+Cx7Em6EtUU0IQLURBELT/82Q3+rNjRtzAXRX9He4gbB3q14i0JhGOAFAeAYCZbDRAQIRHsLhGmXl
+7+eg10S44VwTbHKb050cqeBVTV755ZMBHrjEceNb6O2456777rzLd2jtwF/U5PDEF2/88cgnr/yT
+Av0oY41D6vgjhjn6qCSQGj6vI49Jch8k9dIjCX730feo/PkkMg8A+uy37/778CevfvD0T7Rtv5Qe
+XfPNSQNLHLrsao/a6jcZ9tgNWhSzGgEXyEAChmxkWVtZ/2ZGwZsZjWb5Q5n/PDXABnrwgyAcWq0q
++K+WeQ1SnJPZ0vx3wa5NrGcY01gIo1Y1CO5nhjiU1gFbtZnDgQ1gPmwazP+m1MH6qY5aR0SVCy+S
+MxgyTIY5jKIUp5WlgSgQahIU4v6U9sMJ8k+D+EMa2ejErJ7JJ2PymqIa9dS7NrrxjXCM4+9+uDUM
+Ku1R3pGgHYfotBVWEI9MI05DNuWQKi4kjWvsmCErVsYaOhKKiYyknXpFpXA97VRFvBol/4e4QA4s
+XVy8ZBKzlUlJmvKUHLxW29DlRyAm6lyArBm7UoXKWtrylrjMpS53yUsjIkx2pVuiqlSkEQhQrm+0
++9svk2kS1mFHAo9DyQbyqDpiVqBuZ/LARj5QnNZwJjYAAEHqDma6agagAikJgV9IohkAQFNF0zzL
+BFACGmJ+kiQGEI49LaX/GwV4E5/gJMk8SQLOFAbMnMSM3eqYCZ0EwC50wzogOc1JzYpeJ6GcPN2Z
+EDBQFVnUooiZaAENuiveIGCctPzcPg1AuoOqqAEkGEgC/smZ7swUowDoqEcFGVK8nHSfCvUS4VRi
+GXu+Zac1uamKWBpUYaYHmL2MqlSnStWqWvWqWP1U/LbK1a56FX7qOxKSvroh6SVJQmN9H43MSta2
+OiisZ73ei8RaPXvSla4tsp72XmS9uQopr/uMno8Gu9axEtOt7YPr9bRnvsVOb61xXaz3Ggu9722v
+fI/dK/YgK1nMRhaxxlMsaEdL2tKCFUWmTa1qV9uk+WX1tbC9SEqVKcQu/1LThfeDiFPTU8qojbCV
+lEKhFvkFXBXmNra72WAG+QnK+3Uyf/qj6NL01FvkQsuR1s2udrcrrXeZbYcUsdvW9BXe3aqnukTL
+4m9TdsJg3vGPvToudzsF3rQxcr74za9+9yvFRV4xvWda16VgOV3+9cZgR/xkcqV7HvQSBGOqnNdx
+WYi0WAoXZhtsryzFaKU5WUxZ8UEj0KCKHqgyM0oJLCOEPYxI/rr4xVSKo4xnTOMa/2eOqHzgf0UY
+4OUO2LizXOiihvuqVpaQwuQiMSEH2ZAWR2vCP/7xey2Y4EpZubZg5GJwp0wVA1ekic3imYhhXCX/
+NvKRVXMymdfM5javbf+TGNkh4MwLKgcjE5BcDqCuvPwtXSGZvQHEk85iqOZZZdFffh6WgSfa3Ocy
+l8qg5BKYwwxDSLp5Pdjlk34uzelOc9e7EaTzMINYWz4nLWwdvu+bL7xePUe6olnmI8tkxkqmtbA8
+g35iobU7yh6KZ9IQtrSnh03sYhu7I2YO9QnL6UU8E1dgkKr1qOwctFuz14tc1jCcxnYvDx9b0slS
+9bfHTe4m2/jc6E63jHF8Sh1/V8iTEuPXqoztWDeN2/VFz5JXPWuX4VnbRlZuhbd1yVILWtzlhlKy
+E87whjv84RCPuMQnTnGSOfNuJy5ZSg7wmTWS2CMXj8jHGUdMAxxzxBn/J+mUQj6QB3SANa6pgAVK
+epYMfAA5DmCA53yCnZ8KhiDaKc0GWpqTEcC8AR+InEoR9xMLaOAyFRDOBSrQmglsjiAuh7kDZE7z
+DpDmADNfcE1K8AHmdOY0Z6ElYoIegAMMvetfDzs2gSoQx9lT6YxOidzdC/SNRCU7NMVnd0gQeKYz
+OLDWrHs0U4J3e1qH7o4Xe0RLotSUMFXyGrEOyekOgKIG4CVO2YgDmipT0ZP8oJnbiHAsVxqBeP7q
+qM8obx7gFtrjxfOgt71rEoOAnqLtAgyowFCjvW28EG71D/VX7zPOcsSTfqQ0JwhhAiACnk6e58+3
+/j13unSNFmQDLZGA/+6JH3vfH575y9SNXiBwAdBLYAR/734AspIBz3Pg9DlRAOE0r5cIIKAoR5EU
+e9MUD6AA8fdPGBAdIlVAQbE37ScQ7xd/C7gbHkBNm2MB5leBFtV//7dOgCF/yjRvkSIBwzeB+7R3
+wZQSGtBS/mR54HQBhccbCoASOsWAC6UbJGhUsid9HoWB+IQY04dg3eSCHzVytJJyFfcRRpiETNiE
+Tpg16haFUjiFg8JuT3iFWJiFWriFXNg8rPWFYBiGESJaYliGZmhaZHiGariGXqVYdpVa2fNZPdIi
+8DM+bMg+bmhW0BOHhmUhdEiHR2I+4pNWSpIggwiIaWWIfriIgjWHdf+1iI4oiIB4hxuShw9SPSmS
+iYWIiZuoWZt1IY34iZr4h+ATit5ziqbIiY5FiWOIWnzoWZ14iZy1iX11WZE1WahIWbZoWXjFi51F
+PqxYia4YPoU1itxjh7Qoisqoi8xojLCIjLkoV6n4jGwVjA2Sh3oViTiCiLO4h41lWcQIjI6ViLso
+jWKVjHtYjqtojdeIWuz4jvDoJO4Yj/RYj604EFSYj/q4j/phhV34jwAZkFgSYQJJEe6mbBjna+Ql
+XqJGXpqCcFjjXEcmZd0ycHp0ZdD1Z/lGHvv2bgCDZAoWSrBGQsH1bwZ3VVAWb0dmZEkWZf4mZbb2
+age3Y75lW0/VkNP/BpEFuTCispM++ZNAGZRCOZS5tHCatIQnwXO41WO6RTY6KTXeh2hhtEUieCuN
+xmzSVixP6VvSlmUpeVv1BpOutl3qxZTXJpKI4pXyZpbTRkYox0fEFV2nlnb9JnDMVmDUtZVRtZGm
+kmJEyRCZ9peCOZiEmVX8eJiIyY/+GEmgVpgGcZARiZMnaWp75koIpJcAtisTuZIqeWgFJ3CdSZIM
+ljAQxBCLlBC7diopOS4hWZlok5HxJZovE2hOuWI+ky2riZFiqUIYBmTN9mc2M5nsAWwEIGYs9jO9
+FiXJmZQzqWIrJmwCaWY6hmap6ZjWeZ3YmZ3auZ0fYZRQCWc9xJBK/8mc2DcSZYaZPJaW9EZgZ1mV
+nClrB3Z9frR90IcQ1OZEGEMvreabJjSXyRWWlmkXiZZnYSScTISf8FKdpZKbVplHaPlKsmmSBPqR
+vomXyEZGOnNGx4mbsfmbcomWm7RcKkdJIRkzrlmZB/phlNYs0LkxSKknJsaXCxNuKhpsCqqFmXZD
+3LmjPNqjQJOYQBqk6baYidSY2QmZRykSEiWTNjkr94mcrEZBu/mS8ElvU2ZhofSi1lKaC3GaCHGj
+o1KWtTaW9xYuuzmmFXqWB2ebLWpoUVpcLAmgA7pHQcakD1mjxfkePdOmp7ScpNacufYufNqF0lkx
+aEY1YOqjirqojP/aqI76cN7JlUioROP5p3xXNC9Ek5m5L4p2l2Tam2r6mo9SouyZUiN3n7aJLRLW
+lRFqls41pzLJkKCplv3GkQjKoon6KWVJoUR2khqpm/qSYXJqpSLhbRkaYhtaLYcWl60ZqwfzntF3
+UeBibXEZnDLKZHhanJWWq1kVo5I5SDTqnDYalDm6aY96ruiarnEipOzarnBEpGtkpNiJpN9paiVm
+SZQBK09qcVb6qy85pXg0b6L0rcXCpQgZk7wKq2g6XFoaWwOKsFiKsO35mQSbl5pamPsKlJGqrhzb
+sR77sSCbXRuLRX4DXnOWEWJTcKl2scgUrDAJn312fUJ4UaO0XndQ6jYkKpswG7MACmjyprLz5a8S
+am+nJmBaBLSf4m3V9qzQFXvS+qEfejpoQrF1hp5SNamphC0sS5SBGbJe+7VgCxLuOrZkizvwGrZo
+m7ZuFhAAOw==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>5.  You can now enter the text of the help document in the English and French help text areas.  Include graphics if desired.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>6.  When you are done, spell check the document and Save and Close.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='10' leftmargin='0.8125in' rightmargin='73%'/>
+<par def='10'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpESubject'><text>Writing Help Documents</text></item>
+<item name='HelpFSubject'><text>Writing Help Documents</text></item></document>
+

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='67ae' unid='06920E0D66EE1393852579F300536BFE' sequence='2'>
+<created><datetime dst='true'>20120503T111111,34-04</datetime></created>
+<modified><datetime dst='true'>20260917T085056,62-04</datetime></modified>
+<revised><datetime dst='true'>20120503T111452,63-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085056,61-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085056,61-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20120503T111447,05-04</datetime></revisions>
+<item name='CompName'><text>Professional Engineers Ontario</text></item>
+<item name='CompPhone'><text>416-224-1100/416-840-1091</text></item>
+<item name='CompAddress'><text>40 Sheppard Ave. West, Ste. 101</text></item>
+<item name='CompFax'><text>416-2248168</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Toronto</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>M2N 6K9</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Jenny V. Melendez</text></item>
+<item name='CompEmail'><text>jmelendez@peo.on.ca</text></item>
+<item name='CompWeb'><text>www.peo.on.ca</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20120503T111111,34-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text>Dian Calagoure</text></item>
+<item name='edit_history_1'><text>2012-05-03 11:14:46 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Dian Calagoure;</text></item></document>
+

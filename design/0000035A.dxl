@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE scriptlibrary>
+<scriptlibrary name='Copy Of LimitChecks' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3 v4strict'>
+<noteinfo noteid='35a' unid='94F89FD9D071ACD6852574AD0043A52D' sequence='5'>
+<created><datetime dst='true'>20080822T081851,97-04</datetime></created>
+<modified><datetime dst='true'>20260917T084246,43-04</datetime></modified>
+<revised><datetime dst='true'>20080902T111711,52-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084246,42-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084246,42-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rania Otell/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name>CN=Chau Nguyen/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	
+End Sub
+</lotusscript></code><code event='BudgetLimit'><lotusscript>Public Sub BudgetLimit 
+     ' This subroutine verifies the limits, i.e. compares the order's amount against the budget amount
+	
+     ' declare object ref variables   
+	Dim s As New NotesSession
+	Dim ws As New NotesUIworkspace     
+	Dim db As NotesDatabase
+	Dim v As NotesView
+	Dim Projectdoc As NotesDocument
+	Dim Orderuidoc As NotesUIdocument
+	Dim projectname As String
+	Dim category As String
+	Dim orderamount As Currency
+	Dim temp As String
+	
+     ' instantiating objects
+	Set db = s.CurrentDatabase   ' getting the current database
+	Set v = db.GetView("PV")   ' getting the project view
+	Set Orderuidoc = ws.currentdocument   ' getting the current order document
+	
+	projectname = Orderuidoc.FieldGetText("ProjectSelection")   ' get the value of the project name/number field from the order document
+	Set Projectdoc = v.GetDocumentByKey(projectname)   ' according to the project name/number value, get the correct project document from the project view
+	
+	category = Orderuidoc.FieldGetText("FinCategory")   ' get the value of the financial category field
+	temp = Orderuidoc.FieldGetText("TotPrice")
+	temp = Right$(temp, Len(temp)-1)
+	orderamount = Ccur (Orderuidoc.fieldgettext("TotGst")) * Ccur(temp)   ' get the total price field for the order and multiply it by 1.06 for the GST
+	
+	If Not (Projectdoc Is Nothing) Then
+		Select Case category
+		Case "Operating"
+               'compare operating budget
+			If (Ccur(Projectdoc.budgetOp(0)) &lt; orderamount + Ccur(Projectdoc.budgetOp_com(0))) Then   ' the order amount + the amount committed cannot exceed the budget amount
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the Operating Budget Amount Limit !!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce le budget total octroyé pour la catégorie 'fonctionnement'"
+				End If
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning", "Budget")
+				End If
+			End If
+			If (Ccur(Projectdoc.TotBudget(0)) &lt; orderamount + Ccur(Projectdoc.TotCommitted(0))) Then   ' the order amount + the amount committed cannot exceed the total budget amount
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the Total Budget Limit for the project!!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce le budget total du projet!"
+				End If
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning", "Budget")
+				End If
+			End If
+			
+		Case "Travel"
+               'compare travel budget
+			If (Ccur(Projectdoc.budgetTrav(0)) &lt; orderamount + Ccur(Projectdoc.budgetTrav_com(0))) Then   ' the order amount + the amount committed cannot exceed the budget amount
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the Travel Budget Amount Limit !!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce le budget total octroyé pour la catégorie 'Voyages'"
+				End If
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning", "Budget")
+				End If
+			End If
+			If (Ccur(Projectdoc.TotBudget(0)) &lt; orderamount + Ccur(Projectdoc.TotCommitted(0))) Then   ' the order amount + the amount committed cannot exceed the total budget amount
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the Total Budget Limit for the project!!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce le budget total du projet!"
+				End If
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning", "Budget")
+				End If
+			End If
+			
+               ' 
+		Case "Contract"
+               'compare contract budget
+			If (Ccur(Projectdoc.budgetContr(0)) &lt; orderamount + Ccur(Projectdoc.budgetContr_com(0))) Then   ' the order amount + the amount committed cannot exceed the budget amount
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the Contract Budget Amount Limit !!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce le budget total octroyé pour la catégorie 'Contrats'"
+				End If
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning", "Budget")
+				End If
+			End If
+			If (Ccur(Projectdoc.TotBudget(0)) &lt; orderamount + Ccur(Projectdoc.TotCommitted(0))) Then   ' the order amount + the amount committed cannot exceed the total budget amount
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the Total Budget Limit for the project!!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce le budget total du projet!"
+				End If
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning", "Budget")
+				End If
+			End If
+			
+			
+		Case "Capital"
+               'compare capital budget
+			If (Ccur(Projectdoc.budgetCap(0)) &lt; orderamount + Ccur(Projectdoc.budgetCap_com(0))) Then   ' the order amount + the amount committed cannot exceed the budget amount
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the Capital Budget Amount Limit !!!!"                   
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce le budget total octroyé pour la catégorie 'Capital'"
+				End If
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning", "Budget")
+				End If
+			End If
+			If (Ccur(Projectdoc.TotBudget(0)) &lt; orderamount + Ccur(Projectdoc.TotCommitted(0))) Then   ' the order amount + the amount committed cannot exceed the total budget amount
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the Total Budget Limit for the project!!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce le budget total du projet!"
+				End If
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning", "Budget")
+				End If
+			End If               
+      '
+		End Select
+	End If
+End Sub
+</lotusscript></code><code event='terminate'><lotusscript>Sub Terminate
+	
+End Sub
+</lotusscript></code><code event='CreditCardLimit'><lotusscript>Public Sub CreditCardLimit
+     ' This subroutine verifies the limits on the credit card, i.e. compares the order's amount against the card's maximum per order, per month
+	
+     ' declare object ref variables   
+	Dim s As New NotesSession
+	Dim ws As New NotesUIworkspace     
+	Dim db As NotesDatabase
+	Dim v As NotesView
+	Dim Carddoc As NotesDocument
+	Dim Orderuidoc As NotesUIdocument
+	Dim cardholdername As String
+	Dim purchasetype As String
+	Dim namekey(1 To 2) As String
+	Dim orderamount As Currency
+	Dim temp As String
+	Dim Rcm As Variant
+	'Dim Mmm As Variant
+	'Dim Cmm As Variant
+	'Dim Crc As Variant
+	
+     ' instantiating objects
+	Set db = s.CurrentDatabase   ' getting the current database
+	Set v = db.GetView("CHL")   ' getting the card holder lookup view
+	Set Orderuidoc = ws.currentdocument   ' getting the current order document
+	
+	purchasetype = Orderuidoc.FieldGetText("PurchaseType")   ' get the value of the purchase type field from the order document    
+	cardholdername = Orderuidoc.FieldGetText("CardHolder")   ' get the value of the card holder field from the order document
+	temp = Orderuidoc.FieldGetText("TotPrice")
+	temp = Right$(temp, Len(temp)-1)
+	orderamount = Ccur(Orderuidoc.fieldgettext("TotGst")) * Ccur(temp)   ' get the total price field for the order and multiply it by 1.06 for the GST
+	
+	If Not ((purchasetype = "") And (cardholdername = "")) Then
+		namekey(1) = purchasetype
+		namekey(2) = cardholdername
+		Set Carddoc = v.GetDocumentByKey(namekey)    ' according to the value of purchase type and card holder name, get the correct cardholder document from the card holder view
+	End If
+	
+	Rcm = Carddoc.RemCreditM(0)
+	'Mmm = Carddoc.MaxMonthM(0)
+	'Cmm = Carddoc.MaxMonthV(0)
+	'Crc = Carddoc.RemCreditV(0)
+	
+	If Not (Carddoc Is Nothing) Then
+		Select Case purchasetype
+		Case "MasterCard"
+			
+			If orderamount &gt; Carddoc.MaxMonthM(0) Then   ' the monthly acquisition card limit is exceeded
+			'If orderamount &gt; Mmm Then
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the monthly credit card limit!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce la limite autorisée de la carte d'acquisition"
+				End If                    
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning2", "CreditCardM")
+				End If
+			Elseif orderamount &gt; 5000 Then
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the $5000 per order limit!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce la limite de $5000 par commande!"
+				End If     
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning2", "CreditCardM")
+				End If
+			'Elseif orderamount &gt; Carddoc.RemCreditM(0) Then
+			Elseif orderamount &gt; Rcm Then
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  The order total exceeds the available credit for this credit card."
+				Else
+					Messagebox "MISE EN GARDE: La commande dépasse la valeur résiduelle de la carte d'acquisition"  
+				End If
+				
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning2", "CreditCardM")
+				End If
+			End If
+               ' Carddoc.RemCreditM = Carddoc.RemCreditM - orderamount   ' substract the orderamount from the remaining credit
+		Case "VISA"
+			If orderamount &gt; Carddoc.MaxMonthV(0) Then   ' the monthly acquisition card limit is exceeded
+			'If orderamount &gt; Cmm Then
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the monthly credit card limit!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce la limite autorisée de la carte d'acquisition"
+				End If                    
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning2", "CreditCardV")
+				End If
+			Elseif orderamount &gt; 5000 Then
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  You have exceeded the $5000 per order limit!!!"
+				Else
+					Messagebox "MISE EN GARDE: votre commande défonce la limite de $5000 par commande!"
+				End If     
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning2", "CreditCardV")
+				End If
+			Elseif orderamount &gt; Carddoc.RemCreditV(0) Then
+			'Elseif orderamount &gt; Crc Then
+				If s.GetEnvironmentString("HECS_Language")="E" Then
+					Messagebox "WARNING!!!  The order total exceeds the available credit for this credit card."
+				Else
+					Messagebox "MISE EN GARDE: La commande dépasse la valeur résiduelle de la carte d'acquisition"  
+				End If
+				
+				If Orderuidoc.FieldGetText("SendWarning") = "No" Then
+					Call Orderuidoc.FieldSetText("SendWarning2", "CreditCardV")
+				End If
+			End If      
+              ' Carddoc.RemCreditV = Carddoc.RemCreditV - orderamount   ' substract the orderamount from the remaining credit
+		End Select
+	End If     
+	
+End Sub
+</lotusscript></code><code event='ConvertCurrency'><lotusscript>Public Function ConvertCurrency(curNumber As String) As String
+	
+	ConvertCurrency=Right(curNumber, Len(curNumber)-1)
+	
+End Function</lotusscript></code>
+<item name='$POID'><datetime dst='true'>20080902T111711,52-04</datetime></item></scriptlibrary>
+

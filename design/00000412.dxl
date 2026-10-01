@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(restore)' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' hide='v3' publicaccess='false' designerversion='6.5'
+ comment='Added for ADR 3550, restore Soft Deleted docs'>
+<noteinfo noteid='412' unid='D845C7604BABFDA1852575D80054A964' sequence='7'>
+<created><datetime dst='true'>20090617T112443,88-04</datetime></created>
+<modified><datetime dst='true'>20260917T084250,69-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,67-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084250,68-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084250,68-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134342,12-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='selected'/><code event='action'>
+<simpleaction action='runformula'><formula>FIELD form := form;
+
+REM{July 2009, ADR 3550: JML.  This agent is called from the restore button in the Soft Delete view. It restore the deleted documents.};
+
+REM{Remove the SoftDelete prefix from the form name};
+@SetField("Form"; @ReplaceSubstring(form; "SoftDelete"; ""));
+
+REM{Remvoe the SoftDelete flags};
+FIELD SoftDelete := @DeleteField;
+FIELD SoftDeleteDate := @DeleteField;
+FIELD SoftDeleteBy := @DeleteField;
+SELECT @All</formula></simpleaction></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20090706T080300,15-04</datetime></agentmodified></rundata>
+<item name='$POID'><datetime dst='true'>20090706T080301,74-04</datetime></item></agent>
+

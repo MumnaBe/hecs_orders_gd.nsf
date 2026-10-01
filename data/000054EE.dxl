@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='54ee' unid='E92B255C1C72A6358525760B0056F413' sequence='1'>
+<created><datetime dst='true'>20090807T114945,79-04</datetime></created>
+<modified><datetime dst='true'>20260917T084918,16-04</datetime></modified>
+<revised><datetime dst='true'>20090807T114945,88-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084918,15-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084918,15-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20090807T112953,02-04</datetime></item>
+<item name='HFText'><text>Yes</text></item>
+<item name='HelpECategories'><text>1. User Guide</text></item>
+<item name='HelpESubCat'><text>Placing An Order</text></item>
+<item name='HelpFCategories'><text>1. Guide d'utilisation</text></item>
+<item name='HelpFSubCat'><text>Commander</text></item>
+<item name='HelpDocNumber'><number>3</number></item>
+<item name='HelpSubCatNumber'><number>1</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='1in'/>
+<par def='1'><run><font size='12pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='maroon'/>Summary of the buttons and special fields on the Order Form</run></par>
+<pardef id='2' leftmargin='1in' rightmargin='100%' tabs='L1in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'/>
+<par def='2'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par>
+<pardef id='3' leftmargin='1in' rightmargin='100%' tabs='L1in L1.3750in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'/>
+<par def='3'><run><font size='11pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Purpose of the Order Form:</run><run><font
+ size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/> Places orders based on projects, this form captures Order Information, Employee Information, Company Information, Items and Cost information. Most importantly it captures a Financial Code and Order Number.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='4' leftmargin='1in' rightmargin='100%' tabs='L1in L1.5000in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'/>
+<par def='4'><run><font size='11pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Special Fields: </run></par>
+<table widthtype='fitmargins' refwidth='9.7500in'><tablecolumn width='18.3403%'/><tablecolumn
+ width='81.6597%'/>
+<tablerow>
+<tablecell>
+<pardef id='6' keepwithnext='true' keeptogether='true'/>
+<par def='6'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Field name</run></par></tablecell>
+<tablecell>
+<pardef id='7' leftmargin='0.0104in' keepwithnext='true' keeptogether='true'/>
+<par def='7'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Description</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<pardef id='8' tabs='L1in L1.5000in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'
+ keepwithnext='true' keeptogether='true'/>
+<par def='8'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Project</run></par></tablecell>
+<tablecell>
+<pardef id='9' tabs='L1in L1.5000in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'
+ keepwithnext='true' keeptogether='true'/>
+<par def='9'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Opens a dialogue list associated to a keyword list of Projects which are created by the Administrator</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='8'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Financial Code</run></par></tablecell>
+<tablecell>
+<par def='9'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Identify the Financial Code used to purchase the items.  The Project has to be selected prior to choose a Financial Code.  The Financial code is chosen by clicking on the button “Generate Financial Code”.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='8'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Card Holder</run></par></tablecell>
+<tablecell>
+<par def='9'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Identify the MasterCard and VISA card holder.  This field is not visible if the purchase type is "Purchase Order".</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='8'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Signing Authorities</run></par></tablecell>
+<tablecell>
+<par def='9'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Identify the signing authorities for that order if the purchase type is not MasterCard or VISA.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='8'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Cost W/Applicable GST</run></par></tablecell>
+<tablecell>
+<par def='9'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This is the total cost of the order with the applicable GST amount.  If the Project is exempted from GST or if the currency is not Canadian, the GST is not included to the cost.  The Cost W/Applicable GST is used to commit amounts to the project and to adjust the remaining credit on the credit cards.  That cost also take in consideration the Exchange rate, custom cost, and the shipping cost.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='8'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Reference number</run></par></tablecell>
+<tablecell>
+<par def='9'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Sequential number generated when the Administrator clicks on the button [Got it].</run></par></tablecell></tablerow></table>
+<par def='4'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par>
+<par def='4'><run><font size='11pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Buttons: </run></par>
+<table widthtype='fitmargins' refwidth='9.7500in'><tablecolumn width='18.3403%'/><tablecolumn
+ width='81.6597%'/>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='28px' width='55px'><gif originalformat='notesbitmap'>
+R0lGODlhNwAcAOIAAMDAwNDQyAAAAICAgPj4AP///wAAgICAACwAAAAANwAcAEAI7gADCBxIsKDB
+gwgTKhQIoKHDhw0FCBhAsSLEixgzXhyY0YBDAQQKhJw4AKOAjBI/RsTIUaPLlzA1toxJs2bGmRA9
+Rgw5kqJJmyc3MowpsUBQmzZxIl0aUynTpzeHugQpUqJPqC6VGtjKFQDVniUvHlWp8qTEsQ2diuVp
+9CpEtCu9xoULQC3Wu3bvQs2rlynfvkj/Aq4peHBTqRoFGCXp1nBdxChFVm388WzKnzIhO9waUTIB
+kphp0rXL2avIA58pR7RMNqhrlprFegYtFuXR10IDwJTIk/Zby2YfBo/7sHBlxxCNI4+qe/lT5c6T
+BwQAOw==
+</gif></picture><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<pardef id='10' keepwithnext='true' keeptogether='true'/>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Exit: </run></par>
+<pardef id='11' leftmargin='0.2604in' list='bullet' keepwithnext='true' keeptogether='true'/>
+<par def='11'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Close the Order form.  If changes were made to the document, the system will prompt the user to save.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='32px' width='63px'><gif originalformat='notesbitmap'>
+R0lGODlhPwAgAOMAAMDAwNDQyAAAAICAgEBAQAD4+ACAgP///0hISAAAAAAAAAAAAAAAAAAAAAAA
+AAAAACwAAAAAPwAgAEAI/wAHCBxIsKDBgwgTJkSAMEAAABAjSoxowMDEixgzatTo0KFEAQYKADgQ
+EoDIkyZTCvjIcqNLiR0fuhSwEgDNlzhzQoyps6dPlzwlVkyJEmXNn0gBBL0IUiRJkTQJHrXZ8mjN
+lVeBdkzK9WfMr2DDih1LtmzYrmhzLr041Ghar1spjixZlChVpjSnol0LsenculBvfsyLEWtEw30x
+8p3YVADBvnptEj48+S7kyDvjvt18cTHnzQ4JiB5NurTp06hTq0ZttrXr12U/y87scfZnz0JLYrY9
+0XNFwJZ5d9YMwMBTu3V3215b8jhwqIxbpuXr1zlyk4KDD86aWPJuz9XpYjR3PEC51cmI82aHSZxx
+86gDIR+uOr+7Zcy4DxsgL1947/YZVebfcLUN2FV+BqoF24IMthYQADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='7'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Save:</run><run><font size='11pt' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/> </run></par>
+<par def='11'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The button save is used to save the order if the validation passes</run></par>
+<par def='11'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>If the Financial Code has not been generated, the system will ask the user to click on "Generate Financial Code".</run></par>
+<pardef id='12' leftmargin='0.2604in' list='bullet' tabs='L1in L1.5000in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'
+ keepwithnext='true' keeptogether='true'/>
+<par def='12'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The system will validate the mandatory fields.  The mandatory fields are identified with an apostrophe *.</run></par>
+<par def='12'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The system will ensure there is a Card Holder if the Purchase Type is "Visa" or "Mastercard".</run></par>
+<par def='12'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The system will ensure there is a Signing Authority if the Purchase Type is "Purchase Order".</run></par>
+<par def='12'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The system will ensure there is a company name, a phone and a fax.</run></par>
+<par def='12'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The system will display a warning popup if the Remaining Credit amount on the Credit Card or the Budget for the project is exceeded.  If such a warning is displayed, you can modify the quantities of ordered items, adjust the cost, choose a different purchase type.  The Admin can also adjust the Remaining Credit on the Credit Card or adjust the Budget for the project.  The warnings are reassessed each time the new and submitted orders are saved.  If the warning has not been dealt before the Admin clicks on [Got It], then emails may be sent to the Principal Investigator for the project, the Section Head for the project, the Credit Card holder, or the Admin.</run></par>
+<par def='7'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The status of the order is set to "</run><run><font size='11pt'
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>New</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>"</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='33px' width='171px'><gif originalformat='notesbitmap'>
+R0lGODlhqwAhAOMAAMDAwNDQyAAAAICAgODg4EBAQAD4AAAA+AAAgACAAAAAAAAAAAAAAAAAAAAA
+AAAAACwAAAAAqwAhAEAI/wALCBxIsKDBgwgTKlzIsKHDhxAjSiQAAMABBAcSGNiY4OKBjSA3eqxI
+sqTJkyhTqlzJsqXLlzBjphwQoCZFixhzetTJc2RFASoFCCUJdChRowCK/jQqFGhSpERPOi3qdGlV
+qiWb/jx61WRVr1CbXoVKkqbNijtBCvAYUi1GmXDjyp1Lt27ZmgHE6t3Lt6/fv4ADCx5MuLDhw3tv
+2l3MuLHjxybNBrh5sa2BBGstGxDwFrLnz6BjSqaMQLNOtz63LlWdlPXUqK1dq+6aVars2LFpd309
+23bv37lhlxwdurjx43Yl413OvLnz59CjS59Ovbr169iz4yW9s3tPncjDi/9nTByn5syWOR8Yz769
+zPIeNV4WivF859ugv6bUP54/bZb8oQRfTiB9t1l3ws0m1m16sfYUU1aR5R9+C+LGm3AV6hegbrA1
+GNl2aJWWXmUhrXWfeyim+OFZOHlkoncwqiijjMppZ+ONOOao44489ujjj0AGeR0BRBZp5JFIJqnk
+kkw26eSTUEYp5ZRRgjjjlVjCVN53MH6X5ZfIbZlRWx2J2JaJYKYZmpj2nXeRmnBCJqZ8anHmJgJg
+BcjeXrgxpmefXL3053BW6iSWoXu96SCgjw26aH9eRQqgS2ISyGWZO2EIoYLATTVhcIt66Omjo4La
+2qcaosRhpydV2hZPGiV7wFOCpmJIqq21SlqbhQx2KOmqtCrFKqOEsmjmiHRiimdWQ431n7MJVpgb
+WYxe6Ky1gVqoFbHbWsUsUt0WO1lFBJZ4EZ0c5RTnuuQVmtaLGPGlKLv0ylVevfiGJ9kA/Pbr778A
+ByzwwAQXbPDBCCes8MIJC+nwwxBHvFxAADs=
+</gif></picture><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Generate Financial Code:</run></par>
+<par def='11'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Allows the user to select a Financial Code.</run></par>
+<par def='11'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button is displayed only if the Project has been selected.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='30px' width='111px'><gif originalformat='notesbitmap'>
+R0lGODlhbwAeAOMAAMDAwNDQyAAAAEBAQP///4CAgAAAgAAA+ACAgPgAAPgA+AAAAAAAAAAAAAAA
+AAAAACwAAAAAbwAeAEAI/wAHCBxIsKDBgwgTKlzIsKFDgwECAJhIsWJFAQcsatzIsaPHjyBDeowY
+kWIBAihTqkwpoKKBiwBaTmwpM6aAmjJr2sx5cyPNizdz2pyJc+bQjSQlUgzKtGlPkVCjSp3KMSnV
+q1izap1oNaSAlxMLFDBQYKvZsx27AjiZcq1blTotFjUacynduELp6jU6d27dv34rqkVLuPDVpIgT
+K17MuLHjx5AjS1ZquLJlkIM5fj1goLOBAxkvi56aWSrYvXY/4hUZN/VZtWxXplSQgIBMBGVh1s27
+M+/qv8D18h6emrhG2LKTtx7NHDPJ5tAtT55Ovbr166Wja8+afbt3qd19fpQfL/g5SIygQZP/Hv5i
+Z7FjO6+P3l6uxbG67WtGDXV58I7+HWfeWvAVaGBuFJ121FIBusafeMs1SNqAJ1EkG222UYQbTEW1
+5pt+gQFn3FMk3sVbeSWFpVJZLMIFwIYgAibcXTGi1tSMIhaHo0XIJbdSgBEyWOJ/gD3lYJFD5ijj
+gz36yNJ83tUHJZRSTrlelVaOF1FAADs=
+</gif></picture><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Mail To Admin:</run></par>
+<pardef id='13' leftmargin='0.2604in' list='bullet' tabs='L1in L1.7500in L2.2500in L2.7500in L3.2500in L3.7500in L4.2500in L4.7500in L5.2500in L5.7500in'
+ keepwithnext='true' keeptogether='true'/>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Used by the creator of the Order to send and E-mail to inform the Administrator that the order has been created and is ready to action.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The status of the Order is changed to “</run><run><font size='11pt'
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Submitted</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>”.</run></par>
+<par def='13'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Note</run><run><font size='11pt' style='bold'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/>:</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/> The receiver of the "Mail to Admin" email is defined using the "SendToAdmin" keyword.  That keyword is accessible only by administrators by clicking on the button "Admin" on the left navigator and by clicking on "Keywords".  Changes to the MailToAdmin keyword are reflected only after a few hours until the "Cache" is refreshed.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='31px' width='68px'><gif originalformat='notesbitmap'>
+R0lGODlhRAAfAOIAAMDAwNDQyAAAAICAgP///4AAAPgAAAAAACwAAAAARAAfAEAI/wADCBxIsKDB
+gwgTKlxIEIBDhwMIPCRAseKAAgYMPNzIsaPHjyABFPQoAMAAkwJSmhzAckDJjS8BpHwZkyZHmzI9
+jgR5sYDKkECDChXZcKjRo0h3Pox4sunMpyc/zkQa02HVh0o9unyaMqpUlTV/WoX5sORVh1mRql3L
+MS3bt0mLcoxYkQBLhxg1wmWblulGuy3v7uUrF6JdkyifLu149WxZqWM7un3scmVLAV4fk80ZuXFn
+nYU79hQ7+O3k0qjbMlzNurXr17Bju05N++PpwJlrxx0oWmJdiicz6tUNtK/Eib8LEB9qHDFErrmX
+g+a9MSJilly7Qo68nTH3jW5LNkbdqjKw5680SZsFO10gZOzizec+X/M7Z5yqqUsdfzk695/1caaZ
+Y1iFNtdo0hl1GkQIJijUgisV4JODDxpIoWmyZajhQQEBADs=
+</gif></picture><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Got It:</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button is displayed only to the Administrators</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Allows the Administrators to generate a sequential reference number.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The status of the Order is changed to “</run><run><font size='11pt'
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>On Order</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>”.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>A confirmation email is sent to the person listed in the field “Ship To” field.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>(</run><run><font size='11pt' style='bold italic' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>NEW added to the August 2009 release</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>) The order's cost W/Applicable GST is automatically committed to the project and removed from the Remaining Credit on the Credit Card if a Credit Card is used as the purchase type.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>If the </run><run><font size='11pt' style='underline' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Monthly Limit of the Credit Card exceeds the cost of the order</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>, the application displays the warning message “WARNING!!!  You have exceeded the monthly credit card limit!!”and sends an email to the card holder and the Section Head of the project.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>If the </run><run><font size='11pt' style='underline' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Order’s cost is higher than 5000$</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/> the application displays the warning message “WARNING!!!  You have exceeded the $5000 per order limit!!!” and sends an email to the card holder and the Section Head of the project.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>If the </run><run><font size='11pt' style='underline' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Remaining Credit amount of the Credit Card exceeds the cost of the order</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>, the application displays the warning message “WARNING!!!  The order total exceeds the available credit for this credit card.” and sends an email to the card holder and the Section Head of the project.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>If the </run><run><font size='11pt' style='underline' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>budget for Operation, Travel, Contract or Capital is exceeded</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>, the application displays the warning message “WARNING!!!  You have exceeded the Operating Budget Amount Limit !!!!” popup and sends an email to the Principal Investigator of the project and to the Section Head of the project.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>If the </run><run><font size='11pt' style='underline' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>total budget for the project is exceeded</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>, the application displays the warning message “WARNING!!!  You have exceeded the Total Budget Limit for the project!!!” and sends an email to the Principal Investigator of the project and to the Section Head of the project.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='30px' width='87px'><gif originalformat='notesbitmap'>
+R0lGODlhVwAeAOIAAMDAwNDQyAAAAICAgICAAACAAAAAgPj4ACwAAAAAVwAeAEAI/wADCBxIsKDB
+gwgTKlzIcCGAhw8FEDBggIBFAgMyEhAAsaPHjyBDihxJEkDBjwJSFiiQceXKhys5dpQJUSZNmhE9
+2qzJE0DKnzlBnixJtKjRoySHIl3KtOlHpREtCmD5MGPGqgVwBvVZ9CZJrUShRkwZ8cBGp2jTmmzI
+tq3bt27Vyp0rlKDOi3jxgqXLF6JYiRt/Ch68t69asTUHAFDMWHFVrZBzktVJmatNoGO9gv3LuPBI
+r1vBguYaujTpp3a/ejbcFzHr12FTw54deyDt20llZyYsGDfdvxMrHjCLUarvucDzYtS4+rhR4Aem
+smw5fUBMkJi7Tv689O9PxoutQlYcEHlmyfIhm9e1jX1l46sArpufPxl90Po9QW/vyDkjb8KV5dfT
+gPcNuFOAHvVH3lhGZXfaXg7i1FtmBPKnG3bGOYfchRre5lqHsH0IImtwlWjiiQwFBAA7
+</gif></picture><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>(</run><run><font size='11pt' style='bold italic'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/>This button is removed from the August 2009 release, it is now part of the [Got it] button</run><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>) On Order:</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button is displayed only to the Administrators</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Allows the Administrators to </run><run><font size='11pt'
+ style='underline' name='Arial' pitch='variable' truetype='true' familyid='20'/>commit the cost of the order against the project’s budget</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>.  The budget is calculated only once per Order.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The system will also decrease the Remaining Credit amount of the Credit Card if the purchase was made with Visa or MasterCard.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The status of the Order is changed to “</run><run><font size='11pt'
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>On Order</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>”.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The view "View By Project" will display a green check mark beside the Orders for which the budget has been calculated.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='29px' width='92px'><gif originalformat='notesbitmap'>
+R0lGODlhXAAdAOIAAMDAwNDQyAAAAP///4CAgAAA+AAAgACAgCwAAAAAXAAdAEAI/wADCBxIsKDB
+gwgTKlzIsKFAABAhEhgwkQCAiQMyUrwYsaPHjyBDihxJMmSAiAVSpjQAQOOAlgQICLAowKOAmzgj
+1oS4cyeAmj57/tQ5lKdNokV9RjzZEWPLpy+jPlVasqrVqySZYt3KtWtXrRIzPp04U+pLqjhzejXK
+ValQj1pVrrTYVCZdtEd53uyo9udetkX14uWb9CPYtYgTrz2suLHjrB5jSp48+bFlrocrbrRLcUBa
+qpdDw414oHTpAjHPXow5NS9S0SGBIgUdVy5LqDDtBgbMFvRgwkPfgvzc23BEA8iRx/w806Jq2NCX
+Rp+O2KH169izN6TOHXP371Yzu4ocn5E1eNHiybukS/f84/QaybbUyNt9YvFjzzqfv7s/aOpu1QdA
+bSqxRJ9YFz33GmB9+RXUX8HNBiFhQQlI4Eq4vSQRTa4FRpx/aRXXU4jAFdbfgCjZFpFUP7H2W3Ew
+RhhjhbzhJZx0EMlVgAHNTdacgvbdFxFlL1HGmlj/BeldU+qpd6KSS0JpX0AAOw==
+</gif></picture><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='10'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Receive All:</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button is displayed only to the Administrators</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Allows the Administrators to mark all items as received</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The status of the Order is changed to “</run><run><font size='11pt'
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Received</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>”.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='29px' width='60px'><gif originalformat='notesbitmap'>
+R0lGODlhPAAdAOIAAMDAwNDQyAAAAACAgP///4CAgAD4+AAAACwAAAAAPAAdAEAI/wADCBxIsKDB
+gwgTKiwIoKHDhgUIACgAgEBEAQ8zatzIsSOAgQ8HGBhAsqTJkxgfpsy4MmXLhisfgvRIs6ZNjzNv
+6tyJU6BGkhEhTqwogOTGmACQelT60adKAwUGRJ0qtWoBpjxrLtzKtSvXrGDD5sxYoKxZimHTjn0Y
+FK1DrGl7Bsh4su5JjUgx6k0KM6lLAUrHirRLOO/Rt30TM10bt/FGxo4jN4Qs2THlynEvYxbrVGNE
+AqAtwt3skPLn0FcBk+5oOrRrAnABy1Y6+nFnhyJPvxZggKnhm4tvD2gosXjF48bzzv6r2GXijIJH
+Sh9s0sDIAb9ZIuar2PZc3MvDhxzXjnf7y+elb08UL97t6snq33P+Lj9z/Po8BwYEADs=
+</gif></picture><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></tablecell>
+<tablecell>
+<pardef id='14' keepwithnext='true' keeptogether='true'/>
+<par def='14'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Print:</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button is displayed to all users as long as the Reference Number has been populated.  Note that the Reference Number is generated when the Administrators click on the “Got it” button.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button opens a printable version of the Order form.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>When the Administrator uses the Print button, the Order is flagged as “</run><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Printed</run><run><font size='11pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>” and a "printer like" icon </run><picture
+ height='17px' width='23px'><gif originalformat='notesbitmap'>
+R0lGODlhFwARAOIAAP///4CAgMDAwAAAAAAA+ACAgAD4APgA+CwAAAAAFwARAEAIXwABCBxIsKDB
+gwACCBgQoKHDhgMQSpxI8WEAigMVLhTAseNCjCAlamSYsSFGhQwFEChAQICBjyFjypxJ0+RFgSZP
+ciRJ8OZElBo9whS5UwDLAgIODBWJcoDTpwJoTgwIADs=
+</gif></picture><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/> is displayed in the "View by Date"  view.  Note that this "</run><run
+><font size='11pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Printed</run><run><font size='11pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>" flag is not set if the user is not administrator.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The Status of the order does not change.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='28px' width='98px'><gif originalformat='notesbitmap'>
+R0lGODlhYgAcAOIAAMDAwNDQyAAAAICAgACAAAD4AP///wAAACwAAAAAYgAcAEAI/wADCBxIsKDB
+gwgTKlzIsOFCABAjSpxIsaLFixgzatwYkWBFAQUIADBAIKQAAAIGWBTAsmXEkxBhwkRJM2ZMmTZt
+4qxZc+ZMiR45Ch1KtOjGoEaTKl2KEalElQZGSiVp8mNLlkw37sz4s+PAiioFEDg5AKrKlRN9Yn25
+FmVbn2x3qv15taLTrHjzCr2rt6/fiXw1lhT5t3DGwAQIRF08mOxZiV27GuaJUTKAwANAFqha9jHF
+yDkhp30ZemtO06XtfsVYdrJrjoFfyx7qsLbt27hzr57Nm2js3sBVCwxO/PDuoYmL/8XcubnKxsr9
+xl48FXpr0dhlW/4sPADFkiEZm07s/HH0Tbpv37qFvHary7iWYw+2vp3y3Pbme5KmrN/te7gUYQaA
+dSp5lt9p+8EF4IKkyZXgfoAdF1FnBGSWEnnRLSdhhsX9xiFvHn4oW0AAOw==
+</gif></picture><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='7'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Reconciled:</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button is displayed only to the Administrators</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Allows the Administrators to mark the Order as reconciled.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>(</run><run><font size='11pt' style='bold italic' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>NEW added to the August 2009 release</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>) The order's cost is added back to the Remaining Credit of the Credit Card if MasterCard of VISA was used as the purchase type</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The status of the Order is changed to “</run><run><font size='11pt'
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Reconciled</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>”.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>(</run><run><font size='11pt' style='bold italic' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>NEW added to the August 2009 release</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>) </run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>Reconciled orders cannot be cancelled to prevent unexpected results.  If a reconciled order has to be cancelled, the administrator has to change the order's cost to zero and click on "Save".  The committed amount to the Project will be removed.</run></par>
+<par def='13'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Note</run><run><font size='11pt' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>: the Green checkmark in the “View by Project” indicates the Order for which the budget has been committed to the project's budget and Credit Card.  If the budget has not been calculated, a red X is displayed.</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='6'><picture height='30px' width='109px'><gif originalformat='notesbitmap'>
+R0lGODlhbQAeAOIAAMDAwNDQyAAAAPgAAIAAAICAgAAAAAAAACwAAAAAbQAeAEAI/wADCBxIsKDB
+gwgTKlzIsKHDgwAiSoxIYKLFihYzatzIsaPHjyAlFuxIYIBJkxg3CvC4EoCAljAlrmzpMiJNmxZh
+xsRZk+dLjSNDCh1KtKjRiUGPKl3KdGjSnCcrlhxAQECBAip/Ns2p8eVNlUWfUkRpFatNlClzarXp
+lWdPl2vbup0od65XmnW/iiS4ta/fvmL/Ch78MTDhw4gjBp5K9SLaxJBDGpZ5kmpZsHT/ft3cUW9h
+vhqnVi0gICpmmW939uTMNbNrvKjfxs44+XJG25Fzb5ysu7fRh8CDCx9OPKHv40x5I1/eUTnz5xYN
+l0wrcTp03YZLo6xO1uz1xLy1U2rt7r217K16YXcOC5qjeNy3s8JeCxdvXPM+V+e9r5e3aPHUuXab
+XOptdtdc56lW4IHn7TVQaOS5ZFpXsRVYIWoWmqdeam6pFl17dI1WnksifgceiBaNOJGKJgrmXIvL
+vQjjccXVaOONxQUEADs=
+</gif></picture><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></tablecell>
+<tablecell>
+<par def='7'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Cancel Order:</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>This button is displayed only to the Administrators</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Allows the Administrators to cancel the order</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The status of the Order is changed to “</run><run><font size='11pt'
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Cancelled</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>”</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>(</run><run><font size='11pt' style='bold italic' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>NEW added to the August 2009 release</run><run
+><font size='11pt' name='Arial' pitch='variable' truetype='true' familyid='20'/>) The system will remove committed amount to the project and will adjust the Remaining Credit on the Credit Card if the purchase type was MasterCard or VISA.</run></par>
+<par def='13'><run><font size='11pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>The systems will also set the quantities and prices to zero on the order’s list.</run></par></tablecell></tablerow></table>
+<par def='1'><run><font size='11pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='15' leftmargin='1in'/>
+<par def='15'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Veuillez vous référez à l'anglais.  Pour obtenir la version française, veuillez contacter l'administrateur</run></par></richtext></item>
+<item name='org_author' authors='true' names='true'><text>Gerald Horula</text></item>
+<item name='date_create'><datetime>20020306T152301,63-05</datetime></item>
+<item name='HelpESubject'><text>Order Form: summary of the special fields and buttons</text></item>
+<item name='HelpFSubject'><text>Formulaire de commande: sommaire des champs spéciaux et des boutons</text></item>
+<item name='edit_history'><textlist><text>Jean-Marc Leblanc</text><text>Jean-Marc Leblanc</text><text
+>Jean-Marc Leblanc</text><text>Jean-Marc Leblanc</text><text>Jean-Marc Leblanc</text><text
+>Jean-Marc Leblanc</text><text>Jean-Marc Leblanc</text><text>Jean-Marc Leblanc</text><text
+>Jean-Marc Leblanc</text><text>Jean-Marc Leblanc</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2009-08-07 11:29:53 AM</text><text
+>2009-08-06 10:34:07 AM</text><text>2009-08-06 10:33:27 AM</text><text>2009-08-06 10:19:50 AM</text><text
+>2009-08-06 10:17:28 AM</text><text>2009-08-06 10:17:27 AM</text><text>2009-08-06 10:17:26 AM</text><text
+>2009-08-06 10:15:30 AM</text><text>2009-08-06 09:33:25 AM</text><text>2009-08-06 09:24:20 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Jean-Marc Leblanc;</text><text>Jean-Marc Leblanc;</text><text
+>Jean-Marc Leblanc;</text><text>Jean-Marc Leblanc;</text><text>Jean-Marc Leblanc;</text><text
+>Jean-Marc Leblanc;</text><text>Jean-Marc Leblanc;</text><text>Jean-Marc Leblanc;</text><text
+>Jean-Marc Leblanc;</text><text>Jean-Marc Leblanc;</text></textlist></item></document>
+

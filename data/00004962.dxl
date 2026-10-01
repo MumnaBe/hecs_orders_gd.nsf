@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='4962' unid='88D519FDB92A0F9A85257367006E79F9' sequence='1'>
+<created><datetime dst='true'>20071001T160641,85-04</datetime></created>
+<modified><datetime dst='true'>20260917T084814,95-04</datetime></modified>
+<revised><datetime dst='true'>20071001T160804,17-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084814,94-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084814,94-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20071001T160923,34-04</datetime></item>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4340564 Contaminated Sites - SK</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>4340564</text></item></document>
+

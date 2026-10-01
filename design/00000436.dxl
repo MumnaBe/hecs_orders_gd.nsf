@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='436' unid='14BD8EF1E975BF6E852578D3006B797F' sequence='4'>
+<created><datetime dst='true'>20110720T153354,55-04</datetime></created>
+<modified><datetime dst='true'>20260917T084251,33-04</datetime></modified>
+<revised><datetime dst='true'>20110728T142641,85-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084251,32-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084251,32-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rola Abdul-Nour/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<item name='$Flags'><text>~C4g</text></item>
+<item name='$TITLE'><text>.classpath</text></item>
+<item name='$FileSize' sign='true'><number>332</number></item>
+<item name='$FileData' sign='true'>
+<rawitemdata type='1'>
+YQAYAAAAAABMAQAAAQAAAAAAAAAAAAAAYABeAQAATAFMAQAAAAAAAAAAPD94bWwgdmVyc2lvbj0i
+MS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxjbGFzc3BhdGg+DQoJPGNsYXNzcGF0aGVudHJ5IGtp
+bmQ9InNyYyIgcGF0aD0iTG9jYWwiLz4NCgk8Y2xhc3NwYXRoZW50cnkga2luZD0iY29uIiBwYXRo
+PSJvcmcuZWNsaXBzZS5qZHQubGF1bmNoaW5nLkpSRV9DT05UQUlORVIiLz4NCgk8Y2xhc3NwYXRo
+ZW50cnkga2luZD0iY29uIiBwYXRoPSJvcmcuZWNsaXBzZS5wZGUuY29yZS5yZXF1aXJlZFBsdWdp
+bnMiLz4NCgk8Y2xhc3NwYXRoZW50cnkga2luZD0ib3V0cHV0IiBwYXRoPSJXZWJDb250ZW50L1dF
+Qi1JTkYvY2xhc3NlcyIvPg0KPC9jbGFzc3BhdGg+DQo=
+</rawitemdata></item>
+<item name='$FileNames' sign='true'><text>.classpath</text></item></note>
+

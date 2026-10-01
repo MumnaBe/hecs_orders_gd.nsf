@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='ChangeRequest'>
+<noteinfo noteid='685e' unid='8B80962216F2AADD85257A150063EB2C' sequence='1'>
+<created><datetime dst='true'>20120606T141122,68-04</datetime></created>
+<modified><datetime dst='true'>20260917T085100,14-04</datetime></modified>
+<revised><datetime dst='true'>20120606T141122,75-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085100,13-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085100,13-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='KEYWORDOLD'><text>Dian Calagoure</text></item>
+<item name='KEYWORDNEW'><text>Dian Sinclair</text></item></document>
+

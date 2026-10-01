@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='4976' unid='0E9F9112F20F37A2852573680064AA5C' sequence='3'>
+<created><datetime dst='true'>20071002T141932,12-04</datetime></created>
+<modified><datetime dst='true'>20260917T084815,30-04</datetime></modified>
+<revised><datetime dst='true'>20080401T152742,17-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084815,29-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084815,29-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Gallagher/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20071002T141952,34-04</datetime><datetime
+ dst='true'>20080401T152733,28-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20080401T152746,87-04</datetime></item>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>A3GH - Cont Sites Science Proces</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>A3GH</text></item></document>
+

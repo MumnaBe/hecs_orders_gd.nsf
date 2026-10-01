@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='DialogExpenseItem' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' nocompose='true' noquery='true'
+ publicaccess='false' designerversion='6.5'>
+<noteinfo noteid='35e' unid='2730936B75597A6C852573410063D5EA' sequence='53'>
+<created><datetime dst='true'>20070824T141028,26-04</datetime></created>
+<modified><datetime dst='true'>20260917T084246,49-04</datetime></modified>
+<revised><datetime dst='true'>20080902T111713,31-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084246,48-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084246,48-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<actionbar bgcolor='#d4d0c8' bordercolor='black'>
+<actionbuttonstyle bgcolor='#d4d0c8' displayborder='always'/><font color='system'/><border
+ style='solid' width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='_Send Document' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/></actionbar>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'/><compositedata type='183' prevtype='129' nexttype='131' afterparcount='1'>
+txygBUEUcQgOAAAASAAAAAAAAAAAAAAAAAAAAA==
+</compositedata>
+<par def='1'/><compositedata type='184' prevtype='129' nexttype='65410' afterparcount='1'>
+uCpoE5AAqQMhAQEBAAgBAAUA////AAAAAJAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<pardef id='2'/>
+<par def='2'><run><font size='8pt' style='bold'/>Quantity</run></par><compositedata
+ type='184' prevtype='129' nexttype='131' afterparcount='1'>
+uCowBvADqQMhAQEBAAgBAAUA////AAAAAJAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='2'><run><font size='8pt' style='bold'/>Price</run></par><compositedata
+ type='184' prevtype='129' nexttype='131' afterparcount='1'>
+uCowBpAAOQQhAQEBAAgBAAUA////AAAAAJAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='2'><run><font size='8pt' style='bold'/>Description</run></par><compositedata
+ type='184' prevtype='129' nexttype='131' afterparcount='1'>
+uCo4DfADMQYhAQEBAAgBAAUA////AAAAAJAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='2'><run><font size='8pt' style='bold'/>Amount Received</run></par><compositedata
+ type='184' prevtype='129' nexttype='131' afterparcount='1'>
+uCqwE/ADMQYhAQEBAAgBAAUA////AAAAAJAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='2'><run><font size='8pt' style='bold'/>Received y/n</run></par><compositedata
+ type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uiowBvgB0QtpAQEAAAgBAAEA////AAEAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='2'><run><font size='8pt'/><field defaultfocus='true' type='text'
+ kind='editable' name='Description' taborder='1'><code event='inputvalidation'><formula
+>REM {Validation of Description field};
+@If( @ThisValue = "" ; @Failure( "Description field is required."); @Success)</formula></code></field></run></par><compositedata
+ type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uipoE/gB0QVpAQEAAAgBAAEA////AAEAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='2'><run><font size='8pt'/><field type='number' kind='editable' name='Quantity'
+ taborder='2'><numberformat format='general' digits='2' punctuated='false'
+ parens='false' percent='false' bytes='false'/><code event='inputvalidation'><formula
+>REM {Validation of Quantity field};
+@If( @ThisValue = "" ; @Failure( "Quantity field is required."); @Success)</formula></code></field></run></par><compositedata
+ type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uiowBlgFgQRpAQEAAAgBAAEA////AAEAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='2'><run><font size='8pt'/><field type='number' kind='editable' name='Price'
+ taborder='3'><numberformat format='general' digits='2' punctuated='false'
+ parens='false' percent='false' bytes='false'/><code event='inputvalidation'><formula
+>REM {Validation of Price field};
+@If( @ThisValue = "" ; @Failure( "Price field is required."); @Success)</formula></code></field></run></par><compositedata
+ type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uio4DVgFWQVpAQEAAAgBAAEA////AAEAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='2'><run><font size='8pt'/><field type='number' kind='editable' name='aReceived'
+ taborder='4'><numberformat format='general' digits='2' punctuated='false'
+ parens='false' percent='false' bytes='false'/><code event='inputvalidation'><formula
+>REM {Validation of aReceived field};
+@If( @ThisValue = "" ; @Failure( "Amount Received field is required."); @Success)</formula></code></field></run></par><compositedata
+ type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uiqwE1gFyQRpAQEAAAgBAAEA////AAEAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='2'><run><font size='8pt'/><field type='text' kind='editable' name='Received'
+ taborder='5'><code event='inputtranslation'><formula>@ProperCase(Received)</formula></code><code
+ event='inputvalidation'><formula>REM {Validation of Received field};
+@If( @ThisValue = "" ; @Failure( "Received field is required."); @Success)</formula></code></field></run><compositedata
+ type='185' prevtype='222' nexttype='129' afterparcount='7'>
+uRIAAAAAAAAAAAAAAAAAAAAA
+</compositedata></par>
+<par def='1'/></richtext></body>
+<item name='DateItem' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='AmountItem' summary='false'><number>0</number></item>
+<item name='Quant' summary='false'><number>0</number></item>
+<item name='OriginalModTime'><datetime dst='true'>20070828T100510,37-04</datetime></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>DialogExpenseItem</text></item>
+<item name='Quantity' summary='false'><number>0</number></item>
+<item name='Price' summary='false'><number>0</number></item>
+<item name='aReceived' summary='false'><number>0</number></item></form>
+

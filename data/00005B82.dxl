@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='5b82' unid='DA2B83B464F3E05A8525778A0067D8A1' sequence='1'>
+<created><datetime dst='true'>20100825T145416,65-04</datetime></created>
+<modified><datetime dst='true'>20260917T084954,37-04</datetime></modified>
+<revised><datetime dst='true'>20100825T145511,99-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084954,36-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084954,36-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20100825T145516,31-04</datetime></item>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>Laboratory Supplies </text></item>
+<item name='NameF'><text>Laboratory Supplies </text></item>
+<item name='CodeNumber'><text>9940</text></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20100825T145416,65-04</datetime></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

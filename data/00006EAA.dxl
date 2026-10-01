@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='6eaa' unid='15952F8A51D4739B85257BDE0063E321' sequence='2'>
+<created><datetime dst='true'>20130906T141102,09-04</datetime></created>
+<modified><datetime dst='true'>20260917T085131,16-04</datetime></modified>
+<revised><datetime dst='true'>20130906T141704,35-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085131,15-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085131,15-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20130906T141608,05-04</datetime></revisions>
+<item name='CompName'><text>IDES</text></item>
+<item name='CompPhone'><text>416-479-0078</text></item>
+<item name='CompAddress'><text>431 Alden Road, # 3</text></item>
+<item name='CompFax'><text>416-907-8252</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Markham</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>L3R 1C4</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Sinclair</text></item>
+<item name='date_create'><datetime dst='true'>20130906T141102,09-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text>Dian Sinclair</text></item>
+<item name='edit_history_1'><text>2013-09-06 02:17:03 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Dian Sinclair;</text></item></document>
+

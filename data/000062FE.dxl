@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='62fe' unid='5011D5626B6E409F852579280047B67C' sequence='3'>
+<created><datetime dst='true'>20111013T090317,72-04</datetime></created>
+<modified><datetime dst='true'>20260917T085030,93-04</datetime></modified>
+<revised><datetime dst='true'>20111013T091118,29-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085030,92-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085030,92-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20111013T090350,67-04</datetime><datetime
+ dst='true'>20111013T091055,06-04</datetime></revisions>
+<item name='CompName'><text>Primo Trailer Sales </text></item>
+<item name='CompPhone'><text>613-596-9696</text></item>
+<item name='CompAddress'><text>995 Moodie Dr. South</text></item>
+<item name='CompFax'><text>613-596-3918 </text></item>
+<item name='CompPO'><text> </text></item>
+<item name='PurchContact'><text> </text></item>
+<item name='CompCity'><text>Nepean</text></item>
+<item name='InvContact'><text> </text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K2R 1H4</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20111013T090317,72-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><textlist><text>Dian Calagoure</text><text>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2011-10-13 09:11:18 AM</text><text
+>2011-10-13 09:10:54 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dian Calagoure;</text><text>Dian Calagoure;</text></textlist></item></document>
+

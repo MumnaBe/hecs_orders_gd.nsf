@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='12ee' unid='2F72E0634E2AECE28525715C00532627' sequence='11'>
+<created><datetime dst='true'>20060426T110812,55-04</datetime></created>
+<modified><datetime dst='true'>20260917T084334,15-04</datetime></modified>
+<revised><datetime>20140214T173633,72-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084334,14-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084334,14-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060426T110840,69-04</datetime><datetime
+ dst='true'>20060531T155919,32-04</datetime><datetime>20090122T190530,40-05</datetime><datetime
+ dst='true'>20100413T134937,82-04</datetime><datetime dst='true'>20110613T102806,83-04</datetime><datetime
+ dst='true'>20130409T120958,90-04</datetime><datetime dst='true'>20130524T090453,11-04</datetime><datetime
+>20140214T170430,33-05</datetime><datetime>20140214T170847,24-05</datetime><datetime
+>20140214T173601,23-05</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100413T134821,16-04</datetime></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831503</text></item>
+<item name='GLAccount'><textlist><text>Conference Fees</text><text>Laboratory Services (Contracts or Services)</text><text
+>Meal Allowance in Headquarter Area</text><text>Travel  Non-Public Servants Conference all Locations</text><text
+>Travel Non-Public Servants Outside Canada</text><text>Travel Non-Public Servants Within Canada</text><text
+>Travel Public Servants Abroad </text><text>Travel Public Servants Conference all Locations</text><text
+>Travel Public Servants Local Transportation</text><text>Travel Public Servants Training all Locations</text><text
+>Travel Public Servants United States of America</text><text>Travel Public Servants Within Canada</text></textlist></item>
+<item name='ProgActiv'><textlist><text>A3B7-Emerging Technologies Science Knowledge</text><text
+>A3E4-Child. &amp; Vulnerable Population Science Knowledge</text><text>A3H8-Biomonitoring &amp; Surveillance Science Knowledge</text></textlist></item>
+<item name='IntOrd'><text>810413 Inhalation Tox-RV-FY 2013-2014</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20060426T110812,55-04</datetime></item>
+<item name='edit_history'><textlist><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text
+>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text
+>Shreedat Phulesar</text><text>Sameer Jetha</text><text>Sameer Jetha</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2014-02-14 05:36:31 PM</text><text
+>2014-02-14 05:35:58 PM</text><text>2014-02-14 05:08:44 PM</text><text>2014-02-14 05:04:28 PM</text><text
+>2013-05-24 09:04:51 AM</text><text>2013-04-09 12:09:56 PM</text><text>2011-06-13 10:28:12 AM</text><text
+>2010-04-13 01:48:21 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text
+>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text><text
+>Shreedat Phulesar;</text><text>Sameer Jetha;</text><text>Sameer Jetha;</text></textlist></item></document>
+

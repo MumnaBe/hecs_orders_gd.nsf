@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='239e' unid='81FAC05485C8963585256FD600029F51' sequence='1'>
+<created><datetime dst='true'>20050331T202838,57-04</datetime></created>
+<modified><datetime dst='true'>20260917T084445,16-04</datetime></modified>
+<revised><datetime dst='true'>20050331T203034,05-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084445,15-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084445,15-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Training Packages and Courses Purchased  for Staff</text></item>
+<item name='NameF'><text>Forfaits de Cours et de Formation acheté pour le Personnel</text></item>
+<item name='CodeNumber'><text>54415</text></item></document>
+

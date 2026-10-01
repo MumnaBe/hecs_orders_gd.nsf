@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='d6e' unid='156CD22FFDBA373A85256C0F00428529' sequence='4'>
+<created><datetime dst='true'>20020808T080634,65-04</datetime></created>
+<modified><datetime dst='true'>20260917T084310,78-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074809,35-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084310,77-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084310,77-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020808T080742,53-04</datetime><datetime
+>20021104T141500,33-05</datetime><datetime dst='true'>20090902T074402,65-04</datetime></revisions>
+<item name='CompName'><text>Pulse Instrumentation Limited</text></item>
+<item name='CompPhone'><text>(306) 249-3000</text></item>
+<item name='CompAddress'><text>433 Birch Crescent</text></item>
+<item name='CompFax'><text>(306) 249-3082</text></item>
+<item name='CompPO'><text>NA</text></item>
+<item name='PurchContact'><text>N/A</text></item>
+<item name='CompCity'><text>Saskatoon</text></item>
+<item name='InvContact'><text>N/A</text></item>
+<item name='CompProvince'><text>SK</text></item>
+<item name='CompPostalCode'><text>S7N SK2</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

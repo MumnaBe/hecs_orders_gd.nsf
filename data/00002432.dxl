@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='2432' unid='84EBCB4F955E58FB85256FD60069727D' sequence='4'>
+<created><datetime dst='true'>20050401T151145,89-04</datetime></created>
+<modified><datetime dst='true'>20260917T084447,63-04</datetime></modified>
+<revised><datetime dst='true'>20050405T110548,48-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084447,62-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084447,62-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050401T151404,74-04</datetime><datetime
+ dst='true'>20050401T151625,51-04</datetime><datetime dst='true'>20050401T151717,62-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text></item>
+<item name='NameF'><text>Acq&gt;500K Instr Mesure Contrôle Labo Optique Med</text></item>
+<item name='CodeNumber'><text>5A312</text></item></document>
+

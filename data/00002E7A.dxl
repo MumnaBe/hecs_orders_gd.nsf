@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2e7a' unid='B8B12D5AF6935FF285256CA70044DEAA' sequence='3'>
+<created><datetime>20030107T073214,50-05</datetime></created>
+<modified><datetime dst='true'>20260917T084536,52-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074836,21-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084536,51-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084536,51-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20030107T073321,50-05</datetime><datetime dst='true'>20090902T074558,03-04</datetime></revisions>
+<item name='CompName'><text>TD Air Balance Service</text></item>
+<item name='CompPhone'><text>613-623-2755</text></item>
+<item name='CompAddress'><text>261 John St. North</text></item>
+<item name='CompFax'><text>613-623-9352</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Tom Dontigny</text></item>
+<item name='CompCity'><text>Arnprior</text></item>
+<item name='InvContact'><text>Tom Dontigny</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>K7S 2P3</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

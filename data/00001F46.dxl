@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1f46' unid='6CB3370879C4032585256FFF005AF68B' sequence='8'>
+<created><datetime dst='true'>20050512T123333,55-04</datetime></created>
+<modified><datetime dst='true'>20260917T084426,79-04</datetime></modified>
+<revised><datetime dst='true'>20230607T121047,00-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084426,78-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084426,78-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050512T123603,06-04</datetime><datetime
+ dst='true'>20050513T085401,33-04</datetime><datetime dst='true'>20050524T094338,63-04</datetime><datetime
+ dst='true'>20050524T094341,58-04</datetime><datetime dst='true'>20070403T135312,32-04</datetime><datetime
+ dst='true'>20090902T074529,31-04</datetime><datetime dst='true'>20090902T074951,74-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20070403T135314,26-04</datetime></item>
+<item name='CompName'><text>Distribution Riobec</text></item>
+<item name='CompPhone'><text>(819) 770-5503</text></item>
+<item name='CompAddress'><text>160 rue d'Edmonton</text></item>
+<item name='CompFax'><text>(819) 770-5506</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Benoit/Donald</text></item>
+<item name='CompCity'><text>Gatineau</text></item>
+<item name='InvContact'><text>Benoit/Donald</text></item>
+<item name='CompProvince'><text>QC</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>J8Y 3S6</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Vendor Code: 1054591. Owner: Gilles Cloutier.GST Reg # 123335721.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050512T123333,55-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:10:51 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

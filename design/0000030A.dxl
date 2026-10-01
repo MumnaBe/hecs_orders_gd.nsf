@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='.Admin\Help Editable Document' alias='Help' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' nocompose='true'
+ publicaccess='false'>
+<noteinfo noteid='30a' unid='6236550D95BA073D85256B74006F8F42' sequence='7'>
+<created><datetime>20020306T151831,70-05</datetime></created>
+<modified><datetime dst='true'>20260917T084244,85-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143124,94-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084244,84-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084244,84-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='windowtitle'><formula>HelpESubject + "/" + HelpFSubject</formula></code>
+<actionbar bgcolor='#37605e' bordercolor='black' borderstyle='none'>
+<actionbuttonstyle/>
+<action title='Categori_ze' showinmenu='false' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinmenu='false' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinmenu='false' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinmenu='false' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinmenu='false' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinmenu='false' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Back' icon='142' hide='edit previewedit'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("UserWorkingLanguage") = "F"</formula></code></action>
+<action title='Retour' icon='142' hide='edit previewedit'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("UserWorkingLanguage") != "F"</formula></code></action>
+<action title='' icon='61' showinmenu='false' hide='previewedit'><code event='click'><formula
+>@Environment("UserWorkingLanguage"; "E" );
+@Command([RefreshHideFormulas])</formula></code><code event='hidewhen'><formula
+>@Environment("UserWorkingLanguage") != "F"</formula></code></action>
+<action title='' icon='62' showinmenu='false' hide='previewedit'><code event='click'><formula
+>@Environment("UserWorkingLanguage"; "F" );
+@Command([RefreshHideFormulas])</formula></code><code event='hidewhen'><formula
+>@Environment("UserWorkingLanguage") = "F"</formula></code></action>
+<action title='Edit' icon='86' hide='edit previewedit'><code event='click'><formula
+>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("UserWorkingLanguage") = "F"</formula></code></action>
+<action title='Modifier' icon='86' hide='edit previewedit'><code event='click'><formula
+>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("UserWorkingLanguage") != "F"</formula></code></action>
+<action title='Save' icon='117' hide='preview read'><code event='click'><formula
+>@Command([FileSave])</formula></code><code event='hidewhen'><formula>@Environment("UserWorkingLanguage") = "F"</formula></code></action>
+<action title='Sauver' icon='117' hide='preview read'><code event='click'><formula
+>@Command([FileSave])</formula></code><code event='hidewhen'><formula>@Environment("UserWorkingLanguage") != "F"</formula></code></action>
+<action title='Close' icon='112' hide='preview read'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("UserWorkingLanguage") = "F"</formula></code></action>
+<action title='Fermer' icon='112' hide='preview read'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("UserWorkingLanguage") != "F"</formula></code></action>
+<action title='Print' icon='147'><code event='click'><formula>@Command([FilePrint])</formula></code><code
+ event='hidewhen'><formula>@Environment("UserWorkingLanguage") = "F"</formula></code></action>
+<action title='Imprimez' icon='147'><code event='click'><formula>@Command([FilePrint])</formula></code><code
+ event='hidewhen'><formula>@Environment("UserWorkingLanguage") != "F"</formula></code></action>
+<action title='Feedback' icon='130' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command( [Compose]; ""; "Feedback" )</formula></code><code
+ event='hidewhen'><formula>@Environment("UserWorkingLanguage") = "F"</formula></code></action>
+<action title='Rétroaction' icon='130' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command( [Compose]; ""; "Feedback" )</formula></code><code
+ event='hidewhen'><formula>@Environment("UserWorkingLanguage") != "F"</formula></code></action>
+<action title='' icon='45'><code event='click'><formula>REM {Help Icon For Admin Users};
+
+ViewName := @If(@Environment( "UserWorkingLanguage" ) = "E" ; "VwEAdminHelp"; "VwFAdminHelp");
+NavName := @If(@Environment( "UserWorkingLanguage" ) = "E"; "HelpNavEAdmin"; "HelpNavFAdmin");
+
+@Command([OpenView] ; ViewName);
+@Command( [OpenNavigator] ; NavName );
+@Command([ViewExpandAll])</formula></code><code event='hidewhen' enabled='false'><formula
+>!@IsMember("[Admin]"; @UserRoles)</formula></code></action></actionbar>
+<body><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='100%' hide='read edit copy preview previewedit'/>
+<par def='1'><run><font size='2pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par>
+<table user4spacing='true' leftmargin='0.8125in' rightmargin='100%' widthtype='fitmargins'
+ columnspacing='0.0299in' refwidth='9.8417in'><tablecolumn width='9.8056%'/><tablecolumn
+ width='35.4931%'/><tablecolumn width='13.5417%'/><tablecolumn width='41.1528%'/>
+<tablerow>
+<tablecell bgcolor='#ffffc2' borderwidth='1px 0px 0px 1px'>
+<pardef id='2' leftmargin='0.8701in' rightmargin='1.7194in' hide='read edit copy preview previewedit'
+ keepwithnext='true' keeptogether='true'/>
+<par def='2'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Form:</run></par></tablecell>
+<tablecell bgcolor='#ffffc2' borderwidth='1px 0px 0px'>
+<pardef id='3' leftmargin='1.8347in' rightmargin='5.2132in' hide='read edit copy preview previewedit'
+ keepwithnext='true' keeptogether='true'/>
+<par def='3'><run><font size='8pt' color='red' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Help Editable Document</run></par></tablecell>
+<tablecell rowspan='4' bgcolor='#ffffc2' borderwidth='1px 0px'>
+<pardef id='4' leftmargin='5.3285in' rightmargin='6.5458in' hide='read edit copy preview previewedit'
+ keepwithnext='true' keeptogether='true'/>
+<par def='4'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Subforms Used:</run></par></tablecell>
+<tablecell rowspan='4' bgcolor='#ffffc2' borderwidth='1px 1px 1px 0px'>
+<pardef id='5' leftmargin='6.6611in' rightmargin='10.5965in' hide='read edit copy preview previewedit'
+ keeptogether='true'/>
+<par def='5'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Edit History</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell bgcolor='#ffffc2' borderwidth='0px 0px 0px 1px'>
+<par def='2'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Version:</run></par></tablecell>
+<tablecell bgcolor='#ffffc2' borderwidth='0px'>
+<par def='3'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>1.0</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell bgcolor='#ffffc2' borderwidth='0px 0px 0px 1px'>
+<par def='2'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Date:</run></par></tablecell>
+<tablecell bgcolor='#ffffc2' borderwidth='0px'>
+<par def='3'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Feburary 2, 2001</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell bgcolor='#ffffc2' borderwidth='0px 0px 1px 1px'>
+<par def='2'><run><font size='8pt' color='green' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Desc.:</run></par></tablecell>
+<tablecell bgcolor='#ffffc2' borderwidth='0px 0px 1px'>
+<par def='3'><run><font size='8pt' color='green' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Form to create help documents.</run></par></tablecell></tablerow></table>
+<pardef id='7' leftmargin='0.8125in' rightmargin='100%'><code event='hidewhen'><formula
+>1</formula></code></pardef>
+<par def='7'><run><font size='8pt' color='red' style='underline' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<table user4spacing='true' leftmargin='0.8125in' rightmargin='100%' widthtype='fitmargins'
+ refwidth='9.8431in'><tablecolumn width='27.8750%'/><tablecolumn width='72.1215%'/>
+<tablerow>
+<tablecell bgcolor='#e1e1e1' borderwidth='1px 0px'>
+<pardef id='8' leftmargin='0.8403in' rightmargin='3.5285in' hide='read edit copy preview previewedit'
+ keepwithnext='true' keeptogether='true'/>
+<par def='8'><run><font size='8pt' color='red' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Hidden Fields Below</run></par></tablecell>
+<tablecell bgcolor='#e1e1e1' borderwidth='1px 0px'>
+<pardef id='9' leftmargin='3.5840in' rightmargin='10.6278in' hide='read edit print copy preview previewedit'
+ keepwithnext='true' keeptogether='true'><code event='hidewhen' enabled='false'><formula
+>!@IsMember("[Developer]"; @UserRoles)</formula></code></pardef>
+<par def='9'><run><font size='8pt' color='red' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Description</run><run><font size='8pt' color='red'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/> (with data dictionary/constraints in brackets)</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px'>
+<par def='8'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run><run><font size='8pt' color='red' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/><field type='text' kind='editable'
+ name='HFText'><code event='defaultvalue'><formula>"No"</formula></code></field></run></par></tablecell>
+<tablecell borderwidth='1px 0px'>
+<pardef id='10' leftmargin='3.5840in' rightmargin='10.6278in' hide='read preview'
+ keepwithnext='true' keeptogether='true'><code event='hidewhen'><formula>!@IsMember("[Developer]"; @UserRoles)</formula></code></pardef>
+<par def='10'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Flag to state if the french version of the help is available</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px'>
+<pardef id='11' leftmargin='0.8403in' rightmargin='3.5285in' hide='read preview'
+ keepwithnext='true' keeptogether='true'><code event='hidewhen'><formula>!@IsMember("[Developer]"; @UserRoles)</formula></code></pardef>
+<par def='11'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par></tablecell>
+<tablecell borderwidth='1px 0px'>
+<par def='10'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run><horizrule height='0.0729in' width='100%'
+ color='red' use3dshading='false'/><run><font size='8pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par><subformref name='CDE-Logo-HC'/>
+<pardef id='20' leftmargin='0.8750in' rightmargin='100%'/>
+<par def='20'><run><font size='4pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par>
+<par def='20'><run><font size='4pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par>
+<table user4spacing='true' leftmargin='0.8125in' rightmargin='100%' widthtype='fitmargins'
+ refwidth='9.8431in'><tablecolumn width='50%'/><tablecolumn width='50%'/>
+<tablerow>
+<tablecell columnspan='2' bgcolor='white' borderwidth='0px 0px 2px'>
+<pardef id='22' leftmargin='0.8403in' rightmargin='10.6278in' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("UserWorkingLanguage") = "F"</formula></code></pardef>
+<par def='22'><picture height='21px' width='236px'><notesbitmap>
+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
+R8QExUcDMhoOwgQCEBnCRwIvEsIEAhQ5xATFRwMyGg7CBAIQGcJHxATERwM+IxPCBAMTIz7FR8QE
+w0fEBEAEAMdHxARAGAABR0AEAMdHxARAGAABR0AEAMdHxARAGAABR0AEAMdHxARAGAABR5cABgMA
+AAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKbK8AAAgAQEgggIhAwMhhAQiBQUihgYjBwcjiAg
+kCQkkigolCwsljAwmDQ0mjg4nDw8nkBAoEREokhIpExMplBQqFRUqlhYrGBgsGRksmhotGxstnBw
+uHR0unx8voCAwISEwoiIxJCQyJSUypiYzJyczqCg0KSk0qio1Kys1rCw2LS02ri43Ly83sDA4MTE
+4sjI5MzM5tDQ6NTU6tjY7Nzc7uDg8OTk8ujo9Ozs9vDw+PT0+vj4/Pz8/v///wAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/7
+8KCgpICAgP8AAAD/AP//AAAA//8A/wD//////5gAlgAAAEdHR0dHR0dHAAAAAAEAAAAAAAAAAAC1
+KAQEBAQEBAQELyIgKyBIZWxwRlN1YmplYwQEBARHR0dD/////////////////////wQEBARHR0dH
+AAAAAFQAAAAAAAAATAAAAEdHRwQEBARHAAAAAAAAAAAAAAAAAAAAAEdHBAQEBEdH+v/d3fr/3d18
+AQAALA4AAA==
+</notesbitmap></picture><run
+><font size='14pt' color='navy' style='bold' name='MS Sans Serif' pitch='variable'
+ truetype='false' familyid='20'/></run></par>
+<pardef id='23' leftmargin='0.8403in' rightmargin='10.6278in' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("UserWorkingLanguage") != "F"</formula></code></pardef>
+<par def='23'><run><font size='14pt' color='navy' style='bold' name='MS Sans Serif'
+ pitch='variable' truetype='false' familyid='20'/>Documenation d'aide</run></par></tablecell></tablerow></table>
+<pardef id='24' leftmargin='0.8125in' rightmargin='100%'/>
+<par def='24'><run><font size='6pt' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par>
+<table user4spacing='true' leftmargin='0.8125in' rightmargin='100%' widthtype='fitmargins'
+ refwidth='9.8431in'><tablecolumn width='18.8472%'/><tablecolumn width='81.1528%'/>
+<tablerow>
+<tablecell columnspan='2' bgcolor='#e0f1ff' borderwidth='1px 0px'>
+<par def='22'><run><font size='12pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Docment Information</run></par>
+<par def='23'><run><font size='12pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Information de Document</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px 0px'>
+<pardef id='26' leftmargin='0.8403in' rightmargin='2.6396in' keepwithnext='true'
+ keeptogether='true'/>
+<par def='26'><run><font size='2pt' color='navy' style='bold' name='Small Fonts'
+ pitch='variable' truetype='false' familyid='20'/></run></par></tablecell>
+<tablecell borderwidth='1px 0px 0px'>
+<pardef id='27' leftmargin='2.6951in' rightmargin='10.6236in' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("UserWorkingLanguage") != "F"</formula></code></pardef>
+<par def='27'><run><font size='2pt' color='navy' style='bold' name='Small Fonts'
+ pitch='variable' truetype='false' familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px 0px 1px'>
+<pardef id='28' leftmargin='0.8403in' rightmargin='2.6396in' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("UserWorkingLanguage") = "F"</formula></code></pardef>
+<par def='28'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>English Subject:</run></par>
+<pardef id='25' leftmargin='0.8403in' rightmargin='2.6396in' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("UserWorkingLanguage") != "F"</formula></code></pardef>
+<par def='25'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Sujet en anglais : </run></par></tablecell>
+<tablecell borderwidth='0px 0px 1px'>
+<pardef id='29' leftmargin='2.6951in' rightmargin='10.6236in' spaceafter='1.5'
+ keepwithnext='true' keeptogether='true'/>
+<par def='29'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='text' kind='editable' name='HelpESubject'><code
+ event='inputtranslation'><formula>HelpESubject</formula></code><code event='inputvalidation'><formula
+>@If(HelpESubject = ""; @Failure("Please provide the Subject / Entrez le sujet"); @Success)</formula></code></field></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px'>
+<par def='28'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>French Subject:</run></par>
+<pardef id='30' leftmargin='0.8403in' rightmargin='2.6396in' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("UserWorkingLanguage") != "F"</formula></code></pardef>
+<par def='30'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Sujet en</run><run><font
+ size='9pt' color='navy' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/> français :</run></par></tablecell>
+<tablecell borderwidth='1px 0px'>
+<par def='29'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='text' kind='editable' name='HelpFSubject'><code
+ event='inputtranslation'><formula>HelpFSubject</formula></code><code event='inputvalidation'><formula
+>@If(HelpFSubject = ""; @Failure("Please provide the Subject / Entrez le sujet"); @Success)</formula></code></field></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px'>
+<par def='28'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>English Category:</run></par>
+<par def='30'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Catégorie anglaise :</run></par></tablecell>
+<tablecell borderwidth='1px 0px'>
+<par def='29'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='keyword' kind='editable' name='HelpECategories'><keywords
+ ui='dialoglist'><textlist><text>1. User Guide</text><text>2. Database Custodian Guide</text><text
+>3. Notes System Admin Guide</text><text>4. Trainer Guide</text><text>5. Application Developer Guide</text></textlist></keywords><code
+ event='inputvalidation'><formula>@If(HelpECategories = ""; @Failure("Please provide the Category / Entreez la catégorie"); @Success)</formula></code></field></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px'>
+<par def='28'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>English Sub-Category:</run></par>
+<par def='25'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Sub-catégorie anglaise :</run></par></tablecell>
+<tablecell borderwidth='1px 0px'>
+<par def='29'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='keyword' kind='editable' name='HelpESubCat'><keywords
+ ui='dialoglist' allownew='true'><formula>@If(!@IsNewDoc &amp; @IsDocBeingLoaded; @Unavailable; @Unique(@DbColumn("":"nocache"; ""; "vwHelpSubECat"; 1)))</formula></keywords><code
+ event='inputvalidation'><formula>@If(HelpECategories = ""; @Failure("Please provide the Category / Entreez la catégorie"); @Success)</formula></code></field></run><run
+><font size='9pt' color='navy' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px'>
+<par def='28'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>French Category:</run></par>
+<par def='30'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Catégorie française :</run></par></tablecell>
+<tablecell borderwidth='1px 0px'>
+<par def='29'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='keyword' kind='editable' name='HelpFCategories'><keywords
+ ui='dialoglist'><textlist><text>1. Guide d'utilisation</text><text>2. Guide de gardien de base de données</text><text
+>3. Guide de l'administrateur de Notes</text><text>4. Guide du formateur</text><text
+>5. Guide de développeur du applications</text></textlist></keywords><code
+ event='inputvalidation'><formula>@If(HelpFCategories = ""; @Failure("Please provide the Category / Entreez la catégorie"); @Success)</formula></code></field></run><run
+><font size='9pt' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px'>
+<par def='28'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>French Sub-Category:</run></par>
+<par def='25'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Sub-catégorie française :</run></par></tablecell>
+<tablecell borderwidth='1px 0px'>
+<par def='29'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='keyword' kind='editable' name='HelpFSubCat'><keywords
+ ui='dialoglist' allownew='true'><formula>@If(!@IsNewDoc &amp; @IsDocBeingLoaded; @Unavailable; @Unique(@DbColumn("":"nocache"; ""; "vwHelpSubFCat"; 1)))</formula></keywords><code
+ event='inputvalidation'><formula>@If(HelpECategories = ""; @Failure("Please provide the Category / Entreez la catégorie"); @Success)</formula></code></field></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px'>
+<par def='28'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Document #:</run></par>
+<par def='30'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>No du document :</run></par></tablecell>
+<tablecell borderwidth='1px 0px'>
+<par def='29'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='number' kind='editable' name='HelpDocNumber'><numberformat
+ format='general' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/></field></run><run><font size='9pt' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 0px'>
+<par def='28'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>Sub-Catetory #:</run></par>
+<par def='25'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/>No du </run><run><font size='9pt'
+ color='navy' style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Sub-catégorie</run><run
+><font size='9pt' color='navy' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/> :</run></par></tablecell>
+<tablecell borderwidth='1px 0px'>
+<par def='29'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='number' kind='editable' name='HelpSubCatNumber'><numberformat
+ format='general' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/></field></run><run><font size='9pt' color='navy' style='bold'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></tablecell></tablerow></table>
+<pardef id='31' leftmargin='0.8125in' rightmargin='8in' tabs='L1in L1.2500in L1.5000in L1.7500in L2in L2.1250in L2.2500in'/>
+<par def='31'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='31'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<table user4spacing='true' leftmargin='0.8125in' rightmargin='8in' widthtype='fitmargins'
+ refwidth='9.8438in'><tablecolumn width='100%'/>
+<tablerow>
+<tablecell bgcolor='#e0f1ff' borderwidth='1px 0px'>
+<pardef id='32' leftmargin='0.8403in' rightmargin='10.6285in' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("UserWorkingLanguage") = "F"</formula></code></pardef>
+<par def='32'><run><font color='navy' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Enter English help text below:</run></par>
+<pardef id='33' leftmargin='0.8403in' rightmargin='10.6285in' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("UserWorkingLanguage") != "F"</formula></code></pardef>
+<par def='33'><run><font color='navy' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Entrez le texte d'aide ci-après en anglais :</run></par></tablecell></tablerow></table>
+<pardef id='34' leftmargin='0.8125in' rightmargin='8in' hide='read preview'
+ tabs='L1in L1.2500in L1.5000in L1.7500in L2in L2.1250in L2.2500in'/>
+<par def='34'><run><font size='7pt' name='Small Fonts' pitch='variable' truetype='false'
+ familyid='20'/></run></par>
+<pardef id='35' leftmargin='0.8125in' rightmargin='8in'/>
+<par def='35'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/><field
+ type='richtext' kind='editable' name='HelpEHelpText'/></run><run><font size='9pt'
+ color='navy' style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='31'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='36' leftmargin='0.8125in' rightmargin='8in' spaceafter='1.5' hide='read preview'
+ tabs='L1in L1.2500in L1.5000in L1.7500in L2in L2.1250in L2.2500in'/>
+<par def='36'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<table user4spacing='true' leftmargin='0.8125in' rightmargin='8in' widthtype='fitmargins'
+ refwidth='9.8438in'><tablecolumn width='100%'/>
+<tablerow>
+<tablecell bgcolor='#e0f1ff' borderwidth='1px 0px'>
+<par def='32'><run><font color='navy' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Enter French help text below:</run></par>
+<par def='33'><run><font color='navy' style='bold' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/>Entrez le texte d'aide ci-après en français :</run></par></tablecell></tablerow></table>
+<par def='34'><run><font size='7pt' name='Small Fonts' pitch='variable' truetype='false'
+ familyid='20'/></run></par>
+<par def='35'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/><field
+ type='richtext' kind='editable' name='HelpFHelpText'><code event='exiting'><lotusscript
+>Sub Exiting(Source As Field)
+     Dim WS As New NotesUIWorkSpace
+     Dim uidoc As NotesUIDocument
+     
+     Set uidoc = WS.CurrentDocument
+     
+     plainText = uidoc.FieldGetText( "HelpFHelpText" )
+     
+     If Len(plaintext) &gt; 0 Then
+          Call uidoc.FieldSetText("HFText", "Yes")
+     Else
+          Call uidoc.FieldSetText("HFText", "No")
+     End If
+     
+End Sub</lotusscript></code></field></run><run><font size='9pt' color='maroon'
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='31'><run><font size='9pt' color='maroon' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par><subformref name='CDE-Edit History |EdHistory'/>
+<pardef id='63' align='none' leftmargin='1in' rightmargin='100%' hide='print'/>
+<par def='63'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='63'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='63'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par><subformref name='CDE-Logo-Canada'/>
+<pardef id='71' align='right' leftmargin='1in' rightmargin='100%'/>
+<par def='71'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='71'><run><font size='9pt' color='navy' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='24'><run><font size='9pt' color='maroon' style='bold' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='72' leftmargin='1.1875in' rightmargin='100%' hide='read edit preview previewedit'/>
+<par def='72'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par></richtext></body>
+<item name='TranslationDate' summary='false' sign='true'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='EstTransCost' summary='false' sign='true'><number>0</number></item>
+<item name='DateCreated_1' summary='false' sign='true'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='DateCreated' summary='false' sign='true'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='TimesModified' summary='false' sign='true'><number>0</number></item>
+<item name='DocNumber' summary='false'><number>0</number></item>
+<item name='DateCreated2' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='HelpDateCreated' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='$FormUsers'><textlist><text>[Admin]</text><text>[LNOG Admin]</text></textlist></item>
+<item name='$$ScriptName' summary='false' sign='true'><text> Help</text></item>
+<item name='HelpDocNumber' summary='false'><number>0</number></item>
+<item name='HelpSubCatNumber' summary='false'><number>0</number></item>
+<item name='date_create' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='$HelpFHelpText_O' sign='true'>
+<rawitemdata type='14'>
+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
+</rawitemdata></item></form>
+

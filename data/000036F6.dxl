@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='36f6' unid='E0F9F74180A0D2998525704D006580A4' sequence='4'>
+<created><datetime dst='true'>20050729T142840,68-04</datetime></created>
+<modified><datetime dst='true'>20260917T084621,46-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075029,85-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084621,45-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084621,45-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050729T143051,60-04</datetime><datetime
+ dst='true'>20050729T143253,79-04</datetime><datetime dst='true'>20090902T074610,49-04</datetime></revisions>
+<item name='CompName'><text>Taconic Farms Inc.</text></item>
+<item name='CompPhone'><text>(518) 537-6208</text></item>
+<item name='CompAddress'><text>273 Hover Avenue,</text></item>
+<item name='CompFax'><text>(518) 537-7287</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Germantown,</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>New York</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>12526-5320</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text>HCA001</text></item>
+<item name='CompCurrency'><text>USA</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Vendor Code: 0001015460.</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

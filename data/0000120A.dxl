@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='120a' unid='2C2FAF080FB98F3785256BEB005F091C' sequence='3'>
+<created><datetime dst='true'>20020703T131802,52-04</datetime></created>
+<modified><datetime dst='true'>20260917T084330,37-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075108,40-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084330,36-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084330,36-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,54-04</datetime><datetime
+>20021104T141454,11-05</datetime></revisions>
+<item name='CompName'><text>Ilford Imaging (Canada) Limited</text></item>
+<item name='CompAddress'><text>4-361 Steelcase Rd W</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Markham</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>L3R 3V8</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(905) 479-2555 1-800-268-3365</text></item>
+<item name='CompFax'><text>1-800-668-8246</text></item>
+<item name='PurchContact'><text>Claire Haine (x) 311</text></item>
+<item name='InvContact'><text>Claire Haine (x) 311</text></item>
+<item name='MasterCard'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA_FR'><text>Non</text></item></document>
+

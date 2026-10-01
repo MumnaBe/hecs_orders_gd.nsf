@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1886' unid='4BE82BA13BB290338525707400773E36' sequence='4'>
+<created><datetime dst='true'>20050906T174227,10-04</datetime></created>
+<modified><datetime dst='true'>20260917T084358,55-04</datetime></modified>
+<revised><datetime dst='true'>20230607T121132,48-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084358,54-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084358,54-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050906T174458,57-04</datetime><datetime
+ dst='true'>20090902T074518,96-04</datetime><datetime dst='true'>20090902T074944,83-04</datetime></revisions>
+<item name='CompName'><text>EM Lab</text></item>
+<item name='CompPhone'><text>(866) 888-6653</text></item>
+<item name='CompAddress'><text>1150 Bayhill Dr.,</text></item>
+<item name='CompFax'><text>(650) 829-5852, (877) 365-2270</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Anne McKewen</text></item>
+<item name='CompCity'><text>San Bruno</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>California</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>94066</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text>9025</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Vendor Code: 0001130163.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050906T174227,10-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:11:36 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2ab2' unid='A6A613C323D4454185256DA2006A9DA9' sequence='6'>
+<created><datetime dst='true'>20030915T152431,77-04</datetime></created>
+<modified><datetime dst='true'>20260917T084517,91-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075012,27-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084517,90-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084517,90-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20030915T152627,52-04</datetime><datetime
+ dst='true'>20030915T152631,55-04</datetime><datetime dst='true'>20031003T094837,41-04</datetime><datetime
+>20080206T081744,32-05</datetime><datetime dst='true'>20090902T074550,42-04</datetime></revisions>
+<item name='OriginalModTime'><datetime>20080206T081745,09-05</datetime></item>
+<item name='CompName'><text>Best Buy, Store 928</text></item>
+<item name='CompPhone'><text>(613) 212-0146</text></item>
+<item name='CompAddress'><text>1701 Merivale Rd.,</text></item>
+<item name='CompFax'><text>          </text></item>
+<item name='CompPO'><text>       </text></item>
+<item name='PurchContact'><text>          </text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>          </text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>          </text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>           </text></item>
+<item name='CompCurrency'><text>CAN</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Cash Sale</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

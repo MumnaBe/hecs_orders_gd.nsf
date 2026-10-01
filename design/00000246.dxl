@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='Cost2View2' alias='C2V2' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' unreadmarks='none' onopengoto='top' onrefresh='displayindicator'
+ headers='beveled' opencollapsed='true' showresponsehierarchy='true' showmargin='true'
+ shrinkrows='true' extendlastcolumn='true' showhierarchies='false' unreadcolor='black'
+ rowlinecount='9' headerlinecount='1' rowspacing='1' haslinkcolumn='true'
+ bgcolor='white' altrowcolor='#e0f1ff' totalscolor='blue' uniquekeys='false'
+ indexdiscard='aftereachuse' initialbuildrestricted='false' noemptycategories='false'>
+<noteinfo noteid='246' unid='4ED04A0686FE7ADD85256BAA0044D88F' sequence='10'>
+<created><datetime dst='true'>20020429T083158,87-04</datetime></created>
+<modified><datetime dst='true'>20260917T084241,19-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143121,53-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100254,95-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084241,18-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form = "Cost2"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle/>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"AdminF";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='New Type' icon='89'><code event='click'><formula>@Command([Compose];"Cost2")</formula></code><code
+ event='hidewhen'><formula>@Environment("HECS_Language") = "F"</formula></code></action></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='Category' width='6.5000'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' categorized='true' twisties='true'><font color='navy'
+ style='bold'/><columnheader title='Category'><font size='8pt' style='bold'/></columnheader></column>
+<column sort='ascending' hidedetailrows='false' itemname='FundingSource' width='9'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><columnheader title='Funding Source'><font size='9pt'
+ style='bold'/></columnheader></column>
+<column sort='ascending' hidedetailrows='false' itemname='IntOrd' width='23.7500'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><columnheader title='I/O - Project #'><font size='9pt'
+ style='bold'/></columnheader></column>
+<column sort='ascending' hidedetailrows='false' itemname='SPA' width='5' resizable='true'
+ separatemultiplevalues='true' sortnoaccent='true' sortnocase='true' showaslinks='false'
+ twisties='true'><columnheader title='SPA'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' listseparator='newline' itemname='CodeNumber'
+ width='6' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><columnheader title='Number'><font
+ size='8pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' listseparator='newline' itemname='GLAccount'
+ width='14' resizable='true' separatemultiplevalues='true' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><columnheader title='G/L'><font size='9pt'
+ style='bold'/></columnheader></column>
+<column hidedetailrows='false' listseparator='newline' itemname='ProgActiv'
+ width='14' resizable='true' separatemultiplevalues='true' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><columnheader title='Program Activity'><font
+ size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' listseparator='newline' itemname='IntOrd' width='10'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><columnheader title='I/O - Project #'><font size='9pt'
+ style='bold'/></columnheader></column></view>
+

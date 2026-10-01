@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='310e' unid='C39C73D3943202338525710E0064BED3' sequence='5'>
+<created><datetime>20060207T132024,51-05</datetime></created>
+<modified><datetime dst='true'>20260917T084549,65-04</datetime></modified>
+<revised><datetime dst='true'>20060525T143835,40-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084549,64-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084549,64-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20060207T132024,52-05</datetime><datetime>20060207T132044,25-05</datetime><datetime
+>20060207T134606,01-05</datetime><datetime dst='true'>20060425T154918,23-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4340393 Genomics - PK</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>4340393</text></item></document>
+

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='Tool\Order\RefreshPartialOrderInfo' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='6.5' comment='ADR 3550 - July 2009'>
+<noteinfo noteid='3ee' unid='3578CDDF17DFFD8E852575EB00511243' sequence='5'>
+<created><datetime dst='true'>20090706T104530,91-04</datetime></created>
+<modified><datetime dst='true'>20260917T084249,90-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,59-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084249,89-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084249,89-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134342,06-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='action'><formula>REM{2009-06-30: ADR 3550: JML added this agent to populate the field 'itemsReceived' after the deployment of July 2009.};
+
+REM{The field itemsReceived will detect if the Order has been partially received};
+REM{If the field's value is /Partially Received/, then it is partially received};
+REM{If the field's value is /Received/, then all items are received};
+REM{If the field's value is /None Received/, then no items are received};
+
+REM{Check each item to see if they were received or not};
+item1 := @If(
+  i1Quant != 0 &amp; Rec1 = "Received"; "yReceived";
+  i1Quant != 0 &amp; Rec1 != "Received"; "xNot Received";
+  "Not Ordered");
+item2 := @If(
+  i2Quant != 0 &amp; Rec2 = "Received"; "yReceived";
+  i2Quant != 0 &amp; Rec2 != "Received"; "xNot Received";
+  "Not Ordered");
+item3 := @If(
+  i3Quant != 0 &amp; Rec3 = "Received"; "yReceived";
+  i3Quant != 0 &amp; Rec3 != "Received"; "xNot Received";
+  "Not Ordered");
+item4 := @If(
+  i4Quant != 0 &amp; Rec4 = "Received"; "yReceived";
+  i4Quant != 0 &amp; Rec4 != "Received"; "xNot Received";
+  "Not Ordered");
+item5 := @If(
+  i5Quant != 0 &amp; Rec5 = "Received"; "yReceived";
+  i5Quant != 0 &amp; Rec5 != "Received"; "xNot Received";
+  "Not Ordered");
+item6 := @If(
+  i6Quant != 0 &amp; Rec6 = "Received"; "yReceived";
+  i6Quant != 0 &amp; Rec6 != "Received"; "xNot Received";
+  "Not Ordered");
+item7 := @If(
+  i7Quant != 0 &amp; Rec7 = "Received"; "yReceived";
+  i7Quant != 0 &amp; Rec7 != "Received"; "xNot Received";
+  "Not Ordered");
+item8 := @If(
+  i8Quant != 0 &amp; Rec8 = "Received"; "yReceived";
+  i8Quant != 0 &amp; Rec8 != "Received"; "xNot Received";
+  "Not Ordered");
+item9 := @If(
+  i9Quant != 0 &amp; Rec9 = "Received"; "yReceived";
+  i9Quant != 0 &amp; Rec9 != "Received"; "xNot Received";
+  "Not Ordered");
+item10 := @If(
+  i10Quant != 0 &amp; Rec10 = "Received"; "yReceived";
+  i10Quant != 0 &amp; Rec10 != "Received"; "xNot Received";
+  "Not Ordered");
+item11 := @If(
+  i11Quant != 0 &amp; Rec11 = "Received"; "yReceived";
+  i11Quant != 0 &amp; Rec11 != "Received"; "xNot Received";
+  "Not Ordered");
+item12 := @If(
+  i12Quant != 0 &amp; Rec12 = "Received"; "yReceived";
+  i12Quant != 0 &amp; Rec12 != "Received"; "xNot Received";
+  "Not Ordered");
+item13 := @If(
+  i13Quant != 0 &amp; Rec13 = "Received"; "yReceived";
+  i13Quant != 0 &amp; Rec13 != "Received"; "xNot Received";
+  "Not Ordered");
+item14 := @If(
+  i14Quant != 0 &amp; Rec14 = "Received"; "yReceived";
+  i14Quant != 0 &amp; Rec14 != "Received"; "xNot Received";
+  "Not Ordered");
+item15 := @If(
+  i15Quant != 0 &amp; Rec15 = "Received"; "yReceived";
+  i15Quant != 0 &amp; Rec15 != "Received"; "xNot Received";
+  "Not Ordered");
+item16 := @If(
+  i16Quant != 0 &amp; Rec16 = "Received"; "yReceived";
+  i16Quant != 0 &amp; Rec16 != "Received"; "xNot Received";
+  "Not Ordered");
+item17 := @If(
+  i17Quant != 0 &amp; Rec17 = "Received"; "yReceived";
+  i17Quant != 0 &amp; Rec17 != "Received"; "xNot Received";
+  "Not Ordered");
+item18 := @If(
+  i18Quant != 0 &amp; Rec18 = "Received"; "yReceived";
+  i18Quant != 0 &amp; Rec18 != "Received"; "xNot Received";
+  "Not Ordered");
+item19 := @If(
+  i19Quant != 0 &amp; Rec19 = "Received"; "yReceived";
+  i19Quant != 0 &amp; Rec19 != "Received"; "xNot Received";
+  "Not Ordered");
+item20 := @If(
+  i20Quant != 0 &amp; Rec20 = "Received"; "yReceived";
+  i20Quant != 0 &amp; Rec20 != "Received"; "xNot Received";
+  "Not Ordered");
+
+REM{eliminate duplicate results};
+results := @Unique(item1 : item2 : item3 : item4 : item5 : item6 : item7 : item8 : item9 : item10 : item11 : item12 : item13 : item14 : item15 : item16 : item17 : item18 : item19 : item20);
+
+REM{Check the received status};
+receivedStatus := @If(
+  @Contains(results; "xNot Received") &amp; !@Contains(results; "yReceived"); "None Received";
+  @Contains(results; "yReceived") &amp; !@Contains(results; "xNot Received"); "Received";
+  @Contains(results; "yReceived") &amp; @Contains(results; "xNot Received"); "Partially Received";
+   "");
+
+REM{Update the order's status if needed};
+@If(form = "NewOrderForm";
+@If(
+  Status = "On Order" &amp; receivedStatus = "Partially Received";
+    @SetField("Status"; "Partially Received");
+  Status = "On Order" &amp; receivedStatus = "Received";
+    @SetField("Status"; "Received");
+  Status = "Partially Received" &amp; receivedStatus = "None Received";
+    @SetField("Status"; "On Order");
+  Status = "Partially Received" &amp; receivedStatus = "Received";
+    @SetField("Status"; "Received");
+  Status = "Received" &amp; receivedStatus = "None Received";
+    @SetField("Status"; "On Order");
+  Status = "Received" &amp; receivedStatus = "Partially Received";
+    @SetField("Status"; "Partially Received");
+  "");
+"");
+
+@If(form = "NewOrderForm"; @SetField("itemsReceived"; receivedStatus); "");
+SELECT @All</formula></code>
+<rundata processeddocs='1' exitcode='0'>
+<agentmodified><datetime dst='true'>20090706T105052,25-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20090706T105355,30-04</datetime></agentrun>
+<runlog>Started running agent 'Tool\Order\RefreshPartialOrderInfo' on 2009-07-06 10:53:55 AM
+Running on selected documents: 1 total
+Found 1 document(s) that match search criteria
+1 document(s) were modified by formula
+Done running agent 'Tool\Order\RefreshPartialOrderInfo' on 2009-07-06 10:53:55 AM
+</runlog></rundata>
+<item name='$Readers' sign='true' readers='true'><text>[LNOG Admin]</text></item>
+<item name='$POID'><datetime dst='true'>20090706T105052,24-04</datetime></item></agent>
+

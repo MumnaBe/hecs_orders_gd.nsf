@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='145e' unid='367DC76D1A7A804385256F1F004EB97E' sequence='4'>
+<created><datetime dst='true'>20040930T101952,94-04</datetime></created>
+<modified><datetime dst='true'>20260917T084340,46-04</datetime></modified>
+<revised><datetime dst='true'>20230607T120704,52-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084340,45-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084340,45-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20040930T102410,96-04</datetime><datetime
+ dst='true'>20090902T074511,81-04</datetime><datetime dst='true'>20090902T074938,01-04</datetime></revisions>
+<item name='CompName'><text>American Society for Investigative Pathology</text></item>
+<item name='CompPhone'><text>301-634-7029</text></item>
+<item name='CompAddress'><text>Subsciption Dept. Room L-2407A<break/>9650 Rockville Pike</text></item>
+<item name='CompFax'><text>301-634-7099</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Bethesda</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Maryland</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>20814-3998</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text>4707883</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text>ASIP/FASEB</text></item>
+<item name='CompEmail'><text>staff@dues.faseb.org</text></item>
+<item name='CompWeb'><text>http://www.amjpathol.org</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20040930T101952,94-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:07:08 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

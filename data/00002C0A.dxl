@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Lookup'>
+<noteinfo noteid='2c0a' unid='AC6C6842BE944C1885256BEB005F09F1' sequence='30'>
+<created><datetime dst='true'>20020703T131804,65-04</datetime></created>
+<modified><datetime dst='true'>20260917T084524,39-04</datetime></modified>
+<revised><datetime>20191127T142905,44-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084524,38-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084524,38-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rania Otell/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Lindsy Bachly/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sonia Johnson/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name>CN=Dorothy Stewart-Paul/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20151109T134803,39-05</datetime><datetime>20151109T134804,28-05</datetime><datetime
+>20151109T134804,71-05</datetime><datetime>20151109T134805,11-05</datetime><datetime
+>20151109T134805,42-05</datetime><datetime>20151109T134805,82-05</datetime><datetime
+ dst='true'>20180409T074158,23-04</datetime></revisions>
+<item name='EKEYWORDOLD'><text>Helena Soares</text></item>
+<item name='FKEYWORDOLD'><text>Helena Soares</text></item>
+<item name='OriginalModTime'><datetime dst='true'>20090831T082706,13-04</datetime></item>
+<item name='Body'><richtext>
+<pardef id='1'/>
+<par def='1'/>
+<par def='1'/></richtext></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131804,65-04</datetime></item>
+<item name='LookupType' protected='true'><text>DefaultBillTo</text></item>
+<item name='EKeyword'><text>Helena Soares</text></item>
+<item name='FKeyword'><text>Helena Soares</text></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Kirsten Oickle</text><text
+>Maria Ianni</text><text>Maria Ianni</text><text>Maria Ianni</text><text>Maria Ianni</text><text
+>Maria Ianni</text><text>Maria Ianni</text><text>Maria Ianni</text><text>Dorothy Stewart-Paul</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2019-11-27 02:29:04 PM</text><text
+>2018-04-09 07:41:58 AM</text><text>2015-11-09 01:48:05 PM</text><text>2015-11-09 01:48:05 PM</text><text
+>2015-11-09 01:48:04 PM</text><text>2015-11-09 01:48:04 PM</text><text>2015-11-09 01:48:03 PM</text><text
+>2015-11-09 01:48:03 PM</text><text>2015-07-08 10:28:25 AM</text><text>2015-03-02 02:56:44 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Kirsten Oickle;</text><text
+>Maria Ianni;</text><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Maria Ianni;</text><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Maria Ianni;</text><text>Dorothy Stewart-Paul;</text></textlist></item></document>
+

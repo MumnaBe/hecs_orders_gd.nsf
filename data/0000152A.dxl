@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='152a' unid='3A7AE9C17C88506885256BEB005F09D2' sequence='7'>
+<created><datetime dst='true'>20020703T131804,34-04</datetime></created>
+<modified><datetime dst='true'>20260917T084343,86-04</datetime></modified>
+<revised><datetime dst='true'>20120314T140753,11-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084343,85-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084343,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,36-04</datetime><datetime
+>20021104T141457,91-05</datetime><datetime>20040126T144217,67-05</datetime><datetime
+>20040126T144232,76-05</datetime><datetime dst='true'>20090902T074512,38-04</datetime><datetime
+ dst='true'>20090902T074938,31-04</datetime></revisions>
+<item name='CompName'><text>MEGS Specialty Gases Inc.</text></item>
+<item name='CompPhone'><text>(613) 226-4228</text></item>
+<item name='CompAddress'><text>22B Jamie Av</text></item>
+<item name='CompFax'><text>(613) 226-4229</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>George Karidis</text></item>
+<item name='CompCity'><text>Nepean</text></item>
+<item name='InvContact'><text>Maria Peake</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K2G 6T6</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>957-3968</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>maria@megs.ca</text></item>
+<item name='CompWeb'><text>www.megs.ca</text></item>
+<item name='comment'><text>compressed gases (supplier for Matheson)</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131804,34-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Dian Calagoure</text></item>
+<item name='edit_history_1'><text>2012-03-14 02:07:52 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Dian Calagoure;</text></item></document>
+

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='633a' unid='2E990700DF6E01E18525793500449207' sequence='1'>
+<created><datetime dst='true'>20111026T082858,31-04</datetime></created>
+<modified><datetime dst='true'>20260917T085032,18-04</datetime></modified>
+<revised><datetime dst='true'>20111026T083224,14-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085032,17-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085032,17-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>Mining Diesel Emissions Council (MDEC)</text></item>
+<item name='CompPhone'><text>613-996-6103</text></item>
+<item name='CompAddress'><text>P.O. Box 13005</text></item>
+<item name='CompFax'><text>613-996-2597</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Kanata</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>K2K 1X3</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>mgangal@nrcan.gc.ca</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20111026T082858,31-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

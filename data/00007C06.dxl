@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='7c06' unid='135463F73AD670D1852589C70057D285' sequence='1'>
+<created><datetime dst='true'>20230607T115915,25-04</datetime></created>
+<modified><datetime dst='true'>20260917T085239,79-04</datetime></modified>
+<revised><datetime dst='true'>20230607T120113,13-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085239,78-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085239,78-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>The Printer Doctor</text></item>
+<item name='CompPhone'><text>(613) 820-3766</text></item>
+<item name='CompAddress'><text>2720 Queensview Drive, suite 1152</text></item>
+<item name='CompFax'><text/></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>The Printer Doctor Service dept-Roch Beausoleil</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>The Printer Doctor Service dept </text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>K2B 1A5</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Kirsten Oickle</text></item>
+<item name='date_create'><datetime dst='true'>20230607T115915,25-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

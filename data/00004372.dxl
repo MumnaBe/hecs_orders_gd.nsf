@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='4372' unid='A889C4B774CDB9F1852572B100492CBA' sequence='2'>
+<created><datetime dst='true'>20070402T091915,78-04</datetime></created>
+<modified><datetime dst='true'>20260917T084737,83-04</datetime></modified>
+<revised><datetime dst='true'>20070402T092015,69-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084737,82-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084737,82-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20070402T092004,26-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20070402T092019,01-04</datetime></item>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4340440 Section Management Year End Fund 06-07</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>4340440</text></item></document>
+

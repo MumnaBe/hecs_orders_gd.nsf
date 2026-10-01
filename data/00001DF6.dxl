@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1df6' unid='66F1C6B1375DF15785256C84004AF194' sequence='5'>
+<created><datetime>20021203T083835,08-05</datetime></created>
+<modified><datetime dst='true'>20260917T084421,37-04</datetime></modified>
+<revised><datetime dst='true'>20230525T101952,35-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084421,36-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084421,36-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20021203T083939,62-05</datetime><datetime>20021203T084016,66-05</datetime><datetime
+ dst='true'>20090902T074527,57-04</datetime><datetime dst='true'>20090902T074823,76-04</datetime></revisions>
+<item name='CompName'><text>Nancy Poirier Imagesetting</text></item>
+<item name='CompPhone'><text>613-238-5057</text></item>
+<item name='CompAddress'><text>588 Gladstone Avenue</text></item>
+<item name='CompFax'><text>613-238-9720</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Barry Poirier</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Barry Poirier</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K1R 5P3</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20021203T083835,08-05</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-05-25 10:19:52 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

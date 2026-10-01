@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='Company' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' publicaccess='false' designerversion='6.5'>
+<noteinfo noteid='32a' unid='E36AC4CBB5DBFA0185256AD100472A26' sequence='18'>
+<created><datetime dst='true'>20010924T085718,46-04</datetime></created>
+<modified><datetime dst='true'>20260917T084245,44-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,20-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084245,43-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084245,43-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='queryopen'><lotusscript>Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)
+     Dim test As String
+     Dim answer As Variant
+     test="@IsMember('[Admin]';@userRoles)"
+     answer=Evaluate(test)
+     If Mode = 1 And Not(answer(0)=1) Then
+          Continue=False
+     End If
+End Sub</lotusscript></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/><border width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Save' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sauvegarder' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Edit' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Modifier' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action></actionbar>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'/>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<pardef id='3' align='center' leftmargin='0%' rightmargin='100%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='3'><run><font size='14pt' style='bold' color='white'/>Company Information</run></par></tablecell></tablerow></table>
+<par def='1'/>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='17.4757%'/><tablecolumn width='22.5243%'/><tablecolumn width='2.4861%'/><tablecolumn
+ width='27.0660%'/><tablecolumn width='30.4479%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='4' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Nom de l'entreprise:";"Company Name")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='5' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='5'><field type='text' kind='editable' name='CompName'/></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='6' leftmargin='11%' rightmargin='89%' keepwithnext='true' keeptogether='true'/>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='7' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Téléphone:";"Phone:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='8' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='8'><field type='text' kind='editable' name='CompPhone'/></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Adresse:";"Address:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='editable' name='CompAddress'/></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/>FAX:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='editable' name='CompFax'/></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Boîte postale:";"PO Box:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='editable' name='CompPO'/></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Contact aux achats:";"Purchasing Contact:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='editable' name='PurchContact'/></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Ville:";"City:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='editable' name='CompCity'/></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Contact aux factures:";"Invoicing Contact:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='editable' name='InvContact'/></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Province:";"Province:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='editable' name='CompProvince'/></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/>MasterCard:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='9' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("HECS_Language")="F"</formula></code></pardef>
+<par def='9'><field lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' kind='editable' name='MasterCard_EN'><keywords columns='1'
+ ui='dialoglist'><textlist><text>Yes</text><text>No</text><text>N/A</text></textlist></keywords><code
+ event='defaultvalue'><formula>@If(MasterCard_EN = ""; MasterCard; MasterCard_EN)</formula></code><code
+ event='inputtranslation'><formula>REM{2009-07-02: ADR 3550: JML: this code was added to allow users to select the values either in English or French.  A Dialog List was not used because we do not want values to be typed manually.  A radio button was not used because it does not handle the alias for the values: i.e. Oui|Yes.  Right now the system handle both English and French values as well as using only English values for the MasterCard and VISA fields.};
+
+@If(
+  @Environment("HECS_Language")="F";
+  @If(
+    MasterCard_FR = "Oui"; @Do(@SetField("MasterCard_EN"; "Yes"); @SetField("MasterCard"; "Yes"));
+    MasterCard_FR = "Non"; @Do(@SetField("MasterCard_EN"; "No"); @SetField("MasterCard"; "No"));
+    MasterCard_FR = "N/D"; @Do(@SetField("MasterCard_EN"; "N/A"); @SetField("MasterCard"; "N/A")); "");
+  @If(
+    MasterCard_EN = "Yes"; @Do(@SetField("MasterCard_FR"; "Oui"); @SetField("MasterCard"; "Yes"));
+    MasterCard_EN = "No"; @Do(@SetField("MasterCard_FR"; "Non"); @SetField("MasterCard"; "No"));
+    MasterCard_EN = "N/A"; @Do(@SetField("MasterCard_FR"; "N/D"); @SetField("MasterCard"; "N/A")); ""));
+
+MasterCard_EN</formula></code></field></par>
+<pardef id='10' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("HECS_Language")="E"</formula></code></pardef>
+<par def='10'><field lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' kind='editable' name='MasterCard_FR'><keywords columns='1'
+ ui='dialoglist'><textlist><text>Oui</text><text>Non</text><text>N/D</text></textlist></keywords><code
+ event='defaultvalue'><formula>@If(MasterCard_FR = ""; MasterCard; MasterCard_FR)</formula></code></field></par>
+<pardef id='11' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>1</formula></code></pardef>
+<par def='11'><field type='text' kind='computed' name='MasterCard'><code event='defaultvalue'><formula
+>MasterCard</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Code postale:";"Postal Code:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='editable' name='CompPostalCode'/></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/>VISA:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='9'><field lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' kind='editable' name='VISA_EN'><keywords columns='1' ui='dialoglist'><textlist
+><text>Yes</text><text>No</text><text>N/A</text></textlist></keywords><code
+ event='defaultvalue'><formula>@If(VISA_EN = ""; VISA; VISA_EN)</formula></code><code
+ event='inputtranslation'><formula>REM{2009-07-02: ADR 3550: JML: this code was added to allow users to select the values either in English or French.  A Dialog List was not used because we do not want values to be typed manually.  A radio button was not used because it does not handle the alias for the values: i.e. Oui|Yes.  Right now the system handle both English and French values as well as using only English values for the MasterCard and VISA fields.};
+
+@If(
+  @Environment("HECS_Language")="F";
+  @If(
+    VISA_FR = "Oui"; @Do(@SetField("VISA_EN"; "Yes"); @SetField("VISA"; "Yes"));
+    VISA_FR = "Non"; @Do(@SetField("VISA_EN"; "No"); @SetField("VISA"; "No"));
+    VISA_FR = "N/D"; @Do(@SetField("VISA_EN"; "N/A"); @SetField("VISA"; "N/A")); "");
+  @If(
+    VISA_EN = "Yes"; @Do(@SetField("VISA_FR"; "Oui"); @SetField("VISA"; "Yes"));
+    VISA_EN = "No"; @Do(@SetField("VISA_FR"; "Non"); @SetField("VISA"; "No"));
+    VISA_EN = "N/A"; @Do(@SetField("VISA_FR"; "N/D"); @SetField("VISA"; "N/A")); ""));
+
+VISA_EN</formula></code></field></par>
+<par def='10'><field lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' kind='editable' name='VISA_FR'><keywords columns='1' ui='dialoglist'><textlist
+><text>Oui</text><text>Non</text><text>N/D</text></textlist></keywords><code
+ event='defaultvalue'><formula>@If(VISA_FR = ""; VISA; VISA_FR)</formula></code></field></par>
+<par def='11'><field type='text' kind='computed' name='VISA'><code event='defaultvalue'><formula
+>VISA</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Pays:";"Country:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><field type='text' kind='editable' name='CompCountry'/></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='6'/></tablecell>
+<tablecell borderwidth='0px'>
+<par def='7'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Numéro de compte:";"Account Number:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><field type='text' kind='editable' name='AcctNumber'/></par>
+<par def='8'/></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='12' keepwithnext='true' keeptogether='true'/>
+<par def='12'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Devise:";"Currency:")</formula></code></computedtext></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='13' keepwithnext='true' keeptogether='true'><code event='hidewhen'><formula
+>REM{2009-07-02: JML:ADR 3550: this field was replaced by another field that uses keywords to generate the choices.  Thsi wil prevent date quality issues experienced in the past with different keywords meaning the same thing.}; 1</formula></code></pardef>
+<par def='13'><field type='text' kind='editable' name='CompCurrency_old'><code
+ event='inputvalidation'><formula>REM{2009-07-02: ADR 3550: JML: this validation no longer apply};
+REM{@If(@Length(CompCurrency)!=3;@Failure("The Currency must be a 3 letter code.");@Success)};
+@Success</formula></code></field></par>
+<pardef id='14' keepwithnext='true' keeptogether='true'><code event='hidewhen'
+ enabled='false'><formula>(H1 = 1)</formula></code></pardef>
+<par def='14'><field lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' kind='editable' name='CompCurrency'><keywords columns='1'
+ ui='dialoglist'><formula>REM{This field was created in 2009-07-02, ADR 3550 by JML to resolve problem of inconsistent crrency values used in the application.  Now choices are based on keywords};
+
+kwEng := @DbLookup("":"NoCache"; "":""; "KeywordLookup"; "Currency"; 2);
+kwFre := @DbLookup("":"NoCache"; "":""; "KeywordLookup"; "Currency"; 3);
+
+@If(@IsError(kwEng) | @IsError(kwFre); "Error, please contact the administrator / Erreur, veuillez contacter l'administrateur"; kwEng)</formula></keywords></field></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='15' keepwithnext='true' keeptogether='true'/>
+<par def='15'/></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='16' keepwithnext='true' keeptogether='true'/>
+<par def='16'/></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='17' keepwithnext='true' keeptogether='true'/>
+<par def='17'/></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<pardef id='18' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='18'><run><font style='bold' color='white'/></run><run><font style='bold'
+ color='white'/><computedtext><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Autre";"Other")</formula></code></computedtext></run><run
+><font style='bold' color='white'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='22.4444%'/><tablecolumn width='77.5556%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='19' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='19'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Nom alias:";"Alternate Name:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='20' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='20'><run><font style='bold'/></run><field type='text' kind='editable'
+ name='CompAKA'/><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='19'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Courriel:";"Email:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='20'><run><font style='bold'/></run><field type='text' kind='editable'
+ name='CompEmail'/><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='19'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Site Web:";"Web Site:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='20'><run><font style='bold'/></run><field type='text' kind='editable'
+ name='CompWeb'/><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='19'><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='20'><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='19'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Information générale:";"General Information:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='20'><run><font style='bold'/></run><field type='text' kind='editable'
+ name='comment'/><run><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<pardef id='21' leftmargin='0.8125in'><code event='hidewhen'><formula>1</formula></code></pardef><subformref
+ name='CDE-Edit History | EdHistory'/>
+<pardef id='22' align='none' leftmargin='1in'><code event='hidewhen'><formula
+>1</formula></code></pardef>
+<par def='22'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par></richtext></body>
+<item name='OriginalModTime'><datetime dst='true'>20090702T144830,40-04</datetime></item>
+<item name='$FormUsers'><textlist><text>[Admin]</text><text>[LNOG Admin]</text></textlist></item>
+<item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>Company</text></item>
+<item name='date_create' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='Cost_history' summary='false'><number>0</number></item></form>
+

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(Transfer Company Information)' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='5' comment='This agent transfers company info from the old "GD Orders" database.'>
+<noteinfo noteid='1ce' unid='B9E696F13E79840585256AD1004CDCBD' sequence='14'>
+<created><datetime dst='true'>20010924T095932,45-04</datetime></created>
+<modified><datetime dst='true'>20260917T084239,07-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,18-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084239,06-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084239,06-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,70-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='runonce'/><code event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+     Dim s As New NotesSession
+     Dim db As NotesDatabase
+     Dim olddb As NotesDatabase
+     Dim ServName As String
+     Dim OldDBPath As String
+     Dim dc As NotesDocumentCollection
+     Dim datetime As New notesdatetime("01/01/1970")
+     Dim newdoc As notesdocument
+     Dim oddoc As notesdocument
+     
+     ServName=Inputbox$("Enter the name of the server where the database resides:", "Transfer Company Information")
+     OldDBPath=Inputbox$("Enter the full database path:", "Transfer Company Information")
+     
+     Set db=s.currentdatabase
+     Set olddb=s.GetDatabase(ServName, OldDBPath)
+     
+     
+     Set dc=olddb.Search("Form='Company'",datetime,0)
+     Set doc=dc.getfirstdocument
+     While Not (doc Is Nothing)
+          Set newdoc=db.CreateDocument
+          newdoc.Form="Company"
+          newdoc.CompName=doc.CompanyName(0)
+          newdoc.CompAddress=doc.StreetAddress(0)
+          newdoc.CompPO=doc.CO_PO_BOX(0)
+          newdoc.CompCity=doc.City(0)
+          newdoc.CompProvince=doc.State(0)
+          newdoc.CompPostalCode=doc.Zip(0)
+          newdoc.CompCountry=doc.Country(0)
+          newdoc.CompPhone=doc.OfficePhoneNumber(0)
+          newdoc.CompFax=doc.OfficeFAXPhoneNumber(0)
+          newdoc.PurchContact=doc.Manager(0)
+          newdoc.InvContact=doc.CO_CONTACT_INVOICE(0)
+          newdoc.MasterCard=doc.Mastercard(0)
+          newdoc.VISA=doc.VISA(0)
+          newdoc.AcctNumber=doc.AccountNumber(0)
+          newdoc.CompAKA=doc.CO_OTHER_NAME(0)
+          newdoc.CompEmail=doc.COMPANY_EMAIL(0)
+          newdoc.CompWeb=doc.COMPANY_WWW(0)
+          newdoc.comment=doc.comment(0)
+          newdoc.save True, True
+          Set doc=dc.GetNextDocument(doc)     
+     Wend
+     Messagebox newdoc.Form + newdoc.CompName(0)     
+     Messagebox "Transfer complete."
+     
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20021001T131028,24-04</datetime></agentmodified></rundata>
+<item name='$POID'><datetime dst='true'>20060803T143120,00-04</datetime></item></agent>
+

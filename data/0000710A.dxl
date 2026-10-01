@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='710a' unid='86D8F87CEB9EC01085257C840072BE07' sequence='9'>
+<created><datetime>20140219T155317,51-05</datetime></created>
+<modified><datetime dst='true'>20260917T085142,60-04</datetime></modified>
+<revised><datetime dst='true'>20150901T132720,37-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085142,59-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085142,59-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20140219T155808,69-05</datetime><datetime dst='true'>20140407T144452,45-04</datetime><datetime
+ dst='true'>20140415T132739,59-04</datetime><datetime dst='true'>20140417T105111,15-04</datetime><datetime
+ dst='true'>20140625T065221,39-04</datetime><datetime dst='true'>20150408T111836,47-04</datetime><datetime
+ dst='true'>20150408T111859,54-04</datetime><datetime dst='true'>20150410T105257,46-04</datetime></revisions>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CodeNumber'><text>8R1501</text></item>
+<item name='GLAccount'><textlist><text>Books Newspapers and Magazines</text><text
+>Conference Fees</text><text>Containers &amp; Closures</text><text>Courier Services Incl Canada Post Priority Post</text><text
+>Electrical Supplies</text><text>Electronic Subscriptions</text><text>Fees and Costs of Attending Seminars or Workshops</text><text
+>Fodder and Other Animal Feeds</text><text>Inorganic &amp; Organic Chemicals</text><text
+>Interest Service Charges &amp; Other Penalty Charges </text><text>Laboratory Services other than Health and Welfare (Operon IDT DNA)</text><text
+>Laboratory Services (Contracts or Services)</text><text>Laboratory Supplies</text><text
+>Laundry Dry Cleaning and Other Related Services</text><text>Legal Services (Patents)</text><text
+>Live Animals</text><text>Membership Fees</text><text>Non-Anesthetic Gases</text><text
+>Other Printed Matter Printed Forms &amp; CD ROM Disks </text><text>Photographic or Cinematography Goods</text><text
+>Printing Services</text><text>Professional and Technical Health Services (PDFs)</text><text
+>Publishing Services</text><text>R &amp; M Computer Equipment and Parts</text><text
+>R &amp; M Computer Hardware and Software</text><text>R &amp; M Electric Lighting &amp; Control Equipment</text><text
+>R &amp; M Furniture and Fixtures</text><text>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text
+>R &amp; M Laboratory Buildings</text><text>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text
+>R &amp; M Office Machines and Equipment</text><text>R &amp; M Safety Alarm and Signal Equipment</text><text
+>R &amp; M Telecommunications Equipment</text><text>Seminars or Workshops Non-Taxable</text><text
+>Stationery Office Supplies and Artists' Materials</text><text>Temporary Help Services Acquired for General Help</text><text
+>Translation Service</text><text>Travel Public Servants Abroad </text><text
+>Travel Public Servants Conference all Locations</text><text>Travel Public Servants Local Transportation</text><text
+>Travel Public Servants Training all Locations</text><text>Travel Public Servants United States of America</text><text
+>Travel Public Servants Within Canada</text><text>Tuition Fees and Related Costs During Own Time</text></textlist></item>
+<item name='ProgActiv'><text>GH10 - Research and Development</text></item>
+<item name='IntOrd'><text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text></item>
+<item name='org_author' names='true'><text>Dian Sinclair</text></item>
+<item name='date_create'><datetime>20140219T155317,51-05</datetime></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Maria Ianni</text><text
+>Maria Ianni</text><text>Maria Ianni</text><text>Dian Sinclair</text><text
+>Dian Sinclair</text><text>Dian Sinclair</text><text>Dian Sinclair</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2015-09-01 01:27:21 PM</text><text
+>2015-04-10 10:52:56 AM</text><text>2015-04-08 11:18:58 AM</text><text>2015-04-08 11:18:35 AM</text><text
+>2014-06-25 06:52:20 AM</text><text>2014-04-17 10:51:10 AM</text><text>2014-04-15 01:27:39 PM</text><text
+>2014-04-07 02:44:50 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Maria Ianni;</text><text
+>Maria Ianni;</text><text>Maria Ianni;</text><text>Dian Sinclair;</text><text
+>Dian Sinclair;</text><text>Dian Sinclair;</text><text>Dian Sinclair;</text></textlist></item></document>
+

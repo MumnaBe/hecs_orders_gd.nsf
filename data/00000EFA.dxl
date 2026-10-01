@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='efa' unid='1D17F30AD564F3D585256BEB005F0A89' sequence='4'>
+<created><datetime dst='true'>20020703T131806,17-04</datetime></created>
+<modified><datetime dst='true'>20260917T084317,35-04</datetime></modified>
+<revised><datetime dst='true'>20050401T095303,73-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084317,34-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084317,34-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131806,39-04</datetime><datetime
+ dst='true'>20050331T170524,45-04</datetime><datetime dst='true'>20050331T180133,02-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_Acquisition Lab &gt; 10K</text></item>
+<item name='NameF'><text>OLD_Achat Labo &gt; $10 000</text></item>
+<item name='CodeNumber'><text>14105</text></item></document>
+

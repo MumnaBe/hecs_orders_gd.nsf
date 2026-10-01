@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='5ec2' unid='EA07AE5FA766DC898525783A005344FF' sequence='1'>
+<created><datetime>20110217T100931,51-05</datetime></created>
+<modified><datetime dst='true'>20260917T085010,45-04</datetime></modified>
+<revised><datetime>20110217T101146,98-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085010,44-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085010,44-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>Bioserve</text></item>
+<item name='CompPhone'><text>301-470-3362</text></item>
+<item name='CompAddress'><text>9000 Virginia Manor Road, Suite 207</text></item>
+<item name='CompFax'><text>301-470-2333</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Eric Langlois</text></item>
+<item name='CompCity'><text>Beltsville</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>MD</text></item>
+<item name='CompPostalCode'><text>20705</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>United States</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime>20110217T100931,51-05</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

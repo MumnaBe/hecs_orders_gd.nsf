@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='f32' unid='1E4836B638CF16D785256C7800629CAC' sequence='5'>
+<created><datetime>20021121T125706,36-05</datetime></created>
+<modified><datetime dst='true'>20260917T084318,29-04</datetime></modified>
+<revised><datetime dst='true'>20050401T101612,21-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084318,28-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084318,28-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20021121T125728,66-05</datetime><datetime>20021121T131327,09-05</datetime><datetime
+>20021121T141531,27-05</datetime><datetime>20021121T141628,74-05</datetime></revisions>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>Yes</text></item>
+<item name='FundingSource'><text>CRTI</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>899204</text></item>
+<item name='GLAccount'><text>OGD account for Pat R - CRTI</text></item>
+<item name='ProgActiv'><textlist><text>OGD-Laboratory Supplies</text><text
+>OGD-Other</text><text>OGD-Scientific Equipment</text><text>OGD-Services (other)</text><text
+>OGD-Services (Scientific and Engineering)</text></textlist></item>
+<item name='IntOrd'><text>66153 PR - Gravimetric Analysis Facility</text></item></document>
+

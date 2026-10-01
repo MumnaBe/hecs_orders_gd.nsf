@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='f4a' unid='1EAFED6DEEF1901F85256E4300648FE2' sequence='3'>
+<created><datetime>20040223T131824,34-05</datetime></created>
+<modified><datetime dst='true'>20260917T084318,64-04</datetime></modified>
+<revised><datetime>20060208T074907,41-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084318,63-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084318,63-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20040223T132001,30-05</datetime><datetime dst='true'>20050401T101548,21-04</datetime></revisions>
+<item name='Category'><text>Capital</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CodeNumber'><text>518107</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text></textlist></item>
+<item name='ProgActiv'><text>non-SPA Research and Development</text></item>
+<item name='IntOrd'><text>0000000 EOTSurplus2003</text></item></document>
+

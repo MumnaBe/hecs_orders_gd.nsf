@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='e3e' unid='1A234224CB0873018525715C005592B6' sequence='2'>
+<created><datetime dst='true'>20060426T113441,18-04</datetime></created>
+<modified><datetime dst='true'>20260917T084314,17-04</datetime></modified>
+<revised><datetime dst='true'>20060531T155710,50-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084314,16-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084314,16-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060426T113520,83-04</datetime></revisions>
+<item name='Category'><text>Travel</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831503</text></item>
+<item name='GLAccount'><textlist><text>Conference Fees</text><text>Meal Allowance in Headquarter Area</text><text
+>Travel  Non-Public Servants Conference all Locations</text><text>Travel Non-Public Servants Outside Canada</text><text
+>Travel Non-Public Servants Within Canada</text><text>Travel Public Servants Abroad </text><text
+>Travel Public Servants Conference all Locations</text><text>Travel Public Servants Local Transportation</text><text
+>Travel Public Servants Training all Locations</text><text>Travel Public Servants United States of America</text><text
+>Travel Public Servants Within Canada</text></textlist></item>
+<item name='ProgActiv'><textlist><text>A3E4-Child. &amp; Vulnerable Population Science Knowledge</text><text
+>A3E7-Air Science Knowledge</text><text>A3H8-Biomonitoring &amp; Surveillance Science Knowledge</text></textlist></item>
+<item name='IntOrd'><text>4320101 Allergens - HV</text></item></document>
+

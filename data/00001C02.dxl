@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1c02' unid='5DA15F9E4E4D3E3D85256CDA004E9059' sequence='7'>
+<created><datetime>20030227T091807,61-05</datetime></created>
+<modified><datetime dst='true'>20260917T084413,09-04</datetime></modified>
+<revised><datetime>20151104T092953,43-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084413,08-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084413,08-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Robert Donatucci/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20030227T091858,20-05</datetime><datetime>20030227T091904,73-05</datetime><datetime
+ dst='true'>20090902T074525,42-04</datetime><datetime dst='true'>20090902T074822,06-04</datetime><datetime
+ dst='true'>20120813T115144,44-04</datetime><datetime dst='true'>20120813T115150,06-04</datetime></revisions>
+<item name='CompName'><text>Promega</text></item>
+<item name='CompPhone'><text>608-274-4330</text></item>
+<item name='CompAddress'><text>2800 Woods Hollow Road</text></item>
+<item name='CompFax'><text>608-277-2601</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Madison</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Wisconsin</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>53711</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text>215754</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Please note that orders with a product total of $500 CAD or greater are shipped free of charge, for next day delivery, so you will not see a freight charge.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20030227T091807,61-05</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><textlist><text>Robert Donatucci</text><text>Dian Sinclair</text><text
+>Dian Sinclair</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2015-11-04 09:29:53 AM</text><text
+>2012-08-13 11:51:47 AM</text><text>2012-08-13 11:51:41 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Robert Donatucci;</text><text>Dian Sinclair;</text><text
+>Dian Sinclair;</text></textlist></item></document>
+

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='3126' unid='C3F4C66877D4691785256E8C0061521D' sequence='7'>
+<created><datetime dst='true'>20040506T134300,13-04</datetime></created>
+<modified><datetime dst='true'>20260917T084550,24-04</datetime></modified>
+<revised><datetime>20151209T113113,08-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084550,23-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084550,23-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20040506T134418,68-04</datetime><datetime
+ dst='true'>20040506T134420,83-04</datetime><datetime dst='true'>20090902T074602,96-04</datetime><datetime
+ dst='true'>20090902T075022,18-04</datetime><datetime dst='true'>20100602T140219,19-04</datetime><datetime
+ dst='true'>20100602T140329,89-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100602T140336,74-04</datetime></item>
+<item name='CompName'><text>Thermo Fisher Scientific</text></item>
+<item name='CompPhone'><text>800-530-8447</text></item>
+<item name='CompAddress'><text>2845 Argentia Road,, Unit 4</text></item>
+<item name='CompFax'><text>ONLINE or CALL IN ORDERS ONLY</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Sonia Nikolevski</text></item>
+<item name='CompCity'><text>Mississaugha</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text/></item>
+<item name='VISA_FR'><text>Non</text></item>
+<item name='CompCountry'><text>CAD</text></item>
+<item name='AcctNumber'><text>1113458</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>This part of Fisher deals with Instrumentals.   NMSO # E60PV-05LX05/001/PV</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20040506T134300,13-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='edit_history'><textlist><text>Maria Ianni</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2015-12-09 11:31:12 AM</text><text
+>2010-06-02 02:03:36 PM</text><text>2010-06-02 02:02:25 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Maria Ianni;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text></textlist></item></document>
+

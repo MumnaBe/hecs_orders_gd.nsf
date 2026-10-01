@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='2392' unid='81D377B841D9B9FF85256CEF004CECA6' sequence='3'>
+<created><datetime dst='true'>20030320T100013,18-04</datetime></created>
+<modified><datetime dst='true'>20260917T084444,97-04</datetime></modified>
+<revised><datetime dst='true'>20050401T101629,11-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084444,96-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084444,96-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20030320T100057,34-04</datetime><datetime
+>20031121T084233,51-05</datetime></revisions>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>PSAT</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>813020</text></item>
+<item name='GLAccount'><textlist><text>Chemicals</text><text>Lab Supplies NON CHEMICAL</text></textlist></item>
+<item name='ProgActiv'><text>non-SPA Research and Development</text></item>
+<item name='IntOrd'><text>4340013 PR - Metals</text></item></document>
+

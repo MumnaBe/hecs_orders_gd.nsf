@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(NewFYCalculation)' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3' publicaccess='false'
+ designerversion='5' comment='To recalculate amount committed when the Fiscal Year has changed.'>
+<noteinfo noteid='14a' unid='08210285FB4DF20285256D8F004BD2BA' sequence='8'>
+<created><datetime dst='true'>20030827T094811,46-04</datetime></created>
+<modified><datetime dst='true'>20260917T084236,23-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134326,90-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084236,22-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084236,22-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,45-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='runonce'/><code event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Dim bOpTotal As Currency
+	Dim bTravTotal As Currency
+	Dim bConTotal As Currency
+	Dim bCapTotal As Currency
+	Dim purchCat As String
+	
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim oDoc As notesdocument
+	
+	bOpTotal = 0
+	bTravTotal = 0
+	bConTotal = 0
+	bCapTotal = 0
+	
+	Set uidoc=ws.currentdocument
+	Set db=s.CurrentDatabase
+	Set dv=db.GetView("reflookup")
+	Set oDoc = dv.GetFirstDocument
+	While Not (oDoc Is Nothing)
+		If oDoc.Created &gt;= uidoc.Document.FiscalYearStart(0) And oDoc.Created &lt;= uidoc.Document.FiscalYearEnd(0) Then
+			purchCat = oDoc.FinCategory(0)
+			If oDoc.ProjectSelection(0)=uidoc.FieldGetText("Project") And oDoc.BudgetCalculated(0) = "Yes" Then
+				Select Case purchCat
+				Case "Operating"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bOpTotal = bOpTotal + oDoc.TotCost(0)                       
+					Else
+						bOpTotal = bOpTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Travel"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bTravTotal = bTravTotal + oDoc.TotCost(0)                       
+					Else
+						bTravTotal = bTravTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Contract"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bConTotal = bConTotal + oDoc.TotCost(0)                       
+					Else
+						bConTotal = bConTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Capital"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bCapTotal = bCapTotal + oDoc.TotCost(0)                       
+					Else
+						bCapTotal = bCapTotal + oDoc.TotCostTaxed(0)
+					End If
+				End Select
+			End If
+		End If
+		Set oDoc=dv.GetNextDocument(oDoc)
+	Wend
+	Call uidoc.FieldSetText("budgetOp_com",Cstr(bOpTotal))
+	Call uidoc.FieldSetText("budgetTrav_com", Cstr(bTravTotal))
+	Call uidoc.FieldSetText("budgetContr_com", Cstr(bConTotal))
+	Call uidoc.FieldSetText("budgetCap_com", Cstr(bCapTotal))
+	uidoc.Refresh
+	
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20030827T095214,67-04</datetime></agentmodified></rundata>
+<item name='$POID'><datetime dst='true'>20060803T143118,80-04</datetime></item></agent>
+

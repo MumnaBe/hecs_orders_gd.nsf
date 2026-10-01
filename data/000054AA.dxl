@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='54aa' unid='0A916FC62C09C42B8525760A0052E007' sequence='1'>
+<created><datetime dst='true'>20090806T110513,03-04</datetime></created>
+<modified><datetime dst='true'>20260917T084916,30-04</datetime></modified>
+<revised><datetime dst='true'>20090806T110513,61-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084916,29-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084916,29-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name
+>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20090806T110447,83-04</datetime></item>
+<item name='HFText'><text>Yes</text></item>
+<item name='HelpECategories'><text>1. User Guide</text></item>
+<item name='HelpESubCat'><text>Checking Project Status</text></item>
+<item name='HelpFCategories'><text>1. Guide d'utilisation</text></item>
+<item name='HelpFSubCat'><text>Vérification du statut financier d'un projet</text></item>
+<item name='HelpDocNumber'><number>3</number></item>
+<item name='HelpSubCatNumber'><number>3</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>As a PI, you can check to see how much has been committed against one of your projects in four budgeting areas as well as the total committed.  These areas are:</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='2' leftmargin='1.5000in' rightmargin='93%' list='bullet'/>
+<par def='2'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Operating</run><run><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/> - day-to-day expenses for a project</run></par>
+<par def='2'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Travel</run><run><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/> - duty, conference, taxis, etc.</run></par>
+<par def='2'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Contract</run><run><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/> - on-site contractors (e.g. CAC salary), off-site contractors (e.g. university colleagues)</run></par>
+<par def='2'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Capital</run><run><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/> - equipment purchases over $5,000</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>To check the financial status of a project:</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.  Enter the Admin area of the database by clicking on Admin on the Navigator.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='3' leftmargin='1.5000in' rightmargin='93%'/>
+<par def='3'><picture height='255px' width='273px'><gif originalformat='notesbitmap'>
+R0lGODlhEQH/AOcAAP///8DAwODw+OAgAICAgAAAgPgY4AAAAEhISAAwmPDw8HiYyLjI4DhgsACA
+gODg8Ojw8MjQ6BBAmIig0KCw0Ojw+GB4uKi42FBwsDBYqACgAODg4CBIoGiIwNjY2Pj44PD4+ACA
+AJiYyOAoCNDw0Pj48PjYWPjw8PjIAPjw2KDYoPjwuPjwyOAwGDCwMHDIcPjg2AD4AAioCCCwILDg
+sOhQOPjo4BioGNjw2OAoEOBAKPDAuPjY0EC4QLjouOhYQPjgcMjoyOj46OA4IIjQiOhoUOiAcPjg
+gPjooJjYmPCYiPCwqPjIIPjIwPjgmPjw6AigCOh4YPjQSCCY0FDAUPCgmGDIYPjosMjo8Oh4aPjI
+MACAyPCgkPjo6AiQ0GDAYPC4sKjY6MDg8PjQ0OhgSOhwYPCQgPComDig2FCw4MjIyGi44IAAgNjY
+6OAgCOAwEPCIePCooHjA4JiYmOBIKOjo6PjAuIjI6LCwsOBAIOBIMOhwWPgAAPjY2AAA+FhIgIAg
+QKAgKLBIELhYYMB4SMCAiPgA+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAEQH/AEAI/wABCBxI
+sKDBgwgTKlzIsKHDhxAjIgwAIIBFAgQkLiQgoKPHjyBDihxJsqRJkhpTqlzJsqXLgxQtBsD4ciDH
+jw5y5jxZoIDHnh+BChDakWhQnz+RGl3qEEICCxwyCFyQgEGEBB0KcsCQAEIGrg8IUmUwMEEDAA8S
+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
+v/n9b38HHOAJAxd4wdON6oAAADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='4' leftmargin='0.9618in' firstlineleftmargin='0.8118in'/>
+<par def='4'>2.  Click on Projects on the Navigator after entering the Admin area.</par>
+<par def='4'/>
+<par def='4'>3.  Double click on the project of interest.</par>
+<par def='4'/>
+<par def='4'>4.  Scroll down the page to the Project Budget area of the project.  See the example below.</par>
+<par def='4'/>
+<pardef id='5' leftmargin='1.6500in' firstlineleftmargin='1.5000in'/>
+<par def='5'><picture height='182px' width='596px'><gif originalformat='notesbitmap'>
+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
+</gif></picture></par>
+<par def='4'/>
+<par def='4'>5.  In the table you will see the current budget information for each area (operating, travel, contract, capital) and how much has been committed, or spent, against each of these areas.  Below the table is the total for the entire project, budget and funds committed.</par>
+<par def='4'/>
+<par def='4'>6.  To calculate the amount remaining, or free balance, simply subtract the amount committed from the amount budgeted.</par>
+<pardef id='6' leftmargin='0.9618in' rightmargin='93%' firstlineleftmargin='0.8118in'/>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='green'/>Free balance = Budget - Committed</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='7' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>En tant que CP, vous pouvez vérifier quel montant a été engagé pour l'un de vos projets, ainsi que le montant total, selon les quatre catégories financières suivantes :</run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='8' leftmargin='1.0625in' rightmargin='93%' list='bullet'/>
+<par def='8'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Opérations courantes</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/> - dépenses quotidiennes d'un projet</run></par>
+<par def='8'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Déplacement</run><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/> - fonction, conférence, taxis, etc.</run></par>
+<par def='8'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Contrat</run><run><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/> - sous-contractants internes (par ex., salaires CVC), sous-contractants externes (par ex., collègues d'universités)</run></par>
+<par def='8'><run><font style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Capital </run><run><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>- achats d'équipements de plus de 5 000,00 $.</run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Afin de vérifier le statut financier d'un projet :</run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='9' leftmargin='1.0625in' rightmargin='93%' list='number'/>
+<par def='9'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Cliquez sur la touche </run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Admin</run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/> pour entrer dans la section administrative de la base de données.</run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='10' leftmargin='1.5000in' rightmargin='93%'/>
+<par def='10'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run><picture
+ height='255px' width='273px'><gif originalformat='notesbitmap'>
+R0lGODlhEQH/AOcAAP///8DAwODw+OAgAICAgAAAgPgY4AAAAEhISAAwmPDw8HiYyLjI4DhgsACA
+gODg8Ojw8MjQ6BBAmIig0KCw0Ojw+GB4uKi42FBwsDBYqACgAODg4CBIoGiIwNjY2Pj44PD4+ACA
+AJiYyOAoCNDw0Pj48PjYWPjw8PjIAPjw2KDYoPjwuPjwyOAwGDCwMHDIcPjg2AD4AAioCCCwILDg
+sOhQOPjo4BioGNjw2OAoEOBAKPDAuPjY0EC4QLjouOhYQPjgcMjoyOj46OA4IIjQiOhoUOiAcPjg
+gPjooJjYmPCYiPCwqPjIIPjIwPjgmPjw6AigCOh4YPjQSCCY0FDAUPCgmGDIYPjosMjo8Oh4aPjI
+MACAyPCgkPjo6AiQ0GDAYPC4sKjY6MDg8PjQ0OhgSOhwYPCQgPComDig2FCw4MjIyGi44IAAgNjY
+6OAgCOAwEPCIePCooHjA4JiYmOBIKOjo6PjAuIjI6LCwsOBAIOBIMOhwWPgAAPjY2AAA+FhIgIAg
+QKAgKLBIELhYYMB4SMCAiPgA+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAEQH/AEAI/wABCBxI
+sKDBgwgTKlzIsKHDhxAjIgwAIIBFAgQkLiQgoKPHjyBDihxJsqRJkhpTqlzJsqXLgxQtBsD4ciDH
+jw5y5jxZoIDHnh+BChDakWhQnz+RGl3qEEICCxwyCFyQgEGEBB0KcsCQAEIGrg8IUmUwMEEDAA8S
+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
+v/n9b38HHOAJAxd4wdON6oAAADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='10'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.	Cliquez sur Projets.</run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.	Cliquez deux fois sur le projet désiré.</run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>4.	Faites défiler la page jusqu'au budget du projet. Consultez l'exemple ci-dessous :</run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>		</run><picture
+ height='182px' width='596px'><gif originalformat='notesbitmap'>
+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
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>5.	Le tableau présente les informations courantes du budget et le montant engagé, ou dépensé, pour chacune 		des catégories (opérations courantes, déplacement, contrat, capital). Sous le tableau se trouve le montant total 	attribué au projet, le budget et l'engagement de fonds.</run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>6.	Le calcul du solde disponible s'effectue en soustrayant simplement le montant engagé du montant prévu au budget.</run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>				</run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'
+ color='green'/>Solde disponible = Budget - Engagement de fonds</run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>	</run></par></richtext></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020812T113818,09-04</datetime></item>
+<item name='HelpESubject'><text>How Much Have I Spent?</text></item>
+<item name='HelpFSubject'><text>Quel est le montant de mes dépenses?</text></item>
+<item name='edit_history'><textlist><text>Jean-Marc Leblanc</text><text>Stephen Bjarnason</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2009-08-06 11:04:47 AM</text><text
+>2002/08/12 11:40:39</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Jean-Marc Leblanc;</text><text>Stephen Bjarnason;</text></textlist></item></document>
+

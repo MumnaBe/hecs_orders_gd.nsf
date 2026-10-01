@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='5466' unid='8123445DB1595B8E852576010069F220' sequence='3'>
+<created><datetime dst='true'>20090728T151712,64-04</datetime></created>
+<modified><datetime dst='true'>20260917T084914,84-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074902,53-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084914,83-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084914,83-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lindsy Bachly/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20090728T151825,23-04</datetime><datetime
+ dst='true'>20090902T074634,85-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20090728T151828,12-04</datetime></item>
+<item name='CompName'><text>AmericanWeight.com</text></item>
+<item name='CompPhone'><text>843-225-7282</text></item>
+<item name='CompAddress'><text>online only</text></item>
+<item name='CompFax'><text>866-643-3444</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Jason</text></item>
+<item name='CompCity'><text>online only</text></item>
+<item name='InvContact'><text>Jason</text></item>
+<item name='CompProvince'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text/></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

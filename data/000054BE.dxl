@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='54be' unid='ADD2FB3ADD1817748525760A00559403' sequence='1'>
+<created><datetime dst='true'>20090806T113444,51-04</datetime></created>
+<modified><datetime dst='true'>20260917T084916,88-04</datetime></modified>
+<revised><datetime dst='true'>20090806T113445,57-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084916,87-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084916,87-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20090806T113413,93-04</datetime></item>
+<item name='HFText'><text>No</text></item>
+<item name='HelpECategories'><text>2. Database Custodian Guide</text></item>
+<item name='HelpESubCat'><text>Receiving and Reconciling Orders</text></item>
+<item name='HelpFCategories'><text>2. Guide de gardien de base de données</text></item>
+<item name='HelpFSubCat'><text>Receiving and Reconciling Orders</text></item>
+<item name='HelpDocNumber'><number>2</number></item>
+<item name='HelpSubCatNumber'><number>1</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='73%'/>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>When the order has been received, the staff member responsible for the order is to forward the packing slips to the Section's Admin person.  When the Admin person receives this information, they have responsibilities to record information in the database for the received order.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.  Determine which items in the order were received and mark how many were received and that they were received.</run></par>
+<pardef id='2' leftmargin='1in' rightmargin='100%'/>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Note: if an order has been partially received, check the received items and leave the other ones not received.  The system will change the status to "</run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Partially Received</run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>"</run></par>
+<pardef id='3' leftmargin='1.5000in' rightmargin='73%'/>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run><picture
+ height='225px' width='520px'><gif originalformat='notesbitmap'>
+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
+HHe+4zub7NqxHREQADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='4' leftmargin='1.0021in' rightmargin='73%' firstlineleftmargin='0.8118in'/>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.  Do this by entering into edit mode while in the desired order by either selecting Edit from the Action Bar or double clicking on the order.</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.  Indicate the Number Received and then click on the Received box.  An order will not change status from "On Order" to "Received" until the Number Received = Quantity ordered (see graphic above).</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>4.  If all items for the order were received, you can also click on the Receive All button on the Action Bar.</run></par>
+<pardef id='5' leftmargin='1.0118in' rightmargin='73%' firstlineleftmargin='0.8118in'/>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><picture height='203px' width='264px'><gif originalformat='notesbitmap'>
+R0lGODlhCAHLAOcAAP///8DAwAAAgICAgAAAAPgY4NjY2AD4+Pj4AACAgAAA+PgAAICAAGBgsACA
+ALCwsIAAAGBgYGD4+ODg4LBgYPhgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAACAHLAEAI/wADCBxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyAPDiAQYEDJkwAsDkhZceRJkyZZCjQJcaVK
+kjBRqpQ50WZLnhJd5hz6sijRo0YRCi0KVCCBBAcCRD3QtCTQpwegQpUqlebApTlTDvA6NgDWrVQL
++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
+cLprh9akeJqgb/akabqojASapQEBADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>5.  Fill in the Packing Slip information in the space provided at the bottom of the order.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><picture height='162px' width='276px'><gif originalformat='notesbitmap'>
+R0lGODlhFAGiAOEAAP///wAAAICAgMDAwCwAAAAAFAGiAEAI/wABCBxIsKDBgwgTKlzIsKHDhxAj
+SpxIsaLFixgzatzIsaPHjyBDCgxAciDJAA9LXlQ5EqXIlyldMmQJsyDNmhxvsqTJ02XPlgpvmpQJ
+4GdRoiWN2iQ6FOhRgiqVLm1K9alTp0p3+kQqU+tVq1Jxih1LtqzZs2jTql3Ltq3bt3DjygWpc+tJ
+qCe3YrXbM69BoXtb+v17NzBYv4WPDhasNSnTuQ0HCBAAWS3giJcra9Y4gCBlnJklhm5Y1+LozagF
+dv7cNqpexlVdX3VctXZhx69lKzZ8OLVvgqt/Cx8ufIDx461fW+1tWLdX5opvP7783Hnu61StfyXO
+vbv37+DDi/8fT768+fPo06tfz769+/fw48ufT7++/fv48+vfz98tYN1fAQjdQUZJJSBt2T22HF4B
+Krcggw3GxlWEsym4XHUTLnhaf79tyOGHIIYo4ogklljZapOxlhZ1XTkIFIa8CVUgdttdKF1zNA5Y
+G3zBmehjfa6hhOCLLcYoZJFTaXfYkUcKZqSTP0YpJWopplhWaP9NZyFGWe5o2Zbk9ciWjHw1diOR
+QyUGYF53sZhYdEgqueZic8JWI3piTqnnnnz26eefgAYq6KCEFmrooYgmquiijDbq6KOQitQlnGm+
+uRilhCVJ55t2VrqUpZsyRualEMLZ4qZ94Rbkp9IhxlWqHn7/NKmBZZ6JEIul6iiqmpeymSCEYUlY
+6nO82SihrxVSGOxYyHrJ5qsZ3mrhqFrWZS2sv9rW7FQUPthrtMQ+C6On2kYa0rbmpqvuuuy26+67
+8MZL0XHIrbXsTGBWNONEoJqWr3t52vssXoNRC2yOWI5L7K9y0jiuroZmJq6oySppKoHNWkfqdmY6
+XCvB4f47XsDylmyyeZ0NpCJasdYUqr4i/0nyih4/qevE3EaH4857IdtylMatfPKP9AIg9NBIJ12c
+0VYmd23Herla6anY1igxqrhNvZvWFOvs9YPcSXY0yxk+3HCyzD2845Bnp+0iz7kCbLTSQHtG9914
+56333nz3/+3334AHLvjghBdu+OGIJ6744ow37vjjkEcu+eSUV265fejiy+XAcv28UKycuoxkaqU5
+5HmmcZ/n4ekZsS4wxlD2nO3WsDPYr4bK1WnzqrjHnrOtvdt4qs4Lhzw78MwqeGDZzAfFefDFlgv2
+9Mt3+zu4ow9ofO3GBn/vS7NGC/H0XlovYPmoc1s99NcPm/363WcVZ/Pow8Rr9kseDyauB/dvM3QW
+ix//oLevbqltewAUX+FcdznUMLCBEIygBCdIwQpa8IIYzKAGN8jBDu4pZQIZG1lwJhotbe5loGMK
+Ax8onpmRLWcxkRX9MMMrf+XHhWcpYAKfgqEm5Y8wpeMdmf/cJrs22WV3LCzRAM/3NSJ2z3lwG6Kd
+2qY7nCWROEETyxJz50MqHhGGDXtbX4hUs61VMWYom5t8WHjFQRVNhObJHL/Q6KgqTcaDeJQZvUCY
+xxMx7Y6v88/3SENHPuHQLEFaX8aoxkiMKaxMtHsepohXSPuI7S1eRBsTFxaYTO5QgIOz2MucmLrr
+efKM3CPUITsSwKcdq2OpFJ4Xv1XDO31QjX30o8pyycteIo6PcLzS/pQnxkpC0ZFtrFswERm68knR
+I8+0JTPbs0phalJjPOvhJ6PpPicZ0ZsI0mbbECUuLl4zimW82bTml83r+AxhzWRPFkWXKSF+cZz4
+fBso28lCz34yUZ649CVc3ihQudhxmQVNqEIXytCGOvShEI2oRCdK0Ypa9KIYzahGN8rRjnr0oyAN
+qUhHStKSmvSkKE2plAICADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>6.  When the Invoice arrives, check the unit prices on the invoice against those on the order and change the order accordingly.  Also record any shipping costs and customs costs if applicable.  Also check that the appropriate currency was selected.</run></par>
+<pardef id='6' leftmargin='0.8118in' rightmargin='73%'/>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>7.  Check to be sure that the total value of the order in the database is the same as the total value of the order before taxes.</run></par>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>8.  Record the invoice number and the date the invoice was received.</run></par>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>9.</run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>  Include any additional comments, if desired.</run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='7' leftmargin='0.8125in' rightmargin='73%'/>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020812T135317,78-04</datetime></item>
+<item name='HelpESubject'><text>Changing the Status of an Order to Received or Partially Received</text></item>
+<item name='HelpFSubject'><text>Changing the Status of an Order to Received or Partially Received</text></item>
+<item name='edit_history'><textlist><text>Jean-Marc Leblanc</text><text>Stephen Bjarnason</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2009-08-06 11:34:13 AM</text><text
+>2002/08/12 13:55:49</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Jean-Marc Leblanc;</text><text>Stephen Bjarnason;</text></textlist></item></document>
+

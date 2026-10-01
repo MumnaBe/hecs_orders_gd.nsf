@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE acl>
+<acl xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' adminserver='CN=APP04/OU=HC-SC/O=GC/C=CA' maxinternetaccess='editor'>
+<role>[Admin]</role>
+<role>[LNOG Admin]</role>
+<role>[Investigators]</role>
+<aclentry name='-Default-' default='true' level='noaccess' readpublicdocs='false'
+ writepublicdocs='false'/>
+<aclentry name='CN=APP04/OU=HC-SC/O=GC/C=CA' type='server' level='manager'
+ deletedocs='true' noreplicate='false'>
+<role>[Admin]</role>
+<role>[LNOG Admin]</role>
+<role>[Investigators]</role></aclentry>
+<aclentry name='Anonymous' level='noaccess' readpublicdocs='false' writepublicdocs='false'/>
+<aclentry name='HC-R_AGENT-SC' type='person' level='manager' deletedocs='true'
+ noreplicate='false'>
+<role>[Admin]</role>
+<role>[LNOG Admin]</role>
+<role>[Investigators]</role></aclentry>
+<aclentry name='LNOG_DTR' type='persongroup' level='manager' deletedocs='true'
+ noreplicate='false'>
+<role>[Admin]</role>
+<role>[LNOG Admin]</role>
+<role>[Investigators]</role></aclentry>
+<aclentry name='LNOG_OIS' type='persongroup' level='manager' deletedocs='true'
+ noreplicate='false'>
+<role>[Admin]</role>
+<role>[LNOG Admin]</role>
+<role>[Investigators]</role></aclentry>
+<aclentry name='LocalDomainServers' type='servergroup' level='manager' deletedocs='true'
+ noreplicate='false'>
+<role>[Admin]</role>
+<role>[LNOG Admin]</role>
+<role>[Investigators]</role></aclentry>
+<aclentry name='HECS_GD_Orders_Investigators' type='persongroup' level='author'
+ createdocs='true' deletedocs='false' createpersonalagents='false' createpersonalviews='false'
+ createlsjavaagents='false' writepublicdocs='true' noreplicate='false'>
+<role>[Investigators]</role></aclentry>
+<aclentry name='HECS_GD_Orders_Readers' type='persongroup' level='reader'
+ createpersonalagents='false' createpersonalviews='false' createlsjavaagents='false'
+ writepublicdocs='true' noreplicate='false'/>
+<aclentry name='HECS_GD_Orders_Editors' type='persongroup' level='author'
+ createdocs='true' deletedocs='false' createpersonalagents='false' createpersonalviews='false'
+ createlsjavaagents='false' writepublicdocs='true' noreplicate='false'/>
+<aclentry name='HECS_GD_Orders_Admin' type='persongroup' level='editor' deletedocs='true'
+ createpersonalagents='false' createpersonalviews='false' createsharedviews='false'
+ createlsjavaagents='false' noreplicate='false'>
+<role>[Admin]</role></aclentry>
+<aclentry name='ads_notes_sustaining_ACL' type='persongroup' level='editor'
+ deletedocs='true' createpersonalagents='false' createpersonalviews='false'
+ createsharedviews='false' createlsjavaagents='false' noreplicate='false'>
+<role>[Admin]</role>
+<role>[LNOG Admin]</role></aclentry>
+<aclentry name='CN=CLAPP/OU=HC-SC/O=GC/C=CA' type='server' level='manager'
+ deletedocs='true' noreplicate='false'>
+<role>[Admin]</role>
+<role>[LNOG Admin]</role>
+<role>[Investigators]</role></aclentry>
+<logentry>2021/09/10 02:17:13 PM APP04/HC-SC/GC/CA added ads_notes_sustaining_ACL</logentry>
+<logentry>2021/09/10 02:17:13 PM APP04/HC-SC/GC/CA deleted ADS_Notes_Sustaining</logentry>
+<logentry>2013/06/17 10:37:09 AM APP04/HC-SC/GC/CA deleted OtherDomainServers</logentry>
+<logentry>05/02/2013 03:54:44 PM Jeff Livesey/SSC-SPC/GC/CA added ADS_Notes_Sustaining</logentry>
+<logentry>05/02/2013 03:54:44 PM Jeff Livesey/SSC-SPC/GC/CA deleted LNOG_HECS</logentry>
+<logentry>2012/06/07 11:45:07 AM Joachim Sanden/SSC-SPC/GC/CA deleted */HC-SC/GC/CA</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated LNOG_HECS</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated CLAPP/HC-SC/GC/CA</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated LocalDomainServers</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated LNOG_OIS</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated LNOG_DTR</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated HC-R_AGENT-SC</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated Anonymous</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated APP04/HC-SC/GC/CA</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated OtherDomainServers</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated */HC-SC/GC/CA</logentry>
+<logentry>2007/04/12 12:40:38 PM Olga Krivchitch/HC-SC/GC/CA updated </logentry>
+<logentry>2007/01/22 09:02:41 AM Olga Krivchitch/HC-SC/GC/CA updated CLAPP/HC-SC/GC/CA</logentry>
+<logentry>2007/01/22 09:02:41 AM Olga Krivchitch/HC-SC/GC/CA updated LocalDomainServers</logentry>
+<logentry>2007/01/22 09:02:41 AM Olga Krivchitch/HC-SC/GC/CA updated LNOG_OIS</logentry></acl>
+

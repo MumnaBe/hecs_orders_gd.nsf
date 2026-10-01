@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(SendMessage)' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3' publicaccess='false'
+ designerversion='6.5' fromtemplate='DevCopyHECSOrders08282003' restrictions='unrestricted'>
+<noteinfo noteid='41a' unid='18B776703F2BBFEC85256F270045E388' sequence='7'>
+<created><datetime dst='true'>20041008T084322,32-04</datetime></created>
+<modified><datetime dst='true'>20260917T084250,86-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,69-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084250,85-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084250,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134342,13-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='runonce'/><code event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	Dim workspace As New NotesUIWorkspace
+	Dim uidoc As NotesUIDocument
+	Dim doc As notesdocument 
+	Dim fieldname As String
+	Dim fieldname2 As String
+	Dim fieldvalue As Variant
+	Dim fieldvalue2 As Variant
+	Dim temp As Variant
+	Dim pname As String
+	Dim pfax As String
+	Dim msg As String
+	Dim msg2 As String
+	Dim pemail As String
+	
+	
+	
+	Set uidoc = workspace.CurrentDocument 
+	Set doc = uidoc.Document 
+	temp = Evaluate({@Contains(FinCode; "04001")},doc)
+	msg = "Send MSDS order or email/fax to: "
+	pname = uidoc.FieldGetText("InvName")
+	pfax = uidoc.FieldGetText("InvFax")
+	pemail = uidoc.FieldGetText("InvEmail")
+	
+	msg2 = msg + pname +"  "+ pemail +Chr$(10)+ " fax " + pfax
+	
+	If uidoc.Isnewdoc Then
+		If  temp(0) = 1 Then
+			For count = 1 To 20
+				fieldname = "i"+ Cstr(count) +"Desc"
+				fieldname2 = "i"+ Cstr(count)+"Quant"
+				fieldvalue = doc.GetItemValue(fieldname)
+				fieldvalue2 = doc.GetItemValue(fieldname2)
+				
+				If fieldvalue(0) = ""  Then 
+					Call uidoc.fieldsettext(fieldname,msg2)
+					Call uidoc.fieldsettext(fieldname2,"1")
+					Exit Sub
+				End If 
+				
+			Next
+		End If	
+	End If
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0' agentdata='B7F1A51C9FE189908525760900461338'>
+<agentmodified><datetime dst='true'>20090805T084137,71-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20090820T145745,71-04</datetime></agentrun>
+<runlog>Started running agent 'SendMessage' on 2009-08-20 02:57:45 PM
+Ran LotusScript code
+Done running agent 'SendMessage' on 2009-08-20 02:57:45 PM
+</runlog></rundata>
+<item name='$POID'><datetime dst='true'>20090805T084137,70-04</datetime></item></agent>
+

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='2846' unid='99B8E14664A1F2E48525715C0055C82F' sequence='3'>
+<created><datetime dst='true'>20060426T113658,07-04</datetime></created>
+<modified><datetime dst='true'>20260917T084506,06-04</datetime></modified>
+<revised><datetime dst='true'>20070419T084741,04-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084506,05-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084506,05-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060426T113737,06-04</datetime><datetime
+ dst='true'>20060531T104152,13-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20070419T084727,43-04</datetime></item>
+<item name='Category'><text>Contract</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831503</text></item>
+<item name='GLAccount'><textlist><text>Engineering Consultants - Construction</text><text
+>Health Science Consultants</text><text>IT Specialized Consultants</text><text
+>Moving Expenses</text><text>Professional and Technical Health Services (PDFs)</text><text
+>R &amp; M Computer Equipment and Parts</text><text>R &amp; M Computer Hardware and Software</text><text
+>R &amp; M Electric Lighting &amp; Control Equipment</text><text>R &amp; M Furniture and Fixtures</text><text
+>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text
+>R &amp; M Office Machines and Equipment</text><text>R &amp; M Safety Alarm and Signal Equipment</text><text
+>R &amp; M Telecommunications Equipment</text><text>Telecommunications Consultants</text><text
+>Engineering Consultants</text><text>Health Scientific Consultants</text><text
+>Other Consultants</text><text>Repair and Maintenance - Hardware and Software</text><text
+>Repair and Maintenance - Laboratories</text><text>Repairs and Maintenance -- Lab Equipment</text><text
+>Temporary Help Service</text></textlist></item>
+<item name='ProgActiv'><text>A3B7-Emerging Technologies Science Knowledge</text></item>
+<item name='IntOrd'><textlist><text>4340393 Genomics - HV</text><text>4340393 Genomics - MA</text><text
+>4340393 Genomics - PK</text><text>4340393 Genomics - RV</text></textlist></item></document>
+

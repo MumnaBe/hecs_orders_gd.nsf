@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2e0a' unid='B6D20B48B7E236EB85256E7E006DB268' sequence='4'>
+<created><datetime dst='true'>20040422T155810,96-04</datetime></created>
+<modified><datetime dst='true'>20260917T084534,27-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074835,70-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084534,26-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084534,26-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20040422T160005,34-04</datetime><datetime
+ dst='true'>20070410T101942,47-04</datetime><datetime dst='true'>20090902T074557,53-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20070410T101937,60-04</datetime></item>
+<item name='CompName'><text>Chapters, www.chapters.indigo.ca</text></item>
+<item name='CompPhone'><text>N/A</text></item>
+<item name='CompAddress'><text>468 King Street West, Suite 500</text></item>
+<item name='CompFax'><text>N/A</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>online</text></item>
+<item name='CompCity'><text>Toronto</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>M5V 1L8</text></item>
+<item name='CompCountry'><text>CAD</text></item>
+<item name='AcctNumber'><text>see Rob</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Chapters Indigo Books</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>http://www.chapters.indigo.ca/home?Lang=en&amp;__lang=en-CA</text></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

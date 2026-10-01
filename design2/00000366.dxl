@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_12_0_2.dtd'>
+<note class='sharedfield' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA'>
+<noteinfo noteid='366' unid='C93CEB734265414C852572F8004AB1ED' sequence='15'>
+<created><datetime dst='true'>20070612T093552,13-04</datetime></created>
+<modified><datetime dst='true'>20260917T084246,60-04</datetime></modified>
+<revised><datetime dst='true'>20080902T111713,35-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084246,59-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084246,59-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<item name='OriginalModTime'><datetime dst='true'>20080801T142353,73-04</datetime></item>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+</rawitemdata></item>
+<item name='$TITLE'><text>MyGst</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$Flags'><text/></item>
+<item name='$DesignerVersion'><text>6.5</text></item>
+<item name='MyGST' summary='false'><number>0</number></item>
+<item name='$FIELDS'><text>MyGst</text></item>
+<item name='$Body' summary='true' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAArdBgAAiv/+/1QA
+AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAC4sJACK/1QAiAEAAwAwAgEAAAAAAAIBAAAKKgAAAAAAAAAFAAAA
+AAAqAAAAHAABAAYAR3N0TW9kAQAGAGdldEdzdPcCAwAHAAwABQAJMFMwRQBNeUdzdADeBgAAiv+F
+/wgAAQAACg==
+</rawitemdata></item></note>
+

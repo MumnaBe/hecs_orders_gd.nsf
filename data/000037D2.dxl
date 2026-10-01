@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='37d2' unid='E5571611038A965E85256C0D0046D727' sequence='5'>
+<created><datetime dst='true'>20020806T085345,99-04</datetime></created>
+<modified><datetime dst='true'>20260917T084626,76-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074843,03-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084626,75-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084626,75-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020806T085515,68-04</datetime><datetime
+>20021104T141500,29-05</datetime><datetime>20021125T071737,40-05</datetime><datetime
+ dst='true'>20090902T074612,31-04</datetime></revisions>
+<item name='CompName'><text>ATS Scientific Inc.</text></item>
+<item name='CompPhone'><text>1-800-661-6700</text></item>
+<item name='CompAddress'><text>4030 Mainway</text></item>
+<item name='CompFax'><text>(905) 332-1394</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Osob Egal</text></item>
+<item name='CompCity'><text>Burlington</text></item>
+<item name='InvContact'><text>Osob Egal</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>L7M 4B9</text></item>
+<item name='CompCountry'><text>CANADA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

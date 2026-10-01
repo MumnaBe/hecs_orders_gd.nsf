@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2d8e' unid='B3FBAE3307C8A7B885256DB90077234F' sequence='3'>
+<created><datetime dst='true'>20031008T174118,23-04</datetime></created>
+<modified><datetime dst='true'>20260917T084531,80-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074834,23-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084531,79-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084531,79-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20031008T174327,01-04</datetime><datetime
+ dst='true'>20090902T074415,53-04</datetime></revisions>
+<item name='CompName'><text>Animal Boarding Costs</text></item>
+<item name='CompPhone'><text>(613-957-3968</text></item>
+<item name='CompAddress'><text>Tunney's Pasture, Blg. #8</text></item>
+<item name='CompFax'><text>(613)-946-2600</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>K1B 0L2</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CDN</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>To register costs in HECS.</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

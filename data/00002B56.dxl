@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2b56' unid='A9FC735EC1868CDC85256C3E00412D12' sequence='8'>
+<created><datetime dst='true'>20020924T075153,78-04</datetime></created>
+<modified><datetime dst='true'>20260917T084521,14-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075013,32-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084521,13-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084521,13-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020924T075249,19-04</datetime><datetime
+ dst='true'>20020924T075419,74-04</datetime><datetime>20021104T141501,63-05</datetime><datetime
+>20021212T083925,93-05</datetime><datetime dst='true'>20030826T133922,09-04</datetime><datetime
+ dst='true'>20030826T133924,21-04</datetime><datetime dst='true'>20090902T074551,60-04</datetime></revisions>
+<item name='CompName'><text>The Ram Group Inc.</text></item>
+<item name='CompPhone'><text>(613) 731-7222</text></item>
+<item name='CompAddress'><text>3280 Langstaff Rd.</text></item>
+<item name='CompFax'><text>(613) 731-5570</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Mark LaLonde</text></item>
+<item name='CompCity'><text>Vaughan</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>L4K 5B6</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Cemtech</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>http://www.cemtech.com</text></item>
+<item name='comment'><text>Mark Lalonde, Account Manager<break/>The Ram Group/Cemtech Division<break
+/>merk.lalonde@theramgroup.com<break/>Tel: ext: 235<break/>Fax: 731-5570<break
+/>Cell: 851-8404</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

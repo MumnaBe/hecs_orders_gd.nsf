@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='d1e' unid='13F2378C56EB5B4B85256BEB005F09AD' sequence='4'>
+<created><datetime dst='true'>20020703T131803,97-04</datetime></created>
+<modified><datetime dst='true'>20260917T084309,46-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074926,21-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084309,45-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084309,45-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,99-04</datetime><datetime
+>20021104T141457,13-05</datetime><datetime dst='true'>20090902T074458,03-04</datetime></revisions>
+<item name='CompName'><text>ICC The Compliance Center Inc.</text></item>
+<item name='CompAddress'><text>88 Lindsay Av</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Dorval</text></item>
+<item name='CompProvince'><text>QC</text></item>
+<item name='CompPostalCode'><text>H9P 2T8</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(514) 636-8146 1-800-768-7863</text></item>
+<item name='CompFax'><text>(514) 636-3522</text></item>
+<item name='PurchContact'><text>Irene Guy Morrissette</text></item>
+<item name='InvContact'><text>Diane Brisebois</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>HEA0LA2</text></item>
+<item name='CompAKA'><text>ICC</text></item>
+<item name='CompEmail'><text>ICCDORVAL@thecompliancecenter.com</text></item>
+<item name='CompWeb'><text>www.thecompliancecenter.com</text></item>
+<item name='comment'><text>shipping materials</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

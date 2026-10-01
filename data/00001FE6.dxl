@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1fe6' unid='6F83A1568E42350185256DF20072ED03' sequence='6'>
+<created><datetime>20031204T155517,79-05</datetime></created>
+<modified><datetime dst='true'>20260917T084429,47-04</datetime></modified>
+<revised><datetime dst='true'>20230607T121942,84-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084429,46-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084429,46-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20031204T155808,52-05</datetime><datetime>20031204T155812,64-05</datetime><datetime
+>20040224T161630,27-05</datetime><datetime dst='true'>20050413T101743,76-04</datetime><datetime
+ dst='true'>20090902T074953,54-04</datetime></revisions>
+<item name='CompName'><text>Smiths Detection - Toronto Ltd.</text></item>
+<item name='CompPhone'><text>1-905-817-5990</text></item>
+<item name='CompAddress'><text>7030 Century Avenue</text></item>
+<item name='CompFax'><text>1-905-817-5992</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Paul Kennedy</text></item>
+<item name='CompCity'><text>Mississauga</text></item>
+<item name='InvContact'><text>Judy Phillips</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>L5N 2V8</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>EHC001</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.smithsdetection.com</text></item>
+<item name='comment'><text>Karen Jacques, V.P. Operations.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20031204T155517,79-05</datetime></item>
+<item name='MasterCard_FR'><text>Non</text></item>
+<item name='MasterCard_EN'><text>No</text></item>
+<item name='MasterCard'><text>No</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:19:47 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

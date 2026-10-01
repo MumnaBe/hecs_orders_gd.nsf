@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='49aa' unid='76154C56D77386CE8525736B0050C45E' sequence='3'>
+<created><datetime dst='true'>20071005T104211,50-04</datetime></created>
+<modified><datetime dst='true'>20260917T084816,26-04</datetime></modified>
+<revised><datetime dst='true'>20080401T152458,45-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084816,25-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084816,25-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Gallagher/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20071005T104235,18-04</datetime><datetime
+ dst='true'>20071005T104237,74-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20080401T152503,17-04</datetime></item>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>A3EH - Biostats Science Process</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>A3EH</text></item></document>
+

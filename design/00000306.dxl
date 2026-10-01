@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='Admin\ Application Feedback / Rétroaction' alias='Feedback' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' publicaccess='false'
+ designerversion='5' recalc='true'>
+<noteinfo noteid='306' unid='5D3D5463B18C0EA485256C3D004205D4' sequence='7'>
+<created><datetime dst='true'>20020923T080108,68-04</datetime></created>
+<modified><datetime dst='true'>20260917T084244,77-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143124,73-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084244,76-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084244,76-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<globals><code event='options'><lotusscript>Option Public
+
+
+</lotusscript></code><code event='declarations'><lotusscript>%INCLUDE "lsconst.lss"</lotusscript></code></globals><code
+ event='windowtitle'><formula>@If(@IsNewDoc; "New Feedback / Nouvelle contribution"; "From / De: " + DocAuthor)</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/>
+<action title='' icon='61' showinmenu='false' hide='preview'><code event='click'><formula
+>@Environment("HECS_Language";"E");
+@Command([RefreshHideFormulas])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") != "F"</formula></code></action>
+<action title='' icon='62' showinmenu='false' hide='preview'><code event='click'><formula
+>@Environment("HECS_Language";"F");
+@Command([RefreshHideFormulas])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Send &amp; Close' icon='1' hide='preview read'><code event='click'><lotusscript
+>Sub Click(Source As Button)
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim uidoc As notesuidocument
+	Dim doc As notesdocument
+	Dim docMemo As notesdocument
+	
+	
+	Set uidoc=ws.CurrentDocument
+	Set doc=uidoc.document
+	Call uidoc.Save
+	Set db=s.currentdatabase
+	Set docMemo=db.CreateDocument
+	Dim bodytxt As New notesrichtextitem (docMemo, "Body")
+	
+	docMemo.SendTo=uidoc.FieldGetText("SendTo")
+	docMemo.Subject="HECS Orders feedback"
+	bodytxt.AppendText("New feedback has been received.  Please follow the document link below to view the feedback.")
+	bodytxt.AddNewLine 2
+	bodytxt.AppendText("--&gt;")
+	bodytxt.AppendDocLink doc, "HECS Orders feedback"
+	docMemo.Send False
+	uidoc.Close
+	
+End Sub</lotusscript></code><code event='hidewhen'><formula>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Envoyer et fermer' icon='1' hide='preview read'><code event='click'><lotusscript
+>Sub Click(Source As Button)
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim uidoc As notesuidocument
+	Dim doc As notesdocument
+	Dim docMemo As notesdocument
+	
+	
+	Set uidoc=ws.CurrentDocument
+	Set doc=uidoc.document
+	Call uidoc.Save
+	Set db=s.currentdatabase
+	Set docMemo=db.CreateDocument
+	Dim bodytxt As New notesrichtextitem (docMemo, "Body")
+	
+	docMemo.SendTo=uidoc.FieldGetText("SendTo")
+	docMemo.Subject="HECS Orders feedback"
+	bodytxt.AppendText("New feedback has been received.  Please follow the document link below to view the feedback.")
+	bodytxt.AddNewLine 2
+	bodytxt.AppendText("--&gt;")
+	bodytxt.AppendDocLink doc, "HECS Orders feedback"
+	docMemo.Send False
+	uidoc.Close
+	
+End Sub</lotusscript></code><code event='hidewhen'><formula>@Environment("HECS_Language") != "F"</formula></code></action>
+<action title='Help' icon='45' hide='preview'><code event='click'><formula
+>@Command([HelpAboutDatabase])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Aide' icon='45' hide='preview'><code event='click'><formula
+>@Command([HelpAboutDatabase])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") != "F"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/></actionbar>
+<body><richtext>
+<pardef id='1' leftmargin='1in' hide='read edit copy preview previewedit'
+ tabs='L1.1250in L1.3750in L1.5000in L1.7500in L2in L2.2500in L2.5000in L2.7500in L2.9375in'/>
+<par def='1'><run><font size='8pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='red'/></run><run><font size='8pt' color='red' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/><field type='text' kind='computedwhencomposed'
+ name='FormName'><code event='defaultvalue'><formula>"Feedback"</formula></code></field></run><run
+><font size='8pt' name='Arial' pitch='variable' truetype='true' familyid='20'/> </run><run
+><font size='8pt' color='red' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='names' allowmultivalues='true' kind='computedwhencomposed'
+ name='SendTo' listinputseparators='comma semicolon newline' listdisplayseparator='comma'><code
+ event='defaultvalue'><formula>@DbLookup( "":"NoCache" ;"":"";"KeywordLookup";"HelpFileContact";2)</formula></code></field></run><run
+><font size='8pt' name='Arial' pitch='variable' truetype='true' familyid='20'
+ color='red'/> </run><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><field type='authors' kind='computedwhencomposed'
+ name='ServerName'><code event='defaultvalue'><formula>@Subset(@DbName;1)</formula></code></field></run><run
+><font size='8pt' name='Arial' pitch='variable' truetype='true' familyid='20'/></run><run
+><font size='8pt' color='red'/><field type='text' kind='computed' name='DBTitle'
+ description='Computed: database title'><code event='defaultvalue'><formula
+>DBTitle_D+ " on /sur " + @UpperCase(@Name([Abbreviate];ServerName))</formula></code></field></run><run
+><font size='8pt' color='red' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='text' kind='computed' name='Subject'><code event='defaultvalue'><formula
+>"FEEDBACK: " + DBTitle</formula></code></field></run><run><font size='8pt'
+ name='Arial' pitch='variable' truetype='true' familyid='20' color='red'/></run><run
+><font size='8pt' color='red' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><field type='text' kind='computedwhencomposed' name='Categories'
+ description='Computed: In Basket Category'><code event='defaultvalue'><formula
+>"FYI"</formula></code></field></run><run><font size='8pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run><run><font size='8pt' color='red' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/><field type='text' kind='computedwhencomposed'
+ name='Sign'><code event='defaultvalue'><formula>"0"</formula></code></field></run><run
+><font size='8pt' name='Arial' pitch='variable' truetype='true' familyid='20'
+ color='red'/></run><run><font size='8pt' color='red' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><field type='text' kind='computedwhencomposed'
+ name='Encrypt'><code event='defaultvalue'><formula>"0"</formula></code></field></run><run
+><font size='8pt' name='Times New Roman' pitch='variable' truetype='true'
+ familyid='10' color='red'/></run><run><font size='8pt' color='red' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/><field type='text' kind='editable'
+ name='AgentFlag'/></run><run><font size='8pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par>
+<pardef id='2' leftmargin='1in' tabs='L1.1250in L1.3750in L1.5000in L1.7500in L2in L2.2500in L2.5000in L2.7500in L2.9375in'/>
+<par def='2'><picture height='39px' width='43px'><gif originalformat='notesbitmap'>
+R0lGODlhKwAnAOcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD/
+/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAKwAnAEAI9gAfCBxI
+sKDBgwgTDkTAkIBDAgwjSpwo8eFDBAofRLSIkSPGBxYhamx4MePGixUtHjzp8GNCijBjysxoUKZN
+mC0VshRJ0yNHkyRbBg3pkOBOlwiP3oz5k6bTp1CjSjVJtKrVqkhXDl2akmjWmlszhjwKFAFHr2ZV
+CiSrc+vOkkbDtk0rNOVLuXfpXt3rtSzXpVMDCx5MuPBdp3wTE6U5VDHfrwWV/tULN2/TnhcvJ8Wb
+0KNeyHE/r41IMORI0XPPjtVo+rRmrZ8p9x2N2jJK2Q8jc4btGTfY2ptj7wz++vfPiakrE3esGPTC
+xsytMp7M1bD164IDAgA7
+</gif></picture><run
+><font size='18pt' name='Times New Roman' pitch='variable' truetype='true'
+ familyid='10' color='teal'/>Feedback</run><run><font size='18pt' name='Times New Roman'
+ pitch='variable' truetype='true' familyid='10'/> / </run><run><font size='18pt'
+ name='Times New Roman' pitch='variable' truetype='true' familyid='10' color='teal'/>Rétroaction</run></par>
+<pardef id='3' leftmargin='1in' hide='print' tabs='L2in L4in'/>
+<par def='3'><run><font size='8pt' color='maroon'/>Please describe any problems, suggestions or comments which would help us improve this application.</run></par>
+<par def='3'><run><font size='8pt'/>Aidez-nous à améliorer cette application en nous faisant part de vos problèmes, suggestions ou commentaires.</run></par>
+<pardef id='4' leftmargin='1in'><code event='hidewhen'><formula>Bandwidth = "L"</formula></code></pardef>
+<par def='4'><picture height='6px' width='580px'><gif originalformat='notesbitmap'>
+R0lGODlhRAIGAOcAAP///xAQEBgYGCEhISkpKTExMTk5OUJCQkpKSlJSUlpaWmNjY2tra3Nzc4SE
+hIyMjJSUlJycnK2trbW1tb29vcbGxs7Ozt7e3ufn5+/v7/f395SMjL2trbWUlMaMjL2EhM5zc9Zz
+c2MxMd5za5xCOXsxKc5jSu9rSv+tlP+ljO9rQpxCIdZKGP9rMedjKe+ESoRCIf97Ob1zSvete++E
+OcZrKWMpAP+MKbVSAGNaUv+UMcaEQv+UKUpCOdate3NKEJRjGPetMWtKEGNSMXNrWrWcY/+9KbWE
+GMa1jL2thLWle9a1Y4RrKUIxCIRjEKWUY0I5Iee1IXNaEL21nP/vvefWnL2te3NjMTEpEP/WUlJC
+EMa1c2NaOe/We5SESta9Y861Wr2lSrWcQt69Qv/WSta1Ob2cIYxzGGNSEM7GpaWcc2tjQv/eSrWc
+MaWMKf/WMcalIc6tIZR7EP/OAO/nvbWthP/vpd7OhL2tY//na1JKIefOWq2cQox7KcatOXtrIf/e
+OaWMGHNjEP/WGO/GCP/3xs7GlP/vjHtzQnNrOWNaIefOQv/eKf/eGN7WnL21e87Ge87Oxt7e1rW1
+rYyMhHt7c729rf//50pKQt7exjExKWNjUoyMc7W1lISEY5SchISMhGtza1pjWt7n58bn/87W563G
+/1p7xsbW/zFaxkJjzhhK7wAxxlJz5yExaylCnClKvTFa7wAx3lJrzkpr7zFa/yFCxhgxnAAx9yEx
+ewAYlAAhxlpjlAAIOQAQaxAYUgAIUqWlrb29xoyMlISEjNbW70JCSs7O74yMpbW13q2t3mtrlJyc
+3jk5UlpalDExUhgYKVJStVJSvRgYYwAA71JKtUpCrUI5rTkxpXtzxnNrvWtjvVpSpWNavVpStZyU
+1oyEzoR7xoR7zkpChK2l3qWc3nNrpTkxa0IxpUIxrTkppTEhnK2l1qWc1rWt1lJKc0I5a8a955yU
+tZSMrUoxlDEhWoRzrTEYaxAIIVIQhLWttXNrc7WlrbV7lL2lrQAAACwAAAAARAIGAEAI/wDRSZOm
+rZu0btasYUOHLqG0bdqsSatWzVo3bQeloaNHr+LEbRALdutWzZs3iNuqIVRJ0hvCbCC3oYM4Sya3
+i9m0ueyWLRtPl+KyefMJEZxPbtq0bfOGVCS3bTnBSdXZDWRSbTmDGoWpNJu4bd2m8mRGtmdPcWGN
+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
+</gif></picture></par>
+<pardef id='5' leftmargin='1in' tabs='L1.2500in L1.5000in L1.7500in L2in L2.3125in'/>
+<par def='5'><run><font style='bold' color='teal'/>Specific Application:  </run><run
+><font color='red' style='bold'/><field type='keyword' kind='computedfordisplay'
+ name='DBTitle_D' description='Computed: database title'><keywords ui='dialoglist'
+ allownew='true'><formula>@DbColumn( "" : "NoCache" ; "" ; "ProfileLookup" ; "2" )</formula></keywords><code
+ event='defaultvalue'><formula>@DbTitle</formula></code></field></run><run
+><font style='bold' color='navy'/> </run><run><font color='teal'/>on / sur</run><run
+><font style='bold' color='navy'/> </run><run><font color='red' style='bold'/><field
+ type='text' kind='computedfordisplay' name='ServerName_D'><code event='defaultvalue'><formula
+>@If(ServerName = "";"Local";@UpperCase(@Name([Abbreviate];ServerName)))</formula></code></field></run><run
+><font size='9pt' style='bold' color='navy'/></run></par>
+<pardef id='6' leftmargin='1in' tabs='L1.2500in L1.5000in L1.7500in L2in L2.2500in L2.5000in L2.7500in L3in'/>
+<par def='6'><run><font size='8pt' style='bold' color='teal'/>User / Utilisateur :</run><run
+><font size='8pt' style='bold' color='gray'/> </run><run><font size='8pt'
+ style='bold' color='gray'/>	</run><run><font size='8pt' color='olive'/><field
+ type='text' kind='computedwhencomposed' name='DocAuthor'><code event='defaultvalue'><formula
+>@Name([Abbreviate];@UserName)</formula></code></field></run><run><font size='8pt'
+ color='blue'/> </run><run><font size='8pt' color='teal'/>on / sur</run><run
+><font size='8pt' style='bold'/> </run><run><font size='8pt' color='olive'/><field
+ type='datetime' kind='computedwhencomposed' name='ComposeDate'><datetimeformat
+ show='date' date='yearmonthday' time='hourminutesecond' zone='never'/><code
+ event='defaultvalue'><formula>@Created</formula></code></field></run></par>
+<par def='4'><picture height='6px' width='580px'><gif originalformat='notesbitmap'>
+R0lGODlhRAIGAOcAAP///xAQEBgYGCEhISkpKTExMTk5OUJCQkpKSlJSUlpaWmNjY2tra3Nzc4SE
+hIyMjJSUlJycnK2trbW1tb29vcbGxs7Ozt7e3ufn5+/v7/f395SMjL2trbWUlMaMjL2EhM5zc9Zz
+c2MxMd5za5xCOXsxKc5jSu9rSv+tlP+ljO9rQpxCIdZKGP9rMedjKe+ESoRCIf97Ob1zSvete++E
+OcZrKWMpAP+MKbVSAGNaUv+UMcaEQv+UKUpCOdate3NKEJRjGPetMWtKEGNSMXNrWrWcY/+9KbWE
+GMa1jL2thLWle9a1Y4RrKUIxCIRjEKWUY0I5Iee1IXNaEL21nP/vvefWnL2te3NjMTEpEP/WUlJC
+EMa1c2NaOe/We5SESta9Y861Wr2lSrWcQt69Qv/WSta1Ob2cIYxzGGNSEM7GpaWcc2tjQv/eSrWc
+MaWMKf/WMcalIc6tIZR7EP/OAO/nvbWthP/vpd7OhL2tY//na1JKIefOWq2cQox7KcatOXtrIf/e
+OaWMGHNjEP/WGO/GCP/3xs7GlP/vjHtzQnNrOWNaIefOQv/eKf/eGN7WnL21e87Ge87Oxt7e1rW1
+rYyMhHt7c729rf//50pKQt7exjExKWNjUoyMc7W1lISEY5SchISMhGtza1pjWt7n58bn/87W563G
+/1p7xsbW/zFaxkJjzhhK7wAxxlJz5yExaylCnClKvTFa7wAx3lJrzkpr7zFa/yFCxhgxnAAx9yEx
+ewAYlAAhxlpjlAAIOQAQaxAYUgAIUqWlrb29xoyMlISEjNbW70JCSs7O74yMpbW13q2t3mtrlJyc
+3jk5UlpalDExUhgYKVJStVJSvRgYYwAA71JKtUpCrUI5rTkxpXtzxnNrvWtjvVpSpWNavVpStZyU
+1oyEzoR7xoR7zkpChK2l3qWc3nNrpTkxa0IxpUIxrTkppTEhnK2l1qWc1rWt1lJKc0I5a8a955yU
+tZSMrUoxlDEhWoRzrTEYaxAIIVIQhLWttXNrc7WlrbV7lL2lrQAAACwAAAAARAIGAEAI/wDRSZOm
+rZu0btasYUOHLqG0bdqsSatWzVo3bQeloaNHr+LEbRALdutWzZs3iNuqIVRJ0hvCbCC3oYM4Sya3
+i9m0ueyWLRtPl+KyefMJEZxPbtq0bfOGVCS3bTnBSdXZDWRSbTmDGoWpNJu4bd2m8mRGtmdPcWGN
+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
+</gif></picture></par>
+<par def='6'><run><font size='12pt'/></run><popup show='onclick' hotspotstyle='none'><popuptext
+>Please enter a brief description that will be used for sort purpose.
+S.V.P. donnez une brève description qui sera utilisée à des fins de tri.</popuptext><run
+><font style='bold' color='blue'/>Brief Description / Description abrégée :</run></popup><run
+><font style='bold' color='blue'/></run></par>
+<par def='6'><run><font style='bold' color='maroon'/></run><field defaultfocus='true'
+ type='text' kind='editable' name='WishDesc' description='Click on field name to view help / Appuyez sur le nom du champ pour obtenir de l&apos;aide.'/><run
+><font style='bold' color='maroon'/></run></par>
+<pardef id='7' leftmargin='2.7500in' firstlineleftmargin='1in' hide='edit previewedit'
+ tabs='L1.2500in L1.5000in L1.7500in L2in L2.2500in L2.5000in L2.7500in L3in'/>
+<par def='7'><run><font style='bold' color='maroon'/></run></par>
+<pardef id='8' leftmargin='2.7500in' firstlineleftmargin='1in' tabs='L1.2500in L1.5000in L1.7500in L2in L2.2500in L2.5000in L2.7500in L3in'/>
+<par def='8'><run><font style='bold' color='blue'/></run><popup show='onclick'
+ hotspotstyle='none'><popuptext>Describe any general changes desired
+Décrivez tout changement, amélioration, suggestions désirés.</popuptext><run
+><font style='bold' color='blue'/>Detailed Description / Description détaillée :</run></popup><run
+><font style='bold' color='blue'/></run></par>
+<par def='6'><run><font color='maroon'/></run><field type='richtext' kind='editable'
+ name='WishGeneral' description='Click on field name to view help / Appuyez sur le nom du champ pour obtenir de l&apos;aide.'/><run
+><font color='maroon'/></run></par>
+<par def='4'><picture height='6px' width='580px'><gif originalformat='notesbitmap'>
+R0lGODlhRAIGAOcAAP///xAQEBgYGCEhISkpKTExMTk5OUJCQkpKSlJSUlpaWmNjY2tra3Nzc4SE
+hIyMjJSUlJycnK2trbW1tb29vcbGxs7Ozt7e3ufn5+/v7/f395SMjL2trbWUlMaMjL2EhM5zc9Zz
+c2MxMd5za5xCOXsxKc5jSu9rSv+tlP+ljO9rQpxCIdZKGP9rMedjKe+ESoRCIf97Ob1zSvete++E
+OcZrKWMpAP+MKbVSAGNaUv+UMcaEQv+UKUpCOdate3NKEJRjGPetMWtKEGNSMXNrWrWcY/+9KbWE
+GMa1jL2thLWle9a1Y4RrKUIxCIRjEKWUY0I5Iee1IXNaEL21nP/vvefWnL2te3NjMTEpEP/WUlJC
+EMa1c2NaOe/We5SESta9Y861Wr2lSrWcQt69Qv/WSta1Ob2cIYxzGGNSEM7GpaWcc2tjQv/eSrWc
+MaWMKf/WMcalIc6tIZR7EP/OAO/nvbWthP/vpd7OhL2tY//na1JKIefOWq2cQox7KcatOXtrIf/e
+OaWMGHNjEP/WGO/GCP/3xs7GlP/vjHtzQnNrOWNaIefOQv/eKf/eGN7WnL21e87Ge87Oxt7e1rW1
+rYyMhHt7c729rf//50pKQt7exjExKWNjUoyMc7W1lISEY5SchISMhGtza1pjWt7n58bn/87W563G
+/1p7xsbW/zFaxkJjzhhK7wAxxlJz5yExaylCnClKvTFa7wAx3lJrzkpr7zFa/yFCxhgxnAAx9yEx
+ewAYlAAhxlpjlAAIOQAQaxAYUgAIUqWlrb29xoyMlISEjNbW70JCSs7O74yMpbW13q2t3mtrlJyc
+3jk5UlpalDExUhgYKVJStVJSvRgYYwAA71JKtUpCrUI5rTkxpXtzxnNrvWtjvVpSpWNavVpStZyU
+1oyEzoR7xoR7zkpChK2l3qWc3nNrpTkxa0IxpUIxrTkppTEhnK2l1qWc1rWt1lJKc0I5a8a955yU
+tZSMrUoxlDEhWoRzrTEYaxAIIVIQhLWttXNrc7WlrbV7lL2lrQAAACwAAAAARAIGAEAI/wDRSZOm
+rZu0btasYUOHLqG0bdqsSatWzVo3bQeloaNHr+LEbRALdutWzZs3iNuqIVRJ0hvCbCC3oYM4Sya3
+i9m0ueyWLRtPl+KyefMJEZxPbtq0bfOGVCS3bTnBSdXZDWRSbTmDGoWpNJu4bd2m8mRGtmdPcWGN
+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
+</gif></picture></par>
+<pardef id='9' leftmargin='1in' rightmargin='68%' hide='read edit preview previewedit'
+ tabs='L1.2500in L1.5000in L1.7500in L2in L2.2500in L2.5000in L2.7500in L3in'/>
+<par def='9'><run><font size='9pt' style='underline' name='Times New Roman'
+ pitch='variable' truetype='true' familyid='10' color='red'/></run></par>
+<pardef id='10' leftmargin='2.7500in' firstlineleftmargin='1in' hide='read edit preview previewedit'
+ tabs='L1.2500in L1.5000in L1.7500in L2in L2.2500in L2.5000in L2.7500in L3in'/>
+<par def='10'><run><font size='9pt' color='red'/></run></par>
+<pardef id='11' leftmargin='1in' hide='read edit preview previewedit' tabs='L1.2500in L1.5000in L1.7500in L2in L2.2500in L2.5000in L2.7500in L3in'/>
+<par def='11'><run><font size='12pt' style='bold' name='Times New Roman' pitch='variable'
+ truetype='true' familyid='10' color='yellow'/></run></par>
+<par def='11'><run><font size='12pt' style='bold' name='Times New Roman' pitch='variable'
+ truetype='true' familyid='10' color='yellow'/></run></par></richtext></body>
+<item name='$Author'><text>Debbie Branco</text></item>
+<item name='Date' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='DueDate' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='DateModified' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='CompleteDate' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='ComposeDate_1' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='$$MailToAppAdmin' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Initialize
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+End Sub
+
+'++LotusScript Development Environment:2:2:Initialize:1:10
+Sub Initialize
+     
+End Sub<break/><break/></text></item>
+<item name='$MailToAppAdmin_O' sign='true'>
+<rawitemdata type='14'>
+AQAsAUxTT0IDABQAZW4AAAQABwAbAAQAAAAEAlABGAAAAAQAWAFkAQAAAAAkAOAAGAAAAP///ABU
+AAEAAAAAAAIAAAAYALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAGAAAAAAAAAAAAAAA
+AAAAAAAAsACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAEAAABkAWQBAAAAAGQBZAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAMAVAEAAAAAOAAIACoAMwA4AEIAMgA3ADIANAAAABkAbAADAE4A
+RQBXAAAAgAAGAEQARQBMAEUAVABFAAAAAAD//woASQBOAEkAVABJAEEATABJAFoARQAAAAAAiAAJ
+AFQARQBSAE0ASQBOAEEAVABFAAAAtAAGAE8AQgBKAEUAQwBUAAAAqAEYAQAAAAAAAP//EgAoAEcA
+TABPAEIAQQBMAFMAKQAgAEYARQBFAEQAQgBBAEMASwAAAFQA//8SACgARwBsAG8AYgBhAGwAcwAp
+ACAARgBlAGUAZABiAGEAYwBrAAAARQA8AQoAQgBJAE4ARABFAFYARQBOAFQAUwAAAAgA//8LAE8A
+QgBKAEUAQwBUAE4AQQBNAEUAXwAAACwBBgBTAE8AVQBSAEMARQAAAAoA//8FAEYASQBFAEwARAAA
+AP//BgAlAEwAUwBJAEQARQAAAEEABQAIAgAAAABq6+AqGAAAAAAAjADQMr4CAAAAAAAAAAAIAAAA
+sAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA5AAAAAAAAAACAAAASAH0
+AQAAAAAAAAAAAAAAAAAAAABIAUgBAAAAAAAAAAAAAAAAAAAAAAAAAAD0AfQBAAAAAAAAAAABAAAA
+AgAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAwABAPQBAAAAAQYIAAAAABoAAABAAf//AAAAABAAAAAAAAAAMAEAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAADFhMp7S5pEL9dAN0BEYa3AAAAAAAAAAAAAAAAAAAAAGQAAADgQswAAAAAAAAAAAACAFgB
+AAAAAAAAAABcBAEAAAAAAAMAIAAAAAAAHAEJAgAAZAEEAB8AAAAAANK4AB0AABoLAFv0AUlIAcpk
+AaYaDAAdGhEAHQIAAAA=
+</rawitemdata></item>
+<item name='$$ScriptName' summary='false' sign='true'><text> Feedback</text></item></form>
+

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='7666' unid='513B4BA13B9F0AC285257F1E0042DA6D' sequence='2'>
+<created><datetime>20151217T071012,93-05</datetime></created>
+<modified><datetime dst='true'>20260917T085210,40-04</datetime></modified>
+<revised><datetime>20151217T071150,55-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085210,39-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085210,39-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20151217T071136,70-05</datetime></revisions>
+<item name='CompName'><text>FroggaBio Inc.</text></item>
+<item name='CompPhone'><text>1-877-318-7277</text></item>
+<item name='CompAddress'><text>230 Canartic Drive</text></item>
+<item name='CompFax'><text>1-416-645-3399</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Toronto</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>M3J2X8</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Maria Ianni</text></item>
+<item name='date_create'><datetime>20151217T071012,93-05</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text>Maria Ianni</text></item>
+<item name='edit_history_1'><text>2015-12-17 07:11:50 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Maria Ianni;</text></item></document>
+

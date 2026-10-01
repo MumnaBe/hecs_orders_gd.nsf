@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='31da' unid='C7E8B0C2CEFA57A785256C5900630BE1' sequence='5'>
+<created><datetime dst='true'>20021021T140151,05-04</datetime></created>
+<modified><datetime dst='true'>20260917T084553,72-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074838,60-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084553,71-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084553,71-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20021021T140322,15-04</datetime><datetime
+ dst='true'>20021024T132531,19-04</datetime><datetime>20021104T141507,44-05</datetime><datetime
+ dst='true'>20090902T074418,29-04</datetime></revisions>
+<item name='CompName'><text>Ambion Inc.</text></item>
+<item name='CompPhone'><text>1-800-445-1161</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>1-512-651-0190</text></item>
+<item name='CompPO'><text>P.O. Box 201776</text></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Austin</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Texas</text></item>
+<item name='CompPostalCode'><text>77276-1776</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>orders@ambion.com</text></item>
+<item name='CompWeb'><text>http://www.ambion.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

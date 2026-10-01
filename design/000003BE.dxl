@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='Tool\Company\SetMasterCardValueToYes' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='6.5' comment='July 2009 - ADR 3550 '>
+<noteinfo noteid='3be' unid='8FAC834AD9CC9F76852575E7004B2C31' sequence='12'>
+<created><datetime dst='true'>20090702T094105,13-04</datetime></created>
+<modified><datetime dst='true'>20260917T084248,76-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,47-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084248,75-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084248,75-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134341,99-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='action'>
+<simpleaction action='runformula'><formula>REM{2009-06-29: ADR 3550: JML: This agent was created in July 2009 to set the values of the fields: MasterCard, MasterCard_EN and MasterCard_FR on the Company documents.  In July 2009, the values for the field MasterCard were entered manually and are inconsistent.  This cause the application to not work properly when the users import company information on an order.};
+
+@If(
+  form = "Company";
+    @Do(
+      @SetField("MasterCard"; "Yes");
+      @SetField("MasterCard_EN"; "Yes");
+      @SetField("MasterCard_FR"; "Oui"));
+  "");
+
+SELECT @All</formula></simpleaction></code>
+<rundata processeddocs='520' exitcode='0'>
+<agentmodified><datetime dst='true'>20090702T100329,55-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20090702T101119,07-04</datetime></agentrun>
+<runlog>Started running agent 'Tool\Company\SetMasterCardValueToYes' on 2009-07-02 10:09:07 AM
+Running on selected documents: 520 total
+Found 520 document(s) that match search criteria
+520 document(s) were modified by formula
+Done running agent 'Tool\Company\SetMasterCardValueToYes' on 2009-07-02 10:11:19 AM
+</runlog></rundata>
+<item name='$Readers' sign='true' readers='true'><text>[LNOG Admin]</text></item>
+<item name='$POID'><datetime dst='true'>20090702T100329,54-04</datetime></item></agent>
+

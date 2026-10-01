@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='3b26' unid='F4C8D08D4ACDDEBB85256FDB0047BA41' sequence='12'>
+<created><datetime dst='true'>20050406T090327,37-04</datetime></created>
+<modified><datetime dst='true'>20260917T084650,67-04</datetime></modified>
+<revised><datetime dst='true'>20050707T111235,77-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084650,66-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084650,66-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050406T090327,38-04</datetime><datetime
+ dst='true'>20050406T090401,37-04</datetime><datetime dst='true'>20050426T104755,70-04</datetime><datetime
+ dst='true'>20050426T153731,91-04</datetime><datetime dst='true'>20050426T153903,03-04</datetime><datetime
+ dst='true'>20050426T154820,59-04</datetime><datetime dst='true'>20050427T142215,10-04</datetime><datetime
+ dst='true'>20050427T142635,10-04</datetime><datetime dst='true'>20050427T161836,13-04</datetime><datetime
+ dst='true'>20050427T162025,38-04</datetime><datetime dst='true'>20050704T095637,72-04</datetime></revisions>
+<item name='Category'><text>Travel</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>EHS</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>831500</text></item>
+<item name='GLAccount'><textlist><text>Conference Fees</text><text>Meal Allowance in Headquarter Area</text><text
+>Travel  Non-Public Servants Conference all Locations</text><text>Travel Non-Public Servants Outside Canada</text><text
+>Travel Non-Public Servants Within Canada</text><text>Travel Public Servants Abroad </text><text
+>Travel Public Servants Conference all Locations</text><text>Travel Public Servants Local Transportation</text><text
+>Travel Public Servants Training all Locations</text><text>Travel Public Servants United States of America</text><text
+>Travel Public Servants Within Canada</text><text>Travel - Duty Canada</text><text
+>Travel - Duty Abroad</text><text>Travel - Duty Non-Public Servant Canada</text><text
+>Travel - Duty USA</text><text>Travel - Government Conference Canada</text><text
+>Travel - Government Conference USA</text><text>Travel - Government Conference Abroad</text><text
+>Travel - Language Training Canada</text><text>Travel - Local Transportation</text><text
+>Travel - Non-Gov Conference Canada</text><text>Travel - Non-Gov Conference USA</text><text
+>Travel - Non-Gov Conference Abroad</text><text>Travel - Non-Public Servant Abroad</text><text
+>Travel - Non-Public Servant Gov conference Abroad</text><text>Travel - Non-Public Servant Gov Conference Canada</text><text
+>Travel - Non-Public Servant Gov Conference USA</text><text>Travel - Non-Public Servant Non-Gov conference Abroad</text><text
+>Travel - Non-Public Servant Non-Gov Conference Canada</text><text>Travel - Non-Public Servant Non-Gov Conference USA</text><text
+>Travel - Training Abroad</text><text>Travel - Training Canada</text><text
+>Travel - Training USA</text><text>Travel Advance ($)</text></textlist></item>
+<item name='ProgActiv'><text>METALS non-SPA Research and Development</text></item>
+<item name='IntOrd'><text>4340013 PR - Metals</text></item></document>
+

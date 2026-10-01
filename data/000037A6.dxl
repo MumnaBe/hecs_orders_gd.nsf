@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='37a6' unid='E45EEFEE87797F0E85256DB9007B10FC' sequence='3'>
+<created><datetime dst='true'>20031008T182412,76-04</datetime></created>
+<modified><datetime dst='true'>20260917T084625,92-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074842,37-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084625,91-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084625,91-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20031008T182848,79-04</datetime><datetime
+ dst='true'>20090902T074421,60-04</datetime></revisions>
+<item name='CompName'><text>Contract - University of Ottawa</text></item>
+<item name='CompPhone'><text>(613) 798-5555 Ext. 13715</text></item>
+<item name='CompAddress'><text>725 Parkdale Avenue</text></item>
+<item name='CompFax'><text>(613) 761-5365</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Dr. Nongnuj Tanphaichitr</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='CompPostalCode'><text>K1Y 4K9</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>4500061219</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Ottawa Health Research Institute.</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Contract between Prem &amp; Ottawa Health Research Institute.</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

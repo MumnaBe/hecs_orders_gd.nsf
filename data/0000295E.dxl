@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='295e' unid='9FB640330B8FEB6985256C780063378C' sequence='1'>
+<created><datetime>20021121T130342,84-05</datetime></created>
+<modified><datetime dst='true'>20260917T084511,31-04</datetime></modified>
+<revised><datetime>20021121T130356,92-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084511,30-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084511,30-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>OGD-Other</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>9999</text></item></document>
+

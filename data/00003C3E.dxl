@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='3c3e' unid='FA62D70BA09B81E385256BEB005F0A5C' sequence='3'>
+<created><datetime dst='true'>20020703T131805,72-04</datetime></created>
+<modified><datetime dst='true'>20260917T084656,87-04</datetime></modified>
+<revised><datetime dst='true'>20060525T144906,59-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084656,86-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084656,86-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131805,94-04</datetime><datetime
+ dst='true'>20060525T144850,32-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>66030 NJMRC SPA 1 - RV</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>66030</text></item></document>
+

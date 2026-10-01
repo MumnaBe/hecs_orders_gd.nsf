@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='46f6' unid='94E3CBC603B8E2E4852572F00052E200' sequence='3'>
+<created><datetime dst='true'>20070604T110518,08-04</datetime></created>
+<modified><datetime dst='true'>20260917T084802,59-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074853,18-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084802,58-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084802,58-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20070604T111915,53-04</datetime><datetime
+ dst='true'>20090902T074626,03-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20070604T111925,55-04</datetime></item>
+<item name='CompName'><text>Big Apple Herpetological</text></item>
+<item name='CompPhone'><text>1800-922-7553</text></item>
+<item name='CompAddress'><text>415 Oser AVe. Bldg F</text></item>
+<item name='CompFax'><text>631-436-5556</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Hauppauge</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>NY</text></item>
+<item name='CompPostalCode'><text>11788</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

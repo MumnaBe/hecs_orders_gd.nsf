@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='3202' unid='C8C6C446AAD57FB78525704C0053DD16' sequence='11'>
+<created><datetime dst='true'>20050728T111600,86-04</datetime></created>
+<modified><datetime dst='true'>20260917T084554,63-04</datetime></modified>
+<revised><datetime dst='true'>20060525T145015,32-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084554,62-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084554,62-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050728T111726,31-04</datetime><datetime
+ dst='true'>20050831T102101,85-04</datetime><datetime dst='true'>20050831T114917,25-04</datetime><datetime
+ dst='true'>20050914T150934,28-04</datetime><datetime dst='true'>20050922T084444,55-04</datetime><datetime
+ dst='true'>20050922T084450,93-04</datetime><datetime dst='true'>20050922T084612,57-04</datetime><datetime
+ dst='true'>20050922T085010,10-04</datetime><datetime>20060207T135217,80-05</datetime><datetime
+>20060207T135220,51-05</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>70010 PERD - RV</text></item>
+<item name='NameF'><text>70010 PERD - RV</text></item>
+<item name='CodeNumber'><text>70010</text></item></document>
+

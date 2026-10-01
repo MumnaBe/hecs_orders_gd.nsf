@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='20e2' unid='7467E836668649A18525701A007052FA' sequence='9'>
+<created><datetime dst='true'>20050608T162652,74-04</datetime></created>
+<modified><datetime dst='true'>20260917T084433,65-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074955,41-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084433,64-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084433,64-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050608T163134,36-04</datetime><datetime
+ dst='true'>20060815T131444,40-04</datetime><datetime dst='true'>20060815T131448,68-04</datetime><datetime
+ dst='true'>20060815T131959,02-04</datetime><datetime dst='true'>20060815T133855,19-04</datetime><datetime
+ dst='true'>20060815T133921,22-04</datetime><datetime dst='true'>20060815T140339,26-04</datetime><datetime
+ dst='true'>20090902T074532,29-04</datetime></revisions>
+<item name='CompName'><text>Telus Mobility</text></item>
+<item name='CompPhone'><text>(866) 558-2273</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>.</text></item>
+<item name='CompPO'><text>P.O. Box 5300</text></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Burlington</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>L7R 4S8</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>09065405 &amp; 12324124</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>Tele Mobile Company</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.telusmobility.com</text></item>
+<item name='comment'><text>Cell on account: 09065405<break/>613-552-7287 MITES<break
+/>613-889-6347 S.K.<break/><break/>Cell on account: 12324124<break/>613-868-1060 TRAILER<break
+/><break/>Other add.: 200 Consilium Place, Suite 1600, Scarborough, Ont M1H 3J3. GST # 86620 1197 RT.</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

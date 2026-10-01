@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='ea2' unid='1BAE13BC7B22057A8525715B006A111A' sequence='4'>
+<created><datetime dst='true'>20060425T151831,94-04</datetime></created>
+<modified><datetime dst='true'>20260917T084315,89-04</datetime></modified>
+<revised><datetime dst='true'>20080401T151806,27-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084315,88-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084315,88-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Gallagher/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060425T151859,45-04</datetime><datetime
+ dst='true'>20080401T151350,59-04</datetime><datetime dst='true'>20080401T151356,86-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20080401T151810,96-04</datetime></item>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>A3DY-Emerging Tech Sci Know</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>A3DY</text></item></document>
+

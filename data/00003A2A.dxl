@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='3a2a' unid='EF4AF5B72BE56E5985256BEB005F09DB' sequence='4'>
+<created><datetime dst='true'>20020703T131804,43-04</datetime></created>
+<modified><datetime dst='true'>20260917T084642,92-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074846,68-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084642,91-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084642,91-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,45-04</datetime><datetime
+>20021104T141458,27-05</datetime><datetime dst='true'>20090902T074424,35-04</datetime></revisions>
+<item name='CompName'><text>Brandt Instruments Inc</text></item>
+<item name='CompAddress'><text>750-D East I-10 Service Road</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Slidel</text></item>
+<item name='CompProvince'><text>LA</text></item>
+<item name='CompPostalCode'><text>70461</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>(504) 863-5596</text></item>
+<item name='CompFax'><text>(504) 863-7112</text></item>
+<item name='PurchContact'><text>Deborah J. Brandt</text></item>
+<item name='InvContact'><text/></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>brantinst@cmpsource.com</text></item>
+<item name='CompWeb'><text>http://www.brandtinst.com/bios/</text></item>
+<item name='comment'><text>BIOS primary flow standard</text></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

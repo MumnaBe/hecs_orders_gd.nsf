@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='36ea' unid='E0D6AD675F8F504585256BEB005F090F' sequence='8'>
+<created><datetime dst='true'>20020703T131802,39-04</datetime></created>
+<modified><datetime dst='true'>20260917T084621,15-04</datetime></modified>
+<revised><datetime dst='true'>20150813T100340,38-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084621,14-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084621,14-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Robert Donatucci/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,39-04</datetime><datetime
+>20021104T141451,79-05</datetime><datetime>20040209T094045,84-05</datetime><datetime
+>20040209T100954,51-05</datetime><datetime>20041117T083531,26-05</datetime><datetime
+ dst='true'>20090902T074610,24-04</datetime><datetime dst='true'>20090902T075029,54-04</datetime></revisions>
+<item name='CompName'><text>BioRad Laboratories (Canada) Limited</text></item>
+<item name='CompPhone'><text>(905) 712-2771 1-800-268-0213</text></item>
+<item name='CompAddress'><text>5671 Mcadam Rd</text></item>
+<item name='CompFax'><text>(888) 913-9779</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Nazim Mecci (pronounced Meh-key) 613-858-8213</text></item>
+<item name='CompCity'><text>Mississauga</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>L4Z 1N9</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>1681</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text> <break/>Joseph Elhakem / Accounting Department <break
+/>Bio-Rad Laboratories <break/>Tel: 1-800-268-0213 ext. 3423 / 905-364-3423 <break
+/>Fax: 1-888-913-9779 / 905-364-3434 <break/>joseph_elhakem@bio-rad.com <break
+/>For invoices via email</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131802,39-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Robert Donatucci</text></item>
+<item name='edit_history_1'><text>2015-08-13 10:03:40 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Robert Donatucci;</text></item></document>
+

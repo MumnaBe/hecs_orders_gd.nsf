@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2dda' unid='B5B1A0F2E0F703CF85256E8A005112C7' sequence='5'>
+<created><datetime dst='true'>20040504T104532,23-04</datetime></created>
+<modified><datetime dst='true'>20260917T084533,22-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074834,74-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084533,21-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084533,21-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20040504T104646,63-04</datetime><datetime
+ dst='true'>20040504T104650,19-04</datetime><datetime dst='true'>20040504T162748,41-04</datetime><datetime
+ dst='true'>20090902T074415,84-04</datetime></revisions>
+<item name='CompName'><text>TrippLite</text></item>
+<item name='CompPhone'><text>(773) 869-1094</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>(773) 869-1020</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Michael Turley</text></item>
+<item name='CompCity'><text/></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text/></item>
+<item name='CompPostalCode'><text/></item>
+<item name='CompCountry'><text/></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USA</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>Company does not accept credit cards, cheques only.</text></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

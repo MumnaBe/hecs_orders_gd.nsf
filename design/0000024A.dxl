@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='(Lookup - HelpSubFCats)' alias='vwHelpSubFCat' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' unreadmarks='none' onopengoto='lastopened' onrefresh='displayindicator'
+ headers='beveled' opencollapsed='true' showresponsehierarchy='true' showmargin='true'
+ shrinkrows='false' extendlastcolumn='false' showhierarchies='false' unreadcolor='purple'
+ rowlinecount='1' headerlinecount='1' rowspacing='1.25' bgcolor='white' altrowcolor='#efefef'
+ totalscolor='blue' uniquekeys='false'>
+<noteinfo noteid='24a' unid='501510BCDF612BC385256B74006FF2C0' sequence='8'>
+<created><datetime>20020306T152246,40-05</datetime></created>
+<modified><datetime dst='true'>20260917T084241,27-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143121,54-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100255,12-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084241,26-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Leo St-Jacques/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form = "Help" &amp; HelpFSubCat !=""</formula></code><code
+ event='form'><formula>@Environment("Corp_Language"; "E" );
+@If(@IsDocBeingLoaded; "HelpDoc"; Form)</formula></code>
+<actionbar bordercolor='black' borderstyle='none'>
+<actionbuttonstyle/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Back' icon='142'><code event='click'><formula>@Command([FileCloseWindow])</formula></code><code
+ event='hidewhen'><formula>@Environment("Corp_Language") = "F"</formula></code></action>
+<action title='Retour' icon='142' hide='edit previewedit'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("Corp_Language") = "E"</formula></code></action>
+<action title='' icon='62' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Environment("Corp_Language"; "F" );
+@Command([OpenView] ; "VwFAppHelp")</formula></code></action>
+<action title='Feedback' icon='130'><code event='click'><formula>@Command( [Compose]; ""; "Feedback" )</formula></code><code
+ event='hidewhen'><formula>@Environment("Corp_Language") = "F"</formula></code></action>
+<action title='Rétroaction' icon='130'><code event='click'><formula>@Command( [Compose]; ""; "Feedback" )</formula></code><code
+ event='hidewhen'><formula>@Environment("Corp_Language") = "E"</formula></code></action></actionbar>
+<column hidedetailrows='false' listseparator='comma' itemname='HelpFSubCat'
+ width='52' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><font size='9pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><columnheader title='Help Sub Category'><font
+ size='9pt' style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/></columnheader></column></view>
+

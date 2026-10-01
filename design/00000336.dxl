@@ -1,0 +1,1121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='Project' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' publicaccess='false' designerversion='6.5'>
+<noteinfo noteid='336' unid='FBE7D9C870EDFEE485256AD8004F8983' sequence='69'>
+<created><datetime dst='true'>20011001T102845,47-04</datetime></created>
+<modified><datetime dst='true'>20260917T084245,76-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134328,93-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084245,75-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084245,75-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='windowtitle'><formula>@If(@Environment("HECS_Language")="F";"Projet";"Project")</formula></code><code
+ event='querysave'><lotusscript>Sub Querysave(Source As Notesuidocument, Continue As Variant)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim flagnumber As Integer
+     
+     Set uidoc=ws.currentdocument
+     Set doc = uidoc.document
+     If uidoc.IsNewDoc Then
+          Call uidoc.FieldSetText("budgetOp_com", "0")
+          Call uidoc.FieldSetText("budgetTrav_com", "0")
+          Call uidoc.FieldSetText("budgetContr_com", "0")
+          Call uidoc.FieldSetText("budgetCap_com", "0")
+          Call uidoc.Refresh
+     End If
+     ' -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     ' This section fills the "CategoriesAllowed" field.
+     ' We are using flag numbers to determine which categories of spending are allowed for this project.
+     ' 8 = Operating
+     ' 4 = Travel
+     ' 2 = Contract
+     ' 1= Capital
+     ' If there is a value larger than 0 in any of the sections, then the corresponding number is added to 'flagnumber'.
+     ' This will give us unique numbers for each combination of Operating, Travel, Contract and Capital
+     ' IE:  A value of 15 will return all 4... 8 (Operating) + 4 (Travel) + 2 (Contract) +1 (Capital) = 15
+     '       A value of 6 will return Travel and Contract ...  4 (Travel) + 2 (Contract) = 6
+     ' We can then use this number to determine whether or not to list certain Cost Code items from the Cost Code dialogue
+     ' ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     flagnumber = 0
+     
+     If Not (uidoc.fieldGetText("budgetOp")) = "$0.00" Then
+          flagnumber = flagnumber + 8
+     End If
+     If Not (uidoc.fieldGetText("budgetTrav")="$0.00")  Then
+          flagnumber = flagnumber + 4
+     End If
+     If Not (uidoc.fieldgettext("budgetContr")= "$0.00") Then
+          flagnumber =flagnumber + 2
+     End If
+     If Not (uidoc.fieldgettext("budgetCap")="$0.00") Then 
+          flagnumber = flagnumber + 1
+     End If
+     Call uidoc.fieldsettext("CategoriesAllowed", Cstr(flagnumber))
+' -------------------------------------------------------------------------------------------------------------------------------------------------------------------     
+     Call uidoc.refresh
+     
+End Sub
+</lotusscript></code><code event='querymodechange'><lotusscript>Sub Querymodechange(Source As Notesuidocument, Continue As Variant)
+     Dim test As String
+     Dim answer As Variant
+     test="@IsMember('[Admin]';@userRoles)"
+     answer=Evaluate(test)
+     If Not(answer(0)=1) Then
+          Continue=False
+     End If
+End Sub
+</lotusscript></code><code event='postopen'><lotusscript>Sub Postopen(Source As Notesuidocument)
+     
+End Sub
+</lotusscript></code><code event='queryopen'><lotusscript>Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)
+     Dim test As String
+     Dim answer As Variant
+     test="@IsMember('[Admin]';@userRoles)"
+     answer=Evaluate(test)
+     If Mode = 1 And Not(answer(0)=1) Then
+          Continue=False
+     End If
+End Sub</lotusscript></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/><border width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Save' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sauvegarder' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Save &amp; New Entry' icon='138' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave]);
+@PostedCommand([FileCloseWindow]);
+@PostedCommand([Compose]; ""; "Project")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sauvegarder &amp; Nouvelle entrée' icon='138' showinmenu='false'
+ hide='preview read'><code event='click'><formula>@Command([FileSave]);
+@PostedCommand([FileCloseWindow]);
+@PostedCommand([Compose]; ""; "Project")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Edit' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Modifier' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Re-Calculate Budget (Old)' icon='101' hide='notes'><code event='declarations'><lotusscript
+>Const NPB_STATUSBAR% = 1
+
+Declare Sub NEMProgressEnd Lib "nnotesws.dll" ( Byval hwnd As Long )
+Declare Function NEMProgressBegin Lib "nnotesws.dll" ( Byval wFlags As Integer ) As Long
+Declare Sub NEMProgressSetBarPos Lib "nnotesws.dll" ( Byval hwnd As Long, Byval dwPos As Long)
+Declare Sub NEMProgressSetBarRange Lib "nnotesws.dll" ( Byval hwnd As Long, Byval dwMax As Long )
+Declare Sub NEMProgressSetText Lib "nnotesws.dll" ( Byval hwnd As Long, Byval pcszLine1 As String, Byval pcszLine2 As String )
+
+</lotusscript></code><code event='click'><lotusscript>Sub Click(Source As Button)
+	
+	' This button was replaced with the new one called "Re-Calcualte Budget"
+	
+	'======================
+	' For the status bar
+	On Error Goto killbar
+	Dim hwnd As Long
+	Dim i As Long
+	'======================
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Dim bOpTotal As Currency
+	Dim bTravTotal As Currency
+	Dim bConTotal As Currency
+	Dim bCapTotal As Currency
+	Dim purchCat As String
+	
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim dvc As notesviewentrycollection
+	Dim oDoc As notesdocument
+	
+	bOpTotal = 0
+	bTravTotal = 0
+	bConTotal = 0
+	bCapTotal = 0
+	
+	Set uidoc=ws.currentdocument
+	Set db=s.CurrentDatabase
+	Set dv=db.GetView("reflookup")
+	Set dvc=dv.AllEntries
+	Set oDoc = dv.GetFirstDocument
+	'============================
+	' Start the status bar
+	i = 1
+	NEMProgressSetText hwnd, "Please wait...", "Recalculating budget..."
+	hwnd = NEMProgressBegin(NPB_STATUSBAR)
+	NEMProgressSetBarRange hwnd, dvc.Count
+	NEMProgressSetText hwnd, "Calculating...", "Please wait while all orders for " &amp; uidoc.FieldGetText("FiscalYearStart") &amp; " to " &amp; uidoc.FieldGetText("FiscalYearEnd") &amp; " are totaled"
+	
+	'============================
+	Dim item As NotesItem
+	Dim dtIssueDate As NotesDateTime
+	Dim dtFYStart As NotesDateTime
+	Dim dtFYEnd As NotesDateTime
+	Set item = uidoc.Document.GetFirstItem( "FiscalYearStart" )
+	Set dtFYStart = item.DateTimeValue
+	Set item = uidoc.Document.GetFirstItem( "FiscalYearEnd" )
+	Set dtFYEnd = item.DateTimeValue
+	
+	While Not (oDoc Is Nothing)
+		Set item = oDoc.GetFirstItem( "IssueDate" )
+		Set dtIssueDate = item.DateTimeValue		
+		
+		'2009-05-21: JML: ADR#3550: the field "Created" was replaced with "IssueDate" becasue that date is not affected when copying documents from Prod to Dev
+		'If oDoc.Created &gt;= uidoc.Document.FiscalYearStart(0) And oDoc.Created &lt;= uidoc.Document.FiscalYearEnd(0) Then
+		
+		If dtIssueDate.DateOnly &gt;= dtFYStart.DateOnly And dtIssueDate.DateOnly &lt;= dtFYEnd.DateOnly Then
+			purchCat = oDoc.FinCategory(0)
+			If oDoc.ProjectSelection(0)=uidoc.FieldGetText("Project") And oDoc.BudgetCalculated(0) = "Yes" Then
+				Select Case purchCat
+				Case "Operating"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bOpTotal = bOpTotal + oDoc.TotCost(0)                       
+					Else
+						bOpTotal = bOpTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Travel"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bTravTotal = bTravTotal + oDoc.TotCost(0)                       
+					Else
+						bTravTotal = bTravTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Contract"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bConTotal = bConTotal + oDoc.TotCost(0)                       
+					Else
+						bConTotal = bConTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Capital"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bCapTotal = bCapTotal + oDoc.TotCost(0)                       
+					Else
+						bCapTotal = bCapTotal + oDoc.TotCostTaxed(0)
+					End If
+				End Select
+			End If
+		End If
+		Set oDoc=dv.GetNextDocument(oDoc)
+		NEMProgressSetText hwnd, "Calculating...", "Please wait while all orders for " &amp; uidoc.FieldGetText("FiscalYearStart") &amp; " to " &amp; uidoc.FieldGetText("FiscalYearEnd") &amp; " are processed. (" &amp; i &amp;"/" &amp;Cstr(dvc.Count)&amp;")"
+		NEMProgressSetBarPos hwnd, i
+		i = i + 1
+		
+	Wend
+	Call uidoc.FieldSetText("budgetOp_com",Cstr(bOpTotal))
+	Call uidoc.FieldSetText("budgetTrav_com", Cstr(bTravTotal))
+	Call uidoc.FieldSetText("budgetContr_com", Cstr(bConTotal))
+	Call uidoc.FieldSetText("budgetCap_com", Cstr(bCapTotal))
+	
+killbar:
+	NEMProgressEnd hwnd
+	uidoc.Refresh
+	
+End Sub</lotusscript></code><code event='hidewhen'><formula>!(@Contains("[Admin]";@UserRoles))|!@IsDocBeingEdited</formula></code></action>
+<action title='Re-Calculate Budget' icon='101'><code event='declarations'><lotusscript
+>Const NPB_STATUSBAR% = 1
+
+Declare Sub NEMProgressEnd Lib "nnotesws.dll" ( Byval hwnd As Long )
+Declare Function NEMProgressBegin Lib "nnotesws.dll" ( Byval wFlags As Integer ) As Long
+Declare Sub NEMProgressSetBarPos Lib "nnotesws.dll" ( Byval hwnd As Long, Byval dwPos As Long)
+Declare Sub NEMProgressSetBarRange Lib "nnotesws.dll" ( Byval hwnd As Long, Byval dwMax As Long )
+Declare Sub NEMProgressSetText Lib "nnotesws.dll" ( Byval hwnd As Long, Byval pcszLine1 As String, Byval pcszLine2 As String )
+
+</lotusscript></code><code event='click'><lotusscript>Sub Click(Source As Button)
+	
+	' Description: this button will recalculate the budget for the current project.  
+	' Each order matching the project name, that has already been calculated will 
+	' be processed if the issue date falls between the project start and end dates.
+	'
+	' Changes: 2009-06-29: ADR 3550, JML. the button was modified to use the view "vwAllOrdersByProject"
+	'                   This change result in a much faster performance because the search is more narrow
+	'                   This gain of speed will allow the project to be calculated one after the other manually instead of writing a new agent to update all project's budget. 
+	'                   Note that the DB in production contains sometimes more than 8000 orders that would take lots of unnecessary time to process 
+	
+	
+	'======================
+	' For the status bar
+	On Error Goto killbar
+	Dim hwnd As Long
+	Dim i As Long
+	'======================
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Dim bOpTotal As Currency
+	Dim bTravTotal As Currency
+	Dim bConTotal As Currency
+	Dim bCapTotal As Currency
+	Dim purchCat As String
+	
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim dvc As notesviewentrycollection
+	Dim oDoc As notesdocument
+	
+	bOpTotal = 0
+	bTravTotal = 0
+	bConTotal = 0
+	bCapTotal = 0
+	
+	Set uidoc=ws.currentdocument
+	Set db=s.CurrentDatabase
+	'Set dv=db.GetView("reflookup")
+	'Set dvc=dv.AllEntries
+	'Set oDoc = dv.GetFirstDocument	
+	'============================
+	
+	Dim collection As NotesDocumentCollection
+	Set dv=db.GetView("vwAllOrdersByProject")
+	Set collection = dv.GetAllDocumentsByKey(uidoc.FieldGetText("Project"))
+	Set oDoc = collection.GetFirstDocument
+	
+	' Start the status bar
+	i = 1
+	NEMProgressSetText hwnd, "Please wait...", "Recalculating budget..."
+	hwnd = NEMProgressBegin(NPB_STATUSBAR)
+	'NEMProgressSetBarRange hwnd, dvc.Count
+	'NEMProgressSetText hwnd, "Calculating...", "Please wait while all orders for " &amp; uidoc.FieldGetText("FiscalYearStart") &amp; " to " &amp; uidoc.FieldGetText("FiscalYearEnd") &amp; " are totaled"
+	NEMProgressSetBarRange hwnd, collection.Count
+	NEMProgressSetText hwnd, "Calculating...", "Please wait while all orders for " &amp; uidoc.FieldGetText("FiscalYearStart") &amp; " to " &amp; uidoc.FieldGetText("FiscalYearEnd") &amp; " are totaled"
+	
+	'============================
+	Dim item As NotesItem
+	Dim dtIssueDate As NotesDateTime
+	Dim dtFYStart As NotesDateTime
+	Dim dtFYEnd As NotesDateTime
+	Set item = uidoc.Document.GetFirstItem( "FiscalYearStart" )
+	Set dtFYStart = item.DateTimeValue
+	Set item = uidoc.Document.GetFirstItem( "FiscalYearEnd" )
+	Set dtFYEnd = item.DateTimeValue
+	
+	While Not (oDoc Is Nothing)
+		Set item = oDoc.GetFirstItem( "IssueDate" )
+		Set dtIssueDate = item.DateTimeValue		
+		
+		'2009-05-21: JML: ADR#3550: the field "Created" was replaced with "IssueDate" becasue that date is not affected when copying documents from Prod to Dev
+		'If oDoc.Created &gt;= uidoc.Document.FiscalYearStart(0) And oDoc.Created &lt;= uidoc.Document.FiscalYearEnd(0) Then
+		
+		If dtIssueDate.DateOnly &gt;= dtFYStart.DateOnly And dtIssueDate.DateOnly &lt;= dtFYEnd.DateOnly Then
+			purchCat = oDoc.FinCategory(0)
+			If oDoc.ProjectSelection(0)=uidoc.FieldGetText("Project") And oDoc.BudgetCalculated(0) = "Yes" Then
+				Select Case purchCat
+				Case "Operating"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bOpTotal = bOpTotal + oDoc.TotCost(0)                       
+					Else
+						bOpTotal = bOpTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Travel"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bTravTotal = bTravTotal + oDoc.TotCost(0)                       
+					Else
+						bTravTotal = bTravTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Contract"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bConTotal = bConTotal + oDoc.TotCost(0)                       
+					Else
+						bConTotal = bConTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Capital"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bCapTotal = bCapTotal + oDoc.TotCost(0)                       
+					Else
+						bCapTotal = bCapTotal + oDoc.TotCostTaxed(0)
+					End If
+				End Select
+			End If
+		End If
+		Set oDoc=collection.GetNextDocument(oDoc)
+		NEMProgressSetText hwnd, "Calculating...", "Please wait while all orders for " &amp; uidoc.FieldGetText("FiscalYearStart") &amp; " to " &amp; uidoc.FieldGetText("FiscalYearEnd") &amp; " are processed. (" &amp; i &amp;"/" &amp;Cstr(collection.Count)&amp;")"
+		'NEMProgressSetText hwnd, "Calculating...", "Please wait while all orders for " &amp; uidoc.FieldGetText("FiscalYearStart") &amp; " to " &amp; uidoc.FieldGetText("FiscalYearEnd") &amp; " are processed. (" &amp; i &amp;"/" &amp;Cstr(dvc.Count)&amp;")"
+		NEMProgressSetBarPos hwnd, i
+		i = i + 1
+		
+	Wend
+	Call uidoc.FieldSetText("budgetOp_com",Cstr(bOpTotal))
+	Call uidoc.FieldSetText("budgetTrav_com", Cstr(bTravTotal))
+	Call uidoc.FieldSetText("budgetContr_com", Cstr(bConTotal))
+	Call uidoc.FieldSetText("budgetCap_com", Cstr(bCapTotal))
+	
+killbar:
+	NEMProgressEnd hwnd
+	uidoc.Refresh
+	
+End Sub</lotusscript></code><code event='hidewhen'><formula>!(@Contains("[Admin]";@UserRoles))|!@IsDocBeingEdited</formula></code></action>
+<action title='Show Custom Calculation' icon='101'><code event='declarations'><lotusscript
+>Const NPB_STATUSBAR% = 1
+
+Declare Sub NEMProgressEnd Lib "nnotesws.dll" ( Byval hwnd As Long )
+Declare Function NEMProgressBegin Lib "nnotesws.dll" ( Byval wFlags As Integer ) As Long
+Declare Sub NEMProgressSetBarPos Lib "nnotesws.dll" ( Byval hwnd As Long, Byval dwPos As Long)
+Declare Sub NEMProgressSetBarRange Lib "nnotesws.dll" ( Byval hwnd As Long, Byval dwMax As Long )
+Declare Sub NEMProgressSetText Lib "nnotesws.dll" ( Byval hwnd As Long, Byval pcszLine1 As String, Byval pcszLine2 As String )
+</lotusscript></code><code event='click'><lotusscript>Sub Click(Source As Button)
+	
+	'/*******************************************************
+	'/  This button will calculate the project's budget for all Orders falling in between the dates given by the user
+	'/   Only the Orders for which the Budget has already been calculated wil be calculated.
+	'/	The results are displayed only
+	'/*******************************************************
+	
+	'======================
+	' For the status bar
+	On Error Goto killbar
+	Dim hwnd As Long
+	Dim i As Long
+	'======================
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Dim bOpTotal As Currency
+	Dim bTravTotal As Currency
+	Dim bConTotal As Currency
+	Dim bCapTotal As Currency
+	Dim purchCat As String
+	
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim dvc As notesviewentrycollection
+	Dim oDoc As notesdocument
+	
+	bOpTotal = 0
+	bTravTotal = 0
+	bConTotal = 0
+	bCapTotal = 0
+	StartDate=ws.prompt(PROMPT_OKCANCELEDIT,"Start Date", "Enter a start date in the format YYYY/MM/DD")
+	
+	If  (Cstr(StartDate) Like "####/##/##" ) Then
+		EndDate=ws.prompt(PROMPT_OKCANCELEDIT,"End Date", "Enter an end date in the format YYYY/MM/DD")
+		If  (Cstr(EndDate) Like "####/##/##") Then
+			Set uidoc=ws.currentdocument
+			Set db=s.CurrentDatabase
+			Set dv=db.GetView("reflookup")
+			Set dvc=dv.AllEntries
+			Set oDoc = dv.GetFirstDocument
+	'============================
+	' Start the status bar
+			i = 1
+			NEMProgressSetText hwnd, "Please wait...", "pcszLine 2 Goes Here"
+			hwnd = NEMProgressBegin(NPB_STATUSBAR)
+			NEMProgressSetBarRange hwnd, dvc.Count
+			NEMProgressSetText hwnd, "Calculating...", "Please wait while all orders for " &amp; StartDate &amp; " to " &amp; EndDate &amp; " are totaled"
+			
+	'============================
+			While Not (oDoc Is Nothing)
+				If  oDoc.Created &gt;= Cdat(StartDate)  And oDoc.Created &lt;= Cdat(EndDate) Then
+					purchCat = oDoc.FinCategory(0)
+					If oDoc.ProjectSelection(0)=uidoc.FieldGetText("Project") And oDoc.BudgetCalculated(0) = "Yes" Then				
+						Select Case purchCat
+						Case "Operating"
+							If oDoc.GSTExempt(0)="Yes" Then
+								bOpTotal = bOpTotal + oDoc.TotCost(0)                       
+							Else
+								bOpTotal = bOpTotal + oDoc.TotCostTaxed(0)
+							End If
+						Case "Travel"
+							If oDoc.GSTExempt(0)="Yes" Then
+								bTravTotal = bTravTotal + oDoc.TotCost(0)                       
+							Else
+								bTravTotal = bTravTotal + oDoc.TotCostTaxed(0)
+							End If
+						Case "Contract"
+							If oDoc.GSTExempt(0)="Yes" Then
+								bConTotal = bConTotal + oDoc.TotCost(0)                       
+							Else
+								bConTotal = bConTotal + oDoc.TotCostTaxed(0)
+							End If
+						Case "Capital"
+							If oDoc.GSTExempt(0)="Yes" Then
+								bCapTotal = bCapTotal + oDoc.TotCost(0)                       
+							Else
+								bCapTotal = bCapTotal + oDoc.TotCostTaxed(0)
+							End If
+						End Select
+						
+					End If
+				End If
+				Set oDoc=dv.GetNextDocument(oDoc)
+				NEMProgressSetText hwind, "Please wait...", Cstr(Round(i/dvc.Count, 0))
+				NEMProgressSetBarPos hwnd, i
+				i = i + 1
+			Wend
+killbar:
+			NEMProgressEnd hwnd
+			uidoc.EditMode=True
+			Call	uidoc.FieldSetText("budgetOpTemp",Cstr(bOpTotal))
+			Call	uidoc.FieldSetText("budgetTravTemp",Cstr(bTravTotal))
+			Call	uidoc.FieldSetText("budgetContrTemp",Cstr(bConTotal))
+			Call	uidoc.FieldSetText("budgetCapTemp",Cstr(bCapTotal))
+			Call uidoc.Refresh
+			Call ws.DialogBox("PopupBudget",True, True,True,True,True,True,"Custom Budget Calculation")
+			uidoc.Save
+			uidoc.EditMode=False
+		Else 
+			Messagebox "Operation Cancelled"
+		End If
+	Else
+		Messagebox "Operation Cancelled"
+	End If	
+End Sub</lotusscript></code><code event='hidewhen'><formula>!(@Contains("[Admin]";@UserRoles))</formula></code></action>
+<action title='Add New Employee To Orders'><code event='click'><lotusscript
+>Sub Click(Source As Button)
+	
+	'/******************************************************
+	'/  This button will add the name of the person specified 
+	'/		by the user as Author ans Reader in all the Orders for the project.
+	'/  This feature is useful for giving access to existing Orders.
+	'/******************************************************
+	
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim dc As notesdocumentcollection
+	Dim doc As notesdocument
+	Dim keys As String
+	Dim thename As String
+	Dim testNum As Integer
+	Set db=s.CurrentDatabase
+	Set uidoc=ws.CurrentDocument
+	keys=uidoc.FieldGetText("Project")
+	thename=Inputbox$("Please enter the name of the new employee as it appears in Lotus Notes:")
+	
+	Set dv=db.GetView("OrdTot2")
+	Set dc=dv.GetAllDocumentsByKey(keys)
+	Set doc=dc.GetFirstDocument
+	testNum=0
+	While Not(doc Is Nothing)
+		testNum=testNum+1
+		Set rdfield=doc.GetFirstItem("Readers")
+		Set aufield=doc.GetFirstItem("Authors")
+		Call rdfield.AppendToTextList(thename)
+		Call aufield.AppendToTextList(thename)
+		doc.Save True, True
+		Set doc=dc.GetNextDocument(doc)
+	Wend
+	Messagebox "The new employee's name has been added to the order access list for this project." &amp; Cstr(testNum) &amp; " documents were modified."
+	
+End Sub</lotusscript></code><code event='hidewhen'><formula>@IsNewDoc</formula></code></action></actionbar>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'/>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<pardef id='3' align='center' leftmargin='0%' rightmargin='100%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='3'><run><font size='14pt' style='bold' color='white'/>Project Information</run></par>
+<par def='3'><run><font size='14pt' style='bold' color='white'/></run><run
+><font size='14pt' color='#e0f1ff' style='bold'/><field type='datetime' kind='editable'
+ name='FiscalYearStart'><datetimeformat show='date' date='yearmonthday' fourdigityearfor21stcentury='true'
+ zone='never' dateformat='yearmonthdayweekday' dayformat='twodigitday' monthformat='twodigitmonth'
+ yearformat='fourdigityear' weekdayformat='shortname' dateseparator1='-' dateseparator2='-'
+ dateseparator3=' ' timeseparator=':' preference='usersetting'/><code event='defaultvalue'><formula
+>fyMonth := @Month(@Today);
+fyYear := @Year(@Today);
+@If(fyMonth=1|fyMonth=2|fyMonth=3;@Date(fyYear-1;4;1);@Date(fyYear;4;1))</formula></code></field></run><run
+><font size='14pt' style='bold' color='white'/> - </run><run><font size='14pt'
+ color='#e0f1ff' style='bold'/><field type='datetime' kind='editable' name='FiscalYearEnd'><datetimeformat
+ show='date' date='yearmonthday' fourdigityearfor21stcentury='true' zone='never'
+ dateformat='yearmonthdayweekday' dayformat='twodigitday' monthformat='twodigitmonth'
+ yearformat='fourdigityear' weekdayformat='shortname' dateseparator1='-' dateseparator2='-'
+ dateseparator3=' ' timeseparator=':' preference='usersetting'/><code event='defaultvalue'><formula
+>fyMonth := @Month(@Today);
+fyYear := @Year(@Today);
+@If(fyMonth=1|fyMonth=2|fyMonth=3;@Date(fyYear;3;31);@Date(fyYear+1;3;31))</formula></code><code
+ event='declarations'><lotusscript>Const NPB_STATUSBAR% = 1
+
+Declare Sub NEMProgressEnd Lib "nnotesws.dll" ( Byval hwnd As Long )
+Declare Function NEMProgressBegin Lib "nnotesws.dll" ( Byval wFlags As Integer ) As Long
+Declare Sub NEMProgressSetBarPos Lib "nnotesws.dll" ( Byval hwnd As Long, Byval dwPos As Long)
+Declare Sub NEMProgressSetBarRange Lib "nnotesws.dll" ( Byval hwnd As Long, Byval dwMax As Long )
+Declare Sub NEMProgressSetText Lib "nnotesws.dll" ( Byval hwnd As Long, Byval pcszLine1 As String, Byval pcszLine2 As String )
+
+</lotusscript></code><code event='exiting'><lotusscript>Sub Exiting(Source As Field)
+	
+	'======================
+	' For the status bar
+	On Error Goto killbar
+	Dim hwnd As Long
+	Dim i As Long
+	'======================
+	
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Dim bOpTotal As Currency
+	Dim bTravTotal As Currency
+	Dim bConTotal As Currency
+	Dim bCapTotal As Currency
+	Dim purchCat As String
+	
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim dvc As notesviewentrycollection
+	Dim oDoc As notesdocument
+	
+	bOpTotal = 0
+	bTravTotal = 0
+	bConTotal = 0
+	bCapTotal = 0
+	
+	Set uidoc=ws.currentdocument
+	Set db=s.CurrentDatabase
+	Set dv=db.GetView("reflookup")
+	Set dvc=dv.AllEntries
+	Set oDoc = dv.GetFirstDocument
+	'============================
+	' Start the status bar
+	i = 1
+	''NEMProgressSetText hwnd, "Please wait...", "Recalculating budget..."
+	''hwnd = NEMProgressBegin(NPB_STATUSBAR)
+	''NEMProgressSetBarRange hwnd, dvc.Count
+	''NEMProgressSetText hwnd, "Calculating...", "Please wait while all orders for " &amp; uidoc.FieldGetText("FiscalYearStart") &amp; " to " &amp; uidoc.FieldGetText("FiscalYearEnd") &amp; " are totaled"
+	
+	'============================
+	Dim item As NotesItem
+	Dim dtIssueDate As NotesDateTime
+	Dim dtFYStart As NotesDateTime
+	Dim dtFYEnd As NotesDateTime
+	Set item = uidoc.Document.GetFirstItem( "FiscalYearStart" )
+	Set dtFYStart = item.DateTimeValue
+	Set item = uidoc.Document.GetFirstItem( "FiscalYearEnd" )
+	Set dtFYEnd = item.DateTimeValue	
+	
+	While Not (oDoc Is Nothing)
+		Set item = oDoc.GetFirstItem( "IssueDate" )
+		Set dtIssueDate = item.DateTimeValue	
+		
+		'2009-05-21: JML: ADR#3550: the field "Created" was replaced with "IssueDate" becasue that date is not affected when copying documents from Prod to Dev
+		'If oDoc.Created &gt;= uidoc.Document.FiscalYearStart(0) And oDoc.Created &lt;= uidoc.Document.FiscalYearEnd(0) Then
+		If dtIssueDate.DateOnly &gt;= dtFYStart.DateOnly And dtIssueDate.DateOnly &lt;= dtFYEnd.DateOnly Then		
+			purchCat = oDoc.FinCategory(0)
+			If oDoc.ProjectSelection(0)=uidoc.FieldGetText("Project") And oDoc.BudgetCalculated(0) = "Yes" Then
+				Select Case purchCat
+				Case "Operating"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bOpTotal = bOpTotal + oDoc.TotCost(0)                       
+					Else
+						bOpTotal = bOpTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Travel"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bTravTotal = bTravTotal + oDoc.TotCost(0)                       
+					Else
+						bTravTotal = bTravTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Contract"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bConTotal = bConTotal + oDoc.TotCost(0)                       
+					Else
+						bConTotal = bConTotal + oDoc.TotCostTaxed(0)
+					End If
+				Case "Capital"
+					If oDoc.GSTExempt(0)="Yes" Then
+						bCapTotal = bCapTotal + oDoc.TotCost(0)                       
+					Else
+						bCapTotal = bCapTotal + oDoc.TotCostTaxed(0)
+					End If
+				End Select
+			End If
+		End If
+		Set oDoc=dv.GetNextDocument(oDoc)
+		''NEMProgressSetText hwnd, "Calculating...", "Please wait while all orders for " &amp; uidoc.FieldGetText("FiscalYearStart") &amp; " to " &amp; uidoc.FieldGetText("FiscalYearEnd") &amp; " are processed. (" &amp; i &amp;"/" &amp;Cstr(dvc.Count)&amp;")"
+		''NEMProgressSetBarPos hwnd, i
+		i = i + 1
+		
+	Wend
+	
+	Call uidoc.FieldSetText("budgetOp_com",Cstr(bOpTotal))
+	Call uidoc.FieldSetText("budgetTrav_com", Cstr(bTravTotal))
+	Call uidoc.FieldSetText("budgetContr_com", Cstr(bConTotal))
+	Call uidoc.FieldSetText("budgetCap_com", Cstr(bCapTotal))
+killbar:
+	''NEMProgressEnd hwnd
+	
+	' Use the Err function to return the error number and 
+	' the Error$ function to return the error message.
+	Messagebox "Error" &amp; Str(Err) &amp; ": " &amp; Error$
+	
+	uidoc.Refresh
+End Sub</lotusscript></code></field></run><run><font size='14pt' style='bold'
+ color='white'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='20.3056%'/><tablecolumn width='79.6944%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='4' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Titre/numéro de projet:";"Project Name/Number:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='5' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='5'><run><font style='bold'/><field lookupeachchar='false' lookupaddressonrefresh='false'
+ type='keyword' kind='editable' name='Project'><keywords recalconchange='true'
+ recalcchoices='true' columns='1' ui='dialoglist' allownew='true'><formula
+>@DbLookup("":"NoCache";"":"";"C1V";"Internal Order - Project #";2)</formula></keywords></field></run><run
+><font size='12pt' style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Description courte:";"Short description:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold'/><field type='text' kind='editable' name='ShComm'><keywords
+ recalconchange='true' recalcchoices='true' columns='1' ui='dialoglist' allownew='true'/></field></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'/></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Directeur des recherches:";"Principal Investigator:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold'/></run><run><font style='bold'/><field
+ choicesdialog='addressbook' lookupeachchar='true' lookupaddressonrefresh='false'
+ type='names' kind='editable' name='PI'><code event='inputtranslation'><formula
+>@Name([CN];PI)</formula></code></field></run><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Chef de Section:";"Section Head:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold'/></run><run><font style='bold'/><field
+ choicesdialog='addressbook' lookupeachchar='true' lookupaddressonrefresh='false'
+ type='names' kind='editable' name='Manager'><code event='inputtranslation'><formula
+>@Name([CN];Manager)</formula></code></field></run><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='4'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Employés:";"Employees:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='5'><run><font style='bold'/></run><run><font style='bold'/><field
+ choicesdialog='addressbook' lookupeachchar='true' lookupaddressonrefresh='false'
+ type='names' allowmultivalues='true' kind='editable' name='Employees' listinputseparators='comma newline'
+ listdisplayseparator='newline'><code event='inputtranslation'><formula>@Name([CN];Employees)</formula></code></field></run><run
+><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<pardef id='6' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='6'><run><font style='bold'/></run><run><font style='bold' color='white'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Budget de projet";"Project Budget")</formula></code></computedtext></run><run
+><font style='bold' color='white'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='5.6910%'/><tablecolumn width='32.0104%'/><tablecolumn width='7.5625%'/><tablecolumn
+ width='34.7083%'/><tablecolumn width='10.1146%'/><tablecolumn width='9.9132%'/>
+<tablerow>
+<tablecell borderwidth='0px 2px 2px 0px'>
+<pardef id='7' leftmargin='4%' rightmargin='96%' keepwithnext='true' keeptogether='true'/>
+<par def='7'><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='2px 1px 2px 2px'>
+<pardef id='8' align='center' leftmargin='3%' rightmargin='98%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='8'><run><font style='bold'/>Operating</run></par></tablecell>
+<tablecell borderwidth='2px 1px'>
+<pardef id='9' align='center' leftmargin='2%' rightmargin='98%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='9'><run><font style='bold'/>Travel</run></par></tablecell>
+<tablecell borderwidth='2px 1px'>
+<pardef id='10' align='center' leftmargin='3%' rightmargin='98%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='10'><run><font style='bold'/>Contract</run></par></tablecell>
+<tablecell borderwidth='2px 2px 2px 1px'>
+<pardef id='11' align='center' leftmargin='2%' rightmargin='98%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='11'><run><font style='bold'/>Capital</run></par></tablecell>
+<tablecell borderwidth='0px 0px 0px 1px'>
+<pardef id='12' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='12'><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='2px 2px 1px'>
+<pardef id='13' align='right' leftmargin='6%' rightmargin='96%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='13'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Montant prévu au budget:";"Budget:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='2px 1px 1px 2px'>
+<pardef id='14' align='right' leftmargin='3%' rightmargin='98%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='14'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='budgetOp'><numberformat format='currency' digits='2' punctuated='true'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code></field><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='2px 1px 1px'>
+<pardef id='15' align='right' leftmargin='2%' rightmargin='98%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='15'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='budgetTrav'><numberformat format='currency' digits='2' punctuated='true'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code></field><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='2px 1px 1px'>
+<pardef id='16' align='right' leftmargin='3%' rightmargin='98%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='16'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='budgetContr'><numberformat format='currency' digits='2' punctuated='true'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code></field><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='2px 2px 1px 1px'>
+<pardef id='17' align='right' leftmargin='2%' rightmargin='98%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='17'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='budgetCap'><numberformat format='currency' digits='2' punctuated='true'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code></field><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px 0px 0px 1px'>
+<par def='12'><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='1px 2px 2px'>
+<par def='13'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Montant engagé:";"Committed:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='1px 1px 2px 2px'>
+<pardef id='18' align='right' leftmargin='3%' rightmargin='98%' hide='edit previewedit'
+ keepwithnext='true' keeptogether='true'/>
+<par def='18'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='budgetOp_com'><numberformat format='currency' digits='2' punctuated='true'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code></field></par></tablecell>
+<tablecell borderwidth='1px 1px 2px'>
+<pardef id='19' align='right' leftmargin='2%' rightmargin='98%' hide='edit previewedit'
+ keepwithnext='true' keeptogether='true'/>
+<par def='19'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='budgetTrav_com'><numberformat format='currency' digits='2' punctuated='true'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code></field><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='1px 1px 2px'>
+<pardef id='20' align='right' leftmargin='3%' rightmargin='98%' hide='edit previewedit'
+ keepwithnext='true' keeptogether='true'/>
+<par def='20'><run><font style='bold'/></run><field type='number' kind='editable'
+ name='budgetContr_com'><numberformat format='currency' digits='2' punctuated='true'
+ parens='false' percent='false' bytes='false'/><code event='defaultvalue'><formula
+>0</formula></code></field><run><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='1px 2px 2px 1px'>
+<pardef id='21' align='right' leftmargin='2%' rightmargin='98%' hide='edit previewedit'
+ keepwithnext='true' keeptogether='true'/>
+<par def='21'><field type='number' kind='editable' name='budgetCap_com'><numberformat
+ format='currency' digits='2' punctuated='true' parens='false' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code></field><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px 0px 0px 1px'>
+<par def='12'><run><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='25.4028%'/><tablecolumn width='1.8931in'/><tablecolumn width='74.5972%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='22' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='22'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Budget Total:";"Total Budget:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='23' align='right' rightmargin='100%'/>
+<par def='23'><run><font style='bold'/></run><run><font style='bold'/><field
+ type='number' kind='computed' name='TotBudget'><numberformat format='currency'
+ digits='2' punctuated='true' parens='false' percent='false' bytes='false'/><code
+ event='defaultvalue'><formula>budgetOp + budgetTrav + budgetContr + budgetCap</formula></code></field></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='24' keepwithnext='true' keeptogether='true'/>
+<par def='24'><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='25' leftmargin='0%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='25'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Total engagé:";"Total Committed:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='26' align='right' leftmargin='1%' rightmargin='100%' keepwithnext='true'
+ keeptogether='true'/>
+<par def='26'><run><font style='bold'/></run><run><font style='bold'/><field
+ type='number' kind='computed' name='TotCommitted'><numberformat format='currency'
+ digits='2' punctuated='true' parens='false' percent='false' bytes='false'/><code
+ event='defaultvalue'><formula>budgetOp_com + budgetTrav_com + budgetContr_com + budgetCap_com</formula></code></field></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='24'><run><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='27' keepwithnext='true' keeptogether='true'/>
+<par def='27'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Solde disponible:";"Free Balance:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='28' align='right' rightmargin='1.8931in' keepwithnext='true' keeptogether='true'/>
+<par def='28'><run><font style='bold'/> </run><run><font style='bold'/><field
+ type='number' kind='computedfordisplay' name='FreeBalance'><numberformat
+ format='currency' digits='2' punctuated='true' parens='true' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>TotBudget - TotCommitted</formula></code></field></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='24'><run><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<par def='6'><run><font style='bold' color='white'/>MasterCard</run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='17.7674%'/><tablecolumn width='82.2326%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='29' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='29'><run><font style='bold'/>Cardholders:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='30' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='30'><run><font style='bold'/></run><run><font style='bold'/><field
+ type='keyword' allowmultivalues='true' kind='editable' name='MCardHolders'
+ listinputseparators='comma' listdisplayseparator='comma'><keywords ui='dialoglist'><formula
+>@DbLookup(""; "";  "CHL"; "MasterCard"; 2)</formula></keywords><code event='inputtranslation'><formula
+>@Name([CN];MCardHolders)</formula></code></field></run><run><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<par def='6'><run><font style='bold' color='white'/>VISA</run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='17.7674%'/><tablecolumn width='82.2326%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='29'><run><font style='bold'/>Cardholders:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='30'><run><font style='bold'/></run><run><font style='bold'/><field
+ type='keyword' allowmultivalues='true' kind='editable' name='VCardHolders'
+ listinputseparators='comma' listdisplayseparator='comma'><keywords ui='dialoglist'><formula
+>@DbLookup(""; "";  "CHL"; "VISA"; 2)</formula></keywords><code event='inputtranslation'><formula
+>@Name([CN];VCardHolders)</formula></code></field></run><run><font style='bold'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='navy'>
+<par def='6'><run><font style='bold'/></run><run><font style='bold' color='white'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Bon de commande";"Purchase Order")</formula></code></computedtext></run><run
+><font style='bold' color='white'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font style='bold'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0313in'><tablecolumn
+ width='17.7674%'/><tablecolumn width='82.2326%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='29'><run><font style='bold'/></run><run><font style='bold'/><computedtext
+><code event='value'><formula>@If(@Environment("HECS_Language")="F";"Pouvoir de signature:";"Signing Authorities:")</formula></code></computedtext></run><run
+><font style='bold'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='30'><run><font style='bold'/></run><run><font style='bold'/><field
+ choicesdialog='addressbook' lookupeachchar='true' lookupaddressonrefresh='false'
+ type='names' allowmultivalues='true' kind='editable' name='SigningAuth' listinputseparators='newline'
+ listdisplayseparator='newline'><code event='inputtranslation'><formula>@Name([CN];SigningAuth)</formula></code></field></run><run
+><font style='bold'/></run></par></tablecell></tablerow></table>
+<pardef id='31' leftmargin='1in'><code event='hidewhen'><formula>1</formula></code></pardef>
+<par def='31'><run><font style='bold'/></run><run><font size='8pt' color='red'
+ style='italic'/><field type='number' kind='editable' name='CategoriesAllowed'><numberformat
+ format='fixed' punctuated='false' parens='false' percent='false' bytes='false'/></field></run><run
+><font style='bold'/></run><run><font size='8pt' color='red' style='italic'/><field
+ type='text' kind='editable' name='budgetOpTemp'/></run><run><font size='8pt'
+ color='red' style='italic'/><field type='text' kind='editable' name='budgetTravTemp'/></run><run
+><font size='8pt' color='red' style='italic'/><field type='text' kind='editable'
+ name='budgetContrTemp'/></run><run><font size='8pt' color='red' style='italic'/><field
+ type='text' kind='editable' name='budgetCapTemp'/></run><run><font style='bold'/></run></par>
+<par def='31'><run><font style='bold'/></run></par>
+<pardef id='2' leftmargin='1in'/>
+<par def='2'><run><font style='bold'/></run></par>
+<pardef id='32' leftmargin='0.8125in'><code event='hidewhen'><formula>1</formula></code></pardef><subformref
+ name='CDE-Edit History | EdHistory'/>
+<pardef id='33' align='none' leftmargin='1in'><code event='hidewhen'><formula
+>1</formula></code></pardef>
+<par def='33'><run><font style='bold'/></run></par></richtext></body>
+<item name='budgetOp_1' summary='false'><number>0</number></item>
+<item name='budgetTrav_1' summary='false'><number>0</number></item>
+<item name='budgetContr_1' summary='false'><number>0</number></item>
+<item name='budgetCap_1' summary='false'><number>0</number></item>
+<item name='OriginalModTime'><datetime dst='true'>20090629T151745,40-04</datetime></item>
+<item name='$FormUsers'><textlist><text>[Admin]</text><text>[LNOG Admin]</text></textlist></item>
+<item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>Project</text></item>
+<item name='$FiscalYearEnd_O' sign='true'>
+<rawitemdata type='14'>
+AQAAAkxTT0IDABQIZW4AAAQASgCCAwQAAACADewJAAAAAAAAjAqMCWgNAAAkADwCGAA4ADQBAABU
+AAAAAAAAAAgAAAAIAFwCAAAAAFwCXAIAAAAAAAAAAAAAAACAANgACABUAAAAAACsAKwAAAAAAAAA
+AAAAAAAAKAAIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAoAAAC8AYwJAATgB7wBvAEwA0AHAAAAAMwFzAUAAAAAAAAAAIwJjAkAAAAA
+AAAAAPwEoAa0CLQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAEABQBMb3R1cyBQcm9kdWN0AAAAVjAuMAAAAAAAAAAAAAAAAAAA
+AAAEAAAAggMAAAAAAACADQAA7AkAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAA
+AAUAAABXMzJJYQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAwDwCQAAAADgAAgAKgA2ADcAQwAxADYAMQA0AAAAAABsAAMATgBFAFcAAACAAAYARABFAEwA
+RQBUAEUAAAAAALwACgBJAE4ASQBUAEkAQQBMAEkAWgBFAAAAAAAIAgkAVABFAFIATQBJAE4AQQBU
+AEUAAAAQAQYATwBCAEoARQBDAFQAAAAAAIgAAAAAAAAAnAAGAFMATwBVAFIAQwBFAAAAAABwAQ0A
+TgBQAEIAXwBTAFQAQQBUAFUAUwBCAEEAUgAAAIwDDgBOAEUATQBQAFIATwBHAFIARQBTAFMARQBO
+AEQAAAAAAAABDABuAG4AbwB0AGUAcwB3AHMALgBkAGwAbAAAAAAAyAEEAEgAVwBOAEQAAAAAANgB
+DgBOAEUATQBQAHIAbwBnAHIAZQBzAHMARQBuAGQAAAAAAFwBEABOAEUATQBQAFIATwBHAFIARQBT
+AFMAQgBFAEcASQBOAAAAAACYAQYAVwBGAEwAQQBHAFMAAAAAANwCEABOAEUATQBQAHIAbwBnAHIA
+ZQBzAHMAQgBlAGcAaQBuAAAAAABMAhQATgBFAE0AUABSAE8ARwBSAEUAUwBTAFMARQBUAEIAQQBS
+AFAATwBTAAAAAAAkAwUARABXAFAATwBTAAAAgAIUAE4ARQBNAFAAcgBvAGcAcgBlAHMAcwBTAGUA
+dABCAGEAcgBQAG8AcwAAAAAA3AMWAE4ARQBNAFAAUgBPAEcAUgBFAFMAUwBTAEUAVABCAEEAUgBS
+AEEATgBHAEUAAAAAAMQCBQBEAFcATQBBAFgAAACsAhYATgBFAE0AUAByAG8AZwByAGUAcwBzAFMA
+ZQB0AEIAYQByAFIAYQBuAGcAZQAAAAAAyAMSAE4ARQBNAFAAUgBPAEcAUgBFAFMAUwBTAEUAVABU
+AEUAWABUAAAAAABcBQkAUABDAFMAWgBMAEkATgBFADEAAAAIAwkAUABDAFMAWgBMAEkATgBFADIA
+AABAAxIATgBFAE0AUAByAG8AZwByAGUAcwBzAFMAZQB0AFQAZQB4AHQAAAAAAFADCgBCAEkATgBE
+AEUAVgBFAE4AVABTAAAAAAB4AwsATwBCAEoARQBDAFQATgBBAE0ARQBfAAAAZAMFAEYASQBFAEwA
+RAAAAJQDBgAlAEwAUwBJAEQARQAAAAAAEAQHAEUAWABJAFQASQBOAEcAAACgAwcASwBJAEwATABC
+AEEAUgAAAOwDAQBJAAAAXAQCAFcAUwAAAAAAdAQQAE4ATwBUAEUAUwBVAEkAVwBPAFIASwBTAFAA
+QQBDAEUAAAAAACgEBgAlAEwAUwBYAFUASQAAAAAAjAQFAFUASQBEAE8AQwAAALQEDwBOAE8AVABF
+AFMAVQBJAEQATwBDAFUATQBFAE4AVAAAAEQECABCAE8AUABUAE8AVABBAEwAAAAAAAAGCgBCAFQA
+UgBBAFYAVABPAFQAQQBMAAAAAAAYBQkAQgBDAE8ATgBUAE8AVABBAEwAAAAkBQkAQgBDAEEAUABU
+AE8AVABBAEwAAACUBAgAUABVAFIAQwBIAEMAQQBUAAAAAADIBAEAUwAAAPQEDABOAE8AVABFAFMA
+UwBFAFMAUwBJAE8ATgAAAAAAbAYGACUATABTAFgAQgBFAAAAAADUBAIARABCAAAAAAAABQ0ATgBP
+AFQARQBTAEQAQQBUAEEAQgBBAFMARQAAAIwFAgBEAFYAAAAAAGwFCQBOAE8AVABFAFMAVgBJAEUA
+VwAAABwGAwBEAFYAQwAAAKgGGABOAE8AVABFAFMAVgBJAEUAVwBFAE4AVABSAFkAQwBPAEwATABF
+AEMAVABJAE8ATgAAAAAAsAUEAE8ARABPAEMAAAAAAKAHDQBOAE8AVABFAFMARABPAEMAVQBNAEUA
+TgBUAAAA1AUPAEMAVQBSAFIARQBOAFQARABPAEMAVQBNAEUATgBUAAAA6AUPAEMAVQBSAFIARQBO
+AFQARABBAFQAQQBCAEEAUwBFAAAAVAYHAEcARQBUAFYASQBFAFcAAABEBgkAcgBlAGYAbABvAG8A
+awB1AHAAAAA0CQoAQQBMAEwARQBOAFQAUgBJAEUAUwAAAAAAUAcQAEcARQBUAEYASQBSAFMAVABE
+AE8AQwBVAE0ARQBOAFQAAAAAAMAGBABJAFQARQBNAAAAAADUBgkATgBPAFQARQBTAEkAVABFAE0A
+AACIBgsARABUAEkAUwBTAFUARQBEAEEAVABFAAAAMAcNAE4ATwBUAEUAUwBEAEEAVABFAFQASQBN
+AEUAAADsBgkARABUAEYAWQBTAFQAQQBSAFQAAAAMBwcARABUAEYAWQBFAE4ARAAAAHAHCABEAE8A
+QwBVAE0ARQBOAFQAAAAAAEAIDABHAEUAVABGAEkAUgBTAFQASQBUAEUATQAAAAAAGAgPAEYAaQBz
+AGMAYQBsAFkAZQBhAHIAUwB0AGEAcgB0AAAAiAcNAEQAQQBUAEUAVABJAE0ARQBWAEEATABVAEUA
+AADkBw0ARgBpAHMAYwBhAGwAWQBlAGEAcgBFAG4AZAAAALwHCQBJAHMAcwB1AGUARABhAHQAZQAA
+AAQICABEAEEAVABFAE8ATgBMAFkAAAAAANwICwBGAEkATgBDAEEAVABFAEcATwBSAFkAAAB8CBAA
+UABSAE8ASgBFAEMAVABTAEUATABFAEMAVABJAE8ATgAAAAAAzAkMAEYASQBFAEwARABHAEUAVABU
+AEUAWABUAAAAAACQCAcAUAByAG8AagBlAGMAdAAAAP//EABCAFUARABHAEUAVABDAEEATABDAFUA
+TABBAFQARQBEAAAAAABMCAMAWQBlAHMAAABkCAkATwBwAGUAcgBhAHQAaQBuAGcAAACwCAkARwBT
+AFQARQBYAEUATQBQAFQAAAD//wcAVABPAFQAQwBPAFMAVAAAANgJDABUAE8AVABDAE8AUwBUAFQA
+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
+AAAA
+</rawitemdata></item>
+<item name='budgetOp' summary='false'><number>0</number></item>
+<item name='budgetTrav' summary='false'><number>0</number></item>
+<item name='budgetContr' summary='false'><number>0</number></item>
+<item name='budgetCap' summary='false'><number>0</number></item>
+<item name='budgetOp_com' summary='false'><number>0</number></item>
+<item name='budgetTrav_com' summary='false'><number>0</number></item>
+<item name='budgetContr_com' summary='false'><number>0</number></item>
+<item name='budgetCap_com' summary='false'><number>0</number></item>
+<item name='TotBudget' summary='false'><number>0</number></item>
+<item name='TotCommitted' summary='false'><number>0</number></item>
+<item name='CategoriesAllowed' summary='false'><number>0</number></item>
+<item name='date_create' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item></form>
+

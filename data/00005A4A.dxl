@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='5a4a' unid='5D1F7B43C4724E178525773000454911' sequence='5'>
+<created><datetime dst='true'>20100527T083646,89-04</datetime></created>
+<modified><datetime dst='true'>20260917T084947,79-04</datetime></modified>
+<revised><datetime dst='true'>20100531T150007,14-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084947,78-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084947,78-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20100527T083900,72-04</datetime><datetime
+ dst='true'>20100531T145901,31-04</datetime><datetime dst='true'>20100531T145904,01-04</datetime><datetime
+ dst='true'>20100531T145948,75-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100531T145927,16-04</datetime></item>
+<item name='CompName'><text>NCIX.com</text></item>
+<item name='CompPhone'><text>1-888-624-9888</text></item>
+<item name='CompAddress'><text>105-4620 Viking Way</text></item>
+<item name='CompFax'><text>1-604-514-3107</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Tony ext 2709</text></item>
+<item name='CompCity'><text>Richmond</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>BC</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>V6V 2L5</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>CAD</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>http://www.ncix.com</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20100527T083646,89-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><textlist><text>Sameer Jetha</text><text>Sameer Jetha</text><text
+>Sameer Jetha</text><text>Sameer Jetha</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2010-05-31 02:59:27 PM</text><text
+>2010-05-31 02:59:08 PM</text><text>2010-05-31 02:58:24 PM</text><text>2010-05-31 02:58:21 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Sameer Jetha;</text><text>Sameer Jetha;</text><text
+>Sameer Jetha;</text><text>Sameer Jetha;</text></textlist></item></document>
+

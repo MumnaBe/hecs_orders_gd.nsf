@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='OrderForm'>
+<noteinfo noteid='1996' unid='50FD41B1327BB65C85256C8000521196' sequence='38'>
+<created><datetime>20021129T095624,54-05</datetime></created>
+<modified><datetime dst='true'>20260917T084403,13-04</datetime></modified>
+<revised><datetime>20121130T075651,54-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084403,12-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084403,12-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20040222T001424,51-05</datetime><datetime>20040224T001725,70-05</datetime><datetime
+>20040227T001624,65-05</datetime><datetime>20040227T144954,47-05</datetime><datetime
+>20040227T145133,69-05</datetime><datetime>20040304T001550,52-05</datetime><datetime
+ dst='true'>20040402T143222,50-04</datetime><datetime dst='true'>20040602T144621,30-04</datetime><datetime
+ dst='true'>20050909T133326,41-04</datetime><datetime>20060125T101149,90-05</datetime><datetime
+ dst='true'>20060325T013952,58-04</datetime><datetime dst='true'>20060428T003604,98-04</datetime><datetime
+>20061106T090219,83-05</datetime><datetime>20061214T160557,27-05</datetime><datetime
+ dst='true'>20110511T112516,17-04</datetime></revisions>
+<item name='FSC'><text>831503</text></item>
+<item name='GLAC'><text>04405</text></item>
+<item name='PAC'><text>A220</text></item>
+<item name='PC'><text>4320010</text></item>
+<item name='Project'><text>4320010 RV - Pulm</text></item>
+<item name='GLAcctList'><textlist><text>Acids</text><text>Anaesthetic Gases</text><text
+>Books and Pamphlets</text><text>Chemicals</text><text>Conference Registration Fees</text><text
+>Courier</text><text>Distilled Drink Water</text><text>Electrical Supplies</text><text
+>Film Audio and Video Cassettes</text><text>Freight Express and Cartage Transportation</text><text
+>General Supplies</text><text>Honoraria</text><text>Hospitality</text><text
+>IT Desktop PC</text><text>IT Hardware &amp; Components</text><text>IT Portable PC</text><text
+>IT Software</text><text>Lab glassware and ceramics</text><text>Lab Supplies</text><text
+>Laundry Dryclean and Related Services</text><text>Live Animals</text><text
+>Membership Fees</text><text>Moving Expenses</text><text>Newspaper Magazines and Periodicals</text><text
+>Non-Anesthetic Gases</text><text>Non-Provincial Lab Service</text><text>Office Supplies</text><text
+>Oxygen and Other Medical Gases</text><text>Pagers Enhanced Telecom Service etc.</text><text
+>Postage and Parcel Post Service</text><text>Printing Service Books and Leaflets</text><text
+>Printing Service Photocopies</text><text>Provincial Laboratory Service</text><text
+>Publication</text><text>Repair and Maintenance - Hardware and Software</text><text
+>Repair and Maintenance - Laboratories</text><text>Repairs and Maintenance -- Lab Equipment</text><text
+>Scientific Equipment (&lt;10K)</text><text>Solvents</text><text>Staff Development PSC</text><text
+>Staff Language Training (not provided by PSC)</text><text>Telephone &amp; Voice Comm Services</text><text
+>Temporary Help Service</text><text>Translation Service</text><text>Wearing Apparel</text></textlist></item>
+<item name='ProgActList'><text>non-SPA Research and Development</text></item>
+<item name='PrjNumList'><textlist><text>4320010 RV - Pulm</text><text>4320101 HV - Allergens</text><text
+>4320105 PK - Oxid</text><text>4340008 RV - In Vitro</text><text>4340013 PR - Metals</text><text
+>4340024 - Renovations</text></textlist></item>
+<item name='GLAcctListFrench'><text/></item>
+<item name='PAListFrench'><text/></item>
+<item name='FundSource'><text>EHS</text></item>
+<item name='GLAccount'><text>Office Supplies</text></item>
+<item name='PA'><text>non-SPA Research and Development</text></item>
+<item name='CompleteFinancialCode'><text>831503 04405 A220 4320010</text></item>
+<item name='SendTo' names='true'><text>Cranston Snord</text></item>
+<item name='OperatingAllowed'><text>False</text></item>
+<item name='TravelAllowed'><text>False</text></item>
+<item name='ContractAllowed'><text>False</text></item>
+<item name='CapitalAllowed'><text>False</text></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SendWarning'><text>Sent</text></item>
+<item name='SendWarning2'><text>Sent</text></item>
+<item name='HideCount'><number>1</number></item>
+<item name='H1'><number>0</number></item>
+<item name='H2'><number>0</number></item>
+<item name='H3'><number>0</number></item>
+<item name='H4'><number>0</number></item>
+<item name='H5'><number>0</number></item>
+<item name='H6'><number>0</number></item>
+<item name='H7'><number>0</number></item>
+<item name='H8'><number>0</number></item>
+<item name='H9'><number>0</number></item>
+<item name='H10'><number>0</number></item>
+<item name='H11'><number>0</number></item>
+<item name='H12'><number>0</number></item>
+<item name='H13'><number>0</number></item>
+<item name='H14'><number>0</number></item>
+<item name='H15'><number>0</number></item>
+<item name='H16'><number>0</number></item>
+<item name='H17'><number>0</number></item>
+<item name='H18'><number>0</number></item>
+<item name='H19'><number>0</number></item>
+<item name='H20'><number>0</number></item>
+<item name='OrderComments'><text/></item>
+<item name='RefNumberTag'><text>GD/CD-</text></item>
+<item name='CardNumber'><text/></item>
+<item name='ExpiryDate'><text/></item>
+<item name='Sent'><text>Yes</text></item>
+<item name='Status'><text>Reconciled</text></item>
+<item name='BudgetCalculated'><text>Yes</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CardHolder1' authors='true' names='true'><text>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</text></item>
+<item name='ProjectSelection'><text>4320010 RV - Pulm</text></item>
+<item name='DateReq'><text>December 6,  2002</text></item>
+<item name='PurchaseType'><text>MasterCard</text></item>
+<item name='CardHolder'><text>Renaud Vincent</text></item>
+<item name='CompanyName' names='true'><text>Smart Ape Microsystems Limited</text></item>
+<item name='AcctNumber'><text>Health Canada, PL 0803C</text></item>
+<item name='CompPhone'><text>(613) 523-9511</text></item>
+<item name='CompFax'><text>(613) 523-1627</text></item>
+<item name='Currency'><text>CAD</text></item>
+<item name='i1Desc'><text>Toner Cartridge for HP Laserjet 5000</text></item>
+<item name='i1Quant'><number>3</number></item>
+<item name='i1PricePer'><number>249</number></item>
+<item name='PartRec'><text>3</text></item>
+<item name='Rec1'><text>Received</text></item>
+<item name='i2Desc'><text/></item>
+<item name='i2Quant'><number>0</number></item>
+<item name='i2PricePer'><number>0</number></item>
+<item name='PartRec_1'><text/></item>
+<item name='Rec2'><text>Received</text></item>
+<item name='i3Desc'><text/></item>
+<item name='i3Quant'><number>0</number></item>
+<item name='i3PricePer'><number>0</number></item>
+<item name='PartRec_2'><text/></item>
+<item name='Rec3'><text>Received</text></item>
+<item name='i4Desc'><text/></item>
+<item name='i4Quant'><number>0</number></item>
+<item name='i4PricePer'><number>0</number></item>
+<item name='PartRec_3'><text/></item>
+<item name='Rec4'><text>Received</text></item>
+<item name='i5Desc'><text/></item>
+<item name='i5Quant'><number>0</number></item>
+<item name='i5PricePer'><number>0</number></item>
+<item name='PartRec_4'><text/></item>
+<item name='Rec5'><text>Received</text></item>
+<item name='i6Desc'><text/></item>
+<item name='i6Quant'><number>0</number></item>
+<item name='i6PricePer'><number>0</number></item>
+<item name='PartRec_5'><text/></item>
+<item name='Rec6'><text>Received</text></item>
+<item name='i7Desc'><text/></item>
+<item name='i7Quant'><number>0</number></item>
+<item name='i7PricePer'><number>0</number></item>
+<item name='PartRec_6'><text/></item>
+<item name='Rec7'><text>Received</text></item>
+<item name='i8Desc'><text/></item>
+<item name='i8Quant'><number>0</number></item>
+<item name='i8PricePer'><number>0</number></item>
+<item name='PartRec_7'><text/></item>
+<item name='Rec8'><text>Received</text></item>
+<item name='i9Desc'><text/></item>
+<item name='i9Quant'><number>0</number></item>
+<item name='i9PricePer'><number>0</number></item>
+<item name='PartRec_8'><text/></item>
+<item name='Rec9'><text>Received</text></item>
+<item name='i10Desc'><text/></item>
+<item name='i10Quant'><number>0</number></item>
+<item name='i10PricePer'><number>0</number></item>
+<item name='PartRec_9'><text/></item>
+<item name='Rec10'><text>Received</text></item>
+<item name='i11Desc'><text/></item>
+<item name='i11Quant'><number>0</number></item>
+<item name='i11PricePer'><number>0</number></item>
+<item name='PartRec_10'><text/></item>
+<item name='Rec11'><text>Received</text></item>
+<item name='i12Desc'><text/></item>
+<item name='i12Quant'><number>0</number></item>
+<item name='i12PricePer'><number>0</number></item>
+<item name='PartRec_11'><text/></item>
+<item name='Rec12'><text>Received</text></item>
+<item name='i13Desc'><text/></item>
+<item name='i13Quant'><number>0</number></item>
+<item name='i13PricePer'><number>0</number></item>
+<item name='PartRec_12'><text/></item>
+<item name='Rec13'><text>Received</text></item>
+<item name='i14Desc'><text/></item>
+<item name='i14Quant'><number>0</number></item>
+<item name='i14PricePer'><number>0</number></item>
+<item name='PartRec_13'><text/></item>
+<item name='Rec14'><text>Received</text></item>
+<item name='i15Desc'><text/></item>
+<item name='i15Quant'><number>0</number></item>
+<item name='i15PricePer'><number>0</number></item>
+<item name='PartRec_14'><text/></item>
+<item name='Rec15'><text>Received</text></item>
+<item name='i16Desc'><text/></item>
+<item name='i16Quant'><number>0</number></item>
+<item name='i16PricePer'><number>0</number></item>
+<item name='PartRec_15'><text/></item>
+<item name='Rec16'><text>Received</text></item>
+<item name='i17Desc'><text/></item>
+<item name='i17Quant'><number>0</number></item>
+<item name='i17PricePer'><number>0</number></item>
+<item name='PartRec_16'><text/></item>
+<item name='Rec17'><text>Received</text></item>
+<item name='i18Desc'><text/></item>
+<item name='i18Quant'><number>0</number></item>
+<item name='i18PricePer'><number>0</number></item>
+<item name='PartRec_17'><text/></item>
+<item name='Rec18'><text>Received</text></item>
+<item name='i19Desc'><text/></item>
+<item name='i19Quant'><number>0</number></item>
+<item name='i19PricePer'><number>0</number></item>
+<item name='PartRec_18'><text/></item>
+<item name='Rec19'><text>Received</text></item>
+<item name='i20Desc'><text/></item>
+<item name='i20Quant'><number>0</number></item>
+<item name='i20PricePer'><number>0</number></item>
+<item name='PartRec_19'><text/></item>
+<item name='Rec20'><text>Received</text></item>
+<item name='ShippingCost'><number>10</number></item>
+<item name='Customs'><number>0</number></item>
+<item name='Exchange'><text/></item>
+<item name='SlipNumber'><text>1016156-12/04/02</text></item>
+<item name='InvoiceNumber'><text>1016156-12/04/02</text></item>
+<item name='Comments'><text/></item>
+<item name='ProjectSelection1'><textlist><text>4320010 RV - Pulm</text><text
+>4320101 HV - Allergens</text><text>4320105 PK - Oxid</text><text>4340008 RV - In Vitro</text><text
+>4340013 PR - Metals</text><text>66030 RV - NJMRC</text><text>66031 RV - Crapo</text><text
+>66153 PR - Gravimetric Analysis Facility</text><text>RV4340024 - Renovations</text></textlist></item>
+<item name='LastProjectSelected'><text>4320010 RV - Pulm</text></item>
+<item name='SaveOptions'><text>1</text></item>
+<item name='CategoriesAllowed'><text/></item>
+<item name='PI' names='true'><text>Renaud Vincent</text></item>
+<item name='SectionHead' names='true'><text>Renaud Vincent</text></item>
+<item name='Printed'><text>Yes</text></item>
+<item name='DefaultBillTo' names='true'><text>Pierre Gougeon</text></item>
+<item name='d_RefNumber'><text>GD/CD-20020597</text></item>
+<item name='RefNumber'><text>20020597</text></item>
+<item name='FinCategory'><text>Operating</text></item>
+<item name='FinCode'><text>831503 04405 A220 4320010</text></item>
+<item name='IssueDate'><datetime>20021129</datetime></item>
+<item name='IssueDate_1'><text>November 29, 2002</text></item>
+<item name='SignAuth'><text/></item>
+<item name='Estimate'><number>959.148</number></item>
+<item name='ShipTo' names='true'><text>Josee Guenette</text></item>
+<item name='PhoneNumber'><text>(613) 957-3131</text></item>
+<item name='InvName' names='true'><text>Pierre Gougeon</text></item>
+<item name='InvTel'><text>(613) 957-3968</text></item>
+<item name='Locator'><text>0803C</text></item>
+<item name='FaxNumber'><text>(613) 946-2600</text></item>
+<item name='InvPL'><text>0803C</text></item>
+<item name='InvFax'><text>(613) 946-2600</text></item>
+<item name='Building'><text>Environmental Health Centre,  (No. 08)</text></item>
+<item name='Building2'><text>Tunney's Pasture</text></item>
+<item name='InvBuilding'><text>Environmental Health Centre,  (No. 08)</text></item>
+<item name='InvBuilding2'><text>Tunney's Pasture</text></item>
+<item name='City'><text>Ottawa</text></item>
+<item name='InvCity'><text>Ottawa</text></item>
+<item name='Province'><text>Ontario</text></item>
+<item name='InvProvince'><text>Ontario</text></item>
+<item name='PostCode'><text>K1A0L2</text></item>
+<item name='InvPostCode'><text>K1A 0L2</text></item>
+<item name='i1PriceTot'><number>747</number></item>
+<item name='i2PriceTot'><number>0</number></item>
+<item name='i3PriceTot'><number>0</number></item>
+<item name='i4PriceTot'><number>0</number></item>
+<item name='i5PriceTot'><number>0</number></item>
+<item name='i6PriceTot'><number>0</number></item>
+<item name='i7PriceTot'><number>0</number></item>
+<item name='i8PriceTot'><number>0</number></item>
+<item name='i9PriceTot'><number>0</number></item>
+<item name='i10PriceTot'><number>0</number></item>
+<item name='i11PriceTot'><number>0</number></item>
+<item name='i12PriceTot'><number>0</number></item>
+<item name='i13PriceTot'><number>0</number></item>
+<item name='i14PriceTot'><number>0</number></item>
+<item name='i15PriceTot'><number>0</number></item>
+<item name='i16PriceTot'><number>0</number></item>
+<item name='i17PriceTot'><number>0</number></item>
+<item name='i18PriceTot'><number>0</number></item>
+<item name='i19PriceTot'><number>0</number></item>
+<item name='i20PriceTot'><number>0</number></item>
+<item name='TotPrice'><number>747</number></item>
+<item name='TotCost'><number>757</number></item>
+<item name='TotCostTaxed'><number>757</number></item>
+<item name='AdminAuthors' authors='true' names='true'><text>[Admin]</text></item>
+<item name='Readers' names='true' readers='true'><textlist><text>LNOG_HECS</text><text
+>Cranston Snord</text><text>CN=APP03/OU=HC-SC/O=GC/C=CA</text><text>Renaud Vincent</text><text
+>Renaud Vincent</text><text>Dalibor Breznan</text><text>Lorraine Casavant</text><text
+>Vinita Chauhan</text><text>Pat Goegan</text><text>Josee Guenette</text><text
+>Subramanian Karthikeyan</text><text>Premkumari Kumarathasan</text><text>DJ MacIntyre</text><text
+>Anu Sara</text><text>Errol Thomson</text><text>Erica Wissing</text><text
+>Cranston Snord</text><text>Lorraine Casavant</text><text>Yunus Siddiqui</text><text
+>Cranston Snord</text><text>Cranston Snord</text><text>Dian Calagoure</text><text
+>Dian Sinclair</text></textlist></item>
+<item name='Authors' authors='true' names='true'><textlist><text>LNOG_HECS</text><text
+>Cranston Snord</text><text>CN=APP03/OU=HC-SC/O=GC/C=CA</text><text>Renaud Vincent</text><text
+>Renaud Vincent</text><text>Lorraine Casavant</text><text>Yunus Siddiqui</text><text
+>Cranston Snord</text><text>Cranston Snord</text><text>Dian Calagoure</text><text
+>Dian Sinclair</text></textlist></item></document>
+

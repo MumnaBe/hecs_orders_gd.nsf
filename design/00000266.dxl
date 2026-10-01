@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='.Help\ Francais' alias='VwFAppHelp' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='5' unreadmarks='none' onopengoto='lastopened'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='false' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='false' extendlastcolumn='true' showhierarchies='false'
+ unreadcolor='purple' rowlinecount='1' headerlinecount='1' rowspacing='1.25'
+ bgcolor='white' altrowcolor='#e0f1ff' totalscolor='blue' boldunreadrows='false'
+ evaluateactions='false' allownewdocuments='false' allowcustomizations='true'
+ hidemarginborder='false' marginwidth='0px' uniquekeys='false'>
+<noteinfo noteid='266' unid='60EDAD9EF4BBAB8E85256B74006FA184' sequence='11'>
+<created><datetime>20020306T151918,44-05</datetime></created>
+<modified><datetime dst='true'>20260917T084241,74-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143121,69-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100256,45-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084241,73-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form = "Help" &amp; @Left(HelpECategories;1) = "1"</formula></code><code
+ event='form'><formula>@Environment("UserWorkingLanguage"; "F" );
+@If(@IsDocBeingLoaded; "HelpDocF"; Form)</formula></code><code event='queryopen'><formula
+>@Environment("UserWorkingLanguage"; "F" )</formula></code>
+<actionbar borderstyle='none' bgcolor='#104160' bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='Admin' icon='144'><code event='click'><formula>@Command([OpenView] ; "VwHelpDoc")</formula></code><code
+ event='hidewhen'><formula>!@IsMember("[Admin]"; @UserRoles)</formula></code></action>
+<action title='Questions &amp; Rétroaction' icon='130' showinmenu='false'
+ hide='edit previewedit'><code event='click'><formula>@Command( [Compose]; "Feedback" )</formula></code><code
+ event='hidewhen'><formula>@Environment("UserWorkingLanguage") != "F"</formula></code></action></actionbar>
+<column sort='ascending' hidedetailrows='false' listseparator='comma' itemname='HelpSubCatNumber'
+ width='1' resizable='false' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false' hidden='true' formatdatatype='number'><font
+ size='9pt' color='maroon' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><columnheader title='Doc#'><font size='9pt' color='navy' style='bold'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/></columnheader></column>
+<column sort='ascending' hidedetailrows='false' itemname='HelpFSubCat' width='3.3750'
+ resizable='false' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' categorized='true' twisties='true'><font size='9pt' color='purple'
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/><columnheader
+><font size='9pt' style='bold'/></columnheader></column>
+<column sort='ascending' hidedetailrows='false' listseparator='comma' itemname='HelpDocNumber'
+ width='3.6250' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false' hidden='true' formatdatatype='number'><font
+ size='9pt' color='maroon' style='bold' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/><columnheader title='Doc#'><font size='9pt' color='navy' style='bold'
+ name='Arial' pitch='variable' truetype='true' familyid='20'/></columnheader></column>
+<column hidedetailrows='false' listseparator='comma' itemname='HelpFSubject'
+ width='52' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><font size='9pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><columnheader title='Sujet d&apos;un document d&apos;aide'><font
+ size='9pt' style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/></columnheader></column></view>
+

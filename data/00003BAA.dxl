@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='3baa' unid='F76D7E92B27038A585256FD6006C6749' sequence='1'>
+<created><datetime dst='true'>20050401T154403,29-04</datetime></created>
+<modified><datetime dst='true'>20260917T084653,35-04</datetime></modified>
+<revised><datetime dst='true'>20050401T154526,43-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084653,34-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084653,34-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Acq&lt;10K Software Packages for Computers</text></item>
+<item name='NameF'><text>Acq&lt;10K Ensemble de Logiciels pour Ordinateur</text></item>
+<item name='CodeNumber'><text>58107</text></item></document>
+

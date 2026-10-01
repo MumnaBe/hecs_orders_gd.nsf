@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='8f6' unid='001E84F0FAD165B185256BEB005F0922' sequence='4'>
+<created><datetime dst='true'>20020703T131802,58-04</datetime></created>
+<modified><datetime dst='true'>20260917T084251,78-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074921,70-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084251,76-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084251,76-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,60-04</datetime><datetime
+>20021104T141454,24-05</datetime><datetime dst='true'>20090902T074452,81-04</datetime></revisions>
+<item name='CompName'><text>Waters Corporation</text></item>
+<item name='CompAddress'><text>34 Maple St</text></item>
+<item name='CompPO'><text>PO Box 101066<break/>Atlanta GA  30392-1066</text></item>
+<item name='CompCity'><text>Milford</text></item>
+<item name='CompProvince'><text>MA</text></item>
+<item name='CompPostalCode'><text>01757-3696</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>1-800-252-4752</text></item>
+<item name='CompFax'><text>(508)482-8449</text></item>
+<item name='PurchContact'><text/></item>
+<item name='InvContact'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>B5001533</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.waters.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='451a' unid='80E3CD0E6F2269D9852572B100539B77' sequence='2'>
+<created><datetime dst='true'>20070402T111312,87-04</datetime></created>
+<modified><datetime dst='true'>20260917T084752,31-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075119,97-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084752,30-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084752,30-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20070402T111651,20-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20070402T111654,48-04</datetime></item>
+<item name='CompName'><text>Natural Science &amp; Engineering Research Council</text></item>
+<item name='CompPhone'><text>613-996-2589</text></item>
+<item name='CompAddress'><text>350 Albert Street</text></item>
+<item name='CompFax'><text/></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard'><text>NO</text></item>
+<item name='CompPostalCode'><text>K1A 1H5</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>NSERC</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>http://www.nserc.gc.ca/staff/contact_e.asp</text></item>
+<item name='comment'><text/></item>
+<item name='VISA'><text>No</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA_FR'><text>Non</text></item></document>
+

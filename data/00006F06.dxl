@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='6f06' unid='9B3C8A73355A2C2285257BF1006D9B69' sequence='1'>
+<created><datetime dst='true'>20130925T155712,09-04</datetime></created>
+<modified><datetime dst='true'>20260917T085132,71-04</datetime></modified>
+<revised><datetime dst='true'>20130925T155743,24-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085132,70-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085132,70-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Membership Fees</text></item>
+<item name='NameF'><text>Membership Fees</text></item>
+<item name='CodeNumber'><text>56501</text></item>
+<item name='org_author' names='true'><text>Shreedat Phulesar</text></item>
+<item name='date_create'><datetime dst='true'>20130925T155712,09-04</datetime></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='2252' unid='7B34315FFF23ABD985256BEB005F0A65' sequence='5'>
+<created><datetime dst='true'>20020703T131805,81-04</datetime></created>
+<modified><datetime dst='true'>20260917T084439,64-04</datetime></modified>
+<revised><datetime dst='true'>20050401T101641,28-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084439,63-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084439,63-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131806,03-04</datetime><datetime
+ dst='true'>20020806T110013,83-04</datetime><datetime dst='true'>20020830T140416,95-04</datetime><datetime
+ dst='true'>20020913T112949,55-04</datetime></revisions>
+<item name='Category'><text>Travel</text></item>
+<item name='SPA'><text>Yes</text></item>
+<item name='FundingSource'><text>NJ</text></item>
+<item name='GSTExempt'><text>Yes</text></item>
+<item name='CodeNumber'><text>898131</text></item>
+<item name='GLAccount'><text>NJ and PERD (SPA Payment Collaborative R&amp;D)</text></item>
+<item name='ProgActiv'><text>SPA-Other</text></item>
+<item name='IntOrd'><textlist><text>66030 RV - NJMRC</text><text>66031 RV - Crapo</text></textlist></item></document>
+

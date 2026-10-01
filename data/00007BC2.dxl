@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='7bc2' unid='CD68B13E6E8E1C51852589AB006A6BE6' sequence='4'>
+<created><datetime dst='true'>20230510T152224,38-04</datetime></created>
+<modified><datetime dst='true'>20260917T085238,46-04</datetime></modified>
+<revised><datetime dst='true'>20230510T160219,84-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085238,45-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085238,45-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20230510T153915,03-04</datetime><datetime
+ dst='true'>20230510T155612,22-04</datetime><datetime dst='true'>20230510T160216,02-04</datetime></revisions>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>SCU</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CodeNumber'><text>8R1580</text></item>
+<item name='GLAccount'><textlist><text>Acq&lt;10K  Safety Alarm and Signal Equipment</text><text
+>Acq&lt;10K Client Software</text><text>Acq&lt;10K Computer Equipment Parts</text><text
+>Acq&lt;10K Computer &amp; Related Peripheral Equip</text><text>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text><text
+>Acq&lt;10K Laptop and Related Peripheral Equip</text><text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&lt;10K Networking Software</text><text>Acq&lt;10K Office Furniture Furnishing &amp; Part</text><text
+>Acq&lt;10K Other Office Equip and Parts</text><text>Acq&lt;10K Software Packages for Computers</text><text
+>Acq&gt;10K Lab Equipment</text><text>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text><text>Books Newspapers and Magazines</text><text
+>Cellular Phone Services</text><text>Clothing Other Than Uniforms</text><text
+>Conference Fees</text><text>Containers &amp; Closures</text><text>Courier Services Incl Canada Post Priority Post</text><text
+>Distilled Drink Water</text><text>Electrical Supplies</text><text>Electronic Subscriptions</text><text
+>Engineering Consultants - Construction</text><text>Enhanced Telecommunication Services</text><text
+>Fees and Costs of Attending Seminars or Workshops</text><text>Health Science Consultants</text><text
+>Housekeeping supplies</text><text>Legal Services</text><text>Miscellaneous Metal Products </text><text
+>Postage and Parcel Post </text><text>Printing Services</text><text>Publishing Services</text><text
+>R &amp; M Computer Equipment and Parts</text><text>R &amp; M Office Machines and Equipment</text><text
+>Stationery Office Supplies and Artists' Materials</text><text>Telecommunications Consultants</text><text
+>Telephone &amp; Other Voice Communication Services</text><text>Training Packages and Courses Purchased  for Staff</text><text
+>Translation Service</text></textlist></item>
+<item name='ProgActiv'><text>GK16-Emergency Management</text></item>
+<item name='IntOrd'><text>4340086-ChEMTD</text></item>
+<item name='org_author' names='true'><text>Helena Soares</text></item>
+<item name='date_create'><datetime dst='true'>20230510T152224,38-04</datetime></item>
+<item name='edit_history'><textlist><text>Helena Soares</text><text>Helena Soares</text><text
+>Helena Soares</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2023-05-10 04:02:25 PM</text><text
+>2023-05-10 04:02:22 PM</text><text>2023-05-10 03:56:18 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Helena Soares;</text><text>Helena Soares;</text><text
+>Helena Soares;</text></textlist></item></document>
+

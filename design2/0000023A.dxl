@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_12_0_2.dtd'>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='23a' unid='422D78F4D441684F85256C67006B16B1' sequence='10'>
+<created><datetime>20021104T142941,61-05</datetime></created>
+<modified><datetime dst='true'>20260917T084240,99-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143121,49-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100254,37-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084240,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<item name='$Readers' sign='true' readers='true'><text>[Admin]</text></item>
+<item name='$TITLE' sign='true'><text>.Help\ Francais-Admin|VwFAdminHelp</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+5gACACwAEABIZWxwU3ViQ2F0TnVtYmVyBQAQAEhlbHBTdWJDYXROdW1iZXIDAAIAKAANAEhlbHBE
+b2NOdW1iZXIABQANAEhlbHBEb2NOdW1iZXIAAwAFAGYAYgAHAA8AEAALAA0ADAAJAAQASGVscEZD
+YXRlZ29yaWVzSGVscFN1YkNhdE51bWJlckhlbHBGU3ViQ2F0SGVscERvY051bWJlckhlbHBGU3Vi
+amVjdCRDb25mbGljdCRSRUYEAAQAAAAYAAUABABGb3JtAQAEAEhlbHAKAgMABwAOAAgACUwxUzJT
+M1M=
+</formula></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+WQAEAABEAGYHAAAPAABmAA8AEAAIZgcfAAsAAGYAKgANAEhlbHBGQ2F0ZWdvcmllc0hlbHBTdWJD
+YXROdW1iZXJIZWxwRlN1YkNhdEhlbHBEb2NOdW1iZXI=
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAFAAQAiUAAAFZDgwQPAAAAAAAAABoABQEKCgAAAAAAAAAAAAICAAAgVkOJABAABAAuAAAADAAF
+AQgJAAAAAAAAAAAAAgAAACBWQ4MECwAAAAAAAAAkAAUBCwkAAQAAAAAAAAACAgAAAFZDCQANAAQA
+KgAAAB0ABQEICQAAAAAAAAAAAAIAAAAgVkMAAAwAGgAAAAAAoAEFAAAJAAAAAAAAAAAAAgIAACBI
+ZWxwRkNhdGVnb3JpZXNIZWxwU3ViQ2F0TnVtYmVyRG9jIy4AAgAsABAASGVscFN1YkNhdE51bWJl
+cgUAEABIZWxwU3ViQ2F0TnVtYmVyAwBIZWxwRlN1YkNhdEhlbHBEb2NOdW1iZXJEb2MjKgACACgA
+DQBIZWxwRG9jTnVtYmVyAAUADQBIZWxwRG9jTnVtYmVyAAMASGVscEZTdWJqZWN0U3VqZXQgZCd1
+biBkb2N1bWVudCBkJ2FpZGUmAAEAAAABAQgJAQALCgEBBAoAABgArSsBAQEAAQAAAAAAAAAAAFdD
+BQEACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABXQwUBCgkAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFdDBQEKCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABXQwUBAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</rawitemdata></item>
+<item name='$Fonts' sign='true'><textlist><text>5</text><text>38</text><text
+>Arial</text></textlist></item>
+<item name='$FormFormula' summary='true' sign='true'><formula>@Environment("UserWorkingLanguage"; "F" );
+@If(@IsDocBeingLoaded; "HelpDocF"; Form)</formula></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRznAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAL7/JgAAAAUAAACdAQAACwAAAAAAAABDYXRlZ29y
+aV96ZXUBAE58vv8oAAAABQAAAJ0BAAAOAAAAAAAAAF9FZGl0IERvY3VtZW50AgACCr7/KAAAAAUA
+AACdAQAADgAAAAAAAABTZW5kIERvY3VfbWVudAMAAwq+/yIAAAAFAAAAnQEAAAgAAAAAAAAAX0Zv
+cndhcmQEAAQKvv8sAAAABQAAAJ0BAAASAAAAAAAAAF9Nb3ZlIFRvIEZvbGRlci4uLgUAPXy+/y4A
+AAAFAAAAnQEAABMAAAAAAAAAX1JlbW92ZSBGcm9tIEZvbGRlcgAGAD58vv9uAAAAAQCQAB8BAAAF
+ACQAAAAAAEFkbWluAC4AAAAgAAIAWRsAAAAAAAABAAkAVndIZWxwRG9jAO0CAwAHAAwABQAJM1M0
+UwAkAAAAGAABAAcAW0FkbWluXQDnAHQCHgEDAAcACgADAAk1UwA=
+</rawitemdata></item>
+<item name='$ViewAction0' sign='true'><formula>@Environment("UserWorkingLanguage"; "F" )</formula></item>
+<item name='$Flags'><text>Y</text></item></note>
+

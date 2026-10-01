@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='1f36' unid='6C4D5E60879234B385256BEB005F0A41' sequence='3'>
+<created><datetime dst='true'>20020703T131805,45-04</datetime></created>
+<modified><datetime dst='true'>20260917T084426,54-04</datetime></modified>
+<revised><datetime dst='true'>20050401T101410,49-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084426,53-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084426,53-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131805,67-04</datetime><datetime
+ dst='true'>20050331T181442,63-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_Travel Advance ($)</text></item>
+<item name='NameF'><text>OLD_Avance voyage ($)</text></item>
+<item name='CodeNumber'><text>01009</text></item></document>
+

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='45b6' unid='2D9D19DBCEAAD18C852572C1005AB0B5' sequence='2'>
+<created><datetime dst='true'>20070418T123034,77-04</datetime></created>
+<modified><datetime dst='true'>20260917T084755,70-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075120,79-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084755,69-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084755,69-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20070418T123102,60-04</datetime></revisions>
+<item name='CompName'><text>Les Armstrong Refrigeration and Air Conditioning Service</text></item>
+<item name='CompPhone'><text>613-592-1673</text></item>
+<item name='CompAddress'><text>none</text></item>
+<item name='CompFax'><text>none</text></item>
+<item name='CompPO'><text>none</text></item>
+<item name='PurchContact'><text>none</text></item>
+<item name='CompCity'><text>none</text></item>
+<item name='InvContact'><text>none</text></item>
+<item name='CompProvince'><text/></item>
+<item name='MasterCard'><text>NO</text></item>
+<item name='CompPostalCode'><text/></item>
+<item name='CompCountry'><text/></item>
+<item name='AcctNumber'><text>none</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='VISA'><text>No</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA_FR'><text>Non</text></item></document>
+

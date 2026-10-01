@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='35da' unid='DBA2BCEBF0525D3285256CB5004887F5' sequence='3'>
+<created><datetime>20030121T081213,97-05</datetime></created>
+<modified><datetime dst='true'>20260917T084615,28-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074841,35-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084615,27-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084615,27-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20030121T081334,32-05</datetime><datetime dst='true'>20090902T074608,46-04</datetime></revisions>
+<item name='CompName'><text>Birkhauser Publishing Ltd.</text></item>
+<item name='CompPhone'><text>+41 / 205 07 07</text></item>
+<item name='CompAddress'><text>Viaduktstrasse 42</text></item>
+<item name='CompFax'><text>+41 / 61 / 205 07 99</text></item>
+<item name='CompPO'><text>Box 133, CH-4010</text></item>
+<item name='PurchContact'><text>info@birkhauser.ch</text></item>
+<item name='CompCity'><text>Basel</text></item>
+<item name='InvContact'><text>info@birkhauser.ch</text></item>
+<item name='CompProvince'><text/></item>
+<item name='CompPostalCode'><text>CH-4051</text></item>
+<item name='CompCountry'><text>Switzerland</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

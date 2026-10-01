@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='Admin\ Lookup Keywords / Recherche de mots clés' alias='Lookup'
+ xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' publicaccess='false' designerversion='6.5' inherit='true'>
+<noteinfo noteid='2f6' unid='3CFF58A277031C7085256B28005DE9A8' sequence='15'>
+<created><datetime>20011220T120546,64-05</datetime></created>
+<modified><datetime dst='true'>20260917T084244,19-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134328,45-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084244,18-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084244,18-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='windowtitle'><formula>@If(@IsNewDoc;"New Keyword"; LookupType)</formula></code><code
+ event='querysave'><lotusscript>Sub Querysave(Source As Notesuidocument, Continue As Variant)
+     Dim ws As New NotesUIWorkspace
+     Dim s As NotesSession
+     Set s = New NotesSession
+     Dim db As NotesDatabase    
+     Set db = s.CurrentDatabase 
+     Dim uidoc As NotesUIDocument
+     Set uidoc = ws.CurrentDocument
+     Dim doc As NotesDocument
+     Set  doc = source.document
+     Dim newdoc As NotesDocument
+     
+     enew$ = doc.EKeyword(0)
+     eold$ = doc.EKeywordOld(0)
+     fnew$ = doc.FKeyword(0)
+     fold$ = doc.FKeywordOld(0)
+     
+      ' *******compare oldkeyword to new to see if change, if so create change request
+     ' ******* do not act on new documents
+     If  eold$ &lt;&gt; "" And enew$ &lt;&gt; eold$ Then
+          Set newdoc = db.CreateDocument
+          newdoc.form = "ChangeRequest"
+          newdoc.KeywordOld = eold$
+          newdoc.KeywordNew = enew$
+          Call newdoc.Save (True,True)  
+     End If
+     
+     If fold$ &lt;&gt; "" And fnew$ &lt;&gt; fold$ Then
+          Set newdoc = db.CreateDocument
+          newdoc.form = "ChangeRequest"
+          newdoc.KeywordOld = fold$
+          newdoc.KeywordNew = fnew$
+          Call newdoc.Save (True,True)               
+     End If
+     
+     ' *******resets the keywordold field to the existing keyword
+     doc.EKeywordOld = doc.EKeyword
+     doc.FKeywordOld = doc.FKeyword
+End Sub</lotusscript></code>
+<actionbar linestyle='twoline' bordercolor='gray'>
+<actionbuttonstyle bgcolor='silver'/><border width='0px 0px 1px'/>
+<action title='Close' icon='27' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment( "HECS_Language" ) = "F"</formula></code></action>
+<action title='Fermer' icon='27' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment( "HECS_Language" ) != "F"</formula></code></action>
+<action title='Edit' icon='5' showinmenu='false' hide='edit previewedit' systemcommand='edit'><code
+ event='hidewhen'><formula>@Environment( "HECS_Language" ) = "F" | !@Contains(@UserRoles; "[Admin]")</formula></code></action>
+<action title='Modifier' icon='5' showinmenu='false' hide='edit previewedit'><code
+ event='click'><formula>@Command([EditDocument])</formula></code><code event='hidewhen'><formula
+>@Environment( "HECS_Language" ) != "F" | !@Contains(@UserRoles; "[Admin]")</formula></code></action>
+<action title='Save' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment( "HECS_Language" ) = "F"</formula></code></action>
+<action title='Sauvegarder' icon='117' showinmenu='false' hide='preview read'><code
+ event='click'><formula>@Command([FileSave])</formula></code><code event='hidewhen'><formula
+>@Environment( "HECS_Language" ) != "F"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/></actionbar>
+<body><richtext>
+<pardef id='1' leftmargin='1in' hide='print'/>
+<par def='1'><run><font size='2pt' name='Small Fonts' pitch='variable' truetype='false'
+ familyid='20' color='maroon'/></run></par>
+<pardef id='2' align='right' leftmargin='0.8750in' firstlineleftmargin='1.1250in'
+ hide='edit previewedit' keeptogether='true'/>
+<par def='2'><run><font size='8pt' style='bold' color='red'/>* </run><run
+><font size='8pt' color='red'/>Indicates a mandatory field / Indique un champ obligatoire</run></par>
+<table widthtype='fitmargins' user4spacing='true' refwidth='5.0521in'><tablecolumn
+ width='7.2257%'/><tablecolumn width='92.7743%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='#71b2cf'>
+<pardef id='4' leftmargin='5%' rightmargin='95%' keepwithnext='true' keeptogether='true'/>
+<par def='4'> </par></tablecell>
+<tablecell borderwidth='0px' bgcolor='#71b2cf'>
+<pardef id='5' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='5'><run><font size='14pt' color='white'/>Lookup Keyword / Mot clé</run></par></tablecell></tablerow></table>
+<pardef id='6' align='center' leftmargin='1in'/>
+<par def='6'><run><font size='8pt' style='bold' color='maroon'/></run></par>
+<table widthtype='fitmargins' user4spacing='true' rowspacing='0.0201in' refwidth='5.0521in'><tablecolumn
+ width='18.1111%'/><tablecolumn width='40.7847%'/><tablecolumn width='41.1042%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='7' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen' enabled='false'><formula>@Environment("Corp_Language") = "F"</formula></code></pardef>
+<par def='7'><run><font size='8pt' style='bold' color='red'/>* </run><run
+><font size='8pt' style='bold' color='navy'/>Lookup Type</run></par></tablecell>
+<tablecell columnspan='2' borderwidth='0px'>
+<pardef id='9' leftmargin='0%' rightmargin='100%' keepwithnext='true' keeptogether='true'/>
+<par def='9'><run><font size='8pt' style='bold' color='maroon'/></run><run
+><font size='8pt'/><field type='keyword' kind='editable' protected='true'
+ name='LookupType'><keywords ui='dialoglist' allownew='true'><textlist><text
+>DefaultBillTo</text><text>SendToAdmin</text><text>HelpFileContact</text><text
+>RefNumberPrefix</text></textlist></keywords><code event='defaultvalue'><formula
+>LookupType</formula></code><code event='inputtranslation'><formula>@Trim(LookupType)</formula></code><code
+ event='inputvalidation'><formula>@If(LookupType = ""; @Failure("Please provide a Lookup Type / Veuillez préciser un type de recherche");
+       @Success)</formula></code></field></run><run><font size='8pt' style='bold'
+ color='maroon'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='10' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'/>
+<par def='10'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='8' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='8'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='11' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("Corp_Language") = "F"</formula></code></pardef>
+<par def='11'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='12' leftmargin='2%' rightmargin='98%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("Corp_Language") = "F"</formula></code></pardef>
+<par def='12'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='13' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("Corp_Language") = "F"</formula></code></pardef>
+<par def='13'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='11'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='12'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='13'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='11'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='12'><run><font size='8pt' style='bold' color='navy'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='13'><run><font size='8pt' style='bold' color='red'/>* </run><run
+><font size='8pt' style='bold' color='navy'/>English</run></par>
+<pardef id='14' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("Corp_Language") != "F"</formula></code></pardef>
+<par def='14'><run><font size='8pt' style='bold' color='red'/>* </run><run
+><font size='8pt' style='bold' color='navy'/>Anglais</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='11'><run><font size='8pt' style='bold' color='red'/>* </run><run
+><font size='8pt' style='bold' color='navy'/>French</run></par>
+<pardef id='15' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("Corp_Language") != "F"</formula></code></pardef>
+<par def='15'><run><font size='8pt' style='bold' color='red'/>* </run><run
+><font size='8pt' style='bold' color='navy'/>Français</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<par def='12'><run><font size='8pt' style='bold' color='navy'/>Keywords</run></par>
+<pardef id='16' leftmargin='2%' rightmargin='98%' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("Corp_Language") != "F"</formula></code></pardef>
+<par def='16'><run><font size='8pt' style='bold' color='navy'/>Mots-clé </run></par></tablecell>
+<tablecell borderwidth='0px'>
+<par def='8'><run><font size='8pt'/></run><run><font size='8pt'/><field type='text'
+ allowmultivalues='true' kind='editable' name='EKeyword' listinputseparators='comma semicolon newline'
+ listdisplayseparator='newline'><keywords ui='dialoglist' allownew='true'/><code
+ event='inputtranslation'><formula>@Trim( EKeyword )</formula></code><code
+ event='inputvalidation'><formula>@If(EKeyword = "";
+        @Failure("You must enter an English Keyword / Vous devez inscrire un mot-clé anglais");
+        @Success)</formula></code></field></run><run><font size='8pt' style='bold'
+ color='maroon'/></run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='17' leftmargin='1%' rightmargin='99%' keepwithnext='true' keeptogether='true'/>
+<par def='17'><run><font size='8pt'/><field type='text' allowmultivalues='true'
+ kind='editable' name='FKeyword' listinputseparators='comma semicolon newline'
+ listdisplayseparator='newline'><keywords ui='dialoglist' allownew='true'/><code
+ event='inputtranslation'><formula>@Trim( FKeyword )</formula></code><code
+ event='inputvalidation'><formula>@If(FKeyword = "";
+        @Failure("You must enter a French Keyword / Vous devez inscrire un mot-clé français");
+        @Success)</formula></code></field></run><run><font size='8pt' style='bold'
+ color='maroon'/></run></par></tablecell></tablerow></table>
+<pardef id='18' leftmargin='3.2500in' firstlineleftmargin='1in'/>
+<par def='18'/>
+<pardef id='19' leftmargin='3.2500in' firstlineleftmargin='1in' spaceafter='1.5'><code
+ event='hidewhen'><formula>@Environment("Corp_Language") = "F"</formula></code></pardef>
+<par def='19'><run><font size='8pt' style='bold' color='navy'/>Comments</run></par>
+<pardef id='20' leftmargin='3.2500in' firstlineleftmargin='1in' spaceafter='1.5'><code
+ event='hidewhen'><formula>@Environment("Corp_Language") != "F"</formula></code></pardef>
+<par def='20'><run><font size='8pt' style='bold' color='navy'/>Commentaires:</run></par>
+<pardef id='21'/>
+<par def='21'><field type='richtext' kind='editable' name='Body'><code event='defaultvalue'><formula
+>Body</formula></code></field></par>
+<pardef id='22' leftmargin='1in' hide='read edit preview previewedit'/>
+<par def='22'><run><font size='7pt' color='navy'/></run></par>
+<pardef id='23' leftmargin='1in'/>
+<par def='23'><run><font size='7pt' color='navy'/></run></par>
+<pardef id='24' leftmargin='0.8125in'><code event='hidewhen'><formula>1</formula></code></pardef><subformref
+ name='CDE-Edit History | EdHistory'/>
+<pardef id='25' align='none' leftmargin='1in'><code event='hidewhen'><formula
+>1</formula></code></pardef>
+<par def='25'><run><font size='7pt' color='navy'/></run></par>
+<pardef id='26' leftmargin='1in' hide='read edit preview previewedit' tabs='L1in'/>
+<par def='26'/></richtext></body>
+<item name='Date' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='DateCreated' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='TimesModified' summary='false'><number>0</number></item>
+<item name='Position' summary='false'><number>0</number></item>
+<item name='OriginalModTime'><datetime dst='true'>20090611T082213,80-04</datetime></item>
+<item name='$FormUsers'><textlist><text>CN=Rania Otell/OU=HC-SC/O=GC/C=CA</text><text
+>LNOG_HECS</text><text>[Administrator]</text></textlist></item>
+<item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text> Lookup</text></item>
+<item name='date_create' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item></form>
+

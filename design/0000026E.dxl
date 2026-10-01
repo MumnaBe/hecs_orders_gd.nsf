@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='...Admin\Keywords' alias='KeywordLookup' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='6.5' unreadmarks='none' onopengoto='top'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='true' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='true' extendlastcolumn='false' showhierarchies='false'
+ unreadcolor='black' rowlinecount='9' headerlinecount='1' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='blue' headerbgcolor='white' boldunreadrows='false'
+ evaluateactions='false' allownewdocuments='false' allowcustomizations='false'
+ hidemarginborder='false' marginwidth='0px' marginbgcolor='white' uniquekeys='false'>
+<noteinfo noteid='26e' unid='6B7D5AE454CDB4B185256B28005DFC58' sequence='18'>
+<created><datetime>20011220T120634,48-05</datetime></created>
+<modified><datetime dst='true'>20260917T084241,88-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,97-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T091938,58-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084241,87-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT Form = "Lookup"</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='#d4d0c8'/><font color='system'/><border width='0px 0px 1px'/>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"AdminF";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='' icon='61'><code event='click'><formula>@Environment("HECS_Language";"E");
+@Command([OpenNavigator];"Admin";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Sortie' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='New Keywords' icon='89'><code event='click'><formula>@Command([Compose];"Lookup")</formula></code><code
+ event='hidewhen'><formula>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Nouveau mots clés' icon='89'><code event='click'><formula>@Command([Compose];"Lookup")</formula></code><code
+ event='hidewhen'><formula>@Environment("HECS_Language") = "E"</formula></code></action>
+<action title='Update Order Forms' icon='10'><code event='click'><lotusscript
+>Sub Click(Source As Button)
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim dv2 As notesview
+	Dim doc As notesdocument
+	Dim orddoc As notesdocument
+	Dim keys As String
+	Dim aufield As notesitem
+	Dim rdfield As notesitem
+	
+	Set db=s.CurrentDatabase
+	Set dv=db.GetView("...Admin\Keywords")
+	keys = "SendToAdmin"
+	Set doc=dv.GetDocumentByKey(keys)
+	Set dv2=db.GetView("All Orders")
+	Set orddoc=dv2.GetFirstDocument
+	
+	While Not(orddoc Is Nothing)
+		Set rdfield=orddoc.GetFirstItem("Readers")
+		Set aufield=orddoc.GetFirstItem("Authors")
+		Call rdfield.AppendToTextList(doc.EKeyword(0))
+		Call aufield.AppendToTextList(doc.EKeyword(0))
+		orddoc.Save True, True
+		Set orddoc=dv2.GetNextDocument(orddoc)
+	Wend
+	Messagebox "The new Admin person's name has been added to the Authors field of the order access list."
+	
+End Sub</lotusscript></code></action>
+<action title='Application Profile' icon='141'><code event='click'><formula
+>@Command([SwitchView]; "vwAppProfile")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Profile de l&apos;application' icon='141'><code event='click'><formula
+>@Command([SwitchView]; "vwAppProfile")</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "E"</formula></code></action></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='LookupType' width='2'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' categorized='true' twisties='true'><font color='navy'
+ style='bold'/><columnheader><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' listseparator='newline' itemname='EKeyword'
+ width='20.8750' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><font size='8pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><columnheader title='English'><font size='8pt'
+ style='bold'/></columnheader></column>
+<column hidedetailrows='false' listseparator='newline' itemname='FKeyword'
+ width='20.8750' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><font size='8pt' name='Arial' pitch='variable'
+ truetype='true' familyid='20'/><columnheader title='French'><font size='8pt'
+ style='bold'/></columnheader></column></view>
+

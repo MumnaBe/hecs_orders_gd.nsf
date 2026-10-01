@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note>
+<note class='replicationformula' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA'>
+<noteinfo noteid='33a' unid='DF2AFCFBA06807998525725F006A428B' sequence='1'>
+<created><datetime>20070110T142038,51-05</datetime></created>
+<modified><datetime dst='true'>20260917T084245,82-04</datetime></modified>
+<revised><datetime>20070110T142038,53-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084245,81-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084245,81-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Leo Vaillant/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='$ReplVersion'><text>2</text></item>
+<item name='$TITLE'><text>-</text></item>
+<item name='$ReplSrcServers'><textlist><text>-</text></textlist></item>
+<item name='$ReplClassMasks'><textlist><text>30719</text></textlist></item>
+<item name='$ReplFormula' summary='true'><formula>@All</formula></item>
+<item name='$ReplForm'><textlist><text>0</text></textlist></item>
+<item name='$ReplView'><textlist><text/></textlist></item>
+<item name='$ReplPrivateFolder'><textlist><text/></textlist></item>
+<item name='$ReplFields'><textlist><text/></textlist></item></note>
+

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2bce' unid='ABA523C61B4D7B5585256BEB005F09B8' sequence='4'>
+<created><datetime dst='true'>20020703T131804,08-04</datetime></created>
+<modified><datetime dst='true'>20260917T084523,44-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075014,01-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084523,43-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084523,43-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,10-04</datetime><datetime
+>20021104T141457,36-05</datetime><datetime dst='true'>20090902T074552,70-04</datetime></revisions>
+<item name='CompName'><text>Steraloids Inc.</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompPO'><text>PO Box 689</text></item>
+<item name='CompCity'><text>Newport</text></item>
+<item name='CompProvince'><text>RI</text></item>
+<item name='CompPostalCode'><text>02840</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>(401) 848-5422</text></item>
+<item name='CompFax'><text>(401) 848-5638</text></item>
+<item name='PurchContact'><text>Trevor Arends</text></item>
+<item name='InvContact'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>SC012407</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>sales@steraloids.com</text></item>
+<item name='CompWeb'><text>www.steraloids.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

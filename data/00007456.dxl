@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='7456' unid='C03C150A4540BBA285257E210053F814' sequence='6'>
+<created><datetime dst='true'>20150408T111709,96-04</datetime></created>
+<modified><datetime dst='true'>20260917T085200,71-04</datetime></modified>
+<revised><datetime dst='true'>20150410T105025,79-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085200,70-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085200,70-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20150408T111710,02-04</datetime><datetime
+ dst='true'>20150408T111727,74-04</datetime><datetime dst='true'>20150410T074421,63-04</datetime><datetime
+ dst='true'>20150410T104644,21-04</datetime><datetime dst='true'>20150410T105020,76-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text></item>
+<item name='NameF'><text>810504 - Neuroendocrine/Metabolic Impacts 2015-2016</text></item>
+<item name='CodeNumber'><text>810504</text></item>
+<item name='org_author' names='true'><text>Dian Sinclair</text></item>
+<item name='date_create'><datetime dst='true'>20140407T144222,84-04</datetime></item>
+<item name='edit_history'><textlist><text>Maria Ianni</text><text>Maria Ianni</text><text
+>Maria Ianni</text><text>Maria Ianni</text><text>Maria Ianni</text><text>Dian Sinclair</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2015-04-10 10:50:25 AM</text><text
+>2015-04-10 10:50:20 AM</text><text>2015-04-10 10:46:43 AM</text><text>2015-04-10 07:44:21 AM</text><text
+>2015-04-08 11:17:27 AM</text><text>2014-04-07 02:43:54 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Maria Ianni;</text><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Dian Sinclair;</text></textlist></item></document>
+

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='20fa' unid='74B90369D042A2648525702F006AB160' sequence='4'>
+<created><datetime dst='true'>20050629T152522,24-04</datetime></created>
+<modified><datetime dst='true'>20260917T084434,04-04</datetime></modified>
+<revised><datetime dst='true'>20230607T120520,25-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084434,03-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084434,03-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050629T152915,15-04</datetime><datetime
+ dst='true'>20090902T074532,54-04</datetime><datetime dst='true'>20090902T074955,66-04</datetime></revisions>
+<item name='CompName'><text>OttawaJobShop.ca</text></item>
+<item name='CompPhone'><text>888-749-0913</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>845-485-8398</text></item>
+<item name='CompPO'><text>P.O. Box 46024, Postal Station A,</text></item>
+<item name='PurchContact'><text>Pete</text></item>
+<item name='CompCity'><text>Toronto</text></item>
+<item name='InvContact'><text>Natasha</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>M5W 4K9</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.ottawajobshop.ca</text></item>
+<item name='comment'><text>Vendor Code: 1128360. BN # 883727117.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050629T152522,24-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:05:24 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

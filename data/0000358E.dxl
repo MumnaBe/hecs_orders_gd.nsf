@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='358e' unid='D98E86573C85C6FD85256BEB005F0944' sequence='4'>
+<created><datetime dst='true'>20020703T131802,92-04</datetime></created>
+<modified><datetime dst='true'>20260917T084613,79-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075027,04-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084613,78-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084613,78-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,94-04</datetime><datetime
+>20021104T141454,90-05</datetime><datetime dst='true'>20090902T074607,95-04</datetime></revisions>
+<item name='CompName'><text>Dalton Chemical Laboratories, Inc.</text></item>
+<item name='CompAddress'><text>349 Wildcat Rd</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Toronto</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>M3J 2S3</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(416) 661-2102</text></item>
+<item name='CompFax'><text>(416) 661-2108</text></item>
+<item name='PurchContact'><text>Alison Thomas</text></item>
+<item name='InvContact'><text>Nizar Cader</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text>DCL</text></item>
+<item name='CompEmail'><text>chemist@dalton.com</text></item>
+<item name='CompWeb'><text>www.dalton.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

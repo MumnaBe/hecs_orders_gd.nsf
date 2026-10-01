@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note>
+<note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA'>
+<noteinfo noteid='11e' unid='DE45FB366C4BB33F85256A6A00483E1C' sequence='13'>
+<created><datetime dst='true'>20010613T090904,92-04</datetime></created>
+<modified><datetime dst='true'>20260917T084235,32-04</datetime></modified>
+<revised><datetime>20140113T161403,28-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084235,31-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084235,31-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Brian McCabe/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Jodouin/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Steve Valois/OU=HC-SC/O=GC/C=CA</name><name>CN=Katherine Vu/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Steve Valois/OU=HC-SC/O=GC/C=CA</name><name>CN=Steve Mayer/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Steve Valois/OU=HC-SC/O=GC/C=CA</name><name>CN=APP04/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='$DefaultNavigator'><text>Main - Current FY</text></item>
+<item name='$TemplateModTime'><datetime>20111221T100113,86-05</datetime></item>
+<item name='$TemplateServerName'><text>CN=Steve Valois/OU=HC-SC/O=GC/C=CA</text></item>
+<item name='$TemplateFileName'><text>U:\Notes46\hecs_orders_gd28.3.ntf</text></item>
+<item name='IconBitmap' summary='true'>
+<rawitemdata type='6'>
+AiAgAQAA/////8eKmKiHqquuA6mpnYGqq6vAiZiY4H////A///+IH///7A///94H//+/A///j4HA
+P//Ahh+P4D/Pv/B/57/4+/O//cD7j/naef/52nmP+/h9v/vw/Z/7w/2/+cv5j/nK+f/94Puv/Pvz
+r/5/54/+P8+v/4Yfr//AP/////8AAAAAAAAAAAAAAAAAAAAAAPrwAAREBAQEQAREBAQERA+qoAAE
+BAQEBAQEAAQEAAT6RKoABAQEQAQEBEAEQABACqRKoAQEBAQEBAQABAQEAACqRKoERARABEAERARA
+BEQACqRKoAAAAAAAAAAAAAAAAACqRKoAAAAAAAAAAAAAAARECqRKoAAAAAAAAAAAAAAABACqRKoA
+AAAAAAAAAAAAAEAACqRKoAAAAAAAAAAAAAQAAACqRKoAAAAAAAAAAAAERAAACqRKoAD+RETvAAAA
+AAAAAACqRKoERPAPREAAAAREAAAACqSvRAAAAABEAAAEAAAAAACq9OAAAAAABEAABAAAAAAAD+QA
+AAkAAABOAAQAAAAAAABAAJmZmQAABAAERAAAAAAOQACQCQmQAATgAAAAAAAABPAAkAkJkAAPQARE
+AAAAAAQAAAAJmZAAAEAEAAAAAAAEAAAAmZkAAABABEAAAAAABAAAmZkAAAAAQAQAAAAAAATwAJkJ
+AAAAD0AERAAAAAAOQACZCQkAAATgAAAAAAAAAEAACZmZAAAEAAQEAAAAAADkAAAJAAAATgAEBAAA
+AAAABOAAAAAADkAABEQAAAAAAA9OAAAAAEQAAAQEAAAAAAAABE7wD+RAAAAEBAAAAAAAAAD+RETv
+AAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$Flags'><text>R7lK</text></item>
+<item name='$FlagsNoRefresh'><text/></item>
+<item name='$Daos'><text>0</text></item>
+<item name='$LargeSummary'><text>0</text></item></note>
+

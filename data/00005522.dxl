@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='5522' unid='AA158A99C47F42B6852576190049D8BE' sequence='1'>
+<created><datetime dst='true'>20090821T092636,14-04</datetime></created>
+<modified><datetime dst='true'>20260917T084919,63-04</datetime></modified>
+<revised><datetime dst='true'>20090821T092636,42-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084919,62-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084919,62-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=John Gingerich/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20090820T141054,85-04</datetime></item>
+<item name='HFText'><text>No</text></item>
+<item name='HelpECategories'><text>3. Notes System Admin Guide</text></item>
+<item name='HelpESubCat'><text>New Releases</text></item>
+<item name='HelpFCategories'><text>3. Guide de l'administrateur de Notes</text></item>
+<item name='HelpFSubCat'><text>Nouvelle version</text></item>
+<item name='HelpDocNumber'><number>2</number></item>
+<item name='HelpSubCatNumber'><number>1</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='1in' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/>
+<par def='1'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>Here is the outline of the changes that were made to all the Hecs Order Tracking systems</run></par>
+<par def='1'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20'/></run></par>
+<pardef id='2'/>
+<par def='2'><run><font style='bold underline' color='maroon'/></run></par>
+<table widthtype='fixedleft' refwidth='6.8750in'><tablecolumn width='0.5000in'/><tablecolumn
+ width='6.3750in'/>
+<tablerow>
+<tablecell>
+<pardef id='4' keepwithnext='true' keeptogether='true'/>
+<par def='4'><run><font style='bold'/>#</run></par></tablecell>
+<tablecell>
+<pardef id='5' keepwithnext='true' keeptogether='true'/>
+<par def='5'><run><font style='bold'/>Changes</run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'><run><font style='bold'/>1</run></par></tablecell>
+<tablecell>
+<par def='5'>Change the label Issued By - Préparé par:" with "Ship To: Expédier à:" on the Order Form and the Printed Order.</par>
+<par def='5'><run><font style='bold'/></run></par>
+<par def='5'><picture height='129px' width='318px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+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
+r2oD29kYBQQAOw==
+</gif></picture><run
+><font style='bold'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell>
+<par def='4'><run><font style='bold'/>2</run></par></tablecell>
+<tablecell>
+<par def='5'>Add the Room and Floor information on the Order Form and the Printed Order</par>
+<par def='5'/>
+<par def='5'><picture height='316px' width='283px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+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
+</gif></picture></par></tablecell></tablerow></table>
+<par def='2'/>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='6' leftmargin='0.8125in' rightmargin='62%'/>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20081023T104411,59-04</datetime></item>
+<item name='HelpESubject'><text>Release Notes, Upgrade, June 2009</text></item>
+<item name='HelpFSubject'><text>Release Notes, Upgrade, June 2009</text></item>
+<item name='edit_history'><textlist><text>Jean-Marc Leblanc</text><text>Jean-Marc Leblanc</text><text
+>Jean-Marc Leblanc</text><text>Jean-Marc Leblanc</text><text>Jean-Marc Leblanc</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2009-08-20 02:10:54 PM</text><text
+>2009-08-06 02:55:36 PM</text><text>2009-08-06 02:55:10 PM</text><text>2009-08-06 02:54:28 PM</text><text
+>2009-08-06 02:46:19 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Jean-Marc Leblanc;</text><text>Jean-Marc Leblanc;</text><text
+>Jean-Marc Leblanc;</text><text>Jean-Marc Leblanc;</text><text>Jean-Marc Leblanc;</text></textlist></item></document>
+

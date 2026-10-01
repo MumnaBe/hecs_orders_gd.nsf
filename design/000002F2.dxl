@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='PopupBudget' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' publicaccess='false' designerversion='5'>
+<noteinfo noteid='2f2' unid='193A110DB177377785256D720065088D' sequence='9'>
+<created><datetime dst='true'>20030729T142333,25-04</datetime></created>
+<modified><datetime dst='true'>20260917T084244,11-04</datetime></modified>
+<revised><datetime dst='true'>20060803T143123,71-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084244,10-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084244,10-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'/><compositedata type='183' prevtype='129' nexttype='65410' afterparcount='1'>
+txygBTEPiQsOAAAASAAAAAAAAAAAAAAAAAAAAA==
+</compositedata>
+<pardef id='2' leftmargin='1in'/>
+<par def='2'/><compositedata type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uipAC4gCgQdpAQEAAAoBAAEA////AAEAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><field type='number' kind='editable' name='budgetOpTemp'><numberformat
+ format='currency' digits='2' punctuated='true' parens='true' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code></field></par><compositedata
+ type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uipAC8gEgQdpAQEAAAoBAAEA////AAEAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><field type='number' kind='editable' name='budgetTravTemp'><numberformat
+ format='currency' digits='2' punctuated='true' parens='true' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code></field></par><compositedata
+ type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uipACwgHgQdpAQEAAAoBAAEA////AAEAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><field type='number' kind='editable' name='budgetContrTemp'><numberformat
+ format='currency' digits='2' punctuated='true' parens='true' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code></field></par><compositedata
+ type='186' prevtype='129' nexttype='131' afterparcount='1'>
+uipAC0gJgQdpAQEAAAoBAAEA////AAEAAAAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><field type='number' kind='editable' name='budgetCapTemp'><numberformat
+ format='currency' digits='2' punctuated='true' parens='true' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0</formula></code></field></par><compositedata
+ type='184' prevtype='129' nexttype='131' afterparcount='1'>
+uCp4BsgEyQQwAQEBAAoBAAUA////AAAAABAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><run><font style='bold'/>Travel</run></par><compositedata type='184'
+ prevtype='129' nexttype='131' afterparcount='1'>
+uCp4BogCyQQwAQEBAAoBAAUA////AAAAABAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><run><font style='bold'/>Operating</run></par><compositedata
+ type='184' prevtype='129' nexttype='131' afterparcount='1'>
+uCp4BggHyQQwAQEBAAoBAAUA////AAAAABAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><run><font style='bold'/>Contract</run></par><compositedata type='184'
+ prevtype='129' nexttype='131' afterparcount='1'>
+uCp4BkgJyQQwAQEBAAoBAAUA////AAAAABAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><run><font style='bold'/>Capital</run></par><compositedata type='184'
+ prevtype='129' nexttype='131' afterparcount='1'>
+uCpAC9gASQkhAQEBAAoBAAUA////AAAAABAAAAAAAAAAAAAAAAAAAAAA
+</compositedata>
+<par def='1'><run><font style='bold'/>Amount Committed</run><compositedata
+ type='185' prevtype='65413' nexttype='129' afterparcount='4'>
+uRIAAAAAAAAAAAAAAAAAAAAA
+</compositedata></par>
+<par def='1'><run><font style='bold' color='#0415b7'/></run></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>PopupBudget</text></item>
+<item name='budgetOpTemp' summary='false'><number>0</number></item>
+<item name='budgetTravTemp' summary='false'><number>0</number></item>
+<item name='budgetContrTemp' summary='false'><number>0</number></item>
+<item name='budgetCapTemp' summary='false'><number>0</number></item></form>
+

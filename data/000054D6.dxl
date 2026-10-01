@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='54d6' unid='04B0EF401DBF9E7E8525760A00643675' sequence='1'>
+<created><datetime dst='true'>20090806T141435,41-04</datetime></created>
+<modified><datetime dst='true'>20260917T084917,46-04</datetime></modified>
+<revised><datetime dst='true'>20090806T141435,55-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084917,45-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084917,45-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='date_create'><datetime dst='true'>20020806T082629,63-04</datetime></item>
+<item name='edit_history'><text>Stephen Bjarnason</text></item>
+<item name='edit_history_1'><text>2002/08/06 08:34:43</text></item>
+<item name='Names'><text>Stephen Bjarnason;</text></item>
+<item name='OriginalModTime'><datetime dst='true'>20090520T111216,88-04</datetime></item>
+<item name='HFText'><text>No</text></item>
+<item name='HelpECategories'><text>2. Database Custodian Guide</text></item>
+<item name='HelpESubCat'><text>Customizing the Application</text></item>
+<item name='HelpFCategories'><text>2. Guide de gardien de base de données</text></item>
+<item name='HelpFSubCat'><text>Customizing the Application</text></item>
+<item name='HelpDocNumber'><number>6</number></item>
+<item name='HelpSubCatNumber'><number>2</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='73%'/>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.  Enter the Admin area of the database and select Projects from the navigator.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.  Select the project that you are interested in updating.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='2' leftmargin='1.0021in' rightmargin='73%' firstlineleftmargin='0.8118in'/>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.  If you are updating the budget figures, enter the new values for the Operating, Travel, Contract and Capital sections over the old numbers.  Click on the Save button on the action bar to save your changes and then Exit the project.</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>4.  If the committed information does not match the dollar amounts for the project in the Order Form section of the database, you can re-calculate the budget by clicking on the </run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>"Recalculate Budget" </run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>button on the action bar.  The Orders database will then total the orders and adjust the amount committed accordingly.  </run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Click on the Save button on the action bar to save your changes and then Exit the project.</run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='3' leftmargin='0.8125in' rightmargin='73%'/>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpESubject'><text>Updating Budget and Committed Information</text></item>
+<item name='HelpFSubject'><text> </text></item></document>
+

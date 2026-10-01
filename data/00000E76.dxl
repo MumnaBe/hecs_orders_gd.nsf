@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='e76' unid='1AE1F7D856B41CE485256FD60069E08B' sequence='8'>
+<created><datetime dst='true'>20050401T151627,63-04</datetime></created>
+<modified><datetime dst='true'>20260917T084315,07-04</datetime></modified>
+<revised><datetime dst='true'>20100827T142647,98-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084315,06-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084315,06-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050401T151703,68-04</datetime><datetime
+ dst='true'>20050401T151733,44-04</datetime><datetime dst='true'>20050401T152202,74-04</datetime><datetime
+ dst='true'>20050401T152307,95-04</datetime><datetime dst='true'>20050405T110517,82-04</datetime><datetime
+ dst='true'>20100827T142158,19-04</datetime><datetime dst='true'>20100827T142643,22-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100827T142650,35-04</datetime></item>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text></item>
+<item name='NameF'><text>Acq&gt;10K Instr Mesure Contrôle Labo Optique Med</text></item>
+<item name='CodeNumber'><text>14311</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20050401T151627,63-04</datetime></item>
+<item name='edit_history'><textlist><text>Dian Calagoure</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2010-08-27 02:26:50 PM</text><text
+>2010-08-27 02:26:45 PM</text><text>2010-08-27 02:22:00 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dian Calagoure;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text></textlist></item></document>
+

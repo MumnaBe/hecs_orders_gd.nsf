@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1052' unid='236ECE2BAA8B562085256BEB005F0945' sequence='4'>
+<created><datetime dst='true'>20020703T131802,93-04</datetime></created>
+<modified><datetime dst='true'>20260917T084322,95-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074931,63-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084322,94-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084322,94-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,95-04</datetime><datetime
+>20021104T141454,94-05</datetime><datetime dst='true'>20090902T074503,62-04</datetime></revisions>
+<item name='CompName'><text>Ronald C. Lister Canada Inc.</text></item>
+<item name='CompAddress'><text>5330 Canotek Rd<break/>Units 41 &amp; 42</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Gloucester</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>K1J 9C1</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(613) 746-3728</text></item>
+<item name='CompFax'><text>(613) 746-5094</text></item>
+<item name='PurchContact'><text>Rob or Norm</text></item>
+<item name='InvContact'><text>Lynn McGlashan</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>HWC/EHC</text></item>
+<item name='CompAKA'><text>Lister Locks</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

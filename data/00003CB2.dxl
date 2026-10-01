@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='3cb2' unid='FC26623D6ABC14C485256FD50081F0D7' sequence='4'>
+<created><datetime dst='true'>20050331T193917,99-04</datetime></created>
+<modified><datetime dst='true'>20260917T084659,09-04</datetime></modified>
+<revised><datetime dst='true'>20050331T194617,29-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084659,08-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084659,08-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20050331T194013,98-04</datetime><datetime
+ dst='true'>20050331T194054,55-04</datetime><datetime dst='true'>20050331T194511,29-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>R &amp; M Computer Hardware and Software</text></item>
+<item name='NameF'><text>Entretien et Réparation - pièces d'ordinateur et logiciels</text></item>
+<item name='CodeNumber'><text>56321</text></item></document>
+

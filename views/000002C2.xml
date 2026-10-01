@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+    </category>
+    <document noteId="00005486">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Roles and Responsibilities of Staff Placing Orders</text>
+        </value>
+    </document>
+    <document noteId="0000548A">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Creating a New Order</text>
+        </value>
+    </document>
+    <document noteId="000054EE">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Order Form: summary of the special fields and buttons</text>
+        </value>
+    </document>
+    <document noteId="0000548E">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Generating A Financial Code</text>
+        </value>
+    </document>
+    <document noteId="00005492">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>What to do after the Order Number has been Assigned</text>
+        </value>
+    </document>
+    <document noteId="00003082">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>6</number>
+        </value>
+        <value>
+            <text>After the Order has Arrived</text>
+        </value>
+    </document>
+    <document noteId="00005496">
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Placing An Order</text>
+        </value>
+        <value>
+            <number>7</number>
+        </value>
+        <value>
+            <text>Copying an Existing Order</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Viewing an Order</text>
+        </value>
+    </category>
+    <document noteId="0000549A">
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Viewing an Order</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Viewing Orders</text>
+        </value>
+    </document>
+    <document noteId="0000549E">
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Viewing an Order</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Who Ordered This Package?</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+    </category>
+    <document noteId="000054A2">
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Roles and Responsibilities of Principal Investigators</text>
+        </value>
+    </document>
+    <document noteId="000054A6">
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>As PI, where can I find my projects?</text>
+        </value>
+    </document>
+    <document noteId="000054AA">
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>How Much Have I Spent?</text>
+        </value>
+    </document>
+    <document noteId="000054AE">
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Checking Project Status</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>How do I Change Budget Totals?</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Glossary</text>
+        </value>
+    </category>
+    <document noteId="000018A6">
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Glossary</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Terms Used in Notes and This Database</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+    </category>
+    <document noteId="000054B2">
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+        <value>
+            <number>1</number>
+        </value>
+        <value>
+            <text>Contact Information</text>
+        </value>
+    </document>
+    <document noteId="00001D4A">
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+        <value>
+            <number>2</number>
+        </value>
+        <value>
+            <text>Creating a Private View</text>
+        </value>
+    </document>
+    <document noteId="00001C3A">
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+        <value>
+            <number>3</number>
+        </value>
+        <value>
+            <text>Launching a (private) view</text>
+        </value>
+    </document>
+    <document noteId="000054B6">
+        <value>
+            <number>5</number>
+        </value>
+        <value>
+            <text>General Info</text>
+        </value>
+        <value>
+            <number>4</number>
+        </value>
+        <value>
+            <text>Exporting a View</text>
+        </value>
+    </document>
+</view>

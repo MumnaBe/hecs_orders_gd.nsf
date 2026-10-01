@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='All Orders By Reference' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ defaultdesign='true' publicaccess='false' designerversion='6.5' unreadmarks='none'
+ onopengoto='lastopened' onrefresh='displayindicator' headers='beveled' opencollapsed='false'
+ showresponsehierarchy='true' showmargin='true' shrinkrows='false' extendlastcolumn='false'
+ showhierarchies='false' unreadcolor='black' rowlinecount='1' headerlinecount='2'
+ rowspacing='1' bgcolor='white' altrowcolor='#e0f1ff' totalscolor='gray' headerbgcolor='white'
+ boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
+ allowcustomizations='false' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
+ uniquekeys='false'>
+<noteinfo noteid='2de' unid='ED1F6FC555C6B00985256B74004CF9EA' sequence='24'>
+<created><datetime>20020306T090047,14-05</datetime></created>
+<modified><datetime dst='true'>20260917T084243,80-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134328,38-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100302,28-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084243,79-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Oscar J Kerrebyn/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT ((Form = "New Order Form") | (Form = "NewOrderForm") | (Form = "Order Form") | (Form = "OrderForm"))</formula></code><code
+ event='querypaste'><lotusscript>Sub Querypaste(Source As Notesuiview, Continue As Variant)
+	answer% = Messagebox("You are not authorized to paste orders.  If you want to create a copy of an existing order, use the button ""Copy Existing Order""" + Chr(10) + Chr(10) +  "Vous n'êtes pas autorisé à coller des commandes.  Si vous désirez créer une copie d'une commande existante veuillez utiliser le bouton ""Copier une commande""", 0 + 48, "Orders cannot be pasted / Les commandes ne peuvent être collé")
+	continue = False
+End Sub</lotusscript></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/><border width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<sharedactionref id='8'>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"Mainf";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code></action></sharedactionref>
+<sharedactionref id='5'>
+<action title='Exit' icon='112'><code event='click'><formula>@Command([FileCloseWindow])</formula></code></action></sharedactionref>
+<sharedactionref id='1'>
+<action title='Place Order'><code event='click'><formula>@Command([Compose]; "":"";"NewOrderForm")</formula></code></action></sharedactionref>
+<sharedactionref id='3'>
+<action title='Copy Existing Order' icon='28' showinmenu='false'><code event='click'><lotusscript
+>Sub Click(Source As Button)
+	
+	'*************************************************************************************
+	' This English Button is used in the Order views to create new Order documents 
+	' It imports data from the selected Order document in the view.
+	' This Shared Button has been created on 2009-05-13 by JML for ADR #3550.  
+	' This button replaces an equivalent  button where the code was copied into many views.
+	'*************************************************************************************
+	On Error Goto handler
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dc As notesdocumentcollection
+	Dim doc As notesdocument
+	Dim newdoc As notesdocument
+	Dim uidoc As notesuidocument
+	Dim descitem As notesitem
+	
+	' Get a list of all unprocessed documents and make sure one and only one is selected
+	Set db=s.currentdatabase
+	Set dc=db.UnprocessedDocuments
+	Set doc=dc.GetFirstDocument
+	If doc Is Nothing Or dc.Count &gt; 1 Then
+		Messagebox "Please ensure that you have one (and only one) document selected."
+		Set doc = Nothing
+		Goto handler
+	End If
+	
+	' Compose a new "New Order Form" document
+	Set uidoc=ws.ComposeDocument(db.Server, db.FilePath, "New Order Form")
+	Set newdoc=uidoc.Document
+	
+	' Populate a few fields from the original Order into the new Order.
+	Call uidoc.FieldSetText("CompleteFinancialCode", doc.CompleteFinancialCode(0))
+	Call uidoc.FieldSetText("Category", doc.Category(0))
+	Call uidoc.FieldSetText("HideCount", Cstr(doc.HideCount(0)))
+	Call uidoc.FieldSetText("ProjectSelection", Cstr(doc.ProjectSelection(0)))
+	Call uidoc.FieldSetText("FinCategory", Cstr(doc.FinCategory(0)))
+	
+	' Not reassigning the same Financial Code - user must generate new one
+	'Call uidoc.FieldSetText("FinCode", Cstr(doc.FinCode(0)))
+	
+	Call uidoc.FieldSetText("PurchaseType", Cstr(doc.PurchaseType(0)))
+	Call uidoc.FieldSetText("CardHolder", Cstr(doc.CardHolder(0)))
+	Call uidoc.FieldSetText("SignAuth", Cstr(doc.SignAuth(0)))
+	Call uidoc.FieldSetText("ShipTo", Cstr(doc.ShipTo(0)))
+	Call uidoc.FieldSetText("Locator", Cstr(doc.Locator(0)))
+	Call uidoc.FieldSetText("Building", Cstr(doc.Building(0)))
+	Call uidoc.FieldSetText("Building2", Cstr(doc.Building2(0)))
+	Call uidoc.FieldSetText("City", Cstr(doc.City(0)))
+	Call uidoc.FieldSetText("Room", Cstr(doc.Room(0)))
+	Call uidoc.FieldSetText("Floor", Cstr(doc.Floor(0)))
+	Call uidoc.FieldSetText("Province", Cstr(doc.Province(0)))
+	Call uidoc.FieldSetText("PostCode", Cstr(doc.PostCode(0)))
+	Call uidoc.FieldSetText("PhoneNumber", Cstr(doc.PhoneNumber(0)))
+	Call uidoc.FieldSetText("FaxNumber", Cstr(doc.FaxNumber(0)))
+	Call uidoc.FieldSetText("InvName", Cstr(doc.InvName(0)))
+	Call uidoc.FieldSetText("InvPL", Cstr(doc.InvPL(0)))
+	Call uidoc.FieldSetText("InvBuilding", Cstr(doc.InvBuilding(0)))
+	Call uidoc.FieldSetText("InvBuilding2", Cstr(doc.InvBuilding2(0)))
+	Call uidoc.FieldSetText("InvCity", Cstr(doc.InvCity(0)))
+	Call uidoc.FieldSetText("InvProvince", Cstr(doc.InvProvince(0)))     
+	Call uidoc.FieldSetText("InvPostCode", Cstr(doc.InvPostCode(0)))
+	Call uidoc.FieldSetText("InvTel", Cstr(doc.InvTel(0)))
+	Call uidoc.FieldSetText("InvFax", Cstr(doc.InvFax(0)))
+	Call uidoc.FieldSetText("CompanyName", Cstr(doc.CompanyName(0)))
+	Call uidoc.FieldSetText("AcctNumber", Cstr(doc.AcctNumber(0)))
+	Call uidoc.FieldSetText("CompPhone", Cstr(doc.CompPhone(0)))
+	Call uidoc.FieldSetText("CompFax", Cstr(doc.CompFax(0)))
+	Call uidoc.FieldSetText("Currency", Cstr(doc.Currency(0)))
+	
+	' Loop through the fields H1 to H20 and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("H" + Cstr(x))
+		Call uidoc.FieldSetText("H" + Cstr(x),Cstr(descitem.Values(0)))     
+	Next
+	
+     ' Loop through the fields I1Desc to I20Desc and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "desc")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"desc",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "Quant")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"Quant",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "PricePer")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"PricePer",Cstr(descitem.Values(0)))    
+	Next     
+	
+	Call uidoc.Refresh
+	
+handler:
+End Sub</lotusscript></code></action></sharedactionref>
+<action title='Modify Order Number' icon='5'><code event='click'><lotusscript
+>Sub Click(Source As Button)
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dc As notesdocumentcollection
+	Dim doc As notesdocument
+	Dim answer As String
+	
+	Set db=s.CurrentDatabase
+	Set dc=db.UnprocessedDocuments
+	If dc.Count &gt; 1 Then
+		Messagebox "Please make sure you have only one document selected."
+	Else
+		answer=Inputbox$("Enter the four digit code for the new document number.")
+		While Not (answer Like "####")
+			answer=Inputbox$("Enter the four digit code for the new document number.")
+		Wend
+		Set doc=dc.GetFirstDocument
+		If Len(doc.RefNumber(0))=8 Then
+			doc.RefNumber=Left(doc.RefNumber(0),4) &amp; answer
+		Else
+			doc.RefNumber=Left(doc.RefNumber(0),2) &amp; answer
+		End If
+		doc.d_RefNumber=doc.RefNumberTag(0) &amp; doc.RefNumber(0)
+		doc.Save True, True
+	End If
+End Sub</lotusscript></code><code event='hidewhen'><formula>!@IsMember("[Admin]";@UserRoles)</formula></code></action></actionbar>
+<column sort='descending' resort='both' hidedetailrows='false' itemname='$1'
+ width='7.7500' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false'><font color='maroon' style='bold'/><columnheader
+ title='Order Number'><font size='9pt' style='bold'/></columnheader><code
+ event='value'><formula>@If(@Length(RefNumber)=8;@Left(d_RefNumber;@Length(d_RefNumber)-8)+@Right(RefNumber;6);d_RefNumber)</formula></code></column>
+<column resort='both' hidedetailrows='false' itemname='Status' width='11'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><font color='green' style='bold'/><columnheader title='Status'><font
+ size='9pt' style='bold'/></columnheader></column>
+<column resort='both' hidedetailrows='false' itemname='IssueDate' width='8'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><columnheader title='Issue Date'><font size='9pt' style='bold'/></columnheader></column>
+<column resort='both' hidedetailrows='false' itemname='ShipTo' width='13'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><columnheader title='Ship To'><font size='9pt' style='bold'/></columnheader></column>
+<column resort='both' hidedetailrows='false' itemname='CompanyName' width='34.2500'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><font style='bold'/><columnheader title='Company'><font
+ size='9pt' style='bold'/></columnheader></column>
+<column align='right' hidedetailrows='false' itemname='TotCostTaxed' width='10.5000'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='false' sortnocase='true'
+ showaslinks='false'><font color='blue'/><columnheader title='Cost w/Applicable HST'><font
+ size='9pt' style='bold'/></columnheader><numberformat legacy='true' format='currency'
+ digits='2' punctuated='true' parens='false' percent='false' bytes='false'/></column>
+<item name='$SCRIPTOBJ_11' sign='true'>
+<rawitemdata type='14'>
+AQAAAkxTT0IDABQIZW4AAAQAHQBAAQQAAAA4BtgDAAAAAAAAAAJQBAAAAAAkAJwAGAA4AIABuAAA
+AAAAAAAAAAIAAAAEAFgBAAAAAFgBWAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAUAAAC4AFAEUARQBAAAAACwA7ADAAAAANwC3AK4ALgAAAAAAAAAAAAAAAAA
+AAAAAAwCDAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAEABQBMb3R1cyBQcm9kdWN0AAAAVjAuMAAAAAAAAAAAAAAAAAAA
+AAAEAAAAQAEAAAAAAAA4BgAA2AMAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAA
+AAUAAABXMzJJYQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAwDcAwAAAABUAAgAKgA1ADgANgA1ADAAMQA0AAAAAABsAAMATgBFAFcAAACAAAYARABFAEwA
+RQBUAEUAAAAAAPwACgBJAE4ASQBUAEkAQQBMAEkAWgBFAAAAAADUAAkAVABFAFIATQBJAE4AQQBU
+AEUAAABIAgYATwBCAEoARQBDAFQAAAAAAIgAAAAAAAAAdAEGAFMATwBVAFIAQwBFAAAAAADoAAoA
+QgBJAE4ARABFAFYARQBOAFQAUwAAAAAAFAELAE8AQgBKAEUAQwBUAE4AQQBNAEUAXwAAAAwBBgBC
+AFUAVABUAE8ATgAAAAAAyAIGACUATABTAEkARABFAAAAAAA0AQUAQwBMAEkAQwBLAAAASAEBAFMA
+AAD//wwATgBPAFQARQBTAFMARQBTAFMASQBPAE4AAAAAAMgDBgAlAEwAUwBYAEIARQAAAAAAVAEC
+AEQAQgAAAAAAtAENAE4ATwBUAEUAUwBEAEEAVABBAEIAQQBTAEUAAADgAQIARABDAAAAAAD0ARcA
+TgBPAFQARQBTAEQATwBDAFUATQBFAE4AVABDAE8ATABMAEUAQwBUAEkATwBOAAAAwAEDAEQATwBD
+AAAAGAINAE4ATwBUAEUAUwBEAE8AQwBVAE0ARQBOAFQAAAA8AwYAQQBOAFMAVwBFAFIAAAAAAHQD
+DwBDAFUAUgBSAEUATgBUAEQAQQBUAEEAQgBBAFMARQAAAP//FABVAE4AUABSAE8AQwBFAFMAUwBF
+AEQARABPAEMAVQBNAEUATgBUAFMAAAAAAFgCBQBDAE8AVQBOAFQAAAD//zUAUABsAGUAYQBzAGUA
+IABtAGEAawBlACAAcwB1AHIAZQAgAHkAbwB1ACAAaABhAHYAZQAgAG8AbgBsAHkAIABvAG4AZQAg
+AGQAbwBjAHUAbQBlAG4AdAAgAHMAZQBsAGUAYwB0AGUAZAAuAAAA//82AEUAbgB0AGUAcgAgAHQA
+aABlACAAZgBvAHUAcgAgAGQAaQBnAGkAdAAgAGMAbwBkAGUAIABmAG8AcgAgAHQAaABlACAAbgBl
+AHcAIABkAG8AYwB1AG0AZQBuAHQAIABuAHUAbQBiAGUAcgAuAAAAAABMAwQAIwAjACMAIwAAAAAA
+//8QAEcARQBUAEYASQBSAFMAVABEAE8AQwBVAE0ARQBOAFQAAAAAAIwDCQBSAEUARgBOAFUATQBC
+AEUAUgAAAKgDCwBEAF8AUgBFAEYATgBVAE0AQgBFAFIAAAD//wwAUgBFAEYATgBVAE0AQgBFAFIA
+VABBAEcAAAAAAP//BABTAEEAVgBFAAAAAAAFADwGAAAAALaCPU8IAAAAWAEAAKAAAAAAAAAAAgAA
+AJwASAEAAAAAAAAAAAAAAAAAAAAAnACcAAAAAAAAAAAAAAAAAAAAAAAAAAAASAFIAQAAAAAAAAAA
+AQAAAAIAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAMAAQBIAQAAvAAGCAAAAAAaAAAA7AD//wAAAAAQAAAADAIAANgA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAARYTKe0uaRC/XQDdARGGtwAAAAAAAAAAAAAAAAAAAABkAAAA0NodYQAAAAAAAAAA
+AgCsAAAANAUAAAAAWgQBAP//AAADACAAAAAAAIwACQIAALgACAAAAAAAAAAAAQAAAAAAAAYAAADw
+ASQFAAAAAAAAAAAAAAAAAAAAACQFJAXMAswCFAUUBaADoANABEAEAAAAAPAB8AEAAAAAAAAAAAEA
+AAAMAAAAIQAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAADAAEAzAIAAIwACQIAALgAGgCsADgB//8AAAAAEAAAANwCAAAYAQAA
+AAAAAAEAAABEBUQFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABE
+BUQFAAAAAAEUEyntLmkQv10A3QERhrcAAAAAAAAAAAAAAAAAAAAAZAAAACAonAcAAAAAAAAAAAIA
+AAKcAgAAuAAAAAIAAQD//wAAEgAUAAAAAAD//wkCAAAAALIEAAAAAAwCAAL//wAAAAAEAAEAAAAJ
+AgwCCQIMAhkAAwACAKADAAAQAQkCAAAMAhAAAACwAwAAWAEAAAAAAAABAAAAaAVoBQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAVoBQAAAAACFBMp7S5pEL9dAN0B
+EYa3AAAAAAAAAAAAAAAAAAAAAGQAAAAgKJwHAAAAAAAAAAACAAACbAMAAAwCAAACAAEA//8AABIA
+FAAAAAAA//8JAgAAAAASBAAAAADcAgAC//8AAAAABgADAAAACQLcAgkC3AIGCAYIGQADAAIAQAQA
+AEwBCQIEANwCEAAAAFAEAACEAQAAAAAAAAIAAACMBbAFAAAAAAAAAACMBYwFAAAAAAAAAAAAAAAA
+AAAAALAFsAUAAAAAAAAAAAAAAAAAAAAAAAAAAAsUEyntLmkQv10A3QERhrcAAAAAAAAAAAAAAAAA
+AAAAZAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAA3AIAAAIAAQD//wAAAwACABQFAAB4AQkCCACwAxAA
+BAAAAAAAxAEAAAAAAAABAAAABAYEBgAAAAAEBgQGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAEFBMp7S5pEL9dAN0BEYa3LhQTKe0uaRC/XQDdARGGt2QAAAAgKJwH
+AAAAAAAAAAACAAAC4AQAALADAAACAAEA//8AABIAFAAAAAAA//8JAgAAAACNBAAAAABQBAAC//8A
+AAAABgACAAAACQJQBAkCUAQJAtwCGQADAAIAJAUAALgBCQIMAFAEAwACAAAAAADkAQYAEAAAABMA
+AAAAAQAA1QAAAAAAAAARABAFAAAAAPgBCQKoBAAAAAAAAAAAAAAAAAAAAAAAAAAA3AIRABAFAAAA
+ABwCCQIYBAAAAAAAAAAAAAAAAAAAAAAAAAAAsAMRABAFsAUAAEwCAgAyBQAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAASABQAAAAAAFADCYIAAAAANgUAAAAAsAMAAv//AAAAAAQAAQAAAAkCUAQJArADGQAW
+AAAAeAMobgAAGQAWAAAAkAMpwAAAGQAWAAAArAPWcAAAGQASABQAAAAAAMwDAQAAAAAAlAQAAAAA
+UAQAAv//AAAAAAYABAAAAAEACQJQBAEIAQiBCBkABABEAQAAAAAdAAAaCwBbSAFJnADKuACmGgwA
+R0gBy9UAAABYARoNAB0aEQBezAIrDAIkphoXAF6gA0vMAi1EBSOmGhgAXkAES6ADLWgFI6YaGQBL
+QAQtjAUjibQ4EQAaGgB9XAKbgIAGBxobADrUABocAF4kBX3MAoCAgIAGSJulGh0AG0okBX1AA8ag
+OBcAGh4AXiQFfcwCgICAgAZIm6UaHwA63f8aIABeFAVLQAQssAUjphohAEsUBVPgBYUmCAAAAAYl
+jgi4OCcAGiIASxQFUeAFSxQFU+AFhSYgCAAAk48EAwZKk0okBb+lGiMAOiQAGiQASxQFUeAFSxQF
+U+AFhSYgCAAAk48CAwZKk0okBb+lGiUAGiYASxQFUewFSxQFU/gFhSVLFAVT4AWFJb+lGicASxQF
+LAQGhISLAiMxGigAGikAHQIAAAARABgAAAAAAP//AQADAAMAAAAGAKAACAAAAQ8ACgAAAA==
+</rawitemdata></item>
+<item name='$SelQuery' sign='true'>
+<rawitemdata type='f'>
+gQYAAAAAif89AAAAAAACABsAFABOZXcgT3JkZXIgRm9ybXxOZXdPcmRlckZvcm1PcmRlciBGb3Jt
+fE9yZGVyRm9ybQA=
+</rawitemdata></item></view>
+

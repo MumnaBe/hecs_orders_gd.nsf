@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2662' unid='9008B78598FDA64285256BEB005F098E' sequence='4'>
+<created><datetime dst='true'>20020703T131803,66-04</datetime></created>
+<modified><datetime dst='true'>20260917T084456,99-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075006,80-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084456,98-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084456,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,68-04</datetime><datetime
+>20021104T141456,50-05</datetime><datetime dst='true'>20090902T074543,90-04</datetime></revisions>
+<item name='CompName'><text>TREK Diagnostic Systems, Inc.</text></item>
+<item name='CompAddress'><text>25760 First St</text></item>
+<item name='CompPO'><text>PO Box 94195<break/>Chicago IL  60690</text></item>
+<item name='CompCity'><text>Westlake</text></item>
+<item name='CompProvince'><text>OH</text></item>
+<item name='CompPostalCode'><text>44145</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>(440) 808-0000 1-800-871-8908</text></item>
+<item name='CompFax'><text>(440) 808-0400</text></item>
+<item name='PurchContact'><text>Customer Service</text></item>
+<item name='InvContact'><text>Accounts Receivable</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>INLCO2</text></item>
+<item name='CompAKA'><text>Accumed</text></item>
+<item name='CompEmail'><text>www.trekds.com</text></item>
+<item name='CompWeb'><text>rgolasb@trekds.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

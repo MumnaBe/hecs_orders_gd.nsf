@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='1702' unid='4406C8F95EA508BD8525715B0067DEAE' sequence='2'>
+<created><datetime dst='true'>20060425T145432,14-04</datetime></created>
+<modified><datetime dst='true'>20260917T084352,32-04</datetime></modified>
+<revised><datetime dst='true'>20060525T144453,45-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084352,31-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084352,31-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20060425T150018,73-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4320105 Oxid Stress - PK</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>4320105</text></item></document>
+

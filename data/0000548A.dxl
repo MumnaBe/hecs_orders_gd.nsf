@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='548a' unid='851C71DF51C5D3398525760A00495849' sequence='1'>
+<created><datetime dst='true'>20090806T092107,29-04</datetime></created>
+<modified><datetime dst='true'>20260917T084915,55-04</datetime></modified>
+<revised><datetime dst='true'>20090806T092108,58-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084915,54-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084915,54-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='org_author' authors='true' names='true'><text>Gerald Horula</text></item>
+<item name='date_create'><datetime>20020306T152301,63-05</datetime></item>
+<item name='edit_history'><textlist><text>Stephen Bjarnason</text><text>Gerald Horula</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2002/08/09 08:33:30</text><text
+>03/06/2002 03:24:12 PM</text></textlist></item>
+<item name='Names'><textlist><text>Stephen Bjarnason;</text><text>Gerald Horula;</text></textlist></item>
+<item name='OriginalModTime'><datetime dst='true'>20090806T092038,10-04</datetime></item>
+<item name='HFText'><text>Yes</text></item>
+<item name='HelpECategories'><text>1. User Guide</text></item>
+<item name='HelpESubCat'><text>Placing An Order</text></item>
+<item name='HelpFCategories'><text>1. Guide d'utilisation</text></item>
+<item name='HelpFSubCat'><text>Commander</text></item>
+<item name='HelpDocNumber'><number>2</number></item>
+<item name='HelpSubCatNumber'><number>1</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.  Click on the "Place Order" button on the action bar.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>		</run><picture
+ height='166px' width='333px'><border style='solid' width='1px' dropshadow='true'/><gif
+ originalformat='notesbitmap'>
+R0lGODlhTQGmAOYAAP///7i4uLi4AAAAANjo+Hh4eAAAeAAwkNjw+Hh4ANgAIPDw8Pj4AOjo6ODg
+4MjIyNDQ0NjY2LCwsMDAwAB4eKioqKCgoEBosAg4mJCQkOh4kLh4eDhgoOjo8IiIiDhAOICAgPC4
+wCAgIHB4cICgyMjQ4CgwKChYqJCgsBAQEBhIoDhgqHCIsEhwsDA4MNjY+EBIQGiIwHiQwFB4sGhw
+aDBYmFBQUIigyKCosMDI2CBIoGiAqJCo0KCwwGBgYGiAsICQoJiowLDA0JCYoJCgwLDA2LjI4Ki4
+0NDY6Njg6Fh4sHiQyJiw0Ki42AB4AAD4AICYsOiYqHCAkOBYcFhwoHgAAPDI0OAoSPDY4PCouAAA
++Hj4+OBIaPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwA
+AAAATQGmAEAI/wAHCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzIgwAIIDHjyBDihwZssAAkSYB
+qFzJsqXLlzBjypxJs6bNmzhz6tzJs6fPnzQ5fkzAMQGDAEeTIg2QwGSBAhxfBnh6suQAoFizat3K
+tavXr2BXCiU5IMGApx4FPoVKcq1JlFfDyp1Lt67du1tJ6t3Lt6/fv4A9ChhMuLDhw4gTK17MuLFj
+xYEjS55MubLlkBs+dtSboLPnvW81/415Wa/JwgweG64ioAtr1bBjyy5sFuTmqS3Rlt7Nu3dgk5k9
+3mYKgEHx4gaSJ0/a+ezH0MJBGghgYEB16sINFKDAPQCF4WlFVv89Sb5q2wGoDRsVkLq9E4ECzCZQ
+jJ4w+voD7cMfnL9wff784dffgP8hVptoHhWw0kBOPHGVFlNF2BF04YknUFoDVWheABtqyCGGIJLH
+oXkEgbTheCheOCKKoA0Q3FgWeuaZWmyBROFw0z1X3XQAaMcdBd6B19tphKVGGwNIJtkZkvGVNduT
+UD52YHR8KbjSUypN1aFvXHb5F3BehulllGSWaeZhYqap5pqZYYnXm3DWBaObWll5k51w4hnnTVNZ
+GYICgAYaqAYuhTCFBoBqoIEVLiEqqKA+GfQBBAN4AIAHAyzgggULSHDVCB8AMMADHQwAQgMVxNVT
+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
+</gif></picture><run><font name='Arial' pitch='variable'
+ truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='2' leftmargin='1.0118in' rightmargin='93%' firstlineleftmargin='0.8118in'/>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.  Fill in all required data.  The first step is to select the project number.  This can be done by clicking on the arrow </run><picture
+ height='15px' width='18px'><gif originalformat='notesbitmap'>
+R0lGODlhEgAPAOIAAP///7i4uAAAAHh4eKioqAAAAAAAAAAAACwAAAAAEgAPAEAIXAABCBxIsOBA
+AgACJAzAMICAhQwHPBSosKFFixIBIAQgoKPHjx8JXhzJUCDCigxBNsx4EiLJABkNypxJc6bCmgIn
+JnRJkuVOix4h+kT5EubDlgOSKl2aVCfOggEBADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/> </run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>by the project field.  Click once on the project you want and then on OK.</run></par>
+<pardef id='3'/>
+<par def='3'><picture height='43px' width='354px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhYgErAOIAAP////j4AAAAAMDAAICAAIAAAAAAAAAAACwAAAAAYgErAEAI/wABCBxIsKDB
+gwgTKlzIsKHDhxAjSpxIsaLFixgzamxYoMBCASBDCogIcqPJkxUDqFzJckAAAiwDCIi5UiTImjRz
+6tzJs+fMnkCDCsU5tKjRmBlLHlQKgKnSpyMFQh1YkinKqxSP/qS5NebPrl9ZhlU5lqxXomDNyhSr
+1mzXtURrbi2bFm7dtG93uoTpcoDfv4AHENiKtbDhwxaPKl7MuLHjx5AjJ4261KbUqE4xU556ubNn
+q4hDix5NurTp06hTq17NurXr17BRU45Nu/Zoq1A1U9XddDPv3sBtb9Sq8+3Yu2zh2k0et+xy5c/d
+no1Ldm71ts+R48wLtG/gwINXsv8GLRx15PPo0wfl7lM9ZI2ZP84uT7++/ftXLe/Wnxu3/t4h7VaQ
+f/gVaOCBCCao4IIMNuigRjy5tBJM0Lln4YUYZsjTQh11pBBo5KEU4oMDRfjSdFylyJ6GOa1YHItG
+uaiThO2pNBlC8X2mGX/zBUfiQcS1+KJMNmE3103VicQVkkQqaVeRFVZYF3V0JfcVlHnJuNJeAXjn
+V0hd+hWejeP1+ONFQcKoJmRaCokejSfuRcCcdNY5ZgBn5gnAmnz26aeFep7556CEFlrUjTiKdFl/
+s9nkW4CLQtrZiIFWaqloII6UI2cD+uZZcP5ReumopC4oamWlpqrqqqy26uqrsMb/KuustNZqK6wR
+Boadobz2it6ttZlY566+FmvsUQp12GFCBCJ2qoPCoihtdIa2yZyv1sb03bYsJausR4l2CuCOOY7b
+qKLomgmtXnNOS510SYIFplzyMimWvU4ql2+TM81Lb5ZNbhdvc/7yG3BRXm4rGGEYOerpp5xt2uOz
+DSrmML9MOnfkvAC/27FaGhOb5b7QVYmWkSJjXHCYfIU5gE1/3YmoQeVGbCZ5FDOYprsgu5lylENy
+59y7Ul5bclvaCZ1iUFwm/LLLC4vXsLqh1qzofvHlfODORhOML5hX1iv01xn/e2/ZZ/fLlr9ie902
+sS39FSfU28pcJrAlxnhsr9l2Z+2YnRQ6fDGZeL+29+GIq1c4bIk37jhjixv++OSU97TRf5FnrvlF
+mX6o7uagRz6ixBDzBqnEmp4b+uoKjv4wo5zG/hunrNdeIOk6lq7j7L+Na/vvtmotIPDEu4o5Q5IW
+r/zyzDdPUUAAOw==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.  Click on the "Generate Financial Code" button on the action bar in order to add the financial code to the document. (Please see "Generating a Financial Code" for details)</run></par>
+<par def='3'><picture height='45px' width='232px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlh6AAtAOQAAMDAAP///8DAwAAAANDQyOjw8NDQAICAgEBAQAD4AAD4+ACAgACAAPj4ANDY
+4AAA+EhISNjg6MDAeAAAgAAgGICAANCwaOCgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA
+6AAtAEAI/wAlXJBgYcCAAwcKKFzIsKHDhw8HQJw40UGEAxAKOGAogKLHjyBDihRpEaNGhQImKHzA
+suWDAixhNpQokuZHAThz6tzJs6dPnASCEvhJtKjRo0iTKl3KtClSoUOXBmhgEKFTo1AFAABgMIHX
+rwy6fv1qcMDWs2jTql3Ltq3bt3Djyp1LN63OrDkXBFigQEDfv379Tg1w8EDPAYdxIhawePHOrFvF
+jk1QdgDZymjNRtasmWvks5xBfx7tuXTnzqRFlzat+jRps6FHo35Ne3Xs1XeF/hzAVwDhwleXQq5L
+vLjx48iTI88dlGmA59CjS59Ovbr169iza9/Ovbv37+DDi/8PgKC8+fPo06tfz769+/fw48ufT7++
+/fv4EQRXOrwsA7BlTeZVWcoVaOCBCLrFXFQ/LdDbYoMBx5NjOVGI2IUG8dRfZRx2yKFqaxH4mUGZ
+kTjiZpyZKGJmaoVmIoqivciViqC9ONtsNaKGGYxnLbgTb33tBRhg+z2lG4qWDRiggCsm6OSTUM7l
+o1FlKebhlVhmqeWWXHbp5ZdghinmmGSSOd6ZaKap5ppstsnmQlWNJOecIJWU0UZ05qnnnh/ZeRKf
+gD4E1aCEFmrooYgmquiijDbq6KOQRirppIUWaWRzSIIZ5aacdrrVlEohJKphlmp45IwCUpbkZE16
+6uqry+X/hNdODg4Z2AARWjWhUhTKeqp/XoW1JKsyurYpji3Cmmxaxr6FbI++NpdXkL3ZqkCupP7o
+U4aKdWsqpjNK5qGqO64m247Gfmguupkyu2yz7MrmLpKpmQvibSmuCKpOQPpWrV8GEVaqTxumOqyS
+Miqr8MIKRsvgtgtIOHBRG4rJ8MUY2+UwU5ROasDHIIcs8sgkl2zyySinrPLKLLfs8skdC+XmzDTX
+bPPNOOes884896xzWRIMQEFCgRbtkZ94Gq300hVddCfTgY4q9dRUV2311VhnjZHWXHft9ddgUw1B
+2GSDHfPZaKet9tpst63oxETNCvfcdNdtd9y63X3VcBn3/+13XfvqLdyvY/5t+KuB++Sg4I8R/t9Y
+whqc8OGUO5l4XgsE1heGo9ZdMJOrjtVq5aQbGPji1gbWwFQS88vhtniDa9Djl4VeO7OTL9yhvco9
+y3u4cvkOwL6ZC6n58atTpau2SfUKFOEW1yt873BNz+mN87ol/L79Gm9rAxUon63rVXrbmLeNy14Z
+uRwKW+5pNJ4rr/zz4ou7iCnWa1psruF4m/62qU2zEte9f/Ulea2r0LYcc75vDQVFxAKW+2xUv2Wx
+JnvpAqD+7BfADmLPg9k70fwuqLHnSWtCvTGeQRC4PPJVyUKMUWD6HsiVVCmJdhO8n20o+Boe0utc
+/nvXvXHwN0R8EbFFxUqijWR0uQrxpTC64pbnoBdB2gVrdKXL4nGa6DorMU4AFeuKl7RIxuRw8Ys/
+4VsZ14i4jaGRP6dioxw7dUaCuQ1RL8ujHvfIxz76sWVo85kgB0nIQhrykIhMpCIXychGOvKRkIyk
+JMETEAA7
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>4.  Select the type of purchase you want to make (MasterCard, PO, VISA) and select the cardholder that will sign the order.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><picture height='58px' width='464px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlh0AE6AOIAAP////j4AAAAAMDAAICAANDQAIAAAAAAACwAAAAA0AE6AEAI/wABCBxIsKDB
+gwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDirQYoKTJkyhTqlzJsqXLlzBjypxJs6bNmzhz
+6twZwKOAn0AFDPwpkCgAo0eFFjSKNChTpQSbQjWItKjSp0OvQq2qkSUBASZ/mizAEmwAsGbTnjR7
+VmzJtE7fhl3J9qzcu3h5ovy6kizdv3fZ1sWrdu5bt22Dohxst7Hjxk4Lr+Sr0m/Zx4wDRy45srPn
+z6BDix5NurRp0QYMNHRqkWvSpVMPun59eqLKAQEIpGRcWLJOxYH1Cudcu7jx4wulWs26vDlQqrGx
+Otdqlfp05AJn8g4OeW1etCrr9v8mzL08Y9y6cQ9Yz779AMomscufT7++/fv48+vfz7+///8ABijg
+gAQWaOCBCN6X2oKqIVTVbBBB+JGEx7UE31gtIXYYTZmFt1tNHep1YUmWebiYTSH+9mGGOY0YQIkr
+GuYbZo/5FFtUQTVXnXRSsZbUgzkmNBuQQe641Y0UDafkkkw26eSTUEYJU4JUVmnllVheBKFyP053
+Y2TP0UYbj9KNSeFo2oHJnW9wPUajiW1296ZbKarnnnsjZqnnnnwWJGVZKf6pZJ+EFmrooYgmquii
+jDbq6KOQRirppJR25BIBXwGFKYsxMgkciFBiGtSmgH4KqpOmXtZipj+RauKJgqX/6uZDDKYmZHRC
+kflUmD4aiSORFAKJ449h+qrjRV7B5RaM3gkmp3nlQTajYZoRFmiLHTJLLbRtfdfts8+yeeK4dIYl
+7rcquUgip47Fuh1eNjpoHZfDmskcbMcq5FqRXJ6JkYUFlBgwu87OKaO3b0YrWaxPEjDwWNpu6923
+BctVsHjkJbxtxQwbDLDAEY97cLMeVgodvianrPLKLLfs8suV3naSboLW3CTMVTKoL64U7cvzzrIh
+iZ/MNE9sdLQ3bXfttTDh9tJgOCO65ZE60nvvvf1aZ6aP/oqm3YrjedyuyORmfG7FJqEXgJ3rAbX2
+enlGLbfKNgNW90lOl5Rebpj2/+23qCjNLXjMdxcu5eCIJ6744ow37vjjkEcu+eSUV2755Zhnrnmh
+hnfu+eeghz7T5v++5LfoqMd0euqse9V33RHZunOvFXXdGpi2e52seClmxvTRLmF8apOZrtU72V83
+KTy7NhVvrqqw5uUm1LQuCHS9PQs9ofYVTtbxi4Au5i7vyh6GGHghfgpeYm4Opy74ds91sbTlamiq
+2+ZqKH135Y8vv/d9gd6aWFSXeGFtXmUiynMSiMCqaU9YzOGV1nL3kGSZzywhW59dxjets0nMePhD
+2++al61S4W9sKDQaB/e3PBZmTGH7m1kJoYe2DVGLLQY8mb3ytUN68Ssyt0IZA/+NREGHWIgxIeMf
+DMvWvhT+b2QaW5KLktih+blwiRM7HhPFBryUTPFpXARXY3KILwleTYENvM4OxaTDXx0pjWzsyksC
+9jCC3dBt5ZPRCQdzPzxiRiwjzAkdkxjDDbEphHcEpPlAWMUT/lGD6ovJIGXCx/yV60MugyCaWsfJ
+TnrykzJZWbGuRrpSmvKUqEylKlfJSs3dxj2gRF0rZxkaor0ulqGjJWhq1SB5kTIiPkNZENvIH6J1
+SnrTQlEWwciTOzkzJbr8DC+HGbRiBQmIwnSgNd+4zW7minufuY2rPhg2/1mskh8cIJ3WeT50rYRt
+znwP9aJ5HAlh04df+lnWHMifzzgWJ3nLDBdwOIa8kVlReDV8297Y4xT2xI2exuEKGg94xnwKkWpr
+LBP2uheTd5UzoBY75ga55cH9qQ2eAwBLex4K0YgWiVgLnAo2NyqmXvXImxj15yY7Cjbz+BGd4dkj
+t+hH0JK0Jzdre1s85Rm4ljo1I58LpJP+RjPcbeYkT80qSXCJS6169atgDatYx0rWspr1rGhNq1rX
+yta2wiwgADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>5.  All of the "Ship to" information should be filled in automatically for you.  The "Bill to" information will also be automatically filled in by the system.  If you want to change these names, click on the arrow </run><picture
+ height='15px' width='18px'><gif originalformat='notesbitmap'>
+R0lGODlhEgAPAOIAAP///7i4uAAAAHh4eKioqAAAAAAAAAAAACwAAAAAEgAPAEAIXAABCBxIsOBA
+AgACJAzAMICAhQwHPBSosKFFixIBIAQgoKPHjx8JXhzJUCDCigxBNsx4EiLJABkNypxJc6bCmgIn
+JnRJkuVOix4h+kT5EubDlgOSKl2aVCfOggEBADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/> beside the "Shit to" or the "Bill to" fields.</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>6. (NEW - Added to the august 2009 release) Type the Floor and Room information under the "Ship to" information.  The Floor and Room information will be used to deliver the ordered items.</run></par>
+<pardef id='4' leftmargin='1.2500in'/>
+<par def='4'><picture height='41px' width='160px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhoAApAOIAAP////j4AAAAAICAAMDAAIAAAAAAAAAAACwAAAAAoAApAEAI/wABCBxIsKDB
+gwgTKlzIsKHDhwMDSJxIsaJFihAzCtgooODGgR8BcBTZkaTAkR5LhjSZ8qTKkixXhkT58KLNmwEy
+6tzJs6dPnTiDYtRZoKjRgytZ+kzq8qdThxMJBBgg9OJThBxpkqQ5E2ZWpk23glUqFmZZkC/DjhVY
+lYBbqVQrXp1Lt67duwqLKvxqtudaiB//3o06tapFvEm7olWbdqtBxWEJQpbZOGbfhoYlwj2Mt7Pn
+z1Hfus2c8zNXr40hk2W8uGVk1ZMrKyTtNu7Qz7hzPyV9U7fv30A1U7RdlafRAljNCnYIdrlk2bgJ
+E8+su+tX1kqbV9aO3XJr5wZpF/+WC7y8eYRth3M+z/48b5vt45eXPqA+6Z3H9T6+jPa0Vr4pWTdW
+Vi79R2CBgVGWUFT2vYeYctBhp6BrEz7XmncSRniQeNOVJt+H0QlV34gdgmjiiSimCJpmoklFnYow
+/kRfg4bhlx9SEDrFHXMadibdex5ClB9y+yV0HYIQHtjfS1ohmJ2SZzkJHoMdFmdahbG9dhlsW6aG
+mpaR1ZRZbevVlZiGWYbZ3Y5cgrkaZmOOd5tdAC755ZNQfpfnmlAe+SScQYkm50QxFspTVSTSSKih
+jIoJ5JyNRoreo5BKamlEwk1UZW/GEZncnjuBB+OPDtqoX5EX+tVlo6Ty1lmeE45HFNuqfwboZqwJ
+djQlpYviJiBKab7Zpmu14trdbHGWeNeZt3pZIKoVXmhshmpOathm5F2qLVtCuSiRsttqy2uv4ZZr
+7rkmBgQAOw==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>7.  Select the Company name by either using the arrow </run><picture
+ height='15px' width='18px'><gif originalformat='notesbitmap'>
+R0lGODlhEgAPAOIAAP///7i4uAAAAHh4eKioqAAAAAAAAAAAACwAAAAAEgAPAEAIXAABCBxIsOBA
+AgACJAzAMICAhQwHPBSosKFFixIBIAQgoKPHjx8JXhzJUCDCigxBNsx4EiLJABkNypxJc6bCmgIn
+JnRJkuVOix4h+kT5EubDlgOSKl2aVCfOggEBADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/> and choosing your company from the list or typing in the first few letters of the company name and then moving to the next field using either the cursor key or your mouse.  If the Company is not in the database, the system will ask you if you want it added. If you would like it to be added, fill in all of the info that is requested and an email will be automatically sent to the Admin person requesting it be added.  Note that the Company name, the phone number and the fax are mandatory fields.</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>8.  The Currency should have been populated after choosing the Company.  If not, select the currency the order will be in (e.g. CAD, USD).  Note that the GST is not applied if the currency is not CAD.</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><picture height='32px' width='214px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlh1gAgAOIAAP////j4AAAAAMDAAICAAAAAAAAAAAAAACwAAAAA1gAgAEAI/wABCBxIsKDB
+gwgTKlzIsKHDhxAjSpxIsaLFixgzajQYoGOAASBDehxJsqTJkyhTdlwoQADClgJhApA502VMmzVv
+6sxZUCbNjUAtquwoAGVRoh6PjlTqESSBjx9BtpwakgDOoFizas04tKvXrym3ih1LtqzZhjR/nl3L
+9uDIAQGelmTKNEDdu0ND6t0LF+3Uq39tpgX8d6BPnIEJ/lTbNujXv0jn2g1MUm9cqHz3Wm3MubPn
+z6BDix5NurRosKhTdzXNmu3buARiq579leVVxYJzwyxcc6ph3jd9L3bJuLXDt7JJ1lVud6lklHAz
+692sUO3u3Dt5ase9szhw4xW7LuEvirc588qXo+stOv02+Ozvw9OeHbu+3MD4fcffD3S+f9X8BSjg
+gAQWaOCBCCaoIGv/NVjbghAK5OCEKkUY4WseyUXhf37pZ6Fpr2mo3FTPJUWZg7b15N6Hn4VYYlIw
+0vViSXANtSJ3Bx0W3I7aHUYcdsERxiIA4hkFY2TOQReVdANQl1BxPOmYXX7dAYkjlAoWaVJ+SB7p
+onpStbSkk08ihp1+g/2mZpRW+njjgl7JuFxz5aH3FJjSkckflnBumNdId8Jm36B6gufhkBL6qehK
+iB646KKNRirppJRWaul+AQEAOw==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>9.  Fill in the item descriptions, quantity and unit price.  The extended price will be automatically calculated for you.</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>10. Enter the shipping cost, customs costs, and exchange rate is applicable. The system will adjust the Cost w/Applicable GST automatically</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><picture height='136px' width='290px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+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
+4YwEBAA7
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>11. When the order's information are complete, press the "Save" button.  The system will validate the order's information and prompt you if something is missing.  At that point, the Order is considered a draft and no email has been sent to the Admin yet.  If the validations pass, you can close the order and return later to add more information or to mail it to the Admin.</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><picture height='35px' width='72px'><gif originalformat='notesbitmap'>
+R0lGODlhSAAjAOMAAMDAANDQANDQyAAAAMDAwICAAP///0BAAAD4AACAAEBAQICAgPj4AAAAAAAA
+AAAAACwAAAAASAAjAEAI/wAXCBxIsIDBgwgTKlzIsKFDhAMJSJQooKIAAgAyatyYMUECjiBDihw5
+MoDFiRRPahyQAAEABi0BuJwps+aAjTdXktzJ0WRFlAQsXtw5IGdRnkiTZvQptGnFAFCjSp1KtarV
+q1ilnkQpFKPSr2BLbp3YdaPHmjRp5gzLFgBToGVBsnQJ02VRhGsB5DWqU6/fv2J/clXZtvBXpk6F
+Zl3MuPHVsSl/Gp6M9O1gySHPqqUc1jJZwgA+1kVL2m7Iokc5u4UcFHTGuS9jptWbeiXq04Bvrs2r
+0XPkoSLnDkD4mjft2sd340S+0XdrzKqj92YdV7p0pgaya9/Ovbv37+DDi7TvrqC8+fMH0qtfz769
++/fw4683n9ii4/v4s1J3bZ2z8+r9+bcfdJnFZFyAIP3HX2iykXYggksNCFxoo822GYQ9SehVaHQ1
+aCFgr+GkmoIEwlZhaTLV9uBtuRX3IIkTrhTTiQjcVcCDubGom4vMRSjYZwTiNKONBhXXV4gtIplk
+hj/+tuFpCQxXgJEYNqchTyxWmeCVWhYG45NdgoVYfQLkZ+aZUFmE2ppstunmm3DGKSecAQEAOw==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>12. When ready to send the order to the Admin, press the button "Save" and then click on "Mail to Admin".  Note that the system will ask you to save the order if it has not been done already.  An email will be sent to the Admin.  You will receive an email when the Admin will action the Order.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><picture height='39px' width='128px'><gif originalformat='notesbitmap'>
+R0lGODlhgAAnAOMAAMDAAP///9DQyAAAANDQAMDAwEBAQICAgOjw8Pj4AICAAEhISNDY4PgAAACA
+ANjg6CwAAAAAgAAnAEAI/wARCBxIUCCDBwcWIGBQsKHDhxAjSpxIsWLBgwkXEizAsaNHAQRCAhhJ
+sqTJkyhTqlzJsqXLlyMJCJhJ06PNAiBFwjw5oGRPni1/khTKkqjPnS1l0px582NIAiQVJJhKtSpV
+o0izat26UunSr2DDih1LtqzZs2jTqj37tK3bt3Djyp1Lt67du3LBNu2YE2rRAYADA+ZKuPBWrzQD
+N+0b1arVBg0S/HSgwOTPnpeHBh6Z+SgAoUZBcx46uvTn0qJPIma6F+dTw7Bjyza5WkCA27hz697N
+u7fv38CDCx9OvLeB48iTK1/OvLnz59CjS59OvXlr1zpna9+etfZ1xi4Hc/8fL9t7a/BBhSpQMKAy
++fc7awPei16qY8dE858eDVr8/vzibQYUgAF+dllqmGEVk14FDLDYayPZNxUAlVVWlYKmIUjaf5Zl
+6BlpGnrIoWklmUcfhJwJpqJg8LXYHYMnZufijNrJt+KNOOao44489ujjj0CuWNyQRBZp5JFDHqDk
+kkw2uUCTUEYp5ZRUVmnllVhS+WSTZeHl5ZdghinmWzA+KCONaBpmopl+pekmYWvehF5Qb9ZZYply
+orjSina+GadNc6oU2Hrs+ddni386deaeJrH34aMd7pcVhhhGmhSegKJI6KacrmepgZZVuuGojCoo
+6otfceRgntlJRZJjkEl/RhJlR4mGVWehiThqZ/8diFqKJJKUKF+aVlUhhRcCQGukmP3qbK6ShsZi
+tLriSqqwYM3HZmP3WVWpqZoVKOmGAl57oLjUjjgutqmeV2y3yR6a5rAcBSrvvbRhqmib+PbL7lLf
+6elvv7WtZfDBCCescFlINuzwwxBHLPHEFCMZEAA7
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>13. Click on "Exit" to close the document.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><picture height='34px' width='62px'><gif originalformat='notesbitmap'>
+R0lGODlhPgAiAOIAAMDAANDQyNDQAAAAAP////j4AICAAMDAwCwAAAAAPgAiAEAI/wADCBxIsKDB
+gwgTKlwIoKHDhxAjSpxIUaKAiwIAHCA4ccCAhgMKFDBQYIABAxI9qnT4EUDLlxYxauRYsabNmxAx
+ZjxAoKfPn0CDCh1KtKhQmjiTKs0pc+NAmyFFljyZUqXHjhV1znxa06NUkygjWr3aEqRLlhG1OhW4
+tO1StUjdys3aNO7cu0wvbmXbtSRYqngnwuUq9qXUqWEhlr252OFgvhWjigSbsmNZmGnrEmbcOHDe
+nXY93328sLTp06hTq16dULRo0q49w46Nd3bkvycT07ZNUbJHwLQB8H54+TBlsUo7C9cMGeRYl8aB
+E0eO9uPKz3sDYAUZXTfaqt+VDzVP2b0ydczimWvnXDL4w/Huk8KPf3M+/Zqkderfz7+////9BTDW
+gAQWaOCBCA5o1IIMNrhgQAA7
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='5' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.	Cliquez sur la touche «Placer une commande» de la barre d'outils.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='6'/>
+<par def='6'><picture height='74px' width='418px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhogFKAOQAANDQyMDAwMDAAAAAAICAgP///0BAQOjw8Pj4ANDQAICAAAAAgACAAAD4AEhI
+SNDY4IAAAAAA+Njg6PgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA
+ogFKAEAI/wAPCBxIsKDBgwIfSCDg4MADhBAjSpxIsaLFiwUVMnSIsaPHjyA7amz4MKTJkyhFLiSJ
+EgCAADBjypxJc6ZLlzVz6tzJs2fNmy9lChhKtKhRCBCMKl3KtKnTp1CjSp1KlWkAoDEJaN1KwKfX
+r2DDih1L9ivOmAoQFFCLYMGCtXARpFUwoCtMrDUXxBzAtkBduzMHyBTck7DZmzPTIli8eMAABo4F
+DFCwdIBRy5arat7MubPTzE+vIoZJoIDfBqhTDzDN2nRXwwEMwy5Lu7ZtsLNzng2soLfc373/2hxd
+eHXu24d3w1QsAEFzymmHTvZMvbr161RFK89ZukCAAl1Lw/88zpM88vPobwNdz769+/fw48ufT599
+gvv48+vfz7+///8ABijggAQWSGB9CCao4IIMNujggwqWhqCEEFYYH4UWZqjhhQVs6OGHILqEYYgk
+lujeiDcZcGKHjrnUIgAvxjiAizPCWKONNOaI444c7uiYjDoC6eONN704JHtCGlmfiivyuN6PRdYo
+JFBJSkmkjk9aaSKDEirZYpVBXnmkjVNGGZ+XYjr5IIoAqMjkemxuGWGHcta5nptN2qnnnnHu6WeD
+feb5Z31d3gjmmEYeCmaZHgY66KMQFhrmpIhqiaOiljJaX2ucduopp919KuqopJZq6qmopqrqqqy2
+6uqrsMb/KuustNY6KqS45qrrrrz26iuCNKUV17Bq5YbXTo5xpVV6yQWFFmPQMuYYZJNRht212Gar
+mXbOlhZBAID5xey45JYrlnLCsuXWYgEg0O5cdcV07Ex6jdeXcOWNt5e+/BL2o2M/EbfcYs1N55xc
+kll7WWVE/SvdZQ5LphRomVEsXcQNL/ywxBtzbHHHEX8sMsZEcZvVp919pzJ4se1Lk2z8tizzv/6+
+7DLMsf0b2M79ujyzz7L9GHPN/eo8HHLzmou0wAFcTDPNCmsr9dRUl5y0Tk8brfTWXNeWoaPsga2r
+2L9+TWfZaL9Hdtp8nj2fpGgXqumgSmoIN4h1sw0oi0Tm/31mmiSiSeWMfnPptnxrm6ln4novyLia
+jdf5eOQkMj65n3JbKePmhkJJZuee05ho6CBeTnnbooM+euhT/hvl6qO/Dridlh9etumnw4d77nLu
+froBwAcv/PDEF2/88cgnr/zyzDfv/PPQRy/99NRXb/312GevvfLblXV112QlXfX45JdvlMngp6/+
+1t0vpwCxvenG9PphiQ8VXxMgZf7+/EeFPrgF+FZ4wEW/AhrQJ9t5n1oK4BZiFYAugPkf1tiSrAim
+L2mKiRYCpuWY3vTvgyBUyv9Kg5rVFAAy3/EUAcxzwBaSC119actb2PIuucTrLkxziw71whe44Itn
+LwOYvv90FjTyYJBgB7MhwqYzsYVRLDINg6JkpIiZoohsilaUYhafaDEoUhGLYHRaxrSIsR8tZYTe
+SWMAUIgymbkxMELMWRyLuC/Y4EwwcZRjTYQ2njnmrI919Jcd/ZhHrfHxaDLxTVraxUjgQFAm3wvM
+vZZls5tZsmduPM4RD/ac3niQiRrT2BUfNkorXgxkqDQlKTPGsVZWjJUeY2UpX9kxq82PJikDD1fe
+eMdL/iyTMbsZ0X75RmD2cmjIxCQxh8lMmrSPNE/bSsCe6UL5bWc60BFA1BIWwm6GUII5idcAB1PN
+cpqLmvW7pTmdyTRvuvOdZ4zkOudZwKzZ8574zKc+98n/z376858ADahAB0rQghr0oAhNqEIX6joL
+1a5xvuMdnGwn0V1FtKJ7mxDfMlS493QUAHeD3II+Sh+SZjRrDPLb3OZjUkhhqKF/+5M9P8c6s2l0
+SIT7UqY0F6ac5pRS7ZGUTikFpaLuVHRAVdyhHJS52GGKqEfFKXxairmNIimqK80RkJ561cHRrEg2
+Bcqb3nQTuGGKdZ2Dqux0Z1UsfbVSa8XS59zz1rnKZ6xB5dtXnQpTu6bOUn4tXF179VLS9bWueUNs
+3wxLusE5tj2zm5NY7zRRiFIUo5SdbGUxS9jLcrZyns2rZem62Mdi9qKfDeuDqApZMbGWdqENW2zH
+1tan//XUc7DjquxeK9nU0vavaoUr5N561saijlCzzRVqK7pc367Js4mNrHPVltyyVtel152udbWL
+Xe6eSFngDa94weuA8Zr3vOhNr3rXy972MsS98I2vfOfr3vLS9774zS987Ytf7/r3vwAOcH2Whk56
+2g+eCHYnOOnJYPoVuFkNtqazYJLgCndzwRHOMPsmHCxPxk8n8mTwgZ+SlPxZ+MTVQWNrKKnhFquH
+wwNzYLGmCeMMY9DDOKbLtBQAAQ+i+MfbOlaoTKM1Fxv5XBwWlml2uK610GU4DzbOX1isviPyJZuN
+eUwHtwnkLkNFxa1ZzXhZeGQjowsuS15ADJ38ZHmpc/8wcfkhHPPoEzK7OYEbRBhlONjBytCsll7u
+H2icgkYGlPAxDViNAFPonRXOOSx2LjOkEThhBcKFyWt51yNx+Ey3jCfOVPZZMcOZTjw359QIoJY2
+QanKMQY6hINuCph/ZGhFE7ArjcaZqCWdvkifuS9NdpewgwOYSHo6Nk7eYKj3csg7Eq2Z7DT1wTxJ
+MLpweYoha6Irtx3GVHoxlbCs4sa8SEtyA9pj5ZYlLG25m1x+R8xqTGOud53MYzobiIJU5mxgdu8/
+zizfowY4tHXt5sRAi8lqhheLQ/xpCi6bl/W+JJmPiGpUO8faDNN2Kc8da25vPJTeDje4aRnLcatb
+1kL/tqd44j3vYLbsmL/Mjcx9OcxKAi2Zy6R5xJUZsJfNBTiOlDPDc+ZwCzK7kH6s49ElbPCKWws6
+rF53uM0oxqq3Mosld6UWo8hFkZt85FT/GLa7LsKhr5yAt9430ouo62bvEY84P+Rg5ph0YNo9k3xs
+e7PpjMNwVsvDFYx2jbEW6XJtElq+uXjUX834sr/5ZKzRimnAVXhy8rqFBQYviB9v4HZiU5ugh/q1
+G096DL9sgKiv/OXN+WCvDH2dIya97LPz+tXbvucvbj3r2zn73k/F9LcPvoQFnCADGf/4yE++8pcP
+IOJrl1ZDNlX0bSUrxmRQg9jPvva3z/3ue//7i7k+//jHP37qm1/650//q1T7tuwOqrm8g7/zqTt/
+h2ZX/h/CP+X0X3+g8N+/D6U3/yeA7td/vWWAGYVcIiUnJCU3iuMgvEVapdNWDSJY0lVSF/goFJJV
+qfOADFhaZhKB9KeAnONTu7VWJUgmXhVZmRNce4UmsNOBrYVWIihbw5VWg3VYDRWDMriCcUOBPjgp
+fSWDVQKDgCM4IZiB9PFQXLVUTThYlcU5LrhTO5hWN3hbNeh/QPg6SqU5uIVVxHWEQ2hRWyhccxOG
+JQhYEuiBE8geeGKDTwhUcbiAIFVbWzWHraOGUzgfbwiHaTJUZgiGwZUlcsUrGyiIl6IpediFSeWB
+KvelhO2nWSmyWfWRhQnoXWTVJjaIIJYYYAPIXQHINp+YNqM4f6XoXCiCV5RIigX4O5O4iQiYf60Y
+iyJCUZm4XQToUSBYiGVzi7hIixtyURzYWl3lK6HIihgIirMIjGxVIVkYXb9yjD+ogoHYU1D1U0cy
+jM/FjMF4OHiIiIxYjRp4f8sIWzwCjVfIi0vFi23IjTb1jYO4h2OiXOQ4Wkb4gDB1j3JIg5BoOO4Y
+VmiYW+EYWFWIVnE1jjeVi7R4isQXKOgYi9J4O+X4WQwpYBX5fvqVkRq5kRzZkR75kSAZkiI5kvoF
+fQx1kiiZkiq5kizZki75kjBJMwEBADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.	Complétez toutes les aires d'information requises. La première étape consiste à sélectionner le numéro de projet </run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>selon son domaine en activant la flèche de défilement </run><picture
+ height='15px' width='18px'><gif originalformat='notesbitmap'>
+R0lGODlhEgAPAOIAAP///7i4uAAAAHh4eKioqAAAAAAAAAAAACwAAAAAEgAPAEAIXAABCBxIsOBA
+AgACJAzAMICAhQwHPBSosKFFixIBIAQgoKPHjx8JXhzJUCDCigxBNsx4EiLJABkNypxJc6bCmgIn
+JnRJkuVOix4h+kT5EubDlgOSKl2aVCfOggEBADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/> </run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>. Cliquez une fois sur le projet désiré puis sur «OK».</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><picture height='47px' width='357px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhZQEvAOIAAP////j4AAAAAMDAAICAAIAAAAAAAAAAACwAAAAAZQEvAEAI/wABCBxIsKDB
+gwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjw8DiBxJsqSAkihTqlzJsqXLlzBjypxJs+ZGAQII
+4hSIMyeAnTx9AgX6U6hPkEg5xjyZkulIplBJRn0q0unUqiapBnC6FWtXrVxPcv3q9anVqle/pl1L
+NuaAAAPiyp07gADXpBCJ4t2Lt6bfv4ADL6U5VrBhkRyJ6j2odzHfx5AjS55MufLAno0xDzXaU6fm
+y5hBiw7aOajl06hTq17NurXr17BjZyxQYKFmx7aPyk6d8i2BrE01az0cuDDxv8aP+72p2/Pooqah
+R8e92+PgpirZtr2qfbj271Lbbv83eZZsWK/nxydH6RsuXLp07ZKsTn+y8vv48+vfn5J5wtvTHbXZ
+aIoZRaCAzdWn4IIMNujggxBGKOGEFFZo4YUYPsbfhhx26GFLGYZoUG8k/SbehyimqOJKDdFGm0KL
+UUeRjCIeRKKJwwEX3nop8ojdiiv5SKJLd2lEXYEHkhaadDU2dB1KyUEl3HhoWTWlVDiZhRl6UxY2
+Vno5cheeWl1CCVN7b83V03t1FakajU1G9CSQdLIk5I/EvTXSb74R4OefgMo3Upwi1mnooYgiRuii
+jDZqmYyfFbVZaUoWSGloliLp6KacWhRjTpoOaFCoCEYnHZydpqrqmwmu6uqrsMb/KuustNZq6624
+5qrrrnIm6uuvHvLqGrDEFoufsK31RldZxjbr7KDIrnbjn8w+ay2xDLno4n+6oRqRt3HeqOO4aiV6
+55i+nlsSfOyWlK22tSH0qaScaUpvvUxu2puf5OaIlZVZahlWwFUat6bA3h1c8FYEL5yVwmI5bJ7C
+DGdJ8UtpsiuXoIpmdFuppopK6qsyfVwxxMwCHLCX6FZLJXj9XplyWenBvKPJJMXFJ5uabewmRkeC
+fKqBo7aqL0xRZucylWOemxZYePoL5szmNb00yxgHsDNdJ83FcQD+MdbtkkxGahq4Gc7ZMrpbIizl
+wA1riSXBKs9dnts3331ywg23en1iznJp7Z7GPs+3Gtqrqn0th+quLVigJn6Mc8fRorb45ZgbXrnl
+mXd+7ea8eS56sx2ZnZfREyEO+uqwzcst67DfGnSSZRNdGqm2Cx377qzNHmClog5N+9Cm8248aiP/
+XnuARAuvfL7HRy+i6tJXz2jx1mev/fbcLxQQADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.	Cliquez sur la touche «Générer un code financier» de la barre d'outils de façon à ajouter le code financier au document. (Veuillez consulter «Générer un code financier» pour plus de détails).</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><picture height='34px' width='188px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhvAAiAOMAAMDAAAAAANDQyMDAwP///9DQAAD4AACAAAAA+AAAgAAAAAAAAAAAAAAAAAAA
+AAAAACwAAAAAvAAiAEAI/wAFCBxIsKDBgwgTKlzIsKHDhxAjSow4oKLFixYJWkwQ4ICBjx8PBAgA
+suTIAABSqlzJsqXLlzBjypxJs6bNmwAqarwYwGJPjAN2DuB40sDJox2Roky5FMBJpiqXjoTqNCpT
+qVadNqXKsilWql67HgX7daXUr2HLnmWpcyDQtxeFEh1pVKndrTjz6t3Lt+/NtgIvEhhMuLDhw4gT
+K17MuLHjx5AjS54sGS5GoQP8at7MubPnlYAFWIYrt2PJuiRPoxaLl2vM1jif0oTN+iltvrddhgZ6
+krTbiglUgxzpMeRYs1O9TuWqPGzU5VVdyr669bjW1tiZP1/u/Dpz6K13j/8Givmz+fPo06cUPz7u
+74rq48ufb5N9e/Zz7+qnz7//Xvv3lSYcXapN59+BCL4EYHul6edgVhDSh1durr1E4YEA/mRZg6ch
+5ZFI1k1YYXTRZTeiiVY5pyJMJq4IVlYikhjhekG9d1+NgQFH4HDEnQbihQkGKd+C45Un5JFI1oej
+aBlNJEABUEYp5ZRUVmnllVhmqeWWXHbp5ZdSOinmmGSWaeaZaCoUoI1Jtummbkve2GSOAyDg4INv
+5nkekaMJZadpxu1oEnR6FroZnxu+Z+eAqXVIqKGQ/hennJPW2ShIIDIKZKScwonZmnT+WdyPl/JY
+3YxAbsrijBbOpCp9C/a29pafd+434nYpVgdeibueKh2hIT4q44vA9qqrWr2CVmlFSM2qaFEf2YXa
+dDEipd113G2XbVfSwQijdSdei+211R4X3rIDaKihe6GWGi200/qqFbnevkhvSy6WWO+wLe6rlnb/
+DpsTugw+q6mjwnaqcEyI+tbujkdpuvDEMzXs7MO1KkXxxgoSXCSbHIfsl31igmnyySinrPLKWCqU
+8cswxyzzzDTXbPPNGVOm88489+zzz0AnFhAAOw==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>4.	Sélectionnez le type d'achat (MasterCard, VISA, bon de commande) et le détenteur de la carte d'achat qui signera la commande.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='7' leftmargin='1.2500in'/>
+<par def='7'><picture height='49px' width='461px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhzQExAOIAAP////j4AAAAAMDAAICAANDQAIAAAAAAACwAAAAAzQExAEAI/wABCBxIsKDB
+gwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDirwYoKTJAAQICFgpIOXJlwEEwIw5s6bNmyxl
+3rSpc6fPmylzuuSZs+fPl0aPKo3J8mfSpSWDshw68ynNnkVhWg2wcaXBnAO9ChQrNmHZsmEFpB2r
+tiDZtmfhth25ECaBAgVO4sVpEmtJozr90hz8t3Dfk4ERGya8EirUu3lN7uVZM3DixVcPEx4sGLBW
+xYuxXja81SRkvZF3Jh1d2KpRurBjy55Nu7bt27hzUzTA24BCtACAf50LUXhX4iGN1305AOXR5j51
+6p5Ovbr169izR1wKPWqA5inDi/8PL127+fPo06tfz769+/fw48u36Li+/fv48+vfz7+///+OJdRb
+bwyhZaBaRRFXFEIJspUWSwQtGBxYD77llXJ0vaRSTal95hdro13mGVOYgUZaiKXpt+FMHSLlImN/
+gUgiZ6B1ZmKJnKGImWU2rQhTiy/CGONTgp00EnAYzicbgEw26eSTUEYpZZNKVikRTN0515+VXHYZ
+H5JySWghhW85OKGYcpnp1lxjQrjmcGtNGGeCyBFUH3jffTfAnk3tOcCKXgYq6KCEFmrooYgmquii
+jDbq6KMZTSnppJRWaumlPwk4oG8LJelRmRJ5GmGdtdn1FJCIrZZiVUcR6diq+fn/KBlfQS4Fq32u
+0mqfrCWhqplmrG0mk1XHvSnnscfGBaeao5JZJ6hnuilqhifxOmtlrZFmYlMn5hQatsD+utl/1vZK
+Gava4mjjr9wy5e2N6Qo7JLcplhuAr4eN+Jm775pU7LJsURiwcg0Oh6a0aQ6MMLK0YerwwxBHLLFS
+kCo58cUYZ6wxlBXHN2nHIC/KW6cFG4vetLdhqeV/IbccMphqgqrsmckmXLOZbo4acMzPsomgzzvf
+zGxB+TXn59FHA+ry0o8eGKfQM8tsc5kLL1s1wzwjC+3WpAp0p3NGI4200kyXbfbZ20mK9tpst+32
+23DHLffcdNdt28Z456333jfZ/50b34AHLrjEfuPWY3iDXyxe4hMvfulCI5tFJ8oWQVtc1+eZCliK
+rkF16471fb5rY31xXqutTup77uibr65YsKvVpNCADVGekeUPUW47SBpuhS/ppZcOvLtDzpvvuKkC
+P2zxojtm7+8ehmsZ6cNuPny7/O5bY47LG5/tTM+7TiPyr8/0L7MXSv30nMJFDTSEXA99d7W+U/ah
+8NTvO2KRWr3Lf/OPqV9lsvItIW0Lf8GSF7zGp8D9AUWA4DJg8NgFk/PhbGphEtjT2gc0rEGtg7v7
+iKl+RKvuyehFCZTg9+KlOgBZC1/kExL/CthCBqJre6Aj36peGJ0GovB0FhzYg/8uuL4L9ox9a1Ef
+EXVjE7xMRldF8tb0atQuVV2vKd1jnpScCEMcBQ9E9GIXFouHvwFeL3mMqeJRuKiU2M0rha85koIw
+9zbG2fGOeORPcjhYuDz68Y+A7Fvh5hfIQhoSj4NMpCIXyUiKYAlp/mmkJCdJHZU5To+UzGRENsWp
+gzhNZ6CMSAhzR8cgNsSSShGbKv2lyVY2hJOSM9nBMugzhLUJidEyWM4kpMtaxqVgvAQOlqiyk7Cp
+ck9kc6UyK4ec+Antg0uEpge1hkGANetqzjzInf6UJz8VxU/JXKY4RdlMm4HSOEpEZ8LUictYyrKa
+09SmY/BkTD7pCZnlGac+Sck+S4WdU2DO7CeaGBRMDV7Tl/Cboz+Hxh0/ge2exwznPidKUaIpZTwE
+eOPk8lnRjnr0oyANqUhHStKSmpQ9AQEAOw==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>5.	Toutes les informations concernant «Expédié à» et «Facture à» seront automatiquement complétées par le système.  Si vous désirez modifier les noms, cliquez sur la flèche de défilement </run><picture
+ height='15px' width='18px'><gif originalformat='notesbitmap'>
+R0lGODlhEgAPAOIAAP///7i4uAAAAHh4eKioqAAAAAAAAAAAACwAAAAAEgAPAEAIXAABCBxIsOBA
+AgACJAzAMICAhQwHPBSosKFFixIBIAQgoKPHjx8JXhzJUCDCigxBNsx4EiLJABkNypxJc6bCmgIn
+JnRJkuVOix4h+kT5EubDlgOSKl2aVCfOggEBADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/> à coté des champs «Expédié à» et «Facture à».</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='8' leftmargin='1.0118in' rightmargin='93%' firstlineleftmargin='0.8118in'/>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>6. (NOUVEAU - Ajouté dans la version août 2009) entrez l'étage et la pièce sous les informations «Expédié à».  L'étage et la pièce seront utilisés pour livrer les items commandés.</run></par>
+<par def='6'><picture height='73px' width='170px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhqgBJAOIAAPj4AP///wAAAICAAMDAAIAAAMDAwAAAACwAAAAAqgBJAEAI/wADCBxIsKDB
+gwgTKlzIsKHDhxAjSiwIoKLFixgrCtjIUYDFjQBAhhRJ0qNGkyVRqvyo0uRFkSMzypxJs6ZNjBMp
+3tw5EybPn0CDCh06MyfBoD5PslR6siPTmFCjEp1KNajRgVWzat3KdepVgRcLiB0rM+lUsy9dZkUr
+dSoBAAOIfg2AtCPHqCDtqrWb1ilev21Z8k0rGDBVAojfxs04t6vjx5C7NgbKNrLly3Lnat7MubPn
+z0cxiqWpt/LNyiWpmt6qOPPVuj09pmQKM/XIlX+fEtaNWWZrxl9hS026urfxrZN/oh1MW2/Tu89d
+Fj/uODn169gTJ7YanLJajNBzi/+vjZs878JmyRvWingxzu7Y48sXan2neailz+efz79i/f4ABvhf
+gAQS9ZZF7vFU31gFxHbcdAUC8Bt98PGE2n34OTdeS34tJ9132cEl04BcQRhhZAdWlKBFJJ7oomUt
+OvgXdB0apuFtGL5IVYxlgejhU7ZlqCOMFQZo4pBeFYnkksgpyeSSig0gJXevWcTgaBn9qNSNOO41
+mHpgZrkekGPaRMCUQ/EoJmkYBrmbkIHFmWNzS3U14UVqqgbik5BJ6eeK/jk5lE9H8olZnn3RueFS
+cxqqFaKCKXqfeY06WhWk51mKJGicdurpp6CGKuqoAhlg6qmk0qUpklGi+ZN1Vzb/uKZWphVak61B
+3QkUrFf26OuWzHXZF40fhjdmsI+dCaiCgrLJ5od1TgotnNSCh2x2Z47YrIw9TlttnXBqaS248uka
+aJXK5UdpsOx+WWylXeJalXYiAocuZPKuatOfruK5rb4AA4Dpt/kG3OS99uHmrMHUDZzetEHaRiy5
+DBf176zDTrxoc9dW/B7Cp/kIscISR7ynxyxefF3BBg+Mb5ko3+RyzC7OTHOENt/M2kXL1vQflt12
+bOHJ3wr367z1Uogwg9xixvLQ7CVNpVF1MZdXS4qGW3K0D1NM7dOvqvymmN6mVCPX0bkJbtficWWu
+wGJ7DWxTWZdc3shHsw2vW1KnTgxyV2BXnGLf51JtWeA622t44prmHDLjkDls9bteGgsY4nxKjvbG
+b2JuqeaS7sk25Mz+fevk6GWceqaQg066fI6/jl3ssjec6u245x5RQAA7
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>7.  Sélectionnez le nom de la compagnie en activant la flèche de défilement </run><picture
+ height='15px' width='18px'><gif originalformat='notesbitmap'>
+R0lGODlhEgAPAOIAAP///7i4uAAAAHh4eKioqAAAAAAAAAAAACwAAAAAEgAPAEAIXAABCBxIsOBA
+AgACJAzAMICAhQwHPBSosKFFixIBIAQgoKPHjx8JXhzJUCDCigxBNsx4EiLJABkNypxJc6bCmgIn
+JnRJkuVOix4h+kT5EubDlgOSKl2aVCfOggEBADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/> </run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>pour choisir une compagnie dans la liste ou en tapant dans le champ les premières lettres du nom de la compagnie. Utilisez le curseur pour passer au champ suivant. Si la compagnie ne figure pas dans la base de données, le système vous demandera si vous désirez l'ajouter. Pour ce faire, complétez toutes les informations requises. Une demande sera envoyée par courrier à l'administrateur.  Notez que le nom de la compagnie, le téléphone et le fax sont des champs obligatoires.</run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><picture height='82px' width='316px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+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
+Ow==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>8.  Sélectionnez la devise de la commande (par ex., dollar canadien (CAD), dollar américain (USD)).  Notez que la TPS n'est pas calculé si la devise n'est pas canadienne.</run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><picture height='21px' width='218px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlh2gAVAOIAAP////j4AAAAAMDAAICAAMDAwICAgAAAACwAAAAA2gAVAEAI/wABCBxIsKDB
+gwgTKlzIsKHDhxAZFphIMaLFiw8FCCioUWBHjxsBfBwZ8iNBkyYxqlypMoDLlzBjvhQgc6ZNlzRj
+5oQ5YACBAAOA9tRItKfPnS5ZKl3KtOnFmlCjSp1KtSpMhSlTOt3KtSvBqEF/ykSKNEDZs1SNql0b
+NCZWokQ5wpV7MqTIuAPh2tXqtW9Dq2OJ4qxJU29ZtQF+BmW7lkBZv5AjS55MubLlyxjBJibAGbDn
+z1Pf0gWJN+tGlHhJo8ZcGWxnnVILwyxrVupixkYdu02olSTCuSAN+mZNXCBo2rJnD4YdMyxQoUZp
+qtV9tbj168ZBa4/KubtYw+AfY6cfT768+fPoDRYgaCB9Q/Aq+bq3rFlsYI1jderdTlV03fkAIlRf
+fszVRhaBULU1lXi/2RXcXXmd5mBHww0HYYBMHRfVThwiWNNtuB21W4OjwXehhcDdpReGGX5GG06G
+Ladcc4k9p5ZguTF4kGkR9qiajxXu5SCLLWlo04vJ3USjYtDhRt1LREYZEX9U8gQTk95l2Z2OUnaZ
+UJVghpmUl2SWaeaZaLIUEAA7
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>9.  Complétez la description des articles, la quantité et le prix unitaire. Le prix reporté sera automatiquement calculé.</run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>10. Entrez le coût de l'expédition, le coût des douanes et le taux d'échange si nécessaire. Le système ajustera le "coût avec TPS applicable" automatiquement.</run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><picture height='136px' width='299px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+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
+5BwX2XyMtvEdlbzkJJXZ0qy0159FzGkyBQQAOw==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>11.Lorsque les informations de la commande sont complètes, cliquez sur le bouton "Sauvegarder".  Le système va valider les informations et vous laissera savoir s'il y a des informations manquantes.  À ce point, la commande est considéré comme un brouillon et aucun courriel n'as encore été envoyé à l'administrateur.  Si la validation passe, vous pouvez fermer la commande et retourner plus tard pour ajouter des informations et l'envoyer à l'administrateur.</run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><picture height='38px' width='115px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhcwAmAOMAAMDAANDQyP///8DAwAAAAEBAQICAgNDQAAD4AACAAICAAPj4AACAgAD4+EhI
+SAAAACwAAAAAcwAmAEAI/wANCBxIsKDBgwgTKlzIsOFABw4NDpgYoGKAiRgHANjIEUCCBB1DihxJ
+sqTJkyhTbrRoESPLjAQYIACwIMHMmwBwziTQkSdHnyqDCv05FADLii5bZtQYkoBPp0WjinQKVarQ
+o1izat3KtavXr2DDdk2KdKnZs2jTql3Ltq1bs1jJXszIAKTOnHiBWt3LV2VcikozbiRgk2ZhpwoS
+K9DLeDBRAECfQnbc9HFkypMp68Uc8u+Al0v7ih5tFauA06hTq17NurXr17Bjy579Wqzt27hz6wb9
+OTBG0sCDo/TM+/fGj3h3Cl/el7hvBgNq3r27eTBV5lGrDz8q1yzhmdKT5/+t+vP6VMw8L1/OzN6y
+ZM3uRzovK/inTQKKFVifat46eajr+ddTf1S9519k/5E031z1YecgaQua9eCEoplG24UYZqjhhq4V
+4OGHIIYo4ogklmjiiSimqKKJu7Xo4ou6dffWjDTWaOOMEYZG4Y5S5djgcYfxKKR83AFG328fTdfe
+kDz6OAADAhSmpHJMNllkb0cy0IBhU+ZV2WNVfnnVlcUN8B2X4umU4EgEErVef5ARmOBTcqonkpMT
+QVZYeDchtlhJCFb1ZmYFGhiooe6Zp51RZPqW52B7+pnYfpwhSmiAg8KnKXuWLoonU/bhp1+cYS65
+3Kdsklfqjqiu6upKjR41+eirq+J2wK245qrrrrz26uuvwAYrrK5YFWrsscgmq+yyzDbr7LOFcijt
+tNRWa+212GarWkAAOw==
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='8'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>12. Lorsque vous êtes prêt à envoyer la commande à l'administrateur, cliquez sur le bouton "Sauvegarder" et ensuite cliquez sur "Envoyer à l'Admin".  Notez que le système vous demandera de sauvegarder si ce n'est pas déjà fait. Un courriel sera envoyé à l'administrateur.  Vous recevrez un courriel lorsque l'administrateur actionnera la commande.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><picture height='35px' width='140px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhjAAjAOMAAMDAANDQyMDAwAAAAEBAQP///4CAgPj4AICAANDQAPgAAACAAEhISAAAAAAA
+AAAAACwAAAAAjAAjAEAI/wANCBxIsKDBgwgTKlzIsKFDgQweSjQgoGKAiwkAaNzIseOAjiBDihxJ
+sqTJkyhTahRw8WJFlhg3IphJs2ZNjxw/qtzJc6NOnQA+As3ZUyRMlxZjakRwoKnTp06HFiU5QOrU
+q1g3Hm3JtavXr2DDih1LtqzZs2jBvuT6sq3bt3Djyp1Lt67du3jrsk0aIKPJqgNoAs5KuLBhjlvX
+KgXA1CkCxoyfflzwGCdIoD+DasS8WbNnopY/d84JOPNozqdHi165N3He17Bjy579Oq3t27hz697d
+uqXfw8CDCzfaezHV0laHK1+OuHjflFIRDEWefHl106pDUz3p+uhvphuhHv9QoOAAUMqkB2/OzLm9
+z88/q6+Wirp+/NRBsWt1/l28f/nUqYbaetOl995l6h2YnWelCXggdlZ15xtzFFZYlIQt0abhhhx2
+KBdXBYQo4ogklmjiiSimqOKKLLbo4osjEiDjjDTWaOONOOao44489ujjj0DSyNuQRBZppFiKIeXh
+kkw2aRd/FkYpZUkYPndSVVNmCVyVv41EXYJahrkTlyhhuZR0lYmppklkTlWgmsnpd51hbUbmH1Rv
+LtiZmfZBSOB79JkJGlHTqSfUfakJ2lyGfPV353jl6YTeoIOy56Bm8RkaUoOUwnfpgKYNuB+j3sn0
+FGSPSeblpgqC2uqDlyk/mB19ntbK4KWLKjnhUo+qypx8a44JpU9fBhjssWwOi+yyhFUZgJPQRhvt
+kdRWa61uxWar7bbcduvtt+CG+21AADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>13. La touche «Sortie» permet de fermer le document.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><picture height='35px' width='69px'><border style='solid' width='1px'
+ dropshadow='true'/><gif originalformat='notesbitmap'>
+R0lGODlhRQAjAOMAAMDAANDQyMDAwAAAAEBAQP///4CAgPj4AICAAEhISAAAAAAAAAAAAAAAAAAA
+AAAAACwAAAAARQAjAEAI/wANCBSYYKDBgwgTKlzIsGGAhwEEAJhIsaLFixgzatxYUYBHARAfSrw4
+YMDEAQdSHhiAAAFGkxRhcpS58SPIkCM5nqSps2dPmyGDCh1KtKjRo0hF2lzKtKnTp1CjfgyaMyPK
+ki1b+tzKESjOmSpXaiVZEaZMszFPqr3oFaLUt3DjQk1Kt65du1W56t3bcepXvoD5thUJViVLly9L
+8tS5uK9HqolPpkQgFjFJxWnXltS8FoDMwRFnokx52CrmmJs7e169kybovIFjd/XrVq7t21IDFNjN
+u7fv38CDCx9OnDeB48iTK1/OvLnz59CR351OnTps2djZ0iacvTvG197DO3G+6VZ01qziZz/+q3H0
+ytLpNYInK9nwWIs0G9NXT557a8zuVfaSaWd5BiBqrm0X2n4BwrcRWpxFqFhqAMzXXlgOlqUha6wV
+2GFmFSp43WUrxccfZCZ2Z2GKsr2G24swKljdjDQ+NOGNOOao44489rhjQAA7
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpESubject'><text>Creating a New Order</text></item>
+<item name='HelpFSubject'><text>Créer une nouvelle commande</text></item></document>
+

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='ReCalculateBudgets' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3 v4' publicaccess='false'
+ designerversion='5'>
+<noteinfo noteid='18e' unid='47C386311476C5BA85256C0200686677' sequence='9'>
+<created><datetime dst='true'>20020726T150019,75-04</datetime></created>
+<modified><datetime dst='true'>20260917T084237,64-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,06-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084237,63-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084237,63-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,56-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='all'><search type='byformnames'><formchoice name='Project'/></search></documentset><code
+ event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+     Dim ws As New notesuiworkspace
+     Dim doc As notesdocument
+     Dim bOpTotal As Currency
+     Dim bTravTotal As Currency
+     Dim bConTotal As Currency
+     Dim bCapTotal As Currency
+     Dim purchCat As String
+     
+     Dim s As New notessession
+     Dim db As notesdatabase
+     Dim dv As notesview
+     Dim oDoc As notesdocument
+     Dim dc As notesdocumentcollection
+     
+     bOpTotal = 0
+     bTravTotal = 0
+     bConTotal = 0
+     bCapTotal = 0
+     
+     
+     Set uidoc=ws.currentdocument
+     Set db=s.CurrentDatabase
+     Set dc=db.UnprocessedDocuments
+     Set dv=db.GetView("reflookup")
+     Set doc=dc.GetFirstDocument
+     While Not (doc Is Nothing)
+          Set oDoc = dv.GetFirstDocument
+          While Not (oDoc Is Nothing)
+               purchCat = oDoc.FinCategory(0)
+               If oDoc.ProjectSelection(0)=Cstr(doc.Project(0)) Then
+                    Messagebox oDoc.ProjectSelection(0) + " --&gt; " + doc.Project(0)
+                    Select Case purchCat
+                    Case "Operating"
+                         If oDoc.GSTExempt(0)="Yes" Then
+                              bOpTotal = bOpTotal + oDoc.TotCost(0)                       
+                         Else
+                              bOpTotal = bOpTotal + oDoc.TotCostTaxed(0)
+                         End If
+                    Case "Travel"
+                         If oDoc.GSTExempt(0)="Yes" Then
+                              bTravTotal = bTravTotal + oDoc.TotCost(0)                       
+                         Else
+                              bTravTotal = bTravTotal + oDoc.TotCostTaxed(0)
+                         End If
+                    Case "Contract"
+                         If oDoc.GSTExempt(0)="Yes" Then
+                              bConTotal = bConTotal + oDoc.TotCost(0)                       
+                         Else
+                              bConTotal = bConTotal + oDoc.TotCostTaxed(0)
+                         End If
+                    Case "Capital"
+                         If oDoc.GSTExempt(0)="Yes" Then
+                              bCapTotal = bCapTotal + oDoc.TotCost(0)                       
+                         Else
+                              bCapTotal = bCapTotal + oDoc.TotCostTaxed(0)
+                         End If
+                    End Select
+                    
+               End If
+               Set oDoc=dv.GetNextDocument(oDoc)
+          Wend
+          doc.budgetOp_com = bOpTotal
+          doc.budgetTrav_com=bTravTotal
+          doc.budgetContr_com=bConTotal
+          doc.budgetCap_com=bCapTotal
+          doc.Save True, True
+          Set doc=dc.GetNextDocument(doc)
+          bOpTotal = 0
+          bTravTotal = 0
+          bConTotal = 0
+          bCapTotal = 0
+     Wend
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20030514T085030,20-04</datetime></agentmodified></rundata>
+<item name='$POID'><datetime dst='true'>20060803T143119,13-04</datetime></item></agent>
+

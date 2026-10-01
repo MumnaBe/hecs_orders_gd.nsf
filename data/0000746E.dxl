@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost2'>
+<noteinfo noteid='746e' unid='C5AE6004516E6F7E85257E23004A1CE7' sequence='7'>
+<created><datetime dst='true'>20150410T092930,63-04</datetime></created>
+<modified><datetime dst='true'>20260917T085201,20-04</datetime></modified>
+<revised><datetime dst='true'>20150410T095906,40-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085201,19-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085201,19-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephanie Gallagher/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Lindsy Bachly/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20150410T092930,66-04</datetime><datetime
+ dst='true'>20150410T093000,60-04</datetime><datetime dst='true'>20150410T095354,22-04</datetime><datetime
+ dst='true'>20150410T095355,21-04</datetime><datetime dst='true'>20150410T095905,26-04</datetime><datetime
+ dst='true'>20150410T095906,05-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100712T101928,55-04</datetime></item>
+<item name='Category'><text>Operating</text></item>
+<item name='SPA'><text>No</text></item>
+<item name='FundingSource'><text>CARA</text></item>
+<item name='GSTExempt'><text>No</text></item>
+<item name='CodeNumber'><text>8R1501</text></item>
+<item name='GLAccount'><textlist><text>Acids</text><text>Acq&lt;10K  Safety Alarm and Signal Equipment</text><text
+>Acq&lt;10K Client Software</text><text>Acq&lt;10K Computer Equipment Parts</text><text
+>Acq&lt;10K Computer &amp; Related Peripheral Equip</text><text>Acq&lt;10K Heating Air-conditionning Refrigeration Equip.</text><text
+>Acq&lt;10K Laptop and Related Peripheral Equip</text><text>Acq&lt;10K Meas Controlling Lab Med Optical Instr</text><text
+>Acq&lt;10K Networking Software</text><text>Acq&lt;10K Office Furniture Furnishing &amp; Part</text><text
+>Acq&lt;10K Other Office Equip and Parts</text><text>Acq&lt;10K Software Packages for Computers</text><text
+>Acq&gt;10K Meas Controlling Lab Med Optical Instr</text><text>Acq&gt;500K Meas Controlling Lab Med Optical Instr</text><text
+>Books Newspapers and Magazines</text><text>Clothing Other Than Uniforms</text><text
+>Conference Fees</text><text>Courier Services Incl Canada Post Priority Post</text><text
+>Electronic Subscriptions</text><text>Fees and Costs of Attending Seminars or Workshops</text><text
+>Fodder and Other Animal Feeds</text><text>Gasoline Products</text><text>Health Science Consultants</text><text
+>Housekeeping supplies</text><text>Inorganic &amp; Organic Chemicals</text><text
+>IT Specialized Consultants</text><text>Laboratory Supplies</text><text>Legal Services (Patents)</text><text
+>License/Maintenance Fees Client Software</text><text>Live Animals</text><text
+>Non-Anesthetic Gases</text><text>Other Printed Matter Printed Forms &amp; CD ROM Disks </text><text
+>Plastics and Rubber Products</text><text>Postage and Parcel Post </text><text
+>Printing Services</text><text>Professional and Technical Health Services (PDFs)</text><text
+>Publishing Services</text><text>R &amp; M Computer Equipment and Parts</text><text
+>R &amp; M Computer Hardware and Software</text><text>R &amp; M Electric Lighting &amp; Control Equipment</text><text
+>R &amp; M Furniture and Fixtures</text><text>R &amp; M Heating Air-conditionning Refrigeration Equip</text><text
+>R &amp; M Laboratory Buildings</text><text>R &amp; M Meas Controlling Lab Med &amp; Optical Instr</text><text
+>R &amp; M Office Machines and Equipment</text><text>Reallocation of Expenditures within a Department (Housing of Animals)</text><text
+>Rental of Digital Communications/Network Equipment (Rogers)</text><text>Research Contracts</text><text
+>Staff Language Training</text><text>Stationery Office Supplies and Artists' Materials</text><text
+>Translation Service</text><text>Travel Non-Public Servants Within Canada</text><text
+>Travel Public Servants Abroad </text><text>Travel Public Servants Conference all Locations</text><text
+>Travel Public Servants Local Transportation</text><text>Travel Public Servants United States of America</text><text
+>Travel Public Servants Within Canada</text><text>Tuition Fees and Related Costs During Own Time</text><text
+>Tuition Fees and Related Costs During Paid Time</text></textlist></item>
+<item name='ProgActiv'><text>GH10 - Research and Development</text></item>
+<item name='IntOrd'><text>4340565 CARA - RV - FY 2015-2016</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20080403T130706,00-04</datetime></item>
+<item name='edit_history'><textlist><text>Maria Ianni</text><text>Maria Ianni</text><text
+>Maria Ianni</text><text>Maria Ianni</text><text>Maria Ianni</text><text>Maria Ianni</text><text
+>Dian Sinclair</text><text>Shreedat Phulesar</text><text>Shreedat Phulesar</text><text
+>Shreedat Phulesar</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2015-04-10 09:59:05 AM</text><text
+>2015-04-10 09:59:05 AM</text><text>2015-04-10 09:59:04 AM</text><text>2015-04-10 09:53:54 AM</text><text
+>2015-04-10 09:53:53 AM</text><text>2015-04-10 09:29:59 AM</text><text>2014-04-07 02:36:55 PM</text><text
+>2013-09-25 04:27:23 PM</text><text>2013-09-25 04:21:49 PM</text><text>2013-09-25 04:19:56 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Maria Ianni;</text><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Maria Ianni;</text><text>Dian Sinclair;</text><text>Shreedat Phulesar;</text><text
+>Shreedat Phulesar;</text><text>Shreedat Phulesar;</text></textlist></item></document>
+

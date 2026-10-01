@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='60e6' unid='104DB8A5DD29E7028525788F0046C6B2' sequence='1'>
+<created><datetime dst='true'>20110513T085303,86-04</datetime></created>
+<modified><datetime dst='true'>20260917T085020,83-04</datetime></modified>
+<revised><datetime dst='true'>20110513T085945,73-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085020,82-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085020,82-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>The Toxicology Forum</text></item>
+<item name='CompPhone'><text>1-202-659-0030</text></item>
+<item name='CompAddress'><text>1300 Eye Street NW, Suite 1010 East</text></item>
+<item name='CompFax'><text>1-202-789-0905</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Catherine Rytkonen</text></item>
+<item name='CompCity'><text>Washington</text></item>
+<item name='InvContact'><text>Catherine Rytkonen</text></item>
+<item name='CompProvince'><text>DC</text></item>
+<item name='CompPostalCode'><text>20005-3314</text></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>info@toxforum.org</text></item>
+<item name='CompWeb'><text>http://toxforum.org/content/contact-us</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Dian Calagoure</text></item>
+<item name='date_create'><datetime dst='true'>20110513T085303,86-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

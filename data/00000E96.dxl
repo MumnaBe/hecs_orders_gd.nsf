@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='ChangeRequest'>
+<noteinfo noteid='e96' unid='1B80F6E88279EE5885256D3B004F118B' sequence='1'>
+<created><datetime dst='true'>20030604T102338,35-04</datetime></created>
+<modified><datetime dst='true'>20260917T084315,65-04</datetime></modified>
+<revised><datetime dst='true'>20030604T102338,36-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084315,64-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084315,64-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='KEYWORDOLD'><text>Cranston Snord</text></item>
+<item name='KEYWORDNEW'><text>marc-andre gougeon</text></item></document>
+

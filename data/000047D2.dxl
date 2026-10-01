@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='47d2' unid='EEC1D925B2D061B08525732400474976' sequence='8'>
+<created><datetime dst='true'>20070726T085838,62-04</datetime></created>
+<modified><datetime dst='true'>20260917T084807,17-04</datetime></modified>
+<revised><datetime dst='true'>20120416T080402,20-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084807,16-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084807,16-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20070726T085951,25-04</datetime><datetime
+ dst='true'>20070726T090105,85-04</datetime><datetime dst='true'>20070726T090128,21-04</datetime><datetime
+ dst='true'>20090902T074626,53-04</datetime><datetime dst='true'>20090902T074853,45-04</datetime><datetime
+>20100114T122254,31-05</datetime><datetime>20100114T122312,81-05</datetime></revisions>
+<item name='OriginalModTime'><datetime>20100114T122318,15-05</datetime></item>
+<item name='CompName'><text>Lonza Walkersville, Inc.</text></item>
+<item name='CompPhone'><text>800-638-8174</text></item>
+<item name='CompAddress'><text>8830 Biggs Ford Rd. </text></item>
+<item name='CompFax'><text>1-301-845-8338</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Walkersville</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text> Maryland</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>21793</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text> 5048695</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20070726T085838,62-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><textlist><text>Dian Calagoure</text><text>Dian Calagoure</text><text
+>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2012-04-16 08:04:08 AM</text><text
+>2010-01-14 12:23:18 PM</text><text>2010-01-14 12:22:59 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dian Calagoure;</text><text>Dian Calagoure;</text><text
+>Dian Calagoure;</text></textlist></item></document>
+

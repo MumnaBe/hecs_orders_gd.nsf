@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='3102' unid='C3866A5E4F9DDC6385256BEB005F0986' sequence='6'>
+<created><datetime dst='true'>20020703T131803,58-04</datetime></created>
+<modified><datetime dst='true'>20260917T084549,40-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075021,82-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084549,39-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084549,39-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,60-04</datetime><datetime
+>20021104T141456,33-05</datetime><datetime>20021205T144315,84-05</datetime><datetime
+>20031112T091423,46-05</datetime><datetime dst='true'>20090902T074602,68-04</datetime></revisions>
+<item name='CompName'><text>Scientific Products &amp; Equipment</text></item>
+<item name='CompPhone'><text>1-800-268-1956, (416) 443-2506</text></item>
+<item name='CompAddress'><text>303-95 Barber Greene Rd.</text></item>
+<item name='CompFax'><text>(416) 443-2570</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Carolyn</text></item>
+<item name='CompCity'><text>North York</text></item>
+<item name='InvContact'><text>Carolyn</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>M3C 3E9</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>HE175</text></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text>SPE</text></item>
+<item name='CompEmail'><text>info@scipro.com</text></item>
+<item name='CompWeb'><text>www.scipro.com</text></item>
+<item name='comment'><text>Ship To Add: 95 Barber Greene Rd. Suite 303, <break
+/>North York, ON<break/> M3C 3E9</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

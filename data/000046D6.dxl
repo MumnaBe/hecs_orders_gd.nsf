@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='46d6' unid='BF9D7561795EB614852572E9004737B2' sequence='1'>
+<created><datetime dst='true'>20070528T085753,14-04</datetime></created>
+<modified><datetime dst='true'>20260917T084801,76-04</datetime></modified>
+<revised><datetime dst='true'>20070528T085836,86-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084801,75-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084801,75-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20070528T085853,68-04</datetime></item>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>Fodder and Other Animal Feeds</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>57002</text></item></document>
+

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agentdata>
+<agentdata xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='132' unid='5F164EF44DFAF00885256F71005AECF6' sequence='1'>
+<created><datetime>20041221T113309,02-05</datetime></created>
+<modified><datetime dst='true'>20260917T084235,68-04</datetime></modified>
+<revised><datetime>20041221T113309,06-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084235,67-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084235,67-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name></updatedby></agentdata>
+

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='2c36' unid='ACCB57C8BFD630CF85256BEB005F09C7' sequence='10'>
+<created><datetime dst='true'>20020703T131804,23-04</datetime></created>
+<modified><datetime dst='true'>20260917T084525,19-04</datetime></modified>
+<revised><datetime dst='true'>20150422T083306,07-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084525,18-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084525,18-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,25-04</datetime><datetime
+>20021104T141457,63-05</datetime><datetime dst='true'>20050420T082053,58-04</datetime><datetime
+ dst='true'>20050428T153615,14-04</datetime><datetime dst='true'>20090902T074414,60-04</datetime><datetime
+ dst='true'>20090902T074832,85-04</datetime><datetime dst='true'>20150422T083254,54-04</datetime><datetime
+ dst='true'>20150422T083257,32-04</datetime><datetime dst='true'>20150422T083257,76-04</datetime></revisions>
+<item name='CompName'><text>Insight Canada Inc.</text></item>
+<item name='CompPhone'><text>(514) 344-3500 1-800-467-4448</text></item>
+<item name='CompAddress'><text>8600 Decarie Bl Local 30</text></item>
+<item name='CompFax'><text>(514) 344-4244</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Steven Lancaster (x) 5247</text></item>
+<item name='CompCity'><text>Montreal</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>QC</text></item>
+<item name='CompPostalCode'><text>H4P 2N2</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>159022</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>ca_service@insight.com</text></item>
+<item name='CompWeb'><text>www.insight.com</text></item>
+<item name='comment'><text><break/>This is the info I have for my contact at Insight:<break
+/>Devra Grosselle | National Account Manager |Insight Canada|<break/>|Toll CAN: 1.800.467.4448 ext: 8354|<break
+/>|Toll USA: 1.800.567-8391 ext: 8354| Fax: 1.866.878.7319 |<break/>Email: devra.grosselle@insight.com | Web: www.insight.ca<break
+/><break/>Login Name Cranston_Snord@hc-sc.gc.ca<break/>Login Password inhalation<break
+/><break/>Please use the following URL to login to Insight Canada's web site:<break
+/>https://www.insight.com/canada/apps/account/index.php<break/></text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131804,23-04</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><textlist><text>Maria Ianni</text><text>Maria Ianni</text><text
+>Maria Ianni</text><text>Maria Ianni</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2015-04-22 08:33:05 AM</text><text
+>2015-04-22 08:32:57 AM</text><text>2015-04-22 08:32:56 AM</text><text>2015-04-22 08:32:54 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Maria Ianni;</text><text>Maria Ianni;</text></textlist></item></document>
+

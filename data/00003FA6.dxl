@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='3fa6' unid='D4633F200D3F5F26852572130069AFE7' sequence='4'>
+<created><datetime dst='true'>20061026T151423,11-04</datetime></created>
+<modified><datetime dst='true'>20260917T084715,40-04</datetime></modified>
+<revised><datetime dst='true'>20230607T120915,42-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084715,39-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084715,39-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20061026T151522,81-04</datetime><datetime
+ dst='true'>20061026T151636,17-04</datetime><datetime dst='true'>20090902T075119,43-04</datetime></revisions>
+<item name='CompName'><text>CB Sales Canada</text></item>
+<item name='CompPhone'><text>613-326-0733</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>613-267-4365</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Bill Blair</text></item>
+<item name='CompCity'><text/></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text/></item>
+<item name='MasterCard_FR'><text>NO</text></item>
+<item name='CompPostalCode'><text/></item>
+<item name='VISA_FR'><text>Non</text></item>
+<item name='CompCountry'><text/></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>blair@cbsalescanada.com</text></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>purafil, filters, filter media</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20061026T151423,11-04</datetime></item>
+<item name='MasterCard_EN'><text>NO</text></item>
+<item name='MasterCard'><text>NO</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:09:19 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='a16' unid='050A397FA3E66D9685256E8D005DB3F3' sequence='3'>
+<created><datetime dst='true'>20040507T130329,15-04</datetime></created>
+<modified><datetime dst='true'>20260917T084256,44-04</datetime></modified>
+<revised><datetime dst='true'>20060525T144550,85-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084256,43-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084256,43-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20040507T130329,14-04</datetime><datetime
+ dst='true'>20040610T091855,96-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4320277 CEPA Screen - RV</text></item>
+<item name='NameF'><text>4320277 CEPA Screen - RV</text></item>
+<item name='CodeNumber'><text>4320277</text></item></document>
+

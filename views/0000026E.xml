@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <category>
+        <value>
+            <text>Currency</text>
+        </value>
+    </category>
+    <document noteId="00005532">
+        <value>
+            <text>Currency</text>
+        </value>
+        <value>
+            <text>CAD</text>
+        </value>
+        <value>
+            <text>CAD</text>
+        </value>
+    </document>
+    <document noteId="00005536">
+        <value>
+            <text>Currency</text>
+        </value>
+        <value>
+            <text>USD</text>
+        </value>
+        <value>
+            <text>USD</text>
+        </value>
+    </document>
+    <document noteId="0000553A">
+        <value>
+            <text>Currency</text>
+        </value>
+        <value>
+            <text>GBP</text>
+        </value>
+        <value>
+            <text>GBP</text>
+        </value>
+    </document>
+    <document noteId="0000553E">
+        <value>
+            <text>Currency</text>
+        </value>
+        <value>
+            <text>EUR</text>
+        </value>
+        <value>
+            <text>EUR</text>
+        </value>
+    </document>
+    <document noteId="00005562">
+        <value>
+            <text>Currency</text>
+        </value>
+        <value>
+            <text>HUF</text>
+        </value>
+        <value>
+            <text>HUF</text>
+        </value>
+    </document>
+    <document noteId="00005566">
+        <value>
+            <text>Currency</text>
+        </value>
+        <value>
+            <text>RUP</text>
+        </value>
+        <value>
+            <text>RUP</text>
+        </value>
+    </document>
+    <document noteId="0000556A">
+        <value>
+            <text>Currency</text>
+        </value>
+        <value>
+            <text>YEN</text>
+        </value>
+        <value>
+            <text>YEN</text>
+        </value>
+    </document>
+    <document noteId="0000556E">
+        <value>
+            <text>Currency</text>
+        </value>
+        <value>
+            <text>UKD</text>
+        </value>
+        <value>
+            <text>UKD</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>DefaultBillTo</text>
+        </value>
+    </category>
+    <document noteId="00002C0A">
+        <value>
+            <text>DefaultBillTo</text>
+        </value>
+        <value>
+            <text>Helena Soares</text>
+        </value>
+        <value>
+            <text>Helena Soares</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>RefNumberPrefix</text>
+        </value>
+    </category>
+    <document noteId="00001EB6">
+        <value>
+            <text>RefNumberPrefix</text>
+        </value>
+        <value>
+            <text>BSU</text>
+        </value>
+        <value>
+            <text>BSU</text>
+        </value>
+    </document>
+    <category>
+        <value>
+            <text>SendToAdmin</text>
+        </value>
+    </category>
+    <document noteId="00006862">
+        <value>
+            <text>SendToAdmin</text>
+        </value>
+        <value>
+            <text>Helena Soares</text>
+        </value>
+        <value>
+            <text>Helena Soares</text>
+        </value>
+    </document>
+</view>

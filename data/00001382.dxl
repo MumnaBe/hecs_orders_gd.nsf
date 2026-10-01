@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1382' unid='324FFD55A14E131385256BEB005F0928' sequence='13'>
+<created><datetime dst='true'>20020703T131802,64-04</datetime></created>
+<modified><datetime dst='true'>20260917T084336,78-04</datetime></modified>
+<revised><datetime>20151209T113042,13-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084336,77-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084336,77-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,66-04</datetime><datetime
+>20021104T141454,36-05</datetime><datetime>20040216T084827,98-05</datetime><datetime
+>20050112T140046,54-05</datetime><datetime dst='true'>20050419T105914,20-04</datetime><datetime
+ dst='true'>20051003T150711,67-04</datetime><datetime dst='true'>20090902T074510,53-04</datetime><datetime
+ dst='true'>20090902T074936,95-04</datetime><datetime dst='true'>20100602T140559,23-04</datetime><datetime
+ dst='true'>20100602T140610,70-04</datetime><datetime dst='true'>20120412T093525,87-04</datetime><datetime
+>20151209T113041,01-05</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20100602T140617,55-04</datetime></item>
+<item name='CompName'><text>Fisher Scientific</text></item>
+<item name='CompPhone'><text>(613) 226-3273 1-800-234-7437</text></item>
+<item name='CompAddress'><text>112 Colonnade Rd</text></item>
+<item name='CompFax'><text>ONLINE or CALL IN ORDERS ONLY</text></item>
+<item name='CompPO'><text>Box 9200 Terminal<break/>Ottawa ON  K1G 4A9</text></item>
+<item name='PurchContact'><text>Heidi cell 295-6025</text></item>
+<item name='CompCity'><text>Nepean</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>K2E 7L6</text></item>
+<item name='VISA_FR'><text>N/D</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>10550-53, EHC Bldg. #8<break/>10550-54, Banting Bldg. # 22</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.fishersci.ca</text></item>
+<item name='comment'><text>This part of  Fisher deals with Consumables.</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131802,64-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='edit_history'><textlist><text>Maria Ianni</text><text>Maria Ianni</text><text
+>Dian Calagoure</text><text>Dian Calagoure</text><text>Dian Calagoure</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2015-12-09 11:30:41 AM</text><text
+>2015-12-09 11:30:40 AM</text><text>2012-04-12 09:35:23 AM</text><text>2010-06-02 02:06:17 PM</text><text
+>2010-06-02 02:06:06 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Dian Calagoure;</text><text>Dian Calagoure;</text><text>Dian Calagoure;</text></textlist></item></document>
+

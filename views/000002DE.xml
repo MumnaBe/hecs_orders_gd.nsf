@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view>
+    <document noteId="00002D36">
+        <value>
+            <text>GD/CD-020600</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+        <value>
+            <datetime>20021129</datetime>
+        </value>
+        <value>
+            <text>Monique Lanouette</text>
+        </value>
+        <value>
+            <text>VWR Canlab</text>
+        </value>
+        <value>
+            <number>1185.01</number>
+        </value>
+    </document>
+    <document noteId="00001996">
+        <value>
+            <text>GD/CD-020597</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+        <value>
+            <datetime>20021129</datetime>
+        </value>
+        <value>
+            <text>Josee Guenette</text>
+        </value>
+        <value>
+            <text>Smart Ape Microsystems Limited</text>
+        </value>
+        <value>
+            <number>757</number>
+        </value>
+    </document>
+    <document noteId="000016F6">
+        <value>
+            <text>GD/CD-020023</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+        <value>
+            <datetime>20020723</datetime>
+        </value>
+        <value>
+            <text>Hari Vijay</text>
+        </value>
+        <value>
+            <text>Travel - Long Lake 58</text>
+        </value>
+        <value>
+            <number>396.52</number>
+        </value>
+    </document>
+    <document noteId="0000132E">
+        <value>
+            <text>GD/CD-020021</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+        <value>
+            <datetime>20020723</datetime>
+        </value>
+        <value>
+            <text>Serdal Sevinc</text>
+        </value>
+        <value>
+            <text>Travel - 7th Int Conf</text>
+        </value>
+        <value>
+            <number>1040</number>
+        </value>
+    </document>
+    <document noteId="0000252E">
+        <value>
+            <text>GD/CD-020020</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+        <value>
+            <datetime>20020723</datetime>
+        </value>
+        <value>
+            <text>Makonnen Abebe</text>
+        </value>
+        <value>
+            <text>Travel - 7th Int Conf</text>
+        </value>
+        <value>
+            <number>1040</number>
+        </value>
+    </document>
+    <document noteId="00001026">
+        <value>
+            <text>GD/CD-020006</text>
+        </value>
+        <value>
+            <text>Reconciled</text>
+        </value>
+        <value>
+            <datetime>20020723</datetime>
+        </value>
+        <value>
+            <text>Stephen Bjarnason</text>
+        </value>
+        <value>
+            <text>Corporate Express</text>
+        </value>
+        <value>
+            <number>482.77</number>
+        </value>
+    </document>
+</view>

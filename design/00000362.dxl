@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form>
+<form name='GstMod' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' nocompose='true' noquery='true' publicaccess='false'
+ designerversion='6.5' bgcolor='#ffe118' renderpassthrough='true'>
+<noteinfo noteid='362' unid='AE0D5B7325F7F6F0852572F4004DA30E' sequence='33'>
+<created><datetime dst='true'>20070608T100800,14-04</datetime></created>
+<modified><datetime dst='true'>20260917T084246,54-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,25-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084246,53-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084246,53-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Oscar J Kerrebyn/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<body><richtext>
+<pardef id='1' hide='notes web'/>
+<par def='1'><run><font color='red'/>hidden field</run></par>
+<par def='1'><run><font color='red'/></run><run><font color='red'/><field
+ type='number' kind='computed' name='TotGst1'><numberformat format='general'
+ digits='2' punctuated='false' parens='false' percent='false' bytes='false'/><code
+ event='defaultvalue'><formula>@If(getGst = "" ;0 ; getGst + 1)</formula></code></field></run></par>
+<table widthtype='fixedleft' refwidth='2.4444in'><tablecolumn width='1.2632in'/><tablecolumn
+ width='1.1813in'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='3' keepwithnext='true' keeptogether='true'/>
+<par def='3'><run><font size='14pt' style='bold'/>HST value :</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='4' keepwithnext='true' keeptogether='true'/>
+<par def='4'><field type='number' kind='editable' name='getGst'><numberformat
+ format='general' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>0.05</formula></code></field></par></tablecell></tablerow>
+<tablerow>
+<tablecell columnspan='2' borderwidth='0px'>
+<pardef id='5' keepwithnext='true' keeptogether='true'/>
+<par def='5'><button width='2in' widthtype='maximum' maxlines='1' wraptext='true'
+ bgcolor='system'><code event='click'><formula>@Command([FileSave]);
+@Command([FileCloseWindow])</formula></code><font style='bold'/>Save</button><button
+ width='2in' widthtype='maximum' maxlines='1' wraptext='true' bgcolor='system'><code
+ event='click'><formula>@Command([FileCloseWindow])</formula></code><font
+ style='bold'/>Cancel</button></par></tablecell></tablerow></table>
+<pardef id='6' align='center'/>
+<par def='6'/>
+<pardef id='7'/>
+<par def='7'> </par>
+<par def='7'> </par><subformref name='CDE-Edit History | EdHistory'/>
+<pardef id='8' align='none' leftmargin='1in'><code event='hidewhen'><formula
+>1</formula></code></pardef>
+<par def='8'/>
+<par def='7'/></richtext></body>
+<item name='totGst' summary='false'><number>0</number></item>
+<item name='OriginalModTime'><datetime dst='true'>20090611T081649,24-04</datetime></item>
+<item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
+<item name='TotGst1' summary='false'><number>0</number></item>
+<item name='getGst' summary='false'><number>0</number></item>
+<item name='date_create' summary='false'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>GstMod</text></item></form>
+

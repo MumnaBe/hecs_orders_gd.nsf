@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='CardHolders'>
+<noteinfo noteid='790e' unid='1391966CB3FA40BA85258504004ABD16' sequence='21'>
+<created><datetime>20200204T083620,70-05</datetime></created>
+<modified><datetime dst='true'>20260917T085224,25-04</datetime></modified>
+<revised><datetime dst='true'>20220504T140059,34-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085224,24-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085224,24-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Helena Soares/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20200204T083650,28-05</datetime><datetime>20220119T094259,98-05</datetime><datetime
+>20220119T112429,09-05</datetime><datetime>20220121T083942,55-05</datetime><datetime
+>20220204T144511,65-05</datetime><datetime>20220207T092224,61-05</datetime><datetime
+>20220208T142616,65-05</datetime><datetime>20220307T124400,03-05</datetime><datetime
+>20220308T144156,69-05</datetime><datetime>20220310T160431,86-05</datetime><datetime
+ dst='true'>20220323T120448,40-04</datetime><datetime dst='true'>20220323T122351,31-04</datetime><datetime
+ dst='true'>20220323T125736,28-04</datetime><datetime dst='true'>20220323T140856,32-04</datetime><datetime
+ dst='true'>20220323T143850,93-04</datetime><datetime dst='true'>20220323T145345,89-04</datetime><datetime
+ dst='true'>20220325T113707,60-04</datetime><datetime dst='true'>20220329T073229,43-04</datetime><datetime
+ dst='true'>20220329T073229,46-04</datetime><datetime dst='true'>20220504T140057,31-04</datetime></revisions>
+<item name='CardTypes'><text/></item>
+<item name='CreditLimitM'><number>25000</number></item>
+<item name='MaxOrderM'><number>5000</number></item>
+<item name='MaxMonthM'><number>25000</number></item>
+<item name='CreditLimitV'><number>0</number></item>
+<item name='MaxOrderV'><number>0</number></item>
+<item name='MaxMonthV'><number>0</number></item>
+<item name='org_author' names='true'><text>Kirsten Oickle</text></item>
+<item name='date_create'><datetime>20200204T083620,70-05</datetime></item>
+<item name='CardholderName' names='true'><text>Emily Lee</text></item>
+<item name='RemCreditM'><number>9655.9908</number></item>
+<item name='RemCreditV'><number>0</number></item>
+<item name='edit_history'><textlist><text>Helena Soares</text><text>Helena Soares</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2022-05-04 02:00:59 PM</text><text
+>2022-05-04 02:00:57 PM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Helena Soares;</text><text>Helena Soares;</text></textlist></item></document>
+

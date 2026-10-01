@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(CalculateBudgetForOrder)' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3' publicaccess='false'
+ designerversion='6.5'>
+<noteinfo noteid='3fe' unid='EF40CEE96BF10D62852575D1004F0E20' sequence='23'>
+<created><datetime dst='true'>20090610T102329,60-04</datetime></created>
+<modified><datetime dst='true'>20260917T084250,27-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,45-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084250,26-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084250,26-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134341,98-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='selected'/><code event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	
+	'/*****************************************************************
+	'/ 2009-06-10: JML: ADR 3550: This agent was created and replaces the button "On Order" in the "NewOrderForm"
+	'/ Now the button "Got it" in the "NewOrderForm" call this agent to calculate the budget for the order.
+	'/
+	'/ Details:
+	'/ - The budget is calculated only once using the Got It button.  Other mechanism are used to recalculate the budget
+	'/ - The committed amount on the project is increased based on the TotCostTaxed amount
+	'/ - The Remaining Credit amount on the credit card is decreased using the TotCostTaxed amount
+	'/ - Note: the TotCostTaxed amount take in consideration GST Exemption, Exchange Rates, Customs, and Shipping fees 
+	'/*****************************************************************
+	On Error Goto handleError
+	
+	Dim ws As New notesuiworkspace
+	Dim uidoc As notesuidocument
+	Dim uidoc2 As notesuidocument
+	Dim doc As notesdocument
+	Dim number As String
+	Dim number2 As String
+	Dim expdate As String
+	Dim role As Variant
+	Dim purchasetype As String
+	Dim projectname As String
+	Dim category As String
+	
+	Set uidoc=ws.currentdocument
+	Set doc = uidoc.document
+	
+	' Check if the current user has the [Admin] role
+	role = Evaluate("@IsMember('[Admin]';@UserRoles)")
+	purchasetype = doc.PurchaseType(0)
+	
+	' If the User is an administrator and the budget has not been calculated for this order, then proceed
+	If role(0) = 1 And doc.BudgetCalculated(0)="No" Then
+		Dim s As New notessession
+		Dim projdb As notesdatabase
+		Dim projdv As notesview
+		Dim projdoc As notesdocument
+		
+		' Get the project document
+		Set projdb=s.CurrentDatabase
+		Set projdv = projdb.GetView("PV")   ' getting the project view
+		projectname = uidoc.FieldGetText("ProjectSelection")   ' get the value of the project name/number field from the order document
+		Set projdoc = projdv.GetDocumentByKey(projectname)   ' according to the project name/number value, get the correct project document from the project view
+		
+		If projdoc Is Nothing Then
+			'If there is no project, the user should be informed and the operation will stop.  The user should make sure the project exist and retry.
+			'When retrying the Reference Number will not be recalculated and the warning emails will not be sent. 
+			' When retrying the confirmation will be sent again, but it will ensure the budget is calculated
+			' get the current language
+			Dim language As String
+			Language = s.GetEnvironmentString("HECS_Language")
+			If Language = "F" Then
+				Messagebox "Le projet n’a pas été trouvé, donc le budget n’a pas été calculé.  Veuillez vérifier que le projet existe et réessayer.  Notez que le courriel de confirmation de la réception de la commande à déjà été envoyé au demandeur.", 0+48, "Le budget n'as pas été mis à jour"
+			Else
+				Messagebox "The project cannot be found.  The project`s budget has not been calculated.  Please ensure the project exist and try again.  Note that the receipt confirmation email has been sent to the requestor.", 0+48, "The project's budget has not been calculated"				
+			End If	
+			Exit Sub
+		End If
+		
+		' Add the TotCostTaxed to the commited amount on the project based on the specified category
+		category = uidoc.FieldGetText("FinCategory")   ' get the value of the financial category field
+		Select Case category
+		Case "Operating"
+			projdoc.budgetOp_com=projdoc.budgetOp_com(0) + doc.TotCostTaxed(0)
+			projdoc.TotCommitted = projdoc.TotCommitted(0) + doc.TotCostTaxed(0)
+		Case "Travel"
+			projdoc.budgetTrav_com=projdoc.budgetTrav_com(0) + doc.TotCostTaxed(0)
+			projdoc.TotCommitted = projdoc.TotCommitted(0) + doc.TotCostTaxed(0)
+		Case "Contract"
+			projdoc.budgetContr_com=projdoc.budgetContr_com(0) + doc.TotCostTaxed(0)
+			projdoc.TotCommitted = projdoc.TotCommitted(0) + doc.TotCostTaxed(0)
+		Case "Capital"
+			projdoc.budgetCap_com=projdoc.budgetCap_com(0) + doc.TotCostTaxed(0)
+			projdoc.TotCommitted = projdoc.TotCommitted(0) + doc.TotCostTaxed(0)
+		End Select
+		
+		' 2009-06-10: JML: ADR 3550: the Free Balance is not updated for the project.
+		projdoc.FreeBalance=projdoc.totBudget(0)-projdoc.totCommitted(0)
+		
+          ' It the purchase type is Visa or MasterCard then Lower the Remaining Credit on the Credit Card using the TotCostTaxed amount
+		If Not (purchasetype="Purchase Order") Then
+			Dim carddv As notesview
+			Dim Carddoc As notesdocument
+			Dim namekey(1 To 2) As String
+			
+			Set carddv = projdb.GetView("CHL")   ' getting the card holder lookup view             
+			cardholdername = uidoc.FieldGetText("CardHolder")   ' get the value of the card holder field from the order document
+			
+			'START: ** 2009-05-15: JML: ADR3550: fix to make sure the GST Exemption is taken in consideration
+			'temp = uidoc.FieldGetText("TotPrice")
+			'temp = Right$(temp, Len(temp)-1)
+			'orderamount = Ccur(uidoc.fieldgettext("TotGst")) * Ccur(temp)   ' get the total price field for the order and multiply it by 1.06 for the GST
+			
+			orderamount = Ccur(doc.TotCostTaxed(0))  ' the field TotCostTaxed take in consideration the Custom, Exchange Rate, GST and GST Exemption.
+			'END: ** 2009-05-15
+			
+			namekey(1) = purchasetype
+			namekey(2) = cardholdername
+			Set Carddoc = carddv.GetDocumentByKey(namekey)    ' according to the value of purchase type and card holder name, get the correct cardholder document from the card holder view
+			If Not (Carddoc Is Nothing) Then
+				Select Case purchasetype
+				Case "MasterCard"
+					Carddoc.RemCreditM = Carddoc.RemCreditM(0) - orderamount   ' substract the order amount from the remaining credit
+				Case "VISA"
+					Carddoc.RemCreditV = Carddoc.RemCreditV(0) - orderamount   ' substract the order amount from the remaining credit
+				End Select
+			End If
+		End If
+		
+		' Flag the Order to prevetn the budget to be calcualted again by this agent.
+		doc.BudgetCalculated="Yes"
+		'Reset the Cost Tracking field to prevent the Save button to detect changes
+		Call doc.ReplaceItemValue("trackOriginalCost", doc.GetItemValue("TotCostTaxed")) 		
+		projdoc.Save True, True
+		If Not (Carddoc Is Nothing) Then
+			Carddoc.Save True, True
+		End If
+		
+	End If
+	doc.Save True, True
+	Exit Sub
+	
+handleError:
+	Messagebox "Error: " &amp; Str(Err) &amp; ": " &amp; Error$
+	Exit Sub
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0' agentdata='CAC68A00FC509666852575D90047D906'>
+<agentmodified><datetime dst='true'>20090710T130847,61-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20090807T135433,07-04</datetime></agentrun>
+<runlog>Started running agent 'CalculateBudgetForOrder' on 2009-08-07 01:54:32 PM
+Running on selected documents: 1 total
+Found 1 document(s) that match search criteria
+Ran LotusScript code
+Done running agent 'CalculateBudgetForOrder' on 2009-08-07 01:54:33 PM
+</runlog></rundata>
+<item name='$POID'><datetime dst='true'>20090612T153155,18-04</datetime></item></agent>
+

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='5492' unid='D089BA04422A391D8525760A0050D28B' sequence='1'>
+<created><datetime dst='true'>20090806T104247,79-04</datetime></created>
+<modified><datetime dst='true'>20260917T084915,76-04</datetime></modified>
+<revised><datetime dst='true'>20090806T104247,99-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084915,75-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084915,75-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name
+>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime dst='true'>20090806T104223,64-04</datetime></item>
+<item name='HFText'><text>Yes</text></item>
+<item name='HelpECategories'><text>1. User Guide</text></item>
+<item name='HelpESubCat'><text>Placing An Order</text></item>
+<item name='HelpFCategories'><text>1. Guide d'utilisation</text></item>
+<item name='HelpFSubCat'><text>Commander</text></item>
+<item name='HelpDocNumber'><number>5</number></item>
+<item name='HelpSubCatNumber'><number>1</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>After the Admin person has pressed the "Got It!" button, the order number is assigned and you will receive an email notifying you that this has occurred.  To process the order, do the following:</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.  Follow the link in the Purchase Order Receipt you receive from the Admin person.  This will take you to your order.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.  Press the "Print" button on the action bar.  </run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Never, ever, ever print an order using File &gt; Print because we want to make sure you are using the printable version.</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='2' leftmargin='1.5000in' rightmargin='93%'/>
+<par def='2'><picture height='186px' width='315px'><gif originalformat='notesbitmap'>
+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
+BxkQADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='3' leftmargin='1.0118in' rightmargin='93%' firstlineleftmargin='0.8118in'/>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.  After printing the order, get the acquisition card information (card number and expiry date) from the cardholder and print this information on the order.  Print legibly!!</run></par>
+<pardef id='4' leftmargin='0.8118in' rightmargin='93%'/>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>4.  Have the cardholder sign the order.</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>5.  Fax the order to the company and attach the fax confirmation sheet to the order.</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>6.  Send the original, signed, faxed order and confirmation sheet to the Admin person.  They require this for reconciliation purposes.</run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='5' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>	Dès que l'adjoint administratif clique sur la touche «Reçu», la base de données assigne un numéro de commande 	au document. Un courrier électronique vous le confirmera. Poursuivez le traitement de la commande de la façon 	suivante :</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>1.	Cliquez sur le lien du Reçu de bon de commande que l'adjoint administratif vous a envoyé de façon à retrouver votre 	commande.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>2.	Cliquez sur la touche «Imprimer» de la barre d'outils. </run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Ne jamais imprimer une commande en utilisant le menu </run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>	</run><run
+><font style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>Fichier &gt; Imprimer</run><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/>.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='6' leftmargin='1.5000in' rightmargin='93%'/>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run><picture
+ height='186px' width='315px'><gif originalformat='notesbitmap'>
+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
+BxkQADs=
+</gif></picture><run
+><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='6'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>3.	Une fois la commande imprimée, inscrivez-y lisiblement le numéro et la date d'expiration de la carte d'achat du 	détenteur.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>4.	Faites signer le détenteur de la carte d'achat.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>5.	Télécopiez la commande au fournisseur et agrafez-la ensuite à la confirmation de la télécopie.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>6.	Envoyez la commande originale dûment signée et la confirmation de la télécopie à l'adjoint administratif. Ces 	documents sont requis pour la réconciliation.</run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='5'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020812T102145,95-04</datetime></item>
+<item name='HelpESubject'><text>What to do after the Order Number has been Assigned</text></item>
+<item name='HelpFSubject'><text>Que faire après la réception d'une commande? </text></item>
+<item name='edit_history'><textlist><text>Jean-Marc Leblanc</text><text>Stephen Bjarnason</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2009-08-06 10:42:23 AM</text><text
+>2002/08/12 10:22:57</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Jean-Marc Leblanc;</text><text>Stephen Bjarnason;</text></textlist></item></document>
+

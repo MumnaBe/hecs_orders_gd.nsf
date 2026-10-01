@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='2492' unid='873EC119B75AD8EA85256C05005BFDFF' sequence='6'>
+<created><datetime dst='true'>20020729T124447,99-04</datetime></created>
+<modified><datetime dst='true'>20260917T084449,19-04</datetime></modified>
+<revised><datetime dst='true'>20050401T100610,95-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084449,18-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084449,18-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020729T125145,47-04</datetime><datetime
+ dst='true'>20020730T092502,43-04</datetime><datetime dst='true'>20020730T092647,23-04</datetime><datetime
+ dst='true'>20020828T104144,95-04</datetime><datetime dst='true'>20050331T180754,80-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_Pagers Enhanced Telecom Service etc.</text></item>
+<item name='NameF'><text>OLD_Pagers Enhanced Telecom Service etc.</text></item>
+<item name='CodeNumber'><text>01410</text></item></document>
+

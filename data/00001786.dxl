@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='CostCodeDoc'>
+<noteinfo noteid='1786' unid='46C37D14C20786C685256BEB005F09E3' sequence='1'>
+<created><datetime dst='true'>20020703T131804,51-04</datetime></created>
+<modified><datetime dst='true'>20260917T084354,49-04</datetime></modified>
+<revised><datetime dst='true'>20020703T131804,53-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084354,48-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084354,48-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rania Otell/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='Category'><text>Capital</text></item>
+<item name='Type'><text>Cost Centre</text></item>
+<item name='Name'><text>Growth and Development</text></item>
+<item name='CodeNumber'><text>3456</text></item></document>
+

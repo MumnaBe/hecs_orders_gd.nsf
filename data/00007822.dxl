@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='7822' unid='C5375B002251E4F9852583DF0042A2CA' sequence='2'>
+<created><datetime dst='true'>20190417T080750,50-04</datetime></created>
+<modified><datetime dst='true'>20260917T085219,47-04</datetime></modified>
+<revised><datetime dst='true'>20190417T080804,60-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085219,46-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085219,46-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20190417T080750,55-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20080801T103325,12-04</datetime></item>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4340424 - ADO-Bureau General Admin &amp; Resource Stewardship</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>4340424</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20080801T103145,52-04</datetime></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Kirsten Oickle</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2019-04-17 08:08:04 AM</text><text
+>2019-04-17 08:07:40 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Kirsten Oickle;</text></textlist></item></document>
+

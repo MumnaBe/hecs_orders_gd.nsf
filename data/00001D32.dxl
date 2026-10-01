@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='1d32' unid='64283AFCB6365AC485256E7E004A1946' sequence='2'>
+<created><datetime dst='true'>20040422T092921,34-04</datetime></created>
+<modified><datetime dst='true'>20260917T084418,11-04</datetime></modified>
+<revised><datetime dst='true'>20090520T110808,79-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084418,10-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084418,10-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20040422T093241,24-04</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20090520T110707,68-04</datetime></item>
+<item name='HFText'><text>No</text></item>
+<item name='HelpECategories'><text>2. Database Custodian Guide</text></item>
+<item name='HelpESubCat'><text>Access</text></item>
+<item name='HelpFCategories'><text>2. Guide de gardien de base de données</text></item>
+<item name='HelpFSubCat'><text>Accès</text></item>
+<item name='HelpDocNumber'><number>1</number></item>
+<item name='HelpSubCatNumber'><number>1</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='1in'/>
+<par def='1'/>
+<pardef id='2' spaceafter='1.5'/>
+<par def='2'><run><font size='12pt' style='bold underline' name='Arial' pitch='variable'
+ truetype='true' familyid='20' color='blue'/>The "Add New Employee To Orders" button</run></par>
+<par def='2'/>
+<par def='2'>This button is used when you want an employee to be able to view orders that were created PRIOR to his/her being granted access to the database.</par>
+<par def='1'/></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='3' leftmargin='0.8125in' rightmargin='75%'/>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></item>
+<item name='HelpESubject'><text>The "Add New Employee To Orders" button</text></item>
+<item name='HelpFSubject'><text>Le bouton "Add New Employee To Orders"</text></item></document>
+

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='518a' unid='6BBB9215904E903A85257546006C2F9E' sequence='5'>
+<created><datetime>20090122T144140,78-05</datetime></created>
+<modified><datetime dst='true'>20260917T084859,86-04</datetime></modified>
+<revised><datetime>20090123T092844,07-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084859,85-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084859,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Renaud Vincent/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20090122T144140,85-05</datetime><datetime>20090122T144215,78-05</datetime><datetime
+>20090123T092513,63-05</datetime><datetime>20090123T092824,40-05</datetime></revisions>
+<item name='OriginalModTime'><datetime>20090123T092832,92-05</datetime></item>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4320010 PM_Const. SK</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>4320010</text></item></document>
+

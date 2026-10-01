@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='(All Orders)' alias='AllLookup' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='6.5' unreadmarks='none' onopengoto='lastopened'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='false' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='false' extendlastcolumn='true' showhierarchies='false'
+ unreadcolor='black' rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='gray' headerbgcolor='white' boldunreadrows='false'
+ evaluateactions='false' allownewdocuments='false' allowcustomizations='false'
+ hidemarginborder='false' marginwidth='0px' marginbgcolor='white' uniquekeys='false'>
+<noteinfo noteid='25a' unid='573893248EA159CF85256B1700591998' sequence='19'>
+<created><datetime>20011203T111312,56-05</datetime></created>
+<modified><datetime dst='true'>20260917T084241,55-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,24-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100255,83-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084241,54-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>SELECT (Form="OrderForm" | Form="NewOrderForm")</formula></code><code
+ event='querypaste'><lotusscript>Sub Querypaste(Source As Notesuiview, Continue As Variant)
+	answer% = Messagebox("You are not authorized to paste orders.  If you want to create a copy of an existing order, use the button ""Copy Existing Order""" + Chr(10) + Chr(10) +  "Vous n'êtes pas autorisé à coller des commandes.  Si vous désirez créer une copie d'une commande existante veuillez utiliser le bouton ""Copier une commande""", 0 + 48, "Orders cannot be pasted / Les commandes ne peuvent être collé")
+	continue = False
+End Sub</lotusscript></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='#d4d0c8'/><border width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<sharedactionref id='8'>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"Mainf";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code></action></sharedactionref>
+<sharedactionref id='5'>
+<action title='Exit' icon='112'><code event='click'><formula>@Command([FileCloseWindow])</formula></code></action></sharedactionref>
+<sharedactionref id='1'>
+<action title='Place Order'><code event='click'><formula>@Command([Compose]; "":"";"NewOrderForm")</formula></code></action></sharedactionref></actionbar>
+<column sort='descending' hidedetailrows='false' itemname='$4' width='10.1250'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' twisties='true'><columnheader title='Reference Number'><font
+ size='9pt' style='bold'/></columnheader><code event='value'><formula>@If(RefNumber="";"00000000";@If(@Length(RefNumber)=8;@Left(RefNumber;@Length(RefNumber)-8)+@Right(RefNumber;6);RefNumber))</formula></code></column>
+<column hidedetailrows='false' itemname='ShipTo' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'
+ twisties='true'><columnheader title='Ship To'><font size='9pt' style='bold'/></columnheader></column></view>
+

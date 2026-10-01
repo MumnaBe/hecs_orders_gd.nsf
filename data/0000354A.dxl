@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='354a' unid='D854F47EBA91924485256BEB005F0943' sequence='8'>
+<created><datetime dst='true'>20020703T131802,91-04</datetime></created>
+<modified><datetime dst='true'>20260917T084612,48-04</datetime></modified>
+<revised><datetime>20151124T084417,89-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084612,47-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084612,47-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Lindsy Bachly/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,93-04</datetime><datetime
+>20021104T141454,86-05</datetime><datetime>20031110T163827,13-05</datetime><datetime
+>20080306T110919,55-05</datetime><datetime dst='true'>20090902T074607,45-04</datetime><datetime
+ dst='true'>20090902T075026,24-04</datetime><datetime>20151124T084402,02-05</datetime></revisions>
+<item name='OriginalModTime'><datetime>20080306T110922,65-05</datetime></item>
+<item name='CompName'><text>Agilent Technologies Inc.</text></item>
+<item name='CompPhone'><text>1-800-227-9770</text></item>
+<item name='CompAddress'><text>5150 Spectrum Way</text></item>
+<item name='CompFax'><text>1-302-633-8953</text></item>
+<item name='CompPO'><text>PO Box 9998, Stn A<break/>Toronto ON  M5W 2J2</text></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Mississauga</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>L4W 5G1</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text>70252283</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>DO NOT PUT CC INFORMATION</text></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T131802,91-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><textlist><text>Maria Ianni</text><text>Maria Ianni</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2015-11-24 08:44:17 AM</text><text
+>2015-11-24 08:44:01 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Maria Ianni;</text><text>Maria Ianni;</text></textlist></item></document>
+

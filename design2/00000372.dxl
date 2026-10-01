@@ -1,0 +1,3433 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_12_0_2.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA'>
+<noteinfo noteid='372' unid='F53AF32CDD72631C8525742E004855D0' sequence='132'>
+<created><datetime dst='true'>20080417T091005,60-04</datetime></created>
+<modified><datetime dst='true'>20260917T084247,07-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134329,17-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084247,06-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084247,06-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Oscar J Kerrebyn/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='$$i3Desc_1' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     
+     Set uidoc=ws.currentdocument
+     Call uidoc.FieldSetText("i3hide", "False")
+     uidoc.RefreshHideFormulas
+End Sub<break/></text></item>
+<item name='$$i4Desc_1' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     
+     Set uidoc=ws.currentdocument
+     Call uidoc.FieldSetText("i4hide", "False")
+     uidoc.RefreshHideFormulas
+End Sub<break/></text></item>
+<item name='$$i5Desc_1' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     
+     Set uidoc=ws.currentdocument
+     Call uidoc.FieldSetText("i5hide", "False")
+     uidoc.RefreshHideFormulas
+End Sub<break/></text></item>
+<item name='$$i6Desc_1' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     
+     Set uidoc=ws.currentdocument
+     Call uidoc.FieldSetText("i6hide", "False")
+     uidoc.RefreshHideFormulas
+End Sub<break/></text></item>
+<item name='$$i7Desc_1' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     
+     Set uidoc=ws.currentdocument
+     Call uidoc.FieldSetText("i7hide", "False")
+     uidoc.RefreshHideFormulas
+End Sub<break/></text></item>
+<item name='$$i8Desc_1' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     
+     Set uidoc=ws.currentdocument
+     Call uidoc.FieldSetText("i8hide", "False")
+     uidoc.RefreshHideFormulas
+End Sub<break/></text></item>
+<item name='$$i9Desc_1' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     
+     Set uidoc=ws.currentdocument
+     Call uidoc.FieldSetText("i9hide", "False")
+     uidoc.RefreshHideFormulas
+End Sub<break/></text></item>
+<item name='i3Quant_1' summary='false'><number>0</number></item>
+<item name='i3PricePer_1' summary='false'><number>0</number></item>
+<item name='i3PriceTot_1' summary='false'><number>0</number></item>
+<item name='i4Quant_1' summary='false'><number>0</number></item>
+<item name='i4PricePer_1' summary='false'><number>0</number></item>
+<item name='i4PriceTot_1' summary='false'><number>0</number></item>
+<item name='i5Quant_1' summary='false'><number>0</number></item>
+<item name='i5PricePer_1' summary='false'><number>0</number></item>
+<item name='i5PriceTot_1' summary='false'><number>0</number></item>
+<item name='i6Quant_1' summary='false'><number>0</number></item>
+<item name='i6PricePer_1' summary='false'><number>0</number></item>
+<item name='i6PriceTot_1' summary='false'><number>0</number></item>
+<item name='i7Quant_1' summary='false'><number>0</number></item>
+<item name='i7PricePer_1' summary='false'><number>0</number></item>
+<item name='i7PriceTot_1' summary='false'><number>0</number></item>
+<item name='i8Quant_1' summary='false'><number>0</number></item>
+<item name='i8PricePer_1' summary='false'><number>0</number></item>
+<item name='i8PriceTot_1' summary='false'><number>0</number></item>
+<item name='i9Quant_1' summary='false'><number>0</number></item>
+<item name='i9PricePer_1' summary='false'><number>0</number></item>
+<item name='i9PriceTot_1' summary='false'><number>0</number></item>
+<item name='i10Quant_1' summary='false'><number>0</number></item>
+<item name='i10PricePer_1' summary='false'><number>0</number></item>
+<item name='i10PriceTot_1' summary='false'><number>0</number></item>
+<item name='TotPrice_1' summary='false'><number>0</number></item>
+<item name='HideCount2' summary='false'><number>0</number></item>
+<item name='$Fonts'>
+<rawitemdata type='1'>
+i/8oAAEABSZBcmlhbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$$ProjectSelection' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim s As New notessession     
+     Dim uidoc As notesuidocument
+     
+     Dim db As notesdatabase
+     Dim dv As notesview
+     Dim doc As notesdocument
+     
+     Dim CategoryFlag As Integer     
+     Dim IsOperating As Variant
+     Dim IsTravel As Variant
+     Dim IsContract As Variant
+     Dim IsCapital As Variant
+     
+     Set db=s.currentdatabase
+     Set dv=db.GetView("CCV")
+     Set uidoc=ws.currentdocument
+     
+     IsOperating=False
+     IsTravel=False
+     IsContract=False
+     IsCapital=False
+     
+     CategoryFlag=Cint(uidoc.FieldGetText("CategoriesAllowed"))
+     If CategoryFlag &gt;= 8 Then
+          IsOperating=True
+          CategoryFlag = CategoryFlag -8            ' Check for "Operating" flag
+     End If
+     If CategoryFlag  &gt;= 4 Then
+          IsTravel=True
+          CategoryFlag = CategoryFlag - 4           ' Check for "Travel" flag
+     End If
+     If CategoryFlag &gt;= 2 Then
+          IsContract=True
+          CategoryFlag = CategoryFlag -2             ' Check for "Contract" flag
+     End If
+     If CategoryFlag &gt;= 1 Then
+          IsCapital=True
+          CategoryFlag = CategoryFlag -1             ' Check for "Capital" flag
+     End If
+     If CategoryFlag &gt; 0 Then Messagebox("Category Error!")
+     
+     Dim CCText As String
+     Dim GLText As String
+     Dim PNText As String
+     Dim PAText As String
+     
+     Set doc=dv.GetFirstDocument()
+     While Not (doc Is Nothing) 
+          If ((doc.Category(0)="Operating" And IsOperating = True) Or (doc.Category(0) = "Travel" And IsTravel=True) Or (doc.Category(0) = "Contract" And IsContract = True) Or (doc.Category(0)="Capital" And IsCapital=True) Or (doc.Category(0)="")) Then
+               If doc.Type(0)="Cost Centre" Then
+                    CCText = CCText + doc.Name(0) + "|" + doc.CodeNumber(0) +";"     
+               Elseif doc.Type(0)="G/L Account" Then
+                    GLText = GLText + doc.Name(0) + "|" + doc.CodeNumber(0) +";"
+               Elseif doc.Type(0)="Program Activity" Then
+                    PAText = PaText + doc.Name(0) + "|" + doc.CodeNumber(0) +";"
+               Elseif doc.Type(0)="Project #" Then
+                    PNText = PNText + doc.Name(0) + "|" + doc.CodeNumber(0) +";"
+               End If
+          End If 
+          Set doc=dv.GetNextDocument(doc)
+     Wend
+     Call uidoc.FieldSetText("CostCentreList", CCText)
+     Call uidoc.FieldSetText("GLAcctList", GLText)
+     Call uidoc.FieldSetText("PrjNumList", PNText)
+     Call uidoc.FieldSetText("ProgActList", PAText)
+     Call uidoc.Refresh
+End Sub<break/></text></item>
+<item name='$$ProjectSelection_1' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim s As New notessession     
+     Dim uidoc As notesuidocument
+     
+     Dim db As notesdatabase
+     Dim dv As notesview
+     Dim doc As notesdocument
+     
+     Dim CategoryFlag As Integer     
+     Dim IsOperating As Variant
+     Dim IsTravel As Variant
+     Dim IsContract As Variant
+     Dim IsCapital As Variant
+     
+     Set db=s.currentdatabase
+     Set dv=db.GetView("CCV")
+     Set uidoc=ws.currentdocument
+     
+     IsOperating=False
+     IsTravel=False
+     IsContract=False
+     IsCapital=False
+     
+     CategoryFlag=Cint(uidoc.FieldGetText("CategoriesAllowed"))
+     If CategoryFlag &gt;= 8 Then
+          IsOperating=True
+          CategoryFlag = CategoryFlag -8            ' Check for "Operating" flag
+     End If
+     If CategoryFlag  &gt;= 4 Then
+          IsTravel=True
+          CategoryFlag = CategoryFlag - 4           ' Check for "Travel" flag
+     End If
+     If CategoryFlag &gt;= 2 Then
+          IsContract=True
+          CategoryFlag = CategoryFlag -2             ' Check for "Contract" flag
+     End If
+     If CategoryFlag &gt;= 1 Then
+          IsCapital=True
+          CategoryFlag = CategoryFlag -1             ' Check for "Capital" flag
+     End If
+     If CategoryFlag &gt; 0 Then Messagebox("Category Error!")
+     
+     Dim CCText As String
+     Dim GLText As String
+     Dim PNText As String
+     Dim PAText As String
+     
+     Set doc=dv.GetFirstDocument()
+     While Not (doc Is Nothing) 
+          If ((doc.Category(0)="Operating" And IsOperating = True) Or (doc.Category(0) = "Travel" And IsTravel=True) Or (doc.Category(0) = "Contract" And IsContract = True) Or (doc.Category(0)="Capital" And IsCapital=True) Or (doc.Category(0)="")) Then
+               If doc.Type(0)="Cost Centre" Then
+                    CCText = CCText + doc.Name(0) + "|" + doc.CodeNumber(0) +";"     
+               Elseif doc.Type(0)="G/L Account" Then
+                    GLText = GLText + doc.Name(0) + "|" + doc.CodeNumber(0) +";"
+               Elseif doc.Type(0)="Program Activity" Then
+                    PAText = PaText + doc.Name(0) + "|" + doc.CodeNumber(0) +";"
+               Elseif doc.Type(0)="Project #" Then
+                    PNText = PNText + doc.Name(0) + "|" + doc.CodeNumber(0) +";"
+               End If
+          End If 
+          Set doc=dv.GetNextDocument(doc)
+     Wend
+     Call uidoc.FieldSetText("CostCentreList", CCText)
+     Call uidoc.FieldSetText("GLAcctList", GLText)
+     Call uidoc.FieldSetText("PrjNumList", PNText)
+     Call uidoc.FieldSetText("ProgActList", PAText)
+     Call uidoc.Refresh
+End Sub<break/></text></item>
+<item name='Estimate' summary='false'><number>0</number></item>
+<item name='$$InvName_1' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Call InvoiceAddress
+     
+End Sub<break/></text></item>
+<item name='gst' summary='false'><number>0</number></item>
+<item name='NewGst' summary='false'><number>0</number></item>
+<item name='MyGST_1' summary='false'><number>0</number></item>
+<item name='NumberReceivedL' summary='false'><number>0</number></item>
+<item name='TotPrice_2Temp' summary='false'><number>0</number></item>
+<item name='QuantityL' summary='false'><number>0</number></item>
+<item name='PriceL' summary='false'><number>0</number></item>
+<item name='TotPrice_2' summary='false'><number>0</number></item>
+<item name='OriginalModTime'><datetime dst='true'>20080417T091011,78-04</datetime></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAJEAAAAAgAAAAQABAP///wAAAAAA
+</rawitemdata></item>
+<item name='$Flags'><text/></item>
+<item name='$DesignerVersion'><text>6.5</text></item>
+<item name='HideCount' summary='false'><number>0</number></item>
+<item name='CompleteFinancialCode' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='SendTo' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='SaveOptions' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='CategoriesAllowed' summary='false'><number>0</number></item>
+<item name='CostCentreList' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='GLAcctList' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='PrjNumList' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='ProgActList' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='H1' summary='false'><number>0</number></item>
+<item name='H2' summary='false'><number>0</number></item>
+<item name='H3' summary='false'><number>0</number></item>
+<item name='H4' summary='false'><number>0</number></item>
+<item name='H5' summary='false'><number>0</number></item>
+<item name='H6' summary='false'><number>0</number></item>
+<item name='H7' summary='false'><number>0</number></item>
+<item name='H8' summary='false'><number>0</number></item>
+<item name='H9' summary='false'><number>0</number></item>
+<item name='H10' summary='false'><number>0</number></item>
+<item name='H11' summary='false'><number>0</number></item>
+<item name='H12' summary='false'><number>0</number></item>
+<item name='H13' summary='false'><number>0</number></item>
+<item name='H14' summary='false'><number>0</number></item>
+<item name='H15' summary='false'><number>0</number></item>
+<item name='H16' summary='false'><number>0</number></item>
+<item name='H17' summary='false'><number>0</number></item>
+<item name='H18' summary='false'><number>0</number></item>
+<item name='H19' summary='false'><number>0</number></item>
+<item name='H20' summary='false'><number>0</number></item>
+<item name='Total' summary='false'><number>0</number></item>
+<item name='Printed' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='MyGST' summary='false'><number>0</number></item>
+<item name='totGst' summary='false'><number>0</number></item>
+<item name='FinCode' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='d_RefNumber' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='ShipTo' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='Locator' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='Building' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='Building2' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='City' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='Province' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='PostCode' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='PhoneNumber' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='InvName' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='InvPL' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='InvBuilding' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='InvBuilding2' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='InvCity' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='InvProvince' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='InvPostCode' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='InvTel' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='InvFax' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='IssueDate' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='CompanyName' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='AcctNumber' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='CompPhone' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='CompFax' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='DateReq' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i1Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i1Quant' summary='false'><number>0</number></item>
+<item name='i1PricePer' summary='false'><number>0</number></item>
+<item name='i1PriceTot' summary='false'><number>0</number></item>
+<item name='i2Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i2Quant' summary='false'><number>0</number></item>
+<item name='i2PricePer' summary='false'><number>0</number></item>
+<item name='i2PriceTot' summary='false'><number>0</number></item>
+<item name='i3Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i3Quant' summary='false'><number>0</number></item>
+<item name='i3PricePer' summary='false'><number>0</number></item>
+<item name='i3PriceTot' summary='false'><number>0</number></item>
+<item name='i4Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i4Quant' summary='false'><number>0</number></item>
+<item name='i4PricePer' summary='false'><number>0</number></item>
+<item name='i4PriceTot' summary='false'><number>0</number></item>
+<item name='i5Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i5Quant' summary='false'><number>0</number></item>
+<item name='i5PricePer' summary='false'><number>0</number></item>
+<item name='i5PriceTot' summary='false'><number>0</number></item>
+<item name='i6Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i6Quant' summary='false'><number>0</number></item>
+<item name='i6PricePer' summary='false'><number>0</number></item>
+<item name='i6PriceTot' summary='false'><number>0</number></item>
+<item name='i7Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i7Quant' summary='false'><number>0</number></item>
+<item name='i7PricePer' summary='false'><number>0</number></item>
+<item name='i7PriceTot' summary='false'><number>0</number></item>
+<item name='i8Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i8Quant' summary='false'><number>0</number></item>
+<item name='i8PricePer' summary='false'><number>0</number></item>
+<item name='i8PriceTot' summary='false'><number>0</number></item>
+<item name='i9Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i9Quant' summary='false'><number>0</number></item>
+<item name='i9PricePer' summary='false'><number>0</number></item>
+<item name='i9PriceTot' summary='false'><number>0</number></item>
+<item name='i10Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i10Quant' summary='false'><number>0</number></item>
+<item name='i10PricePer' summary='false'><number>0</number></item>
+<item name='i10PriceTot' summary='false'><number>0</number></item>
+<item name='i11Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i11Quant' summary='false'><number>0</number></item>
+<item name='i11PricePer' summary='false'><number>0</number></item>
+<item name='i11PriceTot' summary='false'><number>0</number></item>
+<item name='i12Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i12Quant' summary='false'><number>0</number></item>
+<item name='i12PricePer' summary='false'><number>0</number></item>
+<item name='i12PriceTot' summary='false'><number>0</number></item>
+<item name='i13Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i13Quant' summary='false'><number>0</number></item>
+<item name='i13PricePer' summary='false'><number>0</number></item>
+<item name='i13PriceTot' summary='false'><number>0</number></item>
+<item name='i14Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i14Quant' summary='false'><number>0</number></item>
+<item name='i14PricePer' summary='false'><number>0</number></item>
+<item name='i14PriceTot' summary='false'><number>0</number></item>
+<item name='i15Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i15Quant' summary='false'><number>0</number></item>
+<item name='i15PricePer' summary='false'><number>0</number></item>
+<item name='i15PriceTot' summary='false'><number>0</number></item>
+<item name='i16Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i16Quant' summary='false'><number>0</number></item>
+<item name='i16PricePer' summary='false'><number>0</number></item>
+<item name='i16PriceTot' summary='false'><number>0</number></item>
+<item name='i17Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i17Quant' summary='false'><number>0</number></item>
+<item name='i17PricePer' summary='false'><number>0</number></item>
+<item name='i17PriceTot' summary='false'><number>0</number></item>
+<item name='i18Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i18Quant' summary='false'><number>0</number></item>
+<item name='i18PricePer' summary='false'><number>0</number></item>
+<item name='i18PriceTot' summary='false'><number>0</number></item>
+<item name='i19Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i19Quant' summary='false'><number>0</number></item>
+<item name='i19PricePer' summary='false'><number>0</number></item>
+<item name='i19PriceTot' summary='false'><number>0</number></item>
+<item name='i20Desc' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='i20Quant' summary='false'><number>0</number></item>
+<item name='i20PricePer' summary='false'><number>0</number></item>
+<item name='i20PriceTot' summary='false'><number>0</number></item>
+<item name='Currency' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='TotPrice' summary='false'><number>0</number></item>
+<item name='PurchaseType' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='CardNumber' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='ExpiryDate' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='dRefNumber2' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='CardHolder' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='$TITLE'><text>Print Order Form</text></item>
+<item name='$ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwPAAAAAQABAAAAAAAAAAAAAAAAAAAACAAAAL7/JgAAAAUAAACdAQAACwAAAAAAAABDYXRlZ29y
+aV96ZQABAE58vv8oAAAABQAAAJ0BAAAOAAAAAAAAAF9FZGl0IERvY3VtZW50AgACCr7/KAAAAAUA
+AACdAQAADgAAAAAAAABTZW5kIERvY3VfbWVudAMAAwq+/yIAAAAFAAAAnQEAAAgAAAAAAAAAX0Zv
+cndhcmQEAAQKvv8sAAAABQAAAJ0BAAASAAAAAAAAAF9Nb3ZlIFRvIEZvbGRlci4uLgUAPXy+/y4A
+AAAFAAAAnQEAABMAAAAAAAAAX1JlbW92ZSBGcm9tIEZvbGRlcgAGAD58
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwPAAAAAQABAAAAAAAAAAAAAAAAAAAACAAAAHn/bAABAMDAwAABAAAAAAABAAAAAAABAMDAwAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC+/yYAAAAFAAAAnQEAAAsAAAAAAAAAQ2F0ZWdvcmlfemUA
+AQBOfL7/KAAAAAUAAACdAQAADgAAAAAAAABfRWRpdCBEb2N1bWVudAIAAgq+/ygAAAAFAAAAnQEA
+AA4AAAAAAAAAU2VuZCBEb2N1X21lbnQDAAMKvv8iAAAABQAAAJ0BAAAIAAAAAAAAAF9Gb3J3YXJk
+BAAECr7/LAAAAAUAAACdAQAAEgAAAAAAAABfTW92ZSBUbyBGb2xkZXIuLi4FAD18vv8uAAAABQAA
+AJ0BAAATAAAAAAAAAF9SZW1vdmUgRnJvbSBGb2xkZXIABgA+fA==
+</rawitemdata></item>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>Print Order Form</text></item>
+<item name='$FIELDS'><textlist><text>CardHolder</text><text>dRefNumber2</text><text
+>ExpiryDate</text><text>CardNumber</text><text>PurchaseType</text><text>TotPrice</text><text
+>Currency</text><text>i20PriceTot</text><text>i20PricePer</text><text>i20Quant</text><text
+>i20Desc</text><text>i19PriceTot</text><text>i19PricePer</text><text>i19Quant</text><text
+>i19Desc</text><text>i18PriceTot</text><text>i18PricePer</text><text>i18Quant</text><text
+>i18Desc</text><text>i17PriceTot</text><text>i17PricePer</text><text>i17Quant</text><text
+>i17Desc</text><text>i16PriceTot</text><text>i16PricePer</text><text>i16Quant</text><text
+>i16Desc</text><text>i15PriceTot</text><text>i15PricePer</text><text>i15Quant</text><text
+>i15Desc</text><text>i14PriceTot</text><text>i14PricePer</text><text>i14Quant</text><text
+>i14Desc</text><text>i13PriceTot</text><text>i13PricePer</text><text>i13Quant</text><text
+>i13Desc</text><text>i12PriceTot</text><text>i12PricePer</text><text>i12Quant</text><text
+>i12Desc</text><text>i11PriceTot</text><text>i11PricePer</text><text>i11Quant</text><text
+>i11Desc</text><text>i10PriceTot</text><text>i10PricePer</text><text>i10Quant</text><text
+>i10Desc</text><text>i9PriceTot</text><text>i9PricePer</text><text>i9Quant</text><text
+>i9Desc</text><text>i8PriceTot</text><text>i8PricePer</text><text>i8Quant</text><text
+>i8Desc</text><text>i7PriceTot</text><text>i7PricePer</text><text>i7Quant</text><text
+>i7Desc</text><text>i6PriceTot</text><text>i6PricePer</text><text>i6Quant</text><text
+>i6Desc</text><text>i5PriceTot</text><text>i5PricePer</text><text>i5Quant</text><text
+>i5Desc</text><text>i4PriceTot</text><text>i4PricePer</text><text>i4Quant</text><text
+>i4Desc</text><text>i3PriceTot</text><text>i3PricePer</text><text>i3Quant</text><text
+>i3Desc</text><text>i2PriceTot</text><text>i2PricePer</text><text>i2Quant</text><text
+>i2Desc</text><text>i1PriceTot</text><text>i1PricePer</text><text>i1Quant</text><text
+>i1Desc</text><text>DateReq</text><text>CompFax</text><text>CompPhone</text><text
+>AcctNumber</text><text>CompanyName</text><text>IssueDate</text><text>InvFax</text><text
+>InvTel</text><text>InvPostCode</text><text>InvProvince</text><text>InvCity</text><text
+>InvBuilding2</text><text>InvBuilding</text><text>InvPL</text><text>InvName</text><text
+>PhoneNumber</text><text>PostCode</text><text>Province</text><text>City</text><text
+>Building2</text><text>Building</text><text>Locator</text><text>ShipTo</text><text
+>d_RefNumber</text><text>FinCode</text><text>TotGst</text><text>MyGst</text><text
+>Printed</text><text>Total</text><text>H20</text><text>H19</text><text>H18</text><text
+>H17</text><text>H16</text><text>H15</text><text>H14</text><text>H13</text><text
+>H12</text><text>H11</text><text>H10</text><text>H9</text><text>H8</text><text
+>H7</text><text>H6</text><text>H5</text><text>H4</text><text>H3</text><text
+>H2</text><text>H1</text><text>ProgActList</text><text>PrjNumList</text><text
+>GLAcctList</text><text>CostCentreList</text><text>CategoriesAllowed</text><text
+>SaveOptions</text><text>SendTo</text><text>CompleteFinancialCode</text><text
+>HideCount</text></textlist></item>
+<item name='$$FormScript' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)
+Declare Sub Querysave(Source As Notesuidocument, Continue As Variant)
+Declare Sub Queryclose(Source As Notesuidocument, Continue As Variant)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As NOTESUIDOCUMENT
+     Set Source = Bind(Objectname_)
+     On Event Queryopen From Source Call Queryopen
+     On Event Querysave From Source Call Querysave
+     On Event Queryclose From Source Call Queryclose
+End Sub
+
+'++LotusScript Development Environment:2:2:Queryopen:1:12
+Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)
+     
+End Sub
+'++LotusScript Development Environment:2:2:Querysave:1:12
+Sub Querysave(Source As Notesuidocument, Continue As Variant)
+     
+End Sub
+'++LotusScript Development Environment:2:2:Queryclose:1:12
+Sub Queryclose(Source As Notesuidocument, Continue As Variant)
+     
+End Sub<break/><break/></text></item>
+<item name='$Script' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:74
+Option Public
+Use "AddressFill"
+'++LotusScript Development Environment:2:5:(Forward):0:1
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+
+
+
+
+
+
+
+<break/><break/></text></item>
+<item name='$$ShipTo' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Call ShippingAddress
+     
+     
+End Sub<break/><break/></text></item>
+<item name='$$InvName' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Call InvoiceAddress
+     
+End Sub<break/><break/></text></item>
+<item name='$$CompanyName' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Set uidoc=ws.currentdocument
+     
+     If Not(uidoc.FieldGetText("CompanyName")="") Then
+          Call CompAddress
+     End If
+     
+     
+End Sub<break/><break/></text></item>
+<item name='$$i1Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i1PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H1 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+' Fill variables for Quantity, Price Per, and Hidewhen Counter
+     Quantity=Val(uidoc.FieldGetText("i1Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i1PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     'if there is no quantity and unit price, then this entry has been deleted, therefore we want to hide this entry only and clear the description
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H1 = 1
+          Call uidoc.FieldSetText("i1Desc", "")          
+          Call uidoc.FieldSetText("H1", Cstr(H1))
+     End If
+     
+     ' if there are values for quantity/unit price, and the Hide Counter is lower than 2 (The position number of the next table row) then make the hide counter equal the position of the next
+     ' row
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 2) Then
+          HideCounter = 2
+     End If
+     
+     ' update the hide counter and refresh the document
+     Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+     
+End Sub<break/><break/></text></item>
+<item name='$$i2Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i2PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H2 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i2Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i2PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H2 = 1
+          Call uidoc.FieldSetText("i2Desc", "")          
+          Call uidoc.FieldSetText("H2", Cstr(H2))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 3) Then
+          HideCounter = 3
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+     
+End Sub<break/><break/></text></item>
+<item name='$$i3Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i3PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H3 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i3Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i3PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H3 = 1
+          Call uidoc.FieldSetText("i3Desc", "")          
+          Call uidoc.FieldSetText("H3", Cstr(H3))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 4) Then
+          HideCounter = 4
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i4Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i4PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H4 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i4Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i4PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H4 = 1
+          Call uidoc.FieldSetText("i4Desc", "")          
+          Call uidoc.FieldSetText("H4", Cstr(H4))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 5) Then
+          HideCounter = 5
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+     
+End Sub<break/><break/></text></item>
+<item name='$$i5Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i5PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H5 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i5Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i5PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H5 = 1
+          Call uidoc.FieldSetText("i5Desc", "")          
+          Call uidoc.FieldSetText("H5", Cstr(H5))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 6) Then
+          HideCounter = 6
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i6Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i6PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H6 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i6Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i6PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H6 = 1
+          Call uidoc.FieldSetText("i6Desc", "")          
+          Call uidoc.FieldSetText("H6", Cstr(H6))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 7) Then
+          HideCounter = 7
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+     
+End Sub<break/><break/></text></item>
+<item name='$$i7Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i7PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H7 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i7Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i7PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H7 = 1
+          Call uidoc.FieldSetText("i7Desc", "")          
+          Call uidoc.FieldSetText("H7", Cstr(H7))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 8) Then
+          HideCounter = 8
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i8Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i8PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H8 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i8Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i8PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H8 = 1
+          Call uidoc.FieldSetText("i8Desc", "")          
+          Call uidoc.FieldSetText("H8", Cstr(H8))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 9) Then
+          HideCounter = 9
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+     
+End Sub<break/><break/></text></item>
+<item name='$$i9Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i9PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H9 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i9Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i9PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H9 = 1
+          Call uidoc.FieldSetText("i9Desc", "")          
+          Call uidoc.FieldSetText("H9", Cstr(H9))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 10) Then
+          HideCounter = 10
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+     
+End Sub<break/><break/></text></item>
+<item name='$$i10Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i10PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i11Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i11PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i12Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i12PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i13Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i13PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i14Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i14PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i15Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i15PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i16Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i16PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i17Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i17PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i18Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i18PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i19Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i19PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$$i20Desc' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     
+End Sub<break/><break/></text></item>
+<item name='$$i20PricePer' summary='false' sign='true'><text>'++LotusScript Development Environment:2:5:(Options):0:66
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub Exiting(Source As Field)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:BindEvents:1:129
+Private Sub BindEvents(Byval Objectname_ As String)
+     Static Source As FIELD
+     Set Source = Bind(Objectname_)
+     On Event Exiting From Source Call Exiting
+End Sub
+
+'++LotusScript Development Environment:2:2:Exiting:1:12
+Sub Exiting(Source As Field)
+     Dim ws As New notesuiworkspace
+     Dim uidoc As notesuidocument
+     Dim doc As notesdocument
+     Dim Quantity As Integer
+     Dim UnitPrice As Currency
+     Dim HideCounter As Integer
+     Dim TempPrice As String
+     Dim Length As Integer     
+     Dim H10 As Integer
+     
+     Set uidoc=ws.currentdocument
+     
+     Quantity=Val(uidoc.FieldGetText("i10Quant"))
+     TempPrice=Ltrim$(uidoc.FieldGetText("i10PricePer"))
+     If (Instr(TempPrice, "$")) Then
+          Length = Len(TempPrice) -1    ' To remove the $ sign
+     Else
+          Length = Len(TempPrice)
+     End If     
+     
+     TempPrice = Right$(TempPrice, Length) 
+     UnitPrice=Val(TempPrice)
+     HideCounter=Val(uidoc.FieldGetText("HideCount"))
+     
+     
+     If ((Quantity=0) And (UnitPrice=0)) Then
+          H10 = 1
+          Call uidoc.FieldSetText("i10Desc", "")          
+          Call uidoc.FieldSetText("H10", Cstr(H10))
+     End If
+     
+     If ((Quantity &gt; 0 Or UnitPrice&gt;0) And HideCounter &lt; 11) Then
+          HideCounter = 11
+          Call uidoc.FieldSetText("HideCount", Cstr(HideCounter))
+     End If
+     
+     
+     uidoc.Refresh
+     uidoc.RefreshHideFormulas
+End Sub<break/><break/></text></item>
+<item name='$WINDOWTITLE' sign='true'><formula>@If(@IsNewDoc;"New Order";"Order Number: " + RefNumber)</formula></item>
+<item name='$Footer'>
+<rawitemdata type='1'>
+jv80AABIZWx2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAkJAHx8UGFnZSAmUA==
+</rawitemdata></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+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
+AAAAAAAAAAAAAIr/OACIAQADADAAAQAAAAAAAgECAggQAAAAAAAAAAMAAAAAABAAAAAOAAUAAwBI
+MTMAAwBIMTMA3gYAAIr/hf8IAAEAAArdBgAAiv/+/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIr/OACI
+AQADADAAAQAAAAAAAgECAggQAAAAAAAAAAMAAAAAABAAAAAOAAUAAwBIMTQAAwBIMTQA3gYAAIr/
+hf8IAAEAAArdBgAAiv/+/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIr/OACIAQADADAAAQAAAAAAAgEC
+AggQAAAAAAAAAAMAAAAAABAAAAAOAAUAAwBIMTUAAwBIMTUA3gYAAIr/hf8IAAEAAArdBgAAiv/+
+/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIr/OACIAQADADAAAQAAAAAAAgECAggQAAAAAAAAAAMAAAAA
+ABAAAAAOAAUAAwBIMTYAAwBIMTYA3gYAAIr/hf8IAAEAAArdBgAAiv/+/1AAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAIr/OACIAQADADAAAQAAAAAAAgECAggQAAAAAAAAAAMAAAAAABAAAAAOAAUAAwBIMTcA
+AwBIMTcA3gYAAIr/hf8IAAEAAArdBgAAiv/+/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIr/OACIAQAD
+ADAAAQAAAAAAAgECAggQAAAAAAAAAAMAAAAAABAAAAAOAAUAAwBIMTgAAwBIMTgA3gYAAIr/hf8I
+AAEAAArdBgAAiv/+/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+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
+twtALADDFkAsAMMWQCwAwxZALADDFkAsAMMWQCwAwxZAIADDFgIXBsoWAhgLQAoAwhZAGQDFFsQA
+BSMGFgsjQAIAAxgdFsIKQAMAAhIGyhYCBALMFsIKQAgAxBZACgDCFgEAxBYBAM4WBQAWBhEWwgrN
+FgEjxAABI80WAQBABADHFgEKQAIAxxYBAMMWAh0IQAIAwxYCCyNAAwDCFgIYF8sWAQbNFsIKQAgA
+xBZACgDCFgEAxBYBAM4WAgAWwgoBFsIKzRYCIwtABwACFgBAAgDHFgEAxBYKHhEGIRYhBAARAsIN
+AQrCFgcRCAAjGBINwwIMFhEIAAQYFiMhAAgXxBYRBhIAHiMWGCMAIwYWAiEIAArCFg8hAAgRFgYh
+DRIGEgANERbCCgYWBggABBhABwDGFkAKAMIWAQDEFgEAwhYBAsINAQrCFgQhDQAjwhYCAAbCCAgG
+Ch4IAAIYHsIWAhcexBYCIwvFFggCIQgAChYEF8IWDh4YIxYCIQAhBiMAIwYWwiHCDR8RFgIKCAAC
+IQAIFxYhAAgRFgYEIwAjFiEAIRYhAAgRQAIAAhYAxBbCCggLIxYjIRgLEsIYCxIGFg0LGCMRHRIX
+wgoMFg0LGB4KFgAdFh4dxBYaHgoWCgAWHgIWAh4WCggYBg0WHQQWBggWCw3CFwYhHRYdIxbCCgYW
+CAYWBB1ABwDGFkAKAMIWAQDEIwQAFgYSwhgEEgYXEsIYBQgLFgAYwgQMGAoIGAYNFiMRFh0ExBYC
+IxLDIzQCFgoIGAYNFiEdFgYSFgAWCiMYFx4KFgojFiMeFh0eFgoIGAYAAhYeCh0EFgYIFgsABhgI
+wgYHAAYLEhYCHUACAAIWAMQWwgoICyMWIwsWCgjCIwQICgsjxBYDCyMWwgoCCyPCFgQLIxYAwhbC
+CsQWAQDDFgMAFgDDIwIAFsIKwhYEABYjEsIjAQ3CCwEjwxYCEQrCIwEWwgoCCw3CIwISI0AHAMYW
+QAoAwhYBAMQLBAAWCgjCIwsIChYXHSENCxYAFsIKARbCCsIWBwAWAh4WEhHEFgIjHcMLAhcWwgrC
+FgoAFhcIFiECFgAWwgrCFgEAwxYIABYjCxYLIxbCCsIWAQDCFsIKAiMSwiMBDcILASPCFgojCxYA
+FhgNEh0YQAIAAhYAxBYKIxELIxYjCxYKBMMLAxcLI8IWwhgDCyMWwgoCCyPCFgQLIxYAwhbCCsQW
+AQDDFgMAFgDECwEWwgrCFgQAFiMdwwsDGAsjwhbCI8IKAiMWwgoCCxLDCwEGQAcAxhZACgDCFgEA
+xBYEABYKBMMLChcLDSEdEgsWABbCCgEWwgrCFgEAwhYDDQsIxRYCIwvFFsIKwhYBAMIWBxIGDRgW
+ABbCCsIWAQDDFggAFiMLFgsjFsIKwhYBAMIWwgoCIx3DCwMYCyPCFgQjCxYAwhYEGAIjCEACAAIW
+AMMWEx0IFgsjFiMLFgYIFxgSCxYNCxbCBAMLIxbCCggWDQsYHgoWAMIWwgrEFgweChYKABYeChYC
+IxbCCsIWCgAWHR4YBggYCyPCFgYAFxgEIxbCCgYWDQsWBApABwDGFkAKAMIWAQDEFhEAFgYIFxgS
+CwoEFgsNCxYAFsIKARbCCsIWAQDCFgMhCCHFFgIjC8UWwgrCFgEAwhYDHRIEwhYCABbCCsIWDB4K
+FgojFiMLFgsjFsIKwhYBAMIWwgoIHR4YBggYCyPCFgojCxYAFhEeGAYNQAIAARbEAAgeBhYLIxYj
+C8IWBAoNACHCFggLCAAjGBcNBMIKCBYRCAAEGBYAwhbCCsQWDBcjAB4AFgYjAAgGFsIKwhYKABYY
+BAANAhYLI8IWBgoADSEIFsIKCRYRCAAjGBYjC0AHAMMWQAoAwhYBAMQWAQDCFggKDQAhFhcIAMIj
+BwIWABYRAALCCsIWAQDCFgMXAAbFFgEjxQABFsIKwhYBAMIWAxgAEcIWAgAWwgrCFgwGIwAjBhYj
+CxYLIxbCCsIWAQDCFsIKCBgEAA0CFgsjwhYKIwsWEggYIwANAkAHAMcWBQoGFhcNQAQAxhYCEQtA
+BwDDFkAOAMIWAgsIQBAAxxYFEQ0jDQJABADGFgECQAcAxBZADgAEFgoNEUAOAAMWGAtAAgDFFgMX
+CxdADADEFkAOAAMWFwZACwDCFgUCCAANCs4WAgYRwxYCBAJAAgDHFgIjC0AGAMIWAgYRxxbCCkAC
+AAIGEUACAMQWQAwAAxYLI8UWBRESAA0KQAYAAgYSwgACBBjHFgQYEgALxRYCGB1AAgDHFgcXDQYW
+FxICzRbCCsMWAQZACQDEFsIKxxbCCkACAMIKQAIAxBZADAADFgsjxBYHERILFhcSAkAFAMcWBAgC
+FhjCBMcWAgsSxxYCCyNAAgDHFgMGCBjCFsIXBxYCCAAIFxbCIcINAhEGwggGBhYhAAgRxRYNIQAI
+ERYGBCMAIxYdEcIWAwoLIcIGFCENEhgEAAgRFgIhCAAKFgIhCAAKwhYBAsINCAoWBiEjAAQCwg0I
+ERYGCAAEGBbCIcINAhEGwgjCBgUSAA0RFsIKAhYCwg0BCsUWBgYIAAQYBsIIAQZAAgDDFkAKAMIW
+CiENACMWBgQjACPCFgURCA0EI8QWAhIRwxYJBhEWEQgABBgWwiHCDQkRFgYIAB4WBiHCFhYhBhYj
+CgASCwgAChYGCAAEGBYhBAARwxYCDQbCFhcYBhYGEgANERYSDSEWIQAIERYSDQIEF8IWAh4XQAIA
+BhYhDR4dF8IWDBIGFh4KFiMeFh0eGMIEBhgdBBYGCMQWDh0EFgYIFgsABhgIBhEewhYDDRgjwgsB
+DcIXFB0eGAsNGAoIGAYNFgoIGAYNFgYSwhgYEgYLAAYYCAQWHSMWCAYWBB0WIx4WHR4YwgQHGCEd
+Fh0jFsIKAgYSwhgCEgbEFgYIBhYEHRjCBAEYQAIAwxZACgADFhcSwhgBCMILCwAGGAgGFg0LGB4j
+xBYBAMcWEw0LGB4KFiMeFh0eFiMRGAQXCyPCFhQjCxYAHRYeEhgGABYIBhYEHRYjIcIYwxYFAg0j
+CgbCFhchHRYdIxYdEgYdBBYGCBYdEhcKIRYGCEACAMMWEhgRIQ0RFhgCCggKFiMLFgsjFsIKAxYj
+EsIjAg0LwxYCIxLCIwENwgsBI8IWCSMLFggXEQQWI8ILASPCFgIjC8IWAiMLwgrCFgIAFsIKwhYE
+ABYKCMIjBAgKCyPCFgcjCxYLIwsNwiMJEiMWIwsWCyMWwgrCFgIRCsIjARbDCgEIwiMCCArDFgIL
+DcIjAxIjFsIKQAIAxBZACgDCFgQXHSENwgsBI8IWASPCCwEjwhYCCyPEFgEAxhYCCyPCFhALIxYj
+CxYLIxYKDQQLFgsjwhYEIwsWAMIWwgrCFgMACw3CIwUSIxYjC8cWBAsKCCHCFgIRCsIjBhYLIxYj
+EsIjAQ3CCwUjFhcNFsIhQAIAAxYCHcMWDxEjGA0ECgQKFiMLFgsjFsIKAxYjHcMLARjDFgIjHcML
+AxgLI8IWCSMLFiEdHhEWI8ILASPCFgIjC8IWAiMLwgrCFgIAFsIKwhYEABYKBMMLAxcLI8IWByML
+FgsjCxLDCwgGFiMLFgsjFsIKARbCI8IKAiMWwwoBBMMLARfDFgILEsMLAgYWwgpAAgDEFkAKAAYW
+Cw0hHRLCCwEjwhYBI8ILASPCFgILI8QWAiMRwxYEFx4LI8IWCAsjFiMLFgsjwhYGBiENAgsjwhYE
+IwsWAMIWwgrCFgMACxLDCwQGFiMLxBYCBgTDFgMYABbCI8IKByMWCyMWIx3DCwMYCyPCFgQeAggX
+QAIAFRYXDREWGAQhCxIYFxIKFiMLFgsjFsIKBxYdHhgGCBjDFggdHhgGCBgLI8IWBiMLFgYSCMIW
+ASPCCwEjwhYGHR4YCw0YwgrCFgIAFsIKwhYHABYGCBcYEsILASPCFhIjCxYLIxYNCxYEChYjCxYL
+IxbCCgcWABcYBCMWwgoGBggXGBILxBYGDQsWBAoWwgpAAgDEFgCWAOAGAAAAAAAAAAAAABUAzgZA
+CgAGFgoEFgsNwgsBI8IWCCMLFg0LGB4jxBYhERILFhcSChYNCxgeChYjCxYLIxYSCxYeHQsIGAYN
+CxYAwhbCCsIWCgAWDQsWBAoWIwvFFhgIHRgWHRIWABcYBCMWCyMWHR4YBggYCyPCFgMRCBJAAgDD
+FgoREgANBBgWIwAIwgQPFiMLFgsjFhEAAhgEAA0CxBYIGAQADQIWCyPCFgIjC8IWAhIhwhYBI8IL
+ASPCFgYYBAAIERbCCsIWAgAWwgrCFgEAwhYHCg0AIRYLI8IWGyMLFgsjFhEIACMYFiMLFgsjFhEA
+AgoADSEIFsIKBRYKDQAhxRYJEQgAIxgWEQACQAIAwxZACgAEFhcIAMIjAwILI8IWCCMLFgYIDQQj
+xRYFEQgADQrCFhQRCAAEGBYjCxYLIxYCDQAjGBYeAMIjAwsWAMIWwgrCFgoAFhEIACMYFiMLxRYC
+Bh7CABUeBhYKAA0hCBYLIxYYBAANAhYXDQTCFgIIHUAVAAEWQBYAxxYDGA0XQBUAARZAFgDGFgMR
+CCFAAwDDFgIXBkADAAMWFwZADgDCFkAWAMYWAhgLQAMAxBYCEgZAAgAGFgsjFhEGwxYCEgbJFgEA
+QAgAxhYCEQZABABACgDCFsQAAQRAAgDHFsIKQAwAwxYCGBdAAgDFFgIjC8IWAhgXyhYBAEAIAMYW
+AiMLQAQAQAoAwhYBAMIWAxgeHUACAMYWwgpACwDFFg8hAAgRFhgjACMGFgYjAAjCBgEhwhYRIQYW
+BBINESECDRIWGCMAIwbEFgUGIwAhAMIWCiEACBEWGCMAEhfEFgQRCAAjwhgKBAAIERYGBCMAI8IW
+LiEACBEWBiMAIwYWAgoIAAIhAAgXAgoIAAIhAAgXFiENACMWAg0SFgYIAAQYFiPCFsICCRYhBAAR
+IQAIEcsWQAoAwhYBAMMWESEdFgQSDRchDQAjFgYEIwAjwhYKEQgAIxgKHggAAkALABAWCxIWAh0W
+HgIWAh4WHgoWwiECCyPCFhEjCxYAERcLIxcSHRYeAhYCHsQWER4KFgoAFh0EFgYIFgohFiELxBYl
+DQsYIxEdHhgLDRgLAAYYCAYLEhYCHRYeChYKIxYKCBgGAAIWHsIKCggYBgACFh4KFxLCGA0ICxcS
+HRYIBhYEHRYAwhbCCgkWIyEYERIWAh3LFkAKAMIWAQDCIwYSCBgWABHCFwESwhgBCMILEAAGGAgG
+Fg0LGCMRCggYBg1ACwAIFhgNEh0YFgDDIwMAFgDEFgILI8IWBCMLFgDCFgcLIxYjCxYAwyMBAMQW
+AQDDFgQAFiMSwiMBDcILAwAeAsQWAgsjxBYCIwvCFgEjwgsBI8IWCSMLGA0SHRgWAMMWAgAWwgrC
+FgEAwhbECsIWAQDCFsIKCBYXHSENCxYjwgsBDcIjBBIjFgDCFsIKCRYjCxYYDRIdGMsWQAoAwhYB
+AMMLBCMRFgDDFgQXHSENwgsBI8IWASPCCwEjxBbCCsIWAQBACwDCFgYYAiMIFgDECwIWAMMWAxcL
+I8IWBCMLFgDCFgcLIxYjCxYAxAvEFgEAwxYEABYjHcMLBhgWFx0IBMMWAgsjwhbCGAIjC8IWASPC
+CwEjwhYJIwsWGAIjCBYAwxYCABbCCsIWAQDCFsQKwhYBAMIWwgoICw0hHRILFiPCCwESwwsDBhYA
+whbCCgMWIwvCFgQYAiMIyxZACgDCFgEAwxYECyMWAMIWBQsNIR0SwgsBI8IWASPCCwEjwhbCGMIK
+whYBAEALABoWER4YBg0WHgoWAiMWHgoWAggLCBgGDQsWAMIWCwsjFiMLFh4KFgIjxBYRHgoWCgAW
+HR4YBggYIQoWHR7EFgMNCxbCBAgdHhgLDRgLI8IWDiMLER4YBg0WHgoWCiMWwgrCFgEAwhbECsIW
+AQDCFsMKHQQWCw0LFiMLFg0LFgQKFgAGGBIKFiMLFhEeGAYNyxZACgDCFgEAwxbCBAIWAMIWBQoE
+FgsNwgsBI8IWBiMLFg0LFsIEwgrCFgEAQAsAFRYYIwANAhYGIwAIBhYXIwAIBhYeAMIjAwsWAMIW
+CwsjFiEAFwYjAAgGxBYRGCMAIQAWGAQADQIWBggACAbEFgQLCAAjwhgHBAAIERYLI8IWDiMLGCMA
+DQIWBiMAIwYWwgrCFgEAwhbECsIWAQDCFsIKAxcIAMIjGQIWIQAXEQgAIxgWHQAIBAoWIwsWGCMA
+DQLLFkAKAMIWxAAEHhgWAMIWAxcIAMIjAwILI8IWCCMLFgsIACMYwgrCFgEAQB4AQCwAwxZALADD
+FkAsAMMWQCwAwxZALADDFkAsAMMWQCwAwxZALADDFpcAxgAAAAAAAPf395mZmd8AKVpaWjo6OszM
+zOdAXyEhIebm5nt7e729vdbW1hAQEPOfroSEhEpKSq2trTMzM+9/lGZmZuMgRP///97e3u/v7/e/
+yQgICPnP17W1tYyMjFJSUutgeigoKHNzc/vf5EJCQhkZGcXFxWZmZvGPoaWlpeEQNv3v8vWvvOUw
+UZmZmelQbO1wh////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AJgAHgAAABYWFhYWFhYWIFRhc2tzJEZvcm1Qcml2c4X/CAABAAAKpBIAAacZlSsAAAACAAABAQAA
+gQKC/1oAAwABAAAAAgAAANUZZyvVGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAIQBAAAAAKiAKAABACgAAQDGEWMAAQAAAAQAAACDBAMAhf8IAAEBABLdBgAArf+p/7QA
+AQAYAAQAqACoAAAAmgAFAAwAUHVyY2hhc2VUeXBlAQAKAE1hc3RlckNhcmQKAq8AcgAgAAEAFQBN
+YXN0ZXJDYXJkIE9yZGVyIEZvcm0ArgBSAAUADABQdXJjaGFzZVR5cGUBAAQAVklTQQoCrwA0ABoA
+AQAPAFZJU0EgT3JkZXIgRm9ybQCuABoAAQANAFBPIE9yZGVyIEZvcm0ArgAEALUFAwAHAAwABQAJ
+MFMwRQCF/wgAAQEAEqoC3gYAAK4Ahf8IAAEBABKlBgAAAACBAoL/WgAEAAAAAAAAAAAAoAUAAKAF
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAlISgBQwAoAUM
+AAAAAAABAAAABAAAALv/RgAEAJxhFADOADgvOAAAACoABQAMAFB1cmNoYXNlVHlwZQEADgBQdXJj
+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
+AQAoAAEA1BJjAAEAAAAEAAAAgwSEAIX/GwABAAAKQ3VycmVuY3kgLyCQY2hhbmdlOgCkEhUC3RfH
+HgAAEAIAAQEBAACBAoL/WgCFAAEAAAAAAAAAEhiSHhIYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAhgEAAAAAqIAoAAMAKAADAB4FYQABAAAABAAAAIMEhQCF/wgAAQAA
+Ct0GAACK//7/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiv9AAIgBAAUAMAIAAAAAAAACAQEAChQAAAAA
+AAAACAAAAAAAFAAAABIABQAIAEN1cnJlbmN5AwBDdXJyZW5jed4GAACK/4X/CAABAAAKpBIVA8ce
+rSUAABQCEAEBAQAAgQKC/1oAhgABAAAAAAAAAOoeiiXqHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAIYBAAAAAKiAKAACACgAAgAsBmIAAQAAAAQAAACDBIYAhf8SAAEA
+AApTdWIgVG90YWw6pBIVBK0lWywAAFUCEREBAQAAgQKC/1oAhwABAAAAAAAAAN4lOSzeJQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIYBAAAAAKiAKAACACgAAgCGBmIA
+AQAAAAQAAACDBIcAhf8IAAEBAArdBgAAiv/+/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIr/+AGIAQAD
+ADACAwAAAAAAAgEBAArMAQAAAAAAAAgAAAAAAMwBAABaAQUACgBpMVByaWNlVG90BQAKAGkyUHJp
+Y2VUb3QiAgUACgBpM1ByaWNlVG90IgIFAAoAaTRQcmljZVRvdCICBQAKAGk1UHJpY2VUb3QiAgUA
+CgBpNlByaWNlVG90IgIFAAoAaTdQcmljZVRvdCICBQAKAGk4UHJpY2VUb3QiAgUACgBpOVByaWNl
+VG90IgIFAAsAaTEwUHJpY2VUb3QAIgIFAAsAaTExUHJpY2VUb3QAIgIFAAsAaTEyUHJpY2VUb3QA
+IgIFAAsAaTEzUHJpY2VUb3QAIgIFAAsAaTE0UHJpY2VUb3QAIgIFAAsAaTE1UHJpY2VUb3QAIgIF
+AAsAaTE2UHJpY2VUb3QAIgIFAAsAaTE3UHJpY2VUb3QAIgIFAAsAaTE4UHJpY2VUb3QAIgIFAAsA
+aTE5UHJpY2VUb3QAIgIFAAsAaTIwUHJpY2VUb3QAIgIDAAcAcABqAAkxUzJTM1M0UzVTNlM3UzhT
+OVMxMFMxMVMxMlMxM1MxNFMxNVMxNlMxN1MxOFMxOVMyMFMyMVMyMlMyM1MyNFMyNVMyNlMyN1My
+OFMyOVMzMFMzMVMzMlMzM1MzNFMzNVMzNlMzN1MzOFNUb3RQcmljZd4GAACK/4X/CAABAQAKpBIW
+ADUE+QYAAAACAAABAQAAgQKC/1oAiAAAAAAAAAAAADUE+QY1BAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIYJAAAAAFSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBIgAvAaD
+AIgAhf8IAAEBAAqkEhYB+QbdFwAAAAIAAAEBAACBAoL/WgCJAAAAAAAAAAAA+QbdF/kGAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhgkAAAAAVIcAAAAAAAAAAAAAAAAB
+AAAABAAAAIMEiQC8BoMAiQCF/wgAAQEACqQSFgLdF8ceAAAAAgAAAQEAAIECgv9aAIoAAAAAAAAA
+AADdF8ce3RcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACGCQAAAABU
+hwAAAAAAAAAAAAAAAAEAAAAEAAAAgwSKALwGgwCKAIX/CAABAQAKpBIWA8cerSUAAAQCEAABAQAA
+gQKC/1oAiwABAAAAAAAAAMcerSXHHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAIYBAAAAAFSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBIsAhf8MAAEAAApIU1Q6pBIWBK0l
+WywAAFUCEREBAQAAgQKC/1oAjAABAAAAAAAAALwlWyy8JQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAIYBAAAAAFSEDwAAAA8AAAAAAAAAAQAAAAQAAACDBIwAhf8IAAEB
+AArdBgAAiv/+/1MAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEgDAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4sJACK/1QAgAEAAwAwAgMBAAAAAAIBAQAK
+LAAAAAAAAAADAAAAAAAsAAAAHgAFAAgAVG90UHJpY2UFAAUATXlHU1QAJAIDAAcADAAFAAkxUzJT
+AEdTVADeBgAAiv+F/wgAAQEACqQSFwA1BPkGAAAAAgAAAQEAAIECgwSIALwGgwCIAIX/CAABAQAK
+pBIXAfkG3RcAAAACAAABAQAAgQKDBIkAvAaDAIkAhf8IAAEBAAqkEhcC3RfHHgAAAAIAAAEBAACB
+AoMEigC8BoMAigCF/wgAAQEACqQSFwPHHq0lAAAEAhAAAQEAAIECgwSLAIX/DgABAAAKVG90YWw6
+pBIXBK0lWywAAFUCEREBAQAAgQKDBIwAhf8IAAEBAArdBgAAiv/+/1MAAAABAAAAAQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAQAAAEgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAC4sJACK/1gAgAEAAwAwAgMBAAAAAAIBAQAKKgAAAAAAAAAKAAAAAAAqAAAAHAAFAAgAVG90
+UHJpY2UFAAMAR1NUACICAwAHAAwABQAJMVMyUwBUb3RXaXRoR1NU3gYAAIr/hf8IAAEBAAqlBgAA
+AACBAoL/WgCNAAAAAAAAAAAAoAUAAKAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAUCkAAAAAlISgBQwAoAUMAAAAAAABAAAABAAAALv/EgGNAJxhFADOAMh5BAEAAMYA
+BQALAGkxMVByaWNlVG90AAUACwBpMTJQcmljZVRvdAAiAgUACwBpMTNQcmljZVRvdAAiAgUACwBp
+MTRQcmljZVRvdAAiAgUACwBpMTVQcmljZVRvdAAiAgUACwBpMTZQcmljZVRvdAAiAgUACwBpMTdQ
+cmljZVRvdAAiAgUACwBpMThQcmljZVRvdAAiAgUACwBpMTlQcmljZVRvdAAiAgUACwBpMjBQcmlj
+ZVRvdAAiAgQAAAAAAAAAAAAAAAoCAwAHADwANQAJMlMzUzRTNVM2UzdTOFM5UzEwUzExUzEyUzEz
+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
+AAAAAAAAhgEAAAAAqIAoAAEAKAABAIgTYwABAAAABAAAAIMEkwCF/x4AAQEAClNpZ25hdHVyZSBh
+bmQgTmFtZSBvZiDdBgAArf+p/5IAAQAYAAQAhgCGAAAAeAAFAAwAUHVyY2hhc2VUeXBlAQAKAE1h
+c3RlckNhcmQKAgUADABQdXJjaGFzZVR5cGUBAAQAVklTQQoCHQKvADQAFgABAAsAQ2FyZCBIb2xk
+ZXIArgAeAAEAEQBTaWduaW5nIEF1dGhvcml0eQCuAAQAtQMDAAcADAAFAAk1UzZTAIX/CAABAQAK
+qgLeBgAArgCF/wkAAQEACjoAgQKDBI8Ahf8yAAEBAApTaWduYXR1cmUgZXQgbm9tIGR1IGSCdGVu
+dGV1ciBkZSBsYSBjYXJ0ZTqBAoMEjwCF/wgAAQEACoECgwSPAIX/CAABAQAKgQKDBI8Ahf8IAAEF
+AAqBAoMEjwCF/z4AAQUACiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIIECgwSPAIX/CAABAAAK3QYAAIr//v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACK
+/5QAiAEABQAwAgAAAAAAAAIBAAAKZgAAAAAAAAAKAAAAAABmAAAAVAAFAAwAUHVyY2hhc2VUeXBl
+AQAOAFB1cmNoYXNlIE9yZGVyCgKvACgAEgAFAAgAU2lnbkF1dGiuABYABQAKAENhcmRIb2xkZXKu
+AAQAtQMDAAcAEAAJAAkzUzRTNlM4UwBDYXJkSG9sZGVy3gYAAIr/hf8JAAEAAAogAIECgwSPAIX/
+CAABAAAKgQKDBI8Ahf8NAAEAAApEYXRlOgCF/0YAAQQACiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAggQKDBI8Ahf8IAAEEAAqBAoME
+jwCF/wgAAQQACqUGAAAAAIECgv9aAJQAAAAAAAAAAACgBQAAoAUAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAACUhKAFDACgBQwAAAAAAAEAAAAEAAAAgwSUALwG
+jQCUAIX/CAABAQAK
+</rawitemdata></item></note>
+

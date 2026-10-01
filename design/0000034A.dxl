@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(CalcWithGst)' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3' publicaccess='false'
+ designerversion='6.5'>
+<noteinfo noteid='34a' unid='C47541C3C872960F852573E6006A2B5C' sequence='68'>
+<created><datetime>20080205T141939,16-05</datetime></created>
+<modified><datetime dst='true'>20260917T084246,10-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134328,04-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084246,09-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084246,09-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134340,59-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='selected'/><code event='action'>
+<simpleaction action='runformula'><formula>FIELD GSTExempt := "No";
+FIELD TotCostTaxed := TotCost * @GetProfileField( "GstMod";"TotGst1");
+SELECT @All</formula></simpleaction></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20090805T084149,27-04</datetime></agentmodified></rundata>
+<item name='$POID'><datetime dst='true'>20090805T084209,64-04</datetime></item></agent>
+

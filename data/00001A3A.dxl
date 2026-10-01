@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1a3a' unid='53DD44BD1BC528D885256ED60067C58F' sequence='3'>
+<created><datetime dst='true'>20040719T145327,83-04</datetime></created>
+<modified><datetime dst='true'>20260917T084405,68-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074821,40-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084405,67-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084405,67-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pat Goegan/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20040719T145601,76-04</datetime><datetime
+ dst='true'>20090902T074523,82-04</datetime></revisions>
+<item name='CompName'><text>Peptides International Incorporated</text></item>
+<item name='CompPhone'><text>1-800-777-4779</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>1-502-267-1329</text></item>
+<item name='CompPO'><text>P.O. Box 24658</text></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Louisville</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>Kentucky</text></item>
+<item name='CompPostalCode'><text>40224</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

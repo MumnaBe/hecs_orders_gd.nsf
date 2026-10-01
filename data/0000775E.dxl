@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='775e' unid='36D35C756362F2D185258340004876D7' sequence='2'>
+<created><datetime>20181109T081130,15-05</datetime></created>
+<modified><datetime dst='true'>20260917T085215,43-04</datetime></modified>
+<revised><datetime>20181109T081200,78-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085215,42-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085215,42-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20181109T081130,16-05</datetime></revisions>
+<item name='Type'><text>Program Activity</text></item>
+<item name='Name'><text>GK06-Health Surveillance &amp; Monitoring</text></item>
+<item name='NameF'><text>GK06-Health Surveillance &amp; Monitoring</text></item>
+<item name='CodeNumber'><text>GK06</text></item>
+<item name='org_author' names='true'><text>Kirsten Oickle</text></item>
+<item name='date_create'><datetime dst='true'>20181011T110553,15-04</datetime></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2018-11-09 08:12:00 AM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

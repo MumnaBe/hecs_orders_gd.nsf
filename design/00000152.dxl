@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='ReCalculateThisBudget' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3 v4' publicaccess='false'
+ designerversion='6.5' restrictions='unrestricted'>
+<noteinfo noteid='152' unid='091127A9BFBA070385256D2600475BCB' sequence='20'>
+<created><datetime dst='true'>20030514T085925,55-04</datetime></created>
+<modified><datetime dst='true'>20260917T084236,42-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134326,92-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084236,41-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084236,41-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,46-04</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='all'/><code event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	
+	'/**************************************************************************************
+	'/ This agent is called from the "Cancel Order" button on the NewOrderForm.
+	'/ The goal to decommit the purchase amount of the cancelled order and 
+	'/ to Remaining Credit amount on the credit card is increased.	
+	'/
+	'/ Changes: 2009-06-10: JML: ADR 3550: the agent is now updating the Remaining Credit o the credit card.
+	'/**************************************************************************************
+	
+	On Error Goto handleError
+	
+	Dim ws As New notesuiworkspace
+	Dim doc As notesdocument
+	'Dim bOpTotal As Currency
+	'Dim bTravTotal As Currency
+	'Dim bConTotal As Currency
+	'Dim bCapTotal As Currency
+	Dim purchCat As String
+	Dim uidoc As notesuidocument
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dv As notesview
+	Dim oDoc As notesdocument
+	Dim dc As notesview
+	Dim orderamount As Variant	
+	Dim purchasetype As String
+	
+	'bOpTotal = 0
+	'bTravTotal = 0
+	'bConTotal = 0
+	'bCapTotal = 0
+	
+	' Get a handle on the Project document
+	Set uidoc=ws.currentdocument
+	Set db=s.CurrentDatabase
+	Set dc=db.GetView("PLV")
+	Set dv=db.GetView("reflookup")
+	Set doc=dc.GetDocumentByKey(uidoc.FieldGetText("ProjectSelection"))
+	'bOpTotal = doc.budgetOp_Com(0)
+	'bTravTotal = doc.budgetTrav_Com(0)
+	'bConTotal = doc.budgetContr_Com(0)
+	'bCapTotal = doc.budgetCap_Com(0)
+	
+	' Get a handle on the current Order document.
+	Set oDoc=uidoc.Document
+	purchCat = oDoc.FinCategory(0)
+	
+	' Make sure the project document was found
+	If doc Is Nothing Then
+			'If there is no project, the user should be informed and the operation will stop.  The user should make sure the project exist and retry.
+			'When retrying the Reference Number will not be recalculated and the warning emails will not be sent. 
+			' When retrying the confirmation will be sent again, but it will ensure the budget is calculated
+			' get the current language
+		Dim language As String
+		Language = s.GetEnvironmentString("HECS_Language")
+		If Language = "F" Then
+			Messagebox "Le projet n’a pas été trouvé, donc le budget n’a pas été calculé.  Veuillez contacter l'administrateur de l'application.", 0+48, "Le budget n'as pas été mis à jour"
+		Else
+			Messagebox "The project cannot be found.  The project`s budget has not been calculated.  Please contact the applciation`s administrator.", 0+48, "The project's budget has not been calculated"				
+		End If	
+		Exit Sub
+	End If
+	
+	' Before proceeding, make sure the project names matches
+	If oDoc.ProjectSelection(0)=Cstr(doc.Project(0)) Then
+		Select Case purchCat
+			' Calculate the new balances
+		Case "Operating"
+			doc.budgetOp_com=doc.budgetOp_com(0) - oDoc.TotCostTaxed(0)
+			doc.TotCommitted = doc.TotCommitted(0) - oDoc.TotCostTaxed(0)
+			
+			' 2009-06-10: JML: ADR 3550: the code below was removed to make it the same as the "CalculateBudgetForOrder" agent
+			'If oDoc.GSTExempt(0)="Yes" Then
+			'	bOpTotal = bOpTotal - oDoc.TotCost(0)                       
+			'Else
+			'	bOpTotal = bOpTotal - oDoc.TotCostTaxed(0)
+			'End If
+		Case "Travel"	
+			doc.budgetTrav_com=doc.budgetTrav_com(0) - oDoc.TotCostTaxed(0)
+			doc.TotCommitted = doc.TotCommitted(0) - oDoc.TotCostTaxed(0)
+			' 2009-06-10: JML: ADR 3550: the code below was removed to make it the same as the "CalculateBudgetForOrder" agent			If oDoc.GSTExempt(0)="Yes" Then
+			'If oDoc.GSTExempt(0)="Yes" Then			
+			'	bTravTotal = bTravTotal - oDoc.TotCost(0)                       
+			'Else
+			'	bTravTotal = bTravTotal - oDoc.TotCostTaxed(0)
+			'End If
+		Case "Contract"
+			doc.budgetContr_com=doc.budgetContr_com(0) - oDoc.TotCostTaxed(0)
+			doc.TotCommitted = doc.TotCommitted(0) - oDoc.TotCostTaxed(0)
+			' 2009-06-10: JML: ADR 3550: the code below was removed to make it the same as the "CalculateBudgetForOrder" agent			If oDoc.GSTExempt(0)="Yes" Then
+			'If oDoc.GSTExempt(0)="Yes" Then
+			'	bConTotal = bConTotal - oDoc.TotCost(0)                       
+			'Else
+			'	bConTotal = bConTotal - oDoc.TotCostTaxed(0)
+			'End If
+		Case "Capital"
+			doc.budgetCap_com=doc.budgetCap_com(0) - oDoc.TotCostTaxed(0)
+			doc.TotCommitted = doc.TotCommitted(0) - oDoc.TotCostTaxed(0)
+			' 2009-06-10: JML: ADR 3550: the code below was removed to make it the same as the "CalculateBudgetForOrder" agent			If oDoc.GSTExempt(0)="Yes" Then
+			'If oDoc.GSTExempt(0)="Yes" Then
+			'	bCapTotal = bCapTotal - oDoc.TotCost(0)                       
+			'Else
+			'	bCapTotal = bCapTotal - oDoc.TotCostTaxed(0)
+			'End If
+		End Select
+	End If
+	
+	' 2009-06-10: JML: ADR 3550: the code below was removed to make it the same as the "CalculateBudgetForOrder" agent			If oDoc.GSTExempt(0)="Yes" Then
+	'doc.budgetOp_com = bOpTotal
+	'doc.budgetTrav_com=bTravTotal
+	'doc.budgetContr_com=bConTotal
+	'doc.budgetCap_com=bCapTotal
+	'doc.totCommitted=bOpTotal+bTravTotal+bConTotal+bCapTotal
+	doc.FreeBalance=doc.totBudget(0)-doc.totCommitted(0)
+	
+	' It the purchase type is Visa or MasterCard then increase the Remaining Credit on the Credit Card using the TotCostTaxed amount
+	purchasetype = oDoc.PurchaseType(0)	
+	If Not (purchasetype="Purchase Order") Then
+		Dim carddv As notesview
+		Dim Carddoc As notesdocument
+		Dim namekey(1 To 2) As String
+		
+		Set carddv = db.GetView("CHL")   ' getting the card holder lookup view             
+		cardholdername = oDoc.CardHolder(0)   ' get the value of the card holder field from the order document
+		orderamount = Ccur(oDoc.TotCostTaxed(0))  ' the field TotCostTaxed take in consideration the Custom, Exchange Rate, GST and GST Exemption.
+		
+		namekey(1) = purchasetype
+		namekey(2) = cardholdername
+		Set Carddoc = carddv.GetDocumentByKey(namekey)    ' according to the value of purchase type and card holder name, get the correct cardholder document from the card holder view
+		If Not (Carddoc Is Nothing) Then				
+			Select Case purchasetype
+			Case "MasterCard"
+				Carddoc.RemCreditM = Carddoc.RemCreditM(0) + orderamount   ' add the order amount from the remaining credit
+			Case "VISA"
+				Carddoc.RemCreditV = Carddoc.RemCreditV(0) + orderamount   ' add the order amount from the remaining credit
+			End Select
+			Carddoc.Save True, False
+		End If
+	End If
+	
+	doc.Save True, False
+	Exit Sub
+	
+handleError:
+	Messagebox "Error: " &amp; Str(Err) &amp; ": " &amp; Error$
+	Exit Sub
+	
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0' agentdata='D572CBD09605D47E852575D3005079D1'>
+<agentmodified><datetime dst='true'>20090710T130817,15-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20090728T105648,62-04</datetime></agentrun>
+<runlog>Started running agent 'ReCalculateThisBudget' on 2009-07-28 10:56:47 AM
+Running on all documents in database: 1165 total
+Found 1165 document(s) that match search criteria
+Ran LotusScript code
+Done running agent 'ReCalculateThisBudget' on 2009-07-28 10:56:48 AM
+</runlog></rundata>
+<item name='$POID'><datetime dst='true'>20090610T143417,00-04</datetime></item></agent>
+

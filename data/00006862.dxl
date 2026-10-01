@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Lookup'>
+<noteinfo noteid='6862' unid='5C247FF68E48DE9485257A1B004C7AB9' sequence='24'>
+<created><datetime dst='true'>20120612T095521,53-04</datetime></created>
+<modified><datetime dst='true'>20260917T085100,20-04</datetime></modified>
+<revised><datetime dst='true'>20230614T135512,83-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085100,19-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085100,19-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Rania Otell/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Leona Overduin/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Leona Overduin/OU=HC-SC/O=GC/C=CA</name><name>CN=Dinah Ting/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Leona Overduin/OU=HC-SC/O=GC/C=CA</name><name>CN=Suzanne Coté/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Stephanie Parnes/OU=HC-SC/O=GC/C=CA</name><name>CN=Lutisha Greig/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Stephanie Gallagher/OU=HC-SC/O=GC/C=CA</name><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shehmina Shamsi/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Katherine Vu/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name>CN=Sonia Johnson/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dorothy Stewart-Paul/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20120612T095521,56-04</datetime><datetime
+>20121114T143002,88-05</datetime><datetime>20121126T091543,55-05</datetime><datetime
+ dst='true'>20130426T153204,54-04</datetime><datetime dst='true'>20130426T153211,26-04</datetime><datetime
+ dst='true'>20130503T131243,76-04</datetime><datetime dst='true'>20130503T131244,01-04</datetime><datetime
+ dst='true'>20130503T131244,37-04</datetime><datetime dst='true'>20130503T131246,68-04</datetime><datetime
+ dst='true'>20140718T131408,45-04</datetime><datetime dst='true'>20140815T084135,06-04</datetime><datetime
+ dst='true'>20140916T105011,33-04</datetime><datetime dst='true'>20140916T105013,87-04</datetime><datetime
+ dst='true'>20141002T142519,90-04</datetime><datetime>20141117T100213,76-05</datetime><datetime
+>20150305T085821,77-05</datetime><datetime dst='true'>20150708T102851,63-04</datetime><datetime
+ dst='true'>20150901T134503,39-04</datetime><datetime dst='true'>20150916T134234,26-04</datetime><datetime
+>20151109T134830,26-05</datetime><datetime>20151109T134831,13-05</datetime><datetime
+>20151109T134831,54-05</datetime><datetime dst='true'>20180409T074212,45-04</datetime></revisions>
+<item name='EKEYWORDOLD'><text>Helena Soares</text></item>
+<item name='FKEYWORDOLD'><text>Helena Soares</text></item>
+<item name='OriginalModTime'><datetime>20081121T111746,85-05</datetime></item>
+<item name='Body'><richtext>
+<pardef id='1'/>
+<par def='1'>This is the name of the Admin person for whom you want the order to be sent to whenever you click on the 'Mail to Admin' button.</par></richtext></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20020703T132345,54-04</datetime></item>
+<item name='LookupType' protected='true'><text>SendToAdmin</text></item>
+<item name='EKeyword'><text>Helena Soares</text></item>
+<item name='FKeyword'><text>Helena Soares</text></item>
+<item name='edit_history'><textlist><text>Kirsten Oickle</text><text>Kirsten Oickle</text><text
+>Maria Ianni</text><text>Maria Ianni</text><text>Maria Ianni</text><text>Kirsten Oickle</text><text
+>Kirsten Oickle</text><text>Maria Ianni</text><text>Dorothy Stewart-Paul</text><text
+>Dorothy Stewart-Paul</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2023-06-14 01:55:24 PM</text><text
+>2018-04-09 07:42:12 AM</text><text>2015-11-09 01:48:31 PM</text><text>2015-11-09 01:48:30 PM</text><text
+>2015-11-09 01:48:29 PM</text><text>2015-09-16 01:42:33 PM</text><text>2015-09-01 01:45:04 PM</text><text
+>2015-07-08 10:28:51 AM</text><text>2015-03-05 08:58:20 AM</text><text>2014-11-17 10:02:12 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Kirsten Oickle;</text><text>Kirsten Oickle;</text><text
+>Maria Ianni;</text><text>Maria Ianni;</text><text>Maria Ianni;</text><text
+>Kirsten Oickle;</text><text>Kirsten Oickle;</text><text>Maria Ianni;</text><text
+>Dorothy Stewart-Paul;</text><text>Dorothy Stewart-Paul;</text></textlist></item></document>
+

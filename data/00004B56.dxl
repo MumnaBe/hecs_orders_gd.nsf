@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='4b56' unid='C602C8B6BDB565F9852573CB0050EFAD' sequence='1'>
+<created><datetime>20080109T094402,37-05</datetime></created>
+<modified><datetime dst='true'>20260917T084826,00-04</datetime></modified>
+<revised><datetime>20080109T094424,05-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084825,99-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084825,99-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Robert Edmonstone/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='OriginalModTime'><datetime>20080109T094427,62-05</datetime></item>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>4340579 - Bureau Renovation Projects</text></item>
+<item name='NameF'><text/></item>
+<item name='CodeNumber'><text>4340579</text></item></document>
+

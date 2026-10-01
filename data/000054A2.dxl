@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Help'>
+<noteinfo noteid='54a2' unid='3AF9D4FE823AB08F8525760A005250D0' sequence='1'>
+<created><datetime dst='true'>20090806T105906,40-04</datetime></created>
+<modified><datetime dst='true'>20260917T084916,10-04</datetime></modified>
+<revised><datetime dst='true'>20090806T105906,85-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084916,09-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084916,09-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Stephen Bjarnason/OU=HC-SC/O=GC/C=CA</name><name>CN=Cranston Snord/OU=HC-SC/O=GC/C=CA</name><name
+>CN=APP03/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='date_create'><datetime dst='true'>20020812T113100,61-04</datetime></item>
+<item name='edit_history'><text>Stephen Bjarnason</text></item>
+<item name='edit_history_1'><text>2002/08/12 13:03:39</text></item>
+<item name='Names'><text>Stephen Bjarnason;</text></item>
+<item name='OriginalModTime'><datetime dst='true'>20090806T105839,49-04</datetime></item>
+<item name='HFText'><text>Yes</text></item>
+<item name='HelpECategories'><text>1. User Guide</text></item>
+<item name='HelpESubCat'><text>Checking Project Status</text></item>
+<item name='HelpFCategories'><text>1. Guide d'utilisation</text></item>
+<item name='HelpFSubCat'><text>Vérification du statut financier d'un projet</text></item>
+<item name='HelpDocNumber'><number>1</number></item>
+<item name='HelpSubCatNumber'><number>3</number></item>
+<item name='HelpEHelpText'><richtext>
+<pardef id='1' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Part of the duties of a Principal Investigator (PI) is to ensure that the available funds for a project are spent to ensure the success of the project.  This database is a tool that will allow you to find this information quickly.  </run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>If you are a PI on a project, you will be identified as such for that project in the Admin area of the database.  This allows you to:</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='2' leftmargin='1.5000in' rightmargin='93%' list='bullet'/>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>check on the financial status of the project</run></par>
+<par def='2'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>see who is has access to ordering on your project</run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='1'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>It is your responsibility to ensure that budget information has been properly entered and to follow the spending on your project to prevent overspending.</run></par></richtext></item>
+<item name='HelpFHelpText'><richtext>
+<pardef id='3' leftmargin='0.8125in' rightmargin='93%'/>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Une des tâches du Chercheur Principal (CP) consiste à s'assurer que les fonds attribués à un projet sont dépensés de façon à garantir son succès. La base de données est un outil permettant de retracer rapidement toute information à ce sujet.</run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Si vous êtes le CP d'un projet, la base de données vous identifiera comme tel dans la section administrative et vous permettra de :</run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<pardef id='4' leftmargin='1.0625in' rightmargin='93%' list='bullet'/>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>vérifier le statut financier du projet</run></par>
+<par def='4'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>identifier qui peut commander dans le cadre du projet</run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par>
+<par def='3'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/>Les CP doivent s'assurer que les informations concernant le budget sont entrées correctement. Ils doivent également effectuer le suivi des dépenses de leurs projets afin d'en prévenir les excès.</run></par></richtext></item>
+<item name='HelpESubject'><text>Roles and Responsibilities of Principal Investigators</text></item>
+<item name='HelpFSubject'><text>Rôles et responsabilités des chercheurs principaux</text></item></document>
+

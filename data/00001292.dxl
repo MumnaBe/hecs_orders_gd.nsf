@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1292' unid='2E487E7BC6F3F53385256C6A00709AC9' sequence='6'>
+<created><datetime>20021107T152956,57-05</datetime></created>
+<modified><datetime dst='true'>20260917T084332,62-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074816,13-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084332,61-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084332,61-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20021107T153342,88-05</datetime><datetime>20021107T153349,81-05</datetime><datetime
+>20021107T153422,26-05</datetime><datetime>20021107T153426,76-05</datetime><datetime
+ dst='true'>20090902T074406,28-04</datetime></revisions>
+<item name='CompName'><text>National Fire Protection Association</text></item>
+<item name='CompPhone'><text>1-800-344-3555</text></item>
+<item name='CompAddress'><text>1 Batterymarch Park</text></item>
+<item name='CompFax'><text>1-617-770-0700</text></item>
+<item name='CompPO'><text>P.O. Box 9101</text></item>
+<item name='PurchContact'><text> </text></item>
+<item name='CompCity'><text>Quincy</text></item>
+<item name='InvContact'><text> </text></item>
+<item name='CompProvince'><text>Massachusetts</text></item>
+<item name='CompPostalCode'><text>02269-9101</text></item>
+<item name='CompCountry'><text>United States</text></item>
+<item name='AcctNumber'><text> </text></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text>NFPA</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='MasterCard'><text>N/A</text></item>
+<item name='MasterCard_EN'><text>N/A</text></item>
+<item name='MasterCard_FR'><text>N/D</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

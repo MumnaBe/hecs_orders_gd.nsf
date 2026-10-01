@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='34b6' unid='D56D6EEE30E2AC6D85256BEB005F091E' sequence='4'>
+<created><datetime dst='true'>20020703T131802,54-04</datetime></created>
+<modified><datetime dst='true'>20260917T084609,51-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075025,96-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084609,50-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084609,50-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131802,56-04</datetime><datetime
+>20021104T141454,16-05</datetime><datetime dst='true'>20090902T074607,18-04</datetime></revisions>
+<item name='CompName'><text>Anachemia Canada Ltd.</text></item>
+<item name='CompAddress'><text>255 Norman St</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Lachine</text></item>
+<item name='CompProvince'><text>QC</text></item>
+<item name='CompPostalCode'><text>H8R 1A3</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(514) 489-5711</text></item>
+<item name='CompFax'><text>(514) 483-6407</text></item>
+<item name='PurchContact'><text>Marc Bissonnette</text></item>
+<item name='InvContact'><text>Jacqueline Comeau</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text>012679</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.anachemia.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

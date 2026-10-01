@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='ee6' unid='1CB6E32D6FCA4CAB85256BEB005F0A2A' sequence='3'>
+<created><datetime dst='true'>20020703T131805,22-04</datetime></created>
+<modified><datetime dst='true'>20260917T084317,06-04</datetime></modified>
+<revised><datetime dst='true'>20050401T100733,21-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084317,05-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084317,05-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=John Gingerich/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131805,44-04</datetime><datetime
+ dst='true'>20050331T180924,65-04</datetime></revisions>
+<item name='Type'><text>G/L Account</text></item>
+<item name='Name'><text>OLD_Scientific Equipment (&lt;10K)</text></item>
+<item name='NameF'><text>OLD_Instruments de mesure et de lab, moins de $10 000</text></item>
+<item name='CodeNumber'><text>58303</text></item></document>
+

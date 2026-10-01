@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1006' unid='21E3D072EFAD9C4D85256F3500586601' sequence='4'>
+<created><datetime dst='true'>20041022T120532,81-04</datetime></created>
+<modified><datetime dst='true'>20260917T084321,71-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074930,45-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084321,70-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084321,70-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20041022T120941,15-04</datetime><datetime
+ dst='true'>20041026T091622,77-04</datetime><datetime dst='true'>20090902T074502,79-04</datetime></revisions>
+<item name='CompName'><text>Marathon Multimedia</text></item>
+<item name='CompPhone'><text>507-334-5212</text></item>
+<item name='CompAddress'><text>1201 West Division Street,</text></item>
+<item name='CompFax'><text>507-334-0014</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Faribault</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>MN</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='CompPostalCode'><text>55021</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='CompCountry'><text>USA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text>Call4Abstracts</text></item>
+<item name='CompEmail'><text>sales@marathonmultimedia.com</text></item>
+<item name='CompWeb'><text>www.marathonmultimedia.com</text></item>
+<item name='comment'><text>Vendor Code: 1009896. http://call4abstracts.com</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

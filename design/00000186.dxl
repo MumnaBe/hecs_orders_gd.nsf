@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='Remove Cost Code Documents' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3'
+ publicaccess='false' designerversion='6.5' restrictions='unrestricted' activatable='false'
+ enabled='false'>
+<noteinfo noteid='186' unid='424F1A25031871FD85256BD400606F1A' sequence='9'>
+<created><datetime dst='true'>20020610T133318,98-04</datetime></created>
+<modified><datetime dst='true'>20260917T084237,46-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,02-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084237,45-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084237,45-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,54-04</datetime></designchange>
+<trigger type='scheduled'>
+<schedule type='byminutes' hours='1' minutes='0' runlocation='specific' runserver='CN=DNAS_APPS_01/OU=SERVER/O=TESTLAB3'/></trigger>
+<documentset type='modified'><search type='byformnames'><formchoice name='Cost Centre|CCForm'/></search></documentset><code
+ event='action'>
+<simpleaction action='delete'/></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime>20061208T143801,87-05</datetime></agentmodified></rundata>
+<item name='$POID'><datetime>20061208T143807,99-05</datetime></item></agent>
+

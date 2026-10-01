@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1c32' unid='5E7A8A1EA9FCBDEE85256BEB005F0993' sequence='3'>
+<created><datetime dst='true'>20020703T131803,71-04</datetime></created>
+<modified><datetime dst='true'>20260917T084413,86-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075111,77-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084413,85-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084413,85-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,73-04</datetime><datetime
+>20021104T141456,60-05</datetime></revisions>
+<item name='CompName'><text>Inter Medico</text></item>
+<item name='CompAddress'><text>50 Valleywood Dr., Unit 1</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Markham</text></item>
+<item name='CompProvince'><text>ON</text></item>
+<item name='CompPostalCode'><text>L3R 6E9</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(905) 470-2520 1-800-387-9643</text></item>
+<item name='CompFax'><text>(905) 470-2381</text></item>
+<item name='PurchContact'><text>Carole Millette</text></item>
+<item name='InvContact'><text>Gordon Chui</text></item>
+<item name='MasterCard'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='AcctNumber'><text>435</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>info@inter-medico.com</text></item>
+<item name='CompWeb'><text>www.inter-medico.com</text></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA_FR'><text>Non</text></item></document>
+

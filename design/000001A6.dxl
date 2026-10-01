@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE agent>
+<agent name='(Add Currency Indicator)' xmlns='http://www.lotus.com/dxl' version='12.0'
+ maintenanceversion='2.0' replicaid='85258E750045D0DA' hide='v3' publicaccess='false'
+ designerversion='5'>
+<noteinfo noteid='1a6' unid='8274123137214CFB85256C4B0052BBE6' sequence='11'>
+<created><datetime dst='true'>20021007T110340,54-04</datetime></created>
+<modified><datetime dst='true'>20260917T084238,14-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134327,10-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084238,13-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084238,13-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby>
+<designchange><datetime dst='true'>20100914T134339,63-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='all'><search type='byformnames'><formchoice name='Company'/></search></documentset><code
+ event='options'><lotusscript>Option Public
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dc As notesdocumentcollection
+	Dim doc As notesdocument
+	
+	Set db = s.currentdatabase
+	Set dc=db.UnprocessedDocuments
+	Set doc=dc.GetFirstDocument
+	
+	While Not (doc Is Nothing)
+		If Ucase(doc.CompCountry(0))="CANADA" Then
+			doc.CompCurrency="CAD"
+		Elseif Ucase(doc.CompCountry(0))="USA" Or Ucase(doc.CompCountry(0))="U.S.A." Or Ucase(doc.CompCountry(0))="UNITED STATES" Or Ucase(doc.CompCountry(0))="US" Or Ucase(doc.CompCountry(0))="U.S." Then
+			doc.CompCurrency="USD"
+		Else
+			doc.CompCurrency=Inputbox("Enter the currency indicator for " &amp; doc.CompCountry(0))
+		End If
+		doc.Save True, True
+		Set doc=dc.GetNextDocument(doc)
+	Wend
+	Messagebox "Currency Update complete."
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0' agentdata='53838A5BF247F8B585256C6700678C4F'>
+<agentmodified><datetime>20021104T135009,49-05</datetime></agentmodified>
+<agentrun><datetime>20021104T135144,73-05</datetime></agentrun>
+<runlog>Started running agent 'Add Currency Indicator' on 2002-11-04 01:50:45 PM
+Running on all documents in database: 739 total
+Found 208 document(s) that match search criteria
+Ran LotusScript code
+Done running agent 'Add Currency Indicator' on 2002-11-04 01:51:44 PM
+</runlog></rundata>
+<item name='$POID'><datetime dst='true'>20060803T143119,76-04</datetime></item></agent>
+

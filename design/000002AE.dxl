@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='All Orders - Current FY' alias='reflookupCurrentFY' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='6.5' unreadmarks='none' onopengoto='lastopened'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='true' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='false' extendlastcolumn='true' showhierarchies='false'
+ unreadcolor='black' rowlinecount='1' headerlinecount='2' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='gray' headerbgcolor='white' boldunreadrows='false'
+ evaluateactions='false' allownewdocuments='false' allowcustomizations='false'
+ hidemarginborder='false' marginwidth='0px' marginbgcolor='white' uniquekeys='false'>
+<noteinfo noteid='2ae' unid='A9B5F3DE7F9AC98485256A6A00483E12' sequence='113'>
+<created><datetime dst='true'>20010613T090904,82-04</datetime></created>
+<modified><datetime dst='true'>20260917T084242,96-04</datetime></modified>
+<revised><datetime dst='true'>20100914T134328,31-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T090124,01-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084242,95-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name>CN=Oscar J Kerrebyn/OU=HC-SC/O=GC/C=CA</name><name
+>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>a := @Year(IssueDate);
+b := @Text(@Month(IssueDate));
+FYStart := @Text(@If(b="1"|b="2"|b="3";a - 1;a));
+x := @Year(@Today);
+y := @Text(@Month(@Today));
+CurrFYStart :=@Text(@If(y="1"|y="2"|y="3";x - 1;x));
+SELECT ((Form = "Order Form") | (Form = "OrderForm") | (Form = "New Order Form") | (Form = "NewOrderForm")) &amp; CurrFYStart=FYStart</formula></code><code
+ event='querypaste'><lotusscript>Sub Querypaste(Source As Notesuiview, Continue As Variant)	
+	answer% = Messagebox("You are not authorized to paste orders.  If you want to create a copy of an existing order, use the button ""Copy Existing Order""" + Chr(10) + Chr(10) +  "Vous n'êtes pas autorisé à coller des commandes.  Si vous désirez créer une copie d'une commande existante veuillez utiliser le bouton ""Copier une commande""", 0 + 48, "Orders cannot be pasted / Les commandes ne peuvent être collé")
+	continue = False
+End Sub</lotusscript></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/><border width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<sharedactionref id='8'>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"Mainf";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code></action></sharedactionref>
+<sharedactionref id='5'>
+<action title='Exit' icon='112'><code event='click'><formula>@Command([FileCloseWindow])</formula></code></action></sharedactionref>
+<sharedactionref id='1'>
+<action title='Place Order'><code event='click'><formula>@Command([Compose]; "":"";"NewOrderForm")</formula></code></action></sharedactionref>
+<sharedactionref id='3'>
+<action title='Copy Existing Order' icon='28' showinmenu='false'><code event='click'><lotusscript
+>Sub Click(Source As Button)
+	
+	'*************************************************************************************
+	' This English Button is used in the Order views to create new Order documents 
+	' It imports data from the selected Order document in the view.
+	' This Shared Button has been created on 2009-05-13 by JML for ADR #3550.  
+	' This button replaces an equivalent  button where the code was copied into many views.
+	'*************************************************************************************
+	On Error Goto handler
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dc As notesdocumentcollection
+	Dim doc As notesdocument
+	Dim newdoc As notesdocument
+	Dim uidoc As notesuidocument
+	Dim descitem As notesitem
+	
+	' Get a list of all unprocessed documents and make sure one and only one is selected
+	Set db=s.currentdatabase
+	Set dc=db.UnprocessedDocuments
+	Set doc=dc.GetFirstDocument
+	If doc Is Nothing Or dc.Count &gt; 1 Then
+		Messagebox "Please ensure that you have one (and only one) document selected."
+		Set doc = Nothing
+		Goto handler
+	End If
+	
+	' Compose a new "New Order Form" document
+	Set uidoc=ws.ComposeDocument(db.Server, db.FilePath, "New Order Form")
+	Set newdoc=uidoc.Document
+	
+	' Populate a few fields from the original Order into the new Order.
+	Call uidoc.FieldSetText("CompleteFinancialCode", doc.CompleteFinancialCode(0))
+	Call uidoc.FieldSetText("Category", doc.Category(0))
+	Call uidoc.FieldSetText("HideCount", Cstr(doc.HideCount(0)))
+	Call uidoc.FieldSetText("ProjectSelection", Cstr(doc.ProjectSelection(0)))
+	Call uidoc.FieldSetText("FinCategory", Cstr(doc.FinCategory(0)))
+	
+	' Not reassigning the same Financial Code - user must generate new one
+	'Call uidoc.FieldSetText("FinCode", Cstr(doc.FinCode(0)))
+	
+	Call uidoc.FieldSetText("PurchaseType", Cstr(doc.PurchaseType(0)))
+	Call uidoc.FieldSetText("CardHolder", Cstr(doc.CardHolder(0)))
+	Call uidoc.FieldSetText("SignAuth", Cstr(doc.SignAuth(0)))
+	Call uidoc.FieldSetText("ShipTo", Cstr(doc.ShipTo(0)))
+	Call uidoc.FieldSetText("Locator", Cstr(doc.Locator(0)))
+	Call uidoc.FieldSetText("Building", Cstr(doc.Building(0)))
+	Call uidoc.FieldSetText("Building2", Cstr(doc.Building2(0)))
+	Call uidoc.FieldSetText("City", Cstr(doc.City(0)))
+	Call uidoc.FieldSetText("Room", Cstr(doc.Room(0)))
+	Call uidoc.FieldSetText("Floor", Cstr(doc.Floor(0)))
+	Call uidoc.FieldSetText("Province", Cstr(doc.Province(0)))
+	Call uidoc.FieldSetText("PostCode", Cstr(doc.PostCode(0)))
+	Call uidoc.FieldSetText("PhoneNumber", Cstr(doc.PhoneNumber(0)))
+	Call uidoc.FieldSetText("FaxNumber", Cstr(doc.FaxNumber(0)))
+	Call uidoc.FieldSetText("InvName", Cstr(doc.InvName(0)))
+	Call uidoc.FieldSetText("InvPL", Cstr(doc.InvPL(0)))
+	Call uidoc.FieldSetText("InvBuilding", Cstr(doc.InvBuilding(0)))
+	Call uidoc.FieldSetText("InvBuilding2", Cstr(doc.InvBuilding2(0)))
+	Call uidoc.FieldSetText("InvCity", Cstr(doc.InvCity(0)))
+	Call uidoc.FieldSetText("InvProvince", Cstr(doc.InvProvince(0)))     
+	Call uidoc.FieldSetText("InvPostCode", Cstr(doc.InvPostCode(0)))
+	Call uidoc.FieldSetText("InvTel", Cstr(doc.InvTel(0)))
+	Call uidoc.FieldSetText("InvFax", Cstr(doc.InvFax(0)))
+	Call uidoc.FieldSetText("CompanyName", Cstr(doc.CompanyName(0)))
+	Call uidoc.FieldSetText("AcctNumber", Cstr(doc.AcctNumber(0)))
+	Call uidoc.FieldSetText("CompPhone", Cstr(doc.CompPhone(0)))
+	Call uidoc.FieldSetText("CompFax", Cstr(doc.CompFax(0)))
+	Call uidoc.FieldSetText("Currency", Cstr(doc.Currency(0)))
+	
+	' Loop through the fields H1 to H20 and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("H" + Cstr(x))
+		Call uidoc.FieldSetText("H" + Cstr(x),Cstr(descitem.Values(0)))     
+	Next
+	
+     ' Loop through the fields I1Desc to I20Desc and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "desc")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"desc",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "Quant")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"Quant",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "PricePer")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"PricePer",Cstr(descitem.Values(0)))    
+	Next     
+	
+	Call uidoc.Refresh
+	
+handler:
+End Sub</lotusscript></code></action></sharedactionref></actionbar>
+<column sort='ascending' resort='both' hidedetailrows='false' itemname='IssueDate'
+ width='1' resizable='true' separatemultiplevalues='true' sortnoaccent='true'
+ sortnocase='true' showaslinks='false' categorized='true' twisties='true'><font
+ size='12pt' color='navy' style='bold'/><columnheader><font size='9pt' style='bold'/></columnheader><datetimeformat
+ legacy='true' show='date' date='yearmonthday' time='hourminutesecond' zone='never'/></column>
+<column align='center' hidedetailrows='false' itemname='$3' width='4.5000'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' showasicons='true' twisties='true'><columnheader title='Printed'><font
+ size='9pt' style='bold'/></columnheader><code event='value'><formula>@If(Printed = "Yes"; 47; "")</formula></code></column>
+<column sort='descending' resort='both' hidedetailrows='false' itemname='$5'
+ width='8' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false' twisties='true'><font color='maroon'
+ style='bold'/><columnheader title='Reference Number'><font size='9pt' style='bold'/></columnheader><code
+ event='value'><formula>@If(@Length(RefNumber)=8;@Left(d_RefNumber;@Length(d_RefNumber)-8)+@Right(RefNumber;6);d_RefNumber)</formula></code></column>
+<column hidedetailrows='false' itemname='ShipTo' width='11.6250' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'
+ twisties='true'><columnheader title='Ship To'><font size='9pt' style='bold'/></columnheader></column>
+<column align='right' hidedetailrows='false' itemname='TotCostTaxed' width='10.3750'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><font color='blue'/><columnheader title='Cost w/Applicable HST'><font
+ size='9pt' style='bold'/></columnheader><numberformat legacy='true' format='currency'
+ digits='2' punctuated='true' parens='true' percent='false' bytes='false'/></column>
+<column hidedetailrows='false' itemname='$4' width='1' resizable='true' separatemultiplevalues='false'
+ sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader><font
+ size='9pt' style='bold'/></columnheader><code event='value'><formula>""</formula></code></column>
+<column hidedetailrows='false' itemname='CompanyName' width='36' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><font
+ style='bold'/><columnheader title='Company'><font size='9pt' style='bold'/></columnheader></column>
+<item name='$SCRIPTOBJ_10' sign='true'>
+<rawitemdata type='14'>
+AQAAAkxTT0IDABQIZW4AAAQAUADyBAQAAABwC0QLAAAAAAAA3AKwBgAAAAAkAJwAGAAAANwBuABU
+AAAAAAAAAAIAAAAEAFgBAAAAAFgBWAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAgAAAC4ALAGLAUQBgAAAAAMAowEAAAAALgDuAO4ALgAAAAAAAAAAAAAAAAA
+AAAAAOgC6AKwBrAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAEABQBMb3R1cyBQcm9kdWN0AAAAVjAuMAAAAAAAAAAAAAAAAAAA
+AAAEAAAA8gQAAAAAAABwCwAARAsAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAA
+AAUAAABXMzJJYQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAwBICwAAAAA4AAgAKgA1AEQANAAzADIAMQA0AAAAAABsAAMATgBFAFcAAACAAAYARABFAEwA
+RQBUAEUAAAAAAPwACgBJAE4ASQBUAEkAQQBMAEkAWgBFAAAAAADUAAkAVABFAFIATQBJAE4AQQBU
+AEUAAABUAQYATwBCAEoARQBDAFQAAAAAAIgAAAAAAAAA0AEGAFMATwBVAFIAQwBFAAAAAADoAAoA
+QgBJAE4ARABFAFYARQBOAFQAUwAAAAAADAELAE8AQgBKAEUAQwBUAE4AQQBNAEUAXwAAAGgBBgBC
+AFUAVABUAE8ATgAAAAAAIAEGACUATABTAEkARABFAAAAAACQAQUAQwBMAEkAQwBLAAAALAEHAEgA
+QQBOAEQATABFAFIAAADIAwIAVwBTAAAAAABwARAATgBPAFQARQBTAFUASQBXAE8AUgBLAFMAUABB
+AEMARQAAAAAAMAMGACUATABTAFgAVQBJAAAAAACkAQEAUwAAADwCDABOAE8AVABFAFMAUwBFAFMA
+UwBJAE8ATgAAAAAAYAIGACUATABTAFgAQgBFAAAAAACwAQIARABCAAAAAAAQAg0ATgBPAFQARQBT
+AEQAQQBUAEEAQgBBAFMARQAAAIQCAgBEAEMAAAAAALQCFwBOAE8AVABFAFMARABPAEMAVQBNAEUA
+TgBUAEMATwBMAEwARQBDAFQASQBPAE4AAAAcAgMARABPAEMAAABQAg0ATgBPAFQARQBTAEQATwBD
+AFUATQBFAE4AVAAAAJwCBgBOAEUAVwBEAE8AQwAAAAAA2AIFAFUASQBEAE8AQwAAANQEDwBOAE8A
+VABFAFMAVQBJAEQATwBDAFUATQBFAE4AVAAAAAgDCABEAEUAUwBDAEkAVABFAE0AAAAAADwECQBO
+AE8AVABFAFMASQBUAEUATQAAAKQEDwBDAFUAUgBSAEUATgBUAEQAQQBUAEEAQgBBAFMARQAAAEAD
+FABVAE4AUABSAE8AQwBFAFMAUwBFAEQARABPAEMAVQBNAEUATgBUAFMAAAAAAOwDEABHAEUAVABG
+AEkAUgBTAFQARABPAEMAVQBNAEUATgBUAAAAAAAEBQUAQwBPAFUATgBUAAAAAARBAFAAbABlAGEA
+cwBlACAAZQBuAHMAdQByAGUAIAB0AGgAYQB0ACAAeQBvAHUAIABoAGEAdgBlACAAbwBuAGUAIAAo
+AGEAbgBkACAAbwBuAGwAeQAgAG8AbgBlACkAIABkAG8AYwB1AG0AZQBuAHQAIABzAGUAbABlAGMA
+dABlAGQALgAAABgEDwBDAE8ATQBQAE8AUwBFAEQATwBDAFUATQBFAE4AVAAAABwFBgBTAEUAUgBW
+AEUAUgAAAAAAoAUIAEYASQBMAEUAUABBAFQASAAAAAAAVAQOAE4AZQB3ACAATwByAGQAZQByACAA
+RgBvAHIAbQAAAAAAdAQIAEQATwBDAFUATQBFAE4AVAAAAAAAFAcMAEYASQBFAEwARABTAEUAVABU
+AEUAWABUAAAAAABcBRUAQwBvAG0AcABsAGUAdABlAEYAaQBuAGEAbgBjAGkAYQBsAEMAbwBkAGUA
+AADsBBUAQwBPAE0AUABMAEUAVABFAEYASQBOAEEATgBDAEkAQQBMAEMATwBEAEUAAACEBQgAQwBh
+AHQAZQBnAG8AcgB5AAAAAAB4BggAQwBBAFQARQBHAE8AUgBZAAAAAAAYBgkASABpAGQAZQBDAG8A
+dQBuAHQAAAA0BQkASABJAEQARQBDAE8AVQBOAFQAAABkBhAAUAByAG8AagBlAGMAdABTAGUAbABl
+AGMAdABpAG8AbgAAAAAA/AUQAFAAUgBPAEoARQBDAFQAUwBFAEwARQBDAFQASQBPAE4AAAAAANwF
+CwBGAGkAbgBDAGEAdABlAGcAbwByAHkAAAC8BQsARgBJAE4AQwBBAFQARQBHAE8AUgBZAAAA5AYM
+AFAAdQByAGMAaABhAHMAZQBUAHkAcABlAAAAAAA0BgwAUABVAFIAQwBIAEEAUwBFAFQAWQBQAEUA
+AAAAAFQHCgBDAGEAcgBkAEgAbwBsAGQAZQByAAAAAACMBgoAQwBBAFIARABIAE8ATABEAEUAUgAA
+AAAATAYIAFMAaQBnAG4AQQB1AHQAaAAAAAAA/AYIAFMASQBHAE4AQQBVAFQASAAAAAAAtAYGAFMA
+aABpAHAAVABvAAAAAAAkCAYAUwBIAEkAUABUAE8AAAAAAKAGBwBMAG8AYwBhAHQAbwByAAAAzAYH
+AEwATwBDAEEAVABPAFIAAAAkBwgAQgB1AGkAbABkAGkAbgBnAAAAAABkBwgAQgBVAEkATABEAEkA
+TgBHAAAAAABEBwkAQgB1AGkAbABkAGkAbgBnADIAAAA0BwkAQgBVAEkATABEAEkATgBHADIAAAB0
+BwQAQwBpAHQAeQAAAAAAdAgEAEMASQBUAFkAAAAAAAwIBABSAG8AbwBtAAAAAACkBwQAUgBPAE8A
+TQAAAAAAjAcFAEYAbABvAG8AcgAAAFAIBQBGAEwATwBPAFIAAACgCAgAUAByAG8AdgBpAG4AYwBl
+AAAAAAC8BwgAUABSAE8AVgBJAE4AQwBFAAAAAADUBwgAUABvAHMAdABDAG8AZABlAAAAAABkCAgA
+UABPAFMAVABDAE8ARABFAAAAAADwBwsAUABoAG8AbgBlAE4AdQBtAGIAZQByAAAAPAgLAFAASABP
+AE4ARQBOAFUATQBCAEUAUgAAAIQICQBGAGEAeABOAHUAbQBiAGUAcgAAANwICQBGAEEAWABOAFUA
+TQBCAEUAUgAAAKgJBwBJAG4AdgBOAGEAbQBlAAAAVAoHAEkATgBWAE4AQQBNAEUAAAD8CAUASQBu
+AHYAUABMAAAAEAkFAEkATgBWAFAATAAAACQJCwBJAG4AdgBCAHUAaQBsAGQAaQBuAGcAAAC8CAsA
+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
+AAAGAKAACAAAAQ8ACgAAAA==
+</rawitemdata></item>
+<item name='$FormulaTV'><text/></item></view>
+

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='24ae' unid='87883F68B219E80585256BEB005F09C6' sequence='3'>
+<created><datetime dst='true'>20020703T131804,22-04</datetime></created>
+<modified><datetime dst='true'>20260917T084449,63-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075114,04-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084449,62-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084449,62-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,24-04</datetime><datetime
+>20021104T141457,61-05</datetime></revisions>
+<item name='CompName'><text>Synermed International Inc.</text></item>
+<item name='CompAddress'><text>1688 50Th Av</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Lachine</text></item>
+<item name='CompProvince'><text>QC</text></item>
+<item name='CompPostalCode'><text>H8T 2V5</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='CompPhone'><text>(514) 633-1112</text></item>
+<item name='CompFax'><text>(514) 633-8039</text></item>
+<item name='PurchContact'><text>Dan Cooper</text></item>
+<item name='InvContact'><text>Louise Beaudry</text></item>
+<item name='MasterCard'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='AcctNumber'><text>none assigned</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA_FR'><text>Non</text></item></document>
+

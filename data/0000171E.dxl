@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='171e' unid='44983469FD6011AB85256ED900606179' sequence='5'>
+<created><datetime dst='true'>20040722T133244,09-04</datetime></created>
+<modified><datetime dst='true'>20260917T084352,79-04</datetime></modified>
+<revised><datetime dst='true'>20090902T075110,32-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084352,78-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084352,78-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20040722T133435,98-04</datetime><datetime
+ dst='true'>20040722T134438,98-04</datetime><datetime dst='true'>20040722T140043,30-04</datetime><datetime
+ dst='true'>20040726T094901,18-04</datetime></revisions>
+<item name='CompName'><text>Robt Tape Limited</text></item>
+<item name='CompPhone'><text>613-232-4271</text></item>
+<item name='CompAddress'><text>989 Sommerset Street West,</text></item>
+<item name='CompFax'><text>613-232-8145</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Tony</text></item>
+<item name='CompCity'><text>Ottawa</text></item>
+<item name='InvContact'><text>Tony</text></item>
+<item name='CompProvince'><text>Ontario</text></item>
+<item name='MasterCard'><text>No</text></item>
+<item name='CompPostalCode'><text>K1R 6R8</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='CompCountry'><text>Canada</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text>GST Registration number# 104588322 RT. Vendor Code: 1019546.Supplier does not accept credit cards.</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA_FR'><text>Non</text></item></document>
+

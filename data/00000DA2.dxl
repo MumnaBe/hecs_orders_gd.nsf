@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='da2' unid='16E3C5C518D499D985256DFE0050D7E6' sequence='5'>
+<created><datetime>20031216T094301,50-05</datetime></created>
+<modified><datetime dst='true'>20260917T084311,56-04</datetime></modified>
+<revised><datetime dst='true'>20230607T121607,05-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084311,55-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084311,55-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Pierre Gougeon/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Kirsten Oickle/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime>20031216T094428,74-05</datetime><datetime>20050225T135520,74-05</datetime><datetime
+ dst='true'>20090902T074500,20-04</datetime><datetime dst='true'>20090902T074927,88-04</datetime></revisions>
+<item name='CompName'><text>Novagen</text></item>
+<item name='CompPhone'><text>800-526-7319</text></item>
+<item name='CompAddress'><text>441 Charmany Drive,</text></item>
+<item name='CompFax'><text>608-238-1388</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text>Lorretta</text></item>
+<item name='CompCity'><text>Madison</text></item>
+<item name='InvContact'><text>Lorretta</text></item>
+<item name='CompProvince'><text>WI.</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>53719</text></item>
+<item name='VISA_FR'><text>Oui</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='AcctNumber'><text>6119627</text></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='CompAKA'><text>EMD Biosciences</text></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text>www.novagen.com</text></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime>20031216T094301,50-05</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='edit_history'><text>Kirsten Oickle</text></item>
+<item name='edit_history_1'><text>2023-06-07 12:16:11 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Kirsten Oickle;</text></item></document>
+

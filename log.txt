@@ -1,0 +1,17 @@
+#DEBUG# - Top of Archive Main Loop with nid 00000000
+#DEBUG# - Invoking child process
+#DEBUG# - Retry WriteMarkerFile (Permission denied): 1
+#DEBUG# - Retry WriteMarkerFile (Permission denied): 1
+#DEBUG# - Retry WriteMarkerFile (Permission denied): 1
+#DEBUG# - Retry WriteMarkerFile (Permission denied): 1
+#DEBUG# - Retry WriteMarkerFile (Permission denied): 1
+#DEBUG# - Retry WriteMarkerFile (Permission denied): 1
+#DEBUG# - Trying to NotesTerm
+#DEBUG# - NotesTermed
+#DEBUG# - Exiting via SEH finally
+#DEBUG# - Child process exited cleanly
+#DEBUG# - Child process complete
+#DEBUG# - Checking for marker file
+#DEBUG# - No marker file found
+#DEBUG# - End of Archive Main Loop
+#DEBUG# - CountInputDocuments succeeded (1379)

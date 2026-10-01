@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE view>
+<view name='Copy Of All Orders - Current FY' alias='reflookupCurrentFY' xmlns='http://www.lotus.com/dxl'
+ version='12.0' maintenanceversion='2.0' replicaid='85258E750045D0DA' showinmenu='false'
+ publicaccess='false' designerversion='6.5' unreadmarks='none' onopengoto='lastopened'
+ onrefresh='displayindicator' headers='beveled' opencollapsed='true' showresponsehierarchy='true'
+ showmargin='true' shrinkrows='false' extendlastcolumn='true' showhierarchies='false'
+ unreadcolor='black' rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white'
+ altrowcolor='#e0f1ff' totalscolor='gray' headerbgcolor='white' boldunreadrows='false'
+ evaluateactions='false' allownewdocuments='false' allowcustomizations='false'
+ hidemarginborder='false' marginwidth='0px' marginbgcolor='white' uniquekeys='false'>
+<noteinfo noteid='356' unid='51A151B8F3E8D29F852573DE006B6591' sequence='14'>
+<created><datetime>20080128T143303,53-05</datetime></created>
+<modified><datetime dst='true'>20260917T084246,36-04</datetime></modified>
+<revised><datetime dst='true'>20080902T111713,22-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T100303,15-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084246,35-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Levi Carisse/OU=HC-SC/O=GC/C=CA</name><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<wassignedby><name>CN=HC-R_AGENT-SC/OU=HC-SC/O=GC/C=CA</name></wassignedby><code
+ event='selection'><formula>a := @Year(IssueDate);
+b := @Text(@Month(IssueDate));
+FYStart := @Text(@If(b="1"|b="2"|b="3";a - 1;a));
+x := @Year(@Today);
+y := @Text(@Month(@Today));
+CurrFYStart :=@Text(@If(y="1"|y="2"|y="3";x - 1;x));
+SELECT ((Form = "Order Form") | (Form = "OrderForm") | (Form = "New Order Form") | (Form = "NewOrderForm")) &amp; CurrFYStart=FYStart</formula></code>
+<actionbar bordercolor='black'>
+<actionbuttonstyle bgcolor='silver'/><border width='0px 0px 1px'/>
+<action title='' icon='62'><code event='click'><formula>@Environment("HECS_Language";"F");
+@Command([OpenNavigator];"Mainf";"0");
+@Command([RefreshHideFormulas]);
+@Command([ViewRefreshFields])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='Send Docu_ment' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<sharedactionref id='1'>
+<action title='Place Order'><code event='click'><formula>@Command([Compose]; "":"";"NewOrderForm")</formula></code></action></sharedactionref>
+<action title='Exit' icon='112' showinmenu='false'><code event='click'><formula
+>@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>@Environment("HECS_Language") = "F"</formula></code></action>
+<action title='Copy Existing Order' icon='28'><code event='click'><lotusscript
+>Sub Click(Source As Button)
+	
+	On Error Goto handler
+	
+	Dim ws As New notesuiworkspace
+	Dim s As New notessession
+	Dim db As notesdatabase
+	Dim dc As notesdocumentcollection
+	Dim doc As notesdocument
+	Dim newdoc As notesdocument
+	Dim uidoc As notesuidocument
+	Dim descitem As notesitem
+	
+	Set db=s.currentdatabase
+	Set dc=db.UnprocessedDocuments
+	Set doc=dc.GetFirstDocument
+	If doc Is Nothing Or dc.Count &gt; 1 Then
+		Messagebox "Please ensure that you have one (and only one) document selected."
+		Set doc = Nothing
+		Goto handler
+	End If
+	
+	Set uidoc=ws.ComposeDocument(db.Server, db.FilePath, "New Order Form")
+	Set newdoc=uidoc.Document
+	
+	'Call uidoc.FieldSetText("CompleteFinancialCode", doc.CompleteFinancialCode(0))
+	newdoc.CompleteFinancialCode= doc.CompleteFinancialCode
+	'Call uidoc.FieldSetText("Category", doc.Category(0))
+	newdoc.Category= doc.Category
+	'Call uidoc.FieldSetText("HideCount", Cstr(doc.HideCount(0)))
+	newdoc.HideCount= doc.HideCount
+	'Call uidoc.FieldSetText("ProjectSelection", Cstr(doc.ProjectSelection(0)))
+	newdoc.ProjectSelection= doc.ProjectSelection
+	'Call uidoc.FieldSetText("FinCategory", Cstr(doc.FinCategory(0)))
+	newdoc.FinCategory= doc.FinCategory
+	'Call uidoc.FieldSetText("FinCode", Cstr(doc.FinCode(0)))
+	'not reassigning the same Financial Code - user must generate new one
+	'Call uidoc.FieldSetText("PurchaseType", Cstr(doc.PurchaseType(0)))
+	newdoc.PurchaseType= doc.PurchaseType
+	'Call uidoc.FieldSetText("CardHolder", Cstr(doc.CardHolder(0)))
+	newdoc.CardHolder= doc.CardHolder
+	'Call uidoc.FieldSetText("SignAuth", Cstr(doc.SignAuth(0)))
+	newdoc.SignAuth= doc.SignAuth
+	
+	'EMPLOYEE INFORMATION
+	'Call uidoc.FieldSetText("ShipTo", Cstr(doc.ShipTo(0)))
+	newdoc.ShipTo= doc.ShipTo
+	'Call uidoc.FieldSetText("Locator", Cstr(doc.Locator(0)))
+	newdoc.Locator= doc.Locator
+	'Call uidoc.FieldSetText("Building", Cstr(doc.Building(0)))
+	newdoc.Building= doc.Building
+	newdoc.Building2= doc.Building2
+	'Call uidoc.FieldSetText("City", Cstr(doc.City(0)))
+	newdoc.City= doc.City
+	'Call uidoc.FieldSetText("Province", Cstr(doc.Province(0)))
+	newdoc.Province= doc.Province
+	'Call uidoc.FieldSetText("PostCode", Cstr(doc.PostCode(0)))
+	newdoc.PostCode= doc.PostCode
+	'Call uidoc.FieldSetText("PhoneNumber", Cstr(doc.PhoneNumber(0)))
+	newdoc.PhoneNumber= doc.PhoneNumber
+	'Call uidoc.FieldSetText("FaxNumber", Cstr(doc.FaxNumber(0)))
+	newdoc.FaxNumber= doc.FaxNumber
+	'Call uidoc.FieldSetText("InvName", Cstr(doc.InvName(0)))
+	newdoc.InvName= doc.InvName
+	'Call uidoc.FieldSetText("InvPL", Cstr(doc.InvPL(0)))
+	newdoc.InvPL= doc.InvPL
+	'Call uidoc.FieldSetText("InvBuilding", Cstr(doc.InvBuilding(0)))
+	newdoc.InvBuilding= doc.InvBuilding
+	'Call uidoc.FieldSetText("InvCity", Cstr(doc.InvCity(0)))
+	newdoc.InvCity= doc.InvCity
+	'Call uidoc.FieldSetText("InvProvince", Cstr(doc.InvProvince(0))) 
+	newdoc.InvProvince= doc.InvProvince
+	'Call uidoc.FieldSetText("InvPostCode", Cstr(doc.InvPostCode(0)))
+	newdoc.InvPostCode= doc.InvPostCode
+	'Call uidoc.FieldSetText("InvTel", Cstr(doc.InvTel(0)))
+	newdoc.InvTel= doc.InvTel
+	'Call uidoc.FieldSetText("InvFax", Cstr(doc.InvFax(0)))
+	newdoc.InvFax= doc.InvFax
+	
+	'COMPANY INFORMATION
+	'Call uidoc.FieldSetText("CompanyName", Cstr(doc.CompanyName(0)))
+	newdoc.CompanyName= doc.CompanyName
+	'Call uidoc.FieldSetText("AcctNumber", Cstr(doc.AcctNumber(0)))
+	newdoc.AcctNumber= doc.AcctNumber
+	'Call uidoc.FieldSetText("CompPhone", Cstr(doc.CompPhone(0)))
+	newdoc.CompPhone= doc.CompPhone
+	'Call uidoc.FieldSetText("CompFax", Cstr(doc.CompFax(0)))
+	newdoc.CompFax= doc.CompFax
+	
+	' table fields added by Levi
+	' Call uidoc.FieldSetText("ItemNoL", doc.ItemNoL(0))
+	newdoc.ItemNoL= doc.ItemNoL
+	' Call uidoc.FieldSetText("DescriptionL", doc.DescriptionL(0))
+	newdoc.DescriptionL= doc.DescriptionL
+	' Call uidoc.FieldSetText("QuantityL", Cstr(doc.QuantityL(0)))
+	newdoc.QuantityL= doc.QuantityL
+	' Call uidoc.FieldSetText("PriceL", Cstr(doc.PriceL(0)))
+	newdoc.PriceL= doc.PriceL
+	' Call uidoc.FieldSetText("TotalPriceL", Cstr(doc.TotalPriceL(0)))
+	newdoc.TotalPriceL= doc.TotalPriceL
+	' Call uidoc.FieldSetText("aReceivedL", Cstr(doc.aReceivedL(0)))
+	newdoc.aReceivedL= doc.aReceivedL
+	' Call uidoc.FieldSetText("ReceivedL", doc.ReceivedL(0))
+	newdoc.ReceivedL= doc.ReceivedL
+	Call uidoc.Refresh
+	' end of Levi
+	
+%REM
+     ' Loop through the fields H1 to H20 and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("H" + Cstr(x))
+		Call uidoc.FieldSetText("H" + Cstr(x),Cstr(descitem.Values(0)))     
+	Next
+	
+     ' Loop through the fields I1Desc to I20Desc and set the values
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "desc")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"desc",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "Quant")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"Quant",Cstr(descitem.Values(0)))    
+	Next
+	
+	For x = 1 To 20
+		Set descitem = doc.GetFirstItem("i" + Cstr(x) + "PricePer")
+		Call uidoc.FieldSetText("i" + Cstr(x) +"PricePer",Cstr(descitem.Values(0)))    
+	Next     
+%END REM	
+	
+handler:
+	
+End Sub</lotusscript></code></action></actionbar>
+<column sort='ascending' resort='both' hidedetailrows='false' itemname='IssueDate'
+ width='1' resizable='true' separatemultiplevalues='true' sortnoaccent='true'
+ sortnocase='true' showaslinks='false' categorized='true' twisties='true'><font
+ size='12pt' color='navy' style='bold'/><columnheader><font size='9pt' style='bold'/></columnheader><datetimeformat
+ legacy='true' show='date' date='yearmonthday' time='hourminutesecond' zone='never'/></column>
+<column align='center' hidedetailrows='false' itemname='$3' width='4' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'
+ showasicons='true' twisties='true'><columnheader title='Printed'><font size='9pt'
+ style='bold'/></columnheader><code event='value'><formula>@If(Printed = "Yes"; 82; 81)</formula></code></column>
+<column sort='descending' resort='both' hidedetailrows='false' itemname='$5'
+ width='11' resizable='true' separatemultiplevalues='false' sortnoaccent='true'
+ sortnocase='true' showaslinks='false' twisties='true'><font color='maroon'
+ style='bold'/><columnheader title='Reference Number'><font size='9pt' style='bold'/></columnheader><code
+ event='value'><formula>@If(@Length(RefNumber)=8;@Left(d_RefNumber;@Length(d_RefNumber)-8)+@Right(RefNumber;6);d_RefNumber)</formula></code></column>
+<column hidedetailrows='false' itemname='ShipTo' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'
+ twisties='true'><columnheader title='Issued By'><font size='9pt' style='bold'/></columnheader></column>
+<column align='right' hidedetailrows='false' itemname='TotCost' width='9'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><font color='blue'/><columnheader title='Estimated Cost'><font
+ size='9pt' style='bold'/></columnheader><numberformat legacy='true' format='currency'
+ digits='2' punctuated='true' parens='true' percent='false' bytes='false'/></column>
+<column hidedetailrows='false' itemname='$4' width='1' resizable='true' separatemultiplevalues='false'
+ sortnoaccent='true' sortnocase='true' showaslinks='false'><columnheader><font
+ size='9pt' style='bold'/></columnheader><code event='value'><formula>""</formula></code></column>
+<column hidedetailrows='false' itemname='CompanyName' width='36' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='true' sortnocase='true' showaslinks='false'><font
+ style='bold'/><columnheader title='Company'><font size='9pt' style='bold'/></columnheader></column>
+<item name='$FormulaTV'><text/></item></view>
+

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Cost1'>
+<noteinfo noteid='607a' unid='744FE8CFF17A627E8525786B004FB291' sequence='3'>
+<created><datetime dst='true'>20110407T103030,57-04</datetime></created>
+<modified><datetime dst='true'>20260917T085018,99-04</datetime></modified>
+<revised><datetime dst='true'>20110608T085916,85-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085018,98-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085018,98-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20110407T103110,70-04</datetime><datetime
+ dst='true'>20110608T085911,83-04</datetime></revisions>
+<item name='Type'><text>Internal Order - Project #</text></item>
+<item name='Name'><text>810408 Nano - DB - FY 2011-2012</text></item>
+<item name='NameF'><text>810408 Nano - DB - FY 2011-2012</text></item>
+<item name='CodeNumber'><text>810408</text></item>
+<item name='org_author' names='true'><text>Sameer Jetha</text></item>
+<item name='date_create'><datetime dst='true'>20110407T103030,57-04</datetime></item>
+<item name='edit_history'><textlist><text>Sameer Jetha</text><text>Sameer Jetha</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2011-06-08 08:58:59 AM</text><text
+>2011-06-08 08:58:54 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Sameer Jetha;</text><text>Sameer Jetha;</text></textlist></item></document>
+

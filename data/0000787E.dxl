@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='787e' unid='0614B7E3671CD5C685258480006078F3' sequence='2'>
+<created><datetime dst='true'>20190925T133344,19-04</datetime></created>
+<modified><datetime dst='true'>20260917T085221,43-04</datetime></modified>
+<revised><datetime dst='true'>20190925T134218,50-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085221,42-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085221,42-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20190925T134212,62-04</datetime></revisions>
+<item name='CompName'><text>IATA-International Air Transportation Association</text></item>
+<item name='CompPhone'><text>1 514.874.0202</text></item>
+<item name='CompAddress'><text>800 Place Victoria</text></item>
+<item name='CompFax'><text>1 800.-716-6326 TOLL FREE PHONE</text></item>
+<item name='CompPO'><text>113</text></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text>Montreal</text></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text>QC</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='CompPostalCode'><text>H4Z 1M1</text></item>
+<item name='VISA_FR'><text>Non</text></item>
+<item name='CompCountry'><text>CANADA</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Margaret Montague</text></item>
+<item name='date_create'><datetime dst='true'>20190925T133344,19-04</datetime></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text>No</text></item>
+<item name='VISA'><text>No</text></item>
+<item name='edit_history'><text>Margaret Montague</text></item>
+<item name='edit_history_1'><text>2019-09-25 01:42:16 PM</text></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>Margaret Montague;</text></item></document>
+

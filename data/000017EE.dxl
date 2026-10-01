@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='17ee' unid='48B6EF958B9A97F385256BEB005F099B' sequence='4'>
+<created><datetime dst='true'>20020703T131803,79-04</datetime></created>
+<modified><datetime dst='true'>20260917T084356,16-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074942,28-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084356,15-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084356,15-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131803,81-04</datetime><datetime
+>20021104T141456,75-05</datetime><datetime dst='true'>20090902T074516,87-04</datetime></revisions>
+<item name='CompName'><text>CH Technologies (USA) Inc.</text></item>
+<item name='CompAddress'><text>263 Center Av</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Westwood</text></item>
+<item name='CompProvince'><text>NJ</text></item>
+<item name='CompPostalCode'><text>07675</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>(201) 666-2335</text></item>
+<item name='CompFax'><text>(201) 666-8119</text></item>
+<item name='PurchContact'><text>Rudolph Jaeger</text></item>
+<item name='InvContact'><text>Susan Shami</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA'><text>Yes</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text>jaegerr@bellatlantic.net; jaegerr@idt.net</text></item>
+<item name='CompWeb'><text>www.toxics.com</text></item>
+<item name='comment'><text>Inhalation technology</text></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA_EN'><text>Yes</text></item>
+<item name='VISA_FR'><text>Oui</text></item></document>
+

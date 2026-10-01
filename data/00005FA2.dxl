@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='5fa2' unid='56EF8FFF6960253685257848004B212A' sequence='1'>
+<created><datetime>20110303T084036,90-05</datetime></created>
+<modified><datetime dst='true'>20260917T085014,76-04</datetime></modified>
+<revised><datetime>20110303T084139,36-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T085014,75-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T085014,75-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<item name='CompName'><text>PATHFINDER SYSTEMS DESIGN LTD.</text></item>
+<item name='CompPhone'><text>613-725-3085</text></item>
+<item name='CompAddress'><text/></item>
+<item name='CompFax'><text>613-725-2825</text></item>
+<item name='CompPO'><text/></item>
+<item name='PurchContact'><text/></item>
+<item name='CompCity'><text/></item>
+<item name='InvContact'><text/></item>
+<item name='CompProvince'><text/></item>
+<item name='CompPostalCode'><text/></item>
+<item name='VISA_FR'><text/></item>
+<item name='CompCountry'><text/></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompCurrency_old'><text/></item>
+<item name='CompCurrency'><text>CAD</text></item>
+<item name='CompAKA'><text/></item>
+<item name='CompEmail'><text/></item>
+<item name='CompWeb'><text/></item>
+<item name='comment'><text/></item>
+<item name='org_author' names='true'><text>Sameer Jetha</text></item>
+<item name='date_create'><datetime>20110303T084036,90-05</datetime></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='VISA_EN'><text/></item>
+<item name='VISA'><text/></item>
+<item name='edit_history'><text/></item>
+<item name='edit_history_1'><text/></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><text>;</text></item></document>
+

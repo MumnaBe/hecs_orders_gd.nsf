@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='Company'>
+<noteinfo noteid='1eea' unid='6B0B0B31450559BA85256BEB005F09B3' sequence='4'>
+<created><datetime dst='true'>20020703T131804,03-04</datetime></created>
+<modified><datetime dst='true'>20260917T084425,28-04</datetime></modified>
+<revised><datetime dst='true'>20090902T074824,82-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084425,27-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084425,27-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Gerald Horula/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20020703T131804,05-04</datetime><datetime
+>20021104T141457,25-05</datetime><datetime dst='true'>20090902T074528,40-04</datetime></revisions>
+<item name='CompName'><text>Fluid Metering Inc</text></item>
+<item name='CompAddress'><text>29 Orchard St</text></item>
+<item name='CompPO'><text/></item>
+<item name='CompCity'><text>Oyster Bay</text></item>
+<item name='CompProvince'><text>NY</text></item>
+<item name='CompPostalCode'><text>11771</text></item>
+<item name='CompCountry'><text>U.S.A.</text></item>
+<item name='CompPhone'><text>1-800-747-5858 or (516) 922-6050</text></item>
+<item name='CompFax'><text>(516) 624-8261</text></item>
+<item name='PurchContact'><text>Yvett</text></item>
+<item name='InvContact'><text/></item>
+<item name='MasterCard'><text>Yes</text></item>
+<item name='AcctNumber'><text/></item>
+<item name='CompAKA'><text>FMI</text></item>
+<item name='CompEmail'><text>pumps@fluidmetering.com</text></item>
+<item name='CompWeb'><text>http://www.fluidmetering.com/about.htm</text></item>
+<item name='comment'><text>metering pumps</text></item>
+<item name='CompCurrency'><text>USD</text></item>
+<item name='MasterCard_EN'><text>Yes</text></item>
+<item name='MasterCard_FR'><text>Oui</text></item>
+<item name='VISA'><text>N/A</text></item>
+<item name='VISA_EN'><text>N/A</text></item>
+<item name='VISA_FR'><text>N/D</text></item></document>
+

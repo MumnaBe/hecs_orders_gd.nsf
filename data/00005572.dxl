@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='2.0'
+ replicaid='85258E750045D0DA' form='CardHolders'>
+<noteinfo noteid='5572' unid='F88402C4742C997285257624004DD9AF' sequence='3977'>
+<created><datetime dst='true'>20090901T101019,99-04</datetime></created>
+<modified><datetime dst='true'>20260917T084921,18-04</datetime></modified>
+<revised><datetime>20141118T124524,32-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20260917T084921,17-04</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20260917T084921,17-04</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lindsy Bachly/OU=HC-SC/O=GC/C=CA</name><name>CN=Jean-Marc Leblanc/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Micheline Dufour/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Micheline Dufour/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Linda Bettle/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Lindsy Bachly/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Sameer Jetha/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Aristea Kokkinos/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Calagoure/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Josee Guenette/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Maria Ianni/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Shreedat Phulesar/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dian Sinclair/OU=HC-SC/O=GC/C=CA</name><name>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Jacob Mahautiere/OU=HC-SC/O=GC/C=CA</name><name>CN=Margaret Montague/OU=HC-SC/O=GC/C=CA</name><name
+>CN=Dorothy Stewart-Paul/OU=HC-SC/O=GC/C=CA</name></updatedby>
+<revisions><datetime dst='true'>20140911T151259,79-04</datetime><datetime
+ dst='true'>20140912T144534,56-04</datetime><datetime dst='true'>20140915T090627,10-04</datetime><datetime
+ dst='true'>20140916T123531,01-04</datetime><datetime dst='true'>20140917T085458,97-04</datetime><datetime
+ dst='true'>20140917T085510,15-04</datetime><datetime dst='true'>20140917T085510,18-04</datetime><datetime
+ dst='true'>20140917T105952,12-04</datetime><datetime dst='true'>20140917T113945,17-04</datetime><datetime
+ dst='true'>20140917T133803,19-04</datetime><datetime dst='true'>20140923T105237,17-04</datetime><datetime
+ dst='true'>20140923T105347,99-04</datetime><datetime dst='true'>20140929T102331,21-04</datetime><datetime
+ dst='true'>20141002T135937,77-04</datetime><datetime dst='true'>20141003T124045,40-04</datetime><datetime
+ dst='true'>20141009T100906,34-04</datetime><datetime dst='true'>20141009T132226,83-04</datetime><datetime
+ dst='true'>20141010T150728,63-04</datetime><datetime dst='true'>20141010T150912,36-04</datetime><datetime
+ dst='true'>20141010T151049,67-04</datetime><datetime dst='true'>20141010T151129,57-04</datetime><datetime
+>20141104T152303,11-05</datetime><datetime>20141105T103103,94-05</datetime><datetime
+>20141105T121658,46-05</datetime><datetime>20141105T121709,33-05</datetime><datetime
+>20141105T121728,63-05</datetime><datetime>20141105T121811,84-05</datetime><datetime
+>20141105T121818,48-05</datetime><datetime>20141105T121853,38-05</datetime><datetime
+>20141105T122012,49-05</datetime><datetime>20141105T122028,57-05</datetime><datetime
+>20141105T122044,22-05</datetime><datetime>20141105T122051,91-05</datetime><datetime
+>20141105T122059,38-05</datetime><datetime>20141105T124758,99-05</datetime><datetime
+>20141107T081327,60-05</datetime><datetime>20141107T115751,99-05</datetime><datetime
+>20141110T112936,01-05</datetime><datetime>20141110T113527,12-05</datetime><datetime
+>20141113T104414,01-05</datetime><datetime>20141114T123048,60-05</datetime></revisions>
+<item name='OriginalModTime'><datetime dst='true'>20090902T081412,09-04</datetime></item>
+<item name='CardTypes'><text/></item>
+<item name='CreditLimitM'><number>60000</number></item>
+<item name='MaxOrderM'><number>5000</number></item>
+<item name='MaxMonthM'><number>60000</number></item>
+<item name='CreditLimitV'><number>0</number></item>
+<item name='MaxOrderV'><number>0</number></item>
+<item name='MaxMonthV'><number>0</number></item>
+<item name='org_author' names='true'><text/></item>
+<item name='date_create'><datetime dst='true'>20090901T101019,99-04</datetime></item>
+<item name='CardholderName' names='true'><text>Dian Sinclair</text></item>
+<item name='RemCreditM'><number>84961.557</number></item>
+<item name='RemCreditV'><number>0</number></item>
+<item name='edit_history'><textlist><text>Dorothy Stewart-Paul</text><text
+>Dian Sinclair</text><text>Dian Sinclair</text><text>Dian Sinclair</text><text
+>Dian Sinclair</text><text>Jean-Marc Leblanc</text></textlist></item>
+<item name='edit_history_1'><textlist><text>2014-11-18 12:45:23 PM</text><text
+>2013-05-31 10:55:29 AM</text><text>2013-05-31 10:54:00 AM</text><text>2013-05-31 10:53:41 AM</text><text
+>2012-05-25 11:00:15 AM</text><text>2009-09-02 08:14:12 AM</text></textlist></item>
+<item name='Cost_history'><text/></item>
+<item name='Status_history'><text/></item>
+<item name='Names'><textlist><text>Dorothy Stewart-Paul;</text><text>Dian Sinclair;</text><text
+>Dian Sinclair;</text><text>Dian Sinclair;</text><text>Dian Sinclair;</text><text
+>Jean-Marc Leblanc;</text></textlist></item></document>
+
