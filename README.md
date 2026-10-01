@@ -223,13 +223,6 @@ The code deliberately preserves the original behaviour rather than
 "correcting" it, matching a strict legacy-parity approach.
 
 ---
-
-## Roadmap
-
-- [ ] Create / edit order forms (currently read-only).
-- [ ] Bilingual English / French labels (as in the original Notes app).
-- [ ] Budget / credit-limit warnings.
-- [ ] Persist to a real database (EF Core + PostgreSQL).
 =======
 Then open **http://127.0.0.1:8000** in your browser.
 
@@ -256,18 +249,6 @@ orderTotal  = baseTotal + (exchange × baseTotal)   // exchange is a fraction, e
 ```
 
 The code deliberately preserves the original behaviour (e.g. exchange stored as a fraction) rather than "correcting" it, matching the strict-parity approach in the modernisation plan.
-
----
-
-## 🗺️ Roadmap / ideas for the future
-
-- [ ] Add create / edit order forms (currently read-only).
-- [ ] Bilingual English / French labels (as in the original Notes app).
-- [ ] Export filtered results to CSV / JSON.
-- [ ] Persist to a real database (EF Core + PostgreSQL) per the full `plan.md`.
-- [ ] Add the budget / credit-limit warnings (`BL-003`).
->>>>>>> ee186b115b60f84ed012b5b257dd6eeabf241004
-- [ ] Unit tests for the calculation rules.
 
 ---
 
