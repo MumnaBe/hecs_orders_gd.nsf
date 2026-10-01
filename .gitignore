@@ -1,4 +1,4 @@
-﻿# .NET build output
+# .NET build output
 bin/
 obj/
 
@@ -14,3 +14,6 @@ __pycache__/
 # OS
 Thumbs.db
 .DS_Store
+
+# Screenshots are intentionally tracked; remove the next line to ignore them
+# screenshots/
