@@ -87,6 +87,8 @@ faithful to the original 2002 business rules.
 A lightweight **C# / ASP.NET Core** web application that reads a legacy **Lotus Notes / HCL Domino** database export (DXL) and presents the purchase orders it contains as a clean, searchable, browser-based workspace.
 
 This project was built as a pragmatic modernisation of an old IBM/Lotus Notes "HECS Order Tracking" application. Instead of standing up the full enterprise stack (.NET + PostgreSQL + Docker), it demonstrates the core idea — **extracting value from legacy data** — with a zero-infrastructure, single-file web app that runs anywhere .NET is installed.
+<img width="1920" height="969" alt="image" src="https://github.com/user-attachments/assets/3e6d2f75-6f44-414a-a6db-1db17067247d" />
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/e8c773f3-1855-41be-8eee-2bb00d00a416" />
 
 ---
 
