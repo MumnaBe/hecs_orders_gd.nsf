@@ -15,8 +15,11 @@ Console.WriteLine($" Parsed {orders.Count} OrderForm documents from {dataDir}");
 Console.WriteLine(" Open  ->  http://127.0.0.1:8000");
 Console.WriteLine(new string('=', 60));
 
-app.MapGet("/", (string? q, string? status) =>
-    Results.Content(Render.List(orders, q ?? "", status ?? ""), "text/html"));
+app.MapGet("/", (string? q, string? status, string? category, string? sort) =>
+    Results.Content(Render.List(orders, q ?? "", status ?? "", category ?? "", sort ?? ""), "text/html"));
+
+app.MapGet("/dashboard", () =>
+    Results.Content(Render.Dashboard(orders), "text/html"));
 
 app.MapGet("/order/{noteId}", (string noteId) =>
 {
@@ -24,6 +27,52 @@ app.MapGet("/order/{noteId}", (string noteId) =>
     return match is null
         ? Results.Content(Render.Page("<p>Order not found.</p>"), "text/html", Encoding.UTF8, 404)
         : Results.Content(Render.Detail(match), "text/html");
+});
+
+// CSV export of the (optionally filtered) order list.
+app.MapGet("/export.csv", (string? q, string? status, string? category) =>
+    Results.Text(Export.Csv(orders, q ?? "", status ?? "", category ?? ""),
+        "text/csv", Encoding.UTF8));
+
+// Lightweight JSON API.
+app.MapGet("/api/orders", () =>
+    Results.Json(orders.Select(o =>
+    {
+        var s = DxlStore.Summary(o);
+        return new
+        {
+            noteId = o.NoteId,
+            reference = s.Ref,
+            status = s.Status,
+            project = s.Project,
+            category = s.Category,
+            supplier = s.Supplier,
+            purchase = s.Purchase,
+            currency = s.Currency,
+            total = s.Total,
+        };
+    })));
+
+app.MapGet("/api/orders/{noteId}", (string noteId) =>
+{
+    var match = orders.FirstOrDefault(o => o.NoteId == noteId);
+    if (match is null) return Results.NotFound();
+    var s = DxlStore.Summary(match);
+    return Results.Json(new
+    {
+        noteId = match.NoteId,
+        unid = match.Unid,
+        reference = s.Ref,
+        status = s.Status,
+        project = s.Project,
+        category = s.Category,
+        supplier = s.Supplier,
+        cardHolder = s.CardHolder,
+        purchase = s.Purchase,
+        currency = s.Currency,
+        total = s.Total,
+        lines = s.Lines,
+    });
 });
 
 app.Run("http://127.0.0.1:8000");
@@ -171,9 +220,56 @@ namespace HecsOrders
 
 namespace HecsOrders
 {
+    public static class Export
+    {
+        static string Field(string? v)
+        {
+            v ??= "";
+            if (v.Contains(',') || v.Contains('"') || v.Contains('\n'))
+                return "\"" + v.Replace("\"", "\"\"") + "\"";
+            return v;
+        }
+
+        public static string Csv(List<OrderDoc> orders, string q, string statusFilter, string categoryFilter)
+        {
+            var sb = new StringBuilder();
+            sb.AppendLine("Reference,Status,Project,Category,Supplier,Payment,Currency,Total,NoteId");
+            foreach (var doc in orders)
+            {
+                var s = DxlStore.Summary(doc);
+                var hay = string.Join(" ", s.Ref, s.Project, s.Supplier, s.CardHolder, s.Status).ToLowerInvariant();
+                if (q.Length > 0 && !hay.Contains(q.ToLowerInvariant())) continue;
+                if (statusFilter.Length > 0 && s.Status != statusFilter) continue;
+                if (categoryFilter.Length > 0 && s.Category != categoryFilter) continue;
+
+                sb.AppendLine(string.Join(",",
+                    Field(s.Ref), Field(s.Status), Field(s.Project), Field(s.Category),
+                    Field(s.Supplier), Field(s.Purchase), Field(s.Currency),
+                    s.Total.ToString("0.00", CultureInfo.InvariantCulture), Field(doc.NoteId)));
+            }
+            return sb.ToString();
+        }
+    }
+
     public static class Render
     {
         static string E(string? s) => WebUtility.HtmlEncode(s ?? "");
+
+        // Inline, dependency-free SVG icons (Feather-style, 1.75 stroke).
+        static string Icon(string name)
+        {
+            const string open = "<svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\">";
+            string body = name switch
+            {
+                "list" => "<line x1='8' y1='6' x2='21' y2='6'/><line x1='8' y1='12' x2='21' y2='12'/><line x1='8' y1='18' x2='21' y2='18'/><line x1='3' y1='6' x2='3.01' y2='6'/><line x1='3' y1='12' x2='3.01' y2='12'/><line x1='3' y1='18' x2='3.01' y2='18'/>",
+                "chart" => "<line x1='18' y1='20' x2='18' y2='10'/><line x1='12' y1='20' x2='12' y2='4'/><line x1='6' y1='20' x2='6' y2='14'/>",
+                "download" => "<path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/><polyline points='7 10 12 15 17 10'/><line x1='12' y1='15' x2='12' y2='3'/>",
+                "code" => "<polyline points='16 18 22 12 16 6'/><polyline points='8 6 2 12 8 18'/>",
+                "back" => "<line x1='19' y1='12' x2='5' y2='12'/><polyline points='12 19 5 12 12 5'/>",
+                _ => "",
+            };
+            return open + body + "</svg>";
+        }
 
         static string StatusClass(string? status)
         {
@@ -211,30 +307,62 @@ namespace HecsOrders
               + ".field{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px}"
               + ".field span{display:block;color:var(--muted);font-size:11px;text-transform:uppercase}"
               + "button{background:#0ea5e9;border:none;color:#fff;padding:9px 18px;border-radius:8px;cursor:pointer}"
+              + "nav{display:flex;gap:18px;margin-top:10px}nav a{color:#fff;font-size:13px;opacity:.95;font-weight:600}"
+              + "nav a:hover{text-decoration:underline}"
+              + ".btns{display:flex;gap:10px;margin-bottom:16px}"
+              + ".btn{display:inline-block;background:var(--card);border:1px solid var(--line);color:var(--ink);padding:8px 14px;border-radius:8px;font-size:13px}"
+              + ".bars{margin:14px 0}.barrow{display:flex;align-items:center;gap:10px;margin:6px 0;font-size:13px}"
+              + ".barrow .lbl{width:150px;color:var(--muted)}.barrow .track{flex:1;background:#0b1222;border-radius:6px;height:16px;overflow:hidden}"
+              + ".barrow .fill{height:100%;background:linear-gradient(90deg,#0ea5e9,#6366f1)}"
+              + ".barrow .val{width:120px;text-align:right}"
+              + "nav a{display:inline-flex;align-items:center;gap:6px}.btn{display:inline-flex;align-items:center;gap:6px}"
+              + "h2{display:flex;align-items:center;gap:8px}svg{flex:0 0 auto;vertical-align:middle}"
               + "footer{color:var(--muted);text-align:center;padding:24px;font-size:12px}</style>";
             return "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\">"
               + "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
               + "<title>HECS Orders</title>" + css + "</head><body>"
               + "<header><h1>HECS Order Tracking</h1>"
-              + "<p>Lightweight viewer &middot; reading live DXL export &middot; C# / ASP.NET Core</p></header>"
+              + "<p>Lightweight viewer &middot; reading live DXL export &middot; C# / ASP.NET Core</p>"
+              + "<nav><a href=\"/\">" + Icon("list") + "Orders</a><a href=\"/dashboard\">" + Icon("chart") + "Dashboard</a>"
+              + "<a href=\"/export.csv\">" + Icon("download") + "Export CSV</a><a href=\"/api/orders\">" + Icon("code") + "JSON API</a></nav></header>"
               + "<div class=\"wrap\">" + body + "</div>"
               + "<footer>Synthetic/legacy data from the Notes export. No external services.</footer>"
               + "</body></html>";
         }
 
-        public static string List(List<OrderDoc> orders, string q, string statusFilter)
+        public static string List(List<OrderDoc> orders, string q, string statusFilter, string categoryFilter, string sort)
         {
             var statuses = orders.Select(o => DxlStore.Summary(o).Status).Distinct().OrderBy(s => s).ToList();
-            var rows = new StringBuilder();
-            double totalValue = 0; int shown = 0;
+            var categories = orders.Select(o => DxlStore.Summary(o).Category)
+                                   .Where(c => !string.IsNullOrEmpty(c)).Distinct().OrderBy(c => c).ToList();
 
+            // Apply filters.
+            var filtered = new List<(OrderDoc doc, OrderSummary s)>();
             foreach (var doc in orders)
             {
                 var s = DxlStore.Summary(doc);
                 var hay = string.Join(" ", s.Ref, s.Project, s.Supplier, s.CardHolder, s.Status).ToLowerInvariant();
                 if (q.Length > 0 && !hay.Contains(q.ToLowerInvariant())) continue;
                 if (statusFilter.Length > 0 && s.Status != statusFilter) continue;
-                shown++; totalValue += s.Total;
+                if (categoryFilter.Length > 0 && s.Category != categoryFilter) continue;
+                filtered.Add((doc, s));
+            }
+
+            // Apply sorting.
+            filtered = sort switch
+            {
+                "total_desc" => filtered.OrderByDescending(x => x.s.Total).ToList(),
+                "total_asc" => filtered.OrderBy(x => x.s.Total).ToList(),
+                "supplier" => filtered.OrderBy(x => x.s.Supplier).ToList(),
+                "status" => filtered.OrderBy(x => x.s.Status).ToList(),
+                _ => filtered.OrderBy(x => x.s.Ref).ToList(),
+            };
+
+            var rows = new StringBuilder();
+            double totalValue = 0;
+            foreach (var (doc, s) in filtered)
+            {
+                totalValue += s.Total;
                 rows.Append("<tr><td><a href=\"/order/" + E(doc.NoteId) + "\">"
                   + E(string.IsNullOrEmpty(s.Ref) ? doc.NoteId : s.Ref) + "</a></td>"
                   + "<td><span class=\"pill " + StatusClass(s.Status) + "\">" + E(s.Status) + "</span></td>"
@@ -242,22 +370,79 @@ namespace HecsOrders
                   + "<td class=\"right\">" + E(s.Currency) + " " + s.Total.ToString("N2", CultureInfo.InvariantCulture) + "</td></tr>");
             }
 
-            var opts = new StringBuilder();
+            var statusOpts = new StringBuilder();
             foreach (var s in statuses)
-                opts.Append("<option value=\"" + E(s) + "\"" + (s == statusFilter ? " selected" : "") + ">" + E(s) + "</option>");
+                statusOpts.Append("<option value=\"" + E(s) + "\"" + (s == statusFilter ? " selected" : "") + ">" + E(s) + "</option>");
+
+            var catOpts = new StringBuilder();
+            foreach (var c in categories)
+                catOpts.Append("<option value=\"" + E(c) + "\"" + (c == categoryFilter ? " selected" : "") + ">" + E(c) + "</option>");
+
+            string SortOpt(string val, string label) =>
+                "<option value=\"" + val + "\"" + (sort == val ? " selected" : "") + ">" + label + "</option>";
+
+            // Build an export link that keeps the current filters.
+            var exportQ = $"/export.csv?q={Uri.EscapeDataString(q)}&status={Uri.EscapeDataString(statusFilter)}&category={Uri.EscapeDataString(categoryFilter)}";
 
             var body = "<form class=\"bar\" method=\"get\" action=\"/\">"
-              + "<input name=\"q\" placeholder=\"Search ref, project, supplier...\" value=\"" + E(q) + "\" size=\"34\">"
-              + "<select name=\"status\"><option value=\"\">All statuses</option>" + opts + "</select>"
-              + "<button>Filter</button></form>"
+              + "<input name=\"q\" placeholder=\"Search ref, project, supplier...\" value=\"" + E(q) + "\" size=\"28\">"
+              + "<select name=\"status\"><option value=\"\">All statuses</option>" + statusOpts + "</select>"
+              + "<select name=\"category\"><option value=\"\">All categories</option>" + catOpts + "</select>"
+              + "<select name=\"sort\">" + SortOpt("", "Sort: Reference") + SortOpt("total_desc", "Total (high→low)")
+              + SortOpt("total_asc", "Total (low→high)") + SortOpt("supplier", "Supplier") + SortOpt("status", "Status") + "</select>"
+              + "<button>Apply</button></form>"
+              + "<div class=\"btns\"><a class=\"btn\" href=\"" + exportQ + "\">" + Icon("download") + "Export these to CSV</a>"
+              + "<a class=\"btn\" href=\"/dashboard\">" + Icon("chart") + "View dashboard</a></div>"
               + "<div class=\"stats\">"
               + "<div class=\"stat\"><b>" + orders.Count + "</b><span>Total orders</span></div>"
-              + "<div class=\"stat\"><b>" + shown + "</b><span>Shown</span></div>"
+              + "<div class=\"stat\"><b>" + filtered.Count + "</b><span>Shown</span></div>"
               + "<div class=\"stat\"><b>" + totalValue.ToString("N0", CultureInfo.InvariantCulture) + "</b><span>Value shown</span></div>"
               + "<div class=\"stat\"><b>" + statuses.Count + "</b><span>Statuses</span></div></div>"
               + "<table><tr><th>Reference</th><th>Status</th><th>Project</th><th>Supplier</th><th>Payment</th><th class=\"right\">Total</th></tr>"
               + (rows.Length > 0 ? rows.ToString() : "<tr><td colspan=\"6\">No matching orders.</td></tr>")
               + "</table>";
+            return Page(body);
+        }
+
+        public static string Dashboard(List<OrderDoc> orders)
+        {
+            var summaries = orders.Select(DxlStore.Summary).ToList();
+            double grand = summaries.Sum(s => s.Total);
+
+            // Group helpers.
+            string BarChart(string title, IEnumerable<IGrouping<string, OrderSummary>> groups)
+            {
+                var items = groups
+                    .Select(g => (Key: string.IsNullOrEmpty(g.Key) ? "(none)" : g.Key,
+                                  Count: g.Count(), Value: g.Sum(x => x.Total)))
+                    .OrderByDescending(x => x.Value).ToList();
+                double max = items.Count > 0 ? items.Max(i => i.Value) : 1;
+                if (max <= 0) max = 1;
+                var sb = new StringBuilder("<h3>" + E(title) + "</h3><div class=\"bars\">");
+                foreach (var it in items)
+                {
+                    var pct = (int)Math.Round(it.Value / max * 100);
+                    sb.Append("<div class=\"barrow\"><div class=\"lbl\">" + E(it.Key) + "</div>"
+                      + "<div class=\"track\"><div class=\"fill\" style=\"width:" + pct + "%\"></div></div>"
+                      + "<div class=\"val\">" + it.Value.ToString("N0", CultureInfo.InvariantCulture)
+                      + " (" + it.Count + ")</div></div>");
+                }
+                sb.Append("</div>");
+                return sb.ToString();
+            }
+
+            double avg = summaries.Count > 0 ? grand / summaries.Count : 0;
+            double largest = summaries.Count > 0 ? summaries.Max(s => s.Total) : 0;
+
+            var body = "<a class=\"back\" href=\"/\">&larr; Back to orders</a><h2>" + Icon("chart") + "Dashboard</h2>"
+              + "<div class=\"stats\">"
+              + "<div class=\"stat\"><b>" + summaries.Count + "</b><span>Orders</span></div>"
+              + "<div class=\"stat\"><b>" + grand.ToString("N0", CultureInfo.InvariantCulture) + "</b><span>Total value</span></div>"
+              + "<div class=\"stat\"><b>" + avg.ToString("N0", CultureInfo.InvariantCulture) + "</b><span>Average order</span></div>"
+              + "<div class=\"stat\"><b>" + largest.ToString("N0", CultureInfo.InvariantCulture) + "</b><span>Largest order</span></div></div>"
+              + BarChart("Value by status", summaries.GroupBy(s => s.Status))
+              + BarChart("Value by category", summaries.GroupBy(s => s.Category))
+              + BarChart("Top suppliers", summaries.GroupBy(s => s.Supplier));
             return Page(body);
         }
 
